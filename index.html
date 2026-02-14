@@ -9,94 +9,44 @@
 </head>
 <body>
   <div class="bg-overlay"></div>
+  <button id="uiToggleBtn" class="ui-toggle-btn" type="button" aria-pressed="false">Hide UI</button>
   <main class="app">
     <header class="hero">
       <h1>Arknights: Endfield Bookkeeper</h1>
-      <p>Подсчет круток, конверсия валют и динамика по патчам</p>
     </header>
 
-    <section class="panel grid two">
-      <div>
-        <h2>Источник данных</h2>
-        <div class="field-group">
-          <label>
-            <input type="radio" name="dataSource" value="json" checked>
-            JSON (локальный файл)
-          </label>
-          <label>
-            <input type="radio" name="dataSource" value="sheet">
-            Google Sheets (CSV URL)
-          </label>
-        </div>
-        <label class="field">
-          CSV URL таблицы
-          <input id="sheetUrl" type="url" placeholder="https://docs.google.com/.../export?format=csv">
-        </label>
-        <button id="loadDataBtn" type="button">Загрузить данные</button>
-      </div>
-
-      <div>
-        <h2>Опции дохода</h2>
-        <label class="field-inline">
-          <input id="monthlySub" type="checkbox" checked>
-          Месячная подписка (реальные деньги)
-        </label>
-        <label class="field">
-          Уровень Battle Pass
-          <select id="battlePassTier">
-            <option value="1">1 - F2P</option>
-            <option value="2">2 - За игровую донат-валюту</option>
-            <option value="3">3 - За реальные деньги</option>
-          </select>
-        </label>
-      </div>
+    <section class="panel">
+      <h2>Chartered headhunts per version</h2>
+      <canvas id="patchChart" width="1200" height="420" aria-label="График источников круток"></canvas>
     </section>
 
-    <section class="panel">
-      <h2>Конвертер</h2>
-      <div class="grid three">
-        <label class="field">
-          Origeometry
-          <input id="origeometryInput" type="number" min="0" step="1" value="0">
-        </label>
-        <div class="result-card">
-          <strong>Oroberyl</strong>
-          <span id="oroberylFromOri">0</span>
-          <small>курс 1 : 75</small>
-        </div>
-        <div class="result-card">
-          <strong>Arsenal Tickets</strong>
-          <span id="arsenalFromOri">0</span>
-          <small>курс 1 : 25</small>
-        </div>
-      </div>
-      <div class="grid three mt">
-        <div class="result-card">
-          <strong>Chartered HH Permit</strong>
-          <span id="charteredPulls">0</span>
-          <small>1 крутка = 500 Oroberyl</small>
-        </div>
-        <div class="result-card">
-          <strong>Basic HH Permit</strong>
-          <span id="basicPulls">0</span>
-          <small>1 крутка = 500 Oroberyl</small>
-        </div>
-        <div class="result-card">
-          <strong>Ивентовые (таймер)</strong>
-          <span id="timedPulls">0</span>
-          <small>суммарно Firewalker/Messenger/Hues</small>
+    <section class="panel controls-panel">
+      <div class="control-row">
+        <span class="control-label">Battle Pass</span>
+        <div class="bp-minimal">
+          <label>
+            <input type="radio" name="battlePassTier" value="1" checked>
+            <span>Basic</span>
+          </label>
+          <label>
+            <input type="radio" name="battlePassTier" value="2">
+            <span>Originium</span>
+          </label>
+          <label>
+            <input type="radio" name="battlePassTier" value="3">
+            <span>Protocol</span>
+          </label>
         </div>
       </div>
+      <label class="monthly-minimal" for="monthlySub">
+        <span>Monthly Pass</span>
+        <input id="monthlySub" type="checkbox">
+      </label>
     </section>
 
     <section class="panel">
       <h2>Итоги по текущему выбору</h2>
       <div id="totals" class="grid three"></div>
-    </section>
-
-    <section class="panel">
-      <h2>График круток по патчам</h2>
-      <canvas id="patchChart" width="1200" height="420" aria-label="График круток по патчам"></canvas>
     </section>
   </main>
 
