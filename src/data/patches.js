@@ -42,6 +42,7 @@ const source = ({
   rewards: baseRewards = {},
   costs = {},
   scalers = [],
+  bpCrateModel = null,
 } = {}) => ({
   id,
   label,
@@ -51,6 +52,7 @@ const source = ({
   rewards: rewards(baseRewards),
   costs: rewards(costs),
   scalers,
+  bpCrateModel,
 });
 
 const monthlyPassDailySource = () =>
@@ -151,6 +153,33 @@ const validateSource = (src, context) => {
     );
     validateRewardsShape(scaler.rewards, `${scalerCtx}.rewards`);
   }
+  if (src.bpCrateModel !== null && src.bpCrateModel !== undefined) {
+    const model = src.bpCrateModel;
+    const modelCtx = `${context}.bpCrateModel`;
+    assert(
+      model && typeof model === "object",
+      `${modelCtx} must be an object`,
+    );
+    assert(
+      model.type === "post_bp60_estimate",
+      `${modelCtx}.type must be post_bp60_estimate`,
+    );
+    assert(
+      Number.isFinite(Number(model.daysToLevel60Tier3)) &&
+        Number(model.daysToLevel60Tier3) > 0,
+      `${modelCtx}.daysToLevel60Tier3 must be > 0`,
+    );
+    assert(
+      Number.isFinite(Number(model.tier2XpBonus)) &&
+        Number(model.tier2XpBonus) >= 0,
+      `${modelCtx}.tier2XpBonus must be >= 0`,
+    );
+    assert(
+      Number.isFinite(Number(model.tier3XpBonus)) &&
+        Number(model.tier3XpBonus) >= 0,
+      `${modelCtx}.tier3XpBonus must be >= 0`,
+    );
+  }
 };
 
 const validatePatch = (patch, context) => {
@@ -214,6 +243,32 @@ const validateGame = (game, gameIndex) => {
     patchIds.add(patch.id);
   }
 };
+
+const patchVersionKey = (value) => {
+  const parts = String(value ?? "").trim().split(".");
+  if (parts.length !== 2) {
+    return null;
+  }
+  const major = Number(parts[0]);
+  const minor = Number(parts[1]);
+  if (!Number.isInteger(major) || !Number.isInteger(minor)) {
+    return null;
+  }
+  return [major, minor];
+};
+
+const sortByPatchVersion = (patches) =>
+  [...patches].sort((a, b) => {
+    const keyA = patchVersionKey(a.patch);
+    const keyB = patchVersionKey(b.patch);
+    if (keyA && keyB) {
+      if (keyA[0] !== keyB[0]) {
+        return keyA[0] - keyB[0];
+      }
+      return keyA[1] - keyB[1];
+    }
+    return String(a.patch).localeCompare(String(b.patch), "en");
+  });
 
 export const GAME_CATALOG = {
   schemaVersion: "2.0",
@@ -352,6 +407,12 @@ export const GAME_CATALOG = {
               gate: "bp2",
               optionKey: "includeBpCrates",
               rewards: { oroberyl: 1102 },
+              bpCrateModel: {
+                type: "post_bp60_estimate",
+                daysToLevel60Tier3: 21,
+                tier2XpBonus: 0.03,
+                tier3XpBonus: 0.06,
+              },
             }),
             source({
               id: "bpCrateL",
@@ -359,6 +420,12 @@ export const GAME_CATALOG = {
               gate: "bp3",
               optionKey: "includeBpCrates",
               rewards: { oroberyl: 334 },
+              bpCrateModel: {
+                type: "post_bp60_estimate",
+                daysToLevel60Tier3: 21,
+                tier2XpBonus: 0.03,
+                tier3XpBonus: 0.06,
+              },
             }),
           ],
         },
@@ -368,7 +435,15 @@ export const GAME_CATALOG = {
 };
 
 if (Array.isArray(GENERATED_PATCHES) && GENERATED_PATCHES.length > 0) {
-  GAME_CATALOG.games[0].patches = GENERATED_PATCHES;
+  const baseById = new Map(
+    GAME_CATALOG.games[0].patches.map((patch) => [patch.id, patch]),
+  );
+  for (const patch of GENERATED_PATCHES) {
+    if (patch && typeof patch === "object" && typeof patch.id === "string") {
+      baseById.set(patch.id, patch);
+    }
+  }
+  GAME_CATALOG.games[0].patches = sortByPatchVersion([...baseById.values()]);
 }
 
 for (const [gameIndex, game] of GAME_CATALOG.games.entries()) {
