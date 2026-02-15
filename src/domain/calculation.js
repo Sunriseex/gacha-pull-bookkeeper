@@ -29,19 +29,35 @@ const normalizeTier = (tier) => {
 const isSourceEnabled = (source, options) => {
   const gate = source.gate ?? "always";
   const tier = normalizeTier(options.battlePassTier);
+  let gateEnabled = false;
+
   if (gate === "always") {
-    return true;
+    gateEnabled = true;
+  } else if (gate === "monthly") {
+    gateEnabled = Boolean(options.monthlySub);
+  } else if (gate === "bp2") {
+    gateEnabled = tier >= 2;
+  } else if (gate === "bp3") {
+    gateEnabled = tier >= 3;
   }
-  if (gate === "monthly") {
-    return Boolean(options.monthlySub);
+
+  if (!gateEnabled) {
+    return false;
   }
-  if (gate === "bp2") {
-    return tier >= 2;
+  if (source.optionKey) {
+    return Boolean(options[source.optionKey]);
   }
-  if (gate === "bp3") {
-    return tier >= 3;
+  return true;
+};
+
+const applyRounding = (value, rounding) => {
+  if (rounding === "ceil") {
+    return Math.ceil(value);
   }
-  return false;
+  if (rounding === "round") {
+    return Math.round(value);
+  }
+  return Math.floor(value);
 };
 
 const normalizeRewards = (input = {}) =>
@@ -52,20 +68,25 @@ const normalizeRewards = (input = {}) =>
 
 const resolveSourceRewards = (source, row) => {
   const rewards = normalizeRewards(source.rewards);
-  if (source.gate === "monthly" && source.monthlyPass) {
-    const durationDays = Math.max(0, safeNumber(row.durationDays));
-    const renewalDays = Math.max(1, safeNumber(source.monthlyPass.renewalDays || 30));
-    const purchases = Math.ceil(durationDays / renewalDays);
 
-    rewards.oroberyl += durationDays * safeNumber(source.monthlyPass.dailyOroberyl);
-    rewards.origeometry += purchases * safeNumber(source.monthlyPass.purchaseBonusOrigeometry);
-  }
-
-  if (source.weeklyRoutine) {
+  for (const scaler of source.scalers ?? []) {
+    if (scaler.type !== "per_duration") {
+      continue;
+    }
     const durationDays = Math.max(0, safeNumber(row.durationDays));
-    const weeks = Math.floor(durationDays / 7);
-    rewards.oroberyl += weeks * safeNumber(source.weeklyRoutine.weeklyOroberyl);
-    rewards.arsenal += weeks * safeNumber(source.weeklyRoutine.weeklyArsenal);
+    const everyDays = Math.max(1, safeNumber(scaler.everyDays || 1));
+    const unit = scaler.unit ?? "day";
+    let cycles = 0;
+    if (unit === "day") {
+      cycles = durationDays;
+    } else {
+      cycles = applyRounding(durationDays / everyDays, scaler.rounding);
+    }
+
+    const scaled = normalizeRewards(scaler.rewards);
+    for (const key of RESOURCE_KEYS) {
+      rewards[key] += cycles * safeNumber(scaled[key]);
+    }
   }
 
   return rewards;
@@ -119,23 +140,45 @@ const sumResources = (sources) => {
   return total;
 };
 
+const pullEligibleSources = (sources) =>
+  sources.filter((source) => source.countInPulls !== false);
+
+const resolveRate = (rates, key) => {
+  const candidate = safeNumber(rates?.[key]);
+  if (candidate > 0) {
+    return candidate;
+  }
+  return safeNumber(GAME_RATES[key]);
+};
+
 const sumCosts = (sources) => ({
-  origeometry: sources.reduce(
-    (sum, source) => sum + safeNumber(source.costs?.origeometry),
-    0,
-  ),
+  ...RESOURCE_KEYS.reduce((acc, key) => {
+    acc[key] = sources.reduce(
+      (sum, source) => sum + safeNumber(source.costs?.[key]),
+      0,
+    );
+    return acc;
+  }, {}),
 });
 
-const sourcePullValue = (source) => {
+const sourcePullValue = (source, rates = GAME_RATES) => {
+  if (source.countInPulls === false) {
+    return 0;
+  }
   const rewards = source.rewards ?? {};
+  const costs = source.costs ?? {};
   const sourceOrigeometry = Math.max(
     0,
-    safeNumber(rewards.origeometry) - safeNumber(source.costs?.origeometry),
+    safeNumber(rewards.origeometry) - safeNumber(costs.origeometry),
   );
+  const perPull = resolveRate(rates, "OROBERYL_PER_PULL");
+  if (perPull <= 0) {
+    return 0;
+  }
   const currencyPulls =
     (safeNumber(rewards.oroberyl) +
-      sourceOrigeometry * GAME_RATES.ORIGEOMETRY_TO_OROBERYL) /
-    GAME_RATES.OROBERYL_PER_PULL;
+      sourceOrigeometry * resolveRate(rates, "ORIGEOMETRY_TO_OROBERYL")) /
+    perPull;
   const permitPulls =
     safeNumber(rewards.chartered) +
     safeNumber(rewards.firewalker) +
@@ -145,14 +188,14 @@ const sourcePullValue = (source) => {
   return currencyPulls + permitPulls;
 };
 
-const sourceBreakdown = (sources) =>
+const sourceBreakdown = (sources, rates = GAME_RATES) =>
   sources.map((source) => ({
     id: source.id,
     label: source.label,
-    value: sourcePullValue(source),
-  }));
+    value: sourcePullValue(source, rates),
+  })).filter((source) => source.value > 0);
 
-export const calculatePatchTotals = (row, options) => {
+export const calculatePatchTotals = (row, options, rates = GAME_RATES) => {
   const enabledSources = toSourceFormat(row)
     .filter((source) => isSourceEnabled(source, options))
     .map((source) => ({
@@ -161,33 +204,61 @@ export const calculatePatchTotals = (row, options) => {
     }));
   const rewards = sumResources(enabledSources);
   const costs = sumCosts(enabledSources);
+  const pullSources = pullEligibleSources(enabledSources);
+  const pullRewards = sumResources(pullSources);
+  const pullCosts = sumCosts(pullSources);
 
   const oroberyl = rewards.oroberyl;
   const origeometry = Math.max(0, rewards.origeometry - costs.origeometry);
   const oroberylFromOri =
-    origeometry * GAME_RATES.ORIGEOMETRY_TO_OROBERYL;
-  const currencyPulls = oroberylToPulls(oroberyl + oroberylFromOri);
+    origeometry * resolveRate(rates, "ORIGEOMETRY_TO_OROBERYL");
+  const pullOrigeometry = Math.max(
+    0,
+    pullRewards.origeometry - pullCosts.origeometry,
+  );
+  const pullOroberylFromOri =
+    pullOrigeometry * resolveRate(rates, "ORIGEOMETRY_TO_OROBERYL");
+  const perPull = resolveRate(rates, "OROBERYL_PER_PULL");
+  const currencyPullsExact =
+    perPull > 0
+      ? (pullRewards.oroberyl + pullOroberylFromOri) / perPull
+      : 0;
+  const currencyPulls = oroberylToPulls(
+    pullRewards.oroberyl + pullOroberylFromOri,
+    rates,
+  );
 
   const chartered = rewards.chartered;
+  const charteredForPulls = pullRewards.chartered;
   const basic = rewards.basic;
   const firewalker = rewards.firewalker;
   const messenger = rewards.messenger;
   const hues = rewards.hues;
+  const firewalkerForPulls = pullRewards.firewalker;
+  const messengerForPulls = pullRewards.messenger;
+  const huesForPulls = pullRewards.hues;
   const timedPermits = TIMED_PERMIT_KEYS.reduce(
     (sum, key) => sum + safeNumber({ firewalker, messenger, hues }[key]),
     0,
   );
+  const timedPermitsForPulls = TIMED_PERMIT_KEYS.reduce(
+    (sum, key) =>
+      sum + safeNumber({ firewalker: firewalkerForPulls, messenger: messengerForPulls, hues: huesForPulls }[key]),
+    0,
+  );
 
   const arsenal = rewards.arsenal;
+  const totalCharacterPullsNoBasicExact =
+    currencyPullsExact + charteredForPulls + timedPermitsForPulls;
   const totalCharacterPullsNoBasic =
-    currencyPulls + chartered + firewalker + messenger + hues;
+    currencyPulls + charteredForPulls + timedPermitsForPulls;
 
   return {
     patch: row.patch,
     oroberyl,
     origeometry,
     oroberylFromOri,
-    origeometrySpentOnBp: costs.origeometry,
+    currencyPullsExact,
     currencyPulls,
     chartered,
     basic,
@@ -197,21 +268,22 @@ export const calculatePatchTotals = (row, options) => {
     timedPermits,
     arsenal,
     totalCharacterPulls: totalCharacterPullsNoBasic,
+    totalCharacterPullsNoBasicExact,
     totalCharacterPullsNoBasic,
-    sourceBreakdown: sourceBreakdown(enabledSources),
+    sourceBreakdown: sourceBreakdown(enabledSources, rates),
   };
 };
 
-export const aggregateTotals = (rows, options) =>
+export const aggregateTotals = (rows, options, rates = GAME_RATES) =>
   rows
-    .map((row) => calculatePatchTotals(row, options))
+    .map((row) => calculatePatchTotals(row, options, rates))
     .reduce(
       (acc, item) => {
         acc.patchCount += 1;
         acc.oroberyl += item.oroberyl;
         acc.origeometry += item.origeometry;
         acc.oroberylFromOri += item.oroberylFromOri;
-        acc.origeometrySpentOnBp += item.origeometrySpentOnBp;
+        acc.currencyPullsExact += item.currencyPullsExact;
         acc.currencyPulls += item.currencyPulls;
         acc.chartered += item.chartered;
         acc.basic += item.basic;
@@ -221,6 +293,7 @@ export const aggregateTotals = (rows, options) =>
         acc.timedPermits += item.timedPermits;
         acc.arsenal += item.arsenal;
         acc.totalCharacterPulls += item.totalCharacterPulls;
+        acc.totalCharacterPullsNoBasicExact += item.totalCharacterPullsNoBasicExact;
         acc.totalCharacterPullsNoBasic += item.totalCharacterPullsNoBasic;
         return acc;
       },
@@ -229,7 +302,7 @@ export const aggregateTotals = (rows, options) =>
         oroberyl: 0,
         origeometry: 0,
         oroberylFromOri: 0,
-        origeometrySpentOnBp: 0,
+        currencyPullsExact: 0,
         currencyPulls: 0,
         chartered: 0,
         basic: 0,
@@ -239,13 +312,14 @@ export const aggregateTotals = (rows, options) =>
         timedPermits: 0,
         arsenal: 0,
         totalCharacterPulls: 0,
+        totalCharacterPullsNoBasicExact: 0,
         totalCharacterPullsNoBasic: 0,
       },
     );
 
-export const chartSeries = (rows, options) =>
+export const chartSeries = (rows, options, rates = GAME_RATES) =>
   rows.map((row) => {
-    const totals = calculatePatchTotals(row, options);
+    const totals = calculatePatchTotals(row, options, rates);
     return {
       label: row.patch,
       total: totals.sourceBreakdown.reduce((sum, source) => sum + source.value, 0),

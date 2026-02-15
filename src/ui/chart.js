@@ -15,11 +15,18 @@ const SOURCE_COLORS = {
   Events: "#9ece2e",
   "Permanent Content": "#d7d35a",
   "Mailbox & Web Events": "#79b7ab",
+  "Daily Activity": "#cfd4dc",
   "Recurring Sources": "#6f84cd",
   "Weekly Routine": "#8f959f",
+  "Monumental Etching": "#ef6363",
+  "AIC Quota Exchange": "#f8b44c",
+  "Urgent Recruit": "#5ec0ff",
+  "HH Dossier": "#7dd98e",
   "Monthly Pass": "#a06ed4",
   "Originium Supply Pass": "#ecb34c",
   "Protocol Customized Pass": "#cf6f93",
+  "Exchange Crate-o-Surprise [M]": "#f39c6b",
+  "Exchange Crate-o-Surprise [L]": "#e879b8",
   Base: "#a8b0bc",
 };
 

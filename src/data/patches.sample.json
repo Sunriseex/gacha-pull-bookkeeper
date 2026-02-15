@@ -1,73 +1,18 @@
 [
   {
-    "patch": "0.9",
-    "base": {
-      "oroberyl": 4200,
-      "origeometry": 60,
-      "chartered": 8,
-      "basic": 5,
-      "firewalker": 4,
-      "messenger": 0,
-      "hues": 0,
-      "arsenal": 6
-    },
-    "monthlySub": {
-      "oroberyl": 1800,
-      "origeometry": 0,
-      "chartered": 0,
-      "basic": 0,
-      "firewalker": 0,
-      "messenger": 0,
-      "hues": 0,
-      "arsenal": 0
-    },
-    "battlePass": {
-      "1": {
-        "oroberyl": 1200,
-        "origeometry": 0,
-        "chartered": 1,
-        "basic": 1,
-        "firewalker": 0,
-        "messenger": 0,
-        "hues": 0,
-        "arsenal": 1
-      },
-      "2": {
-        "oroberyl": 2100,
-        "origeometry": 4,
-        "chartered": 2,
-        "basic": 1,
-        "firewalker": 0,
-        "messenger": 0,
-        "hues": 0,
-        "arsenal": 2
-      },
-      "3": {
-        "oroberyl": 3200,
-        "origeometry": 8,
-        "chartered": 3,
-        "basic": 2,
-        "firewalker": 0,
-        "messenger": 0,
-        "hues": 0,
-        "arsenal": 3
-      }
-    }
-  },
-  {
     "patch": "1.0",
     "base": {
-      "oroberyl": 5100,
-      "origeometry": 80,
-      "chartered": 10,
-      "basic": 5,
-      "firewalker": 0,
+      "oroberyl": 88725,
+      "origeometry": 153,
+      "chartered": 157,
+      "basic": 112,
+      "firewalker": 5,
       "messenger": 5,
-      "hues": 0,
-      "arsenal": 8
+      "hues": 5,
+      "arsenal": 700
     },
     "monthlySub": {
-      "oroberyl": 1800,
+      "oroberyl": 10800,
       "origeometry": 0,
       "chartered": 0,
       "basic": 0,
@@ -78,89 +23,34 @@
     },
     "battlePass": {
       "1": {
-        "oroberyl": 1300,
+        "oroberyl": 0,
         "origeometry": 0,
-        "chartered": 1,
-        "basic": 1,
+        "chartered": 0,
+        "basic": 0,
         "firewalker": 0,
         "messenger": 0,
         "hues": 0,
-        "arsenal": 1
+        "arsenal": 0
       },
       "2": {
-        "oroberyl": 2200,
-        "origeometry": 5,
-        "chartered": 2,
-        "basic": 1,
+        "oroberyl": 1102,
+        "origeometry": 3,
+        "chartered": 0,
+        "basic": 0,
         "firewalker": 0,
         "messenger": 0,
         "hues": 0,
-        "arsenal": 2
+        "arsenal": 0
       },
       "3": {
-        "oroberyl": 3500,
-        "origeometry": 10,
-        "chartered": 3,
-        "basic": 2,
+        "oroberyl": 1436,
+        "origeometry": 36,
+        "chartered": 0,
+        "basic": 0,
         "firewalker": 0,
         "messenger": 0,
         "hues": 0,
-        "arsenal": 3
-      }
-    }
-  },
-  {
-    "patch": "1.1",
-    "base": {
-      "oroberyl": 5400,
-      "origeometry": 85,
-      "chartered": 11,
-      "basic": 6,
-      "firewalker": 0,
-      "messenger": 0,
-      "hues": 6,
-      "arsenal": 9
-    },
-    "monthlySub": {
-      "oroberyl": 1800,
-      "origeometry": 0,
-      "chartered": 0,
-      "basic": 0,
-      "firewalker": 0,
-      "messenger": 0,
-      "hues": 0,
-      "arsenal": 0
-    },
-    "battlePass": {
-      "1": {
-        "oroberyl": 1400,
-        "origeometry": 0,
-        "chartered": 1,
-        "basic": 1,
-        "firewalker": 0,
-        "messenger": 0,
-        "hues": 0,
-        "arsenal": 1
-      },
-      "2": {
-        "oroberyl": 2400,
-        "origeometry": 6,
-        "chartered": 2,
-        "basic": 1,
-        "firewalker": 0,
-        "messenger": 0,
-        "hues": 0,
-        "arsenal": 2
-      },
-      "3": {
-        "oroberyl": 3700,
-        "origeometry": 12,
-        "chartered": 3,
-        "basic": 2,
-        "firewalker": 0,
-        "messenger": 0,
-        "hues": 0,
-        "arsenal": 3
+        "arsenal": 2400
       }
     }
   }
