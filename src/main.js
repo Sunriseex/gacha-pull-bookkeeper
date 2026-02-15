@@ -30,7 +30,7 @@ const refs = {
 
 const IMPORT_STATE_KEYS = {
   spreadsheetId: "owner:spreadsheetId",
-  sheetNames: "owner:sheetNames",
+  syncToken: "owner:patchsyncToken",
 };
 const PATCHSYNC_ENDPOINT = "http://127.0.0.1:8787/sync";
 
@@ -63,12 +63,6 @@ const copyTextToClipboard = async (value) => {
   }
 };
 
-const parseSheetNamesInput = (raw) =>
-  String(raw || "")
-    .split(",")
-    .map((item) => item.trim())
-    .filter(Boolean);
-
 const runPatchsyncImport = async () => {
   const previousSpreadsheetId = localStorage.getItem(IMPORT_STATE_KEYS.spreadsheetId) || "";
   const spreadsheetIdInput = window.prompt(
@@ -84,14 +78,16 @@ const runPatchsyncImport = async () => {
     return;
   }
 
-  const previousSheetNames = localStorage.getItem(IMPORT_STATE_KEYS.sheetNames) || "";
-  const sheetNamesInput = window.prompt(
-    "Sheet names (comma separated, optional):",
-    previousSheetNames,
+  const previousToken = localStorage.getItem(IMPORT_STATE_KEYS.syncToken) || "";
+  const tokenInput = window.prompt(
+    "Patchsync token (optional):",
+    previousToken,
   );
-  if (sheetNamesInput === null) {
+  if (tokenInput === null) {
     return;
   }
+  const syncToken = tokenInput.trim();
+
   const createBranch = window.confirm(
     "Create a new git branch before writing generated patches?",
   );
@@ -100,10 +96,6 @@ const runPatchsyncImport = async () => {
     spreadsheetId,
     createBranch,
   };
-  const sheetNames = parseSheetNamesInput(sheetNamesInput);
-  if (sheetNames.length > 0) {
-    payload.sheetNames = sheetNames;
-  }
 
   const button = refs.syncSheetsBtn;
   const defaultLabel = button?.dataset.defaultLabel || "Sync Sheets";
@@ -116,6 +108,7 @@ const runPatchsyncImport = async () => {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
+        ...(syncToken ? { "X-Patchsync-Token": syncToken } : {}),
       },
       body: JSON.stringify(payload),
     });
@@ -127,10 +120,11 @@ const runPatchsyncImport = async () => {
     }
 
     localStorage.setItem(IMPORT_STATE_KEYS.spreadsheetId, spreadsheetId);
-    localStorage.setItem(IMPORT_STATE_KEYS.sheetNames, sheetNames.join(", "));
+    localStorage.setItem(IMPORT_STATE_KEYS.syncToken, syncToken);
 
     const lines = [
       `Patches: ${(data.patches || []).join(", ") || "n/a"}`,
+      `Skipped: ${(data.skipped || []).join(", ") || "none"}`,
       `Output: ${data.outputPath || "src/data/patches.generated.js"}`,
     ];
     if (data.branch) {
@@ -146,7 +140,8 @@ const runPatchsyncImport = async () => {
         String(error?.message || error),
         "",
         "Make sure patchsync service is running:",
-        "go run ./tools/patchsync --serve",
+        "cd tools/patchsync",
+        "go run . --serve",
       ].join("\n"),
     );
   } finally {

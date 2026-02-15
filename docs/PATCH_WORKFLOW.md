@@ -9,9 +9,10 @@ Add a new patch quickly and safely, while keeping updates owner-only.
 Option A (recommended): use Google Sheets importer.
 
 1. Start importer service:
-   - `go run ./tools/patchsync --serve`
+   - `cd tools/patchsync`
+   - `go run . --serve --auth-token "<your_token>"`
 2. In app UI click `Sync Sheets`.
-3. Enter Spreadsheet ID and (optionally) sheet names.
+3. Enter Spreadsheet ID (листы `N.N` подтянутся автоматически).
 4. Confirm branch creation if needed.
 5. Reload the app.
 
@@ -38,7 +39,7 @@ Option B: manual edit in repository.
 - Runtime UI does not allow data editing.
 - Data changes happen only through repository commits (or local owner importer writing tracked files).
 - Restrict repository write access to your account only.
-- Enable branch protection on `main` to block direct pushes.
+- Enable branch protection on `master` to block direct pushes.
 
 ## Notes
 
