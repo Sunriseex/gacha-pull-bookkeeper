@@ -66,8 +66,42 @@ const normalizeRewards = (input = {}) =>
     return acc;
   }, {});
 
-const resolveSourceRewards = (source, row) => {
+const resolveBpCrateScale = (source, row, options) => {
+  const model = source.bpCrateModel ?? {};
+  const durationDays = Math.max(0, safeNumber(row.durationDays));
+  const daysToLevel60Tier3 = Math.max(
+    0,
+    safeNumber(model.daysToLevel60Tier3 ?? 21),
+  );
+  const tier2XpBonus = safeNumber(model.tier2XpBonus ?? 0.03);
+  const tier3XpBonus = safeNumber(model.tier3XpBonus ?? 0.06);
+  const tier = normalizeTier(options.battlePassTier);
+
+  const currentBonus =
+    tier >= 3 ? tier3XpBonus : tier >= 2 ? tier2XpBonus : 0;
+  const referenceBonus = tier3XpBonus;
+  const referenceRemainingDays = Math.max(0, durationDays - daysToLevel60Tier3);
+  if (referenceRemainingDays <= 0) {
+    return 0;
+  }
+
+  const daysToLevel60Current = Math.ceil(
+    daysToLevel60Tier3 * (1 + referenceBonus) / (1 + currentBonus),
+  );
+  const currentRemainingDays = Math.max(0, durationDays - daysToLevel60Current);
+  const timeScale = currentRemainingDays / referenceRemainingDays;
+  const xpScale = (1 + currentBonus) / (1 + referenceBonus);
+  return Math.max(0, timeScale * xpScale);
+};
+
+const resolveSourceRewards = (source, row, options) => {
   const rewards = normalizeRewards(source.rewards);
+  if (source.bpCrateModel?.type === "post_bp60_estimate") {
+    const scale = resolveBpCrateScale(source, row, options);
+    for (const key of RESOURCE_KEYS) {
+      rewards[key] *= scale;
+    }
+  }
 
   for (const scaler of source.scalers ?? []) {
     if (scaler.type !== "per_duration") {
@@ -166,19 +200,11 @@ const sourcePullValue = (source, rates = GAME_RATES) => {
     return 0;
   }
   const rewards = source.rewards ?? {};
-  const costs = source.costs ?? {};
-  const sourceOrigeometry = Math.max(
-    0,
-    safeNumber(rewards.origeometry) - safeNumber(costs.origeometry),
-  );
   const perPull = resolveRate(rates, "OROBERYL_PER_PULL");
   if (perPull <= 0) {
     return 0;
   }
-  const currencyPulls =
-    (safeNumber(rewards.oroberyl) +
-      sourceOrigeometry * resolveRate(rates, "ORIGEOMETRY_TO_OROBERYL")) /
-    perPull;
+  const currencyPulls = safeNumber(rewards.oroberyl) / perPull;
   const permitPulls =
     safeNumber(rewards.chartered) +
     safeNumber(rewards.firewalker) +
@@ -200,33 +226,21 @@ export const calculatePatchTotals = (row, options, rates = GAME_RATES) => {
     .filter((source) => isSourceEnabled(source, options))
     .map((source) => ({
       ...source,
-      rewards: resolveSourceRewards(source, row),
+      rewards: resolveSourceRewards(source, row, options),
     }));
   const rewards = sumResources(enabledSources);
   const costs = sumCosts(enabledSources);
   const pullSources = pullEligibleSources(enabledSources);
   const pullRewards = sumResources(pullSources);
-  const pullCosts = sumCosts(pullSources);
 
   const oroberyl = rewards.oroberyl;
   const origeometry = Math.max(0, rewards.origeometry - costs.origeometry);
   const oroberylFromOri =
     origeometry * resolveRate(rates, "ORIGEOMETRY_TO_OROBERYL");
-  const pullOrigeometry = Math.max(
-    0,
-    pullRewards.origeometry - pullCosts.origeometry,
-  );
-  const pullOroberylFromOri =
-    pullOrigeometry * resolveRate(rates, "ORIGEOMETRY_TO_OROBERYL");
   const perPull = resolveRate(rates, "OROBERYL_PER_PULL");
   const currencyPullsExact =
-    perPull > 0
-      ? (pullRewards.oroberyl + pullOroberylFromOri) / perPull
-      : 0;
-  const currencyPulls = oroberylToPulls(
-    pullRewards.oroberyl + pullOroberylFromOri,
-    rates,
-  );
+    perPull > 0 ? pullRewards.oroberyl / perPull : 0;
+  const currencyPulls = oroberylToPulls(pullRewards.oroberyl, rates);
 
   const chartered = rewards.chartered;
   const charteredForPulls = pullRewards.chartered;

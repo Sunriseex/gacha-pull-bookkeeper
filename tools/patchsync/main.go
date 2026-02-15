@@ -2,6 +2,7 @@ package main
 
 import (
 	"context"
+	"crypto/subtle"
 	"encoding/csv"
 	"encoding/json"
 	"errors"
@@ -17,6 +18,7 @@ import (
 	"sort"
 	"strconv"
 	"strings"
+	"sync"
 	"time"
 )
 
@@ -27,6 +29,8 @@ const (
 
 var versionSheetPattern = regexp.MustCompile(`^\d+\.\d+$`)
 var spreadsheetIDFromURLPattern = regexp.MustCompile(`/spreadsheets/d/([a-zA-Z0-9-_]+)`)
+var patchFieldPattern = regexp.MustCompile(`(?m)(?:\bpatch\s*:|"patch"\s*:)\s*"(\d+\.\d+)"`)
+var generatedPatchesBlockPattern = regexp.MustCompile(`(?s)export const GENERATED_PATCHES\s*=\s*(\[[\s\S]*?\]);`)
 
 type Rewards struct {
 	Oroberyl    float64 `json:"oroberyl"`
@@ -48,14 +52,22 @@ type Scaler struct {
 }
 
 type Source struct {
-	ID           string   `json:"id"`
-	Label        string   `json:"label"`
-	Gate         string   `json:"gate"`
-	OptionKey    *string  `json:"optionKey"`
-	CountInPulls bool     `json:"countInPulls"`
-	Rewards      Rewards  `json:"rewards"`
-	Costs        Rewards  `json:"costs"`
-	Scalers      []Scaler `json:"scalers"`
+	ID           string        `json:"id"`
+	Label        string        `json:"label"`
+	Gate         string        `json:"gate"`
+	OptionKey    *string       `json:"optionKey"`
+	CountInPulls bool          `json:"countInPulls"`
+	Rewards      Rewards       `json:"rewards"`
+	Costs        Rewards       `json:"costs"`
+	Scalers      []Scaler      `json:"scalers"`
+	BPCrateModel *BPCrateModel `json:"bpCrateModel,omitempty"`
+}
+
+type BPCrateModel struct {
+	Type             string  `json:"type"`
+	DaysToLevel60T3  int     `json:"daysToLevel60Tier3"`
+	Tier2XPBonusRate float64 `json:"tier2XpBonus"`
+	Tier3XPBonusRate float64 `json:"tier3XpBonus"`
 }
 
 type Patch struct {
@@ -75,20 +87,24 @@ type GeneratedMeta struct {
 }
 
 type SyncConfig struct {
-	SpreadsheetID string
-	SheetNames    []string
-	OutputPath    string
-	CreateBranch  bool
-	BranchPrefix  string
-	DryRun        bool
-	ClientTimeout time.Duration
+	SpreadsheetID   string
+	SheetNames      []string
+	OutputPath      string
+	BasePatchesPath string
+	CreateBranch    bool
+	BranchPrefix    string
+	SkipExisting    bool
+	DryRun          bool
+	ClientTimeout   time.Duration
 }
 
 type SyncResult struct {
-	Patches    []Patch
-	SheetNames []string
-	OutputPath string
-	BranchName string
+	Patches        []Patch
+	AllPatches     []Patch
+	SkippedPatches []string
+	SheetNames     []string
+	OutputPath     string
+	BranchName     string
 }
 
 type sheetRow struct {
@@ -100,7 +116,6 @@ type sheetRow struct {
 type syncRequest struct {
 	SpreadsheetID string   `json:"spreadsheetId"`
 	SheetNames    []string `json:"sheetNames"`
-	OutputPath    string   `json:"outputPath"`
 	CreateBranch  bool     `json:"createBranch"`
 	BranchPrefix  string   `json:"branchPrefix"`
 	DryRun        bool     `json:"dryRun"`
@@ -111,6 +126,7 @@ type syncResponse struct {
 	Message    string   `json:"message"`
 	Sheets     []string `json:"sheets,omitempty"`
 	Patches    []string `json:"patches,omitempty"`
+	Skipped    []string `json:"skipped,omitempty"`
 	OutputPath string   `json:"outputPath,omitempty"`
 	Branch     string   `json:"branch,omitempty"`
 }
@@ -150,6 +166,7 @@ func source(id, label, gate string, optionKey *string, countInPulls bool, reward
 		Rewards:      rewards,
 		Costs:        zeroRewards(),
 		Scalers:      []Scaler{},
+		BPCrateModel: nil,
 	}
 }
 
@@ -252,6 +269,24 @@ func rowFromRecord(record []string, idxName, idxOro, idxOri, idxChartered, idxBa
 			Arsenal:     parseNumber(arsenalRaw),
 		},
 		HasData: hasData,
+	}
+}
+
+func battlePassCoreRewards(input Rewards) Rewards {
+	return Rewards{
+		Origeometry: input.Origeometry,
+		Arsenal:     input.Arsenal,
+	}
+}
+
+func battlePassCrateFallbackRewards(input Rewards) Rewards {
+	return Rewards{
+		Oroberyl:   input.Oroberyl,
+		Chartered:  input.Chartered,
+		Basic:      input.Basic,
+		Firewalker: input.Firewalker,
+		Messenger:  input.Messenger,
+		Hues:       input.Hues,
 	}
 }
 
@@ -391,9 +426,23 @@ func parseSheetToPatch(sheetName, csvText string) (Patch, error) {
 		case "monthly pass":
 			monthlyRewards = row.Rewards
 		case "originium supply pass":
-			bp2CoreRewards = row.Rewards
+			coreRewards := battlePassCoreRewards(row.Rewards)
+			if coreRewards.hasAny() {
+				bp2CoreRewards = coreRewards
+			}
+			fallbackRewards := battlePassCrateFallbackRewards(row.Rewards)
+			if fallbackRewards.hasAny() && !bpCrateMRewards.hasAny() {
+				bpCrateMRewards = fallbackRewards
+			}
 		case "protocol customized pass":
-			bp3CoreRewards = row.Rewards
+			coreRewards := battlePassCoreRewards(row.Rewards)
+			if coreRewards.hasAny() {
+				bp3CoreRewards = coreRewards
+			}
+			fallbackRewards := battlePassCrateFallbackRewards(row.Rewards)
+			if fallbackRewards.hasAny() && !bpCrateLRewards.hasAny() {
+				bpCrateLRewards = fallbackRewards
+			}
 		case "exchange crate-o-surprise [m]":
 			bpCrateMRewards = row.Rewards
 		case "exchange crate-o-surprise [l]":
@@ -432,6 +481,13 @@ func parseSheetToPatch(sheetName, csvText string) (Patch, error) {
 		Arsenal:     eventsAggregate.Arsenal,
 	}
 
+	bpCrateModel := &BPCrateModel{
+		Type:             "post_bp60_estimate",
+		DaysToLevel60T3:  21,
+		Tier2XPBonusRate: 0.03,
+		Tier3XPBonusRate: 0.06,
+	}
+
 	sources := []Source{
 		source("events", "Events", "always", nil, true, eventsRewards),
 		source("permanent", "Permanent Content", "always", nil, true, permanentSum),
@@ -446,8 +502,28 @@ func parseSheetToPatch(sheetName, csvText string) (Patch, error) {
 		source("monthlyBonus", "Monthly Pass Bonus", "monthly", nil, false, monthlyBonusRewards),
 		source("bp2Core", "Originium Supply Pass", "bp2", nil, false, bp2CoreRewards),
 		source("bp3Core", "Protocol Customized Pass", "bp3", nil, false, bp3CoreRewards),
-		source("bpCrateM", "Exchange Crate-o-Surprise [M]", "bp2", ptr("includeBpCrates"), true, bpCrateMRewards),
-		source("bpCrateL", "Exchange Crate-o-Surprise [L]", "bp3", ptr("includeBpCrates"), true, bpCrateLRewards),
+		Source{
+			ID:           "bpCrateM",
+			Label:        "Exchange Crate-o-Surprise [M]",
+			Gate:         "bp2",
+			OptionKey:    ptr("includeBpCrates"),
+			CountInPulls: true,
+			Rewards:      bpCrateMRewards,
+			Costs:        zeroRewards(),
+			Scalers:      []Scaler{},
+			BPCrateModel: bpCrateModel,
+		},
+		Source{
+			ID:           "bpCrateL",
+			Label:        "Exchange Crate-o-Surprise [L]",
+			Gate:         "bp3",
+			OptionKey:    ptr("includeBpCrates"),
+			CountInPulls: true,
+			Rewards:      bpCrateLRewards,
+			Costs:        zeroRewards(),
+			Scalers:      []Scaler{},
+			BPCrateModel: bpCrateModel,
+		},
 	}
 
 	versionName, startDate := parsePatchHeaderMeta(getCell(headers, 0))
@@ -514,6 +590,80 @@ type worksheetFeed struct {
 	} `json:"feed"`
 }
 
+func discoverSheetNamesByProbe(ctx context.Context, client *http.Client, spreadsheetID string) ([]string, error) {
+	majorCandidates := []int{1, 0, 2, 3, 4, 5}
+	type probeResult struct {
+		major int
+		ok    bool
+	}
+
+	results := make(chan probeResult, len(majorCandidates))
+	var wg sync.WaitGroup
+	for _, major := range majorCandidates {
+		wg.Add(1)
+		go func(major int) {
+			defer wg.Done()
+			probeCtx, cancel := context.WithTimeout(ctx, 3*time.Second)
+			defer cancel()
+			candidate := fmt.Sprintf("%d.0", major)
+			csvText, err := fetchSheetCSV(probeCtx, client, spreadsheetID, candidate)
+			if err == nil {
+				_, err = parseSheetToPatch(candidate, csvText)
+			}
+			results <- probeResult{
+				major: major,
+				ok:    err == nil,
+			}
+		}(major)
+	}
+	wg.Wait()
+	close(results)
+
+	majorSet := map[int]struct{}{}
+	for result := range results {
+		if result.ok {
+			majorSet[result.major] = struct{}{}
+		}
+	}
+
+	names := make([]string, 0, 8)
+	for _, major := range majorCandidates {
+		if _, ok := majorSet[major]; !ok {
+			continue
+		}
+
+		missStreak := 0
+		for minor := 0; minor <= 50; minor++ {
+			candidate := fmt.Sprintf("%d.%d", major, minor)
+			probeCtx, cancel := context.WithTimeout(ctx, 3*time.Second)
+			csvText, err := fetchSheetCSV(probeCtx, client, spreadsheetID, candidate)
+			if err == nil {
+				_, err = parseSheetToPatch(candidate, csvText)
+			}
+			cancel()
+			if err != nil {
+				missStreak++
+				if minor == 0 {
+					break
+				}
+				if missStreak >= 2 {
+					break
+				}
+				continue
+			}
+			missStreak = 0
+			names = append(names, candidate)
+		}
+	}
+
+	names = uniqueStrings(names)
+	sortVersionStrings(names)
+	if len(names) == 0 {
+		return nil, errors.New("no N.N sheet names found by probe")
+	}
+	return names, nil
+}
+
 func discoverSheetNames(ctx context.Context, client *http.Client, spreadsheetID string) ([]string, error) {
 	feedURL := fmt.Sprintf(
 		"https://spreadsheets.google.com/feeds/worksheets/%s/public/basic?alt=json",
@@ -531,38 +681,23 @@ func discoverSheetNames(ctx context.Context, client *http.Client, spreadsheetID 
 				}
 			}
 			if len(names) > 0 {
-				return uniqueStrings(names), nil
+				sorted := uniqueStrings(names)
+				sort.Strings(sorted)
+				sortVersionStrings(sorted)
+				return sorted, nil
 			}
 		}
 	}
 
-	// Fallback for "1.0 / 1.1 / 1.2 ..." naming.
-	names := make([]string, 0)
-	majorCandidates := []int{1, 0, 2, 3, 4, 5}
-	for _, major := range majorCandidates {
-		foundInMajor := false
-		for minor := 0; minor <= 30; minor++ {
-			candidate := fmt.Sprintf("%d.%d", major, minor)
-			probeCtx, cancel := context.WithTimeout(ctx, 4*time.Second)
-			_, fetchErr := fetchSheetCSV(probeCtx, client, spreadsheetID, candidate)
-			cancel()
-			if fetchErr != nil {
-				if !foundInMajor && minor == 0 {
-					break
-				}
-				if foundInMajor {
-					break
-				}
-				continue
-			}
-			foundInMajor = true
-			names = append(names, candidate)
-		}
+	probeNames, probeErr := discoverSheetNamesByProbe(ctx, client, spreadsheetID)
+	if probeErr == nil && len(probeNames) > 0 {
+		return probeNames, nil
 	}
-	if len(names) == 0 {
-		return nil, errors.New("failed to discover version sheets automatically; pass sheet names explicitly")
+
+	if err != nil {
+		return nil, fmt.Errorf("failed to discover version sheets automatically: %w", err)
 	}
-	return uniqueStrings(names), nil
+	return nil, fmt.Errorf("failed to discover version sheets automatically: %v", probeErr)
 }
 
 func uniqueStrings(input []string) []string {
@@ -594,6 +729,50 @@ func extractSpreadsheetID(input string) string {
 		}
 	}
 	return value
+}
+
+func resolveFilePath(inputPath string) string {
+	cleanPath := filepath.Clean(strings.TrimSpace(inputPath))
+	if cleanPath == "" {
+		return cleanPath
+	}
+	if filepath.IsAbs(cleanPath) {
+		return cleanPath
+	}
+	candidates := []string{
+		cleanPath,
+		filepath.Join("..", "..", cleanPath),
+	}
+	for _, candidate := range candidates {
+		if _, err := os.Stat(candidate); err == nil {
+			return candidate
+		}
+	}
+	return cleanPath
+}
+
+func resolveOutputPath(inputPath string) string {
+	cleanPath := filepath.Clean(strings.TrimSpace(inputPath))
+	if cleanPath == "" {
+		return cleanPath
+	}
+	if filepath.IsAbs(cleanPath) {
+		return cleanPath
+	}
+	candidates := []string{
+		cleanPath,
+		filepath.Join("..", "..", cleanPath),
+	}
+	for _, candidate := range candidates {
+		parent := filepath.Dir(candidate)
+		if parent == "." || parent == "" {
+			return candidate
+		}
+		if stat, err := os.Stat(parent); err == nil && stat.IsDir() {
+			return candidate
+		}
+	}
+	return cleanPath
 }
 
 func parsePatchHeaderMeta(titleCell string) (string, string) {
@@ -637,6 +816,20 @@ func versionSortKey(value string) (int, int, bool) {
 	return major, minor, true
 }
 
+func sortVersionStrings(values []string) {
+	sort.Slice(values, func(i, j int) bool {
+		majorI, minorI, okI := versionSortKey(values[i])
+		majorJ, minorJ, okJ := versionSortKey(values[j])
+		if okI && okJ {
+			if majorI != majorJ {
+				return majorI < majorJ
+			}
+			return minorI < minorJ
+		}
+		return values[i] < values[j]
+	})
+}
+
 func sortPatches(patches []Patch) {
 	sort.Slice(patches, func(i, j int) bool {
 		majorI, minorI, okI := versionSortKey(patches[i].Patch)
@@ -678,6 +871,118 @@ func writeGeneratedFile(path string, patches []Patch, meta GeneratedMeta) error 
 	return nil
 }
 
+func readPatchIDsFromContent(content string) []string {
+	matches := patchFieldPattern.FindAllStringSubmatch(content, -1)
+	ids := make([]string, 0, len(matches))
+	for _, match := range matches {
+		if len(match) < 2 {
+			continue
+		}
+		candidate := strings.TrimSpace(match[1])
+		if versionSheetPattern.MatchString(candidate) {
+			ids = append(ids, candidate)
+		}
+	}
+	return uniqueStrings(ids)
+}
+
+func readPatchIDsFromFile(path string) (map[string]struct{}, error) {
+	result := map[string]struct{}{}
+	body, err := os.ReadFile(path)
+	if err != nil {
+		if errors.Is(err, os.ErrNotExist) {
+			return result, nil
+		}
+		return nil, err
+	}
+	for _, patchID := range readPatchIDsFromContent(string(body)) {
+		result[patchID] = struct{}{}
+	}
+	return result, nil
+}
+
+func readGeneratedPatches(path string) ([]Patch, error) {
+	body, err := os.ReadFile(path)
+	if err != nil {
+		if errors.Is(err, os.ErrNotExist) {
+			return []Patch{}, nil
+		}
+		return nil, err
+	}
+	match := generatedPatchesBlockPattern.FindStringSubmatch(string(body))
+	if len(match) < 2 {
+		return []Patch{}, nil
+	}
+	var patches []Patch
+	if err := json.Unmarshal([]byte(match[1]), &patches); err != nil {
+		return nil, fmt.Errorf("parse GENERATED_PATCHES: %w", err)
+	}
+	return patches, nil
+}
+
+func mergePatchesByID(existing []Patch, additions []Patch) []Patch {
+	byID := make(map[string]Patch, len(existing)+len(additions))
+	order := make([]string, 0, len(existing)+len(additions))
+	for _, patch := range existing {
+		if strings.TrimSpace(patch.ID) == "" {
+			continue
+		}
+		if _, ok := byID[patch.ID]; !ok {
+			order = append(order, patch.ID)
+		}
+		byID[patch.ID] = patch
+	}
+	for _, patch := range additions {
+		if strings.TrimSpace(patch.ID) == "" {
+			continue
+		}
+		if _, ok := byID[patch.ID]; !ok {
+			order = append(order, patch.ID)
+		}
+		byID[patch.ID] = patch
+	}
+	merged := make([]Patch, 0, len(order))
+	for _, id := range order {
+		if patch, ok := byID[id]; ok {
+			merged = append(merged, patch)
+		}
+	}
+	sortPatches(merged)
+	return merged
+}
+
+type comparablePatch struct {
+	ID           string   `json:"id"`
+	Patch        string   `json:"patch"`
+	VersionName  string   `json:"versionName"`
+	StartDate    string   `json:"startDate"`
+	DurationDays int      `json:"durationDays"`
+	Sources      []Source `json:"sources"`
+}
+
+func patchComparableValue(patch Patch) comparablePatch {
+	return comparablePatch{
+		ID:           strings.TrimSpace(patch.ID),
+		Patch:        strings.TrimSpace(patch.Patch),
+		VersionName:  strings.TrimSpace(patch.VersionName),
+		StartDate:    strings.TrimSpace(patch.StartDate),
+		DurationDays: patch.DurationDays,
+		Sources:      patch.Sources,
+	}
+}
+
+func patchesEquivalent(left, right Patch) bool {
+	leftJSON, leftErr := json.Marshal(patchComparableValue(left))
+	if leftErr != nil {
+		return false
+	}
+	rightJSON, rightErr := json.Marshal(patchComparableValue(right))
+	if rightErr != nil {
+		return false
+	}
+	return string(leftJSON) == string(rightJSON)
+}
+
 func createBranch(prefix string) (string, error) {
 	prefix = strings.TrimSpace(prefix)
 	if prefix == "" {
@@ -700,11 +1005,43 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 	if cfg.ClientTimeout <= 0 {
 		cfg.ClientTimeout = 20 * time.Second
 	}
+	if strings.TrimSpace(cfg.OutputPath) == "" {
+		cfg.OutputPath = defaultOutputPath
+	}
+	cfg.OutputPath = resolveOutputPath(cfg.OutputPath)
+	if strings.TrimSpace(cfg.BasePatchesPath) == "" {
+		cfg.BasePatchesPath = "src/data/patches.js"
+	}
+	cfg.BasePatchesPath = resolveFilePath(cfg.BasePatchesPath)
 	client := &http.Client{Timeout: cfg.ClientTimeout}
+
+	existingGenerated, err := readGeneratedPatches(cfg.OutputPath)
+	if err != nil {
+		return SyncResult{}, fmt.Errorf("read existing generated patches: %w", err)
+	}
+	existingGeneratedByID := map[string]Patch{}
+	for _, patch := range existingGenerated {
+		patchID := strings.TrimSpace(patch.Patch)
+		if patchID == "" {
+			patchID = strings.TrimSpace(patch.ID)
+		}
+		if patchID != "" {
+			existingGeneratedByID[patchID] = patch
+		}
+	}
+	basePatchIDs := map[string]struct{}{}
+	if cfg.SkipExisting {
+		readIDs, readErr := readPatchIDsFromFile(cfg.BasePatchesPath)
+		if readErr != nil {
+			return SyncResult{}, fmt.Errorf("read base patches file: %w", readErr)
+		}
+		for patchID := range readIDs {
+			basePatchIDs[patchID] = struct{}{}
+		}
+	}
 
 	sheetNames := uniqueStrings(cfg.SheetNames)
 	explicitSheetNames := len(sheetNames) > 0
-	var err error
 	if len(sheetNames) == 0 {
 		sheetNames, err = discoverSheetNames(ctx, client, cfg.SpreadsheetID)
 		if err != nil {
@@ -714,9 +1051,12 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 	if len(sheetNames) == 0 {
 		return SyncResult{}, errors.New("no sheet names to parse")
 	}
+	sortVersionStrings(sheetNames)
 
 	patches := make([]Patch, 0, len(sheetNames))
 	parsedSheetNames := make([]string, 0, len(sheetNames))
+	skippedPatches := make([]string, 0, len(sheetNames))
+	validPatchRows := 0
 	for _, sheetName := range sheetNames {
 		csvText, fetchErr := fetchSheetCSV(ctx, client, cfg.SpreadsheetID, sheetName)
 		if fetchErr != nil {
@@ -732,13 +1072,37 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 			}
 			continue
 		}
+		validPatchRows++
+		patchID := strings.TrimSpace(patch.Patch)
+		if patchID == "" {
+			patchID = strings.TrimSpace(patch.ID)
+		}
+		if cfg.SkipExisting {
+			if existingPatch, ok := existingGeneratedByID[patchID]; ok {
+				if patchesEquivalent(existingPatch, patch) {
+					if patchID != "" {
+						skippedPatches = append(skippedPatches, patchID)
+					}
+					continue
+				}
+			}
+			if _, inBaseOnly := basePatchIDs[patchID]; inBaseOnly {
+				// Base patches do not keep machine-readable payload for full comparison,
+				// so we resync them into generated output on first pass.
+				delete(basePatchIDs, patchID)
+			}
+		}
 		patches = append(patches, patch)
 		parsedSheetNames = append(parsedSheetNames, sheetName)
+		if patchID != "" {
+			existingGeneratedByID[patchID] = patch
+		}
 	}
-	if len(patches) == 0 {
-		return SyncResult{}, errors.New("no valid patch sheets found; provide sheet names explicitly")
+	if validPatchRows == 0 && len(patches) == 0 && len(skippedPatches) == 0 {
+		return SyncResult{}, errors.New("no valid patch sheets found with N.N names")
 	}
 	sortPatches(patches)
+	skippedPatches = uniqueStrings(skippedPatches)
 
 	branchName := ""
 	if cfg.CreateBranch {
@@ -749,97 +1113,167 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 		branchName = createdBranch
 	}
 
-	if !cfg.DryRun {
-		outputPath := cfg.OutputPath
-		if outputPath == "" {
-			outputPath = defaultOutputPath
-		}
+	allPatches := mergePatchesByID(existingGenerated, patches)
+	if !cfg.DryRun && len(patches) > 0 {
 		meta := GeneratedMeta{
 			SpreadsheetID: cfg.SpreadsheetID,
-			Sheets:        parsedSheetNames,
+			Sheets:        uniqueStrings(append(parsedSheetNames, skippedPatches...)),
 			GeneratedAt:   time.Now().UTC().Format(time.RFC3339),
 		}
-		if writeErr := writeGeneratedFile(outputPath, patches, meta); writeErr != nil {
+		if writeErr := writeGeneratedFile(cfg.OutputPath, allPatches, meta); writeErr != nil {
 			return SyncResult{}, writeErr
 		}
 	}
 
 	return SyncResult{
-		Patches:    patches,
-		SheetNames: parsedSheetNames,
-		OutputPath: cfg.OutputPath,
-		BranchName: branchName,
+		Patches:        patches,
+		AllPatches:     allPatches,
+		SkippedPatches: skippedPatches,
+		SheetNames:     parsedSheetNames,
+		OutputPath:     cfg.OutputPath,
+		BranchName:     branchName,
 	}, nil
 }
 
-func withCORS(w http.ResponseWriter) {
-	w.Header().Set("Access-Control-Allow-Origin", "*")
-	w.Header().Set("Access-Control-Allow-Headers", "Content-Type")
+func parseAllowedOrigins(raw string) map[string]struct{} {
+	values := uniqueStrings(strings.Split(raw, ","))
+	allowed := make(map[string]struct{}, len(values))
+	for _, value := range values {
+		allowed[value] = struct{}{}
+	}
+	return allowed
+}
+
+func isOriginAllowed(origin string, allowed map[string]struct{}) bool {
+	if origin == "" {
+		return true
+	}
+	_, ok := allowed[origin]
+	return ok
+}
+
+func withCORS(w http.ResponseWriter, r *http.Request, allowed map[string]struct{}) bool {
+	origin := strings.TrimSpace(r.Header.Get("Origin"))
+	if origin != "" {
+		if !isOriginAllowed(origin, allowed) {
+			return false
+		}
+		w.Header().Set("Access-Control-Allow-Origin", origin)
+		w.Header().Set("Vary", "Origin")
+	}
+	w.Header().Set("Access-Control-Allow-Headers", "Content-Type, X-Patchsync-Token")
 	w.Header().Set("Access-Control-Allow-Methods", "POST, OPTIONS")
+	return true
+}
+
+func isAuthorized(r *http.Request, authToken string) bool {
+	if strings.TrimSpace(authToken) == "" {
+		return true
+	}
+	requestToken := strings.TrimSpace(r.Header.Get("X-Patchsync-Token"))
+	return subtle.ConstantTimeCompare([]byte(requestToken), []byte(authToken)) == 1
+}
+
+func writeJSON(w http.ResponseWriter, statusCode int, payload syncResponse) {
+	w.Header().Set("Content-Type", "application/json")
+	w.WriteHeader(statusCode)
+	_ = json.NewEncoder(w).Encode(payload)
 }
 
 func main() {
 	var (
-		serveMode     bool
-		bindAddr      string
-		spreadsheetID string
-		sheetNamesRaw string
-		outputPath    string
-		createBranch  bool
-		branchPrefix  string
-		dryRun        bool
-		clientTimeout time.Duration
+		serveMode         bool
+		bindAddr          string
+		allowedOriginsRaw string
+		authToken         string
+		spreadsheetID     string
+		sheetNamesRaw     string
+		outputPath        string
+		createBranch      bool
+		branchPrefix      string
+		skipExisting      bool
+		dryRun            bool
+		clientTimeout     time.Duration
 	)
 
 	flag.BoolVar(&serveMode, "serve", false, "Run as local HTTP service for the UI button")
 	flag.StringVar(&bindAddr, "addr", defaultBindAddr, "HTTP bind address in serve mode")
+	flag.StringVar(&allowedOriginsRaw, "allowed-origins", "http://127.0.0.1:5173,http://localhost:5173", "Comma-separated allowed CORS origins in serve mode")
+	flag.StringVar(&authToken, "auth-token", os.Getenv("PATCHSYNC_TOKEN"), "Optional auth token required in X-Patchsync-Token header for /sync")
 	flag.StringVar(&spreadsheetID, "spreadsheet-id", "", "Google Spreadsheet ID or full spreadsheet URL")
-	flag.StringVar(&sheetNamesRaw, "sheet-names", "", "Comma-separated sheet names (optional)")
+	flag.StringVar(&sheetNamesRaw, "sheet-names", "", "Comma-separated sheet names (optional, if empty auto-detects N.N sheet names)")
 	flag.StringVar(&outputPath, "output", defaultOutputPath, "Output JS file path")
 	flag.BoolVar(&createBranch, "create-branch", false, "Create a git branch before writing generated file")
 	flag.StringVar(&branchPrefix, "branch-prefix", "data/sheets", "Git branch prefix for create-branch")
+	flag.BoolVar(&skipExisting, "skip-existing", true, "Skip patches already present in src/data/patches.js and generated output")
 	flag.BoolVar(&dryRun, "dry-run", false, "Parse and validate only, do not write file")
 	flag.DurationVar(&clientTimeout, "timeout", 20*time.Second, "HTTP client timeout")
 	flag.Parse()
 
 	defaultCfg := SyncConfig{
-		SpreadsheetID: spreadsheetID,
-		SheetNames:    uniqueStrings(strings.Split(sheetNamesRaw, ",")),
-		OutputPath:    outputPath,
-		CreateBranch:  createBranch,
-		BranchPrefix:  branchPrefix,
-		DryRun:        dryRun,
-		ClientTimeout: clientTimeout,
+		SpreadsheetID:   spreadsheetID,
+		SheetNames:      uniqueStrings(strings.Split(sheetNamesRaw, ",")),
+		OutputPath:      outputPath,
+		BasePatchesPath: "src/data/patches.js",
+		CreateBranch:    createBranch,
+		BranchPrefix:    branchPrefix,
+		SkipExisting:    skipExisting,
+		DryRun:          dryRun,
+		ClientTimeout:   clientTimeout,
 	}
+	allowedOrigins := parseAllowedOrigins(allowedOriginsRaw)
 
 	if serveMode {
 		mux := http.NewServeMux()
 		mux.HandleFunc("/health", func(w http.ResponseWriter, r *http.Request) {
-			withCORS(w)
+			if !withCORS(w, r, allowedOrigins) {
+				writeJSON(w, http.StatusForbidden, syncResponse{
+					OK:      false,
+					Message: "origin is not allowed",
+				})
+				return
+			}
 			if r.Method == http.MethodOptions {
 				w.WriteHeader(http.StatusNoContent)
 				return
 			}
-			w.Header().Set("Content-Type", "application/json")
-			_ = json.NewEncoder(w).Encode(syncResponse{
+			writeJSON(w, http.StatusOK, syncResponse{
 				OK:      true,
 				Message: "patchsync service is running",
 			})
 		})
 		mux.HandleFunc("/sync", func(w http.ResponseWriter, r *http.Request) {
-			withCORS(w)
+			if !withCORS(w, r, allowedOrigins) {
+				writeJSON(w, http.StatusForbidden, syncResponse{
+					OK:      false,
+					Message: "origin is not allowed",
+				})
+				return
+			}
 			if r.Method == http.MethodOptions {
 				w.WriteHeader(http.StatusNoContent)
 				return
 			}
 			if r.Method != http.MethodPost {
-				http.Error(w, "method not allowed", http.StatusMethodNotAllowed)
+				writeJSON(w, http.StatusMethodNotAllowed, syncResponse{
+					OK:      false,
+					Message: "method not allowed",
+				})
+				return
+			}
+			if !isAuthorized(r, authToken) {
+				writeJSON(w, http.StatusUnauthorized, syncResponse{
+					OK:      false,
+					Message: "unauthorized",
+				})
 				return
 			}
 			var req syncRequest
-			if err := json.NewDecoder(r.Body).Decode(&req); err != nil {
-				w.WriteHeader(http.StatusBadRequest)
-				_ = json.NewEncoder(w).Encode(syncResponse{
+			bodyReader := io.LimitReader(r.Body, 1<<20)
+			decoder := json.NewDecoder(bodyReader)
+			decoder.DisallowUnknownFields()
+			if err := decoder.Decode(&req); err != nil {
+				writeJSON(w, http.StatusBadRequest, syncResponse{
 					OK:      false,
 					Message: "invalid JSON body",
 				})
@@ -850,23 +1284,14 @@ func main() {
 			if strings.TrimSpace(req.SpreadsheetID) != "" {
 				cfg.SpreadsheetID = strings.TrimSpace(req.SpreadsheetID)
 			}
-			if len(req.SheetNames) > 0 {
-				cfg.SheetNames = uniqueStrings(req.SheetNames)
-			}
-			if strings.TrimSpace(req.OutputPath) != "" {
-				cfg.OutputPath = req.OutputPath
-			}
-			if strings.TrimSpace(req.BranchPrefix) != "" {
-				cfg.BranchPrefix = req.BranchPrefix
-			}
+			// Serve mode runs in owner-controlled auto-discovery mode.
+			cfg.SheetNames = nil
 			cfg.CreateBranch = req.CreateBranch
 			cfg.DryRun = req.DryRun
 
 			result, err := runSync(r.Context(), cfg)
-			w.Header().Set("Content-Type", "application/json")
 			if err != nil {
-				w.WriteHeader(http.StatusBadRequest)
-				_ = json.NewEncoder(w).Encode(syncResponse{
+				writeJSON(w, http.StatusBadRequest, syncResponse{
 					OK:      false,
 					Message: err.Error(),
 				})
@@ -876,17 +1301,21 @@ func main() {
 			for _, patch := range result.Patches {
 				patchNames = append(patchNames, patch.Patch)
 			}
-			_ = json.NewEncoder(w).Encode(syncResponse{
+			writeJSON(w, http.StatusOK, syncResponse{
 				OK:         true,
 				Message:    "sync completed",
 				Sheets:     result.SheetNames,
 				Patches:    patchNames,
-				OutputPath: cfg.OutputPath,
+				Skipped:    result.SkippedPatches,
+				OutputPath: result.OutputPath,
 				Branch:     result.BranchName,
 			})
 		})
 
 		fmt.Printf("patchsync service listening on http://%s\n", bindAddr)
+		if strings.TrimSpace(authToken) == "" {
+			fmt.Println("warning: auth token is empty; set --auth-token or PATCHSYNC_TOKEN for stricter access control")
+		}
 		if err := http.ListenAndServe(bindAddr, mux); err != nil {
 			fmt.Fprintf(os.Stderr, "server failed: %v\n", err)
 			os.Exit(1)
@@ -903,8 +1332,15 @@ func main() {
 	for _, patch := range result.Patches {
 		patchNames = append(patchNames, patch.Patch)
 	}
-	fmt.Printf("Synced patches: %s\n", strings.Join(patchNames, ", "))
-	fmt.Printf("Output: %s\n", defaultCfg.OutputPath)
+	if len(patchNames) == 0 {
+		fmt.Println("Synced patches: none (all discovered patches are already present)")
+	} else {
+		fmt.Printf("Synced patches: %s\n", strings.Join(patchNames, ", "))
+	}
+	if len(result.SkippedPatches) > 0 {
+		fmt.Printf("Skipped patches: %s\n", strings.Join(result.SkippedPatches, ", "))
+	}
+	fmt.Printf("Output: %s\n", result.OutputPath)
 	if result.BranchName != "" {
 		fmt.Printf("Branch: %s\n", result.BranchName)
 	}

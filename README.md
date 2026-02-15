@@ -1,96 +1,48 @@
 # Endfield Bookkeeper
 
-Локальное веб-приложение для подсчета круток.
+Локальное веб-приложение для подсчета круток в Arknights: Endfield.
 
-## Унифицированная схема
-
-Данные теперь хранятся в `src/data/patches.js` как `GAME_CATALOG`:
-
-- `games[]` — список игр.
-- `game.rates` — курсы валют для расчета.
-- `game.defaultOptions` — дефолтные опции UI.
-- `game.patches[]` — патчи игры.
-- `patch.sources[]` — источники.
-- `source.scalers[]` — универсальные динамические правила (`per_duration`) для расчета за день/неделю/цикл.
-
-Это позволяет добавить новую игру без переписывания доменной логики.
-
-## Текущие данные
-
-- Оставлен только патч `1.0`.
-- Учтены правки по `Daily Activity` и `Monthly Pass` до `10800`.
-- Переключаемые источники:
-  - `AIC Quota Exchange`
-  - `Urgent Recruit`
-  - `HH Dossier`
-  - `BP 60+ Crates [M]/[L]`
-
-Контрольный расчет для `1.0` (при включенных Monthly Pass + optional источниках, BP tier 1):
-
-- `Total Character Pulls (No Basic): 309.6`
-
-## Запуск
+## Быстрый старт
 
 ```bash
 python -m http.server 5173
 ```
 
-Открыть `http://localhost:5173`.
+Открой `http://localhost:5173`.
 
-## Добавление новых патчей (owner-only)
+## Где лежат данные
 
-- Рабочий источник данных: `src/data/patches.js`.
-- Добавляйте новый патч только через PR/commit в репозиторий (не через UI).
-- Для защиты "только я могу менять данные":
-- Включите branch protection на `main`.
-- Оставьте write-доступ только вашему GitHub-аккаунту.
-- Отключите прямые push для остальных (только read).
-- Пошаговый процесс: `docs/PATCH_WORKFLOW.md`.
+- Базовые патчи: `src/data/patches.js`
+- Импортированные патчи: `src/data/patches.generated.js`
 
-Важно: в чистом frontend-приложении невозможно надежно ограничить редактирование данных "по паролю в браузере". Надежное owner-only изменение требует контроля доступа на уровне репозитория или backend API с авторизацией.
+Если `patches.generated.js` не пустой, патчи объединяются с базовыми по `id`.
 
-## Google Sheets Importer (Go)
+## Синхронизация из Google Sheets (patchsync)
 
-Добавлен owner-only импортер: `tools/patchsync`.
-
-- Кнопка в UI: `Sync Sheets` (дергает локальный сервис `http://127.0.0.1:8787/sync`).
-- Генерируемый файл: `src/data/patches.generated.js`.
-- Если в `patches.generated.js` есть патчи, они приоритетнее ручных в `src/data/patches.js`.
-
-Запуск локального сервиса для кнопки:
+Запуск локального сервиса:
 
 ```bash
-go run ./tools/patchsync --serve
+cd tools/patchsync
+go run . --serve --auth-token "<your_token>"
 ```
 
-Разовый запуск без UI:
+Генерация токена в PowerShell:
 
-```bash
-go run ./tools/patchsync --spreadsheet-id <ID> --sheet-names 1.0,1.1
+```powershell
+[guid]::NewGuid().ToString("N")
 ```
 
-`--spreadsheet-id` принимает как чистый ID, так и полный URL таблицы.
+Что делает sync:
 
-Опционально создавать ветку перед записью:
+- автоматически ищет только листы формата `N.N`;
+- пропускает патчи без изменений;
+- обновляет патчи, если данные в листе изменились;
+- пишет результат в `src/data/patches.generated.js`.
 
-```bash
-go run ./tools/patchsync --spreadsheet-id <ID> --sheet-names 1.0,1.1 --create-branch
-```
+## Owner-only обновление данных
 
-Что ожидает парсер в листе:
+- делай изменения через commit/PR;
+- оставь write-доступ в репозитории только себе;
+- включи protection для ветки `master`.
 
-- Название листа: `1.0`, `1.1`, `1.2` и т.д.
-- Колонки: `Oroberyl`, `Origeometry`, `Chartered HH Permit`, `Basic HH Permit`, `Arsenal Tickets`.
-- Секционные заголовки: `Events:`, `Permanent Content:`, `Mailbox & Web Events:`, `Recurring Sources:`.
-- Для recurring источников используются строки:
-  - `Daily Activity`
-  - `Weekly Routine`
-  - `Monumental Etching`
-  - `AIC Quota Exchange` (или `AIC Quata Exchange`)
-  - `Urgent Recruit`
-  - `HH Dossier`
-  - `Originium Supply Pass`
-  - `Protocol Customized Pass`
-  - `Monthly Pass`
-  - `Exchange Crate-o-Surprise [M]`
-  - `Exchange Crate-o-Surprise [L]`
+Подробный процесс: `docs/PATCH_WORKFLOW.md`.
