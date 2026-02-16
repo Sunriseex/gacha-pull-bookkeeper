@@ -16,6 +16,7 @@ const (
 	gameIDWuwa     = "wuthering-waves"
 	gameIDZzz      = "zenless-zone-zero"
 	gameIDGenshin  = "genshin-impact"
+	gameIDHsr      = "honkai-star-rail"
 	defaultGameID  = gameIDEndfield
 )
 
@@ -74,6 +75,23 @@ var zzzDataRowToSourceID = map[string]string{
 	"inter-knot membership":  "membership",
 	"f2p exclusive total":    "__totalF2P",
 }
+
+var hsrDataRowToSourceID = map[string]string{
+	"daily training":           "dailyTraining",
+	"weekly modes":             "weeklyModes",
+	"treasures lightward":      "treasuresLightward",
+	"embers store":             "embersStore",
+	"travel log events":        "travelLogEvents",
+	"permanent content":        "permanent",
+	"mailbox & web events":     "mailbox",
+	"mailbox and web events":   "mailbox",
+	"paid battle pass":         "paidBattlePass",
+	"supply pass":              "supplyPass",
+	"f2p limited total":        "__totalF2P",
+	"paid + f2p limited total": "__totalPaid",
+	"paid+f2p limited total":   "__totalPaid",
+}
+
 var profilesByGameID = map[string]gameProfile{
 	gameIDEndfield: {
 		ID:                   gameIDEndfield,
@@ -99,10 +117,16 @@ var profilesByGameID = map[string]gameProfile{
 		DefaultOutputPath:    "src/data/genshin.generated.js",
 		ParseSheet:           parseSheetToPatchGenshin,
 	},
+	gameIDHsr: {
+		ID:                   gameIDHsr,
+		DefaultSpreadsheetID: "2PACX-1vRIWjzFwAZZoBvKw2oiNaVpppI9atoV0wxuOjulKRJECrg_BN404d7LoKlHp8RMX8hegDr4b8jlHjYy",
+		DefaultOutputPath:    "src/data/hsr.generated.js",
+		ParseSheet:           parseSheetToPatchHsr,
+	},
 }
 
 func availableGameIDs() []string {
-	return []string{gameIDEndfield, gameIDWuwa, gameIDZzz, gameIDGenshin}
+	return []string{gameIDEndfield, gameIDWuwa, gameIDZzz, gameIDGenshin, gameIDHsr}
 }
 
 func resolveGameProfile(gameID string) (gameProfile, error) {
@@ -583,6 +607,96 @@ func parseSheetToPatchWuwa(sheetName, csvText string) (Patch, error) {
 	}, nil
 }
 
+func parseSheetToPatchHsr(sheetName, csvText string) (Patch, error) {
+	normalizedSheetName := normalizePatchName(sheetName)
+
+	reader := csv.NewReader(strings.NewReader(csvText))
+	reader.FieldsPerRecord = -1
+	reader.LazyQuotes = true
+	records, err := reader.ReadAll()
+	if err != nil {
+		return Patch{}, fmt.Errorf("csv parse error: %w", err)
+	}
+	if len(records) < 3 {
+		return Patch{}, errors.New("sheet has no data rows")
+	}
+
+	durationDays := findWuwaDurationDays(records)
+	if durationDays <= 0 {
+		return Patch{}, errors.New("unable to determine durationDays from sheet")
+	}
+
+	versionName, startDate := parsePatchHeaderMeta(getCell(records[0], 0))
+	if versionName == "" {
+		versionName = fmt.Sprintf("Version %s", normalizedSheetName)
+	}
+
+	aggregateRows := map[string]Rewards{}
+	for _, record := range records {
+		name := normalizeName(getCell(record, 0))
+		if name == "" {
+			continue
+		}
+		switch name {
+		case "travel log events",
+			"permanent content",
+			"mailbox & web events",
+			"mailbox and web events",
+			"daily training",
+			"weekly modes",
+			"treasures lightward",
+			"embers store",
+			"paid battle pass",
+			"supply pass",
+			"f2p limited total",
+			"paid + f2p limited total",
+			"total f2p",
+			"total paid":
+			aggregateRows[name] = parseHsrRewards(record)
+		}
+	}
+
+	travelLogEvents, okTravelLogEvents := aggregateRows["travel log events"]
+	permanent, okPermanent := aggregateRows["permanent content"]
+	mailbox, okMailbox := aggregateRows["mailbox & web events"]
+	if !okMailbox {
+		mailbox = aggregateRows["mailbox and web events"]
+		okMailbox = mailbox.hasAny()
+	}
+	dailyTraining, okDailyTraining := aggregateRows["daily training"]
+	weeklyModes, okWeeklyModes := aggregateRows["weekly modes"]
+	treasuresLightward, okTreasuresLightward := aggregateRows["treasures lightward"]
+	embersStore, okEmbersStore := aggregateRows["embers store"]
+
+	if !okTravelLogEvents || !okPermanent || !okMailbox || !okDailyTraining || !okWeeklyModes || !okTreasuresLightward || !okEmbersStore {
+		return Patch{}, errors.New("missing required aggregate rows in HSR sheet")
+	}
+
+	paidBattlePass := aggregateRows["paid battle pass"]
+	supplyPass := aggregateRows["supply pass"]
+
+	sources := []Source{
+		source("dailyTraining", "Daily Training", "always", nil, true, dailyTraining),
+		source("weeklyModes", "Weekly Modes", "always", nil, true, weeklyModes),
+		source("treasuresLightward", "Treasures Lightward", "always", nil, true, treasuresLightward),
+		source("embersStore", "Embers Store", "always", nil, true, embersStore),
+		source("travelLogEvents", "Travel Log Events", "always", nil, true, travelLogEvents),
+		source("permanent", "Permanent Content", "always", nil, true, permanent),
+		source("mailbox", "Mailbox & Web Events", "always", nil, true, mailbox),
+		source("paidBattlePass", "Paid Battle Pass", "bp2", nil, true, paidBattlePass),
+		source("supplyPass", "Supply Pass", "monthly", nil, true, supplyPass),
+	}
+
+	return Patch{
+		ID:           normalizedSheetName,
+		Patch:        normalizedSheetName,
+		VersionName:  versionName,
+		StartDate:    startDate,
+		DurationDays: durationDays,
+		Notes:        "Generated from Honkai: Star Rail Google Sheets by patchsync",
+		Sources:      sources,
+	}, nil
+}
 func parseSheetToPatchZzz(sheetName, csvText string) (Patch, error) {
 	normalizedSheetName := normalizePatchName(sheetName)
 
@@ -680,6 +794,14 @@ func parseSheetToPatchZzz(sheetName, csvText string) (Patch, error) {
 	}, nil
 }
 
+func parseHsrRewards(record []string) Rewards {
+	return Rewards{
+		Oroberyl:  parseNumber(getCell(record, 1)),
+		Chartered: parseNumber(getCell(record, 2)),
+		Basic:     parseNumber(getCell(record, 3)),
+	}
+}
+
 func parseZzzRewards(record []string) Rewards {
 	return Rewards{
 		Oroberyl:  parseNumber(getCell(record, 1)),
@@ -761,6 +883,10 @@ func parseWuwaDataSheet(csvText string) (map[string]map[string]float64, error) {
 
 func parseZzzDataSheet(csvText string) (map[string]map[string]float64, error) {
 	return parseDataSheetPulls(csvText, zzzDataRowToSourceID)
+}
+
+func parseHsrDataSheet(csvText string) (map[string]map[string]float64, error) {
+	return parseDataSheetPulls(csvText, hsrDataRowToSourceID)
 }
 
 func parseDataPullValue(raw string) (float64, bool) {
@@ -897,6 +1023,63 @@ func applyWuwaDataPullOverrides(patch *Patch, pullsByPatch map[string]map[string
 	return nil
 }
 
+func applyHsrDataPullOverrides(patch *Patch, pullsByPatch map[string]map[string]float64) error {
+	if patch == nil {
+		return errors.New("patch is nil")
+	}
+	patchName := normalizePatchName(patch.Patch)
+	sourcePulls, ok := lookupSourcePullsByPatchName(pullsByPatch, patchName)
+	if !ok {
+		return fmt.Errorf("Data sheet has no row for patch %q", patchName)
+	}
+
+	sourceIndex := map[string]int{}
+	for idx, src := range patch.Sources {
+		sourceIndex[src.ID] = idx
+	}
+	for sourceID, value := range sourcePulls {
+		if sourceID == "__totalF2P" || sourceID == "__totalPaid" {
+			continue
+		}
+		if idx, okSource := sourceIndex[sourceID]; okSource {
+			v := roundToTenth(value)
+			patch.Sources[idx].Pulls = &v
+		}
+	}
+
+	if total, hasTotal := sourcePulls["__totalF2P"]; hasTotal {
+		f2pSourceIDs := map[string]struct{}{
+			"dailyTraining":      {},
+			"weeklyModes":        {},
+			"treasuresLightward": {},
+			"embersStore":        {},
+			"travelLogEvents":    {},
+			"permanent":          {},
+			"mailbox":            {},
+		}
+		sum := 0.0
+		for _, src := range patch.Sources {
+			if src.Pulls != nil && src.CountInPulls {
+				if _, okF2P := f2pSourceIDs[src.ID]; !okF2P {
+					continue
+				}
+				sum += *src.Pulls
+			}
+		}
+		delta := total - sum
+		if absFloat(delta) > 0.0001 {
+			if idx, okAdjust := sourceIndex["permanent"]; okAdjust {
+				base := 0.0
+				if patch.Sources[idx].Pulls != nil {
+					base = *patch.Sources[idx].Pulls
+				}
+				v := roundToTenth(base + delta)
+				patch.Sources[idx].Pulls = &v
+			}
+		}
+	}
+	return nil
+}
 func applyZzzDataPullOverrides(patch *Patch, pullsByPatch map[string]map[string]float64) error {
 	if patch == nil {
 		return errors.New("patch is nil")

@@ -47,11 +47,19 @@ const GENSHIN_ICONS = {
   basic: "./assets/Genshin/Acquaint_Fate.webp",
 };
 
+const HSR_ICONS = {
+  oroberyl: "./assets/HSR/Stellar_Jade.webp",
+  origeometry: "./assets/HSR/Stellar_Jade.webp",
+  chartered: "./assets/HSR/Star_Rail_Special_Pass.webp",
+  basic: "./assets/HSR/Star_Rail_Pass.webp",
+};
+
 const GAME_ICON_SETS = {
   "arknights-endfield": END_FIELD_ICONS,
   "wuthering-waves": WUWA_ICONS,
   "zenless-zone-zero": ZZZ_ICONS,
   "genshin-impact": GENSHIN_ICONS,
+  "honkai-star-rail": HSR_ICONS,
 };
 
 const getIconByKey = (gameId, key) => {
