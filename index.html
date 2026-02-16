@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Endfield Bookkeeper</title>
+  <title>Gacha Pull Bookkeeper</title>
   <link rel="icon" type="image/png" href="assets/favicon.png">
   <link rel="stylesheet" href="src/styles.css">
 </head>
@@ -22,7 +22,7 @@
   </div>
   <main class="app">
     <header class="app-header">
-      <h1>Arknights: Endfield Bookkeeper</h1>
+      <h1 id="appTitle">Gacha Pull Bookkeeper</h1>
       <div class="app-quick-actions">
         <a
           id="repoLink"
@@ -41,51 +41,25 @@
       </div>
     </header>
 
+    <section class="panel game-tabs-panel">
+      <div id="gameTabs" class="game-tabs" aria-label="Game selector"></div>
+    </section>
+
     <section class="panel">
-      <h2>Chartered headhunts per version</h2>
+      <h2 id="chartTitle">Character pulls per version</h2>
       <canvas id="patchChart" width="1200" height="420" aria-label="График источников круток"></canvas>
     </section>
 
     <section class="panel controls-panel">
       <div class="control-row">
-        <span class="control-label">Battle Pass</span>
-        <div class="bp-minimal">
-          <label>
-            <input type="radio" name="battlePassTier" value="1" checked>
-            <span>Basic</span>
-          </label>
-          <label>
-            <input type="radio" name="battlePassTier" value="2">
-            <span>Originium</span>
-          </label>
-          <label>
-            <input type="radio" name="battlePassTier" value="3">
-            <span>Protocol</span>
-          </label>
-        </div>
+        <span id="battlePassLabel" class="control-label">Battle Pass</span>
+        <div id="battlePassTierGroup" class="bp-minimal"></div>
       </div>
       <label class="monthly-minimal" for="monthlySub">
-        <span>Monthly Pass</span>
+        <span id="monthlyLabel">Monthly Pass</span>
         <input id="monthlySub" type="checkbox">
       </label>
-      <div class="option-flags">
-        <label class="flag-toggle" for="optBpCrates">
-          <input id="optBpCrates" type="checkbox" checked>
-          <span>Include BP 60+ Crates [M]/[L]</span>
-        </label>
-        <label class="flag-toggle" for="optAicQuota">
-          <input id="optAicQuota" type="checkbox" checked>
-          <span>AIC Quota Exchange</span>
-        </label>
-        <label class="flag-toggle" for="optUrgentRecruit">
-          <input id="optUrgentRecruit" type="checkbox" checked>
-          <span>Urgent Recruit</span>
-        </label>
-        <label class="flag-toggle" for="optHhDossier">
-          <input id="optHhDossier" type="checkbox" checked>
-          <span>HH Dossier</span>
-        </label>
-      </div>
+      <div id="optionFlags" class="option-flags"></div>
     </section>
 
     <section class="panel">

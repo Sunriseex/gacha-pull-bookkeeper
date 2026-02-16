@@ -15,70 +15,90 @@ const formatSmart = (n) => {
 
 const safeAvg = (sum, count) => (count > 0 ? sum / count : 0);
 
-const ICONS = {
-  Oroberyl: "./assets/icons/Oroberyl.png",
-  Origeometry: "./assets/icons/Origeometry.png",
-  "Arsenal Tickets": "./assets/icons/Arsenal_Ticket.png",
-  "Basic HH Permit": "./assets/icons/Basic_HH_Permit.png",
-  "Chartered HH Permit": "./assets/icons/Chartered_HH_Permit.png",
-  "Timed Event Permits": "./assets/icons/Timed_HH_Permit.png",
+const END_FIELD_ICONS = {
+  oroberyl: "./assets/icons/Oroberyl.png",
+  origeometry: "./assets/icons/Origeometry.png",
+  arsenal: "./assets/icons/Arsenal_Ticket.png",
+  basic: "./assets/icons/Basic_HH_Permit.png",
+  chartered: "./assets/icons/Chartered_HH_Permit.png",
+  timed: "./assets/icons/Timed_HH_Permit.png",
 };
 
-const cardsConfig = (totals, rates) => {
+const WUWA_ICONS = {
+  oroberyl: "./assets/WuWa/Astrite.webp",
+  chartered: "./assets/WuWa/Radiant_Tide.webp",
+  timed: "./assets/WuWa/Forging_Tide.webp",
+  basic: "./assets/WuWa/Lustrous_Tide.webp",
+  arsenal: "./assets/WuWa/Forging_Tide.webp",
+};
+
+const GAME_ICON_SETS = {
+  "arknights-endfield": END_FIELD_ICONS,
+  "wuthering-waves": WUWA_ICONS,
+};
+
+const getIconByKey = (gameId, key) => {
+  const iconSet = GAME_ICON_SETS[gameId];
+  return iconSet?.[key] ?? null;
+};
+
+const cardsConfig = (totals, game) => {
+  const rates = game?.rates ?? {
+    ORIGEOMETRY_TO_OROBERYL: 75,
+    ORIGEOMETRY_TO_ARSENAL: 25,
+  };
+  const labels = game?.ui?.resourceLabels ?? {};
   const avgPulls = safeAvg(totals.totalCharacterPullsNoBasicExact, totals.patchCount);
   const origeometryAsOroberyl = totals.origeometry * rates.ORIGEOMETRY_TO_OROBERYL;
   const origeometryAsArsenal = totals.origeometry * rates.ORIGEOMETRY_TO_ARSENAL;
+  const pullSummaryLabel =
+    game?.ui?.pullSummaryLabel ?? "Total Character Pulls (No Basic)";
 
   return [
-    { label: "Total Character Pulls (No Basic)", value: Math.round(totals.totalCharacterPullsNoBasicExact * 10) / 10 },
+    { label: pullSummaryLabel, value: Math.round(totals.totalCharacterPullsNoBasicExact * 10) / 10 },
     { label: "Avg Pulls Per Patch", value: Math.round(avgPulls * 10) / 10 },
     { label: "Pulls From Currency", value: Math.round(totals.currencyPullsExact * 10) / 10 },
     {
-      label: "Chartered HH Permit",
+      label: labels.chartered ?? "Chartered HH Permit",
       value: totals.chartered,
-      icon: ICONS["Chartered HH Permit"],
+      icon: getIconByKey(game?.id, "chartered"),
     },
     {
-      label: "Timed Event Permits",
+      label: labels.timed ?? "Timed Event Permits",
       value: totals.timedPermits,
-      icon: ICONS["Timed Event Permits"],
+      icon: getIconByKey(game?.id, "timed"),
     },
     {
-      label: "Basic HH Permit",
+      label: labels.basic ?? "Basic HH Permit",
       value: totals.basic,
-      icon: ICONS["Basic HH Permit"],
+      icon: getIconByKey(game?.id, "basic"),
     },
     {
-      label: "Arsenal Tickets",
+      label: labels.arsenal ?? "Arsenal Tickets",
       value: totals.arsenal,
-      icon: ICONS["Arsenal Tickets"],
+      icon: getIconByKey(game?.id, "arsenal"),
+      hidden: totals.arsenal <= 0,
     },
     {
-      label: "Oroberyl",
+      label: labels.oroberyl ?? "Oroberyl",
       value: totals.oroberyl,
-      icon: ICONS.Oroberyl,
+      icon: getIconByKey(game?.id, "oroberyl"),
     },
     {
-      label: "Origeometry",
+      label: labels.origeometry ?? "Origeometry",
       value: totals.origeometry,
-      icon: ICONS.Origeometry,
+      icon: getIconByKey(game?.id, "origeometry"),
       className: "origeometry-card",
-      hint: `as Oroberyl: ${format(origeometryAsOroberyl)} | as Arsenal: ${format(origeometryAsArsenal)}`,
+      hint: `as ${labels.oroberyl ?? "Oroberyl"}: ${format(origeometryAsOroberyl)} | as ${labels.arsenal ?? "Arsenal"}: ${format(origeometryAsArsenal)}`,
+      hidden: totals.origeometry <= 0,
     },
     { label: "Patch Count", value: totals.patchCount },
-  ];
+  ].filter((card) => !card.hidden);
 };
 
-export const renderTotals = (
-  target,
-  totals,
-  rates = {
-    ORIGEOMETRY_TO_OROBERYL: 75,
-    ORIGEOMETRY_TO_ARSENAL: 25,
-  },
-) => {
+export const renderTotals = (target, totals, game) => {
   target.innerHTML = "";
-  for (const cardConfig of cardsConfig(totals, rates)) {
+  for (const cardConfig of cardsConfig(totals, game)) {
     const { label, value, hint, icon, className } = cardConfig;
     const card = document.createElement("article");
     card.className = `result-card${className ? ` ${className}` : ""}${

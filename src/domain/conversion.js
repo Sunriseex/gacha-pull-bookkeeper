@@ -1,4 +1,4 @@
-import { GAME_RATES } from "../config/gameConfig.js";
+import { DEFAULT_RATES } from "../config/gameConfig.js";
 
 const asNumber = (value) => {
   const n = Number(value);
@@ -10,16 +10,16 @@ const resolveRate = (rates, key) => {
   if (candidate > 0) {
     return candidate;
   }
-  return asNumber(GAME_RATES[key]);
+  return asNumber(DEFAULT_RATES[key]);
 };
 
-export const origeometryToOroberyl = (origeometry, rates = GAME_RATES) =>
+export const origeometryToOroberyl = (origeometry, rates = DEFAULT_RATES) =>
   Math.floor(asNumber(origeometry) * resolveRate(rates, "ORIGEOMETRY_TO_OROBERYL"));
 
-export const origeometryToArsenalTickets = (origeometry, rates = GAME_RATES) =>
+export const origeometryToArsenalTickets = (origeometry, rates = DEFAULT_RATES) =>
   Math.floor(asNumber(origeometry) * resolveRate(rates, "ORIGEOMETRY_TO_ARSENAL"));
 
-export const oroberylToPulls = (oroberyl, rates = GAME_RATES) => {
+export const oroberylToPulls = (oroberyl, rates = DEFAULT_RATES) => {
   const pullRate = resolveRate(rates, "OROBERYL_PER_PULL");
   if (pullRate <= 0) {
     return 0;

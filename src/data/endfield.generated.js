@@ -14,6 +14,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 33,
         "rewards": {
           "oroberyl": 3000,
           "origeometry": 0,
@@ -42,6 +43,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 131,
         "rewards": {
           "oroberyl": 65515,
           "origeometry": 153,
@@ -70,6 +72,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 31.7,
         "rewards": {
           "oroberyl": 10829,
           "origeometry": 0,
@@ -98,6 +101,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 19.6,
         "rewards": {
           "oroberyl": 9800,
           "origeometry": 0,
@@ -126,6 +130,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 7,
         "rewards": {
           "oroberyl": 3500,
           "origeometry": 0,
@@ -154,6 +159,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 4.8,
         "rewards": {
           "oroberyl": 2400,
           "origeometry": 0,
@@ -182,6 +188,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": "includeAicQuotaExchange",
         "countInPulls": true,
+        "pulls": 15,
         "rewards": {
           "oroberyl": 0,
           "origeometry": 0,
@@ -378,6 +385,7 @@ export const GENERATED_PATCHES = [
         "gate": "bp2",
         "optionKey": "includeBpCrates",
         "countInPulls": true,
+        "pulls": 2.2,
         "rewards": {
           "oroberyl": 1102,
           "origeometry": 0,
@@ -444,9 +452,10 @@ export const GENERATED_PATCHES = [
   }
 ];
 export const GENERATED_PATCHES_META = {
+  "gameId": "arknights-endfield",
   "spreadsheetId": "1zGNuQ53R7c190RG40dHxcHv8tJuT3cBaclm8CjI-luY",
   "sheets": [
     "1.0"
   ],
-  "generatedAt": "2026-02-15T22:25:18Z"
+  "generatedAt": "2026-02-16T00:05:26Z"
 };

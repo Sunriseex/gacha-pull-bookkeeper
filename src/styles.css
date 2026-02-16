@@ -1,6 +1,6 @@
 :root {
   color-scheme: dark;
-  --font-main: "Segoe UI", "Noto Sans", sans-serif;
+  --font-main: "Manrope", "Segoe UI", "Noto Sans", sans-serif;
   --bg: #020617;
   --panel: rgba(2, 6, 23, 0.72);
   --panel-border: rgba(148, 163, 184, 0.22);
@@ -120,6 +120,41 @@ body {
   border: 1px solid var(--panel-border);
   background: var(--panel);
   backdrop-filter: blur(6px);
+}
+
+.game-tabs-panel {
+  padding: 10px;
+}
+
+.game-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.game-tab {
+  border: 1px solid rgba(148, 163, 184, 0.28);
+  border-radius: 999px;
+  background: rgba(15, 23, 42, 0.68);
+  color: #cbd5e1;
+  padding: 7px 12px;
+  font-size: 0.86rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: border-color 0.24s ease, background-color 0.24s ease,
+    color 0.24s ease, transform 0.24s ease;
+}
+
+.game-tab:hover {
+  border-color: rgba(192, 132, 252, 0.7);
+  background: rgba(76, 29, 149, 0.24);
+  color: #f3e8ff;
+}
+
+.game-tab.active {
+  border-color: rgba(192, 132, 252, 0.9);
+  background: rgba(109, 40, 217, 0.32);
+  color: #faf5ff;
 }
 
 h2 {
@@ -312,6 +347,10 @@ h2 {
   flex-wrap: wrap;
   gap: 8px;
   margin-top: 4px;
+}
+
+.option-flags.empty {
+  display: none;
 }
 
 .flag-toggle {
