@@ -145,8 +145,8 @@ const validateSource = (src, context) => {
   }
   if (src.pulls !== null && src.pulls !== undefined) {
     assert(
-      Number.isFinite(Number(src.pulls)) && Number(src.pulls) >= 0,
-      `${context}.pulls must be a non-negative number`,
+      Number.isFinite(Number(src.pulls)),
+      `${context}.pulls must be numeric`,
     );
   }
   validateRewardsShape(src.rewards, `${context}.rewards`);
@@ -604,12 +604,12 @@ export const GAME_CATALOG = {
         timed: ["firewalker", "messenger", "hues"],
       },
       defaultOptions: {
-        monthlySub: true,
-        battlePassTier: 1,
+        monthlySub: false,
+        battlePassTier: 2,
         includeBpCrates: true,
         includeAicQuotaExchange: true,
-        includeUrgentRecruit: true,
-        includeHhDossier: true,
+        includeUrgentRecruit: false,
+        includeHhDossier: false,
       },
       ui: {
         chartTitle: "Character pulls per version",
@@ -654,7 +654,7 @@ export const GAME_CATALOG = {
         timed: ["firewalker"],
       },
       defaultOptions: {
-        monthlySub: true,
+        monthlySub: false,
         battlePassTier: 1,
       },
       ui: {
@@ -694,7 +694,7 @@ export const GAME_CATALOG = {
         timed: [],
       },
       defaultOptions: {
-        monthlySub: true,
+        monthlySub: false,
         battlePassTier: 1,
       },
       ui: {
@@ -714,8 +714,7 @@ export const GAME_CATALOG = {
           oroberyl: "Polychromes",
           origeometry: "Monochrome",
           arsenal: "Boopons",
-          chartered: "Encrypted Master Tape",
-          timed: "Limited Pull Items",
+          chartered: "Encrypted Master Tape",
           basic: "Master Tape",
         },
       },
@@ -734,7 +733,7 @@ export const GAME_CATALOG = {
         timed: [],
       },
       defaultOptions: {
-        monthlySub: true,
+        monthlySub: false,
         battlePassTier: 1,
       },
       ui: {
@@ -754,8 +753,7 @@ export const GAME_CATALOG = {
           oroberyl: "Primogems",
           origeometry: "Genesis Crystals",
           arsenal: "Masterless Starglitter",
-          chartered: "Intertwined Fate",
-          timed: "Limited Wish Items",
+          chartered: "Intertwined Fate",
           basic: "Acquaint Fate",
         },
       },

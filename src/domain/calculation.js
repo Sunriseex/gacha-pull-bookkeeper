@@ -226,7 +226,7 @@ const sourcePullValue = (source, permitKeys, rates) => {
     source.pulls !== null &&
     Number.isFinite(Number(source.pulls))
   ) {
-    return Math.max(0, Number(source.pulls));
+    return Number(source.pulls);
   }
   const rewards = source.rewards ?? {};
   const perPull = resolveRate(rates, "OROBERYL_PER_PULL");
@@ -242,12 +242,43 @@ const sourcePullValue = (source, permitKeys, rates) => {
   return currencyPulls + permitPulls;
 };
 
+const normalizeBreakdownForStackedChart = (segments) => {
+  const normalized = segments.map((segment) => ({ ...segment }));
+  const negativeTotal = normalized
+    .filter((segment) => segment.value < 0)
+    .reduce((sum, segment) => sum + Math.abs(segment.value), 0);
+
+  // Keep totals consistent even when source data includes corrective negative pulls.
+  if (negativeTotal > 0) {
+    let remaining = negativeTotal;
+    const positiveIndices = normalized
+      .map((segment, idx) => ({ idx, value: segment.value }))
+      .filter((entry) => entry.value > 0)
+      .sort((a, b) => b.value - a.value)
+      .map((entry) => entry.idx);
+
+    for (const idx of positiveIndices) {
+      if (remaining <= 0) {
+        break;
+      }
+      const current = normalized[idx].value;
+      const deduction = Math.min(current, remaining);
+      normalized[idx].value = current - deduction;
+      remaining -= deduction;
+    }
+  }
+
+  return normalized.filter((segment) => segment.value > 0);
+};
+
 const sourceBreakdown = (sources, permitKeys, rates) =>
-  sources.map((source) => ({
-    id: source.id,
-    label: source.label,
-    value: sourcePullValue(source, permitKeys, rates),
-  })).filter((source) => source.value > 0);
+  normalizeBreakdownForStackedChart(
+    sources.map((source) => ({
+      id: source.id,
+      label: source.label,
+      value: sourcePullValue(source, permitKeys, rates),
+    })),
+  );
 
 export const calculatePatchTotals = (row, options, gameOrRates = {}) => {
   const rates = resolveRates(gameOrRates);
