@@ -1,12 +1,17 @@
 # Gacha Pull Bookkeeper
 
-Локальное веб-приложение для подсчета круток по патчам.
+Локальное веб-приложение для подсчета круток по патчам из Google Sheets.
 
 Поддерживаемые игры:
 - Arknights: Endfield
 - Wuthering Waves
 
-## Быстрый старт
+## Требования
+
+- `Python 3` (для локального статического сервера)
+- `Go 1.22+` (для `tools/patchsync`)
+
+## Локальный запуск
 
 ```bash
 python -m http.server 5173
@@ -14,15 +19,17 @@ python -m http.server 5173
 
 Открой `http://localhost:5173`.
 
-## Где лежат данные
+## Структура данных
 
-- База игр и патчей: `src/data/patches.js`
-- Импорт Endfield: `src/data/endfield.generated.js`
-- Импорт Wuthering Waves: `src/data/wuwa.generated.js`
+- Каталог игр, UI-конфиг и базовые патчи: `src/data/patches.js`
+- Сгенерированные патчи Endfield: `src/data/endfield.generated.js`
+- Сгенерированные патчи Wuthering Waves: `src/data/wuwa.generated.js`
 
-## Синхронизация из Google Sheets (patchsync)
+## Синхронизация из Google Sheets
 
-Запуск локального сервиса:
+`patchsync` находится в `tools/patchsync`.
+
+Режим сервиса (для кнопки Sync в UI):
 
 ```bash
 cd tools/patchsync
@@ -33,6 +40,7 @@ CLI режим:
 
 ```bash
 cd tools/patchsync
+go run . --game arknights-endfield --spreadsheet-id "<sheet_id_or_url>"
 go run . --game wuthering-waves --spreadsheet-id "<sheet_id_or_url>"
 ```
 
@@ -41,12 +49,18 @@ go run . --game wuthering-waves --spreadsheet-id "<sheet_id_or_url>"
 - `wuthering-waves`
 
 Что делает sync:
-- ищет только листы формата `N.N`;
+- ищет листы патчей по имени версии (`N.N`, для Wuwa также поддерживаются суффиксы вроде `3.1 (STC)`);
+- читает `Data` лист и применяет pulls override по источникам;
 - пропускает патчи без изменений;
 - обновляет патчи, если данные в листе изменились;
-- пишет результат в game-specific generated файл.
+- пишет результат в соответствующий generated файл игры.
 
-## Owner-only обновление данных
+Полезные флаги:
+- `--dry-run` — валидация без записи файла;
+- `--skip-existing=true` — пропуск патчей без изменений (по умолчанию включено);
+- `--output <path>` — кастомный путь output-файла.
+
+## Owner-only поток обновления
 
 - меняй данные только через commit/PR;
 - оставь write-доступ к репозиторию только себе;
