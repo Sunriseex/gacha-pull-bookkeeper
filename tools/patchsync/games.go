@@ -736,6 +736,9 @@ func applyWuwaDataPullOverrides(patch *Patch, pullsByPatch map[string]map[string
 					base = *patch.Sources[idx].Pulls
 				}
 				v := roundToTenth(base + delta)
+				if v < 0 {
+					v = 0
+				}
 				patch.Sources[idx].Pulls = &v
 			}
 		}
@@ -795,6 +798,9 @@ func applyZzzDataPullOverrides(patch *Patch, pullsByPatch map[string]map[string]
 					base = *patch.Sources[idx].Pulls
 				}
 				v := roundToTenth(base + delta)
+				if v < 0 {
+					v = 0
+				}
 				patch.Sources[idx].Pulls = &v
 			}
 		}

@@ -17579,8 +17579,8 @@ export const GENERATED_PATCHES = [
     ]
   },
   {
-    "id": "6.4 est.",
-    "patch": "6.4 est.",
+    "id": "6.4",
+    "patch": "6.4",
     "versionName": "Version 6.4 est.",
     "startDate": "",
     "durationDays": 42,

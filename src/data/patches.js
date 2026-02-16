@@ -760,7 +760,8 @@ export const GAME_CATALOG = {
         },
       },
       patches: GENSHIN_BASE_PATCHES,
-    },`r`n  ],
+    },
+  ],
 };
 
 const generatedByGame = {
