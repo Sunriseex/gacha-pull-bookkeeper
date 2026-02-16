@@ -26,6 +26,8 @@ const getInitialGame = () => {
 const state = {
   game: getInitialGame(),
   optionsByGame: {},
+  currentBackgroundUrl: "",
+  bgTransitionTimer: null,
 };
 
 const refs = {
@@ -42,7 +44,8 @@ const refs = {
   uiToggleBtn: document.querySelector("#uiToggleBtn"),
   totals: document.querySelector("#totals"),
   chart: document.querySelector("#patchChart"),
-  bgOverlay: document.querySelector(".bg-overlay"),
+  bgOverlayBase: document.querySelector(".bg-overlay-base"),
+  bgOverlayFade: document.querySelector(".bg-overlay-fade"),
 };
 
 const getRows = () => state.game.patches ?? [];
@@ -157,6 +160,29 @@ const renderControlsForGame = () => {
   refs.monthlySub.checked = Boolean(options.monthlySub);
   renderBattlePassControls();
   renderOptionFlags();
+};
+
+const renderUidButtonForGame = (game) => {
+  if (!refs.uidCopyBtn) {
+    return;
+  }
+
+  const uid = String(game?.ui?.ownerUid ?? "").trim();
+  if (!uid) {
+    refs.uidCopyBtn.hidden = true;
+    refs.uidCopyBtn.dataset.uid = "";
+    refs.uidCopyBtn.dataset.defaultLabel = "";
+    refs.uidCopyBtn.textContent = "";
+    refs.uidCopyBtn.classList.remove("copied", "copy-failed");
+    return;
+  }
+
+  const label = `UID: ${uid}`;
+  refs.uidCopyBtn.hidden = false;
+  refs.uidCopyBtn.dataset.uid = uid;
+  refs.uidCopyBtn.dataset.defaultLabel = label;
+  refs.uidCopyBtn.classList.remove("copied", "copy-failed");
+  refs.uidCopyBtn.textContent = label;
 };
 
 const runPatchsyncImport = async () => {
@@ -281,15 +307,39 @@ const resolveBackgroundImage = (game) =>
   game?.ui?.backgroundImage || "./assets/backgrounds/endfield_background.png";
 
 const applyGameBackground = (game) => {
-  if (!refs.bgOverlay) {
+  if (!refs.bgOverlayBase || !refs.bgOverlayFade) {
     return;
   }
+
   const backgroundPath = resolveBackgroundImage(game);
-  const absoluteBackgroundUrl = new URL(backgroundPath, window.location.href).href;
-  refs.bgOverlay.style.setProperty(
-    "--game-bg-image",
-    `url("${absoluteBackgroundUrl}")`,
-  );
+  const nextUrl = new URL(backgroundPath, window.location.href).href;
+
+  if (!state.currentBackgroundUrl) {
+    refs.bgOverlayBase.style.setProperty("--game-bg-image", `url("${nextUrl}")`);
+    refs.bgOverlayFade.style.setProperty("--game-bg-image", `url("${nextUrl}")`);
+    state.currentBackgroundUrl = nextUrl;
+    return;
+  }
+
+  if (state.currentBackgroundUrl === nextUrl) {
+    return;
+  }
+
+  refs.bgOverlayFade.style.setProperty("--game-bg-image", `url("${nextUrl}")`);
+  refs.bgOverlayFade.classList.remove("is-visible");
+  void refs.bgOverlayFade.offsetWidth;
+  refs.bgOverlayFade.classList.add("is-visible");
+
+  if (state.bgTransitionTimer) {
+    window.clearTimeout(state.bgTransitionTimer);
+  }
+
+  state.bgTransitionTimer = window.setTimeout(() => {
+    refs.bgOverlayBase.style.setProperty("--game-bg-image", `url("${nextUrl}")`);
+    refs.bgOverlayFade.classList.remove("is-visible");
+    state.currentBackgroundUrl = nextUrl;
+    state.bgTransitionTimer = null;
+  }, 600);
 };
 const applyGame = (gameId) => {
   state.game = getGameById(gameId);
@@ -298,6 +348,7 @@ const applyGame = (gameId) => {
   refs.chartTitle.textContent = state.game.ui?.chartTitle ?? "Pulls per version";
   renderGameTabs();
   renderControlsForGame();
+  renderUidButtonForGame(state.game);
   applyGameBackground(state.game);
   renderDashboard();
 };

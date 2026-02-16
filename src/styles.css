@@ -38,22 +38,35 @@ body {
 .bg-overlay {
   position: fixed;
   inset: 0;
-  z-index: -1;
+  pointer-events: none;
   background-image:
     linear-gradient(rgba(2, 6, 23, 0.68), rgba(2, 6, 23, 0.9)),
     var(--game-bg-image, url("../assets/backgrounds/endfield_background.png"));
   background-size: cover;
   background-position: center;
-  opacity: 0.45;
-  transition: opacity 0.45s cubic-bezier(0.22, 1, 0.36, 1),
-    filter 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+  transition: opacity 0.55s cubic-bezier(0.22, 1, 0.36, 1),
+    filter 0.55s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
-.ui-hidden .bg-overlay {
+.bg-overlay-base {
+  z-index: -2;
+  opacity: 0.45;
+}
+
+.bg-overlay-fade {
+  z-index: -1;
+  opacity: 0;
+}
+
+.bg-overlay-fade.is-visible {
+  opacity: 0.45;
+}
+
+.ui-hidden .bg-overlay-base,
+.ui-hidden .bg-overlay-fade.is-visible {
   opacity: 0.95;
   filter: saturate(1.08) brightness(1.05);
 }
-
 .ui-toggle-btn {
   border: 1px solid rgba(168, 85, 247, 0.55);
   border-radius: 999px;
