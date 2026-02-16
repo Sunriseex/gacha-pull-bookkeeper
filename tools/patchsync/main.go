@@ -29,12 +29,15 @@ const (
 )
 
 var versionSheetPattern = regexp.MustCompile(`^\d+\.\d+$`)
-var versionLikeSheetPattern = regexp.MustCompile(`^\d+\.\d+(?:\s*\([^)]+\))?$`)
+var versionLikeSheetPattern = regexp.MustCompile(`^\d+\.\d+(?:\*+)?(?:\s*(?:\([^)]+\)|[A-Za-z][A-Za-z0-9 ._-]*))?$`)
 var versionPrefixPattern = regexp.MustCompile(`^\s*(\d+)\.(\d+)`)
 var spreadsheetIDFromURLPattern = regexp.MustCompile(`/spreadsheets/d/([a-zA-Z0-9-_]+)`)
+var publishedSpreadsheetIDFromURLPattern = regexp.MustCompile(`/spreadsheets/d/e/([a-zA-Z0-9-_]+)`)
 var patchFieldPattern = regexp.MustCompile(`(?m)(?:\bpatch\s*:|"patch"\s*:)\s*"(\d+\.\d+)"`)
 var generatedPatchesBlockPattern = regexp.MustCompile(`(?s)export const GENERATED_PATCHES\s*=\s*(\[[\s\S]*?\]);`)
 var sheetTabCaptionPattern = regexp.MustCompile(`docs-sheet-tab-caption\">([^<]+)</div>`)
+var publishedSheetItemPattern = regexp.MustCompile(`items\.push\(\{name:\s*"([^"]+)"[\s\S]*?gid:\s*"(-?\d+)"`)
+var publishedSheetGIDCache sync.Map
 
 func normalizeSheetNameForMatch(raw string) string {
 	return strings.Join(strings.Fields(strings.TrimSpace(raw)), " ")
@@ -42,6 +45,11 @@ func normalizeSheetNameForMatch(raw string) string {
 
 func isVersionLikeSheetName(raw string) bool {
 	return versionLikeSheetPattern.MatchString(normalizeSheetNameForMatch(raw))
+}
+
+func isPublishedSpreadsheetID(raw string) bool {
+	trimmed := strings.TrimSpace(raw)
+	return strings.HasPrefix(trimmed, "2PACX-")
 }
 
 type Rewards struct {
@@ -620,8 +628,91 @@ func sheetCSVURL(spreadsheetID, sheetName string) string {
 	)
 }
 
+func publishedSheetCSVURL(spreadsheetID, gid string) string {
+	return fmt.Sprintf(
+		"https://docs.google.com/spreadsheets/d/e/%s/pub?gid=%s&single=true&output=csv",
+		url.PathEscape(strings.TrimSpace(spreadsheetID)),
+		url.QueryEscape(strings.TrimSpace(gid)),
+	)
+}
+
+func parsePublishedSheetGIDsFromHTML(body string) map[string]string {
+	result := map[string]string{}
+	matches := publishedSheetItemPattern.FindAllStringSubmatch(body, -1)
+	for _, match := range matches {
+		if len(match) < 3 {
+			continue
+		}
+		name := strings.TrimSpace(html.UnescapeString(match[1]))
+		gid := strings.TrimSpace(match[2])
+		if name == "" || gid == "" {
+			continue
+		}
+		if _, exists := result[name]; !exists {
+			result[name] = gid
+		}
+	}
+	return result
+}
+
+func discoverPublishedSheetGIDs(ctx context.Context, client *http.Client, spreadsheetID string) (map[string]string, error) {
+	pubHTMLURL := fmt.Sprintf(
+		"https://docs.google.com/spreadsheets/d/e/%s/pubhtml",
+		url.PathEscape(strings.TrimSpace(spreadsheetID)),
+	)
+	body, err := fetchText(ctx, client, pubHTMLURL)
+	if err != nil {
+		return nil, err
+	}
+	gidByName := parsePublishedSheetGIDsFromHTML(body)
+	if len(gidByName) == 0 {
+		return nil, errors.New("no sheet names found in published HTML")
+	}
+	return gidByName, nil
+}
+
+func getPublishedSheetGIDs(ctx context.Context, client *http.Client, spreadsheetID string) (map[string]string, error) {
+	cacheKey := strings.TrimSpace(spreadsheetID)
+	if cached, ok := publishedSheetGIDCache.Load(cacheKey); ok {
+		if typed, okTyped := cached.(map[string]string); okTyped && len(typed) > 0 {
+			return typed, nil
+		}
+	}
+	gidByName, err := discoverPublishedSheetGIDs(ctx, client, spreadsheetID)
+	if err != nil {
+		return nil, err
+	}
+	publishedSheetGIDCache.Store(cacheKey, gidByName)
+	return gidByName, nil
+}
+
 func fetchSheetCSV(ctx context.Context, client *http.Client, spreadsheetID, sheetName string) (string, error) {
-	body, err := fetchText(ctx, client, sheetCSVURL(spreadsheetID, sheetName))
+	var resourceURL string
+	if isPublishedSpreadsheetID(spreadsheetID) {
+		gidByName, err := getPublishedSheetGIDs(ctx, client, spreadsheetID)
+		if err != nil {
+			return "", err
+		}
+		gid, ok := gidByName[sheetName]
+		if !ok {
+			normalizedTarget := normalizeSheetNameForMatch(sheetName)
+			for name, candidateGID := range gidByName {
+				if normalizeSheetNameForMatch(name) == normalizedTarget {
+					gid = candidateGID
+					ok = true
+					break
+				}
+			}
+		}
+		if !ok {
+			return "", fmt.Errorf("published sheet %q not found", sheetName)
+		}
+		resourceURL = publishedSheetCSVURL(spreadsheetID, gid)
+	} else {
+		resourceURL = sheetCSVURL(spreadsheetID, sheetName)
+	}
+
+	body, err := fetchText(ctx, client, resourceURL)
 	if err != nil {
 		return "", err
 	}
@@ -747,7 +838,35 @@ func discoverSheetNamesFromHTML(ctx context.Context, client *http.Client, spread
 	return names, nil
 }
 
+func discoverPublishedSheetNames(ctx context.Context, client *http.Client, spreadsheetID string) ([]string, error) {
+	gidByName, err := getPublishedSheetGIDs(ctx, client, spreadsheetID)
+	if err != nil {
+		return nil, err
+	}
+	names := make([]string, 0, len(gidByName))
+	for name := range gidByName {
+		if !isVersionLikeSheetName(name) {
+			continue
+		}
+		names = append(names, name)
+	}
+	names = uniqueSheetNames(names)
+	sortVersionStrings(names)
+	if len(names) == 0 {
+		return nil, errors.New("no version-like sheet names found in published HTML")
+	}
+	return names, nil
+}
+
 func discoverSheetNames(ctx context.Context, client *http.Client, spreadsheetID string, parser patchParser) ([]string, error) {
+	if isPublishedSpreadsheetID(spreadsheetID) {
+		names, err := discoverPublishedSheetNames(ctx, client, spreadsheetID)
+		if err != nil {
+			return nil, fmt.Errorf("failed to discover version sheets automatically: %w", err)
+		}
+		return names, nil
+	}
+
 	collectedNames := make([]string, 0, 32)
 	feedURL := fmt.Sprintf(
 		"https://spreadsheets.google.com/feeds/worksheets/%s/public/basic?alt=json",
@@ -794,7 +913,6 @@ func discoverSheetNames(ctx context.Context, client *http.Client, spreadsheetID 
 	}
 	return nil, fmt.Errorf("failed to discover version sheets automatically: %v", probeErr)
 }
-
 func uniqueSheetNames(input []string) []string {
 	seen := map[string]struct{}{}
 	result := make([]string, 0, len(input))
@@ -834,6 +952,12 @@ func extractSpreadsheetID(input string) string {
 	if value == "" {
 		return ""
 	}
+	if strings.Contains(value, "/spreadsheets/d/e/") {
+		matches := publishedSpreadsheetIDFromURLPattern.FindStringSubmatch(value)
+		if len(matches) >= 2 {
+			return matches[1]
+		}
+	}
 	if strings.Contains(value, "/spreadsheets/d/") {
 		matches := spreadsheetIDFromURLPattern.FindStringSubmatch(value)
 		if len(matches) >= 2 {
@@ -842,7 +966,6 @@ func extractSpreadsheetID(input string) string {
 	}
 	return value
 }
-
 func resolveFilePath(inputPath string) string {
 	cleanPath := filepath.Clean(strings.TrimSpace(inputPath))
 	if cleanPath == "" {
@@ -1138,26 +1261,33 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 
 	var endfieldDataPulls map[string]map[string]float64
 	var wuwaDataPulls map[string]map[string]float64
-	if cfg.GameID == gameIDEndfield || cfg.GameID == gameIDWuwa {
+	var zzzDataPulls map[string]map[string]float64
+	if cfg.GameID == gameIDEndfield || cfg.GameID == gameIDWuwa || cfg.GameID == gameIDZzz {
 		dataCSV, dataErr := fetchSheetCSV(ctx, client, cfg.SpreadsheetID, "Data")
 		if dataErr != nil {
 			return SyncResult{}, fmt.Errorf("fetch Data sheet for %s: %w", cfg.GameID, dataErr)
 		}
-		if cfg.GameID == gameIDEndfield {
+		switch cfg.GameID {
+		case gameIDEndfield:
 			parsedPulls, parseDataErr := parseEndfieldDataSheet(dataCSV)
 			if parseDataErr != nil {
 				return SyncResult{}, fmt.Errorf("parse Data sheet for %s: %w", cfg.GameID, parseDataErr)
 			}
 			endfieldDataPulls = parsedPulls
-		} else {
+		case gameIDWuwa:
 			parsedPulls, parseDataErr := parseWuwaDataSheet(dataCSV)
 			if parseDataErr != nil {
 				return SyncResult{}, fmt.Errorf("parse Data sheet for %s: %w", cfg.GameID, parseDataErr)
 			}
 			wuwaDataPulls = parsedPulls
+		case gameIDZzz:
+			parsedPulls, parseDataErr := parseZzzDataSheet(dataCSV)
+			if parseDataErr != nil {
+				return SyncResult{}, fmt.Errorf("parse Data sheet for %s: %w", cfg.GameID, parseDataErr)
+			}
+			zzzDataPulls = parsedPulls
 		}
 	}
-
 	existingGenerated, err := readGeneratedPatches(cfg.OutputPath)
 	if err != nil {
 		return SyncResult{}, fmt.Errorf("read existing generated patches: %w", err)
@@ -1217,16 +1347,23 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 			}
 			continue
 		}
-		if cfg.GameID == gameIDEndfield {
+		switch cfg.GameID {
+		case gameIDEndfield:
 			if applyErr := applyEndfieldDataPullOverrides(&patch, endfieldDataPulls); applyErr != nil {
 				if explicitSheetNames {
 					return SyncResult{}, fmt.Errorf("apply Data overrides for sheet %s: %w", sheetName, applyErr)
 				}
 				continue
 			}
-		}
-		if cfg.GameID == gameIDWuwa {
+		case gameIDWuwa:
 			if applyErr := applyWuwaDataPullOverrides(&patch, wuwaDataPulls); applyErr != nil {
+				if explicitSheetNames {
+					return SyncResult{}, fmt.Errorf("apply Data overrides for sheet %s: %w", sheetName, applyErr)
+				}
+				continue
+			}
+		case gameIDZzz:
+			if applyErr := applyZzzDataPullOverrides(&patch, zzzDataPulls); applyErr != nil {
 				if explicitSheetNames {
 					return SyncResult{}, fmt.Errorf("apply Data overrides for sheet %s: %w", sheetName, applyErr)
 				}

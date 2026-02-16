@@ -1,8 +1,10 @@
 import { GENERATED_PATCHES as GENERATED_ENDFIELD_PATCHES } from "./endfield.generated.js";
 import { GENERATED_PATCHES as GENERATED_WUWA_PATCHES } from "./wuwa.generated.js";
+import { GENERATED_PATCHES as GENERATED_ZZZ_PATCHES } from "./zzz.generated.js";
 
 const ENDFIELD_GAME_ID = "arknights-endfield";
 const WUWA_GAME_ID = "wuthering-waves";
+const ZZZ_GAME_ID = "zenless-zone-zero";
 
 const rewards = ({
   oroberyl = 0,
@@ -541,6 +543,28 @@ const WUWA_BASE_PATCHES = [
     },
   ];
 
+const ZZZ_BASE_PATCHES = [
+  {
+    id: "1.0",
+    patch: "1.0",
+    versionName: "Version 1.0",
+    startDate: "2024-07-04",
+    durationDays: 41,
+    notes: "Baseline fallback patch for Zenless Zone Zero. Real values are imported from generated data.",
+    sources: [
+      source({
+        id: "events",
+        label: "Events",
+        rewards: {
+          oroberyl: 3040,
+          chartered: 20,
+          basic: 10,
+          arsenal: 19,
+        },
+      }),
+    ],
+  },
+];
 export const GAME_CATALOG = {
   schemaVersion: "3.0",
   games: [
@@ -634,12 +658,53 @@ export const GAME_CATALOG = {
       },
       patches: WUWA_BASE_PATCHES,
     },
+    {
+      id: ZZZ_GAME_ID,
+      title: "Zenless Zone Zero",
+      rates: {
+        ORIGEOMETRY_TO_OROBERYL: 1,
+        ORIGEOMETRY_TO_ARSENAL: 1,
+        OROBERYL_PER_PULL: 160,
+      },
+      permitKeys: {
+        pull: ["chartered"],
+        timed: [],
+      },
+      defaultOptions: {
+        monthlySub: true,
+        battlePassTier: 1,
+      },
+      ui: {
+        chartTitle: "Exclusive pulls per version",
+        pullSummaryLabel: "Total Exclusive Pulls",
+        monthlyPassLabel: "Inter-Knot Membership",
+        backgroundImage: "./assets/backgrounds/zzz_background.jpg",
+        battlePass: {
+          label: "Battle Pass",
+          tiers: [
+            { value: 1, label: "F2P" },
+            { value: 2, label: "Paid" },
+          ],
+        },
+        optionalToggles: [],
+        resourceLabels: {
+          oroberyl: "Polychromes",
+          origeometry: "Monochrome",
+          arsenal: "Boopons",
+          chartered: "Encrypted Master Tape",
+          timed: "Limited Pull Items",
+          basic: "Master Tape",
+        },
+      },
+      patches: ZZZ_BASE_PATCHES,
+    },
   ],
 };
 
 const generatedByGame = {
   [ENDFIELD_GAME_ID]: GENERATED_ENDFIELD_PATCHES,
   [WUWA_GAME_ID]: GENERATED_WUWA_PATCHES,
+  [ZZZ_GAME_ID]: GENERATED_ZZZ_PATCHES,
 };
 
 GAME_CATALOG.games = GAME_CATALOG.games.map((game) => ({
@@ -660,3 +725,7 @@ export const getGameById = (id) =>
 
 export const ACTIVE_GAME = getGameById(DEFAULT_GAME_ID);
 export const PATCHES = ACTIVE_GAME.patches;
+
+
+
+

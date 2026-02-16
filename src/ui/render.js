@@ -32,9 +32,17 @@ const WUWA_ICONS = {
   arsenal: "./assets/WuWa/Forging_Tide.webp",
 };
 
+const ZZZ_ICONS = {
+  oroberyl: "./assets/icons/Oroberyl.png",
+  chartered: "./assets/icons/Chartered_HH_Permit.png",
+  basic: "./assets/icons/Basic_HH_Permit.png",
+  arsenal: "./assets/icons/Arsenal_Ticket.png",
+};
+
 const GAME_ICON_SETS = {
   "arknights-endfield": END_FIELD_ICONS,
   "wuthering-waves": WUWA_ICONS,
+  "zenless-zone-zero": ZZZ_ICONS,
 };
 
 const getIconByKey = (gameId, key) => {
