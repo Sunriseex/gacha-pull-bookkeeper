@@ -148,6 +148,19 @@ func resolveGameProfile(gameID string) (gameProfile, error) {
 var genshinCyclePattern = regexp.MustCompile(`x\s*(\d+)`)
 var genshinDaysPattern = regexp.MustCompile(`(\d+)\s*days`)
 
+func isGenshinWelkinPassRow(rowName string) bool {
+	if !strings.Contains(rowName, "welkin") {
+		return false
+	}
+	if strings.Contains(rowName, "song of the welkin moon") {
+		return false
+	}
+	if strings.Contains(rowName, "day") || strings.Contains(rowName, "blessing") || strings.Contains(rowName, "monthly") {
+		return true
+	}
+	return rowName == "welkin"
+}
+
 func parseSheetToPatchGenshin(sheetName, csvText string) (Patch, error) {
 	patchID := canonicalPatchID(sheetName)
 
@@ -243,7 +256,7 @@ func parseSheetToPatchGenshin(sheetName, csvText string) (Patch, error) {
 				bpF2PRewards.add(rewards)
 			case strings.Contains(rowName, "battle pass - paid bonus"):
 				bpPaidRewards.add(rewards)
-			case strings.Contains(rowName, "welkin"):
+			case isGenshinWelkinPassRow(rowName):
 				welkinRewards.add(rewards)
 			case strings.Contains(rowName, "total f2p") || strings.Contains(rowName, "total p2p"):
 				continue

@@ -43,6 +43,35 @@ const SOURCE_COLORS = {
   Base: "#a8b0bc",
 };
 
+const SOURCE_COLOR_ALIASES = {
+  "Version Events": "Events",
+  "Travel Log Events": "Events",
+  "Other New Content": "Events",
+  "Web, Mail, Apologems": "Mailbox & Web Events",
+  "Mailbox/Miscellaneous": "Mailbox & Web Events",
+  "Daily Resin/Commissions": "Daily Activity",
+  "Daily Training": "Daily Activity",
+  "Weekly Requests & Bounties": "Weekly Routine",
+  "Weekly Modes": "Weekly Routine",
+  "Abyss / Imaginarium / Stygian": "Endgame Modes",
+  "Treasures Lightward": "Endgame Modes",
+  "Hollow Zero": "Endgame Modes",
+  Expeditions: "Recurring Sources",
+  "Parametric Transformer": "Recurring Sources",
+  Errands: "Recurring Sources",
+  "Paimon's Bargains": "Coral Shop",
+  "Embers Store": "Coral Shop",
+  "Serenitea Realm Shop": "Coral Shop",
+  "24-Hour Shop": "Coral Shop",
+  "F2P Battle Pass": "Originium Supply Pass",
+  "Battle Pass - F2P": "Originium Supply Pass",
+  "Paid Battle Pass": "Protocol Customized Pass",
+  "Battle Pass - Paid Bonus": "Protocol Customized Pass",
+  "Inter-Knot Membership": "Monthly Pass",
+  "Supply Pass": "Monthly Pass",
+  Welkin: "Monthly Pass",
+  "Lunite Subscription": "Monthly Pass",
+};
 const FALLBACK_COLORS = [
   "#60a5fa",
   "#f59e0b",
@@ -72,8 +101,24 @@ const yMaxFor = (maxValue) => {
   return Math.ceil(maxValue / 20) * 20;
 };
 
-const sourceColor = (label, idx) =>
-  SOURCE_COLORS[label] ?? FALLBACK_COLORS[idx % FALLBACK_COLORS.length];
+const hashLabel = (label) => {
+  const input = String(label ?? "");
+  let hash = 0;
+  for (let i = 0; i < input.length; i += 1) {
+    hash = (hash * 31 + input.charCodeAt(i)) >>> 0;
+  }
+  return hash;
+};
+
+const canonicalColorLabel = (label) => SOURCE_COLOR_ALIASES[label] ?? label;
+
+const sourceColor = (label) => {
+  const canonical = canonicalColorLabel(label);
+  return (
+    SOURCE_COLORS[canonical] ??
+    FALLBACK_COLORS[hashLabel(canonical) % FALLBACK_COLORS.length]
+  );
+};
 
 const getState = (canvas) => {
   if (!chartStateMap.has(canvas)) {
@@ -269,7 +314,7 @@ const renderPatchChart = (canvas, series, state, progress = 1) => {
   series.forEach((item, patchIdx) => {
     const barX = pad.left + slotWidth * patchIdx + (slotWidth - barWidth) / 2;
     let cursorY = pad.top + chartH;
-    item.segments.forEach((segment, segmentIdx) => {
+    item.segments.forEach((segment) => {
       if (segment.value <= 0) {
         return;
       }
@@ -289,7 +334,7 @@ const renderPatchChart = (canvas, series, state, progress = 1) => {
       }
 
       ctx.globalAlpha = alpha;
-      ctx.fillStyle = sourceColor(segment.label, segmentIdx);
+      ctx.fillStyle = sourceColor(segment.label);
       ctx.fillRect(barX, cursorY, barWidth, segH);
       ctx.globalAlpha = 1;
 
@@ -333,7 +378,7 @@ const renderPatchChart = (canvas, series, state, progress = 1) => {
   allLabels.forEach((label, idx) => {
     const y = legendY + idx * 20;
     const isHovered = state.hoverSourceLabel === label;
-    ctx.fillStyle = sourceColor(label, idx);
+    ctx.fillStyle = sourceColor(label);
     ctx.fillRect(legendX, y, 12, 12);
     ctx.fillStyle = isHovered ? "#f8fafc" : "#d1dae6";
     ctx.fillText(label, legendX + 20, y + 11);
