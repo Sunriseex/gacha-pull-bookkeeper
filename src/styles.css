@@ -41,7 +41,7 @@ body {
   z-index: -1;
   background-image:
     linear-gradient(rgba(2, 6, 23, 0.68), rgba(2, 6, 23, 0.9)),
-    url("../assets/background.png");
+    var(--game-bg-image, url("../assets/backgrounds/endfield_background.png"));
   background-size: cover;
   background-position: center;
   opacity: 0.45;
@@ -462,8 +462,17 @@ h2 {
   transform: translateX(15px);
 }
 
-#patchChart {
+.chart-scroll {
   width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 4px;
+}
+
+#patchChart {
+  display: block;
+  width: 100%;
+  min-width: 100%;
   min-height: 320px;
   border-radius: 10px;
   border: 1px solid rgba(148, 163, 184, 0.18);

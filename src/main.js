@@ -42,6 +42,7 @@ const refs = {
   uiToggleBtn: document.querySelector("#uiToggleBtn"),
   totals: document.querySelector("#totals"),
   chart: document.querySelector("#patchChart"),
+  bgOverlay: document.querySelector(".bg-overlay"),
 };
 
 const getRows = () => state.game.patches ?? [];
@@ -276,6 +277,20 @@ const renderDashboard = () => {
   drawPatchChart(refs.chart, chartSeries(rows, options, state.game));
 };
 
+const resolveBackgroundImage = (game) =>
+  game?.ui?.backgroundImage || "./assets/backgrounds/endfield_background.png";
+
+const applyGameBackground = (game) => {
+  if (!refs.bgOverlay) {
+    return;
+  }
+  const backgroundPath = resolveBackgroundImage(game);
+  const absoluteBackgroundUrl = new URL(backgroundPath, window.location.href).href;
+  refs.bgOverlay.style.setProperty(
+    "--game-bg-image",
+    `url("${absoluteBackgroundUrl}")`,
+  );
+};
 const applyGame = (gameId) => {
   state.game = getGameById(gameId);
   localStorage.setItem(LOCAL_KEYS.selectedGameId, state.game.id);
@@ -283,6 +298,7 @@ const applyGame = (gameId) => {
   refs.chartTitle.textContent = state.game.ui?.chartTitle ?? "Pulls per version";
   renderGameTabs();
   renderControlsForGame();
+  applyGameBackground(state.game);
   renderDashboard();
 };
 
