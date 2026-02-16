@@ -1262,8 +1262,9 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 	var endfieldDataPulls map[string]map[string]float64
 	var wuwaDataPulls map[string]map[string]float64
 	var zzzDataPulls map[string]map[string]float64
+	var hsrDataPulls map[string]map[string]float64
 	var genshinSummaryPulls map[string]float64
-	if cfg.GameID == gameIDEndfield || cfg.GameID == gameIDWuwa || cfg.GameID == gameIDZzz {
+	if cfg.GameID == gameIDEndfield || cfg.GameID == gameIDWuwa || cfg.GameID == gameIDZzz || cfg.GameID == gameIDHsr {
 		dataCSV, dataErr := fetchSheetCSV(ctx, client, cfg.SpreadsheetID, "Data")
 		if dataErr != nil {
 			return SyncResult{}, fmt.Errorf("fetch Data sheet for %s: %w", cfg.GameID, dataErr)
@@ -1287,6 +1288,12 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 				return SyncResult{}, fmt.Errorf("parse Data sheet for %s: %w", cfg.GameID, parseDataErr)
 			}
 			zzzDataPulls = parsedPulls
+		case gameIDHsr:
+			parsedPulls, parseDataErr := parseHsrDataSheet(dataCSV)
+			if parseDataErr != nil {
+				return SyncResult{}, fmt.Errorf("parse Data sheet for %s: %w", cfg.GameID, parseDataErr)
+			}
+			hsrDataPulls = parsedPulls
 		}
 	}
 	existingGenerated, err := readGeneratedPatches(cfg.OutputPath)
@@ -1380,6 +1387,13 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 			}
 		case gameIDZzz:
 			if applyErr := applyZzzDataPullOverrides(&patch, zzzDataPulls); applyErr != nil {
+				if explicitSheetNames {
+					return SyncResult{}, fmt.Errorf("apply Data overrides for sheet %s: %w", sheetName, applyErr)
+				}
+				continue
+			}
+		case gameIDHsr:
+			if applyErr := applyHsrDataPullOverrides(&patch, hsrDataPulls); applyErr != nil {
 				if explicitSheetNames {
 					return SyncResult{}, fmt.Errorf("apply Data overrides for sheet %s: %w", sheetName, applyErr)
 				}

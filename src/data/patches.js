@@ -2,11 +2,13 @@ import { GENERATED_PATCHES as GENERATED_ENDFIELD_PATCHES } from "./endfield.gene
 import { GENERATED_PATCHES as GENERATED_WUWA_PATCHES } from "./wuwa.generated.js";
 import { GENERATED_PATCHES as GENERATED_ZZZ_PATCHES } from "./zzz.generated.js";
 import { GENERATED_PATCHES as GENERATED_GENSHIN_PATCHES } from "./genshin.generated.js";
+import { GENERATED_PATCHES as GENERATED_HSR_PATCHES } from "./hsr.generated.js";
 
 const ENDFIELD_GAME_ID = "arknights-endfield";
 const WUWA_GAME_ID = "wuthering-waves";
 const ZZZ_GAME_ID = "zenless-zone-zero";
 const GENSHIN_GAME_ID = "genshin-impact";
+const HSR_GAME_ID = "honkai-star-rail";
 
 const rewards = ({
   oroberyl = 0,
@@ -588,6 +590,91 @@ const GENSHIN_BASE_PATCHES = [
     ],
   },
 ];
+
+const HSR_BASE_PATCHES = [
+  {
+    id: "1.0",
+    patch: "1.0",
+    versionName: "Version 1.0",
+    startDate: "2023-04-26",
+    durationDays: 42,
+    notes: "Baseline fallback patch for Honkai: Star Rail. Real values are imported from generated data.",
+    sources: [
+      source({
+        id: "dailyTraining",
+        label: "Daily Training",
+        rewards: {
+          oroberyl: 2520,
+        },
+      }),
+      source({
+        id: "weeklyModes",
+        label: "Weekly Modes",
+        rewards: {
+          oroberyl: 780,
+          basic: 6,
+        },
+      }),
+      source({
+        id: "treasuresLightward",
+        label: "Treasures Lightward",
+        rewards: {
+          oroberyl: 1800,
+        },
+      }),
+      source({
+        id: "embersStore",
+        label: "Embers Store",
+        rewards: {
+          chartered: 6.9,
+          basic: 6.9,
+        },
+      }),
+      source({
+        id: "travelLogEvents",
+        label: "Travel Log Events",
+        rewards: {
+          oroberyl: 540,
+          chartered: 10,
+        },
+      }),
+      source({
+        id: "permanent",
+        label: "Permanent Content",
+        rewards: {
+          oroberyl: 23125,
+          basic: 155,
+        },
+      }),
+      source({
+        id: "mailbox",
+        label: "Mailbox & Web Events",
+        rewards: {
+          oroberyl: 1163,
+          chartered: 10,
+          basic: 20,
+        },
+      }),
+      source({
+        id: "paidBattlePass",
+        label: "Paid Battle Pass",
+        gate: "bp2",
+        rewards: {
+          oroberyl: 680,
+          chartered: 4,
+        },
+      }),
+      source({
+        id: "supplyPass",
+        label: "Supply Pass",
+        gate: "monthly",
+        rewards: {
+          oroberyl: 4200,
+        },
+      }),
+    ],
+  },
+];
 export const GAME_CATALOG = {
   schemaVersion: "3.0",
   games: [
@@ -759,6 +846,45 @@ export const GAME_CATALOG = {
       },
       patches: GENSHIN_BASE_PATCHES,
     },
+    {
+      id: HSR_GAME_ID,
+      title: "Honkai: Star Rail",
+      rates: {
+        ORIGEOMETRY_TO_OROBERYL: 1,
+        ORIGEOMETRY_TO_ARSENAL: 1,
+        OROBERYL_PER_PULL: 160,
+      },
+      permitKeys: {
+        pull: ["chartered"],
+        timed: [],
+      },
+      defaultOptions: {
+        monthlySub: false,
+        battlePassTier: 1,
+      },
+      ui: {
+        chartTitle: "Limited pulls per version",
+        pullSummaryLabel: "Total Limited Pulls (No Star Rail Pass)",
+        monthlyPassLabel: "Supply Pass",
+        backgroundImage: "./assets/backgrounds/hsr_background.jpeg",
+        battlePass: {
+          label: "Nameless Honor",
+          tiers: [
+            { value: 1, label: "F2P" },
+            { value: 2, label: "Paid" },
+          ],
+        },
+        optionalToggles: [],
+        resourceLabels: {
+          oroberyl: "Stellar Jade",
+          origeometry: "Oneiric Shard",
+          arsenal: "Tracks of Destiny",
+          chartered: "Star Rail Special Pass",
+          basic: "Star Rail Pass",
+        },
+      },
+      patches: HSR_BASE_PATCHES,
+    },
   ],
 };
 
@@ -767,6 +893,7 @@ const generatedByGame = {
   [WUWA_GAME_ID]: GENERATED_WUWA_PATCHES,
   [ZZZ_GAME_ID]: GENERATED_ZZZ_PATCHES,
   [GENSHIN_GAME_ID]: GENERATED_GENSHIN_PATCHES,
+  [HSR_GAME_ID]: GENERATED_HSR_PATCHES,
 };
 
 GAME_CATALOG.games = GAME_CATALOG.games.map((game) => ({
