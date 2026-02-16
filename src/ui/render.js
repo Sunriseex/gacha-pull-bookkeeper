@@ -16,12 +16,12 @@ const formatSmart = (n) => {
 const safeAvg = (sum, count) => (count > 0 ? sum / count : 0);
 
 const END_FIELD_ICONS = {
-  oroberyl: "./assets/icons/Oroberyl.png",
-  origeometry: "./assets/icons/Origeometry.png",
-  arsenal: "./assets/icons/Arsenal_Ticket.png",
-  basic: "./assets/icons/Basic_HH_Permit.png",
-  chartered: "./assets/icons/Chartered_HH_Permit.png",
-  timed: "./assets/icons/Timed_HH_Permit.png",
+  oroberyl: "./assets/Endfield/Oroberyl.png",
+  origeometry: "./assets/Endfield/Origeometry.png",
+  arsenal: "./assets/Endfield/Arsenal_Ticket.png",
+  basic: "./assets/Endfield/Basic_HH_Permit.png",
+  chartered: "./assets/Endfield/Chartered_HH_Permit.png",
+  timed: "./assets/Endfield/Timed_HH_Permit.png",
 };
 
 const WUWA_ICONS = {
@@ -33,16 +33,25 @@ const WUWA_ICONS = {
 };
 
 const ZZZ_ICONS = {
-  oroberyl: "./assets/icons/Oroberyl.png",
-  chartered: "./assets/icons/Chartered_HH_Permit.png",
-  basic: "./assets/icons/Basic_HH_Permit.png",
-  arsenal: "./assets/icons/Arsenal_Ticket.png",
+  oroberyl: "./assets/ZZZ/Polychrome.webp",
+  origeometry: "./assets/ZZZ/Polychrome.webp",
+  chartered: "./assets/ZZZ/Encrypted_Master_Tape.webp",
+  basic: "./assets/ZZZ/Master_Tape.webp",
+  arsenal: "./assets/ZZZ/Boopon.webp",
+};
+
+const GENSHIN_ICONS = {
+  oroberyl: "./assets/Genshin/Primogem.webp",
+  origeometry: "./assets/Genshin/Primogem.webp",
+  chartered: "./assets/Genshin/Intertwined_Fate.webp",
+  basic: "./assets/Genshin/Acquaint_Fate.webp",
 };
 
 const GAME_ICON_SETS = {
   "arknights-endfield": END_FIELD_ICONS,
   "wuthering-waves": WUWA_ICONS,
   "zenless-zone-zero": ZZZ_ICONS,
+  "genshin-impact": GENSHIN_ICONS,
 };
 
 const getIconByKey = (gameId, key) => {
@@ -75,6 +84,7 @@ const cardsConfig = (totals, game) => {
       label: labels.timed ?? "Timed Event Permits",
       value: totals.timedPermits,
       icon: getIconByKey(game?.id, "timed"),
+      hidden: totals.timedPermits <= 0,
     },
     {
       label: labels.basic ?? "Basic HH Permit",

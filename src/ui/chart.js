@@ -1,5 +1,18 @@
 const chartStateMap = new WeakMap();
 
+const applyCanvasWidthForSeries = (canvas, seriesLength) => {
+  const containerWidth =
+    canvas.parentElement?.clientWidth || canvas.clientWidth || canvas.width || 1200;
+  const denseThreshold = 20;
+  const perPatchPx = 52;
+  const targetWidth =
+    seriesLength > denseThreshold
+      ? Math.max(containerWidth, seriesLength * perPatchPx + 240)
+      : containerWidth;
+
+  canvas.style.width = `${Math.round(targetWidth)}px`;
+};
+
 const fitCanvasForDpr = (canvas) => {
   const dpr = window.devicePixelRatio || 1;
   const logicalWidth = canvas.clientWidth || canvas.width;
@@ -304,12 +317,11 @@ const renderPatchChart = (canvas, series, state, progress = 1) => {
         h: segH,
       });
     });
-
     ctx.fillStyle = "#e2e8f0";
     ctx.textAlign = "center";
-    ctx.font = `13px ${FONT_STACK}`;
+    ctx.font = `11px ${FONT_STACK}`;
     ctx.fillText(formatValue(item.total), barX + barWidth / 2, cursorY - 8);
-    ctx.font = `12px ${FONT_STACK}`;
+    ctx.font = `10px ${FONT_STACK}`;
     ctx.fillText(item.label, barX + barWidth / 2, pad.top + chartH + 20);
   });
 
@@ -366,6 +378,7 @@ const animateTo = (canvas, series, state) => {
 };
 
 export const drawPatchChart = (canvas, series) => {
+  applyCanvasWidthForSeries(canvas, series.length);
   bindHoverListeners(canvas);
   const state = getState(canvas);
   const signature = buildSignature(series);

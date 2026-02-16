@@ -462,8 +462,17 @@ h2 {
   transform: translateX(15px);
 }
 
-#patchChart {
+.chart-scroll {
   width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 4px;
+}
+
+#patchChart {
+  display: block;
+  width: 100%;
+  min-width: 100%;
   min-height: 320px;
   border-radius: 10px;
   border: 1px solid rgba(148, 163, 184, 0.18);

@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gacha Pull Bookkeeper</title>
-  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="icon" type="image/png" href="assets/icons/favicon.png">
   <link rel="stylesheet" href="src/styles.css">
 </head>
 <body>
@@ -47,7 +47,9 @@
 
     <section class="panel">
       <h2 id="chartTitle">Character pulls per version</h2>
-      <canvas id="patchChart" width="1200" height="420" aria-label="График источников круток"></canvas>
+      <div class="chart-scroll">
+        <canvas id="patchChart" width="1200" height="420" aria-label="График источников круток"></canvas>
+      </div>
     </section>
 
     <section class="panel controls-panel">
