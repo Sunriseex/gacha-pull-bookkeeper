@@ -8,6 +8,7 @@ import (
 	"errors"
 	"flag"
 	"fmt"
+	"html"
 	"io"
 	"net/http"
 	"net/url"
@@ -23,14 +24,25 @@ import (
 )
 
 const (
-	defaultOutputPath = "src/data/patches.generated.js"
+	defaultOutputPath = "src/data/endfield.generated.js"
 	defaultBindAddr   = "127.0.0.1:8787"
 )
 
 var versionSheetPattern = regexp.MustCompile(`^\d+\.\d+$`)
+var versionLikeSheetPattern = regexp.MustCompile(`^\d+\.\d+(?:\s*\([^)]+\))?$`)
+var versionPrefixPattern = regexp.MustCompile(`^\s*(\d+)\.(\d+)`)
 var spreadsheetIDFromURLPattern = regexp.MustCompile(`/spreadsheets/d/([a-zA-Z0-9-_]+)`)
 var patchFieldPattern = regexp.MustCompile(`(?m)(?:\bpatch\s*:|"patch"\s*:)\s*"(\d+\.\d+)"`)
 var generatedPatchesBlockPattern = regexp.MustCompile(`(?s)export const GENERATED_PATCHES\s*=\s*(\[[\s\S]*?\]);`)
+var sheetTabCaptionPattern = regexp.MustCompile(`docs-sheet-tab-caption\">([^<]+)</div>`)
+
+func normalizeSheetNameForMatch(raw string) string {
+	return strings.Join(strings.Fields(strings.TrimSpace(raw)), " ")
+}
+
+func isVersionLikeSheetName(raw string) bool {
+	return versionLikeSheetPattern.MatchString(normalizeSheetNameForMatch(raw))
+}
 
 type Rewards struct {
 	Oroberyl    float64 `json:"oroberyl"`
@@ -57,6 +69,7 @@ type Source struct {
 	Gate         string        `json:"gate"`
 	OptionKey    *string       `json:"optionKey"`
 	CountInPulls bool          `json:"countInPulls"`
+	Pulls        *float64      `json:"pulls,omitempty"`
 	Rewards      Rewards       `json:"rewards"`
 	Costs        Rewards       `json:"costs"`
 	Scalers      []Scaler      `json:"scalers"`
@@ -81,12 +94,14 @@ type Patch struct {
 }
 
 type GeneratedMeta struct {
+	GameID        string   `json:"gameId"`
 	SpreadsheetID string   `json:"spreadsheetId"`
 	Sheets        []string `json:"sheets"`
 	GeneratedAt   string   `json:"generatedAt"`
 }
 
 type SyncConfig struct {
+	GameID          string
 	SpreadsheetID   string
 	SheetNames      []string
 	OutputPath      string
@@ -99,6 +114,7 @@ type SyncConfig struct {
 }
 
 type SyncResult struct {
+	GameID         string
 	Patches        []Patch
 	AllPatches     []Patch
 	SkippedPatches []string
@@ -114,6 +130,7 @@ type sheetRow struct {
 }
 
 type syncRequest struct {
+	GameID        string   `json:"gameId"`
 	SpreadsheetID string   `json:"spreadsheetId"`
 	SheetNames    []string `json:"sheetNames"`
 	CreateBranch  bool     `json:"createBranch"`
@@ -124,12 +141,15 @@ type syncRequest struct {
 type syncResponse struct {
 	OK         bool     `json:"ok"`
 	Message    string   `json:"message"`
+	GameID     string   `json:"gameId,omitempty"`
 	Sheets     []string `json:"sheets,omitempty"`
 	Patches    []string `json:"patches,omitempty"`
 	Skipped    []string `json:"skipped,omitempty"`
 	OutputPath string   `json:"outputPath,omitempty"`
 	Branch     string   `json:"branch,omitempty"`
 }
+
+type patchParser func(sheetName, csvText string) (Patch, error)
 
 func zeroRewards() Rewards {
 	return Rewards{}
@@ -163,6 +183,7 @@ func source(id, label, gate string, optionKey *string, countInPulls bool, reward
 		Gate:         gate,
 		OptionKey:    optionKey,
 		CountInPulls: countInPulls,
+		Pulls:        nil,
 		Rewards:      rewards,
 		Costs:        zeroRewards(),
 		Scalers:      []Scaler{},
@@ -189,6 +210,36 @@ func parseNumber(raw string) float64 {
 	cleaned = strings.ReplaceAll(cleaned, " ", "")
 	cleaned = strings.ReplaceAll(cleaned, ",", "")
 	cleaned = strings.TrimSuffix(cleaned, "%")
+	if strings.Count(cleaned, ".") > 0 {
+		parts := strings.Split(cleaned, ".")
+		isThousands := len(parts) > 1
+		for _, part := range parts {
+			if part == "" {
+				isThousands = false
+				break
+			}
+			for _, r := range part {
+				if r < '0' || r > '9' {
+					isThousands = false
+					break
+				}
+			}
+			if !isThousands {
+				break
+			}
+		}
+		if isThousands {
+			for i := 1; i < len(parts); i++ {
+				if len(parts[i]) != 3 {
+					isThousands = false
+					break
+				}
+			}
+		}
+		if isThousands {
+			cleaned = strings.Join(parts, "")
+		}
+	}
 	value, err := strconv.ParseFloat(cleaned, 64)
 	if err != nil {
 		return 0
@@ -565,7 +616,7 @@ func sheetCSVURL(spreadsheetID, sheetName string) string {
 	return fmt.Sprintf(
 		"https://docs.google.com/spreadsheets/d/%s/gviz/tq?tqx=out:csv&sheet=%s",
 		url.PathEscape(strings.TrimSpace(spreadsheetID)),
-		url.QueryEscape(strings.TrimSpace(sheetName)),
+		url.QueryEscape(sheetName),
 	)
 }
 
@@ -590,7 +641,7 @@ type worksheetFeed struct {
 	} `json:"feed"`
 }
 
-func discoverSheetNamesByProbe(ctx context.Context, client *http.Client, spreadsheetID string) ([]string, error) {
+func discoverSheetNamesByProbe(ctx context.Context, client *http.Client, spreadsheetID string, parser patchParser) ([]string, error) {
 	majorCandidates := []int{1, 0, 2, 3, 4, 5}
 	type probeResult struct {
 		major int
@@ -608,7 +659,7 @@ func discoverSheetNamesByProbe(ctx context.Context, client *http.Client, spreads
 			candidate := fmt.Sprintf("%d.0", major)
 			csvText, err := fetchSheetCSV(probeCtx, client, spreadsheetID, candidate)
 			if err == nil {
-				_, err = parseSheetToPatch(candidate, csvText)
+				_, err = parser(candidate, csvText)
 			}
 			results <- probeResult{
 				major: major,
@@ -638,7 +689,7 @@ func discoverSheetNamesByProbe(ctx context.Context, client *http.Client, spreads
 			probeCtx, cancel := context.WithTimeout(ctx, 3*time.Second)
 			csvText, err := fetchSheetCSV(probeCtx, client, spreadsheetID, candidate)
 			if err == nil {
-				_, err = parseSheetToPatch(candidate, csvText)
+				_, err = parser(candidate, csvText)
 			}
 			cancel()
 			if err != nil {
@@ -656,7 +707,7 @@ func discoverSheetNamesByProbe(ctx context.Context, client *http.Client, spreads
 		}
 	}
 
-	names = uniqueStrings(names)
+	names = uniqueSheetNames(names)
 	sortVersionStrings(names)
 	if len(names) == 0 {
 		return nil, errors.New("no N.N sheet names found by probe")
@@ -664,7 +715,40 @@ func discoverSheetNamesByProbe(ctx context.Context, client *http.Client, spreads
 	return names, nil
 }
 
-func discoverSheetNames(ctx context.Context, client *http.Client, spreadsheetID string) ([]string, error) {
+func discoverSheetNamesFromHTML(ctx context.Context, client *http.Client, spreadsheetID string) ([]string, error) {
+	editURL := fmt.Sprintf(
+		"https://docs.google.com/spreadsheets/d/%s/edit",
+		url.PathEscape(strings.TrimSpace(spreadsheetID)),
+	)
+	body, err := fetchText(ctx, client, editURL)
+	if err != nil {
+		return nil, err
+	}
+	matches := sheetTabCaptionPattern.FindAllStringSubmatch(body, -1)
+	if len(matches) == 0 {
+		return nil, errors.New("no sheet tabs found in HTML")
+	}
+	names := make([]string, 0, len(matches))
+	for _, match := range matches {
+		if len(match) < 2 {
+			continue
+		}
+		caption := html.UnescapeString(match[1])
+		if !isVersionLikeSheetName(caption) {
+			continue
+		}
+		names = append(names, caption)
+	}
+	names = uniqueSheetNames(names)
+	sortVersionStrings(names)
+	if len(names) == 0 {
+		return nil, errors.New("no version-like sheet names found in HTML tabs")
+	}
+	return names, nil
+}
+
+func discoverSheetNames(ctx context.Context, client *http.Client, spreadsheetID string, parser patchParser) ([]string, error) {
+	collectedNames := make([]string, 0, 32)
 	feedURL := fmt.Sprintf(
 		"https://spreadsheets.google.com/feeds/worksheets/%s/public/basic?alt=json",
 		url.PathEscape(strings.TrimSpace(spreadsheetID)),
@@ -675,21 +759,29 @@ func discoverSheetNames(ctx context.Context, client *http.Client, spreadsheetID 
 		if unmarshalErr := json.Unmarshal([]byte(body), &payload); unmarshalErr == nil {
 			names := make([]string, 0, len(payload.Feed.Entry))
 			for _, entry := range payload.Feed.Entry {
-				name := strings.TrimSpace(entry.Title.Text)
-				if versionSheetPattern.MatchString(name) {
+				name := html.UnescapeString(entry.Title.Text)
+				if isVersionLikeSheetName(name) {
 					names = append(names, name)
 				}
 			}
 			if len(names) > 0 {
-				sorted := uniqueStrings(names)
-				sort.Strings(sorted)
-				sortVersionStrings(sorted)
-				return sorted, nil
+				collectedNames = append(collectedNames, names...)
 			}
 		}
 	}
 
-	probeNames, probeErr := discoverSheetNamesByProbe(ctx, client, spreadsheetID)
+	htmlNames, htmlErr := discoverSheetNamesFromHTML(ctx, client, spreadsheetID)
+	if htmlErr == nil && len(htmlNames) > 0 {
+		collectedNames = append(collectedNames, htmlNames...)
+	}
+
+	collectedNames = uniqueSheetNames(collectedNames)
+	sortVersionStrings(collectedNames)
+	if len(collectedNames) > 0 {
+		return collectedNames, nil
+	}
+
+	probeNames, probeErr := discoverSheetNamesByProbe(ctx, client, spreadsheetID, parser)
 	if probeErr == nil && len(probeNames) > 0 {
 		return probeNames, nil
 	}
@@ -697,7 +789,27 @@ func discoverSheetNames(ctx context.Context, client *http.Client, spreadsheetID 
 	if err != nil {
 		return nil, fmt.Errorf("failed to discover version sheets automatically: %w", err)
 	}
+	if htmlErr != nil {
+		return nil, fmt.Errorf("failed to discover version sheets automatically: html=%v, probe=%v", htmlErr, probeErr)
+	}
 	return nil, fmt.Errorf("failed to discover version sheets automatically: %v", probeErr)
+}
+
+func uniqueSheetNames(input []string) []string {
+	seen := map[string]struct{}{}
+	result := make([]string, 0, len(input))
+	for _, item := range input {
+		key := strings.TrimSpace(item)
+		if key == "" {
+			continue
+		}
+		if _, ok := seen[key]; ok {
+			continue
+		}
+		seen[key] = struct{}{}
+		result = append(result, item)
+	}
+	return result
 }
 
 func uniqueStrings(input []string) []string {
@@ -804,12 +916,12 @@ func parsePatchHeaderMeta(titleCell string) (string, string) {
 }
 
 func versionSortKey(value string) (int, int, bool) {
-	parts := strings.Split(strings.TrimSpace(value), ".")
-	if len(parts) != 2 {
+	match := versionPrefixPattern.FindStringSubmatch(strings.TrimSpace(value))
+	if len(match) < 3 {
 		return 0, 0, false
 	}
-	major, errMajor := strconv.Atoi(parts[0])
-	minor, errMinor := strconv.Atoi(parts[1])
+	major, errMajor := strconv.Atoi(match[1])
+	minor, errMinor := strconv.Atoi(match[2])
 	if errMajor != nil || errMinor != nil {
 		return 0, 0, false
 	}
@@ -998,7 +1110,16 @@ func createBranch(prefix string) (string, error) {
 }
 
 func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
+	profile, profileErr := resolveGameProfile(cfg.GameID)
+	if profileErr != nil {
+		return SyncResult{}, profileErr
+	}
+	cfg.GameID = profile.ID
+
 	cfg.SpreadsheetID = extractSpreadsheetID(cfg.SpreadsheetID)
+	if strings.TrimSpace(cfg.SpreadsheetID) == "" {
+		cfg.SpreadsheetID = profile.DefaultSpreadsheetID
+	}
 	if strings.TrimSpace(cfg.SpreadsheetID) == "" {
 		return SyncResult{}, errors.New("spreadsheet-id is required")
 	}
@@ -1006,7 +1127,7 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 		cfg.ClientTimeout = 20 * time.Second
 	}
 	if strings.TrimSpace(cfg.OutputPath) == "" {
-		cfg.OutputPath = defaultOutputPath
+		cfg.OutputPath = profile.DefaultOutputPath
 	}
 	cfg.OutputPath = resolveOutputPath(cfg.OutputPath)
 	if strings.TrimSpace(cfg.BasePatchesPath) == "" {
@@ -1014,6 +1135,28 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 	}
 	cfg.BasePatchesPath = resolveFilePath(cfg.BasePatchesPath)
 	client := &http.Client{Timeout: cfg.ClientTimeout}
+
+	var endfieldDataPulls map[string]map[string]float64
+	var wuwaDataPulls map[string]map[string]float64
+	if cfg.GameID == gameIDEndfield || cfg.GameID == gameIDWuwa {
+		dataCSV, dataErr := fetchSheetCSV(ctx, client, cfg.SpreadsheetID, "Data")
+		if dataErr != nil {
+			return SyncResult{}, fmt.Errorf("fetch Data sheet for %s: %w", cfg.GameID, dataErr)
+		}
+		if cfg.GameID == gameIDEndfield {
+			parsedPulls, parseDataErr := parseEndfieldDataSheet(dataCSV)
+			if parseDataErr != nil {
+				return SyncResult{}, fmt.Errorf("parse Data sheet for %s: %w", cfg.GameID, parseDataErr)
+			}
+			endfieldDataPulls = parsedPulls
+		} else {
+			parsedPulls, parseDataErr := parseWuwaDataSheet(dataCSV)
+			if parseDataErr != nil {
+				return SyncResult{}, fmt.Errorf("parse Data sheet for %s: %w", cfg.GameID, parseDataErr)
+			}
+			wuwaDataPulls = parsedPulls
+		}
+	}
 
 	existingGenerated, err := readGeneratedPatches(cfg.OutputPath)
 	if err != nil {
@@ -1040,10 +1183,12 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 		}
 	}
 
-	sheetNames := uniqueStrings(cfg.SheetNames)
+	parser := profile.ParseSheet
+
+	sheetNames := uniqueSheetNames(cfg.SheetNames)
 	explicitSheetNames := len(sheetNames) > 0
 	if len(sheetNames) == 0 {
-		sheetNames, err = discoverSheetNames(ctx, client, cfg.SpreadsheetID)
+		sheetNames, err = discoverSheetNames(ctx, client, cfg.SpreadsheetID, parser)
 		if err != nil {
 			return SyncResult{}, err
 		}
@@ -1065,12 +1210,28 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 			}
 			continue
 		}
-		patch, parseErr := parseSheetToPatch(sheetName, csvText)
+		patch, parseErr := parser(sheetName, csvText)
 		if parseErr != nil {
 			if explicitSheetNames {
 				return SyncResult{}, fmt.Errorf("parse sheet %s: %w", sheetName, parseErr)
 			}
 			continue
+		}
+		if cfg.GameID == gameIDEndfield {
+			if applyErr := applyEndfieldDataPullOverrides(&patch, endfieldDataPulls); applyErr != nil {
+				if explicitSheetNames {
+					return SyncResult{}, fmt.Errorf("apply Data overrides for sheet %s: %w", sheetName, applyErr)
+				}
+				continue
+			}
+		}
+		if cfg.GameID == gameIDWuwa {
+			if applyErr := applyWuwaDataPullOverrides(&patch, wuwaDataPulls); applyErr != nil {
+				if explicitSheetNames {
+					return SyncResult{}, fmt.Errorf("apply Data overrides for sheet %s: %w", sheetName, applyErr)
+				}
+				continue
+			}
 		}
 		validPatchRows++
 		patchID := strings.TrimSpace(patch.Patch)
@@ -1116,6 +1277,7 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 	allPatches := mergePatchesByID(existingGenerated, patches)
 	if !cfg.DryRun && len(patches) > 0 {
 		meta := GeneratedMeta{
+			GameID:        cfg.GameID,
 			SpreadsheetID: cfg.SpreadsheetID,
 			Sheets:        uniqueStrings(append(parsedSheetNames, skippedPatches...)),
 			GeneratedAt:   time.Now().UTC().Format(time.RFC3339),
@@ -1126,6 +1288,7 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 	}
 
 	return SyncResult{
+		GameID:         cfg.GameID,
 		Patches:        patches,
 		AllPatches:     allPatches,
 		SkippedPatches: skippedPatches,
@@ -1183,6 +1346,7 @@ func writeJSON(w http.ResponseWriter, statusCode int, payload syncResponse) {
 func main() {
 	var (
 		serveMode         bool
+		gameID            string
 		bindAddr          string
 		allowedOriginsRaw string
 		authToken         string
@@ -1197,12 +1361,13 @@ func main() {
 	)
 
 	flag.BoolVar(&serveMode, "serve", false, "Run as local HTTP service for the UI button")
+	flag.StringVar(&gameID, "game", defaultGameID, fmt.Sprintf("Game id (%s)", strings.Join(availableGameIDs(), ", ")))
 	flag.StringVar(&bindAddr, "addr", defaultBindAddr, "HTTP bind address in serve mode")
 	flag.StringVar(&allowedOriginsRaw, "allowed-origins", "http://127.0.0.1:5173,http://localhost:5173", "Comma-separated allowed CORS origins in serve mode")
 	flag.StringVar(&authToken, "auth-token", os.Getenv("PATCHSYNC_TOKEN"), "Optional auth token required in X-Patchsync-Token header for /sync")
 	flag.StringVar(&spreadsheetID, "spreadsheet-id", "", "Google Spreadsheet ID or full spreadsheet URL")
 	flag.StringVar(&sheetNamesRaw, "sheet-names", "", "Comma-separated sheet names (optional, if empty auto-detects N.N sheet names)")
-	flag.StringVar(&outputPath, "output", defaultOutputPath, "Output JS file path")
+	flag.StringVar(&outputPath, "output", "", "Output JS file path (optional; defaults by game)")
 	flag.BoolVar(&createBranch, "create-branch", false, "Create a git branch before writing generated file")
 	flag.StringVar(&branchPrefix, "branch-prefix", "data/sheets", "Git branch prefix for create-branch")
 	flag.BoolVar(&skipExisting, "skip-existing", true, "Skip patches already present in src/data/patches.js and generated output")
@@ -1211,8 +1376,9 @@ func main() {
 	flag.Parse()
 
 	defaultCfg := SyncConfig{
+		GameID:          gameID,
 		SpreadsheetID:   spreadsheetID,
-		SheetNames:      uniqueStrings(strings.Split(sheetNamesRaw, ",")),
+		SheetNames:      uniqueSheetNames(strings.Split(sheetNamesRaw, ",")),
 		OutputPath:      outputPath,
 		BasePatchesPath: "src/data/patches.js",
 		CreateBranch:    createBranch,
@@ -1281,6 +1447,9 @@ func main() {
 			}
 
 			cfg := defaultCfg
+			if strings.TrimSpace(req.GameID) != "" {
+				cfg.GameID = strings.TrimSpace(req.GameID)
+			}
 			if strings.TrimSpace(req.SpreadsheetID) != "" {
 				cfg.SpreadsheetID = strings.TrimSpace(req.SpreadsheetID)
 			}
@@ -1304,6 +1473,7 @@ func main() {
 			writeJSON(w, http.StatusOK, syncResponse{
 				OK:         true,
 				Message:    "sync completed",
+				GameID:     result.GameID,
 				Sheets:     result.SheetNames,
 				Patches:    patchNames,
 				Skipped:    result.SkippedPatches,
@@ -1328,6 +1498,7 @@ func main() {
 		fmt.Fprintf(os.Stderr, "sync failed: %v\n", err)
 		os.Exit(1)
 	}
+	fmt.Printf("Game: %s\n", result.GameID)
 	patchNames := make([]string, 0, len(result.Patches))
 	for _, patch := range result.Patches {
 		patchNames = append(patchNames, patch.Patch)

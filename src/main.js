@@ -1,4 +1,8 @@
-import { ACTIVE_GAME } from "./data/patches.js";
+import {
+  DEFAULT_GAME_ID,
+  GAME_CATALOG,
+  getGameById,
+} from "./data/patches.js";
 import {
   aggregateTotals,
   chartSeries,
@@ -6,21 +10,33 @@ import {
 import { drawPatchChart } from "./ui/chart.js";
 import { renderTotals } from "./ui/render.js";
 
+const LOCAL_KEYS = {
+  selectedGameId: "bookkeeper:selectedGameId",
+  spreadsheetId: "owner:spreadsheetId",
+  syncToken: "owner:patchsyncToken",
+};
+
+const PATCHSYNC_ENDPOINT = "http://127.0.0.1:8787/sync";
+
+const getInitialGame = () => {
+  const persistedGameId = localStorage.getItem(LOCAL_KEYS.selectedGameId);
+  return getGameById(persistedGameId || DEFAULT_GAME_ID);
+};
+
 const state = {
-  game: ACTIVE_GAME,
-  rows: ACTIVE_GAME.patches,
-  options: { ...ACTIVE_GAME.defaultOptions },
+  game: getInitialGame(),
+  optionsByGame: {},
 };
 
 const refs = {
+  title: document.querySelector("#appTitle"),
+  gameTabs: document.querySelector("#gameTabs"),
+  chartTitle: document.querySelector("#chartTitle"),
   monthlySub: document.querySelector("#monthlySub"),
-  battlePassTierInputs: document.querySelectorAll(
-    'input[name="battlePassTier"]',
-  ),
-  optBpCrates: document.querySelector("#optBpCrates"),
-  optAicQuota: document.querySelector("#optAicQuota"),
-  optUrgentRecruit: document.querySelector("#optUrgentRecruit"),
-  optHhDossier: document.querySelector("#optHhDossier"),
+  monthlyLabel: document.querySelector("#monthlyLabel"),
+  battlePassLabel: document.querySelector("#battlePassLabel"),
+  battlePassTierGroup: document.querySelector("#battlePassTierGroup"),
+  optionFlags: document.querySelector("#optionFlags"),
   uidCopyBtn: document.querySelector("#uidCopyBtn"),
   syncSheetsBtn: document.querySelector("#syncSheetsBtn"),
   uiToggleBtn: document.querySelector("#uiToggleBtn"),
@@ -28,11 +44,16 @@ const refs = {
   chart: document.querySelector("#patchChart"),
 };
 
-const IMPORT_STATE_KEYS = {
-  spreadsheetId: "owner:spreadsheetId",
-  syncToken: "owner:patchsyncToken",
+const getRows = () => state.game.patches ?? [];
+
+const ensureOptionsForGame = (game) => {
+  if (!state.optionsByGame[game.id]) {
+    state.optionsByGame[game.id] = { ...game.defaultOptions };
+  }
+  return state.optionsByGame[game.id];
 };
-const PATCHSYNC_ENDPOINT = "http://127.0.0.1:8787/sync";
+
+const currentOptions = () => ensureOptionsForGame(state.game);
 
 const setUidButtonFeedback = (button, text, cssClass) => {
   button.classList.remove("copied", "copy-failed");
@@ -63,8 +84,83 @@ const copyTextToClipboard = async (value) => {
   }
 };
 
+const renderGameTabs = () => {
+  refs.gameTabs.innerHTML = "";
+  for (const game of GAME_CATALOG.games) {
+    const btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "game-tab";
+    btn.dataset.gameId = game.id;
+    btn.textContent = game.title;
+    if (game.id === state.game.id) {
+      btn.classList.add("active");
+      btn.setAttribute("aria-current", "true");
+    }
+    refs.gameTabs.appendChild(btn);
+  }
+};
+
+const renderBattlePassControls = () => {
+  const options = currentOptions();
+  const tiers = state.game.ui?.battlePass?.tiers ?? [];
+  refs.battlePassTierGroup.innerHTML = "";
+  refs.battlePassLabel.textContent = state.game.ui?.battlePass?.label ?? "Battle Pass";
+  for (const tier of tiers) {
+    const label = document.createElement("label");
+    const input = document.createElement("input");
+    input.type = "radio";
+    input.name = "battlePassTier";
+    input.value = String(tier.value);
+    input.checked = Number(options.battlePassTier) === Number(tier.value);
+    const span = document.createElement("span");
+    span.textContent = tier.label;
+    label.appendChild(input);
+    label.appendChild(span);
+    refs.battlePassTierGroup.appendChild(label);
+  }
+};
+
+const renderOptionFlags = () => {
+  const options = currentOptions();
+  const flags = state.game.ui?.optionalToggles ?? [];
+  refs.optionFlags.innerHTML = "";
+  if (!flags.length) {
+    refs.optionFlags.classList.add("empty");
+    return;
+  }
+  refs.optionFlags.classList.remove("empty");
+
+  for (const flag of flags) {
+    const label = document.createElement("label");
+    label.className = "flag-toggle";
+    label.htmlFor = `flag-${flag.key}`;
+
+    const input = document.createElement("input");
+    input.id = `flag-${flag.key}`;
+    input.type = "checkbox";
+    input.dataset.optionKey = flag.key;
+    input.checked = Boolean(options[flag.key]);
+
+    const span = document.createElement("span");
+    span.textContent = flag.label;
+
+    label.appendChild(input);
+    label.appendChild(span);
+    refs.optionFlags.appendChild(label);
+  }
+};
+
+const renderControlsForGame = () => {
+  const options = currentOptions();
+  refs.monthlyLabel.textContent = state.game.ui?.monthlyPassLabel ?? "Monthly Pass";
+  refs.monthlySub.checked = Boolean(options.monthlySub);
+  renderBattlePassControls();
+  renderOptionFlags();
+};
+
 const runPatchsyncImport = async () => {
-  const previousSpreadsheetId = localStorage.getItem(IMPORT_STATE_KEYS.spreadsheetId) || "";
+  const spreadsheetStorageKey = `${LOCAL_KEYS.spreadsheetId}:${state.game.id}`;
+  const previousSpreadsheetId = localStorage.getItem(spreadsheetStorageKey) || "";
   const spreadsheetIdInput = window.prompt(
     "Google Spreadsheet ID or full URL:",
     previousSpreadsheetId,
@@ -78,7 +174,7 @@ const runPatchsyncImport = async () => {
     return;
   }
 
-  const previousToken = localStorage.getItem(IMPORT_STATE_KEYS.syncToken) || "";
+  const previousToken = localStorage.getItem(LOCAL_KEYS.syncToken) || "";
   const tokenInput = window.prompt(
     "Patchsync token (optional):",
     previousToken,
@@ -93,6 +189,7 @@ const runPatchsyncImport = async () => {
   );
 
   const payload = {
+    gameId: state.game.id,
     spreadsheetId,
     createBranch,
   };
@@ -119,13 +216,14 @@ const runPatchsyncImport = async () => {
       throw new Error(message);
     }
 
-    localStorage.setItem(IMPORT_STATE_KEYS.spreadsheetId, spreadsheetId);
-    localStorage.setItem(IMPORT_STATE_KEYS.syncToken, syncToken);
+    localStorage.setItem(spreadsheetStorageKey, spreadsheetId);
+    localStorage.setItem(LOCAL_KEYS.syncToken, syncToken);
 
     const lines = [
+      `Game: ${state.game.title}`,
       `Patches: ${(data.patches || []).join(", ") || "n/a"}`,
       `Skipped: ${(data.skipped || []).join(", ") || "none"}`,
-      `Output: ${data.outputPath || "src/data/patches.generated.js"}`,
+      `Output: ${data.outputPath || "src/data/*.generated.js"}`,
     ];
     if (data.branch) {
       lines.push(`Branch: ${data.branch}`);
@@ -153,30 +251,39 @@ const runPatchsyncImport = async () => {
 };
 
 const applyOptionState = () => {
-  state.options.monthlySub = refs.monthlySub.checked;
-  const selectedBp = [...refs.battlePassTierInputs].find((input) => input.checked);
-  state.options.battlePassTier = Number(selectedBp?.value ?? 1);
-  state.options.includeBpCrates = refs.optBpCrates.checked;
-  state.options.includeAicQuotaExchange = refs.optAicQuota.checked;
-  state.options.includeUrgentRecruit = refs.optUrgentRecruit.checked;
-  state.options.includeHhDossier = refs.optHhDossier.checked;
-};
+  const options = currentOptions();
+  options.monthlySub = refs.monthlySub.checked;
 
-const syncControlsFromState = () => {
-  refs.monthlySub.checked = state.options.monthlySub;
-  refs.battlePassTierInputs.forEach((input) => {
-    input.checked = Number(input.value) === Number(state.options.battlePassTier);
+  const selectedBp = refs.battlePassTierGroup.querySelector(
+    'input[name="battlePassTier"]:checked',
+  );
+  options.battlePassTier = Number(selectedBp?.value ?? 1);
+
+  const flagInputs = refs.optionFlags.querySelectorAll("input[data-option-key]");
+  flagInputs.forEach((input) => {
+    const key = input.dataset.optionKey;
+    if (key) {
+      options[key] = input.checked;
+    }
   });
-  refs.optBpCrates.checked = state.options.includeBpCrates;
-  refs.optAicQuota.checked = state.options.includeAicQuotaExchange;
-  refs.optUrgentRecruit.checked = state.options.includeUrgentRecruit;
-  refs.optHhDossier.checked = state.options.includeHhDossier;
 };
 
 const renderDashboard = () => {
-  const totals = aggregateTotals(state.rows, state.options, state.game.rates);
-  renderTotals(refs.totals, totals, state.game.rates);
-  drawPatchChart(refs.chart, chartSeries(state.rows, state.options, state.game.rates));
+  const rows = getRows();
+  const options = currentOptions();
+  const totals = aggregateTotals(rows, options, state.game);
+  renderTotals(refs.totals, totals, state.game);
+  drawPatchChart(refs.chart, chartSeries(rows, options, state.game));
+};
+
+const applyGame = (gameId) => {
+  state.game = getGameById(gameId);
+  localStorage.setItem(LOCAL_KEYS.selectedGameId, state.game.id);
+  refs.title.textContent = `${state.game.title} Bookkeeper`;
+  refs.chartTitle.textContent = state.game.ui?.chartTitle ?? "Pulls per version";
+  renderGameTabs();
+  renderControlsForGame();
+  renderDashboard();
 };
 
 const bindEvents = () => {
@@ -184,19 +291,43 @@ const bindEvents = () => {
     applyOptionState();
     renderDashboard();
   });
-  refs.battlePassTierInputs.forEach((input) => {
-    input.addEventListener("change", () => {
-      applyOptionState();
-      renderDashboard();
-    });
+
+  refs.battlePassTierGroup.addEventListener("change", (event) => {
+    const target = event.target;
+    if (!(target instanceof HTMLInputElement)) {
+      return;
+    }
+    if (target.name !== "battlePassTier") {
+      return;
+    }
+    applyOptionState();
+    renderDashboard();
   });
-  [refs.optBpCrates, refs.optAicQuota, refs.optUrgentRecruit, refs.optHhDossier]
-    .forEach((input) => {
-      input.addEventListener("change", () => {
-        applyOptionState();
-        renderDashboard();
-      });
-    });
+
+  refs.optionFlags.addEventListener("change", (event) => {
+    const target = event.target;
+    if (!(target instanceof HTMLInputElement)) {
+      return;
+    }
+    if (!target.dataset.optionKey) {
+      return;
+    }
+    applyOptionState();
+    renderDashboard();
+  });
+
+  refs.gameTabs.addEventListener("click", (event) => {
+    const target = event.target;
+    if (!(target instanceof HTMLButtonElement)) {
+      return;
+    }
+    const gameId = target.dataset.gameId;
+    if (!gameId || gameId === state.game.id) {
+      return;
+    }
+    applyGame(gameId);
+  });
+
   refs.uidCopyBtn.addEventListener("click", async () => {
     const uid = refs.uidCopyBtn.dataset.uid;
     if (!uid) {
@@ -216,25 +347,27 @@ const bindEvents = () => {
       );
     }, 1600);
   });
+
   if (refs.syncSheetsBtn) {
-    refs.syncSheetsBtn.dataset.defaultLabel = refs.syncSheetsBtn.textContent || "Sync Sheets";
+    refs.syncSheetsBtn.dataset.defaultLabel =
+      refs.syncSheetsBtn.textContent || "Sync Sheets";
     refs.syncSheetsBtn.addEventListener("click", () => {
       runPatchsyncImport();
     });
   }
+
   refs.uiToggleBtn.addEventListener("click", () => {
     const hidden = document.body.classList.toggle("ui-hidden");
     refs.uiToggleBtn.textContent = hidden ? "Show UI" : "Hide UI";
     refs.uiToggleBtn.setAttribute("aria-pressed", String(hidden));
   });
+
   window.addEventListener("resize", renderDashboard);
 };
 
 const init = () => {
-  syncControlsFromState();
-  applyOptionState();
   bindEvents();
-  renderDashboard();
+  applyGame(state.game.id);
 };
 
 init();

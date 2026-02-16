@@ -1,16 +1,10 @@
-import { GAME_RATES, TIMED_PERMIT_KEYS } from "../config/gameConfig.js";
+import {
+  DEFAULT_RATES,
+  PERMIT_KEYS,
+  RESOURCE_KEYS,
+  TIMED_PERMIT_KEYS,
+} from "../config/gameConfig.js";
 import { oroberylToPulls, safeNumber } from "./conversion.js";
-
-const RESOURCE_KEYS = [
-  "oroberyl",
-  "origeometry",
-  "chartered",
-  "basic",
-  "firewalker",
-  "messenger",
-  "hues",
-  "arsenal",
-];
 
 const emptyResources = () =>
   RESOURCE_KEYS.reduce((acc, key) => {
@@ -24,6 +18,34 @@ const normalizeTier = (tier) => {
     return normalized;
   }
   return 1;
+};
+
+const resolveRates = (gameOrRates = {}) =>
+  gameOrRates.rates && typeof gameOrRates.rates === "object"
+    ? gameOrRates.rates
+    : gameOrRates;
+
+const resolvePermitKeys = (game = {}) => {
+  const defaults = {
+    pull: [
+      PERMIT_KEYS.chartered,
+      PERMIT_KEYS.firewalker,
+      PERMIT_KEYS.messenger,
+      PERMIT_KEYS.hues,
+    ],
+    timed: TIMED_PERMIT_KEYS,
+  };
+  const configured = game?.permitKeys ?? {};
+  const pull = Array.isArray(configured.pull) && configured.pull.length
+    ? configured.pull
+    : defaults.pull;
+  const timed = Array.isArray(configured.timed) && configured.timed.length
+    ? configured.timed
+    : defaults.timed;
+  return {
+    pull: pull.filter((key) => RESOURCE_KEYS.includes(key)),
+    timed: timed.filter((key) => RESOURCE_KEYS.includes(key)),
+  };
 };
 
 const isSourceEnabled = (source, options) => {
@@ -150,14 +172,14 @@ const toSourceFormat = (row) => {
     },
     {
       id: "bp2",
-      label: "Originium Supply Pass",
+      label: "Battle Pass Tier 2",
       gate: "bp2",
       rewards: battlePassTier2,
       costs: { origeometry: bp2Cost },
     },
     {
       id: "bp3",
-      label: "Protocol Customized Pass",
+      label: "Battle Pass Tier 3",
       gate: "bp3",
       rewards: battlePassTier3,
     },
@@ -182,7 +204,7 @@ const resolveRate = (rates, key) => {
   if (candidate > 0) {
     return candidate;
   }
-  return safeNumber(GAME_RATES[key]);
+  return safeNumber(DEFAULT_RATES[key]);
 };
 
 const sumCosts = (sources) => ({
@@ -195,9 +217,16 @@ const sumCosts = (sources) => ({
   }, {}),
 });
 
-const sourcePullValue = (source, rates = GAME_RATES) => {
+const sourcePullValue = (source, permitKeys, rates) => {
   if (source.countInPulls === false) {
     return 0;
+  }
+  if (
+    source.pulls !== undefined &&
+    source.pulls !== null &&
+    Number.isFinite(Number(source.pulls))
+  ) {
+    return Math.max(0, Number(source.pulls));
   }
   const rewards = source.rewards ?? {};
   const perPull = resolveRate(rates, "OROBERYL_PER_PULL");
@@ -205,23 +234,24 @@ const sourcePullValue = (source, rates = GAME_RATES) => {
     return 0;
   }
   const currencyPulls = safeNumber(rewards.oroberyl) / perPull;
-  const permitPulls =
-    safeNumber(rewards.chartered) +
-    safeNumber(rewards.firewalker) +
-    safeNumber(rewards.messenger) +
-    safeNumber(rewards.hues);
+  const permitPulls = permitKeys.pull.reduce(
+    (sum, key) => sum + safeNumber(rewards[key]),
+    0,
+  );
 
   return currencyPulls + permitPulls;
 };
 
-const sourceBreakdown = (sources, rates = GAME_RATES) =>
+const sourceBreakdown = (sources, permitKeys, rates) =>
   sources.map((source) => ({
     id: source.id,
     label: source.label,
-    value: sourcePullValue(source, rates),
+    value: sourcePullValue(source, permitKeys, rates),
   })).filter((source) => source.value > 0);
 
-export const calculatePatchTotals = (row, options, rates = GAME_RATES) => {
+export const calculatePatchTotals = (row, options, gameOrRates = {}) => {
+  const rates = resolveRates(gameOrRates);
+  const permitKeys = resolvePermitKeys(gameOrRates);
   const enabledSources = toSourceFormat(row)
     .filter((source) => isSourceEnabled(source, options))
     .map((source) => ({
@@ -232,6 +262,7 @@ export const calculatePatchTotals = (row, options, rates = GAME_RATES) => {
   const costs = sumCosts(enabledSources);
   const pullSources = pullEligibleSources(enabledSources);
   const pullRewards = sumResources(pullSources);
+  const resolvedSourceBreakdown = sourceBreakdown(enabledSources, permitKeys, rates);
 
   const oroberyl = rewards.oroberyl;
   const origeometry = Math.max(0, rewards.origeometry - costs.origeometry);
@@ -243,29 +274,31 @@ export const calculatePatchTotals = (row, options, rates = GAME_RATES) => {
   const currencyPulls = oroberylToPulls(pullRewards.oroberyl, rates);
 
   const chartered = rewards.chartered;
-  const charteredForPulls = pullRewards.chartered;
   const basic = rewards.basic;
   const firewalker = rewards.firewalker;
   const messenger = rewards.messenger;
   const hues = rewards.hues;
-  const firewalkerForPulls = pullRewards.firewalker;
-  const messengerForPulls = pullRewards.messenger;
-  const huesForPulls = pullRewards.hues;
-  const timedPermits = TIMED_PERMIT_KEYS.reduce(
-    (sum, key) => sum + safeNumber({ firewalker, messenger, hues }[key]),
+  const arsenal = rewards.arsenal;
+
+  const timedPermits = permitKeys.timed.reduce(
+    (sum, key) => sum + safeNumber(rewards[key]),
     0,
   );
-  const timedPermitsForPulls = TIMED_PERMIT_KEYS.reduce(
-    (sum, key) =>
-      sum + safeNumber({ firewalker: firewalkerForPulls, messenger: messengerForPulls, hues: huesForPulls }[key]),
+  const timedPermitsForPulls = permitKeys.timed.reduce(
+    (sum, key) => sum + safeNumber(pullRewards[key]),
+    0,
+  );
+  const permitPullsForPulls = permitKeys.pull.reduce(
+    (sum, key) => sum + safeNumber(pullRewards[key]),
     0,
   );
 
-  const arsenal = rewards.arsenal;
-  const totalCharacterPullsNoBasicExact =
-    currencyPullsExact + charteredForPulls + timedPermitsForPulls;
+  const totalCharacterPullsNoBasicExact = resolvedSourceBreakdown.reduce(
+    (sum, source) => sum + source.value,
+    0,
+  );
   const totalCharacterPullsNoBasic =
-    currencyPulls + charteredForPulls + timedPermitsForPulls;
+    Math.floor(totalCharacterPullsNoBasicExact);
 
   return {
     patch: row.patch,
@@ -284,13 +317,13 @@ export const calculatePatchTotals = (row, options, rates = GAME_RATES) => {
     totalCharacterPulls: totalCharacterPullsNoBasic,
     totalCharacterPullsNoBasicExact,
     totalCharacterPullsNoBasic,
-    sourceBreakdown: sourceBreakdown(enabledSources, rates),
+    sourceBreakdown: resolvedSourceBreakdown,
   };
 };
 
-export const aggregateTotals = (rows, options, rates = GAME_RATES) =>
+export const aggregateTotals = (rows, options, gameOrRates = {}) =>
   rows
-    .map((row) => calculatePatchTotals(row, options, rates))
+    .map((row) => calculatePatchTotals(row, options, gameOrRates))
     .reduce(
       (acc, item) => {
         acc.patchCount += 1;
@@ -331,9 +364,9 @@ export const aggregateTotals = (rows, options, rates = GAME_RATES) =>
       },
     );
 
-export const chartSeries = (rows, options, rates = GAME_RATES) =>
+export const chartSeries = (rows, options, gameOrRates = {}) =>
   rows.map((row) => {
-    const totals = calculatePatchTotals(row, options, rates);
+    const totals = calculatePatchTotals(row, options, gameOrRates);
     return {
       label: row.patch,
       total: totals.sourceBreakdown.reduce((sum, source) => sum + source.value, 0),
