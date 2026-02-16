@@ -41,7 +41,7 @@ body {
   z-index: -1;
   background-image:
     linear-gradient(rgba(2, 6, 23, 0.68), rgba(2, 6, 23, 0.9)),
-    url("../assets/background.png");
+    var(--game-bg-image, url("../assets/backgrounds/endfield_background.png"));
   background-size: cover;
   background-position: center;
   opacity: 0.45;

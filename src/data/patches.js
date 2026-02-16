@@ -568,6 +568,7 @@ export const GAME_CATALOG = {
         chartTitle: "Character pulls per version",
         pullSummaryLabel: "Total Character Pulls (No Basic)",
         monthlyPassLabel: "Monthly Pass",
+        backgroundImage: "./assets/backgrounds/endfield_background.png",
         battlePass: {
           label: "Battle Pass",
           tiers: [
@@ -613,6 +614,7 @@ export const GAME_CATALOG = {
         chartTitle: "Event pulls per version",
         pullSummaryLabel: "Total Event Pulls (No Lustrous)",
         monthlyPassLabel: "Lunite Subscription",
+        backgroundImage: "./assets/backgrounds/wuwa_background.jpg",
         battlePass: {
           label: "Pioneer Podcast",
           tiers: [
