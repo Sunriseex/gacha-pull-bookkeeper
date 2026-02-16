@@ -1,16 +1,9 @@
 const chartStateMap = new WeakMap();
 
-const applyCanvasWidthForSeries = (canvas, seriesLength) => {
+const applyCanvasWidthForSeries = (canvas) => {
   const containerWidth =
     canvas.parentElement?.clientWidth || canvas.clientWidth || canvas.width || 1200;
-  const denseThreshold = 20;
-  const perPatchPx = 52;
-  const targetWidth =
-    seriesLength > denseThreshold
-      ? Math.max(containerWidth, seriesLength * perPatchPx + 240)
-      : containerWidth;
-
-  canvas.style.width = `${Math.round(targetWidth)}px`;
+  canvas.style.width = `${Math.round(containerWidth)}px`;
 };
 
 const fitCanvasForDpr = (canvas) => {
@@ -378,7 +371,7 @@ const animateTo = (canvas, series, state) => {
 };
 
 export const drawPatchChart = (canvas, series) => {
-  applyCanvasWidthForSeries(canvas, series.length);
+  applyCanvasWidthForSeries(canvas);
   bindHoverListeners(canvas);
   const state = getState(canvas);
   const signature = buildSignature(series);
