@@ -29,3 +29,8 @@ Open / Открой: `http://localhost:5173`
 - This branch is static-only for GitHub Pages.
 - Branch does not include table parser/sync tooling.
 - Эта ветка предназначена для GitHub Pages и не содержит parser/sync инструментов.
+
+## License / Лицензия
+- EN: This project is licensed under the MIT License. See LICENSE.
+- RU: Проект распространяется по лицензии MIT. См. файл LICENSE.
+
