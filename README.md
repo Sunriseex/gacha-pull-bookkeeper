@@ -6,6 +6,7 @@
 - Arknights: Endfield
 - Wuthering Waves
 - Zenless Zone Zero
+- Genshin Impact
 
 ## Требования
 
@@ -26,6 +27,7 @@ python -m http.server 5173
 - Сгенерированные патчи Endfield: `src/data/endfield.generated.js`
 - Сгенерированные патчи Wuthering Waves: `src/data/wuwa.generated.js`
 - Сгенерированные патчи Zenless Zone Zero: `src/data/zzz.generated.js`
+- Сгенерированные патчи Genshin Impact: `src/data/genshin.generated.js`
 
 ## Синхронизация из Google Sheets
 
@@ -45,15 +47,17 @@ cd tools/patchsync
 go run . --game arknights-endfield --spreadsheet-id "<sheet_id_or_url>"
 go run . --game wuthering-waves --spreadsheet-id "<sheet_id_or_url>"
 go run . --game zenless-zone-zero --spreadsheet-id "<sheet_id_or_url>"
+go run . --game genshin-impact --spreadsheet-id "<sheet_id_or_url>"
 ```
 
 Доступные `--game`:
 - `arknights-endfield`
 - `wuthering-waves`
 - `zenless-zone-zero`
+- `genshin-impact`
 
 Что делает sync:
-- ищет листы патчей по имени версии (`N.N`, поддерживаются суффиксы вроде `3.1 (STC)`);
+- ищет листы патчей по имени версии (`N.N`, поддерживаются суффиксы вроде `3.1 (STC)` или `6.4 est.`);
 - поддерживает опубликованные URL Google Sheets формата `.../spreadsheets/d/e/...`;
 - читает `Data` лист и применяет pulls override по источникам;
 - пропускает патчи без изменений;

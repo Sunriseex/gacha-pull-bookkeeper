@@ -15,6 +15,7 @@ const (
 	gameIDEndfield = "arknights-endfield"
 	gameIDWuwa     = "wuthering-waves"
 	gameIDZzz      = "zenless-zone-zero"
+	gameIDGenshin  = "genshin-impact"
 	defaultGameID  = gameIDEndfield
 )
 
@@ -92,10 +93,16 @@ var profilesByGameID = map[string]gameProfile{
 		DefaultOutputPath:    "src/data/zzz.generated.js",
 		ParseSheet:           parseSheetToPatchZzz,
 	},
+	gameIDGenshin: {
+		ID:                   gameIDGenshin,
+		DefaultSpreadsheetID: "1l9HPu2cAzTckdXtr7u-7D8NSKzZNUqOuvbmxERFZ_6w",
+		DefaultOutputPath:    "src/data/genshin.generated.js",
+		ParseSheet:           parseSheetToPatchGenshin,
+	},
 }
 
 func availableGameIDs() []string {
-	return []string{gameIDEndfield, gameIDWuwa, gameIDZzz}
+	return []string{gameIDEndfield, gameIDWuwa, gameIDZzz, gameIDGenshin}
 }
 
 func resolveGameProfile(gameID string) (gameProfile, error) {
@@ -114,6 +121,179 @@ func resolveGameProfile(gameID string) (gameProfile, error) {
 	return profile, nil
 }
 
+var genshinCyclePattern = regexp.MustCompile(`x\s*(\d+)`)
+var genshinDaysPattern = regexp.MustCompile(`(\d+)\s*days`)
+
+func parseSheetToPatchGenshin(sheetName, csvText string) (Patch, error) {
+	normalizedSheetName := normalizePatchName(sheetName)
+	patchID := normalizedSheetName
+	if major, minor, ok := versionSortKey(normalizedSheetName); ok {
+		patchID = fmt.Sprintf("%d.%d", major, minor)
+	}
+
+	reader := csv.NewReader(strings.NewReader(csvText))
+	reader.FieldsPerRecord = -1
+	reader.LazyQuotes = true
+	records, err := reader.ReadAll()
+	if err != nil {
+		return Patch{}, fmt.Errorf("csv parse error: %w", err)
+	}
+	if len(records) < 2 {
+		return Patch{}, errors.New("sheet has no data rows")
+	}
+
+	durationDays := findGenshinDurationDays(records)
+	if durationDays <= 0 {
+		durationDays = 42
+	}
+
+	var (
+		eventsRewards      Rewards
+		otherRewards       Rewards
+		webRewards         Rewards
+		dailyRewards       Rewards
+		expeditionsRewards Rewards
+		parametricRewards  Rewards
+		weeklyRewards      Rewards
+		sereniteaRewards   Rewards
+		endgameRewards     Rewards
+		shopRewards        Rewards
+		bpF2PRewards       Rewards
+		bpPaidRewards      Rewards
+		welkinRewards      Rewards
+		repeatingOther     Rewards
+	)
+
+	currentSection := ""
+	for _, record := range records {
+		sectionName := normalizeName(getCell(record, 0))
+		rowName := normalizeName(getCell(record, 1))
+
+		switch sectionName {
+		case "events":
+			currentSection = "events"
+			continue
+		case "other new content":
+			currentSection = "other"
+			continue
+		case "web, mail, apologems":
+			currentSection = "web"
+			continue
+		case "repeating content":
+			currentSection = "repeating"
+			continue
+		}
+
+		if rowName == "conversion rate" {
+			break
+		}
+		if rowName == "" {
+			continue
+		}
+
+		rewards := parseGenshinGachaRewards(record)
+		if !rewards.hasAny() {
+			continue
+		}
+
+		switch currentSection {
+		case "events":
+			eventsRewards.add(rewards)
+		case "other":
+			otherRewards.add(rewards)
+		case "web":
+			webRewards.add(rewards)
+		case "repeating":
+			switch {
+			case strings.Contains(rowName, "daily resin/commissions"):
+				dailyRewards.add(rewards)
+			case strings.Contains(rowName, "expeditions"):
+				expeditionsRewards.add(rewards)
+			case strings.Contains(rowName, "parametric transformer"):
+				parametricRewards.add(rewards)
+			case strings.Contains(rowName, "weekly requests and bounties"):
+				weeklyRewards.add(rewards)
+			case strings.Contains(rowName, "serenitea realm shop"):
+				sereniteaRewards.add(rewards)
+			case strings.Contains(rowName, "abyss") || strings.Contains(rowName, "imaginarium") || strings.Contains(rowName, "stygian"):
+				endgameRewards.add(rewards)
+			case strings.Contains(rowName, "paimon's bargains"):
+				shopRewards.add(rewards)
+			case strings.Contains(rowName, "battle pass - f2p"):
+				bpF2PRewards.add(rewards)
+			case strings.Contains(rowName, "battle pass - paid bonus"):
+				bpPaidRewards.add(rewards)
+			case strings.Contains(rowName, "welkin"):
+				welkinRewards.add(rewards)
+			case strings.Contains(rowName, "total f2p") || strings.Contains(rowName, "total p2p"):
+				continue
+			default:
+				repeatingOther.add(rewards)
+			}
+		}
+	}
+
+	sources := []Source{
+		source("events", "Events", "always", nil, true, eventsRewards),
+		source("other", "Other New Content", "always", nil, true, otherRewards),
+		source("webMail", "Web, Mail, Apologems", "always", nil, true, webRewards),
+		source("dailyActivity", "Daily Resin/Commissions", "always", nil, true, dailyRewards),
+		source("expeditions", "Expeditions", "always", nil, true, expeditionsRewards),
+		source("parametric", "Parametric Transformer", "always", nil, true, parametricRewards),
+		source("weekly", "Weekly Requests \u0026 Bounties", "always", nil, true, weeklyRewards),
+		source("serenitea", "Serenitea Realm Shop", "always", nil, true, sereniteaRewards),
+		source("endgame", "Abyss / Imaginarium / Stygian", "always", nil, true, endgameRewards),
+		source("shop", "Paimon's Bargains", "always", nil, true, shopRewards),
+		source("bpF2P", "Battle Pass - F2P", "always", nil, true, bpF2PRewards),
+		source("bpPaid", "Battle Pass - Paid Bonus", "bp2", nil, true, bpPaidRewards),
+		source("welkin", "Welkin", "monthly", nil, true, welkinRewards),
+	}
+	if repeatingOther.hasAny() {
+		sources = append(sources, source("repeatingOther", "Other Repeating Content", "always", nil, true, repeatingOther))
+	}
+
+	return Patch{
+		ID:           patchID,
+		Patch:        patchID,
+		VersionName:  fmt.Sprintf("Version %s", patchID),
+		StartDate:    "",
+		DurationDays: durationDays,
+		Notes:        "Generated from Genshin Impact Google Sheets by patchsync",
+		Sources:      sources,
+	}, nil
+}
+
+func parseGenshinGachaRewards(record []string) Rewards {
+	return Rewards{
+		Oroberyl:  parseNumber(getCell(record, 9)),
+		Basic:     parseNumber(getCell(record, 10)),
+		Chartered: parseNumber(getCell(record, 11)),
+	}
+}
+
+func findGenshinDurationDays(records [][]string) int {
+	for _, record := range records {
+		name := normalizeName(getCell(record, 1))
+		if strings.Contains(name, "daily resin/commissions") {
+			if match := genshinCyclePattern.FindStringSubmatch(name); len(match) >= 2 {
+				if days, err := strconv.Atoi(match[1]); err == nil && days > 0 {
+					return days
+				}
+			}
+		}
+	}
+	for _, record := range records {
+		name := normalizeName(getCell(record, 1))
+		if strings.Contains(name, "welkin") {
+			if match := genshinDaysPattern.FindStringSubmatch(name); len(match) >= 2 {
+				if days, err := strconv.Atoi(match[1]); err == nil && days > 0 {
+					return days
+				}
+			}
+		}
+	}
+	return 0
+}
 func parseSheetToPatchWuwa(sheetName, csvText string) (Patch, error) {
 	normalizedSheetName := normalizePatchName(sheetName)
 

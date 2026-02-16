@@ -1,10 +1,12 @@
 import { GENERATED_PATCHES as GENERATED_ENDFIELD_PATCHES } from "./endfield.generated.js";
 import { GENERATED_PATCHES as GENERATED_WUWA_PATCHES } from "./wuwa.generated.js";
 import { GENERATED_PATCHES as GENERATED_ZZZ_PATCHES } from "./zzz.generated.js";
+import { GENERATED_PATCHES as GENERATED_GENSHIN_PATCHES } from "./genshin.generated.js";
 
 const ENDFIELD_GAME_ID = "arknights-endfield";
 const WUWA_GAME_ID = "wuthering-waves";
 const ZZZ_GAME_ID = "zenless-zone-zero";
+const GENSHIN_GAME_ID = "genshin-impact";
 
 const rewards = ({
   oroberyl = 0,
@@ -565,6 +567,27 @@ const ZZZ_BASE_PATCHES = [
     ],
   },
 ];
+const GENSHIN_BASE_PATCHES = [
+  {
+    id: "1.0",
+    patch: "1.0",
+    versionName: "Version 1.0",
+    startDate: "2020-09-28",
+    durationDays: 42,
+    notes: "Baseline fallback patch for Genshin Impact. Real values are imported from generated data.",
+    sources: [
+      source({
+        id: "baseline",
+        label: "Baseline",
+        rewards: {
+          oroberyl: 11986.9863,
+          basic: 11.90410959,
+          chartered: 16.90410959,
+        },
+      }),
+    ],
+  },
+];
 export const GAME_CATALOG = {
   schemaVersion: "3.0",
   games: [
@@ -698,13 +721,53 @@ export const GAME_CATALOG = {
       },
       patches: ZZZ_BASE_PATCHES,
     },
-  ],
+    {
+      id: GENSHIN_GAME_ID,
+      title: "Genshin Impact",
+      rates: {
+        ORIGEOMETRY_TO_OROBERYL: 1,
+        ORIGEOMETRY_TO_ARSENAL: 1,
+        OROBERYL_PER_PULL: 160,
+      },
+      permitKeys: {
+        pull: ["chartered"],
+        timed: [],
+      },
+      defaultOptions: {
+        monthlySub: true,
+        battlePassTier: 1,
+      },
+      ui: {
+        chartTitle: "Wishes per version",
+        pullSummaryLabel: "Total Wishes (No Acquaint)",
+        monthlyPassLabel: "Welkin Moon",
+        backgroundImage: "./assets/backgrounds/genshin_background.jpg",
+        battlePass: {
+          label: "Battle Pass",
+          tiers: [
+            { value: 1, label: "F2P" },
+            { value: 2, label: "Paid" },
+          ],
+        },
+        optionalToggles: [],
+        resourceLabels: {
+          oroberyl: "Primogems",
+          origeometry: "Genesis Crystals",
+          arsenal: "Masterless Starglitter",
+          chartered: "Intertwined Fate",
+          timed: "Limited Wish Items",
+          basic: "Acquaint Fate",
+        },
+      },
+      patches: GENSHIN_BASE_PATCHES,
+    },`r`n  ],
 };
 
 const generatedByGame = {
   [ENDFIELD_GAME_ID]: GENERATED_ENDFIELD_PATCHES,
   [WUWA_GAME_ID]: GENERATED_WUWA_PATCHES,
   [ZZZ_GAME_ID]: GENERATED_ZZZ_PATCHES,
+  [GENSHIN_GAME_ID]: GENERATED_GENSHIN_PATCHES,
 };
 
 GAME_CATALOG.games = GAME_CATALOG.games.map((game) => ({
