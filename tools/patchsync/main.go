@@ -1262,6 +1262,7 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 	var endfieldDataPulls map[string]map[string]float64
 	var wuwaDataPulls map[string]map[string]float64
 	var zzzDataPulls map[string]map[string]float64
+	var genshinSummaryPulls map[string]float64
 	if cfg.GameID == gameIDEndfield || cfg.GameID == gameIDWuwa || cfg.GameID == gameIDZzz {
 		dataCSV, dataErr := fetchSheetCSV(ctx, client, cfg.SpreadsheetID, "Data")
 		if dataErr != nil {
@@ -1328,6 +1329,21 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 	}
 	sortVersionStrings(sheetNames)
 
+	if cfg.GameID == gameIDGenshin {
+		summaryCSV, summaryErr := fetchSheetCSV(ctx, client, cfg.SpreadsheetID, "Summary")
+		if summaryErr != nil {
+			summaryCSV, summaryErr = fetchSheetCSV(ctx, client, cfg.SpreadsheetID, "summary")
+		}
+		if summaryErr != nil {
+			return SyncResult{}, fmt.Errorf("fetch Summary sheet for %s: %w", cfg.GameID, summaryErr)
+		}
+		parsedSummaryPulls, parseSummaryErr := parseGenshinSummaryPullTotals(summaryCSV, sheetNames)
+		if parseSummaryErr != nil {
+			return SyncResult{}, fmt.Errorf("parse Summary sheet for %s: %w", cfg.GameID, parseSummaryErr)
+		}
+		genshinSummaryPulls = parsedSummaryPulls
+	}
+
 	patches := make([]Patch, 0, len(sheetNames))
 	parsedSheetNames := make([]string, 0, len(sheetNames))
 	skippedPatches := make([]string, 0, len(sheetNames))
@@ -1366,6 +1382,13 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 			if applyErr := applyZzzDataPullOverrides(&patch, zzzDataPulls); applyErr != nil {
 				if explicitSheetNames {
 					return SyncResult{}, fmt.Errorf("apply Data overrides for sheet %s: %w", sheetName, applyErr)
+				}
+				continue
+			}
+		case gameIDGenshin:
+			if applyErr := applyGenshinSummaryPullOverrides(&patch, genshinSummaryPulls); applyErr != nil {
+				if explicitSheetNames {
+					return SyncResult{}, fmt.Errorf("apply Summary overrides for sheet %s: %w", sheetName, applyErr)
 				}
 				continue
 			}

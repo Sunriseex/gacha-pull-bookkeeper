@@ -238,6 +238,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 123.1,
         "rewards": {
           "oroberyl": 4056.986301,
           "origeometry": 0,
@@ -612,6 +613,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 30,
         "rewards": {
           "oroberyl": 1656.986301,
           "origeometry": 0,
@@ -986,6 +988,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 30,
         "rewards": {
           "oroberyl": 1656.986301,
           "origeometry": 0,
@@ -1360,6 +1363,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 30.3,
         "rewards": {
           "oroberyl": 1656.986301,
           "origeometry": 0,
@@ -1734,6 +1738,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 30.4,
         "rewards": {
           "oroberyl": 1656.986301,
           "origeometry": 0,
@@ -2108,6 +2113,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 33.7,
         "rewards": {
           "oroberyl": 1656.986301,
           "origeometry": 0,
@@ -2482,6 +2488,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 30,
         "rewards": {
           "oroberyl": 1656.986301,
           "origeometry": 0,
@@ -2856,6 +2863,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 30,
         "rewards": {
           "oroberyl": 1656.986301,
           "origeometry": 0,
@@ -3230,6 +3238,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 30.1,
         "rewards": {
           "oroberyl": 1656.986301,
           "origeometry": 0,
@@ -3604,6 +3613,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 30.3,
         "rewards": {
           "oroberyl": 1656.986301,
           "origeometry": 0,
@@ -3978,6 +3988,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 30.5,
         "rewards": {
           "oroberyl": 1656.986301,
           "origeometry": 0,
@@ -4352,6 +4363,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 30.5,
         "rewards": {
           "oroberyl": 1656.986301,
           "origeometry": 0,
@@ -4726,6 +4738,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 30.4,
         "rewards": {
           "oroberyl": 1656.986301,
           "origeometry": 0,
@@ -5100,6 +5113,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 43.5,
         "rewards": {
           "oroberyl": 2485.479452,
           "origeometry": 0,
@@ -5474,6 +5488,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 30.5,
         "rewards": {
           "oroberyl": 1656.986301,
           "origeometry": 0,
@@ -5848,6 +5863,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 30.5,
         "rewards": {
           "oroberyl": 1656.986301,
           "origeometry": 0,
@@ -6222,6 +6238,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 26.8,
         "rewards": {
           "oroberyl": 1380.821918,
           "origeometry": 0,
@@ -6596,6 +6613,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 26.9,
         "rewards": {
           "oroberyl": 1380.821918,
           "origeometry": 0,
@@ -6970,6 +6988,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 25.8,
         "rewards": {
           "oroberyl": 1380.821918,
           "origeometry": 0,
@@ -7344,6 +7363,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 30.1,
         "rewards": {
           "oroberyl": 1656.986301,
           "origeometry": 0,
@@ -7718,6 +7738,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 30.2,
         "rewards": {
           "oroberyl": 1656.986301,
           "origeometry": 0,
@@ -8092,6 +8113,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 30.2,
         "rewards": {
           "oroberyl": 1656.986301,
           "origeometry": 0,
@@ -8466,6 +8488,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 32.5,
         "rewards": {
           "oroberyl": 1656.986301,
           "origeometry": 0,
@@ -8840,6 +8863,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 30.1,
         "rewards": {
           "oroberyl": 1656.986301,
           "origeometry": 0,
@@ -9214,6 +9238,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 30.1,
         "rewards": {
           "oroberyl": 1656.986301,
           "origeometry": 0,
@@ -9588,6 +9613,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 31.1,
         "rewards": {
           "oroberyl": 1656.986301,
           "origeometry": 0,
@@ -9962,6 +9988,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 30.8,
         "rewards": {
           "oroberyl": 1656.986301,
           "origeometry": 0,
@@ -10336,6 +10363,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 31.5,
         "rewards": {
           "oroberyl": 1656.986301,
           "origeometry": 0,
@@ -10710,6 +10738,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 31,
         "rewards": {
           "oroberyl": 1656.986301,
           "origeometry": 0,
@@ -11084,6 +11113,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 31,
         "rewards": {
           "oroberyl": 1656.986301,
           "origeometry": 0,
@@ -11458,6 +11488,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 30.1,
         "rewards": {
           "oroberyl": 1656.986301,
           "origeometry": 0,
@@ -11832,6 +11863,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 31.2,
         "rewards": {
           "oroberyl": 1656.986301,
           "origeometry": 0,
@@ -12206,6 +12238,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 32,
         "rewards": {
           "oroberyl": 1960.767123,
           "origeometry": 0,
@@ -12580,6 +12613,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 32,
         "rewards": {
           "oroberyl": 1960.767123,
           "origeometry": 0,
@@ -12954,6 +12988,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 33.8,
         "rewards": {
           "oroberyl": 2209.315068,
           "origeometry": 0,
@@ -13328,6 +13363,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 33.5,
         "rewards": {
           "oroberyl": 2209.315068,
           "origeometry": 0,
@@ -13702,6 +13738,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 33.8,
         "rewards": {
           "oroberyl": 2209.315068,
           "origeometry": 0,
@@ -14076,6 +14113,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 33.6,
         "rewards": {
           "oroberyl": 2209.315068,
           "origeometry": 0,
@@ -14450,6 +14488,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 33.6,
         "rewards": {
           "oroberyl": 2209.315068,
           "origeometry": 0,
@@ -14824,6 +14863,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 33.7,
         "rewards": {
           "oroberyl": 2209.315068,
           "origeometry": 0,
@@ -15198,6 +15238,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 33.6,
         "rewards": {
           "oroberyl": 2209.315068,
           "origeometry": 0,
@@ -15572,6 +15613,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 36.4,
         "rewards": {
           "oroberyl": 2659.315068,
           "origeometry": 0,
@@ -15946,6 +15988,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 37.3,
         "rewards": {
           "oroberyl": 2659.315068,
           "origeometry": 0,
@@ -16320,6 +16363,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 38.3,
         "rewards": {
           "oroberyl": 2935.479452,
           "origeometry": 0,
@@ -16694,6 +16738,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 38.8,
         "rewards": {
           "oroberyl": 2935.479452,
           "origeometry": 0,
@@ -17068,6 +17113,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 38.1,
         "rewards": {
           "oroberyl": 2935.479452,
           "origeometry": 0,
@@ -17442,6 +17488,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 39.1,
         "rewards": {
           "oroberyl": 2935.479452,
           "origeometry": 0,
@@ -17581,7 +17628,7 @@ export const GENERATED_PATCHES = [
   {
     "id": "6.4",
     "patch": "6.4",
-    "versionName": "Version 6.4 est.",
+    "versionName": "Version 6.4",
     "startDate": "",
     "durationDays": 42,
     "notes": "Generated from Genshin Impact Google Sheets by patchsync",
@@ -17816,6 +17863,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 38.1,
         "rewards": {
           "oroberyl": 2935.479452,
           "origeometry": 0,
@@ -18006,5 +18054,5 @@ export const GENERATED_PATCHES_META = {
     "6.3",
     "6.4 est."
   ],
-  "generatedAt": "2026-02-16T14:54:53Z"
+  "generatedAt": "2026-02-16T16:46:59Z"
 };

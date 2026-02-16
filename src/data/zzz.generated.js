@@ -217,7 +217,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 0,
+        "pulls": -21,
         "rewards": {
           "oroberyl": 1440,
           "origeometry": 0,
@@ -2317,7 +2317,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 0,
+        "pulls": -3.7,
         "rewards": {
           "oroberyl": 3206,
           "origeometry": 0,
