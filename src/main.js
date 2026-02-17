@@ -54,6 +54,21 @@ const ensureOptionsForGame = (game) => {
 
 const currentOptions = () => ensureOptionsForGame(state.game);
 
+const applyAnimatedTitle = (titleText, animate) => {
+  if (!refs.title) {
+    return;
+  }
+
+  refs.title.textContent = titleText;
+  refs.title.classList.remove("title-switch-animate");
+  if (!animate) {
+    return;
+  }
+
+  void refs.title.offsetWidth;
+  refs.title.classList.add("title-switch-animate");
+};
+
 const setUidButtonFeedback = (button, text, cssClass) => {
   button.classList.remove("copied", "copy-failed");
   if (cssClass) {
@@ -244,10 +259,14 @@ const applyGameBackground = (game) => {
     state.bgTransitionTimer = null;
   }, 600);
 };
-const applyGame = (gameId) => {
+const applyGame = (gameId, { animateTitle = true } = {}) => {
+  const previousGameId = state.game?.id;
   state.game = getGameById(gameId);
   localStorage.setItem(LOCAL_KEYS.selectedGameId, state.game.id);
-  refs.title.textContent = `${state.game.title} Bookkeeper`;
+
+  const shouldAnimateTitle = animateTitle && previousGameId && previousGameId !== state.game.id;
+  applyAnimatedTitle(`${state.game.title} Bookkeeper`, shouldAnimateTitle);
+
   refs.chartTitle.textContent = state.game.ui?.chartTitle ?? "Pulls per version";
   renderGameTabs();
   renderControlsForGame();
@@ -295,7 +314,7 @@ const bindEvents = () => {
     if (!gameId || gameId === state.game.id) {
       return;
     }
-    applyGame(gameId);
+    applyGame(gameId, { animateTitle: true });
   });
 
   refs.uidCopyBtn.addEventListener("click", async () => {
@@ -329,7 +348,7 @@ const bindEvents = () => {
 
 const init = () => {
   bindEvents();
-  applyGame(state.game.id);
+  applyGame(state.game.id, { animateTitle: false });
 };
 
 init();
