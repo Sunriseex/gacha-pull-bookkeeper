@@ -101,6 +101,25 @@ const yMaxFor = (maxValue) => {
   return Math.ceil(maxValue / 20) * 20;
 };
 
+const yStepFor = (maxValue) => {
+  if (maxValue <= 50) {
+    return 5;
+  }
+  if (maxValue <= 200) {
+    return 10;
+  }
+  return 20;
+};
+
+const scaleWithHeadroom = (maxValue) => {
+  const baseMax = yMaxFor(maxValue);
+  const fillRatio = maxValue / baseMax;
+  if (fillRatio < 0.93) {
+    return baseMax;
+  }
+  return baseMax + yStepFor(baseMax);
+};
+
 const hashLabel = (label) => {
   const input = String(label ?? "");
   let hash = 0;
@@ -323,7 +342,7 @@ const renderPatchChart = (canvas, series, state, progress = 1) => {
   const chartW = width - pad.left - pad.right;
   const chartH = height - pad.top - pad.bottom;
   const maxValue = Math.max(...series.map((s) => s.total), 1);
-  const scaleMax = yMaxFor(maxValue);
+  const scaleMax = scaleWithHeadroom(maxValue);
   const slotWidth = chartW / series.length;
   const barWidth = Math.min(120, slotWidth * 0.58);
   const valueLabels = [];
