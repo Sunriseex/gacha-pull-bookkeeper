@@ -236,6 +236,44 @@ const renderHoverLabel = (ctx, width, hoverInfo) => {
   ctx.fillText(text, boxX + padX, boxY + 16);
 };
 
+const renderValueLabels = (ctx, labels, minY) => {
+  if (!labels.length) {
+    return;
+  }
+
+  const laneOffsets = [0, -14, -28];
+  const laneRightEdge = laneOffsets.map(() => -Infinity);
+
+  ctx.textAlign = "center";
+  ctx.font = `11px ${FONT_STACK}`;
+  ctx.fillStyle = "#e2e8f0";
+
+  for (const label of labels.sort((a, b) => a.x - b.x)) {
+    const textWidth = ctx.measureText(label.text).width;
+    const halfWidth = textWidth / 2 + 4;
+
+    let laneIndex = laneOffsets.length - 1;
+    for (let i = 0; i < laneOffsets.length; i += 1) {
+      if (label.x - halfWidth > laneRightEdge[i]) {
+        laneIndex = i;
+        break;
+      }
+    }
+
+    const targetY = Math.max(minY, label.y + laneOffsets[laneIndex]);
+    if (targetY < label.barTop - 2) {
+      ctx.strokeStyle = "rgba(148, 163, 184, 0.45)";
+      ctx.lineWidth = 1;
+      ctx.beginPath();
+      ctx.moveTo(label.x, label.barTop - 2);
+      ctx.lineTo(label.x, targetY + 3);
+      ctx.stroke();
+    }
+
+    ctx.fillText(label.text, label.x, targetY);
+    laneRightEdge[laneIndex] = label.x + halfWidth + 4;
+  }
+};
 const buildSignature = (series) =>
   JSON.stringify(
     series.map((item) => ({
@@ -277,9 +315,9 @@ const renderPatchChart = (canvas, series, state, progress = 1) => {
   const legendWidth = desktopLegend ? 260 : 0;
   const legendHeight = desktopLegend ? 0 : Math.max(100, allLabels.length * 20 + 16);
   const pad = {
-    top: 36,
+    top: 48,
     right: 20 + legendWidth,
-    bottom: 66 + legendHeight,
+    bottom: 78 + legendHeight,
     left: 52,
   };
   const chartW = width - pad.left - pad.right;
@@ -288,6 +326,7 @@ const renderPatchChart = (canvas, series, state, progress = 1) => {
   const scaleMax = yMaxFor(maxValue);
   const slotWidth = chartW / series.length;
   const barWidth = Math.min(120, slotWidth * 0.58);
+  const valueLabels = [];
 
   ctx.strokeStyle = "#334155";
   ctx.lineWidth = 1;
@@ -355,13 +394,21 @@ const renderPatchChart = (canvas, series, state, progress = 1) => {
         h: segH,
       });
     });
+    valueLabels.push({
+      x: barX + barWidth / 2,
+      y: cursorY - 8,
+      barTop: cursorY,
+      text: formatValue(item.total),
+    });
+
     ctx.fillStyle = "#e2e8f0";
     ctx.textAlign = "center";
-    ctx.font = `11px ${FONT_STACK}`;
-    ctx.fillText(formatValue(item.total), barX + barWidth / 2, cursorY - 8);
     ctx.font = `10px ${FONT_STACK}`;
-    ctx.fillText(item.label, barX + barWidth / 2, pad.top + chartH + 20);
+    const xLabelY = pad.top + chartH + 20 + (patchIdx % 2) * 11;
+    ctx.fillText(item.label, barX + barWidth / 2, xLabelY);
   });
+
+  renderValueLabels(ctx, valueLabels, pad.top + 10);
 
   const totalsByLabel = allLabels.reduce((acc, label) => {
     acc[label] = series.reduce((sum, item) => {
