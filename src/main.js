@@ -12,11 +12,7 @@ import { renderTotals } from "./ui/render.js";
 
 const LOCAL_KEYS = {
   selectedGameId: "bookkeeper:selectedGameId",
-  spreadsheetId: "owner:spreadsheetId",
-  syncToken: "owner:patchsyncToken",
 };
-
-const PATCHSYNC_ENDPOINT = "http://127.0.0.1:8787/sync";
 
 const getInitialGame = () => {
   const persistedGameId = localStorage.getItem(LOCAL_KEYS.selectedGameId);
@@ -40,7 +36,6 @@ const refs = {
   battlePassTierGroup: document.querySelector("#battlePassTierGroup"),
   optionFlags: document.querySelector("#optionFlags"),
   uidCopyBtn: document.querySelector("#uidCopyBtn"),
-  syncSheetsBtn: document.querySelector("#syncSheetsBtn"),
   uiToggleBtn: document.querySelector("#uiToggleBtn"),
   totals: document.querySelector("#totals"),
   chart: document.querySelector("#patchChart"),
@@ -185,98 +180,6 @@ const renderUidButtonForGame = (game) => {
   refs.uidCopyBtn.textContent = label;
 };
 
-const runPatchsyncImport = async () => {
-  const spreadsheetStorageKey = `${LOCAL_KEYS.spreadsheetId}:${state.game.id}`;
-  const previousSpreadsheetId = localStorage.getItem(spreadsheetStorageKey) || "";
-  const spreadsheetIdInput = window.prompt(
-    "Google Spreadsheet ID or full URL:",
-    previousSpreadsheetId,
-  );
-  if (spreadsheetIdInput === null) {
-    return;
-  }
-  const spreadsheetId = spreadsheetIdInput.trim();
-  if (!spreadsheetId) {
-    window.alert("Spreadsheet ID is required.");
-    return;
-  }
-
-  const previousToken = localStorage.getItem(LOCAL_KEYS.syncToken) || "";
-  const tokenInput = window.prompt(
-    "Patchsync token (optional):",
-    previousToken,
-  );
-  if (tokenInput === null) {
-    return;
-  }
-  const syncToken = tokenInput.trim();
-
-  const createBranch = window.confirm(
-    "Create a new git branch before writing generated patches?",
-  );
-
-  const payload = {
-    gameId: state.game.id,
-    spreadsheetId,
-    createBranch,
-  };
-
-  const button = refs.syncSheetsBtn;
-  const defaultLabel = button?.dataset.defaultLabel || "Sync Sheets";
-  if (button) {
-    button.disabled = true;
-    button.textContent = "Syncing...";
-  }
-  try {
-    const response = await fetch(PATCHSYNC_ENDPOINT, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        ...(syncToken ? { "X-Patchsync-Token": syncToken } : {}),
-      },
-      body: JSON.stringify(payload),
-    });
-
-    const data = await response.json().catch(() => ({}));
-    if (!response.ok || !data.ok) {
-      const message = data.message || `Sync failed with status ${response.status}`;
-      throw new Error(message);
-    }
-
-    localStorage.setItem(spreadsheetStorageKey, spreadsheetId);
-    localStorage.setItem(LOCAL_KEYS.syncToken, syncToken);
-
-    const lines = [
-      `Game: ${state.game.title}`,
-      `Patches: ${(data.patches || []).join(", ") || "n/a"}`,
-      `Skipped: ${(data.skipped || []).join(", ") || "none"}`,
-      `Output: ${data.outputPath || "src/data/*.generated.js"}`,
-    ];
-    if (data.branch) {
-      lines.push(`Branch: ${data.branch}`);
-    }
-    lines.push("Reload this page to apply imported patches.");
-    window.alert(lines.join("\n"));
-  } catch (error) {
-    window.alert(
-      [
-        "Google Sheets sync failed.",
-        "",
-        String(error?.message || error),
-        "",
-        "Make sure patchsync service is running:",
-        "cd tools/patchsync",
-        "go run . --serve",
-      ].join("\n"),
-    );
-  } finally {
-    if (button) {
-      button.disabled = false;
-      button.textContent = defaultLabel;
-    }
-  }
-};
-
 const applyOptionState = () => {
   const options = currentOptions();
   options.monthlySub = refs.monthlySub.checked;
@@ -414,14 +317,6 @@ const bindEvents = () => {
       );
     }, 1600);
   });
-
-  if (refs.syncSheetsBtn) {
-    refs.syncSheetsBtn.dataset.defaultLabel =
-      refs.syncSheetsBtn.textContent || "Sync Sheets";
-    refs.syncSheetsBtn.addEventListener("click", () => {
-      runPatchsyncImport();
-    });
-  }
 
   refs.uiToggleBtn.addEventListener("click", () => {
     const hidden = document.body.classList.toggle("ui-hidden");
