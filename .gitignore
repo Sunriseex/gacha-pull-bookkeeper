@@ -1,3 +1,5 @@
 tools/patchsync/patchsync.exe
 tools/patchsync/
 tools/pathsync/
+AGENTS.md
+agents_frontend.md
