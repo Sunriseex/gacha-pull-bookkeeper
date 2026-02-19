@@ -16,24 +16,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 25.6,
         "rewards": {
-          "oroberyl": 3455,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 24,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 3455,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 4,
+          "lustrousTide": 24,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -45,24 +41,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 151,
         "rewards": {
-          "oroberyl": 21765,
-          "origeometry": 0,
-          "chartered": 15,
-          "basic": 58,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 21765,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 15,
+          "lustrousTide": 58,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -74,24 +66,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 35.8,
         "rewards": {
-          "oroberyl": 920,
-          "origeometry": 0,
-          "chartered": 30,
-          "basic": 40,
-          "firewalker": 5,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 920,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 30,
+          "lustrousTide": 40,
+          "forgingTide": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -103,24 +91,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 13.5,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -132,24 +116,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 11.2,
         "rewards": {
-          "oroberyl": 3960,
-          "origeometry": 0,
-          "chartered": 6,
-          "basic": 11,
-          "firewalker": 6,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 3960,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 6,
+          "lustrousTide": 11,
+          "forgingTide": 6
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -161,24 +141,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -190,24 +166,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 11,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -219,24 +191,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 9.3,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 5,
-          "basic": 2,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 680,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 5,
+          "lustrousTide": 2,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -248,24 +216,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 20.3,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": [
           {
@@ -274,14 +238,12 @@ export const GENERATED_PATCHES = [
             "everyDays": 1,
             "rounding": "floor",
             "rewards": {
-              "oroberyl": 90,
-              "origeometry": 0,
-              "chartered": 0,
-              "basic": 0,
-              "firewalker": 0,
-              "messenger": 0,
-              "hues": 0,
-              "arsenal": 0
+              "astrite": 90,
+              "lunite": 0,
+              "forgingToken": 0,
+              "radiantTide": 0,
+              "lustrousTide": 0,
+              "forgingTide": 0
             }
           }
         ]
@@ -304,24 +266,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 32.1,
         "rewards": {
-          "oroberyl": 2740,
-          "origeometry": 0,
-          "chartered": 15,
-          "basic": 20,
-          "firewalker": 10,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 2740,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 15,
+          "lustrousTide": 20,
+          "forgingTide": 10
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -333,24 +291,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.4,
         "rewards": {
-          "oroberyl": 4230,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 4230,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -362,24 +316,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 5.1,
         "rewards": {
-          "oroberyl": 810,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 810,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -391,24 +341,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 17.6,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -420,24 +366,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 14.7,
         "rewards": {
-          "oroberyl": 5170,
-          "origeometry": 0,
-          "chartered": 7,
-          "basic": 12,
-          "firewalker": 7,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 5170,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 7,
+          "lustrousTide": 12,
+          "forgingTide": 7
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -449,24 +391,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 7,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -478,24 +416,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 17,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -507,24 +441,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 9.3,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 5,
-          "basic": 2,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 680,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 5,
+          "lustrousTide": 2,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -536,24 +466,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.4,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": [
           {
@@ -562,14 +488,12 @@ export const GENERATED_PATCHES = [
             "everyDays": 1,
             "rounding": "floor",
             "rewards": {
-              "oroberyl": 90,
-              "origeometry": 0,
-              "chartered": 0,
-              "basic": 0,
-              "firewalker": 0,
-              "messenger": 0,
-              "hues": 0,
-              "arsenal": 0
+              "astrite": 90,
+              "lunite": 0,
+              "forgingToken": 0,
+              "radiantTide": 0,
+              "lustrousTide": 0,
+              "forgingTide": 0
             }
           }
         ]
@@ -592,24 +516,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.3,
         "rewards": {
-          "oroberyl": 4040,
-          "origeometry": 0,
-          "chartered": 5,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 4040,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 5,
+          "lustrousTide": 5,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -621,24 +541,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 3.2,
         "rewards": {
-          "oroberyl": 510,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 510,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -650,24 +566,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 4.8,
         "rewards": {
-          "oroberyl": 760,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 760,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -679,24 +591,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 16.5,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -708,24 +616,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 13.6,
         "rewards": {
-          "oroberyl": 4840,
-          "origeometry": 0,
-          "chartered": 7,
-          "basic": 12,
-          "firewalker": 7,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 4840,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 7,
+          "lustrousTide": 12,
+          "forgingTide": 7
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -737,24 +641,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 7,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -766,24 +666,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 7,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -795,24 +691,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 9.3,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 5,
-          "basic": 2,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 680,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 5,
+          "lustrousTide": 2,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -824,24 +716,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 24.8,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": [
           {
@@ -850,14 +738,12 @@ export const GENERATED_PATCHES = [
             "everyDays": 1,
             "rounding": "floor",
             "rewards": {
-              "oroberyl": 90,
-              "origeometry": 0,
-              "chartered": 0,
-              "basic": 0,
-              "firewalker": 0,
-              "messenger": 0,
-              "hues": 0,
-              "arsenal": 0
+              "astrite": 90,
+              "lunite": 0,
+              "forgingToken": 0,
+              "radiantTide": 0,
+              "lustrousTide": 0,
+              "forgingTide": 0
             }
           }
         ]
@@ -880,24 +766,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 27.4,
         "rewards": {
-          "oroberyl": 3580,
-          "origeometry": 0,
-          "chartered": 5,
-          "basic": 10,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 3580,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 5,
+          "lustrousTide": 10,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -909,24 +791,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 22.6,
         "rewards": {
-          "oroberyl": 3610,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 3610,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -938,24 +816,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 5.6,
         "rewards": {
-          "oroberyl": 900,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 900,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -967,24 +841,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 17.3,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -996,24 +866,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 14.3,
         "rewards": {
-          "oroberyl": 5060,
-          "origeometry": 0,
-          "chartered": 7,
-          "basic": 12,
-          "firewalker": 7,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 5060,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 7,
+          "lustrousTide": 12,
+          "forgingTide": 7
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -1025,24 +891,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 7,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -1054,24 +916,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 7,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -1083,24 +941,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 9.3,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 5,
-          "basic": 2,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 680,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 5,
+          "lustrousTide": 2,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -1112,24 +966,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 25.9,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": [
           {
@@ -1138,14 +988,12 @@ export const GENERATED_PATCHES = [
             "everyDays": 1,
             "rounding": "floor",
             "rewards": {
-              "oroberyl": 90,
-              "origeometry": 0,
-              "chartered": 0,
-              "basic": 0,
-              "firewalker": 0,
-              "messenger": 0,
-              "hues": 0,
-              "arsenal": 0
+              "astrite": 90,
+              "lunite": 0,
+              "forgingToken": 0,
+              "radiantTide": 0,
+              "lustrousTide": 0,
+              "forgingTide": 0
             }
           }
         ]
@@ -1168,24 +1016,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 28.3,
         "rewards": {
-          "oroberyl": 3720,
-          "origeometry": 0,
-          "chartered": 5,
-          "basic": 10,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 3720,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 5,
+          "lustrousTide": 10,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -1197,24 +1041,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 4.1,
         "rewards": {
-          "oroberyl": 655,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 655,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -1226,24 +1066,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 19,
         "rewards": {
-          "oroberyl": 3040,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 3040,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -1255,24 +1091,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 18.8,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -1284,24 +1116,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.5,
         "rewards": {
-          "oroberyl": 5500,
-          "origeometry": 0,
-          "chartered": 7,
-          "basic": 12,
-          "firewalker": 7,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 5500,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 7,
+          "lustrousTide": 12,
+          "forgingTide": 7
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -1313,24 +1141,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 7,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -1342,24 +1166,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 7,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -1371,24 +1191,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 9.3,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 5,
-          "basic": 2,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 680,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 5,
+          "lustrousTide": 2,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -1400,24 +1216,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 28.1,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": [
           {
@@ -1426,14 +1238,12 @@ export const GENERATED_PATCHES = [
             "everyDays": 1,
             "rounding": "floor",
             "rewards": {
-              "oroberyl": 90,
-              "origeometry": 0,
-              "chartered": 0,
-              "basic": 0,
-              "firewalker": 0,
-              "messenger": 0,
-              "hues": 0,
-              "arsenal": 0
+              "astrite": 90,
+              "lunite": 0,
+              "forgingToken": 0,
+              "radiantTide": 0,
+              "lustrousTide": 0,
+              "forgingTide": 0
             }
           }
         ]
@@ -1456,24 +1266,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 23.6,
         "rewards": {
-          "oroberyl": 2970,
-          "origeometry": 0,
-          "chartered": 5,
-          "basic": 10,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 2970,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 5,
+          "lustrousTide": 10,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -1485,24 +1291,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 56.9,
         "rewards": {
-          "oroberyl": 9107,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 35,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 9107,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 35,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -1514,24 +1316,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 27.5,
         "rewards": {
-          "oroberyl": 2800,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 2800,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 10,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -1543,24 +1341,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -1572,24 +1366,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 13.1,
         "rewards": {
-          "oroberyl": 4620,
-          "origeometry": 0,
-          "chartered": 7,
-          "basic": 12,
-          "firewalker": 7,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 4620,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 7,
+          "lustrousTide": 12,
+          "forgingTide": 7
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -1601,24 +1391,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 7,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -1630,24 +1416,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 7,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -1659,24 +1441,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 9.3,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 5,
-          "basic": 2,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 680,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 5,
+          "lustrousTide": 2,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -1688,24 +1466,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 23.6,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": [
           {
@@ -1714,14 +1488,12 @@ export const GENERATED_PATCHES = [
             "everyDays": 1,
             "rounding": "floor",
             "rewards": {
-              "oroberyl": 90,
-              "origeometry": 0,
-              "chartered": 0,
-              "basic": 0,
-              "firewalker": 0,
-              "messenger": 0,
-              "hues": 0,
-              "arsenal": 0
+              "astrite": 90,
+              "lunite": 0,
+              "forgingToken": 0,
+              "radiantTide": 0,
+              "lustrousTide": 0,
+              "forgingTide": 0
             }
           }
         ]
@@ -1744,24 +1516,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 25.4,
         "rewards": {
-          "oroberyl": 3260,
-          "origeometry": 0,
-          "chartered": 5,
-          "basic": 10,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 3260,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 5,
+          "lustrousTide": 10,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -1773,24 +1541,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 17.3,
         "rewards": {
-          "oroberyl": 2765,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 4,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 2765,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 4,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -1802,24 +1566,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 5.6,
         "rewards": {
-          "oroberyl": 900,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 900,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -1831,24 +1591,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -1860,24 +1616,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 20,
         "rewards": {
-          "oroberyl": 5730,
-          "origeometry": 0,
-          "chartered": 7,
-          "basic": 12,
-          "firewalker": 7,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 5730,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 7,
+          "lustrousTide": 12,
+          "forgingTide": 7
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -1889,24 +1641,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 7,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -1918,24 +1666,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 7,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -1947,24 +1691,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 9.3,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 5,
-          "basic": 2,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 680,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 5,
+          "lustrousTide": 2,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -1976,24 +1716,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 23.6,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": [
           {
@@ -2002,14 +1738,12 @@ export const GENERATED_PATCHES = [
             "everyDays": 1,
             "rounding": "floor",
             "rewards": {
-              "oroberyl": 90,
-              "origeometry": 0,
-              "chartered": 0,
-              "basic": 0,
-              "firewalker": 0,
-              "messenger": 0,
-              "hues": 0,
-              "arsenal": 0
+              "astrite": 90,
+              "lunite": 0,
+              "forgingToken": 0,
+              "radiantTide": 0,
+              "lustrousTide": 0,
+              "forgingTide": 0
             }
           }
         ]
@@ -2032,24 +1766,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 23.4,
         "rewards": {
-          "oroberyl": 2940,
-          "origeometry": 0,
-          "chartered": 5,
-          "basic": 10,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 2940,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 5,
+          "lustrousTide": 10,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -2061,24 +1791,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 17.6,
         "rewards": {
-          "oroberyl": 2810,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 3,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 2810,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 3,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -2090,24 +1816,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 16.6,
         "rewards": {
-          "oroberyl": 1060,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 10,
-          "firewalker": 10,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 1060,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 10,
+          "lustrousTide": 10,
+          "forgingTide": 10
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -2119,24 +1841,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 12.4,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -2148,24 +1866,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.7,
         "rewards": {
-          "oroberyl": 4502,
-          "origeometry": 0,
-          "chartered": 7,
-          "basic": 12,
-          "firewalker": 7,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 4502,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 7,
+          "lustrousTide": 12,
+          "forgingTide": 7
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -2177,24 +1891,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 7,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -2206,24 +1916,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 17,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -2235,24 +1941,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 9.3,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 5,
-          "basic": 2,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 680,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 5,
+          "lustrousTide": 2,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -2264,24 +1966,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 18.6,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": [
           {
@@ -2290,14 +1988,12 @@ export const GENERATED_PATCHES = [
             "everyDays": 1,
             "rounding": "floor",
             "rewards": {
-              "oroberyl": 90,
-              "origeometry": 0,
-              "chartered": 0,
-              "basic": 0,
-              "firewalker": 0,
-              "messenger": 0,
-              "hues": 0,
-              "arsenal": 0
+              "astrite": 90,
+              "lunite": 0,
+              "forgingToken": 0,
+              "radiantTide": 0,
+              "lustrousTide": 0,
+              "forgingTide": 0
             }
           }
         ]
@@ -2320,24 +2016,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 53.1,
         "rewards": {
-          "oroberyl": 2900,
-          "origeometry": 0,
-          "chartered": 35,
-          "basic": 10,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 2900,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 35,
+          "lustrousTide": 10,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -2349,24 +2041,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8,
         "rewards": {
-          "oroberyl": 1280,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 1280,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -2378,24 +2066,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "oroberyl": 1100,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 1100,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -2407,24 +2091,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -2436,24 +2116,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 20,
         "rewards": {
-          "oroberyl": 5730,
-          "origeometry": 0,
-          "chartered": 7,
-          "basic": 12,
-          "firewalker": 7,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 5730,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 7,
+          "lustrousTide": 12,
+          "forgingTide": 7
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -2465,24 +2141,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 7,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -2494,24 +2166,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 7,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -2523,24 +2191,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 9.3,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 5,
-          "basic": 2,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 680,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 5,
+          "lustrousTide": 2,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -2552,24 +2216,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 23.6,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": [
           {
@@ -2578,14 +2238,12 @@ export const GENERATED_PATCHES = [
             "everyDays": 1,
             "rounding": "floor",
             "rewards": {
-              "oroberyl": 90,
-              "origeometry": 0,
-              "chartered": 0,
-              "basic": 0,
-              "firewalker": 0,
-              "messenger": 0,
-              "hues": 0,
-              "arsenal": 0
+              "astrite": 90,
+              "lunite": 0,
+              "forgingToken": 0,
+              "radiantTide": 0,
+              "lustrousTide": 0,
+              "forgingTide": 0
             }
           }
         ]
@@ -2608,24 +2266,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 24.5,
         "rewards": {
-          "oroberyl": 3120,
-          "origeometry": 0,
-          "chartered": 5,
-          "basic": 10,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 3120,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 5,
+          "lustrousTide": 10,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -2637,24 +2291,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 31.6,
         "rewards": {
-          "oroberyl": 5050,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 7,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 5050,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 7,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -2666,24 +2316,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.6,
         "rewards": {
-          "oroberyl": 900,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 900,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 10,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -2695,24 +2341,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -2724,24 +2366,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 20,
         "rewards": {
-          "oroberyl": 5730,
-          "origeometry": 0,
-          "chartered": 7,
-          "basic": 12,
-          "firewalker": 7,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 5730,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 7,
+          "lustrousTide": 12,
+          "forgingTide": 7
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -2753,24 +2391,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 7,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -2782,24 +2416,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 7,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -2811,24 +2441,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 9.3,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 5,
-          "basic": 2,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 680,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 5,
+          "lustrousTide": 2,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -2840,24 +2466,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 23.6,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": [
           {
@@ -2866,14 +2488,12 @@ export const GENERATED_PATCHES = [
             "everyDays": 1,
             "rounding": "floor",
             "rewards": {
-              "oroberyl": 90,
-              "origeometry": 0,
-              "chartered": 0,
-              "basic": 0,
-              "firewalker": 0,
-              "messenger": 0,
-              "hues": 0,
-              "arsenal": 0
+              "astrite": 90,
+              "lunite": 0,
+              "forgingToken": 0,
+              "radiantTide": 0,
+              "lustrousTide": 0,
+              "forgingTide": 0
             }
           }
         ]
@@ -2896,24 +2516,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 20.4,
         "rewards": {
-          "oroberyl": 2460,
-          "origeometry": 0,
-          "chartered": 5,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 2460,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 5,
+          "lustrousTide": 5,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -2925,24 +2541,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 10.3,
         "rewards": {
-          "oroberyl": 1650,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 1,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 1650,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 1,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -2954,24 +2566,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 5.6,
         "rewards": {
-          "oroberyl": 900,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 900,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -2983,24 +2591,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 13.1,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -3012,24 +2616,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 16.8,
         "rewards": {
-          "oroberyl": 4775,
-          "origeometry": 0,
-          "chartered": 7,
-          "basic": 12,
-          "firewalker": 7,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 4775,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 7,
+          "lustrousTide": 12,
+          "forgingTide": 7
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -3041,24 +2641,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 7,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -3070,24 +2666,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 7,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -3099,24 +2691,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 9.3,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 5,
-          "basic": 2,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 680,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 5,
+          "lustrousTide": 2,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -3128,24 +2716,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 19.7,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": [
           {
@@ -3154,14 +2738,12 @@ export const GENERATED_PATCHES = [
             "everyDays": 1,
             "rounding": "floor",
             "rewards": {
-              "oroberyl": 90,
-              "origeometry": 0,
-              "chartered": 0,
-              "basic": 0,
-              "firewalker": 0,
-              "messenger": 0,
-              "hues": 0,
-              "arsenal": 0
+              "astrite": 90,
+              "lunite": 0,
+              "forgingToken": 0,
+              "radiantTide": 0,
+              "lustrousTide": 0,
+              "forgingTide": 0
             }
           }
         ]
@@ -3184,24 +2766,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 39.3,
         "rewards": {
-          "oroberyl": 3880,
-          "origeometry": 0,
-          "chartered": 15,
-          "basic": 10,
-          "firewalker": 10,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 3880,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 15,
+          "lustrousTide": 10,
+          "forgingTide": 10
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -3213,24 +2791,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.6,
         "rewards": {
-          "oroberyl": 2495,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 1,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 2495,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 1,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -3242,24 +2816,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 5.6,
         "rewards": {
-          "oroberyl": 900,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 900,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -3271,24 +2841,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -3300,24 +2866,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 22.6,
         "rewards": {
-          "oroberyl": 5730,
-          "origeometry": 0,
-          "chartered": 7,
-          "basic": 12,
-          "firewalker": 7,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 5730,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 7,
+          "lustrousTide": 12,
+          "forgingTide": 7
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -3329,24 +2891,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 7,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -3358,24 +2916,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 17,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -3387,24 +2941,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 9.3,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 5,
-          "basic": 2,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 680,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 5,
+          "lustrousTide": 2,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -3416,24 +2966,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 23.6,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": [
           {
@@ -3442,14 +2988,12 @@ export const GENERATED_PATCHES = [
             "everyDays": 1,
             "rounding": "floor",
             "rewards": {
-              "oroberyl": 90,
-              "origeometry": 0,
-              "chartered": 0,
-              "basic": 0,
-              "firewalker": 0,
-              "messenger": 0,
-              "hues": 0,
-              "arsenal": 0
+              "astrite": 90,
+              "lunite": 0,
+              "forgingToken": 0,
+              "radiantTide": 0,
+              "lustrousTide": 0,
+              "forgingTide": 0
             }
           }
         ]
@@ -3472,24 +3016,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 19.9,
         "rewards": {
-          "oroberyl": 2380,
-          "origeometry": 0,
-          "chartered": 5,
-          "basic": 10,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 2380,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 5,
+          "lustrousTide": 10,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -3501,24 +3041,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "oroberyl": 1335,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 1335,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -3530,24 +3066,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 7.1,
         "rewards": {
-          "oroberyl": 1130,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 1130,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -3559,24 +3091,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -3588,24 +3116,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 23.6,
         "rewards": {
-          "oroberyl": 5880,
-          "origeometry": 0,
-          "chartered": 7,
-          "basic": 12,
-          "firewalker": 7,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 5880,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 7,
+          "lustrousTide": 12,
+          "forgingTide": 7
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -3617,24 +3141,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 7,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -3646,24 +3166,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 7,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -3675,24 +3191,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 9.3,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 5,
-          "basic": 2,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 680,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 5,
+          "lustrousTide": 2,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -3704,24 +3216,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 23.6,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": [
           {
@@ -3730,14 +3238,12 @@ export const GENERATED_PATCHES = [
             "everyDays": 1,
             "rounding": "floor",
             "rewards": {
-              "oroberyl": 90,
-              "origeometry": 0,
-              "chartered": 0,
-              "basic": 0,
-              "firewalker": 0,
-              "messenger": 0,
-              "hues": 0,
-              "arsenal": 0
+              "astrite": 90,
+              "lunite": 0,
+              "forgingToken": 0,
+              "radiantTide": 0,
+              "lustrousTide": 0,
+              "forgingTide": 0
             }
           }
         ]
@@ -3760,24 +3266,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 22.1,
         "rewards": {
-          "oroberyl": 2740,
-          "origeometry": 0,
-          "chartered": 5,
-          "basic": 10,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 2740,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 5,
+          "lustrousTide": 10,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -3789,24 +3291,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 7.9,
         "rewards": {
-          "oroberyl": 1270,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 1270,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -3818,24 +3316,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 24.5,
         "rewards": {
-          "oroberyl": 3920,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 3920,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -3847,24 +3341,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 13.1,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -3876,24 +3366,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 23.8,
         "rewards": {
-          "oroberyl": 5900,
-          "origeometry": 0,
-          "chartered": 7,
-          "basic": 12,
-          "firewalker": 7,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 5900,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 7,
+          "lustrousTide": 12,
+          "forgingTide": 7
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -3905,24 +3391,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 7,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -3934,24 +3416,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 7,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -3963,24 +3441,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 9.3,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 5,
-          "basic": 2,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 680,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 5,
+          "lustrousTide": 2,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -3992,24 +3466,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 19.7,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": [
           {
@@ -4018,14 +3488,12 @@ export const GENERATED_PATCHES = [
             "everyDays": 1,
             "rounding": "floor",
             "rewards": {
-              "oroberyl": 90,
-              "origeometry": 0,
-              "chartered": 0,
-              "basic": 0,
-              "firewalker": 0,
-              "messenger": 0,
-              "hues": 0,
-              "arsenal": 0
+              "astrite": 90,
+              "lunite": 0,
+              "forgingToken": 0,
+              "radiantTide": 0,
+              "lustrousTide": 0,
+              "forgingTide": 0
             }
           }
         ]
@@ -4048,24 +3516,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 34.1,
         "rewards": {
-          "oroberyl": 4650,
-          "origeometry": 0,
-          "chartered": 5,
-          "basic": 13,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 4650,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 5,
+          "lustrousTide": 13,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -4077,24 +3541,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 48.1,
         "rewards": {
-          "oroberyl": 7700,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 21,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 7700,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 21,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -4106,24 +3566,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 18.6,
         "rewards": {
-          "oroberyl": 1380,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 1380,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 10,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -4135,24 +3591,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -4164,24 +3616,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 23.6,
         "rewards": {
-          "oroberyl": 5880,
-          "origeometry": 0,
-          "chartered": 7,
-          "basic": 12,
-          "firewalker": 7,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 5880,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 7,
+          "lustrousTide": 12,
+          "forgingTide": 7
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -4193,24 +3641,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 7,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -4222,24 +3666,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 7,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -4251,24 +3691,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 9.3,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 5,
-          "basic": 2,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 680,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 5,
+          "lustrousTide": 2,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -4280,24 +3716,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 23.6,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": [
           {
@@ -4306,14 +3738,12 @@ export const GENERATED_PATCHES = [
             "everyDays": 1,
             "rounding": "floor",
             "rewards": {
-              "oroberyl": 90,
-              "origeometry": 0,
-              "chartered": 0,
-              "basic": 0,
-              "firewalker": 0,
-              "messenger": 0,
-              "hues": 0,
-              "arsenal": 0
+              "astrite": 90,
+              "lunite": 0,
+              "forgingToken": 0,
+              "radiantTide": 0,
+              "lustrousTide": 0,
+              "forgingTide": 0
             }
           }
         ]
@@ -4336,24 +3766,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.1,
         "rewards": {
-          "oroberyl": 1780,
-          "origeometry": 0,
-          "chartered": 15,
-          "basic": 15,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 1780,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 15,
+          "lustrousTide": 15,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -4365,24 +3791,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 16.2,
         "rewards": {
-          "oroberyl": 2595,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 1,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 2595,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 1,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -4394,24 +3816,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 0,
         "rewards": {
-          "oroberyl": 2650,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 2650,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -4423,24 +3841,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -4452,24 +3866,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 23.6,
         "rewards": {
-          "oroberyl": 5880,
-          "origeometry": 0,
-          "chartered": 7,
-          "basic": 12,
-          "firewalker": 7,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 5880,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 7,
+          "lustrousTide": 12,
+          "forgingTide": 7
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -4481,24 +3891,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 7,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -4510,24 +3916,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 7,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -4539,24 +3941,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 9.3,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 5,
-          "basic": 2,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 680,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 5,
+          "lustrousTide": 2,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": []
       },
@@ -4568,24 +3966,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 23.6,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "astrite": 0,
+          "lunite": 0,
+          "forgingToken": 0,
+          "radiantTide": 0,
+          "lustrousTide": 0,
+          "forgingTide": 0
         },
         "scalers": [
           {
@@ -4594,14 +3988,12 @@ export const GENERATED_PATCHES = [
             "everyDays": 1,
             "rounding": "floor",
             "rewards": {
-              "oroberyl": 90,
-              "origeometry": 0,
-              "chartered": 0,
-              "basic": 0,
-              "firewalker": 0,
-              "messenger": 0,
-              "hues": 0,
-              "arsenal": 0
+              "astrite": 90,
+              "lunite": 0,
+              "forgingToken": 0,
+              "radiantTide": 0,
+              "lustrousTide": 0,
+              "forgingTide": 0
             }
           }
         ]

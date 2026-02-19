@@ -16,24 +16,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "oroberyl": 2520,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2520,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -45,24 +39,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 4.9,
         "rewards": {
-          "oroberyl": 780,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 6,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 780,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 6
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -74,24 +62,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 11.3,
         "rewards": {
-          "oroberyl": 1800,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1800,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -103,24 +85,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.9,
-          "basic": 6.9,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 6.9,
+          "railPass": 6.9
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -132,24 +108,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 13.4,
         "rewards": {
-          "oroberyl": 540,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 540,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 10,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -161,53 +131,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 144.3,
         "rewards": {
-          "oroberyl": 23125,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 155,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 23125,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 155
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox \u0026 Web Events",
+        "label": "Mailbox & Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 17.3,
         "rewards": {
-          "oroberyl": 1163,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 20,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1163,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 10,
+          "railPass": 20
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -219,24 +177,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 680,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 4,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -248,24 +200,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 4200,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       }
@@ -287,24 +233,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "oroberyl": 2520,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2520,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -316,24 +256,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 7.1,
         "rewards": {
-          "oroberyl": 1140,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 6,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1140,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 6
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -345,24 +279,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 11.3,
         "rewards": {
-          "oroberyl": 1800,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1800,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -374,24 +302,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.9,
-          "basic": 6.9,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 6.9,
+          "railPass": 6.9
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -403,24 +325,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 25.8,
         "rewards": {
-          "oroberyl": 2520,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2520,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 10,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -432,53 +348,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 17.6,
         "rewards": {
-          "oroberyl": 2832,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 17,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2832,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 17
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox \u0026 Web Events",
+        "label": "Mailbox & Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 9,
         "rewards": {
-          "oroberyl": 1443,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1443,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -490,24 +394,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 680,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 4,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -519,24 +417,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 4200,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       }
@@ -558,24 +450,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "oroberyl": 2520,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2520,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -587,24 +473,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.4,
         "rewards": {
-          "oroberyl": 1350,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 6,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1350,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 6
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -616,24 +496,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 11.3,
         "rewards": {
-          "oroberyl": 1800,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1800,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -645,24 +519,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.9,
-          "basic": 6.9,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 6.9,
+          "railPass": 6.9
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -674,24 +542,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 22.2,
         "rewards": {
-          "oroberyl": 1950,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1950,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 10,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -703,53 +565,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 20.2,
         "rewards": {
-          "oroberyl": 3245,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 9,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 3245,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 9
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox \u0026 Web Events",
+        "label": "Mailbox & Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 9,
         "rewards": {
-          "oroberyl": 1443,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1443,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -761,24 +611,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 680,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 4,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -790,24 +634,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 4200,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       }
@@ -829,24 +667,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "oroberyl": 2520,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2520,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -858,24 +690,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.4,
         "rewards": {
-          "oroberyl": 1350,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 6,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1350,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 6
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -887,24 +713,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 11.3,
         "rewards": {
-          "oroberyl": 1800,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1800,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -916,24 +736,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.9,
-          "basic": 6.9,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 6.9,
+          "railPass": 6.9
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -945,24 +759,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 20.9,
         "rewards": {
-          "oroberyl": 1740,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1740,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 10,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -974,53 +782,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 40.4,
         "rewards": {
-          "oroberyl": 6472,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 14,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 6472,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 14
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox \u0026 Web Events",
+        "label": "Mailbox & Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 12.4,
         "rewards": {
-          "oroberyl": 1983,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1983,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -1032,24 +828,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 680,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 4,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -1061,24 +851,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 4200,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       }
@@ -1100,24 +884,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 13.1,
         "rewards": {
-          "oroberyl": 2100,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2100,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -1129,24 +907,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 7,
         "rewards": {
-          "oroberyl": 1125,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1125,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -1158,24 +930,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 9.4,
         "rewards": {
-          "oroberyl": 1500,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1500,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -1187,24 +953,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 5.7,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 5.7,
-          "basic": 5.7,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 5.7,
+          "railPass": 5.7
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -1216,24 +976,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 21,
         "rewards": {
-          "oroberyl": 1760,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1760,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 10,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -1245,53 +999,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 12.8,
         "rewards": {
-          "oroberyl": 2028,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 10,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2028,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 10
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox \u0026 Web Events",
+        "label": "Mailbox & Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 8.2,
         "rewards": {
-          "oroberyl": 1319,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1319,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -1303,24 +1045,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 680,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 4,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -1332,24 +1068,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 21.9,
         "rewards": {
-          "oroberyl": 3500,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 3500,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       }
@@ -1371,24 +1101,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "oroberyl": 2520,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2520,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -1400,24 +1124,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.4,
         "rewards": {
-          "oroberyl": 1350,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 6,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1350,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 6
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -1429,24 +1147,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 11.3,
         "rewards": {
-          "oroberyl": 1800,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1800,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -1458,24 +1170,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.9,
-          "basic": 6.9,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 6.9,
+          "railPass": 6.9
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -1487,24 +1193,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 24.1,
         "rewards": {
-          "oroberyl": 2260,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2260,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 10,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -1516,53 +1216,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15,
         "rewards": {
-          "oroberyl": 2404,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 12,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2404,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 12
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox \u0026 Web Events",
+        "label": "Mailbox & Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 24.8,
         "rewards": {
-          "oroberyl": 3973,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 3973,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -1574,24 +1262,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 680,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 4,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -1603,24 +1285,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 4200,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       }
@@ -1642,24 +1318,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "oroberyl": 2520,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2520,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -1671,24 +1341,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.4,
         "rewards": {
-          "oroberyl": 1350,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 6,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1350,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 6
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -1700,24 +1364,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 13.5,
         "rewards": {
-          "oroberyl": 2160,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2160,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -1729,24 +1387,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.9,
-          "basic": 6.9,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 6.9,
+          "railPass": 6.9
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -1758,24 +1410,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 16.8,
         "rewards": {
-          "oroberyl": 1080,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1080,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 10,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -1787,53 +1433,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 31.6,
         "rewards": {
-          "oroberyl": 5062,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 13,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 5062,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 13
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox \u0026 Web Events",
+        "label": "Mailbox & Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 10.7,
         "rewards": {
-          "oroberyl": 1713,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1713,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -1845,24 +1479,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 680,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 4,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -1874,24 +1502,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 4200,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       }
@@ -1913,24 +1535,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 18.4,
         "rewards": {
-          "oroberyl": 2940,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2940,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -1942,24 +1558,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 9.8,
         "rewards": {
-          "oroberyl": 1575,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 7,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1575,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 7
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -1971,24 +1581,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 13.5,
         "rewards": {
-          "oroberyl": 2160,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2160,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -2000,24 +1604,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 8,
-          "basic": 8,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 8,
+          "railPass": 8
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -2029,24 +1627,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 34.9,
         "rewards": {
-          "oroberyl": 2380,
-          "origeometry": 0,
-          "chartered": 20,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2380,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 20,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -2058,53 +1650,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.8,
         "rewards": {
-          "oroberyl": 4921,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 11,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 4921,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 11
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox \u0026 Web Events",
+        "label": "Mailbox & Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 9.3,
         "rewards": {
-          "oroberyl": 1487,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1487,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -2116,24 +1696,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 680,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 4,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -2145,24 +1719,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.6,
         "rewards": {
-          "oroberyl": 4900,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 4900,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       }
@@ -2184,24 +1752,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "oroberyl": 2520,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2520,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -2213,24 +1775,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.4,
         "rewards": {
-          "oroberyl": 1350,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 6,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1350,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 6
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -2242,24 +1798,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 13.5,
         "rewards": {
-          "oroberyl": 2160,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2160,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -2271,24 +1821,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.9,
-          "basic": 6.9,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 6.9,
+          "railPass": 6.9
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -2300,24 +1844,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 36.1,
         "rewards": {
-          "oroberyl": 2580,
-          "origeometry": 0,
-          "chartered": 20,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2580,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 20,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -2329,53 +1867,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 23.3,
         "rewards": {
-          "oroberyl": 3724,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 10,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 3724,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 10
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox \u0026 Web Events",
+        "label": "Mailbox & Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 20.2,
         "rewards": {
-          "oroberyl": 3233,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 3233,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -2387,24 +1913,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 680,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 4,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -2416,24 +1936,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 4200,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       }
@@ -2455,24 +1969,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "oroberyl": 2520,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2520,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -2484,24 +1992,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.4,
         "rewards": {
-          "oroberyl": 1350,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 6,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1350,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 6
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -2513,24 +2015,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 13.5,
         "rewards": {
-          "oroberyl": 2160,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2160,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -2542,24 +2038,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.9,
-          "basic": 6.9,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 6.9,
+          "railPass": 6.9
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -2571,24 +2061,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26,
         "rewards": {
-          "oroberyl": 2560,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2560,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 10,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -2600,53 +2084,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.9,
         "rewards": {
-          "oroberyl": 4152,
-          "origeometry": 0,
-          "chartered": 1,
-          "basic": 7,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 4152,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 1,
+          "railPass": 7
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox \u0026 Web Events",
+        "label": "Mailbox & Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 8.9,
         "rewards": {
-          "oroberyl": 1423,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1423,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -2658,24 +2130,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 680,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 4,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -2687,24 +2153,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 4200,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       }
@@ -2726,24 +2186,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "oroberyl": 2520,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2520,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -2755,24 +2209,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.4,
         "rewards": {
-          "oroberyl": 1350,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 6,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1350,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 6
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -2784,24 +2232,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15,
         "rewards": {
-          "oroberyl": 2400,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2400,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -2813,24 +2255,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.9,
-          "basic": 6.9,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 6.9,
+          "railPass": 6.9
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -2842,24 +2278,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 40.5,
         "rewards": {
-          "oroberyl": 4880,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 2,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 4880,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 10,
+          "railPass": 2
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -2871,53 +2301,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 7.6,
         "rewards": {
-          "oroberyl": 1225,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 6,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1225,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 6
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox \u0026 Web Events",
+        "label": "Mailbox & Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 8.9,
         "rewards": {
-          "oroberyl": 1423,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1423,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -2929,24 +2347,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 680,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 4,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -2958,24 +2370,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 4200,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       }
@@ -2997,24 +2403,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.4,
         "rewards": {
-          "oroberyl": 2460,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2460,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -3026,24 +2426,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.2,
         "rewards": {
-          "oroberyl": 1318,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5.9,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1318,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 5.9
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -3055,24 +2449,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 14.6,
         "rewards": {
-          "oroberyl": 2343,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2343,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -3084,24 +2472,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.7,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.7,
-          "basic": 6.7,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 6.7,
+          "railPass": 6.7
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -3113,24 +2495,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 24.3,
         "rewards": {
-          "oroberyl": 2280,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2280,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 10,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -3142,53 +2518,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 11,
         "rewards": {
-          "oroberyl": 1748,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 6,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1748,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 6
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox \u0026 Web Events",
+        "label": "Mailbox & Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 7.3,
         "rewards": {
-          "oroberyl": 1171,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1171,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -3200,24 +2564,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 680,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 4,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -3229,24 +2587,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 25.6,
         "rewards": {
-          "oroberyl": 4100,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 4100,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       }
@@ -3268,24 +2620,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 16.1,
         "rewards": {
-          "oroberyl": 2580,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2580,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -3297,24 +2643,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.6,
         "rewards": {
-          "oroberyl": 1382,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 6.1,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1382,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 6.1
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -3326,24 +2666,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.4,
         "rewards": {
-          "oroberyl": 2457,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2457,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -3355,24 +2689,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 7.1,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 7.1,
-          "basic": 7.1,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 7.1,
+          "railPass": 7.1
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -3384,24 +2712,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.8,
         "rewards": {
-          "oroberyl": 3320,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 3320,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 10,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -3413,53 +2735,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 12.8,
         "rewards": {
-          "oroberyl": 2064,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 9,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2064,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 9
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox \u0026 Web Events",
+        "label": "Mailbox & Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 7.2,
         "rewards": {
-          "oroberyl": 1145,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1145,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -3471,24 +2781,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 680,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 4,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -3500,24 +2804,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.9,
         "rewards": {
-          "oroberyl": 4300,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 4300,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       }
@@ -3539,24 +2837,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "oroberyl": 2520,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2520,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -3568,24 +2860,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.4,
         "rewards": {
-          "oroberyl": 1350,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 6,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1350,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 6
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -3597,24 +2883,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15,
         "rewards": {
-          "oroberyl": 2400,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2400,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -3626,24 +2906,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.9,
-          "basic": 6.9,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 6.9,
+          "railPass": 6.9
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -3655,24 +2929,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 24.3,
         "rewards": {
-          "oroberyl": 2280,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2280,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 10,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -3684,53 +2952,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.3,
         "rewards": {
-          "oroberyl": 4871,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 7,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 4871,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 7
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox \u0026 Web Events",
+        "label": "Mailbox & Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 7,
         "rewards": {
-          "oroberyl": 1113,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1113,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -3742,24 +2998,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 680,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 4,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -3771,24 +3021,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 4200,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       }
@@ -3810,24 +3054,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "oroberyl": 2520,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2520,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -3839,24 +3077,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.4,
         "rewards": {
-          "oroberyl": 1350,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 6,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1350,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 6
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -3868,24 +3100,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15,
         "rewards": {
-          "oroberyl": 2400,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2400,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -3897,24 +3123,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.9,
-          "basic": 6.9,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 6.9,
+          "railPass": 6.9
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -3926,24 +3146,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 24.3,
         "rewards": {
-          "oroberyl": 2280,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2280,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 10,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -3955,53 +3169,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 5.5,
         "rewards": {
-          "oroberyl": 888,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 6,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 888,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 6
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox \u0026 Web Events",
+        "label": "Mailbox & Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 15.3,
         "rewards": {
-          "oroberyl": 2443,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2443,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -4013,24 +3215,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 680,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 4,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -4042,24 +3238,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 4200,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       }
@@ -4081,24 +3271,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "oroberyl": 2520,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2520,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -4110,24 +3294,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.4,
         "rewards": {
-          "oroberyl": 1350,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 6,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1350,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 6
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -4139,24 +3317,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15,
         "rewards": {
-          "oroberyl": 2400,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2400,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -4168,24 +3340,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.9,
-          "basic": 6.9,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 6.9,
+          "railPass": 6.9
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -4197,24 +3363,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 37.3,
         "rewards": {
-          "oroberyl": 2760,
-          "origeometry": 0,
-          "chartered": 20,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2760,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 20,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -4226,53 +3386,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 29.8,
         "rewards": {
-          "oroberyl": 4771,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 6,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 4771,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 6
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox \u0026 Web Events",
+        "label": "Mailbox & Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 7.5,
         "rewards": {
-          "oroberyl": 1203,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1203,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -4284,24 +3432,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 680,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 4,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -4313,24 +3455,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 4200,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       }
@@ -4352,24 +3488,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "oroberyl": 2520,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2520,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -4381,24 +3511,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.4,
         "rewards": {
-          "oroberyl": 1350,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 6,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1350,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 6
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -4410,24 +3534,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15,
         "rewards": {
-          "oroberyl": 2400,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2400,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -4439,24 +3557,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.9,
-          "basic": 6.9,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 6.9,
+          "railPass": 6.9
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -4468,24 +3580,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 41.7,
         "rewards": {
-          "oroberyl": 5070,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 2,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 5070,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 10,
+          "railPass": 2
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -4497,53 +3603,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 16.5,
         "rewards": {
-          "oroberyl": 2644,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 7,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2644,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 7
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox \u0026 Web Events",
+        "label": "Mailbox & Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 7,
         "rewards": {
-          "oroberyl": 1113,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1113,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -4555,24 +3649,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 680,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 4,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -4584,24 +3672,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 4200,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       }
@@ -4623,24 +3705,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "oroberyl": 2520,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2520,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -4652,24 +3728,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.4,
         "rewards": {
-          "oroberyl": 1350,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 6,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1350,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 6
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -4681,24 +3751,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15,
         "rewards": {
-          "oroberyl": 2400,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2400,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -4710,24 +3774,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.9,
-          "basic": 6.9,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 6.9,
+          "railPass": 6.9
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -4739,24 +3797,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 47.6,
         "rewards": {
-          "oroberyl": 4420,
-          "origeometry": 0,
-          "chartered": 20,
-          "basic": 1,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 4420,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 20,
+          "railPass": 1
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -4768,53 +3820,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 20.7,
         "rewards": {
-          "oroberyl": 3308,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 7,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 3308,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 7
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox \u0026 Web Events",
+        "label": "Mailbox & Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 9,
         "rewards": {
-          "oroberyl": 1443,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1443,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -4826,24 +3866,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 680,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 4,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -4855,24 +3889,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 4200,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       }
@@ -4894,24 +3922,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "oroberyl": 2520,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2520,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -4923,24 +3945,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.4,
         "rewards": {
-          "oroberyl": 1350,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 6,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1350,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 6
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -4952,24 +3968,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15,
         "rewards": {
-          "oroberyl": 2400,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2400,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -4981,24 +3991,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.9,
-          "basic": 6.9,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 6.9,
+          "railPass": 6.9
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -5010,24 +4014,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 24,
         "rewards": {
-          "oroberyl": 2240,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2240,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 10,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -5039,53 +4037,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26,
         "rewards": {
-          "oroberyl": 4166,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 7,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 4166,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 7
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox \u0026 Web Events",
+        "label": "Mailbox & Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 8.5,
         "rewards": {
-          "oroberyl": 1353,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1353,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -5097,24 +4083,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 680,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 4,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -5126,24 +4106,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 4200,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       }
@@ -5165,24 +4139,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "oroberyl": 2520,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2520,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -5194,24 +4162,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.4,
         "rewards": {
-          "oroberyl": 1350,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 6,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1350,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 6
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -5223,24 +4185,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15,
         "rewards": {
-          "oroberyl": 2400,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2400,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -5252,24 +4208,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.9,
-          "basic": 6.9,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 6.9,
+          "railPass": 6.9
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -5281,24 +4231,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 24.1,
         "rewards": {
-          "oroberyl": 2260,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2260,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 10,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -5310,53 +4254,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 14.8,
         "rewards": {
-          "oroberyl": 2355,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 10,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2355,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 10
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox \u0026 Web Events",
+        "label": "Mailbox & Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 7.1,
         "rewards": {
-          "oroberyl": 1143,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1143,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -5368,24 +4300,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 680,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 4,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -5397,24 +4323,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 4200,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       }
@@ -5436,24 +4356,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "oroberyl": 2520,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2520,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -5465,24 +4379,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.4,
         "rewards": {
-          "oroberyl": 1350,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 6,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1350,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 6
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -5494,24 +4402,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15,
         "rewards": {
-          "oroberyl": 2400,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2400,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -5523,24 +4425,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.9,
-          "basic": 6.9,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 6.9,
+          "railPass": 6.9
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -5552,24 +4448,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 24.3,
         "rewards": {
-          "oroberyl": 2280,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2280,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 10,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -5581,53 +4471,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 14.8,
         "rewards": {
-          "oroberyl": 2380,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 7,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2380,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 7
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox \u0026 Web Events",
+        "label": "Mailbox & Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 7,
         "rewards": {
-          "oroberyl": 1113,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1113,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -5639,24 +4517,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 680,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 4,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -5668,24 +4540,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 4200,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       }
@@ -5707,24 +4573,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "oroberyl": 2520,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2520,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -5736,24 +4596,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.4,
         "rewards": {
-          "oroberyl": 1350,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 6,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1350,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 6
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -5765,24 +4619,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15,
         "rewards": {
-          "oroberyl": 2400,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2400,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -5794,24 +4642,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.9,
-          "basic": 6.9,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 6.9,
+          "railPass": 6.9
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -5823,24 +4665,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.1,
         "rewards": {
-          "oroberyl": 2580,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2580,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 10,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -5852,53 +4688,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 14.8,
         "rewards": {
-          "oroberyl": 2379,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 7,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2379,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 7
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox \u0026 Web Events",
+        "label": "Mailbox & Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 7,
         "rewards": {
-          "oroberyl": 1113,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1113,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -5910,24 +4734,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 680,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 4,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -5939,24 +4757,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 4200,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       }
@@ -5978,24 +4790,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "oroberyl": 2520,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2520,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -6007,24 +4813,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.4,
         "rewards": {
-          "oroberyl": 1350,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 6,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1350,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 6
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -6036,24 +4836,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15,
         "rewards": {
-          "oroberyl": 2400,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2400,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -6065,24 +4859,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.9,
-          "basic": 6.9,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 6.9,
+          "railPass": 6.9
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -6094,24 +4882,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 17.1,
         "rewards": {
-          "oroberyl": 1140,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1140,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 10,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -6123,53 +4905,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 39.2,
         "rewards": {
-          "oroberyl": 6262,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 3,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 6262,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 3
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox \u0026 Web Events",
+        "label": "Mailbox & Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 23.2,
         "rewards": {
-          "oroberyl": 2113,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2113,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 10,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -6181,24 +4951,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 680,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 4,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -6210,24 +4974,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 4200,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       }
@@ -6249,24 +5007,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 21.8,
         "rewards": {
-          "oroberyl": 3480,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 3480,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -6278,24 +5030,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 11.7,
         "rewards": {
-          "oroberyl": 1864,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 8.3,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1864,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 8.3
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -6307,24 +5053,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 20.7,
         "rewards": {
-          "oroberyl": 3314,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 3314,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -6336,24 +5076,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 9.5,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 9.5,
-          "basic": 9.5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 9.5,
+          "railPass": 9.5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -6365,24 +5099,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 24.9,
         "rewards": {
-          "oroberyl": 2390,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2390,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 10,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -6394,53 +5122,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 9.3,
         "rewards": {
-          "oroberyl": 1486,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 3,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1486,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 3
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox \u0026 Web Events",
+        "label": "Mailbox & Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 7.5,
         "rewards": {
-          "oroberyl": 1204,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1204,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -6452,24 +5168,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 680,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 4,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -6481,24 +5191,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 36.3,
         "rewards": {
-          "oroberyl": 5800,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 5800,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       }
@@ -6520,24 +5224,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "oroberyl": 2520,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2520,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -6549,24 +5247,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.4,
         "rewards": {
-          "oroberyl": 1350,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 6,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1350,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 6
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -6578,24 +5270,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15,
         "rewards": {
-          "oroberyl": 2400,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 2400,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -6607,24 +5293,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.9,
-          "basic": 6.9,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 6.9,
+          "railPass": 6.9
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -6636,24 +5316,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 41.6,
         "rewards": {
-          "oroberyl": 3460,
-          "origeometry": 0,
-          "chartered": 20,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 3460,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 20,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -6665,53 +5339,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26,
         "rewards": {
-          "oroberyl": 4146,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 6,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 4146,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 6
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox \u0026 Web Events",
+        "label": "Mailbox & Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 7.1,
         "rewards": {
-          "oroberyl": 1143,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 1143,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -6723,24 +5385,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 680,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 4,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       },
@@ -6752,24 +5408,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 4200,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "stellarJade": 0,
+          "oneiricShard": 0,
+          "tracksOfDestiny": 0,
+          "specialPass": 0,
+          "railPass": 0
         },
         "scalers": []
       }
