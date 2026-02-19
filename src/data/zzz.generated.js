@@ -4216,7 +4216,7 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 20,
         "rewards": {
-          "oroberyl": 9370,
+          "oroberyl": 7687,
           "origeometry": 0,
           "chartered": 10,
           "basic": 0,
@@ -4245,7 +4245,7 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 3,
         "rewards": {
-          "oroberyl": 3225,
+          "oroberyl": 3260,
           "origeometry": 0,
           "chartered": 1,
           "basic": 6,
@@ -4417,7 +4417,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 56.9,
+        "pulls": 46.6,
         "rewards": {
           "oroberyl": 3780,
           "origeometry": 0,
@@ -4505,7 +4505,7 @@ export const GENERATED_PATCHES_META = {
   "gameId": "zenless-zone-zero",
   "spreadsheetId": "2PACX-1vTiSx8OSyx-BZktnpT-fh_pQHjjkD8q3sp3Csy2aOI-8CV_QroqxzhhNjiCZNV4IdzhyK3xbipZn9WD",
   "sheets": [
-    "1.0",
+    "2.6",
     "1.1",
     "1.2",
     "1.3",
@@ -4515,11 +4515,9 @@ export const GENERATED_PATCHES_META = {
     "1.7",
     "2.0",
     "2.1",
-    "2.2",
     "2.3",
     "2.4",
-    "2.5",
-    "2.6"
+    "2.5"
   ],
-  "generatedAt": "2026-02-16T15:27:54Z"
+  "generatedAt": "2026-02-19T13:42:00Z"
 };
