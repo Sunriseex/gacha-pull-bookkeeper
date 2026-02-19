@@ -36,6 +36,52 @@ const getPatchsyncToken = () => {
   return String(configured ?? "").trim();
 };
 
+const formatGeneratedAt = (value) => {
+  const raw = String(value ?? "").trim();
+  if (!raw) {
+    return "Updated: n/a";
+  }
+  const date = new Date(raw);
+  if (Number.isNaN(date.getTime())) {
+    return "Updated: n/a";
+  }
+  const formatted = new Intl.DateTimeFormat("ru-RU", {
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric",
+  }).format(date);
+  return "Updated: " + formatted;
+};
+
+const collectSyncLogs = (payload = {}) => {
+  const lines = [];
+  if (Array.isArray(payload.logs)) {
+    lines.push(...payload.logs);
+  }
+  if (Array.isArray(payload.results)) {
+    for (const result of payload.results) {
+      const prefix = result?.gameId ? "[" + result.gameId + "]" : "[sync]";
+      for (const line of result?.logs ?? []) {
+        lines.push(prefix + " " + line);
+      }
+      if (result?.error) {
+        lines.push(prefix + " ERROR: " + result.error);
+      }
+    }
+  }
+  return lines;
+};
+
+const emitSyncLogs = (payload = {}) => {
+  const lines = collectSyncLogs(payload);
+  if (!lines.length) {
+    return;
+  }
+  console.groupCollapsed("[patchsync] " + new Date().toLocaleTimeString());
+  lines.forEach((line) => console.log(line));
+  console.groupEnd();
+};
+
 const state = {
   game: getInitialGame(),
   optionsByGame: {},
@@ -211,14 +257,16 @@ const summarizeSyncResults = (results) => {
   }
   const failedCount = getFailedSyncResults(results).length;
   if (failedCount > 0) {
-    return `Sync errors: ${failedCount}/${results.length}`;
+    return "Sync errors: " + failedCount + "/" + results.length;
   }
 
   let updatedPatches = 0;
+  let changedPatches = 0;
   for (const entry of results) {
     updatedPatches += Array.isArray(entry?.patches) ? entry.patches.length : 0;
+    changedPatches += Number(entry?.changeCount || 0);
   }
-  return `Synced ${results.length} games (${updatedPatches} updates)`;
+  return "Synced " + results.length + " games (" + updatedPatches + " updates, " + changedPatches + " table changes)";
 };
 
 const buildFailedSyncDetails = (results) => {
@@ -288,9 +336,11 @@ const syncAllGames = async () => {
     }
 
     if (!response.ok || !payload || payload.ok !== true) {
-      const message = payload?.message || `HTTP ${response.status}`;
+      const message = payload?.message || ("HTTP " + response.status);
       throw new Error(message);
     }
+
+    emitSyncLogs(payload);
 
     const summary = summarizeSyncResults(payload.results);
     setSyncButtonFeedback(summary);
@@ -300,6 +350,11 @@ const syncAllGames = async () => {
       showToast(summary, { type: "warn" });
       showToast(failedDetails, { type: "error", duration: 6400 });
       return;
+    }
+
+    const logPath = (payload.results || []).find((entry) => entry?.changeLogPath)?.changeLogPath;
+    if (logPath) {
+      showToast("Change log: " + logPath, { type: "info", duration: 6200 });
     }
 
     showToast(summary, { type: "success" });
@@ -318,7 +373,18 @@ const renderGameTabs = () => {
     btn.type = "button";
     btn.className = "game-tab";
     btn.dataset.gameId = game.id;
-    btn.textContent = game.title;
+
+    const title = document.createElement("span");
+    title.className = "game-tab-title";
+    title.textContent = game.title;
+
+    const updated = document.createElement("small");
+    updated.className = "game-tab-meta";
+    updated.textContent = formatGeneratedAt(game.generatedAt);
+
+    btn.appendChild(title);
+    btn.appendChild(updated);
+
     if (game.id === state.game.id) {
       btn.classList.add("active");
       btn.setAttribute("aria-current", "true");
