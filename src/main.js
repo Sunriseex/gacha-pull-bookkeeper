@@ -12,11 +12,28 @@ import { renderTotals } from "./ui/render.js";
 
 const LOCAL_KEYS = {
   selectedGameId: "bookkeeper:selectedGameId",
+  patchsyncBaseUrl: "bookkeeper:patchsyncBaseUrl",
+  patchsyncToken: "bookkeeper:patchsyncToken",
 };
+
+const PATCHSYNC_DEFAULT_BASE_URL = "http://127.0.0.1:8787";
+const SYNC_BUTTON_RESET_MS = 2600;
+const TOAST_DEFAULT_MS = 4200;
 
 const getInitialGame = () => {
   const persistedGameId = localStorage.getItem(LOCAL_KEYS.selectedGameId);
   return getGameById(persistedGameId || DEFAULT_GAME_ID);
+};
+
+const getPatchsyncBaseUrl = () => {
+  const configured = localStorage.getItem(LOCAL_KEYS.patchsyncBaseUrl);
+  const value = String(configured ?? "").trim();
+  return value || PATCHSYNC_DEFAULT_BASE_URL;
+};
+
+const getPatchsyncToken = () => {
+  const configured = localStorage.getItem(LOCAL_KEYS.patchsyncToken);
+  return String(configured ?? "").trim();
 };
 
 const formatGeneratedAt = (value) => {
@@ -36,11 +53,42 @@ const formatGeneratedAt = (value) => {
   return "Updated: " + formatted;
 };
 
+const collectSyncLogs = (payload = {}) => {
+  const lines = [];
+  if (Array.isArray(payload.logs)) {
+    lines.push(...payload.logs);
+  }
+  if (Array.isArray(payload.results)) {
+    for (const result of payload.results) {
+      const prefix = result?.gameId ? "[" + result.gameId + "]" : "[sync]";
+      for (const line of result?.logs ?? []) {
+        lines.push(prefix + " " + line);
+      }
+      if (result?.error) {
+        lines.push(prefix + " ERROR: " + result.error);
+      }
+    }
+  }
+  return lines;
+};
+
+const emitSyncLogs = (payload = {}) => {
+  const lines = collectSyncLogs(payload);
+  if (!lines.length) {
+    return;
+  }
+  console.groupCollapsed("[patchsync] " + new Date().toLocaleTimeString());
+  lines.forEach((line) => console.log(line));
+  console.groupEnd();
+};
+
 const state = {
   game: getInitialGame(),
   optionsByGame: {},
   currentBackgroundUrl: "",
   bgTransitionTimer: null,
+  syncFeedbackTimer: null,
+  resizeFrameId: null,
 };
 
 const refs = {
@@ -53,11 +101,13 @@ const refs = {
   battlePassTierGroup: document.querySelector("#battlePassTierGroup"),
   optionFlags: document.querySelector("#optionFlags"),
   uidCopyBtn: document.querySelector("#uidCopyBtn"),
+  syncSheetsBtn: document.querySelector("#syncSheetsBtn"),
   uiToggleBtn: document.querySelector("#uiToggleBtn"),
   totals: document.querySelector("#totals"),
   chart: document.querySelector("#patchChart"),
   bgOverlayBase: document.querySelector(".bg-overlay-base"),
   bgOverlayFade: document.querySelector(".bg-overlay-fade"),
+  toastRoot: document.querySelector("#toastRoot"),
 };
 
 const getRows = () => state.game.patches ?? [];
@@ -70,6 +120,44 @@ const ensureOptionsForGame = (game) => {
 };
 
 const currentOptions = () => ensureOptionsForGame(state.game);
+
+const ensureToastRoot = () => {
+  if (refs.toastRoot) {
+    return refs.toastRoot;
+  }
+  const root = document.createElement("div");
+  root.id = "toastRoot";
+  root.className = "toast-root";
+  root.setAttribute("aria-live", "polite");
+  root.setAttribute("aria-atomic", "true");
+  document.body.appendChild(root);
+  refs.toastRoot = root;
+  return root;
+};
+
+const showToast = (message, { type = "info", duration = TOAST_DEFAULT_MS } = {}) => {
+  const text = String(message ?? "").trim();
+  if (!text) {
+    return;
+  }
+
+  const root = ensureToastRoot();
+  const toast = document.createElement("div");
+  toast.className = `toast toast-${type}`;
+  toast.textContent = text;
+  root.appendChild(toast);
+
+  requestAnimationFrame(() => {
+    toast.classList.add("is-visible");
+  });
+
+  window.setTimeout(() => {
+    toast.classList.remove("is-visible");
+    window.setTimeout(() => {
+      toast.remove();
+    }, 220);
+  }, duration);
+};
 
 const applyAnimatedTitle = (titleText, animate) => {
   if (!refs.title) {
@@ -94,6 +182,44 @@ const setUidButtonFeedback = (button, text, cssClass) => {
   button.textContent = text;
 };
 
+const setSyncButton = (text, { disabled = false } = {}) => {
+  if (!refs.syncSheetsBtn) {
+    return;
+  }
+  refs.syncSheetsBtn.textContent = text;
+  refs.syncSheetsBtn.disabled = disabled;
+};
+
+const resetSyncButton = () => {
+  if (!refs.syncSheetsBtn) {
+    return;
+  }
+  const label = refs.syncSheetsBtn.dataset.defaultLabel || "Sync Sheets";
+  setSyncButton(label, { disabled: false });
+};
+
+const setSyncButtonFeedback = (text, { isRunning = false } = {}) => {
+  if (!refs.syncSheetsBtn) {
+    return;
+  }
+
+  if (state.syncFeedbackTimer) {
+    window.clearTimeout(state.syncFeedbackTimer);
+    state.syncFeedbackTimer = null;
+  }
+
+  setSyncButton(text, { disabled: isRunning });
+
+  if (isRunning) {
+    return;
+  }
+
+  state.syncFeedbackTimer = window.setTimeout(() => {
+    resetSyncButton();
+    state.syncFeedbackTimer = null;
+  }, SYNC_BUTTON_RESET_MS);
+};
+
 const copyTextToClipboard = async (value) => {
   if (navigator.clipboard && window.isSecureContext) {
     await navigator.clipboard.writeText(value);
@@ -112,6 +238,137 @@ const copyTextToClipboard = async (value) => {
   document.body.removeChild(textarea);
   if (!copied) {
     throw new Error("copy-fallback-failed");
+  }
+};
+
+const parseSyncPayload = async (response) => {
+  try {
+    return await response.json();
+  } catch {
+    return null;
+  }
+};
+
+const getFailedSyncResults = (results) =>
+  Array.isArray(results) ? results.filter((entry) => Boolean(entry?.error)) : [];
+
+const summarizeSyncResults = (results) => {
+  if (!Array.isArray(results) || !results.length) {
+    return "Sync complete";
+  }
+  const failedCount = getFailedSyncResults(results).length;
+  if (failedCount > 0) {
+    return "Sync errors: " + failedCount + "/" + results.length;
+  }
+
+  let updatedPatches = 0;
+  let changedPatches = 0;
+  for (const entry of results) {
+    updatedPatches += Array.isArray(entry?.patches) ? entry.patches.length : 0;
+    changedPatches += Number(entry?.changeCount || 0);
+  }
+  return "Synced " + results.length + " games (" + updatedPatches + " updates, " + changedPatches + " table changes)";
+};
+
+const buildFailedSyncDetails = (results) => {
+  const failed = getFailedSyncResults(results);
+  if (!failed.length) {
+    return "";
+  }
+
+  const preview = failed
+    .slice(0, 2)
+    .map((entry) => `${entry.gameId}: ${entry.error}`)
+    .join(" | ");
+  if (failed.length <= 2) {
+    return preview;
+  }
+  return `${preview} (+${failed.length - 2} more)`;
+};
+
+const buildSyncHeaders = (authToken) => {
+  const headers = {
+    "Content-Type": "application/json",
+  };
+  const token = String(authToken ?? "").trim();
+  if (token) {
+    headers["X-Patchsync-Token"] = token;
+  }
+  return headers;
+};
+
+const requestSyncAll = async (authToken) => {
+  const response = await fetch(`${getPatchsyncBaseUrl()}/sync-all`, {
+    method: "POST",
+    headers: buildSyncHeaders(authToken),
+    body: JSON.stringify({}),
+  });
+  const payload = await parseSyncPayload(response);
+  return { response, payload };
+};
+
+const tryPromptPatchsyncToken = () => {
+  const entered = window.prompt("Patchsync token required. Enter token:");
+  const token = String(entered ?? "").trim();
+  if (!token) {
+    return "";
+  }
+  localStorage.setItem(LOCAL_KEYS.patchsyncToken, token);
+  return token;
+};
+
+const syncAllGames = async () => {
+  if (!refs.syncSheetsBtn || refs.syncSheetsBtn.disabled) {
+    return;
+  }
+
+  setSyncButtonFeedback("Syncing...", { isRunning: true });
+
+  let authToken = getPatchsyncToken();
+  try {
+    let { response, payload } = await requestSyncAll(authToken);
+
+    if (response.status === 401) {
+      const promptedToken = tryPromptPatchsyncToken();
+      if (promptedToken) {
+        authToken = promptedToken;
+        ({ response, payload } = await requestSyncAll(authToken));
+      }
+    }
+
+    if (!response.ok || !payload) {
+      const message = payload?.message || ("HTTP " + response.status);
+      throw new Error(message);
+    }
+
+    if (payload.ok !== true && !Array.isArray(payload.results)) {
+      const message = payload?.message || "Sync failed";
+      throw new Error(message);
+    }
+
+    emitSyncLogs(payload);
+
+    const summary = summarizeSyncResults(payload.results);
+    setSyncButtonFeedback(summary);
+
+    const failedDetails = buildFailedSyncDetails(payload.results);
+    if (failedDetails) {
+      showToast(summary, { type: "warn" });
+      showToast(failedDetails, { type: "error", duration: 6400 });
+      return;
+    }
+
+    const logPath = (payload.results || []).find((entry) => entry?.changeLogPath)?.changeLogPath;
+    if (logPath) {
+      showToast("Change log: " + logPath, { type: "info", duration: 6200 });
+    }
+
+    showToast(summary, { type: "success" });
+  } catch (error) {
+    console.error("Sync all games failed", error);
+    const message = error instanceof Error ? error.message : "Sync failed";
+    setSyncButtonFeedback("Sync failed");
+    showToast(message || "Sync failed", { type: "error", duration: 6400 });
   }
 };
 
@@ -287,6 +544,7 @@ const applyGameBackground = (game) => {
     state.bgTransitionTimer = null;
   }, 600);
 };
+
 const applyGame = (gameId, { animateTitle = true } = {}) => {
   const previousGameId = state.game?.id;
   state.game = getGameById(gameId);
@@ -375,10 +633,25 @@ const bindEvents = () => {
     refs.uiToggleBtn.setAttribute("aria-pressed", String(hidden));
   });
 
-  window.addEventListener("resize", renderDashboard);
+  refs.syncSheetsBtn?.addEventListener("click", () => {
+    void syncAllGames();
+  });
+
+  window.addEventListener("resize", () => {
+    if (state.resizeFrameId !== null) {
+      return;
+    }
+    state.resizeFrameId = requestAnimationFrame(() => {
+      state.resizeFrameId = null;
+      renderDashboard();
+    });
+  });
 };
 
 const init = () => {
+  if (refs.syncSheetsBtn) {
+    refs.syncSheetsBtn.dataset.defaultLabel = refs.syncSheetsBtn.textContent || "Sync Sheets";
+  }
   bindEvents();
   applyGame(state.game.id, { animateTitle: false });
 };
