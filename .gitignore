@@ -3,3 +3,4 @@ tools/patchsync/
 tools/pathsync/
 AGENTS.md
 agents_frontend.md
+.env
