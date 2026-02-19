@@ -919,12 +919,92 @@ func parseEndfieldDataSheet(csvText string) (map[string]map[string]float64, erro
 	return parseDataSheetPulls(csvText, endfieldDataRowToSourceID)
 }
 
+func isZzzBooponsTotalRow(rowName string) bool {
+	return rowName == "f2p boopons total"
+}
 func parseWuwaDataSheet(csvText string) (map[string]map[string]float64, error) {
 	return parseDataSheetPulls(csvText, wuwaDataRowToSourceID)
 }
 
 func parseZzzDataSheet(csvText string) (map[string]map[string]float64, error) {
-	return parseDataSheetPulls(csvText, zzzDataRowToSourceID)
+	reader := csv.NewReader(strings.NewReader(csvText))
+	reader.FieldsPerRecord = -1
+	reader.LazyQuotes = true
+	records, err := reader.ReadAll()
+	if err != nil {
+		return nil, fmt.Errorf("csv parse error: %w", err)
+	}
+	if len(records) < 2 {
+		return nil, errors.New("Data sheet has no rows")
+	}
+
+	header := records[0]
+	patchCols := map[int]string{}
+	for idx, cell := range header {
+		patchName := normalizePatchName(cell)
+		if patchName == "" || !isVersionLikeSheetName(patchName) {
+			continue
+		}
+		patchCols[idx] = patchName
+	}
+	if len(patchCols) == 0 {
+		return nil, errors.New("Data sheet has no patch columns")
+	}
+
+	result := map[string]map[string]float64{}
+	inBooponSection := false
+	for _, record := range records[1:] {
+		rowName := normalizeName(getCell(record, 0))
+		if rowName == "" {
+			continue
+		}
+		if rowName == "master tape total" {
+			inBooponSection = true
+			continue
+		}
+
+		if inBooponSection {
+			if !isZzzBooponsTotalRow(rowName) {
+				continue
+			}
+			for colIdx, patchName := range patchCols {
+				raw := getCell(record, colIdx)
+				value, okValue := parseDataPullValue(raw)
+				if !okValue {
+					continue
+				}
+				if _, okPatch := result[patchName]; !okPatch {
+					result[patchName] = map[string]float64{}
+				}
+				if _, alreadySet := result[patchName]["__totalBooponsF2P"]; alreadySet {
+					continue
+				}
+				result[patchName]["__totalBooponsF2P"] = value
+			}
+			continue
+		}
+
+		sourceID, ok := zzzDataRowToSourceID[rowName]
+		if !ok {
+			continue
+		}
+
+		for colIdx, patchName := range patchCols {
+			raw := getCell(record, colIdx)
+			value, okValue := parseDataPullValue(raw)
+			if !okValue {
+				continue
+			}
+			if _, okPatch := result[patchName]; !okPatch {
+				result[patchName] = map[string]float64{}
+			}
+			result[patchName][sourceID] = value
+		}
+	}
+	if len(result) == 0 {
+		return nil, errors.New("Data sheet has no recognized pull rows")
+	}
+	return result, nil
 }
 
 func parseHsrDataSheet(csvText string) (map[string]map[string]float64, error) {
@@ -1022,7 +1102,7 @@ func applyWuwaDataPullOverrides(patch *Patch, pullsByPatch map[string]map[string
 		sourceIndex[src.ID] = idx
 	}
 	for sourceID, value := range sourcePulls {
-		if sourceID == "__totalF2P" {
+		if sourceID == "__totalF2P" || sourceID == "__totalBooponsF2P" {
 			continue
 		}
 		if idx, okSource := sourceIndex[sourceID]; okSource {
@@ -1137,7 +1217,7 @@ func applyZzzDataPullOverrides(patch *Patch, pullsByPatch map[string]map[string]
 		sourceIndex[src.ID] = idx
 	}
 	for sourceID, value := range sourcePulls {
-		if sourceID == "__totalF2P" {
+		if sourceID == "__totalF2P" || sourceID == "__totalBooponsF2P" {
 			continue
 		}
 		if idx, okSource := sourceIndex[sourceID]; okSource {
@@ -1167,7 +1247,7 @@ func applyZzzDataPullOverrides(patch *Patch, pullsByPatch map[string]map[string]
 			}
 		}
 		delta := total - sum
-		if delta != 0 {
+		if absFloat(delta) <= 1 {
 			if idx, okAdjust := sourceIndex["endgameModes"]; okAdjust {
 				base := 0.0
 				if patch.Sources[idx].Pulls != nil {
