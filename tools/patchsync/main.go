@@ -63,6 +63,52 @@ type Rewards struct {
 	Arsenal     float64 `json:"arsenal"`
 }
 
+func normalizeRewardKey(raw string) string {
+	key := strings.ToLower(strings.TrimSpace(raw))
+	replacer := strings.NewReplacer(" ", "", "_", "", "-", "", "'", "", "\"", "")
+	return replacer.Replace(key)
+}
+
+func (r *Rewards) addMappedValue(key string, value float64) {
+	switch normalizeRewardKey(key) {
+	case "oroberyl", "astrite", "polychrome", "primogem", "stellarjade":
+		r.Oroberyl += value
+	case "origeometry", "lunite", "monochrome", "genesiscrystal", "oneiricshard":
+		r.Origeometry += value
+	case "chartered", "radianttide", "encryptedmastertape", "intertwinedfate", "specialpass":
+		r.Chartered += value
+	case "basic", "lustroustide", "mastertape", "acquaintfate", "railpass":
+		r.Basic += value
+	case "firewalker", "forgingtide":
+		r.Firewalker += value
+	case "messenger":
+		r.Messenger += value
+	case "hues":
+		r.Hues += value
+	case "arsenal", "forgingtoken", "boopon", "starglitter", "tracksofdestiny":
+		r.Arsenal += value
+	}
+}
+
+func (r *Rewards) UnmarshalJSON(data []byte) error {
+	if strings.TrimSpace(string(data)) == "null" {
+		*r = Rewards{}
+		return nil
+	}
+
+	raw := map[string]float64{}
+	if err := json.Unmarshal(data, &raw); err != nil {
+		return err
+	}
+
+	parsed := Rewards{}
+	for key, value := range raw {
+		parsed.addMappedValue(key, value)
+	}
+	*r = parsed
+	return nil
+}
+
 type Scaler struct {
 	Type      string  `json:"type"`
 	Unit      string  `json:"unit"`
@@ -1093,11 +1139,134 @@ func sortPatches(patches []Patch) {
 	})
 }
 
+type generatedScaler struct {
+	Type      string             `json:"type"`
+	Unit      string             `json:"unit"`
+	EveryDays int                `json:"everyDays"`
+	Rounding  string             `json:"rounding"`
+	Rewards   map[string]float64 `json:"rewards"`
+}
+
+type generatedSource struct {
+	ID           string             `json:"id"`
+	Label        string             `json:"label"`
+	Gate         string             `json:"gate"`
+	OptionKey    *string            `json:"optionKey"`
+	CountInPulls bool               `json:"countInPulls"`
+	Pulls        *float64           `json:"pulls,omitempty"`
+	Rewards      map[string]float64 `json:"rewards"`
+	Costs        map[string]float64 `json:"costs"`
+	Scalers      []generatedScaler  `json:"scalers"`
+	BPCrateModel *BPCrateModel      `json:"bpCrateModel,omitempty"`
+}
+
+type generatedPatch struct {
+	ID           string            `json:"id"`
+	Patch        string            `json:"patch"`
+	VersionName  string            `json:"versionName"`
+	StartDate    string            `json:"startDate"`
+	DurationDays int               `json:"durationDays"`
+	Notes        string            `json:"notes"`
+	Sources      []generatedSource `json:"sources"`
+}
+
+func rewardsForGame(r Rewards, gameID string) map[string]float64 {
+	timedPermits := r.Firewalker + r.Messenger + r.Hues
+	switch gameID {
+	case gameIDWuwa:
+		return map[string]float64{
+			"astrite":      r.Oroberyl,
+			"lunite":       r.Origeometry,
+			"forgingToken": r.Arsenal,
+			"radiantTide":  r.Chartered,
+			"lustrousTide": r.Basic,
+			"forgingTide":  timedPermits,
+		}
+	case gameIDZzz:
+		return map[string]float64{
+			"polychrome":          r.Oroberyl,
+			"monochrome":          r.Origeometry,
+			"boopon":              r.Arsenal,
+			"encryptedMasterTape": r.Chartered + timedPermits,
+			"masterTape":          r.Basic,
+		}
+	case gameIDGenshin:
+		return map[string]float64{
+			"primogem":        r.Oroberyl,
+			"genesisCrystal":  r.Origeometry,
+			"starglitter":     r.Arsenal,
+			"intertwinedFate": r.Chartered + timedPermits,
+			"acquaintFate":    r.Basic,
+		}
+	case gameIDHsr:
+		return map[string]float64{
+			"stellarJade":     r.Oroberyl,
+			"oneiricShard":    r.Origeometry,
+			"tracksOfDestiny": r.Arsenal,
+			"specialPass":     r.Chartered + timedPermits,
+			"railPass":        r.Basic,
+		}
+	default:
+		return map[string]float64{
+			"oroberyl":    r.Oroberyl,
+			"origeometry": r.Origeometry,
+			"chartered":   r.Chartered,
+			"basic":       r.Basic,
+			"firewalker":  r.Firewalker,
+			"messenger":   r.Messenger,
+			"hues":        r.Hues,
+			"arsenal":     r.Arsenal,
+		}
+	}
+}
+
+func toGeneratedPatch(patch Patch, gameID string) generatedPatch {
+	sources := make([]generatedSource, 0, len(patch.Sources))
+	for _, src := range patch.Sources {
+		scalers := make([]generatedScaler, 0, len(src.Scalers))
+		for _, scaler := range src.Scalers {
+			scalers = append(scalers, generatedScaler{
+				Type:      scaler.Type,
+				Unit:      scaler.Unit,
+				EveryDays: scaler.EveryDays,
+				Rounding:  scaler.Rounding,
+				Rewards:   rewardsForGame(scaler.Rewards, gameID),
+			})
+		}
+
+		sources = append(sources, generatedSource{
+			ID:           src.ID,
+			Label:        src.Label,
+			Gate:         src.Gate,
+			OptionKey:    src.OptionKey,
+			CountInPulls: src.CountInPulls,
+			Pulls:        src.Pulls,
+			Rewards:      rewardsForGame(src.Rewards, gameID),
+			Costs:        rewardsForGame(src.Costs, gameID),
+			Scalers:      scalers,
+			BPCrateModel: src.BPCrateModel,
+		})
+	}
+
+	return generatedPatch{
+		ID:           patch.ID,
+		Patch:        patch.Patch,
+		VersionName:  patch.VersionName,
+		StartDate:    patch.StartDate,
+		DurationDays: patch.DurationDays,
+		Notes:        patch.Notes,
+		Sources:      sources,
+	}
+}
 func writeGeneratedFile(path string, patches []Patch, meta GeneratedMeta) error {
 	if path == "" {
 		path = defaultOutputPath
 	}
-	patchesJSON, err := json.MarshalIndent(patches, "", "  ")
+	outputPatches := make([]generatedPatch, 0, len(patches))
+	for _, patch := range patches {
+		outputPatches = append(outputPatches, toGeneratedPatch(patch, meta.GameID))
+	}
+	patchesJSON, err := json.MarshalIndent(outputPatches, "", "  ")
 	if err != nil {
 		return fmt.Errorf("marshal patches: %w", err)
 	}
@@ -1119,7 +1288,6 @@ func writeGeneratedFile(path string, patches []Patch, meta GeneratedMeta) error 
 	}
 	return nil
 }
-
 func readPatchIDsFromContent(content string) []string {
 	matches := patchFieldPattern.FindAllStringSubmatch(content, -1)
 	ids := make([]string, 0, len(matches))
