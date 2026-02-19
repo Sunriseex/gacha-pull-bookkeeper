@@ -10,25 +10,13 @@ const ZZZ_GAME_ID = "zenless-zone-zero";
 const GENSHIN_GAME_ID = "genshin-impact";
 const HSR_GAME_ID = "honkai-star-rail";
 
-const rewards = ({
-  oroberyl = 0,
-  origeometry = 0,
-  chartered = 0,
-  basic = 0,
-  firewalker = 0,
-  messenger = 0,
-  hues = 0,
-  arsenal = 0,
-} = {}) => ({
-  oroberyl,
-  origeometry,
-  chartered,
-  basic,
-  firewalker,
-  messenger,
-  hues,
-  arsenal,
-});
+const rewards = (value = {}) => {
+  const normalized = {};
+  for (const [key, amount] of Object.entries(value ?? {})) {
+    normalized[key] = Number.isFinite(Number(amount)) ? Number(amount) : 0;
+  }
+  return normalized;
+};
 
 const scalePerDuration = ({
   unit = "day",
@@ -102,28 +90,13 @@ const assert = (condition, message) => {
   }
 };
 
-const hasOwn = (obj, key) => Object.prototype.hasOwnProperty.call(obj, key);
-
 const validateRewardsShape = (value, context) => {
   assert(value && typeof value === "object", `${context} rewards must be an object`);
-  const keys = [
-    "oroberyl",
-    "origeometry",
-    "chartered",
-    "basic",
-    "firewalker",
-    "messenger",
-    "hues",
-    "arsenal",
-  ];
-  for (const key of keys) {
+  for (const [key, amount] of Object.entries(value)) {
+    assert(typeof key === "string" && key.trim(), `${context} has an invalid key`);
     assert(
-      hasOwn(value, key),
-      `${context} rewards is missing key "${key}"`,
-    );
-    assert(
-      Number.isFinite(Number(value[key])),
-      `${context} rewards.${key} must be numeric`,
+      Number.isFinite(Number(amount)),
+      `${context}.${key} must be numeric`,
     );
   }
 };
@@ -225,6 +198,106 @@ const validatePatch = (patch, context) => {
   }
 };
 
+
+const validateEconomy = (economy, context) => {
+  assert(economy && typeof economy === "object", `${context}.economy is required`);
+  assert(
+    Array.isArray(economy.resourceKeys) && economy.resourceKeys.length > 0,
+    `${context}.economy.resourceKeys must be a non-empty array`,
+  );
+
+  for (const [idx, key] of economy.resourceKeys.entries()) {
+    assert(
+      typeof key === "string" && key.trim(),
+      `${context}.economy.resourceKeys[${idx}] must be a non-empty string`,
+    );
+  }
+
+  const uniqueKeys = new Set(economy.resourceKeys);
+  assert(
+    uniqueKeys.size === economy.resourceKeys.length,
+    `${context}.economy.resourceKeys contains duplicates`,
+  );
+
+  const requiredKeyProps = [
+    "baseCurrencyKey",
+    "premiumCurrencyKey",
+    "altCurrencyKey",
+    "standardPermitKey",
+  ];
+
+  for (const prop of requiredKeyProps) {
+    const value = economy[prop];
+    assert(
+      typeof value === "string" && value.trim(),
+      `${context}.economy.${prop} must be a non-empty string`,
+    );
+    assert(
+      uniqueKeys.has(value),
+      `${context}.economy.${prop} must exist in economy.resourceKeys`,
+    );
+  }
+
+  const permitArrays = [
+    ["pullPermitKeys", economy.pullPermitKeys],
+    ["timedPermitKeys", economy.timedPermitKeys],
+  ];
+
+  for (const [prop, values] of permitArrays) {
+    assert(Array.isArray(values), `${context}.economy.${prop} must be an array`);
+    for (const [idx, key] of values.entries()) {
+      assert(
+        typeof key === "string" && key.trim(),
+        `${context}.economy.${prop}[${idx}] must be a non-empty string`,
+      );
+      assert(
+        uniqueKeys.has(key),
+        `${context}.economy.${prop}[${idx}] must exist in economy.resourceKeys`,
+      );
+    }
+  }
+
+  if (economy.resourceAliases !== null && economy.resourceAliases !== undefined) {
+    assert(
+      economy.resourceAliases && typeof economy.resourceAliases === "object",
+      `${context}.economy.resourceAliases must be an object`,
+    );
+    for (const [canonicalKey, aliases] of Object.entries(economy.resourceAliases)) {
+      assert(
+        uniqueKeys.has(canonicalKey),
+        `${context}.economy.resourceAliases key "${canonicalKey}" must exist in economy.resourceKeys`,
+      );
+      assert(
+        Array.isArray(aliases),
+        `${context}.economy.resourceAliases.${canonicalKey} must be an array`,
+      );
+      for (const [idx, aliasKey] of aliases.entries()) {
+        assert(
+          typeof aliasKey === "string" && aliasKey.trim(),
+          `${context}.economy.resourceAliases.${canonicalKey}[${idx}] must be a non-empty string`,
+        );
+      }
+    }
+  }
+
+  assert(
+    economy.rates && typeof economy.rates === "object",
+    `${context}.economy.rates is required`,
+  );
+  assert(
+    Number(economy.rates.basePerPull) > 0,
+    `${context}.economy.rates.basePerPull must be > 0`,
+  );
+  assert(
+    Number(economy.rates.premiumToBase) >= 0,
+    `${context}.economy.rates.premiumToBase must be >= 0`,
+  );
+  assert(
+    Number(economy.rates.premiumToAlt) >= 0,
+    `${context}.economy.rates.premiumToAlt must be >= 0`,
+  );
+};
+
 const validateGame = (game, gameIndex) => {
   const context = `games[${gameIndex}]`;
   assert(game && typeof game === "object", `${context} must be an object`);
@@ -246,6 +319,7 @@ const validateGame = (game, gameIndex) => {
     Number(game.rates.OROBERYL_PER_PULL) > 0,
     `${context}.rates.OROBERYL_PER_PULL must be > 0`,
   );
+  validateEconomy(game.economy, context);
   assert(
     Array.isArray(game.patches) && game.patches.length > 0,
     `${context}.patches must be a non-empty array`,
@@ -462,10 +536,10 @@ const WUWA_BASE_PATCHES = [
           id: "events",
           label: "Version Events",
           rewards: {
-            oroberyl: 3455,
-            chartered: 4,
-            firewalker: 0,
-            basic: 24,
+            astrite: 3455,
+            radiantTide: 4,
+            forgingTide: 0,
+            lustrousTide: 24,
           },
           pulls: 25.6,
         }),
@@ -473,10 +547,10 @@ const WUWA_BASE_PATCHES = [
           id: "permanent",
           label: "Permanent Content",
           rewards: {
-            oroberyl: 21765,
-            chartered: 15,
-            firewalker: 0,
-            basic: 58,
+            astrite: 21765,
+            radiantTide: 15,
+            forgingTide: 0,
+            lustrousTide: 58,
           },
           pulls: 151.0,
         }),
@@ -484,10 +558,10 @@ const WUWA_BASE_PATCHES = [
           id: "mailbox",
           label: "Mailbox/Miscellaneous",
           rewards: {
-            oroberyl: 920,
-            chartered: 30,
-            firewalker: 0,
-            basic: 45,
+            astrite: 920,
+            radiantTide: 30,
+            forgingTide: 0,
+            lustrousTide: 45,
           },
           pulls: 35.8,
         }),
@@ -501,10 +575,10 @@ const WUWA_BASE_PATCHES = [
           id: "endgameModes",
           label: "Endgame Modes",
           rewards: {
-            oroberyl: 3960,
-            chartered: 6,
-            firewalker: 0,
-            basic: 17,
+            astrite: 3960,
+            radiantTide: 6,
+            forgingTide: 0,
+            lustrousTide: 17,
           },
           pulls: 11.3,
         }),
@@ -525,9 +599,9 @@ const WUWA_BASE_PATCHES = [
           label: "Paid Pioneer Podcast",
           gate: "bp2",
         rewards: {
-            oroberyl: 680,
-            chartered: 5,
-            firewalker: 2,
+            astrite: 680,
+            radiantTide: 5,
+            forgingTide: 2,
           },
           pulls: 9.3,
         }),
@@ -538,7 +612,7 @@ const WUWA_BASE_PATCHES = [
           scalers: [
             scalePerDuration({
               unit: "day",
-              rewardsPerCycle: { oroberyl: 90 },
+              rewardsPerCycle: { astrite: 90 },
             }),
           ],
           pulls: 20.3,
@@ -560,10 +634,10 @@ const ZZZ_BASE_PATCHES = [
         id: "events",
         label: "Events",
         rewards: {
-          oroberyl: 3040,
-          chartered: 20,
-          basic: 10,
-          arsenal: 19,
+          polychrome: 3040,
+          encryptedMasterTape: 20,
+          masterTape: 10,
+          boopon: 19,
         },
       }),
     ],
@@ -582,9 +656,9 @@ const GENSHIN_BASE_PATCHES = [
         id: "baseline",
         label: "Baseline",
         rewards: {
-          oroberyl: 11986.9863,
-          basic: 11.90410959,
-          chartered: 16.90410959,
+          primogem: 11986.9863,
+          acquaintFate: 11.90410959,
+          intertwinedFate: 16.90410959,
         },
       }),
     ],
@@ -604,55 +678,55 @@ const HSR_BASE_PATCHES = [
         id: "dailyTraining",
         label: "Daily Training",
         rewards: {
-          oroberyl: 2520,
+          stellarJade: 2520,
         },
       }),
       source({
         id: "weeklyModes",
         label: "Weekly Modes",
         rewards: {
-          oroberyl: 780,
-          basic: 6,
+          stellarJade: 780,
+          railPass: 6,
         },
       }),
       source({
         id: "treasuresLightward",
         label: "Treasures Lightward",
         rewards: {
-          oroberyl: 1800,
+          stellarJade: 1800,
         },
       }),
       source({
         id: "embersStore",
         label: "Embers Store",
         rewards: {
-          chartered: 6.9,
-          basic: 6.9,
+          specialPass: 6.9,
+          railPass: 6.9,
         },
       }),
       source({
         id: "travelLogEvents",
         label: "Travel Log Events",
         rewards: {
-          oroberyl: 540,
-          chartered: 10,
+          stellarJade: 540,
+          specialPass: 10,
         },
       }),
       source({
         id: "permanent",
         label: "Permanent Content",
         rewards: {
-          oroberyl: 23125,
-          basic: 155,
+          stellarJade: 23125,
+          railPass: 155,
         },
       }),
       source({
         id: "mailbox",
         label: "Mailbox & Web Events",
         rewards: {
-          oroberyl: 1163,
-          chartered: 10,
-          basic: 20,
+          stellarJade: 1163,
+          specialPass: 10,
+          railPass: 20,
         },
       }),
       source({
@@ -660,8 +734,8 @@ const HSR_BASE_PATCHES = [
         label: "Paid Battle Pass",
         gate: "bp2",
         rewards: {
-          oroberyl: 680,
-          chartered: 4,
+          stellarJade: 680,
+          specialPass: 4,
         },
       }),
       source({
@@ -669,14 +743,14 @@ const HSR_BASE_PATCHES = [
         label: "Supply Pass",
         gate: "monthly",
         rewards: {
-          oroberyl: 4200,
+          stellarJade: 4200,
         },
       }),
     ],
   },
 ];
 export const GAME_CATALOG = {
-  schemaVersion: "3.0",
+  schemaVersion: "3.2",
   games: [
     {
       id: ENDFIELD_GAME_ID,
@@ -689,6 +763,20 @@ export const GAME_CATALOG = {
       permitKeys: {
         pull: ["chartered", "firewalker", "messenger", "hues"],
         timed: ["firewalker", "messenger", "hues"],
+      },
+      economy: {
+        resourceKeys: ["oroberyl", "origeometry", "arsenal", "chartered", "basic", "firewalker", "messenger", "hues"],
+        baseCurrencyKey: "oroberyl",
+        premiumCurrencyKey: "origeometry",
+        altCurrencyKey: "arsenal",
+        pullPermitKeys: ["chartered", "firewalker", "messenger", "hues"],
+        timedPermitKeys: ["firewalker", "messenger", "hues"],
+        standardPermitKey: "basic",
+        rates: {
+          basePerPull: 500,
+          premiumToBase: 75,
+          premiumToAlt: 25,
+        },
       },
       defaultOptions: {
         monthlySub: false,
@@ -738,8 +826,37 @@ export const GAME_CATALOG = {
         OROBERYL_PER_PULL: 160,
       },
       permitKeys: {
-        pull: ["chartered", "firewalker"],
-        timed: ["firewalker"],
+        pull: ["radiantTide", "forgingTide"],
+        timed: ["forgingTide"],
+      },
+      economy: {
+        resourceKeys: [
+          "astrite",
+          "lunite",
+          "forgingToken",
+          "radiantTide",
+          "lustrousTide",
+          "forgingTide",
+        ],
+        resourceAliases: {
+          astrite: ["oroberyl"],
+          lunite: ["origeometry"],
+          forgingToken: ["arsenal"],
+          radiantTide: ["chartered"],
+          lustrousTide: ["basic"],
+          forgingTide: ["firewalker"],
+        },
+        baseCurrencyKey: "astrite",
+        premiumCurrencyKey: "lunite",
+        altCurrencyKey: "forgingToken",
+        pullPermitKeys: ["radiantTide", "forgingTide"],
+        timedPermitKeys: ["forgingTide"],
+        standardPermitKey: "lustrousTide",
+        rates: {
+          basePerPull: 160,
+          premiumToBase: 1,
+          premiumToAlt: 1,
+        },
       },
       defaultOptions: {
         monthlySub: false,
@@ -760,12 +877,13 @@ export const GAME_CATALOG = {
         },
         optionalToggles: [],
         resourceLabels: {
-          oroberyl: "Astrites",
-          origeometry: "Lunite",
-          arsenal: "Forging Tokens",
-          chartered: "Radiant Tide",
+          astrite: "Astrites",
+          lunite: "Lunite",
+          forgingToken: "Forging Tokens",
+          radiantTide: "Radiant Tide",
           timed: "Forging Tide",
-          basic: "Lustrous Tide",
+          forgingTide: "Forging Tide",
+          lustrousTide: "Lustrous Tide",
         },
       },
       patches: WUWA_BASE_PATCHES,
@@ -779,8 +897,35 @@ export const GAME_CATALOG = {
         OROBERYL_PER_PULL: 160,
       },
       permitKeys: {
-        pull: ["chartered"],
+        pull: ["encryptedMasterTape"],
         timed: [],
+      },
+      economy: {
+        resourceKeys: [
+          "polychrome",
+          "monochrome",
+          "boopon",
+          "encryptedMasterTape",
+          "masterTape",
+        ],
+        resourceAliases: {
+          polychrome: ["oroberyl"],
+          monochrome: ["origeometry"],
+          boopon: ["arsenal"],
+          encryptedMasterTape: ["chartered"],
+          masterTape: ["basic"],
+        },
+        baseCurrencyKey: "polychrome",
+        premiumCurrencyKey: "monochrome",
+        altCurrencyKey: "boopon",
+        pullPermitKeys: ["encryptedMasterTape"],
+        timedPermitKeys: [],
+        standardPermitKey: "masterTape",
+        rates: {
+          basePerPull: 160,
+          premiumToBase: 1,
+          premiumToAlt: 1,
+        },
       },
       defaultOptions: {
         monthlySub: false,
@@ -800,11 +945,11 @@ export const GAME_CATALOG = {
         },
         optionalToggles: [],
         resourceLabels: {
-          oroberyl: "Polychromes",
-          origeometry: "Monochrome",
-          arsenal: "Boopons",
-          chartered: "Encrypted Master Tape",
-          basic: "Master Tape",
+          polychrome: "Polychromes",
+          monochrome: "Monochrome",
+          boopon: "Boopons",
+          encryptedMasterTape: "Encrypted Master Tape",
+          masterTape: "Master Tape",
         },
       },
       patches: ZZZ_BASE_PATCHES,
@@ -818,8 +963,35 @@ export const GAME_CATALOG = {
         OROBERYL_PER_PULL: 160,
       },
       permitKeys: {
-        pull: ["chartered"],
+        pull: ["intertwinedFate"],
         timed: [],
+      },
+      economy: {
+        resourceKeys: [
+          "primogem",
+          "genesisCrystal",
+          "starglitter",
+          "intertwinedFate",
+          "acquaintFate",
+        ],
+        resourceAliases: {
+          primogem: ["oroberyl"],
+          genesisCrystal: ["origeometry"],
+          starglitter: ["arsenal"],
+          intertwinedFate: ["chartered"],
+          acquaintFate: ["basic"],
+        },
+        baseCurrencyKey: "primogem",
+        premiumCurrencyKey: "genesisCrystal",
+        altCurrencyKey: "starglitter",
+        pullPermitKeys: ["intertwinedFate"],
+        timedPermitKeys: [],
+        standardPermitKey: "acquaintFate",
+        rates: {
+          basePerPull: 160,
+          premiumToBase: 1,
+          premiumToAlt: 1,
+        },
       },
       defaultOptions: {
         monthlySub: false,
@@ -839,11 +1011,11 @@ export const GAME_CATALOG = {
         },
         optionalToggles: [],
         resourceLabels: {
-          oroberyl: "Primogems",
-          origeometry: "Genesis Crystals",
-          arsenal: "Masterless Starglitter",
-          chartered: "Intertwined Fate",
-          basic: "Acquaint Fate",
+          primogem: "Primogems",
+          genesisCrystal: "Genesis Crystals",
+          starglitter: "Masterless Starglitter",
+          intertwinedFate: "Intertwined Fate",
+          acquaintFate: "Acquaint Fate",
         },
       },
       patches: GENSHIN_BASE_PATCHES,
@@ -857,8 +1029,35 @@ export const GAME_CATALOG = {
         OROBERYL_PER_PULL: 160,
       },
       permitKeys: {
-        pull: ["chartered"],
+        pull: ["specialPass"],
         timed: [],
+      },
+      economy: {
+        resourceKeys: [
+          "stellarJade",
+          "oneiricShard",
+          "tracksOfDestiny",
+          "specialPass",
+          "railPass",
+        ],
+        resourceAliases: {
+          stellarJade: ["oroberyl"],
+          oneiricShard: ["origeometry"],
+          tracksOfDestiny: ["arsenal"],
+          specialPass: ["chartered"],
+          railPass: ["basic"],
+        },
+        baseCurrencyKey: "stellarJade",
+        premiumCurrencyKey: "oneiricShard",
+        altCurrencyKey: "tracksOfDestiny",
+        pullPermitKeys: ["specialPass"],
+        timedPermitKeys: [],
+        standardPermitKey: "railPass",
+        rates: {
+          basePerPull: 160,
+          premiumToBase: 1,
+          premiumToAlt: 1,
+        },
       },
       defaultOptions: {
         monthlySub: false,
@@ -878,11 +1077,11 @@ export const GAME_CATALOG = {
         },
         optionalToggles: [],
         resourceLabels: {
-          oroberyl: "Stellar Jade",
-          origeometry: "Oneiric Shard",
-          arsenal: "Tracks of Destiny",
-          chartered: "Star Rail Special Pass",
-          basic: "Star Rail Pass",
+          stellarJade: "Stellar Jade",
+          oneiricShard: "Oneiric Shard",
+          tracksOfDestiny: "Tracks of Destiny",
+          specialPass: "Star Rail Special Pass",
+          railPass: "Star Rail Pass",
         },
       },
       patches: HSR_BASE_PATCHES,
@@ -916,6 +1115,16 @@ export const getGameById = (id) =>
 
 export const ACTIVE_GAME = getGameById(DEFAULT_GAME_ID);
 export const PATCHES = ACTIVE_GAME.patches;
+
+
+
+
+
+
+
+
+
+
 
 
 
