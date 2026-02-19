@@ -15,24 +15,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 1130,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1130,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -43,24 +37,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -71,24 +59,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 3660,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 3660,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 10,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -99,24 +81,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -127,24 +103,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -155,52 +125,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -211,24 +169,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -240,24 +192,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 123.1,
         "rewards": {
-          "oroberyl": 4056.986301,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4056.986301,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -268,24 +214,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -296,24 +236,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -324,24 +258,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -352,24 +280,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -390,24 +312,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2240,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2240,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -418,24 +334,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 440,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 440,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -446,24 +356,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2500,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2500,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -474,24 +378,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -502,24 +400,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -530,52 +422,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -586,24 +466,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -615,24 +489,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30,
         "rewards": {
-          "oroberyl": 1656.986301,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1656.986301,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -643,24 +511,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -671,24 +533,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -699,24 +555,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -727,24 +577,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -765,24 +609,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2500,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2500,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -793,24 +631,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 1780,
-          "origeometry": 0,
-          "chartered": 2,
-          "basic": 4,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1780,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 2,
+          "acquaintFate": 4
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -821,24 +653,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 520,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 520,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -849,24 +675,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -877,24 +697,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -905,52 +719,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -961,24 +763,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -990,24 +786,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30,
         "rewards": {
-          "oroberyl": 1656.986301,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1656.986301,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -1018,24 +808,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -1046,24 +830,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -1074,24 +852,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -1102,24 +874,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -1140,24 +906,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 1900,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1900,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 10,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -1168,24 +928,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -1196,24 +950,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 441.53424658,
-          "origeometry": 0,
-          "chartered": 3,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 441.53424658,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 3,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -1224,24 +972,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -1252,24 +994,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -1280,52 +1016,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -1336,24 +1060,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -1365,24 +1083,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.3,
         "rewards": {
-          "oroberyl": 1656.986301,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1656.986301,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -1393,24 +1105,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -1421,24 +1127,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -1449,24 +1149,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -1477,24 +1171,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -1515,24 +1203,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2540,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2540,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -1543,24 +1225,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 390,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 390,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -1571,24 +1247,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 652.84931507,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 652.84931507,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -1599,24 +1269,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -1627,24 +1291,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -1655,52 +1313,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -1711,24 +1357,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -1740,24 +1380,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.4,
         "rewards": {
-          "oroberyl": 1656.986301,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1656.986301,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -1768,24 +1402,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -1796,24 +1424,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -1824,24 +1446,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -1852,24 +1468,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -1890,24 +1500,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2270,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2270,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -1918,24 +1522,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 620,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 620,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -1946,24 +1544,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 382.84931507,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 382.84931507,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -1974,24 +1566,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -2002,24 +1588,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -2030,52 +1610,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -2086,24 +1654,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -2115,24 +1677,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 33.7,
         "rewards": {
-          "oroberyl": 1656.986301,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1656.986301,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -2143,24 +1699,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -2171,24 +1721,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -2199,24 +1743,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -2227,24 +1765,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -2265,24 +1797,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 3105,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 3105,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -2293,24 +1819,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 1460,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1460,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -2321,24 +1841,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 652.84931507,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 652.84931507,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -2349,24 +1863,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -2377,24 +1885,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -2405,52 +1907,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -2461,24 +1951,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -2490,24 +1974,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30,
         "rewards": {
-          "oroberyl": 1656.986301,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1656.986301,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -2518,24 +1996,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -2546,24 +2018,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -2574,24 +2040,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -2602,24 +2062,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -2640,24 +2094,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2260,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2260,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -2668,24 +2116,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4440,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 8,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4440,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 8
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -2696,24 +2138,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 512.84931507,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 512.84931507,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -2724,24 +2160,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -2752,24 +2182,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -2780,52 +2204,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -2836,24 +2248,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -2865,24 +2271,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30,
         "rewards": {
-          "oroberyl": 1656.986301,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1656.986301,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -2893,24 +2293,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -2921,24 +2315,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -2949,24 +2337,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -2977,24 +2359,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -3015,24 +2391,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2290,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2290,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 10,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -3043,24 +2413,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2554,
-          "origeometry": 0,
-          "chartered": 2,
-          "basic": 4,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2554,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 2,
+          "acquaintFate": 4
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -3071,24 +2435,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2462.84931507,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2462.84931507,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -3099,24 +2457,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -3127,24 +2479,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -3155,52 +2501,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -3211,24 +2545,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -3240,24 +2568,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.1,
         "rewards": {
-          "oroberyl": 1656.986301,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1656.986301,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -3268,24 +2590,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -3296,24 +2612,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -3324,24 +2634,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -3352,24 +2656,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -3390,24 +2688,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2180,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2180,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -3418,24 +2710,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 1815,
-          "origeometry": 0,
-          "chartered": 2,
-          "basic": 4,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1815,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 2,
+          "acquaintFate": 4
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -3446,24 +2732,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 602.84931507,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 602.84931507,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -3474,24 +2754,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -3502,24 +2776,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -3530,52 +2798,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -3586,24 +2842,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -3615,24 +2865,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.3,
         "rewards": {
-          "oroberyl": 1656.986301,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1656.986301,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -3643,24 +2887,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -3671,24 +2909,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -3699,24 +2931,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -3727,24 +2953,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -3765,24 +2985,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2590,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2590,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -3793,24 +3007,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 310,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 310,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -3821,24 +3029,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 3002.84931507,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 3002.84931507,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -3849,24 +3051,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -3877,24 +3073,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -3905,52 +3095,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -3961,24 +3139,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -3990,24 +3162,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.5,
         "rewards": {
-          "oroberyl": 1656.986301,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1656.986301,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -4018,24 +3184,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -4046,24 +3206,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -4074,24 +3228,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -4102,24 +3250,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -4140,24 +3282,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2260,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2260,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 10,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -4168,24 +3304,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 1838,
-          "origeometry": 0,
-          "chartered": 2,
-          "basic": 4,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1838,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 2,
+          "acquaintFate": 4
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -4196,24 +3326,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 692.84931507,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 692.84931507,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -4224,24 +3348,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -4252,24 +3370,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -4280,52 +3392,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -4336,24 +3436,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -4365,24 +3459,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.5,
         "rewards": {
-          "oroberyl": 1656.986301,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1656.986301,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -4393,24 +3481,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -4421,24 +3503,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -4449,24 +3525,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -4477,24 +3547,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -4515,24 +3579,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2385,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2385,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -4543,24 +3601,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 125,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 125,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -4571,24 +3623,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 482.84931507,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 482.84931507,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -4599,24 +3645,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -4627,24 +3667,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -4655,52 +3689,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -4711,24 +3733,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -4740,24 +3756,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.4,
         "rewards": {
-          "oroberyl": 1656.986301,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1656.986301,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -4768,24 +3778,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -4796,24 +3800,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -4824,24 +3822,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -4852,24 +3844,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -4890,24 +3876,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2660,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2660,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -4918,24 +3898,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2225,
-          "origeometry": 0,
-          "chartered": 2,
-          "basic": 4,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2225,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 2,
+          "acquaintFate": 4
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -4946,24 +3920,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2366.4109589,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2366.4109589,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -4974,24 +3942,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -5002,24 +3964,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -5030,52 +3986,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -5086,24 +4030,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -5115,24 +4053,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 43.5,
         "rewards": {
-          "oroberyl": 2485.479452,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2485.479452,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -5143,24 +4075,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 10.35616438,
-          "basic": 10.35616438,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 10.35616438,
+          "acquaintFate": 10.35616438
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -5171,24 +4097,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -5199,24 +4119,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -5227,24 +4141,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -5265,24 +4173,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2270,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2270,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -5293,24 +4195,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 265,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 265,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -5321,24 +4217,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 662.84931507,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 662.84931507,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -5349,24 +4239,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -5377,24 +4261,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -5405,52 +4283,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -5461,24 +4327,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -5490,24 +4350,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.5,
         "rewards": {
-          "oroberyl": 1656.986301,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1656.986301,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -5518,24 +4372,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -5546,24 +4394,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -5574,24 +4416,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -5602,24 +4438,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -5640,24 +4470,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 3720,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 3720,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -5668,24 +4492,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -5696,24 +4514,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 902.84931507,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 902.84931507,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -5724,24 +4536,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -5752,24 +4558,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -5780,52 +4580,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -5836,24 +4624,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -5865,24 +4647,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.5,
         "rewards": {
-          "oroberyl": 1656.986301,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1656.986301,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -5893,24 +4669,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -5921,24 +4691,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -5949,24 +4713,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -5977,24 +4735,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -6015,24 +4767,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2340,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2340,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -6043,24 +4789,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 5455,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 8,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 5455,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 8
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -6071,24 +4811,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 499.04109589,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 499.04109589,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -6099,24 +4833,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -6127,24 +4855,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -6155,52 +4877,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -6211,24 +4921,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -6240,24 +4944,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.8,
         "rewards": {
-          "oroberyl": 1380.821918,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1380.821918,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -6268,24 +4966,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 5.753424658,
-          "basic": 5.753424658,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 5.753424658,
+          "acquaintFate": 5.753424658
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -6296,24 +4988,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -6324,24 +5010,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -6352,24 +5032,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -6390,24 +5064,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2300,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2300,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 10,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -6418,24 +5086,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2935,
-          "origeometry": 0,
-          "chartered": 2,
-          "basic": 4,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2935,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 2,
+          "acquaintFate": 4
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -6446,24 +5108,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2509.04109589,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2509.04109589,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -6474,24 +5130,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -6502,24 +5152,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -6530,52 +5174,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -6586,24 +5218,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -6615,24 +5241,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.9,
         "rewards": {
-          "oroberyl": 1380.821918,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1380.821918,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -6643,24 +5263,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 5.753424658,
-          "basic": 5.753424658,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 5.753424658,
+          "acquaintFate": 5.753424658
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -6671,24 +5285,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -6699,24 +5307,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -6727,24 +5329,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -6765,24 +5361,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2670,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2670,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -6793,24 +5383,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 550,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 550,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -6821,24 +5405,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 1429.04109589,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1429.04109589,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -6849,24 +5427,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -6877,24 +5449,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -6905,52 +5471,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -6961,24 +5515,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -6990,24 +5538,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 25.8,
         "rewards": {
-          "oroberyl": 1380.821918,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1380.821918,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -7018,24 +5560,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 5.753424658,
-          "basic": 5.753424658,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 5.753424658,
+          "acquaintFate": 5.753424658
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -7046,24 +5582,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -7074,24 +5604,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -7102,24 +5626,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -7140,24 +5658,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2290,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2290,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -7168,24 +5680,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 1320,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1320,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -7196,24 +5702,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 1442.84931507,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1442.84931507,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -7224,24 +5724,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -7252,24 +5746,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -7280,52 +5768,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -7336,24 +5812,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -7365,24 +5835,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.1,
         "rewards": {
-          "oroberyl": 1656.986301,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1656.986301,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -7393,24 +5857,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -7421,24 +5879,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -7449,24 +5901,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -7477,24 +5923,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -7515,24 +5955,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2270,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2270,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 10,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -7543,24 +5977,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2610,
-          "origeometry": 0,
-          "chartered": 2,
-          "basic": 4,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2610,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 2,
+          "acquaintFate": 4
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -7571,24 +5999,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 692.84931507,
-          "origeometry": 0,
-          "chartered": 3,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 692.84931507,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 3,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -7599,24 +6021,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -7627,24 +6043,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -7655,52 +6065,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -7711,24 +6109,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -7740,24 +6132,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.2,
         "rewards": {
-          "oroberyl": 1656.986301,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1656.986301,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -7768,24 +6154,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -7796,24 +6176,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -7824,24 +6198,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -7852,24 +6220,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -7890,24 +6252,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2300,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2300,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -7918,24 +6274,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 315,
-          "origeometry": 0,
-          "chartered": 21,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 315,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 21,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -7946,24 +6296,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 542.84931507,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 542.84931507,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -7974,24 +6318,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -8002,24 +6340,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -8030,52 +6362,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -8086,24 +6406,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -8115,24 +6429,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.2,
         "rewards": {
-          "oroberyl": 1656.986301,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1656.986301,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -8143,24 +6451,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -8171,24 +6473,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -8199,24 +6495,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -8227,24 +6517,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -8265,24 +6549,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2270,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2270,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -8293,24 +6571,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2700,
-          "origeometry": 0,
-          "chartered": 2,
-          "basic": 4,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2700,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 2,
+          "acquaintFate": 4
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -8321,24 +6593,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 602.84931507,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 602.84931507,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -8349,24 +6615,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -8377,24 +6637,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -8405,52 +6659,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -8461,24 +6703,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -8490,24 +6726,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 32.5,
         "rewards": {
-          "oroberyl": 1656.986301,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1656.986301,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -8518,24 +6748,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -8546,24 +6770,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -8574,24 +6792,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -8602,24 +6814,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -8640,24 +6846,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2300,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2300,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -8668,24 +6868,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 190,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 190,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -8696,24 +6890,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 442.84931507,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 442.84931507,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -8724,24 +6912,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -8752,24 +6934,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -8780,52 +6956,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -8836,24 +7000,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -8865,24 +7023,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.1,
         "rewards": {
-          "oroberyl": 1656.986301,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1656.986301,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -8893,24 +7045,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -8921,24 +7067,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -8949,24 +7089,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -8977,24 +7111,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -9015,24 +7143,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 3165,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 3165,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -9043,24 +7165,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 90,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 90,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -9071,24 +7187,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 642.84931507,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 642.84931507,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -9099,24 +7209,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -9127,24 +7231,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -9155,52 +7253,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -9211,24 +7297,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -9240,24 +7320,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.1,
         "rewards": {
-          "oroberyl": 1656.986301,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1656.986301,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -9268,24 +7342,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -9296,24 +7364,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -9324,24 +7386,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -9352,24 +7408,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -9390,24 +7440,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2300,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2300,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -9418,24 +7462,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4166,
-          "origeometry": 0,
-          "chartered": 6,
-          "basic": 8,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4166,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6,
+          "acquaintFate": 8
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -9446,24 +7484,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 582.84931507,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 582.84931507,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -9474,24 +7506,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -9502,24 +7528,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -9530,52 +7550,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -9586,24 +7594,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -9615,24 +7617,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 31.1,
         "rewards": {
-          "oroberyl": 1656.986301,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1656.986301,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -9643,24 +7639,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -9671,24 +7661,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -9699,24 +7683,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -9727,24 +7705,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -9765,24 +7737,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2290,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2290,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 10,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -9793,24 +7759,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2909,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 4,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2909,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 4
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -9821,24 +7781,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2542.84931507,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2542.84931507,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -9849,24 +7803,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -9877,24 +7825,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -9905,52 +7847,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -9961,24 +7891,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -9990,24 +7914,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.8,
         "rewards": {
-          "oroberyl": 1656.986301,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1656.986301,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -10018,24 +7936,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -10046,24 +7958,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -10074,24 +7980,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -10102,24 +8002,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -10140,24 +8034,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2300,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2300,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -10168,24 +8056,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2418,
-          "origeometry": 0,
-          "chartered": 3,
-          "basic": 4,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2418,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 3,
+          "acquaintFate": 4
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -10196,24 +8078,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2182.84931507,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2182.84931507,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -10224,24 +8100,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -10252,24 +8122,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -10280,52 +8144,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -10336,24 +8188,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -10365,24 +8211,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 31.5,
         "rewards": {
-          "oroberyl": 1656.986301,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1656.986301,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -10393,24 +8233,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -10421,24 +8255,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -10449,24 +8277,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -10477,24 +8299,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -10515,24 +8331,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2640,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2640,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -10543,24 +8353,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 425,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 425,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -10571,24 +8375,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 942.84931507,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 942.84931507,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -10599,24 +8397,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -10627,24 +8419,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -10655,52 +8441,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -10711,24 +8485,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -10740,24 +8508,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 31,
         "rewards": {
-          "oroberyl": 1656.986301,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1656.986301,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -10768,24 +8530,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -10796,24 +8552,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -10824,24 +8574,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -10852,24 +8596,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -10890,24 +8628,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2300,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2300,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 10,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -10918,24 +8650,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2562,
-          "origeometry": 0,
-          "chartered": 2,
-          "basic": 4,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2562,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 2,
+          "acquaintFate": 4
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -10946,24 +8672,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 862.84931507,
-          "origeometry": 0,
-          "chartered": 3,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 862.84931507,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 3,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -10974,24 +8694,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -11002,24 +8716,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -11030,52 +8738,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -11086,24 +8782,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -11115,24 +8805,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 31,
         "rewards": {
-          "oroberyl": 1656.986301,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1656.986301,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -11143,24 +8827,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -11171,24 +8849,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -11199,24 +8871,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -11227,24 +8893,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -11265,24 +8925,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2300,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2300,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -11293,24 +8947,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 190,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 190,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -11321,24 +8969,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 562.84931507,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 562.84931507,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -11349,24 +8991,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -11377,24 +9013,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -11405,52 +9035,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -11461,24 +9079,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -11490,24 +9102,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.1,
         "rewards": {
-          "oroberyl": 1656.986301,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1656.986301,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -11518,24 +9124,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -11546,24 +9146,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -11574,24 +9168,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -11602,24 +9190,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -11640,24 +9222,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2300,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2300,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -11668,24 +9244,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 1754,
-          "origeometry": 0,
-          "chartered": 2,
-          "basic": 4,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1754,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 2,
+          "acquaintFate": 4
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -11696,24 +9266,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 602.84931507,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 602.84931507,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -11724,24 +9288,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -11752,24 +9310,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -11780,52 +9332,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -11836,24 +9376,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -11865,24 +9399,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 31.2,
         "rewards": {
-          "oroberyl": 1656.986301,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1656.986301,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -11893,24 +9421,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -11921,24 +9443,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -11949,24 +9465,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -11977,24 +9487,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -12015,24 +9519,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2300,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2300,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -12043,24 +9541,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 1515,
-          "origeometry": 0,
-          "chartered": 1,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1515,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 1,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -12071,24 +9563,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 582.84931507,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 582.84931507,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -12099,24 +9585,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -12127,24 +9607,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -12155,52 +9629,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -12211,24 +9673,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -12240,24 +9696,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 32,
         "rewards": {
-          "oroberyl": 1960.767123,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1960.767123,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -12268,24 +9718,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -12296,24 +9740,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -12324,24 +9762,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -12352,24 +9784,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -12390,24 +9816,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 3082,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 3082,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -12418,24 +9838,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 100,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 100,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -12446,24 +9860,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2362.84931507,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2362.84931507,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -12474,24 +9882,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -12502,24 +9904,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -12530,52 +9926,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -12586,24 +9970,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -12615,24 +9993,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 32,
         "rewards": {
-          "oroberyl": 1960.767123,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1960.767123,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -12643,24 +10015,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -12671,24 +10037,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -12699,24 +10059,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -12727,24 +10081,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -12765,24 +10113,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2840,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2840,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 10,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -12793,24 +10135,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 6120,
-          "origeometry": 0,
-          "chartered": 2,
-          "basic": 10,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 6120,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 2,
+          "acquaintFate": 10
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -12821,24 +10157,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 3402.84931507,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 3402.84931507,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -12849,24 +10179,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -12877,24 +10201,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -12905,52 +10223,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -12961,24 +10267,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -12990,24 +10290,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 33.8,
         "rewards": {
-          "oroberyl": 2209.315068,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2209.315068,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -13018,24 +10312,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -13046,24 +10334,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 60,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 60,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -13074,24 +10356,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -13102,24 +10378,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -13140,24 +10410,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 3610,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 3610,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -13168,24 +10432,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 195,
-          "origeometry": 0,
-          "chartered": 2,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 195,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 2,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -13196,24 +10454,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 482.84931507,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 482.84931507,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -13224,24 +10476,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -13252,24 +10498,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -13280,52 +10520,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -13336,24 +10564,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -13365,24 +10587,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 33.5,
         "rewards": {
-          "oroberyl": 2209.315068,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2209.315068,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -13393,24 +10609,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -13421,24 +10631,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 60,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 60,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -13449,24 +10653,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -13477,24 +10675,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -13515,24 +10707,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2760,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2760,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -13543,24 +10729,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 3435,
-          "origeometry": 0,
-          "chartered": 1,
-          "basic": 4,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 3435,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 1,
+          "acquaintFate": 4
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -13571,24 +10751,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 1722.84931507,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1722.84931507,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -13599,24 +10773,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -13627,24 +10795,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -13655,52 +10817,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -13711,24 +10861,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -13740,24 +10884,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 33.8,
         "rewards": {
-          "oroberyl": 2209.315068,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2209.315068,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -13768,24 +10906,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -13796,24 +10928,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 60,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 60,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -13824,24 +10950,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -13852,24 +10972,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -13890,24 +11004,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2920,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2920,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 10,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -13918,24 +11026,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 465,
-          "origeometry": 0,
-          "chartered": 1,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 465,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 1,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -13946,24 +11048,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2202.84931507,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2202.84931507,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -13974,24 +11070,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -14002,24 +11092,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -14030,52 +11114,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -14086,24 +11158,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -14115,24 +11181,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 33.6,
         "rewards": {
-          "oroberyl": 2209.315068,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2209.315068,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -14143,24 +11203,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -14171,24 +11225,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 60,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 60,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -14199,24 +11247,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -14227,24 +11269,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -14265,24 +11301,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2390,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2390,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -14293,24 +11323,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 100,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 100,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -14321,24 +11345,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 442.84931507,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 442.84931507,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -14349,24 +11367,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -14377,24 +11389,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -14405,52 +11411,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -14461,24 +11455,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -14490,24 +11478,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 33.6,
         "rewards": {
-          "oroberyl": 2209.315068,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2209.315068,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -14518,24 +11500,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -14546,24 +11522,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 60,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 60,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -14574,24 +11544,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -14602,24 +11566,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -14640,24 +11598,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2720,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2720,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -14668,24 +11620,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 3194,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 4,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 3194,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 4
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -14696,24 +11642,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 932.84931507,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 932.84931507,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -14724,24 +11664,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -14752,24 +11686,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -14780,52 +11708,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -14836,24 +11752,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -14865,24 +11775,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 33.7,
         "rewards": {
-          "oroberyl": 2209.315068,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2209.315068,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -14893,24 +11797,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -14921,24 +11819,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 60,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 60,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -14949,24 +11841,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -14977,24 +11863,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -15015,24 +11895,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2330,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2330,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -15043,24 +11917,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 225,
-          "origeometry": 0,
-          "chartered": 1,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 225,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 1,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -15071,24 +11939,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 472.84931507,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 472.84931507,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -15099,24 +11961,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -15127,24 +11983,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -15155,52 +12005,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -15211,24 +12049,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -15240,24 +12072,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 33.6,
         "rewards": {
-          "oroberyl": 2209.315068,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2209.315068,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -15268,24 +12094,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -15296,24 +12116,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 60,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 60,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -15324,24 +12138,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -15352,24 +12160,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -15390,24 +12192,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2030,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2030,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -15418,24 +12214,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 220,
-          "origeometry": 0,
-          "chartered": 1,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 220,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 1,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -15446,24 +12236,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 542.84931507,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 542.84931507,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -15474,24 +12258,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -15502,24 +12280,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -15530,52 +12302,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -15586,24 +12346,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -15615,24 +12369,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 36.4,
         "rewards": {
-          "oroberyl": 2659.315068,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2659.315068,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -15643,24 +12391,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -15671,24 +12413,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 60,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 60,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -15699,24 +12435,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -15727,24 +12457,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -15765,24 +12489,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2480,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2480,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -15793,24 +12511,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2209,
-          "origeometry": 0,
-          "chartered": 1,
-          "basic": 4,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2209,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 1,
+          "acquaintFate": 4
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -15821,24 +12533,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 482.84931507,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 482.84931507,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -15849,24 +12555,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -15877,24 +12577,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -15905,52 +12599,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -15961,24 +12643,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -15990,24 +12666,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 37.3,
         "rewards": {
-          "oroberyl": 2659.315068,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2659.315068,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -16018,24 +12688,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -16046,24 +12710,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 60,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 60,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -16074,24 +12732,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -16102,24 +12754,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -16140,24 +12786,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2950,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2950,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 10,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -16168,24 +12808,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 5442,
-          "origeometry": 0,
-          "chartered": 2,
-          "basic": 8,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 5442,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 2,
+          "acquaintFate": 8
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -16196,24 +12830,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2342.84931507,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2342.84931507,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -16224,24 +12852,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -16252,24 +12874,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -16280,52 +12896,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -16336,24 +12940,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -16365,24 +12963,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 38.3,
         "rewards": {
-          "oroberyl": 2935.479452,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2935.479452,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -16393,24 +12985,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -16421,24 +13007,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 60,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 60,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -16449,24 +13029,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -16477,24 +13051,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -16515,24 +13083,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2390,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2390,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -16543,24 +13105,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 150,
-          "origeometry": 0,
-          "chartered": 2,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 150,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 2,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -16571,24 +13127,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 482.84931507,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 482.84931507,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -16599,24 +13149,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -16627,24 +13171,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -16655,52 +13193,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -16711,24 +13237,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -16740,24 +13260,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 38.8,
         "rewards": {
-          "oroberyl": 2935.479452,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2935.479452,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -16768,24 +13282,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -16796,24 +13304,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 60,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 60,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -16824,24 +13326,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -16852,24 +13348,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -16890,24 +13380,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2940,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2940,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -16918,24 +13402,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 375,
-          "origeometry": 0,
-          "chartered": 2,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 375,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 2,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -16946,24 +13424,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 602.84931507,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 602.84931507,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -16974,24 +13446,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -17002,24 +13468,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -17030,52 +13490,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -17086,24 +13534,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -17115,24 +13557,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 38.1,
         "rewards": {
-          "oroberyl": 2935.479452,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2935.479452,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -17143,24 +13579,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -17171,24 +13601,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 60,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 60,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -17199,24 +13623,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -17227,24 +13645,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -17265,24 +13677,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2900,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2900,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 10,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -17293,24 +13699,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 3279,
-          "origeometry": 0,
-          "chartered": 2,
-          "basic": 7,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 3279,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 2,
+          "acquaintFate": 7
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -17321,24 +13721,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 2082.84931507,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2082.84931507,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -17349,24 +13743,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -17377,24 +13765,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -17405,52 +13787,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -17461,24 +13831,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -17490,24 +13854,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 39.1,
         "rewards": {
-          "oroberyl": 2935.479452,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2935.479452,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -17518,24 +13876,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -17546,24 +13898,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 60,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 60,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -17574,24 +13920,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -17602,24 +13942,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }
@@ -17640,24 +13974,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 1940,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1940,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -17668,24 +13996,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 1055,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 1055,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -17696,24 +14018,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 442.84931507,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 442.84931507,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -17724,24 +14040,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -17752,24 +14062,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -17780,52 +14084,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests \u0026 Bounties",
+        "label": "Weekly Requests & Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -17836,24 +14128,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -17865,24 +14151,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 38.1,
         "rewards": {
-          "oroberyl": 2935.479452,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 2935.479452,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -17893,24 +14173,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.904109589,
-          "basic": 6.904109589,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 6.904109589,
+          "acquaintFate": 6.904109589
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -17921,24 +14195,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 60,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 60,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -17949,24 +14217,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 680,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 680,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 4,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       },
@@ -17977,24 +14239,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 4200,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "primogem": 0,
+          "genesisCrystal": 0,
+          "starglitter": 0,
+          "intertwinedFate": 0,
+          "acquaintFate": 0
         },
         "scalers": []
       }

@@ -16,24 +16,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 19,
         "rewards": {
-          "oroberyl": 1890,
-          "origeometry": 0,
-          "chartered": 20,
-          "basic": 10,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 19
+          "polychrome": 1890,
+          "monochrome": 0,
+          "boopon": 19,
+          "encryptedMasterTape": 20,
+          "masterTape": 10
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -45,53 +39,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 181,
         "rewards": {
-          "oroberyl": 25476,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 135,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 181
+          "polychrome": 25476,
+          "monochrome": 0,
+          "boopon": 181,
+          "encryptedMasterTape": 0,
+          "masterTape": 135
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox \u0026 Web Events",
+        "label": "Mailbox & Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 8,
         "rewards": {
-          "oroberyl": 3621,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 20,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 8
+          "polychrome": 3621,
+          "monochrome": 0,
+          "boopon": 8,
+          "encryptedMasterTape": 0,
+          "masterTape": 20
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -103,24 +85,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 16.7,
         "rewards": {
-          "oroberyl": 2672,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 2672,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -132,24 +108,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 36,
         "rewards": {
-          "oroberyl": 840,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 8.6,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 36
+          "polychrome": 840,
+          "monochrome": 0,
+          "boopon": 36,
+          "encryptedMasterTape": 0,
+          "masterTape": 8.6
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -161,24 +131,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 5,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 5
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 5,
+          "encryptedMasterTape": 0,
+          "masterTape": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -190,24 +154,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.7,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.7,
-          "basic": 6.7,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 6.7
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 6.7,
+          "encryptedMasterTape": 6.7,
+          "masterTape": 6.7
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -219,24 +177,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": -21,
         "rewards": {
-          "oroberyl": 1440,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 6.7
+          "polychrome": 1440,
+          "monochrome": 0,
+          "boopon": 6.7,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -248,24 +200,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 5,
         "rewards": {
-          "oroberyl": 780,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 5
+          "polychrome": 780,
+          "monochrome": 0,
+          "boopon": 5,
+          "encryptedMasterTape": 4,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -277,24 +223,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 25.6,
         "rewards": {
-          "oroberyl": 4100,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 4100,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       }
@@ -303,7 +243,7 @@ export const GENERATED_PATCHES = [
   {
     "id": "1.1",
     "patch": "1.1",
-    "versionName": "Undercover R\u0026B",
+    "versionName": "Undercover R&B",
     "startDate": "2024-08-14",
     "durationDays": 42,
     "notes": "Generated from Zenless Zone Zero Google Sheets by patchsync",
@@ -316,24 +256,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 20,
         "rewards": {
-          "oroberyl": 2300,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 20
+          "polychrome": 2300,
+          "monochrome": 0,
+          "boopon": 20,
+          "encryptedMasterTape": 10,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -345,53 +279,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 3,
         "rewards": {
-          "oroberyl": 4819,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 9,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 3
+          "polychrome": 4819,
+          "monochrome": 0,
+          "boopon": 3,
+          "encryptedMasterTape": 0,
+          "masterTape": 9
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox \u0026 Web Events",
+        "label": "Mailbox & Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 0,
         "rewards": {
-          "oroberyl": 1223,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 1223,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -403,24 +325,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 17.1,
         "rewards": {
-          "oroberyl": 2737,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 2737,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -432,24 +348,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 36.9,
         "rewards": {
-          "oroberyl": 960,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 8.8,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 36.9
+          "polychrome": 960,
+          "monochrome": 0,
+          "boopon": 36.9,
+          "encryptedMasterTape": 0,
+          "masterTape": 8.8
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -461,24 +371,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 5,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 5
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 5,
+          "encryptedMasterTape": 0,
+          "masterTape": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -490,24 +394,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.9,
-          "basic": 6.9,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 6.9
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 6.9,
+          "encryptedMasterTape": 6.9,
+          "masterTape": 6.9
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -519,24 +417,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.7,
         "rewards": {
-          "oroberyl": 1987,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 6.9
+          "polychrome": 1987,
+          "monochrome": 0,
+          "boopon": 6.9,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -548,24 +440,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 5,
         "rewards": {
-          "oroberyl": 780,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 5
+          "polychrome": 780,
+          "monochrome": 0,
+          "boopon": 5,
+          "encryptedMasterTape": 4,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -577,24 +463,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 4200,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       }
@@ -616,24 +496,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 20,
         "rewards": {
-          "oroberyl": 2730,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 20
+          "polychrome": 2730,
+          "monochrome": 0,
+          "boopon": 20,
+          "encryptedMasterTape": 10,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -645,53 +519,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 20,
         "rewards": {
-          "oroberyl": 5209,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 9,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 20
+          "polychrome": 5209,
+          "monochrome": 0,
+          "boopon": 20,
+          "encryptedMasterTape": 0,
+          "masterTape": 9
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox \u0026 Web Events",
+        "label": "Mailbox & Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 0,
         "rewards": {
-          "oroberyl": 1573,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 1573,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -703,24 +565,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 17.1,
         "rewards": {
-          "oroberyl": 2737,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 2737,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -732,24 +588,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 36.9,
         "rewards": {
-          "oroberyl": 960,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 8.8,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 36.9
+          "polychrome": 960,
+          "monochrome": 0,
+          "boopon": 36.9,
+          "encryptedMasterTape": 0,
+          "masterTape": 8.8
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -761,24 +611,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 5,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 5
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 5,
+          "encryptedMasterTape": 0,
+          "masterTape": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -790,24 +634,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.9,
-          "basic": 6.9,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 6.9
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 6.9,
+          "encryptedMasterTape": 6.9,
+          "masterTape": 6.9
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -819,24 +657,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 9.7,
         "rewards": {
-          "oroberyl": 2587,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 6.9
+          "polychrome": 2587,
+          "monochrome": 0,
+          "boopon": 6.9,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -848,24 +680,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 5,
         "rewards": {
-          "oroberyl": 780,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 5
+          "polychrome": 780,
+          "monochrome": 0,
+          "boopon": 5,
+          "encryptedMasterTape": 4,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -877,24 +703,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 4200,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       }
@@ -916,24 +736,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 20,
         "rewards": {
-          "oroberyl": 3010,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 20
+          "polychrome": 3010,
+          "monochrome": 0,
+          "boopon": 20,
+          "encryptedMasterTape": 10,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -945,53 +759,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6,
         "rewards": {
-          "oroberyl": 2901,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 6,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 6
+          "polychrome": 2901,
+          "monochrome": 0,
+          "boopon": 6,
+          "encryptedMasterTape": 0,
+          "masterTape": 6
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox \u0026 Web Events",
+        "label": "Mailbox & Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 0,
         "rewards": {
-          "oroberyl": 2183,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 2183,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -1003,24 +805,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 19.4,
         "rewards": {
-          "oroberyl": 3097,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 3097,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -1032,24 +828,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 36.9,
         "rewards": {
-          "oroberyl": 960,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 8.8,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 36.9
+          "polychrome": 960,
+          "monochrome": 0,
+          "boopon": 36.9,
+          "encryptedMasterTape": 0,
+          "masterTape": 8.8
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -1061,24 +851,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 5,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 5
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 5,
+          "encryptedMasterTape": 0,
+          "masterTape": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -1090,24 +874,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.9,
-          "basic": 6.9,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 6.9
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 6.9,
+          "encryptedMasterTape": 6.9,
+          "masterTape": 6.9
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -1119,24 +897,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 11.1,
         "rewards": {
-          "oroberyl": 1987,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 6.9
+          "polychrome": 1987,
+          "monochrome": 0,
+          "boopon": 6.9,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -1148,24 +920,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 5,
         "rewards": {
-          "oroberyl": 780,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 5
+          "polychrome": 780,
+          "monochrome": 0,
+          "boopon": 5,
+          "encryptedMasterTape": 4,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -1177,24 +943,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 4200,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       }
@@ -1216,24 +976,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 20,
         "rewards": {
-          "oroberyl": 3320,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 20
+          "polychrome": 3320,
+          "monochrome": 0,
+          "boopon": 20,
+          "encryptedMasterTape": 10,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -1245,53 +999,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 44,
         "rewards": {
-          "oroberyl": 9972,
-          "origeometry": 0,
-          "chartered": 7,
-          "basic": 6,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 44
+          "polychrome": 9972,
+          "monochrome": 0,
+          "boopon": 44,
+          "encryptedMasterTape": 7,
+          "masterTape": 6
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox \u0026 Web Events",
+        "label": "Mailbox & Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 0,
         "rewards": {
-          "oroberyl": 4564,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 4564,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -1303,24 +1045,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 16.1,
         "rewards": {
-          "oroberyl": 2581,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 2581,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -1332,24 +1068,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.7,
         "rewards": {
-          "oroberyl": 800,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 7.3,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 30.7
+          "polychrome": 800,
+          "monochrome": 0,
+          "boopon": 30.7,
+          "encryptedMasterTape": 0,
+          "masterTape": 7.3
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -1361,24 +1091,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 5,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 5
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 5,
+          "encryptedMasterTape": 0,
+          "masterTape": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -1390,24 +1114,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 5.7,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 5.7,
-          "basic": 5.7,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 5.7
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 5.7,
+          "encryptedMasterTape": 5.7,
+          "masterTape": 5.7
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -1419,24 +1137,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 51.2,
         "rewards": {
-          "oroberyl": 2760,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 5.7
+          "polychrome": 2760,
+          "monochrome": 0,
+          "boopon": 5.7,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -1448,24 +1160,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 5,
         "rewards": {
-          "oroberyl": 780,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 5
+          "polychrome": 780,
+          "monochrome": 0,
+          "boopon": 5,
+          "encryptedMasterTape": 4,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -1477,24 +1183,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 21.9,
         "rewards": {
-          "oroberyl": 3500,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 3500,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       }
@@ -1516,24 +1216,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26,
         "rewards": {
-          "oroberyl": 4970,
-          "origeometry": 0,
-          "chartered": 20,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 26
+          "polychrome": 4970,
+          "monochrome": 0,
+          "boopon": 26,
+          "encryptedMasterTape": 20,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -1545,53 +1239,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 13,
         "rewards": {
-          "oroberyl": 2887,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 6,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 13
+          "polychrome": 2887,
+          "monochrome": 0,
+          "boopon": 13,
+          "encryptedMasterTape": 0,
+          "masterTape": 6
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox \u0026 Web Events",
+        "label": "Mailbox & Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 0,
         "rewards": {
-          "oroberyl": 1637,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 1637,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -1603,24 +1285,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 22.6,
         "rewards": {
-          "oroberyl": 3613,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 3613,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -1632,24 +1308,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 43,
         "rewards": {
-          "oroberyl": 1120,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 10.2,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 43
+          "polychrome": 1120,
+          "monochrome": 0,
+          "boopon": 43,
+          "encryptedMasterTape": 0,
+          "masterTape": 10.2
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -1661,24 +1331,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 5,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 5
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 5,
+          "encryptedMasterTape": 0,
+          "masterTape": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -1690,24 +1354,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 8,
-          "basic": 8,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 8
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 8,
+          "encryptedMasterTape": 8,
+          "masterTape": 8
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -1719,24 +1377,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 21.7,
         "rewards": {
-          "oroberyl": 3570,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 8
+          "polychrome": 3570,
+          "monochrome": 0,
+          "boopon": 8,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -1748,24 +1400,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 5,
         "rewards": {
-          "oroberyl": 780,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 5
+          "polychrome": 780,
+          "monochrome": 0,
+          "boopon": 5,
+          "encryptedMasterTape": 4,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -1777,24 +1423,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.6,
         "rewards": {
-          "oroberyl": 4900,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 4900,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       }
@@ -1816,24 +1456,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 22,
         "rewards": {
-          "oroberyl": 2790,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 22
+          "polychrome": 2790,
+          "monochrome": 0,
+          "boopon": 22,
+          "encryptedMasterTape": 10,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -1845,53 +1479,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 18,
         "rewards": {
-          "oroberyl": 4560,
-          "origeometry": 0,
-          "chartered": 1,
-          "basic": 9,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 18
+          "polychrome": 4560,
+          "monochrome": 0,
+          "boopon": 18,
+          "encryptedMasterTape": 1,
+          "masterTape": 9
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox \u0026 Web Events",
+        "label": "Mailbox & Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 0,
         "rewards": {
-          "oroberyl": 1383,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 1383,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -1903,24 +1525,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 19.4,
         "rewards": {
-          "oroberyl": 3097,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 3097,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -1932,24 +1548,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 36.9,
         "rewards": {
-          "oroberyl": 960,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 8.8,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 36.9
+          "polychrome": 960,
+          "monochrome": 0,
+          "boopon": 36.9,
+          "encryptedMasterTape": 0,
+          "masterTape": 8.8
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -1961,24 +1571,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 5,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 5
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 5,
+          "encryptedMasterTape": 0,
+          "masterTape": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -1990,24 +1594,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.9,
-          "basic": 6.9,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 6.9
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 6.9,
+          "encryptedMasterTape": 6.9,
+          "masterTape": 6.9
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -2019,24 +1617,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.8,
         "rewards": {
-          "oroberyl": 3060,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 6.9
+          "polychrome": 3060,
+          "monochrome": 0,
+          "boopon": 6.9,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -2048,24 +1640,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 5,
         "rewards": {
-          "oroberyl": 780,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 5
+          "polychrome": 780,
+          "monochrome": 0,
+          "boopon": 5,
+          "encryptedMasterTape": 4,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -2077,24 +1663,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 4200,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       }
@@ -2116,24 +1696,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 25,
         "rewards": {
-          "oroberyl": 2810,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 25
+          "polychrome": 2810,
+          "monochrome": 0,
+          "boopon": 25,
+          "encryptedMasterTape": 10,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -2145,53 +1719,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6,
         "rewards": {
-          "oroberyl": 1125,
-          "origeometry": 0,
-          "chartered": 1,
-          "basic": 9,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 6
+          "polychrome": 1125,
+          "monochrome": 0,
+          "boopon": 6,
+          "encryptedMasterTape": 1,
+          "masterTape": 9
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox \u0026 Web Events",
+        "label": "Mailbox & Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 0,
         "rewards": {
-          "oroberyl": 1447,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 1447,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -2203,24 +1765,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 20.3,
         "rewards": {
-          "oroberyl": 3245,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 3245,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -2232,24 +1788,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 38.7,
         "rewards": {
-          "oroberyl": 1006,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 9.2,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 38.7
+          "polychrome": 1006,
+          "monochrome": 0,
+          "boopon": 38.7,
+          "encryptedMasterTape": 0,
+          "masterTape": 9.2
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -2261,24 +1811,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 5,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 5
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 5,
+          "encryptedMasterTape": 0,
+          "masterTape": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -2290,24 +1834,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 7.2,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 7.2,
-          "basic": 7.2,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 7.2
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 7.2,
+          "encryptedMasterTape": 7.2,
+          "masterTape": 7.2
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -2319,24 +1857,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": -3.7,
         "rewards": {
-          "oroberyl": 3206,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 7.2
+          "polychrome": 3206,
+          "monochrome": 0,
+          "boopon": 7.2,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -2348,24 +1880,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 5,
         "rewards": {
-          "oroberyl": 780,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 5
+          "polychrome": 780,
+          "monochrome": 0,
+          "boopon": 5,
+          "encryptedMasterTape": 4,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -2377,24 +1903,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 27.5,
         "rewards": {
-          "oroberyl": 4400,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 4400,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       }
@@ -2416,24 +1936,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 19,
         "rewards": {
-          "oroberyl": 5570,
-          "origeometry": 0,
-          "chartered": 20,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 19
+          "polychrome": 5570,
+          "monochrome": 0,
+          "boopon": 19,
+          "encryptedMasterTape": 20,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -2445,53 +1959,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 25,
         "rewards": {
-          "oroberyl": 7758,
-          "origeometry": 0,
-          "chartered": 1,
-          "basic": 9,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 25
+          "polychrome": 7758,
+          "monochrome": 0,
+          "boopon": 25,
+          "encryptedMasterTape": 1,
+          "masterTape": 9
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox \u0026 Web Events",
+        "label": "Mailbox & Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 0,
         "rewards": {
-          "oroberyl": 3319,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 3319,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -2503,24 +2005,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 18.4,
         "rewards": {
-          "oroberyl": 2950,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 2950,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -2532,24 +2028,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 35.1,
         "rewards": {
-          "oroberyl": 914,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 8.3,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 35.1
+          "polychrome": 914,
+          "monochrome": 0,
+          "boopon": 35.1,
+          "encryptedMasterTape": 0,
+          "masterTape": 8.3
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -2561,24 +2051,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 5,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 5
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 5,
+          "encryptedMasterTape": 0,
+          "masterTape": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -2590,24 +2074,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.6,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.6,
-          "basic": 6.6,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 6.6
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 6.6,
+          "encryptedMasterTape": 6.6,
+          "masterTape": 6.6
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -2619,24 +2097,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 64.9,
         "rewards": {
-          "oroberyl": 2914,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 6.6
+          "polychrome": 2914,
+          "monochrome": 0,
+          "boopon": 6.6,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -2648,24 +2120,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 5,
         "rewards": {
-          "oroberyl": 780,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 5
+          "polychrome": 780,
+          "monochrome": 0,
+          "boopon": 5,
+          "encryptedMasterTape": 4,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -2677,24 +2143,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 25,
         "rewards": {
-          "oroberyl": 4000,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 4000,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       }
@@ -2716,24 +2176,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 25,
         "rewards": {
-          "oroberyl": 4090,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 25
+          "polychrome": 4090,
+          "monochrome": 0,
+          "boopon": 25,
+          "encryptedMasterTape": 10,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -2745,53 +2199,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 11,
         "rewards": {
-          "oroberyl": 2415,
-          "origeometry": 0,
-          "chartered": 1,
-          "basic": 7,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 11
+          "polychrome": 2415,
+          "monochrome": 0,
+          "boopon": 11,
+          "encryptedMasterTape": 1,
+          "masterTape": 7
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox \u0026 Web Events",
+        "label": "Mailbox & Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 0,
         "rewards": {
-          "oroberyl": 1197,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 1197,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -2803,24 +2245,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 22.6,
         "rewards": {
-          "oroberyl": 3613,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 3613,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -2832,24 +2268,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 43,
         "rewards": {
-          "oroberyl": 1120,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 10.2,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 43
+          "polychrome": 1120,
+          "monochrome": 0,
+          "boopon": 43,
+          "encryptedMasterTape": 0,
+          "masterTape": 10.2
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -2861,24 +2291,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 5,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 5
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 5,
+          "encryptedMasterTape": 0,
+          "masterTape": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -2890,24 +2314,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 8,
-          "basic": 8,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 8
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 8,
+          "encryptedMasterTape": 8,
+          "masterTape": 8
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -2919,24 +2337,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 4.5,
         "rewards": {
-          "oroberyl": 3570,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 8
+          "polychrome": 3570,
+          "monochrome": 0,
+          "boopon": 8,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -2948,24 +2360,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 5,
         "rewards": {
-          "oroberyl": 780,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 5
+          "polychrome": 780,
+          "monochrome": 0,
+          "boopon": 5,
+          "encryptedMasterTape": 4,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -2977,24 +2383,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.6,
         "rewards": {
-          "oroberyl": 4900,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 4900,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       }
@@ -3016,24 +2416,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 21,
         "rewards": {
-          "oroberyl": 3310,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 21
+          "polychrome": 3310,
+          "monochrome": 0,
+          "boopon": 21,
+          "encryptedMasterTape": 10,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -3045,53 +2439,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6,
         "rewards": {
-          "oroberyl": 785,
-          "origeometry": 0,
-          "chartered": 1,
-          "basic": 6,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 6
+          "polychrome": 785,
+          "monochrome": 0,
+          "boopon": 6,
+          "encryptedMasterTape": 1,
+          "masterTape": 6
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox \u0026 Web Events",
+        "label": "Mailbox & Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 0,
         "rewards": {
-          "oroberyl": 1183,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 1183,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -3103,24 +2485,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 19.4,
         "rewards": {
-          "oroberyl": 3097,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 3097,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -3132,24 +2508,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 36.9,
         "rewards": {
-          "oroberyl": 960,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 8.8,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 36.9
+          "polychrome": 960,
+          "monochrome": 0,
+          "boopon": 36.9,
+          "encryptedMasterTape": 0,
+          "masterTape": 8.8
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -3161,24 +2531,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 5,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 5
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 5,
+          "encryptedMasterTape": 0,
+          "masterTape": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -3190,24 +2554,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.9,
-          "basic": 6.9,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 6.9
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 6.9,
+          "encryptedMasterTape": 6.9,
+          "masterTape": 6.9
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -3219,24 +2577,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 0.2,
         "rewards": {
-          "oroberyl": 3060,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 6.9
+          "polychrome": 3060,
+          "monochrome": 0,
+          "boopon": 6.9,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -3248,24 +2600,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 5,
         "rewards": {
-          "oroberyl": 780,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 5
+          "polychrome": 780,
+          "monochrome": 0,
+          "boopon": 5,
+          "encryptedMasterTape": 4,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -3277,24 +2623,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 4200,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       }
@@ -3316,24 +2656,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 25,
         "rewards": {
-          "oroberyl": 3290,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 3,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 25
+          "polychrome": 3290,
+          "monochrome": 0,
+          "boopon": 25,
+          "encryptedMasterTape": 10,
+          "masterTape": 3
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -3345,53 +2679,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8,
         "rewards": {
-          "oroberyl": 2348,
-          "origeometry": 0,
-          "chartered": 1,
-          "basic": 9,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 8
+          "polychrome": 2348,
+          "monochrome": 0,
+          "boopon": 8,
+          "encryptedMasterTape": 1,
+          "masterTape": 9
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox \u0026 Web Events",
+        "label": "Mailbox & Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 0,
         "rewards": {
-          "oroberyl": 1883,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 1883,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -3403,24 +2725,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 19.4,
         "rewards": {
-          "oroberyl": 3097,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 3097,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -3432,24 +2748,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 36.9,
         "rewards": {
-          "oroberyl": 960,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 8.8,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 36.9
+          "polychrome": 960,
+          "monochrome": 0,
+          "boopon": 36.9,
+          "encryptedMasterTape": 0,
+          "masterTape": 8.8
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -3461,24 +2771,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 5,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 5
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 5,
+          "encryptedMasterTape": 0,
+          "masterTape": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -3490,24 +2794,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.9,
-          "basic": 6.9,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 6.9
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 6.9,
+          "encryptedMasterTape": 6.9,
+          "masterTape": 6.9
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -3519,24 +2817,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.2,
         "rewards": {
-          "oroberyl": 3060,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 6.9
+          "polychrome": 3060,
+          "monochrome": 0,
+          "boopon": 6.9,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -3548,24 +2840,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 5,
         "rewards": {
-          "oroberyl": 780,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 5
+          "polychrome": 780,
+          "monochrome": 0,
+          "boopon": 5,
+          "encryptedMasterTape": 4,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -3577,24 +2863,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "oroberyl": 4200,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 4200,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       }
@@ -3616,24 +2896,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 20,
         "rewards": {
-          "oroberyl": 3060,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 20
+          "polychrome": 3060,
+          "monochrome": 0,
+          "boopon": 20,
+          "encryptedMasterTape": 10,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -3645,53 +2919,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6,
         "rewards": {
-          "oroberyl": 600,
-          "origeometry": 0,
-          "chartered": 1,
-          "basic": 6,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 6
+          "polychrome": 600,
+          "monochrome": 0,
+          "boopon": 6,
+          "encryptedMasterTape": 1,
+          "masterTape": 6
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox \u0026 Web Events",
+        "label": "Mailbox & Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 0,
         "rewards": {
-          "oroberyl": 1425,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 1425,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -3703,24 +2965,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.2,
         "rewards": {
-          "oroberyl": 2433,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 2433,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -3732,24 +2988,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 29,
         "rewards": {
-          "oroberyl": 754,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 6.9,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 29
+          "polychrome": 754,
+          "monochrome": 0,
+          "boopon": 29,
+          "encryptedMasterTape": 0,
+          "masterTape": 6.9
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -3761,24 +3011,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 5,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 5
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 5,
+          "encryptedMasterTape": 0,
+          "masterTape": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -3790,24 +3034,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 5.4,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 5.4,
-          "basic": 5.4,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 5.4
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 5.4,
+          "encryptedMasterTape": 5.4,
+          "masterTape": 5.4
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -3819,24 +3057,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 2.6,
         "rewards": {
-          "oroberyl": 2404,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 5.4
+          "polychrome": 2404,
+          "monochrome": 0,
+          "boopon": 5.4,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -3848,24 +3080,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 5,
         "rewards": {
-          "oroberyl": 780,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 5
+          "polychrome": 780,
+          "monochrome": 0,
+          "boopon": 5,
+          "encryptedMasterTape": 4,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -3877,24 +3103,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 20.6,
         "rewards": {
-          "oroberyl": 3300,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 3300,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       }
@@ -3916,24 +3136,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15,
         "rewards": {
-          "oroberyl": 3660,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 15
+          "polychrome": 3660,
+          "monochrome": 0,
+          "boopon": 15,
+          "encryptedMasterTape": 10,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -3945,53 +3159,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 11,
         "rewards": {
-          "oroberyl": 3415,
-          "origeometry": 0,
-          "chartered": 1,
-          "basic": 6,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 11
+          "polychrome": 3415,
+          "monochrome": 0,
+          "boopon": 11,
+          "encryptedMasterTape": 1,
+          "masterTape": 6
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox \u0026 Web Events",
+        "label": "Mailbox & Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 0,
         "rewards": {
-          "oroberyl": 2567,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 2567,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -4003,24 +3205,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 18,
         "rewards": {
-          "oroberyl": 2876,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 2876,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -4032,24 +3228,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 34.3,
         "rewards": {
-          "oroberyl": 891,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 8.1,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 34.3
+          "polychrome": 891,
+          "monochrome": 0,
+          "boopon": 34.3,
+          "encryptedMasterTape": 0,
+          "masterTape": 8.1
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -4061,24 +3251,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 5,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 5
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 5,
+          "encryptedMasterTape": 0,
+          "masterTape": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -4090,24 +3274,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.4,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 6.4,
-          "basic": 6.4,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 6.4
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 6.4,
+          "encryptedMasterTape": 6.4,
+          "masterTape": 6.4
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -4119,24 +3297,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.3,
         "rewards": {
-          "oroberyl": 3009,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 6.4
+          "polychrome": 3009,
+          "monochrome": 0,
+          "boopon": 6.4,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -4148,24 +3320,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 5,
         "rewards": {
-          "oroberyl": 780,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 5
+          "polychrome": 780,
+          "monochrome": 0,
+          "boopon": 5,
+          "encryptedMasterTape": 4,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -4177,24 +3343,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 24.4,
         "rewards": {
-          "oroberyl": 3900,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 3900,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       }
@@ -4216,24 +3376,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 20,
         "rewards": {
-          "oroberyl": 7687,
-          "origeometry": 0,
-          "chartered": 10,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 20
+          "polychrome": 7687,
+          "monochrome": 0,
+          "boopon": 20,
+          "encryptedMasterTape": 10,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -4245,53 +3399,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 3,
         "rewards": {
-          "oroberyl": 3260,
-          "origeometry": 0,
-          "chartered": 1,
-          "basic": 6,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 3
+          "polychrome": 3260,
+          "monochrome": 0,
+          "boopon": 3,
+          "encryptedMasterTape": 1,
+          "masterTape": 6
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox \u0026 Web Events",
+        "label": "Mailbox & Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 0,
         "rewards": {
-          "oroberyl": 1197,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 1197,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -4303,24 +3445,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 22.6,
         "rewards": {
-          "oroberyl": 3613,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 3613,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -4332,24 +3468,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 43,
         "rewards": {
-          "oroberyl": 1120,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 10.2,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 43
+          "polychrome": 1120,
+          "monochrome": 0,
+          "boopon": 43,
+          "encryptedMasterTape": 0,
+          "masterTape": 10.2
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -4361,24 +3491,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 5,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 5,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 5
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 5,
+          "encryptedMasterTape": 0,
+          "masterTape": 5
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -4390,24 +3514,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 8,
-          "basic": 8,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 8
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 8,
+          "encryptedMasterTape": 8,
+          "masterTape": 8
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -4419,24 +3537,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 46.6,
         "rewards": {
-          "oroberyl": 3780,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 8
+          "polychrome": 3780,
+          "monochrome": 0,
+          "boopon": 8,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -4448,24 +3560,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 5,
         "rewards": {
-          "oroberyl": 780,
-          "origeometry": 0,
-          "chartered": 4,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 5
+          "polychrome": 780,
+          "monochrome": 0,
+          "boopon": 5,
+          "encryptedMasterTape": 4,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       },
@@ -4477,24 +3583,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.6,
         "rewards": {
-          "oroberyl": 4900,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 4900,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
-          "basic": 0,
-          "firewalker": 0,
-          "messenger": 0,
-          "hues": 0,
-          "arsenal": 0
+          "polychrome": 0,
+          "monochrome": 0,
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0
         },
         "scalers": []
       }
