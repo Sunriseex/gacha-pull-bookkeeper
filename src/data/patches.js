@@ -1,8 +1,23 @@
-import { GENERATED_PATCHES as GENERATED_ENDFIELD_PATCHES } from "./endfield.generated.js";
-import { GENERATED_PATCHES as GENERATED_WUWA_PATCHES } from "./wuwa.generated.js";
-import { GENERATED_PATCHES as GENERATED_ZZZ_PATCHES } from "./zzz.generated.js";
-import { GENERATED_PATCHES as GENERATED_GENSHIN_PATCHES } from "./genshin.generated.js";
-import { GENERATED_PATCHES as GENERATED_HSR_PATCHES } from "./hsr.generated.js";
+import {
+  GENERATED_PATCHES as GENERATED_ENDFIELD_PATCHES,
+  GENERATED_PATCHES_META as GENERATED_ENDFIELD_META,
+} from "./endfield.generated.js";
+import {
+  GENERATED_PATCHES as GENERATED_WUWA_PATCHES,
+  GENERATED_PATCHES_META as GENERATED_WUWA_META,
+} from "./wuwa.generated.js";
+import {
+  GENERATED_PATCHES as GENERATED_ZZZ_PATCHES,
+  GENERATED_PATCHES_META as GENERATED_ZZZ_META,
+} from "./zzz.generated.js";
+import {
+  GENERATED_PATCHES as GENERATED_GENSHIN_PATCHES,
+  GENERATED_PATCHES_META as GENERATED_GENSHIN_META,
+} from "./genshin.generated.js";
+import {
+  GENERATED_PATCHES as GENERATED_HSR_PATCHES,
+  GENERATED_PATCHES_META as GENERATED_HSR_META,
+} from "./hsr.generated.js";
 
 const ENDFIELD_GAME_ID = "arknights-endfield";
 const WUWA_GAME_ID = "wuthering-waves";
@@ -1097,13 +1112,26 @@ const generatedByGame = {
   [HSR_GAME_ID]: GENERATED_HSR_PATCHES,
 };
 
-GAME_CATALOG.games = GAME_CATALOG.games.map((game) => ({
-  ...game,
-  patches: mergeGeneratedPatches(
-    game.patches,
-    Array.isArray(generatedByGame[game.id]) ? generatedByGame[game.id] : [],
-  ),
-}));
+const generatedMetaByGame = {
+  [ENDFIELD_GAME_ID]: GENERATED_ENDFIELD_META,
+  [WUWA_GAME_ID]: GENERATED_WUWA_META,
+  [ZZZ_GAME_ID]: GENERATED_ZZZ_META,
+  [GENSHIN_GAME_ID]: GENERATED_GENSHIN_META,
+  [HSR_GAME_ID]: GENERATED_HSR_META,
+};
+
+GAME_CATALOG.games = GAME_CATALOG.games.map((game) => {
+  const generatedPatches = Array.isArray(generatedByGame[game.id])
+    ? generatedByGame[game.id]
+    : [];
+  const generatedMeta = generatedMetaByGame[game.id];
+
+  return {
+    ...game,
+    generatedAt: typeof generatedMeta?.generatedAt === "string" ? generatedMeta.generatedAt : "",
+    patches: mergeGeneratedPatches(game.patches, generatedPatches),
+  };
+});
 
 for (const [gameIndex, game] of GAME_CATALOG.games.entries()) {
   validateGame(game, gameIndex);

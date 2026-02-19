@@ -19,6 +19,23 @@ const getInitialGame = () => {
   return getGameById(persistedGameId || DEFAULT_GAME_ID);
 };
 
+const formatGeneratedAt = (value) => {
+  const raw = String(value ?? "").trim();
+  if (!raw) {
+    return "Updated: n/a";
+  }
+  const date = new Date(raw);
+  if (Number.isNaN(date.getTime())) {
+    return "Updated: n/a";
+  }
+  const formatted = new Intl.DateTimeFormat("ru-RU", {
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric",
+  }).format(date);
+  return "Updated: " + formatted;
+};
+
 const state = {
   game: getInitialGame(),
   optionsByGame: {},
@@ -105,7 +122,18 @@ const renderGameTabs = () => {
     btn.type = "button";
     btn.className = "game-tab";
     btn.dataset.gameId = game.id;
-    btn.textContent = game.title;
+
+    const title = document.createElement("span");
+    title.className = "game-tab-title";
+    title.textContent = game.title;
+
+    const updated = document.createElement("small");
+    updated.className = "game-tab-meta";
+    updated.textContent = formatGeneratedAt(game.generatedAt);
+
+    btn.appendChild(title);
+    btn.appendChild(updated);
+
     if (game.id === state.game.id) {
       btn.classList.add("active");
       btn.setAttribute("aria-current", "true");
