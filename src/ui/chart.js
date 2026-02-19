@@ -151,6 +151,8 @@ const getState = (canvas) => {
       listenersBound: false,
       lastSignature: "",
       animationFrameId: null,
+      hoverFrameId: null,
+      pendingHoverPoint: null,
     });
   }
   return chartStateMap.get(canvas);
@@ -225,12 +227,32 @@ const bindHoverListeners = (canvas) => {
     if (!rect.width || !rect.height) {
       return;
     }
+
     const x = ((event.clientX - rect.left) / rect.width) * canvas.clientWidth;
     const y = ((event.clientY - rect.top) / rect.height) * canvas.clientHeight;
-    updateHover(canvas, x, y);
+    state.pendingHoverPoint = { x, y };
+
+    if (state.hoverFrameId !== null) {
+      return;
+    }
+
+    state.hoverFrameId = requestAnimationFrame(() => {
+      state.hoverFrameId = null;
+      if (!state.pendingHoverPoint) {
+        return;
+      }
+      const { x: pendingX, y: pendingY } = state.pendingHoverPoint;
+      state.pendingHoverPoint = null;
+      updateHover(canvas, pendingX, pendingY);
+    });
   });
 
   canvas.addEventListener("mouseleave", () => {
+    state.pendingHoverPoint = null;
+    if (state.hoverFrameId !== null) {
+      cancelAnimationFrame(state.hoverFrameId);
+      state.hoverFrameId = null;
+    }
     clearHover(canvas);
   });
 };

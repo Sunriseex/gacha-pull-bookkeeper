@@ -88,6 +88,7 @@ const state = {
   currentBackgroundUrl: "",
   bgTransitionTimer: null,
   syncFeedbackTimer: null,
+  resizeFrameId: null,
 };
 
 const refs = {
@@ -335,8 +336,13 @@ const syncAllGames = async () => {
       }
     }
 
-    if (!response.ok || !payload || payload.ok !== true) {
+    if (!response.ok || !payload) {
       const message = payload?.message || ("HTTP " + response.status);
+      throw new Error(message);
+    }
+
+    if (payload.ok !== true && !Array.isArray(payload.results)) {
+      const message = payload?.message || "Sync failed";
       throw new Error(message);
     }
 
@@ -631,7 +637,15 @@ const bindEvents = () => {
     void syncAllGames();
   });
 
-  window.addEventListener("resize", renderDashboard);
+  window.addEventListener("resize", () => {
+    if (state.resizeFrameId !== null) {
+      return;
+    }
+    state.resizeFrameId = requestAnimationFrame(() => {
+      state.resizeFrameId = null;
+      renderDashboard();
+    });
+  });
 };
 
 const init = () => {
