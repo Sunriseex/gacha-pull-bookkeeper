@@ -1,16 +1,10 @@
+import { safeNumber } from "./conversion.js";
 import {
-  DEFAULT_RATES,
-  PERMIT_KEYS,
-  RESOURCE_KEYS,
-  TIMED_PERMIT_KEYS,
-} from "../config/gameConfig.js";
-import { oroberylToPulls, safeNumber } from "./conversion.js";
-
-const emptyResources = () =>
-  RESOURCE_KEYS.reduce((acc, key) => {
-    acc[key] = 0;
-    return acc;
-  }, {});
+  createResourceRecord,
+  getCanonicalResourceKeyByAlias,
+  resolveGameEconomy,
+  resolveResourceAmount,
+} from "./economy.js";
 
 const normalizeTier = (tier) => {
   const normalized = Number(tier);
@@ -18,34 +12,6 @@ const normalizeTier = (tier) => {
     return normalized;
   }
   return 1;
-};
-
-const resolveRates = (gameOrRates = {}) =>
-  gameOrRates.rates && typeof gameOrRates.rates === "object"
-    ? gameOrRates.rates
-    : gameOrRates;
-
-const resolvePermitKeys = (game = {}) => {
-  const defaults = {
-    pull: [
-      PERMIT_KEYS.chartered,
-      PERMIT_KEYS.firewalker,
-      PERMIT_KEYS.messenger,
-      PERMIT_KEYS.hues,
-    ],
-    timed: TIMED_PERMIT_KEYS,
-  };
-  const configured = game?.permitKeys ?? {};
-  const pull = Array.isArray(configured.pull) && configured.pull.length
-    ? configured.pull
-    : defaults.pull;
-  const timed = Array.isArray(configured.timed) && configured.timed.length
-    ? configured.timed
-    : defaults.timed;
-  return {
-    pull: pull.filter((key) => RESOURCE_KEYS.includes(key)),
-    timed: timed.filter((key) => RESOURCE_KEYS.includes(key)),
-  };
 };
 
 const isSourceEnabled = (source, options) => {
@@ -82,11 +48,13 @@ const applyRounding = (value, rounding) => {
   return Math.floor(value);
 };
 
-const normalizeRewards = (input = {}) =>
-  RESOURCE_KEYS.reduce((acc, key) => {
-    acc[key] = safeNumber(input[key]);
-    return acc;
-  }, {});
+const normalizeRewards = (input = {}, economy) => {
+  const normalized = createResourceRecord(economy.resourceKeys, 0);
+  for (const key of economy.resourceKeys) {
+    normalized[key] = resolveResourceAmount(input, key, economy);
+  }
+  return normalized;
+};
 
 const resolveBpCrateScale = (source, row, options) => {
   const model = source.bpCrateModel ?? {};
@@ -108,7 +76,7 @@ const resolveBpCrateScale = (source, row, options) => {
   }
 
   const daysToLevel60Current = Math.ceil(
-    daysToLevel60Tier3 * (1 + referenceBonus) / (1 + currentBonus),
+    (daysToLevel60Tier3 * (1 + referenceBonus)) / (1 + currentBonus),
   );
   const currentRemainingDays = Math.max(0, durationDays - daysToLevel60Current);
   const timeScale = currentRemainingDays / referenceRemainingDays;
@@ -116,11 +84,11 @@ const resolveBpCrateScale = (source, row, options) => {
   return Math.max(0, timeScale * xpScale);
 };
 
-const resolveSourceRewards = (source, row, options) => {
-  const rewards = normalizeRewards(source.rewards);
+const resolveSourceRewards = (source, row, options, economy) => {
+  const rewards = normalizeRewards(source.rewards, economy);
   if (source.bpCrateModel?.type === "post_bp60_estimate") {
     const scale = resolveBpCrateScale(source, row, options);
-    for (const key of RESOURCE_KEYS) {
+    for (const key of economy.resourceKeys) {
       rewards[key] *= scale;
     }
   }
@@ -139,8 +107,8 @@ const resolveSourceRewards = (source, row, options) => {
       cycles = applyRounding(durationDays / everyDays, scaler.rounding);
     }
 
-    const scaled = normalizeRewards(scaler.rewards);
-    for (const key of RESOURCE_KEYS) {
+    const scaled = normalizeRewards(scaler.rewards, economy);
+    for (const key of economy.resourceKeys) {
       rewards[key] += cycles * safeNumber(scaled[key]);
     }
   }
@@ -148,7 +116,19 @@ const resolveSourceRewards = (source, row, options) => {
   return rewards;
 };
 
-const toSourceFormat = (row) => {
+const makeRewardGroup = (source = {}, economy, prefix = "") =>
+  economy.resourceKeys.reduce((acc, key) => {
+    const prefixedKey = `${prefix}${key}`;
+    if (Object.prototype.hasOwnProperty.call(source, prefixedKey)) {
+      acc[key] = safeNumber(source[prefixedKey]);
+      return acc;
+    }
+
+    acc[key] = resolveResourceAmount(source, key, economy);
+    return acc;
+  }, createResourceRecord(economy.resourceKeys, 0));
+
+const toSourceFormat = (row, economy) => {
   if (Array.isArray(row.sources)) {
     return row.sources;
   }
@@ -157,40 +137,43 @@ const toSourceFormat = (row) => {
   const battlePassTier3 = row.battlePass?.[3] ?? {};
   const bp2Cost = safeNumber(row.battlePassCosts?.[2]);
 
+  const premiumCost = createResourceRecord(economy.resourceKeys, 0);
+  premiumCost[economy.premiumCurrencyKey] = bp2Cost;
+
   return [
     {
       id: "base",
       label: "Base",
       gate: "always",
-      rewards: row.base ?? {},
+      rewards: makeRewardGroup(row.base ?? {}, economy),
     },
     {
       id: "monthly",
       label: "Monthly Pass",
       gate: "monthly",
-      rewards: row.monthlySub ?? {},
+      rewards: makeRewardGroup(row.monthlySub ?? {}, economy),
     },
     {
       id: "bp2",
       label: "Battle Pass Tier 2",
       gate: "bp2",
-      rewards: battlePassTier2,
-      costs: { origeometry: bp2Cost },
+      rewards: makeRewardGroup(battlePassTier2, economy),
+      costs: premiumCost,
     },
     {
       id: "bp3",
       label: "Battle Pass Tier 3",
       gate: "bp3",
-      rewards: battlePassTier3,
+      rewards: makeRewardGroup(battlePassTier3, economy),
     },
   ];
 };
 
-const sumResources = (sources) => {
-  const total = emptyResources();
+const sumResources = (sources, economy) => {
+  const total = createResourceRecord(economy.resourceKeys, 0);
   for (const source of sources) {
-    for (const key of RESOURCE_KEYS) {
-      total[key] += safeNumber(source.rewards?.[key]);
+    for (const key of economy.resourceKeys) {
+      total[key] += resolveResourceAmount(source.rewards, key, economy);
     }
   }
   return total;
@@ -199,25 +182,16 @@ const sumResources = (sources) => {
 const pullEligibleSources = (sources) =>
   sources.filter((source) => source.countInPulls !== false);
 
-const resolveRate = (rates, key) => {
-  const candidate = safeNumber(rates?.[key]);
-  if (candidate > 0) {
-    return candidate;
-  }
-  return safeNumber(DEFAULT_RATES[key]);
-};
-
-const sumCosts = (sources) => ({
-  ...RESOURCE_KEYS.reduce((acc, key) => {
+const sumCosts = (sources, economy) =>
+  economy.resourceKeys.reduce((acc, key) => {
     acc[key] = sources.reduce(
-      (sum, source) => sum + safeNumber(source.costs?.[key]),
+      (sum, source) => sum + resolveResourceAmount(source.costs, key, economy),
       0,
     );
     return acc;
-  }, {}),
-});
+  }, createResourceRecord(economy.resourceKeys, 0));
 
-const sourcePullValue = (source, permitKeys, rates) => {
+const sourcePullValue = (source, economy) => {
   if (source.countInPulls === false) {
     return 0;
   }
@@ -228,14 +202,16 @@ const sourcePullValue = (source, permitKeys, rates) => {
   ) {
     return Number(source.pulls);
   }
+
   const rewards = source.rewards ?? {};
-  const perPull = resolveRate(rates, "OROBERYL_PER_PULL");
-  if (perPull <= 0) {
+  const basePerPull = safeNumber(economy.rates.basePerPull);
+  if (basePerPull <= 0) {
     return 0;
   }
-  const currencyPulls = safeNumber(rewards.oroberyl) / perPull;
-  const permitPulls = permitKeys.pull.reduce(
-    (sum, key) => sum + safeNumber(rewards[key]),
+
+  const currencyPulls = resolveResourceAmount(rewards, economy.baseCurrencyKey, economy) / basePerPull;
+  const permitPulls = economy.pullPermitKeys.reduce(
+    (sum, key) => sum + resolveResourceAmount(rewards, key, economy),
     0,
   );
 
@@ -271,56 +247,63 @@ const normalizeBreakdownForStackedChart = (segments) => {
   return normalized.filter((segment) => segment.value > 0);
 };
 
-const sourceBreakdown = (sources, permitKeys, rates) =>
+const sourceBreakdown = (sources, economy) =>
   normalizeBreakdownForStackedChart(
     sources.map((source) => ({
       id: source.id,
       label: source.label,
-      value: sourcePullValue(source, permitKeys, rates),
+      value: sourcePullValue(source, economy),
     })),
   );
 
-export const calculatePatchTotals = (row, options, gameOrRates = {}) => {
-  const rates = resolveRates(gameOrRates);
-  const permitKeys = resolvePermitKeys(gameOrRates);
-  const enabledSources = toSourceFormat(row)
+const legacyValue = (bucket, key, economy) => {
+  if (Object.prototype.hasOwnProperty.call(bucket ?? {}, key)) {
+    return safeNumber(bucket[key]);
+  }
+
+  const canonicalKey = getCanonicalResourceKeyByAlias(economy, key);
+  if (Object.prototype.hasOwnProperty.call(bucket ?? {}, canonicalKey)) {
+    return safeNumber(bucket[canonicalKey]);
+  }
+
+  return 0;
+};
+
+export const calculatePatchTotals = (row, options, game = {}) => {
+  const economy = resolveGameEconomy(game);
+  const enabledSources = toSourceFormat(row, economy)
     .filter((source) => isSourceEnabled(source, options))
     .map((source) => ({
       ...source,
-      rewards: resolveSourceRewards(source, row, options),
+      rewards: resolveSourceRewards(source, row, options, economy),
     }));
-  const rewards = sumResources(enabledSources);
-  const costs = sumCosts(enabledSources);
+
+  const rewards = sumResources(enabledSources, economy);
+  const costs = sumCosts(enabledSources, economy);
   const pullSources = pullEligibleSources(enabledSources);
-  const pullRewards = sumResources(pullSources);
-  const resolvedSourceBreakdown = sourceBreakdown(enabledSources, permitKeys, rates);
+  const pullRewards = sumResources(pullSources, economy);
+  const resolvedSourceBreakdown = sourceBreakdown(enabledSources, economy);
 
-  const oroberyl = rewards.oroberyl;
-  const origeometry = Math.max(0, rewards.origeometry - costs.origeometry);
-  const oroberylFromOri =
-    origeometry * resolveRate(rates, "ORIGEOMETRY_TO_OROBERYL");
-  const perPull = resolveRate(rates, "OROBERYL_PER_PULL");
+  const baseCurrencyAmount = resolveResourceAmount(rewards, economy.baseCurrencyKey, economy);
+  const premiumCurrencyAmount = Math.max(
+    0,
+    resolveResourceAmount(rewards, economy.premiumCurrencyKey, economy) -
+      resolveResourceAmount(costs, economy.premiumCurrencyKey, economy),
+  );
+  const altCurrencyAmount = resolveResourceAmount(rewards, economy.altCurrencyKey, economy);
+
+  const premiumAsBaseAmount = premiumCurrencyAmount * safeNumber(economy.rates.premiumToBase);
+  const premiumAsAltAmount = premiumCurrencyAmount * safeNumber(economy.rates.premiumToAlt);
+
+  const basePerPull = safeNumber(economy.rates.basePerPull);
   const currencyPullsExact =
-    perPull > 0 ? pullRewards.oroberyl / perPull : 0;
-  const currencyPulls = oroberylToPulls(pullRewards.oroberyl, rates);
+    basePerPull > 0
+      ? resolveResourceAmount(pullRewards, economy.baseCurrencyKey, economy) / basePerPull
+      : 0;
+  const currencyPulls = Math.floor(currencyPullsExact);
 
-  const chartered = rewards.chartered;
-  const basic = rewards.basic;
-  const firewalker = rewards.firewalker;
-  const messenger = rewards.messenger;
-  const hues = rewards.hues;
-  const arsenal = rewards.arsenal;
-
-  const timedPermits = permitKeys.timed.reduce(
-    (sum, key) => sum + safeNumber(rewards[key]),
-    0,
-  );
-  const timedPermitsForPulls = permitKeys.timed.reduce(
-    (sum, key) => sum + safeNumber(pullRewards[key]),
-    0,
-  );
-  const permitPullsForPulls = permitKeys.pull.reduce(
-    (sum, key) => sum + safeNumber(pullRewards[key]),
+  const timedPermits = economy.timedPermitKeys.reduce(
+    (sum, key) => sum + resolveResourceAmount(rewards, key, economy),
     0,
   );
 
@@ -328,76 +311,128 @@ export const calculatePatchTotals = (row, options, gameOrRates = {}) => {
     (sum, source) => sum + source.value,
     0,
   );
-  const totalCharacterPullsNoBasic =
-    Math.floor(totalCharacterPullsNoBasicExact);
+  const totalCharacterPullsNoBasic = Math.floor(totalCharacterPullsNoBasicExact);
 
   return {
     patch: row.patch,
-    oroberyl,
-    origeometry,
-    oroberylFromOri,
+    economy,
+    resources: rewards,
+    costs,
+    pullResources: pullRewards,
+    baseCurrencyAmount,
+    premiumCurrencyAmount,
+    altCurrencyAmount,
+    premiumAsBaseAmount,
+    premiumAsAltAmount,
     currencyPullsExact,
     currencyPulls,
-    chartered,
-    basic,
-    firewalker,
-    messenger,
-    hues,
     timedPermits,
-    arsenal,
     totalCharacterPulls: totalCharacterPullsNoBasic,
     totalCharacterPullsNoBasicExact,
     totalCharacterPullsNoBasic,
     sourceBreakdown: resolvedSourceBreakdown,
+
+    // Legacy compatibility fields (to keep existing consumers stable).
+    oroberyl: legacyValue(rewards, "oroberyl", economy),
+    origeometry: Math.max(
+      0,
+      legacyValue(rewards, "origeometry", economy) -
+        legacyValue(costs, "origeometry", economy),
+    ),
+    oroberylFromOri:
+      Math.max(
+        0,
+        legacyValue(rewards, "origeometry", economy) -
+          legacyValue(costs, "origeometry", economy),
+      ) * safeNumber(economy.rates.premiumToBase),
+    chartered: legacyValue(rewards, "chartered", economy),
+    basic: legacyValue(rewards, "basic", economy),
+    firewalker: legacyValue(rewards, "firewalker", economy),
+    messenger: legacyValue(rewards, "messenger", economy),
+    hues: legacyValue(rewards, "hues", economy),
+    arsenal: legacyValue(rewards, "arsenal", economy),
   };
 };
 
-export const aggregateTotals = (rows, options, gameOrRates = {}) =>
-  rows
-    .map((row) => calculatePatchTotals(row, options, gameOrRates))
+export const aggregateTotals = (rows, options, game = {}) => {
+  const economy = resolveGameEconomy(game);
+
+  const initialResources = createResourceRecord(economy.resourceKeys, 0);
+  const initialCosts = createResourceRecord(economy.resourceKeys, 0);
+  const initialPullResources = createResourceRecord(economy.resourceKeys, 0);
+
+  const aggregated = rows
+    .map((row) => calculatePatchTotals(row, options, game))
     .reduce(
       (acc, item) => {
         acc.patchCount += 1;
-        acc.oroberyl += item.oroberyl;
-        acc.origeometry += item.origeometry;
-        acc.oroberylFromOri += item.oroberylFromOri;
+        acc.baseCurrencyAmount += item.baseCurrencyAmount;
+        acc.premiumCurrencyAmount += item.premiumCurrencyAmount;
+        acc.altCurrencyAmount += item.altCurrencyAmount;
+        acc.premiumAsBaseAmount += item.premiumAsBaseAmount;
+        acc.premiumAsAltAmount += item.premiumAsAltAmount;
         acc.currencyPullsExact += item.currencyPullsExact;
         acc.currencyPulls += item.currencyPulls;
-        acc.chartered += item.chartered;
-        acc.basic += item.basic;
-        acc.firewalker += item.firewalker;
-        acc.messenger += item.messenger;
-        acc.hues += item.hues;
         acc.timedPermits += item.timedPermits;
-        acc.arsenal += item.arsenal;
         acc.totalCharacterPulls += item.totalCharacterPulls;
         acc.totalCharacterPullsNoBasicExact += item.totalCharacterPullsNoBasicExact;
         acc.totalCharacterPullsNoBasic += item.totalCharacterPullsNoBasic;
+
+        for (const key of economy.resourceKeys) {
+          acc.resources[key] += safeNumber(item.resources[key]);
+          acc.costs[key] += safeNumber(item.costs[key]);
+          acc.pullResources[key] += safeNumber(item.pullResources[key]);
+        }
+
         return acc;
       },
       {
         patchCount: 0,
-        oroberyl: 0,
-        origeometry: 0,
-        oroberylFromOri: 0,
+        economy,
+        resources: initialResources,
+        costs: initialCosts,
+        pullResources: initialPullResources,
+        baseCurrencyAmount: 0,
+        premiumCurrencyAmount: 0,
+        altCurrencyAmount: 0,
+        premiumAsBaseAmount: 0,
+        premiumAsAltAmount: 0,
         currencyPullsExact: 0,
         currencyPulls: 0,
-        chartered: 0,
-        basic: 0,
-        firewalker: 0,
-        messenger: 0,
-        hues: 0,
         timedPermits: 0,
-        arsenal: 0,
         totalCharacterPulls: 0,
         totalCharacterPullsNoBasicExact: 0,
         totalCharacterPullsNoBasic: 0,
       },
     );
 
-export const chartSeries = (rows, options, gameOrRates = {}) =>
+  return {
+    ...aggregated,
+    // Legacy compatibility fields.
+    oroberyl: legacyValue(aggregated.resources, "oroberyl", aggregated.economy),
+    origeometry: Math.max(
+      0,
+      legacyValue(aggregated.resources, "origeometry", aggregated.economy) -
+        legacyValue(aggregated.costs, "origeometry", aggregated.economy),
+    ),
+    oroberylFromOri:
+      Math.max(
+        0,
+        legacyValue(aggregated.resources, "origeometry", aggregated.economy) -
+          legacyValue(aggregated.costs, "origeometry", aggregated.economy),
+      ) * safeNumber(aggregated.economy.rates.premiumToBase),
+    chartered: legacyValue(aggregated.resources, "chartered", aggregated.economy),
+    basic: legacyValue(aggregated.resources, "basic", aggregated.economy),
+    firewalker: legacyValue(aggregated.resources, "firewalker", aggregated.economy),
+    messenger: legacyValue(aggregated.resources, "messenger", aggregated.economy),
+    hues: legacyValue(aggregated.resources, "hues", aggregated.economy),
+    arsenal: legacyValue(aggregated.resources, "arsenal", aggregated.economy),
+  };
+};
+
+export const chartSeries = (rows, options, game = {}) =>
   rows.map((row) => {
-    const totals = calculatePatchTotals(row, options, gameOrRates);
+    const totals = calculatePatchTotals(row, options, game);
     return {
       label: row.patch,
       total: totals.sourceBreakdown.reduce((sum, source) => sum + source.value, 0),
