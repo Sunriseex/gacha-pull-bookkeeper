@@ -24,8 +24,9 @@ import (
 )
 
 const (
-	defaultOutputPath = "src/data/endfield.generated.js"
-	defaultBindAddr   = "127.0.0.1:8787"
+	defaultOutputPath    = "src/data/endfield.generated.js"
+	defaultBindAddr      = "127.0.0.1:8787"
+	defaultChangeLogPath = "tools/patchsync/logs/table-changes.jsonl"
 )
 
 var versionSheetPattern = regexp.MustCompile(`^\d+\.\d+$`)
@@ -175,6 +176,10 @@ type SyncResult struct {
 	SheetNames     []string
 	OutputPath     string
 	BranchName     string
+	Logs           []string
+	ChangeCount    int
+	ChangeLogPath  string
+	GeneratedAt    string
 }
 
 type sheetRow struct {
@@ -197,24 +202,47 @@ type syncAllRequest struct {
 }
 
 type syncGameResult struct {
-	GameID     string   `json:"gameId"`
-	Sheets     []string `json:"sheets,omitempty"`
-	Patches    []string `json:"patches,omitempty"`
-	Skipped    []string `json:"skipped,omitempty"`
-	OutputPath string   `json:"outputPath,omitempty"`
-	Error      string   `json:"error,omitempty"`
+	GameID        string   `json:"gameId"`
+	Sheets        []string `json:"sheets,omitempty"`
+	Patches       []string `json:"patches,omitempty"`
+	Skipped       []string `json:"skipped,omitempty"`
+	OutputPath    string   `json:"outputPath,omitempty"`
+	Error         string   `json:"error,omitempty"`
+	Logs          []string `json:"logs,omitempty"`
+	ChangeCount   int      `json:"changeCount,omitempty"`
+	ChangeLogPath string   `json:"changeLogPath,omitempty"`
+	GeneratedAt   string   `json:"generatedAt,omitempty"`
 }
 
 type syncResponse struct {
-	OK         bool             `json:"ok"`
-	Message    string           `json:"message"`
-	GameID     string           `json:"gameId,omitempty"`
-	Sheets     []string         `json:"sheets,omitempty"`
-	Patches    []string         `json:"patches,omitempty"`
-	Skipped    []string         `json:"skipped,omitempty"`
-	OutputPath string           `json:"outputPath,omitempty"`
-	Branch     string           `json:"branch,omitempty"`
-	Results    []syncGameResult `json:"results,omitempty"`
+	OK            bool             `json:"ok"`
+	Message       string           `json:"message"`
+	GameID        string           `json:"gameId,omitempty"`
+	Sheets        []string         `json:"sheets,omitempty"`
+	Patches       []string         `json:"patches,omitempty"`
+	Skipped       []string         `json:"skipped,omitempty"`
+	OutputPath    string           `json:"outputPath,omitempty"`
+	Branch        string           `json:"branch,omitempty"`
+	Results       []syncGameResult `json:"results,omitempty"`
+	Logs          []string         `json:"logs,omitempty"`
+	ChangeCount   int              `json:"changeCount,omitempty"`
+	ChangeLogPath string           `json:"changeLogPath,omitempty"`
+	GeneratedAt   string           `json:"generatedAt,omitempty"`
+}
+
+type patchChangeLogEntry struct {
+	Patch          string   `json:"patch"`
+	ChangeType     string   `json:"changeType"`
+	ChangedSources []string `json:"changedSources,omitempty"`
+}
+
+type syncChangeLogRecord struct {
+	Timestamp      string                `json:"timestamp"`
+	GameID         string                `json:"gameId"`
+	SpreadsheetID  string                `json:"spreadsheetId"`
+	OutputPath     string                `json:"outputPath"`
+	GeneratedAt    string                `json:"generatedAt"`
+	UpdatedPatches []patchChangeLogEntry `json:"updatedPatches"`
 }
 
 type patchParser func(sheetName, csvText string) (Patch, error)
@@ -1400,6 +1428,99 @@ func patchesEquivalent(left, right Patch) bool {
 	return string(leftJSON) == string(rightJSON)
 }
 
+func appendSyncLog(logs *[]string, format string, args ...any) {
+	message := fmt.Sprintf(format, args...)
+	timestamped := fmt.Sprintf("[%s] %s", time.Now().Format("15:04:05"), message)
+	*logs = append(*logs, timestamped)
+	fmt.Println(timestamped)
+}
+
+func patchIDOrFallback(patch Patch) string {
+	patchID := strings.TrimSpace(patch.Patch)
+	if patchID == "" {
+		patchID = strings.TrimSpace(patch.ID)
+	}
+	return patchID
+}
+
+func sourceByID(patch Patch) map[string]Source {
+	result := make(map[string]Source, len(patch.Sources))
+	for _, src := range patch.Sources {
+		sourceID := strings.TrimSpace(src.ID)
+		if sourceID == "" {
+			continue
+		}
+		result[sourceID] = src
+	}
+	return result
+}
+
+func sourcesEquivalent(left, right Source) bool {
+	leftJSON, leftErr := json.Marshal(left)
+	if leftErr != nil {
+		return false
+	}
+	rightJSON, rightErr := json.Marshal(right)
+	if rightErr != nil {
+		return false
+	}
+	return string(leftJSON) == string(rightJSON)
+}
+
+func changedSourceIDs(previous, next Patch) []string {
+	previousSources := sourceByID(previous)
+	nextSources := sourceByID(next)
+	ids := make([]string, 0, len(previousSources)+len(nextSources))
+	seen := map[string]struct{}{}
+	for id := range previousSources {
+		if _, ok := seen[id]; ok {
+			continue
+		}
+		seen[id] = struct{}{}
+		ids = append(ids, id)
+	}
+	for id := range nextSources {
+		if _, ok := seen[id]; ok {
+			continue
+		}
+		seen[id] = struct{}{}
+		ids = append(ids, id)
+	}
+	sort.Strings(ids)
+
+	changed := make([]string, 0, len(ids))
+	for _, id := range ids {
+		prevSource, hasPrev := previousSources[id]
+		nextSource, hasNext := nextSources[id]
+		if !hasPrev || !hasNext || !sourcesEquivalent(prevSource, nextSource) {
+			changed = append(changed, id)
+		}
+	}
+	return changed
+}
+
+func appendChangeLogRecord(path string, record syncChangeLogRecord) error {
+	logPath := resolveOutputPath(path)
+	if strings.TrimSpace(logPath) == "" {
+		return errors.New("change log path is empty")
+	}
+	if err := os.MkdirAll(filepath.Dir(logPath), 0o755); err != nil {
+		return fmt.Errorf("create change log directory: %w", err)
+	}
+	file, err := os.OpenFile(logPath, os.O_APPEND|os.O_CREATE|os.O_WRONLY, 0o644)
+	if err != nil {
+		return fmt.Errorf("open change log file: %w", err)
+	}
+	defer file.Close()
+
+	encoder := json.NewEncoder(file)
+	encoder.SetEscapeHTML(false)
+	if err := encoder.Encode(record); err != nil {
+		return fmt.Errorf("write change log record: %w", err)
+	}
+	return nil
+}
+
 func createBranch(prefix string) (string, error) {
 	prefix = strings.TrimSpace(prefix)
 	if prefix == "" {
@@ -1415,11 +1536,13 @@ func createBranch(prefix string) (string, error) {
 }
 
 func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
+	logs := make([]string, 0, 64)
 	profile, profileErr := resolveGameProfile(cfg.GameID)
 	if profileErr != nil {
 		return SyncResult{}, profileErr
 	}
 	cfg.GameID = profile.ID
+	appendSyncLog(&logs, "sync start for game=%s", cfg.GameID)
 
 	cfg.SpreadsheetID = extractSpreadsheetID(cfg.SpreadsheetID)
 	if strings.TrimSpace(cfg.SpreadsheetID) == "" {
@@ -1439,6 +1562,8 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 		cfg.BasePatchesPath = "src/data/patches.js"
 	}
 	cfg.BasePatchesPath = resolveFilePath(cfg.BasePatchesPath)
+	changeLogPath := resolveOutputPath(defaultChangeLogPath)
+	appendSyncLog(&logs, "spreadsheet=%s", cfg.SpreadsheetID)
 	client := &http.Client{Timeout: cfg.ClientTimeout}
 
 	var endfieldDataPulls map[string]map[string]float64
@@ -1447,6 +1572,7 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 	var hsrDataPulls map[string]map[string]float64
 	var genshinSummaryPulls map[string]float64
 	if cfg.GameID == gameIDEndfield || cfg.GameID == gameIDWuwa || cfg.GameID == gameIDZzz || cfg.GameID == gameIDHsr {
+		appendSyncLog(&logs, "fetch Data sheet")
 		dataCSV, dataErr := fetchSheetCSV(ctx, client, cfg.SpreadsheetID, "Data")
 		if dataErr != nil {
 			return SyncResult{}, fmt.Errorf("fetch Data sheet for %s: %w", cfg.GameID, dataErr)
@@ -1482,12 +1608,10 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 	if err != nil {
 		return SyncResult{}, fmt.Errorf("read existing generated patches: %w", err)
 	}
+	appendSyncLog(&logs, "loaded %d existing generated patches", len(existingGenerated))
 	existingGeneratedByID := map[string]Patch{}
 	for _, patch := range existingGenerated {
-		patchID := strings.TrimSpace(patch.Patch)
-		if patchID == "" {
-			patchID = strings.TrimSpace(patch.ID)
-		}
+		patchID := patchIDOrFallback(patch)
 		if patchID != "" {
 			existingGeneratedByID[patchID] = patch
 		}
@@ -1501,6 +1625,7 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 		for patchID := range readIDs {
 			basePatchIDs[patchID] = struct{}{}
 		}
+		appendSyncLog(&logs, "loaded %d base patch ids for skip-existing", len(basePatchIDs))
 	}
 
 	parser := profile.ParseSheet
@@ -1517,6 +1642,7 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 		return SyncResult{}, errors.New("no sheet names to parse")
 	}
 	sortVersionStrings(sheetNames)
+	appendSyncLog(&logs, "sheet names discovered: %d", len(sheetNames))
 
 	if cfg.GameID == gameIDGenshin {
 		summaryCSV, summaryErr := fetchSheetCSV(ctx, client, cfg.SpreadsheetID, "Summary")
@@ -1536,6 +1662,7 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 	patches := make([]Patch, 0, len(sheetNames))
 	parsedSheetNames := make([]string, 0, len(sheetNames))
 	skippedPatches := make([]string, 0, len(sheetNames))
+	changeEntries := make([]patchChangeLogEntry, 0, len(sheetNames))
 	validPatchRows := 0
 	for _, sheetName := range sheetNames {
 		csvText, fetchErr := fetchSheetCSV(ctx, client, cfg.SpreadsheetID, sheetName)
@@ -1590,25 +1717,34 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 			}
 		}
 		validPatchRows++
-		patchID := strings.TrimSpace(patch.Patch)
-		if patchID == "" {
-			patchID = strings.TrimSpace(patch.ID)
-		}
+		patchID := patchIDOrFallback(patch)
+		previousPatch, hadPrevious := existingGeneratedByID[patchID]
 		if cfg.SkipExisting {
-			if existingPatch, ok := existingGeneratedByID[patchID]; ok {
-				if patchesEquivalent(existingPatch, patch) {
+			if hadPrevious {
+				if patchesEquivalent(previousPatch, patch) {
 					if patchID != "" {
 						skippedPatches = append(skippedPatches, patchID)
+						appendSyncLog(&logs, "skip unchanged patch %s", patchID)
 					}
 					continue
 				}
 			}
 			if _, inBaseOnly := basePatchIDs[patchID]; inBaseOnly {
-				// Base patches do not keep machine-readable payload for full comparison,
-				// so we resync them into generated output on first pass.
 				delete(basePatchIDs, patchID)
 			}
 		}
+		changeType := "added"
+		changedSources := []string{}
+		if hadPrevious {
+			changeType = "updated"
+			changedSources = changedSourceIDs(previousPatch, patch)
+		}
+		changeEntries = append(changeEntries, patchChangeLogEntry{
+			Patch:          patchID,
+			ChangeType:     changeType,
+			ChangedSources: changedSources,
+		})
+		appendSyncLog(&logs, "queue %s patch %s", changeType, patchID)
 		patches = append(patches, patch)
 		parsedSheetNames = append(parsedSheetNames, sheetName)
 		if patchID != "" {
@@ -1620,6 +1756,7 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 	}
 	sortPatches(patches)
 	skippedPatches = uniqueStrings(skippedPatches)
+	appendSyncLog(&logs, "parsed=%d changed=%d skipped=%d", validPatchRows, len(patches), len(skippedPatches))
 
 	branchName := ""
 	if cfg.CreateBranch {
@@ -1628,18 +1765,37 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 			return SyncResult{}, branchErr
 		}
 		branchName = createdBranch
+		appendSyncLog(&logs, "created branch %s", branchName)
 	}
 
 	allPatches := mergePatchesByID(existingGenerated, patches)
+	generatedAt := time.Now().UTC().Format(time.RFC3339)
 	if !cfg.DryRun && len(patches) > 0 {
 		meta := GeneratedMeta{
 			GameID:        cfg.GameID,
 			SpreadsheetID: cfg.SpreadsheetID,
 			Sheets:        uniqueStrings(append(parsedSheetNames, skippedPatches...)),
-			GeneratedAt:   time.Now().UTC().Format(time.RFC3339),
+			GeneratedAt:   generatedAt,
 		}
 		if writeErr := writeGeneratedFile(cfg.OutputPath, allPatches, meta); writeErr != nil {
 			return SyncResult{}, writeErr
+		}
+		appendSyncLog(&logs, "written generated patches to %s", cfg.OutputPath)
+	}
+
+	if !cfg.DryRun && len(changeEntries) > 0 {
+		record := syncChangeLogRecord{
+			Timestamp:      time.Now().UTC().Format(time.RFC3339),
+			GameID:         cfg.GameID,
+			SpreadsheetID:  cfg.SpreadsheetID,
+			OutputPath:     cfg.OutputPath,
+			GeneratedAt:    generatedAt,
+			UpdatedPatches: changeEntries,
+		}
+		if logErr := appendChangeLogRecord(changeLogPath, record); logErr != nil {
+			appendSyncLog(&logs, "change log write failed: %v", logErr)
+		} else {
+			appendSyncLog(&logs, "change log updated: %s", changeLogPath)
 		}
 	}
 
@@ -1651,6 +1807,10 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 		SheetNames:     parsedSheetNames,
 		OutputPath:     cfg.OutputPath,
 		BranchName:     branchName,
+		Logs:           logs,
+		ChangeCount:    len(changeEntries),
+		ChangeLogPath:  changeLogPath,
+		GeneratedAt:    generatedAt,
 	}, nil
 }
 
@@ -1740,14 +1900,18 @@ func patchNamesFromPatches(patches []Patch) []string {
 
 func buildSyncResponseFromResult(result SyncResult) syncResponse {
 	return syncResponse{
-		OK:         true,
-		Message:    "sync completed",
-		GameID:     result.GameID,
-		Sheets:     result.SheetNames,
-		Patches:    patchNamesFromPatches(result.Patches),
-		Skipped:    result.SkippedPatches,
-		OutputPath: result.OutputPath,
-		Branch:     result.BranchName,
+		OK:            true,
+		Message:       "sync completed",
+		GameID:        result.GameID,
+		Sheets:        result.SheetNames,
+		Patches:       patchNamesFromPatches(result.Patches),
+		Skipped:       result.SkippedPatches,
+		OutputPath:    result.OutputPath,
+		Branch:        result.BranchName,
+		Logs:          result.Logs,
+		ChangeCount:   result.ChangeCount,
+		ChangeLogPath: result.ChangeLogPath,
+		GeneratedAt:   result.GeneratedAt,
 	}
 }
 
@@ -1774,11 +1938,15 @@ func runSyncAll(ctx context.Context, baseCfg SyncConfig) ([]syncGameResult, bool
 		}
 
 		results = append(results, syncGameResult{
-			GameID:     result.GameID,
-			Sheets:     result.SheetNames,
-			Patches:    patchNamesFromPatches(result.Patches),
-			Skipped:    result.SkippedPatches,
-			OutputPath: result.OutputPath,
+			GameID:        result.GameID,
+			Sheets:        result.SheetNames,
+			Patches:       patchNamesFromPatches(result.Patches),
+			Skipped:       result.SkippedPatches,
+			OutputPath:    result.OutputPath,
+			Logs:          result.Logs,
+			ChangeCount:   result.ChangeCount,
+			ChangeLogPath: result.ChangeLogPath,
+			GeneratedAt:   result.GeneratedAt,
 		})
 	}
 	return results, allOK
