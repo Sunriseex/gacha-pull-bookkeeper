@@ -1571,7 +1571,12 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 	if strings.TrimSpace(cfg.SpreadsheetID) == "" {
 		cfg.SpreadsheetID = profile.DefaultSpreadsheetID
 	}
+	cfg.SpreadsheetID = extractSpreadsheetID(cfg.SpreadsheetID)
 	if strings.TrimSpace(cfg.SpreadsheetID) == "" {
+		envKey := spreadsheetEnvKeyForGame(cfg.GameID)
+		if envKey != "" {
+			return SyncResult{}, fmt.Errorf("spreadsheet-id is required (set --spreadsheet-id or %s in .env)", envKey)
+		}
 		return SyncResult{}, errors.New("spreadsheet-id is required")
 	}
 	if cfg.ClientTimeout <= 0 {
@@ -1822,6 +1827,7 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 		}
 	}
 
+	appendSyncLog(&logs, "sync completed: game=%s changed=%d skipped=%d dryRun=%t", cfg.GameID, len(patches), len(skippedPatches), cfg.DryRun)
 	return SyncResult{
 		GameID:         cfg.GameID,
 		Patches:        patches,
@@ -1981,7 +1987,59 @@ func writeJSON(w http.ResponseWriter, statusCode int, payload syncResponse) {
 	_ = json.NewEncoder(w).Encode(payload)
 }
 
+func loadDotEnv() {
+	cwd, err := os.Getwd()
+	if err != nil {
+		return
+	}
+
+	for {
+		envPath := filepath.Join(cwd, ".env")
+		if info, statErr := os.Stat(envPath); statErr == nil && !info.IsDir() {
+			raw, readErr := os.ReadFile(envPath)
+			if readErr != nil {
+				return
+			}
+			for _, rawLine := range strings.Split(string(raw), "\n") {
+				line := strings.TrimSpace(strings.TrimPrefix(rawLine, "\uFEFF"))
+				if line == "" || strings.HasPrefix(line, "#") {
+					continue
+				}
+				if strings.HasPrefix(line, "export ") {
+					line = strings.TrimSpace(strings.TrimPrefix(line, "export "))
+				}
+				parts := strings.SplitN(line, "=", 2)
+				if len(parts) != 2 {
+					continue
+				}
+				key := strings.TrimSpace(parts[0])
+				if key == "" {
+					continue
+				}
+				value := strings.TrimSpace(parts[1])
+				if len(value) >= 2 {
+					if (strings.HasPrefix(value, "\"") && strings.HasSuffix(value, "\"")) ||
+						(strings.HasPrefix(value, "'") && strings.HasSuffix(value, "'")) {
+						value = value[1 : len(value)-1]
+					}
+				}
+				if _, exists := os.LookupEnv(key); exists {
+					continue
+				}
+				_ = os.Setenv(key, value)
+			}
+			return
+		}
+
+		parent := filepath.Dir(cwd)
+		if parent == cwd {
+			return
+		}
+		cwd = parent
+	}
+}
 func main() {
+	loadDotEnv()
 	var (
 		serveMode         bool
 		gameID            string

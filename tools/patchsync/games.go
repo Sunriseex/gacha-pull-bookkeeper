@@ -5,6 +5,7 @@ import (
 	"errors"
 	"fmt"
 	"math"
+	"os"
 	"regexp"
 	"strconv"
 	"strings"
@@ -18,6 +19,12 @@ const (
 	gameIDGenshin  = "genshin-impact"
 	gameIDHsr      = "honkai-star-rail"
 	defaultGameID  = gameIDEndfield
+
+	envSpreadsheetEndfield = "PATCHSYNC_SPREADSHEET_ENDFIELD"
+	envSpreadsheetWuwa     = "PATCHSYNC_SPREADSHEET_WUWA"
+	envSpreadsheetZzz      = "PATCHSYNC_SPREADSHEET_ZZZ"
+	envSpreadsheetGenshin  = "PATCHSYNC_SPREADSHEET_GENSHIN"
+	envSpreadsheetHsr      = "PATCHSYNC_SPREADSHEET_HSR"
 )
 
 type gameProfile struct {
@@ -95,31 +102,31 @@ var hsrDataRowToSourceID = map[string]string{
 var profilesByGameID = map[string]gameProfile{
 	gameIDEndfield: {
 		ID:                   gameIDEndfield,
-		DefaultSpreadsheetID: "1zGNuQ53R7c190RG40dHxcHv8tJuT3cBaclm8CjI-luY",
+		DefaultSpreadsheetID: "",
 		DefaultOutputPath:    "src/data/endfield.generated.js",
 		ParseSheet:           parseSheetToPatch,
 	},
 	gameIDWuwa: {
 		ID:                   gameIDWuwa,
-		DefaultSpreadsheetID: "1msSsnWBcXKniykf4rWQCEdk2IQuB9JHy",
+		DefaultSpreadsheetID: "",
 		DefaultOutputPath:    "src/data/wuwa.generated.js",
 		ParseSheet:           parseSheetToPatchWuwa,
 	},
 	gameIDZzz: {
 		ID:                   gameIDZzz,
-		DefaultSpreadsheetID: "2PACX-1vTiSx8OSyx-BZktnpT-fh_pQHjjkD8q3sp3Csy2aOI-8CV_QroqxzhhNjiCZNV4IdzhyK3xbipZn9WD",
+		DefaultSpreadsheetID: "",
 		DefaultOutputPath:    "src/data/zzz.generated.js",
 		ParseSheet:           parseSheetToPatchZzz,
 	},
 	gameIDGenshin: {
 		ID:                   gameIDGenshin,
-		DefaultSpreadsheetID: "1l9HPu2cAzTckdXtr7u-7D8NSKzZNUqOuvbmxERFZ_6w",
+		DefaultSpreadsheetID: "",
 		DefaultOutputPath:    "src/data/genshin.generated.js",
 		ParseSheet:           parseSheetToPatchGenshin,
 	},
 	gameIDHsr: {
 		ID:                   gameIDHsr,
-		DefaultSpreadsheetID: "2PACX-1vRIWjzFwAZZoBvKw2oiNaVpppI9atoV0wxuOjulKRJECrg_BN404d7LoKlHp8RMX8hegDr4b8jlHjYy",
+		DefaultSpreadsheetID: "",
 		DefaultOutputPath:    "src/data/hsr.generated.js",
 		ParseSheet:           parseSheetToPatchHsr,
 	},
@@ -127,6 +134,23 @@ var profilesByGameID = map[string]gameProfile{
 
 func availableGameIDs() []string {
 	return []string{gameIDEndfield, gameIDWuwa, gameIDZzz, gameIDGenshin, gameIDHsr}
+}
+
+func spreadsheetEnvKeyForGame(gameID string) string {
+	switch gameID {
+	case gameIDEndfield:
+		return envSpreadsheetEndfield
+	case gameIDWuwa:
+		return envSpreadsheetWuwa
+	case gameIDZzz:
+		return envSpreadsheetZzz
+	case gameIDGenshin:
+		return envSpreadsheetGenshin
+	case gameIDHsr:
+		return envSpreadsheetHsr
+	default:
+		return ""
+	}
 }
 
 func resolveGameProfile(gameID string) (gameProfile, error) {
@@ -141,6 +165,11 @@ func resolveGameProfile(gameID string) (gameProfile, error) {
 			trimmed,
 			strings.Join(availableGameIDs(), ", "),
 		)
+	}
+
+	envKey := spreadsheetEnvKeyForGame(trimmed)
+	if envKey != "" {
+		profile.DefaultSpreadsheetID = extractSpreadsheetID(strings.TrimSpace(os.Getenv(envKey)))
 	}
 	return profile, nil
 }

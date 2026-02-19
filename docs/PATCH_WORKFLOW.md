@@ -12,8 +12,9 @@ Option A (recommended): use Google Sheets importer.
    - `cd tools/patchsync`
    - `go run . --serve --auth-token "<your_token>"`
 2. In app UI click `Sync Sheets` once.
-3. The service syncs all configured games using built-in spreadsheet IDs.
-4. Reload the app and verify updated patches.
+3. Before first sync, copy `.env.example` to `.env` and set spreadsheet IDs/URLs there.
+4. The service syncs all configured games using values from `.env`.
+5. Reload the app and verify updated patches.
 
 Option B: manual edit in repository.
 
