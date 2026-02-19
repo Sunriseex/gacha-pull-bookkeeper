@@ -564,6 +564,15 @@ h2 {
   .app-header h1.title-switch-animate {
     animation: none;
   }
+
+  .toast,
+  .toast::after,
+  .toast.is-entering,
+  .toast.is-leaving {
+    animation: none !important;
+    transition: none !important;
+    filter: none !important;
+  }
 }
 .toast-root {
   position: fixed;
@@ -577,6 +586,8 @@ h2 {
 }
 
 .toast {
+  position: relative;
+  overflow: hidden;
   border: 1px solid rgba(148, 163, 184, 0.28);
   border-radius: 10px;
   background: rgba(15, 23, 42, 0.9);
@@ -587,12 +598,41 @@ h2 {
   box-shadow: 0 10px 22px rgba(2, 6, 23, 0.35);
   opacity: 0;
   transform: translateY(8px) scale(0.985);
-  transition: opacity 0.2s ease, transform 0.2s ease;
+  filter: blur(1px);
+  transform-origin: right bottom;
+  will-change: transform, opacity, filter;
+  pointer-events: auto;
+}
+
+.toast::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, rgba(248, 250, 252, 0.65), rgba(248, 250, 252, 0.2));
+  transform-origin: left center;
+  animation: toast-progress var(--toast-life-ms, 3200ms) linear forwards;
 }
 
 .toast.is-visible {
   opacity: 1;
   transform: translateY(0) scale(1);
+  filter: blur(0);
+}
+
+.toast.is-entering {
+  animation: toast-in 0.36s cubic-bezier(0.21, 1, 0.35, 1) forwards;
+}
+
+.toast.is-leaving {
+  animation: toast-out 0.3s cubic-bezier(0.4, 0, 0.6, 1) forwards;
+}
+
+.toast.is-leaving::after {
+  animation-play-state: paused;
+  opacity: 0;
 }
 
 .toast-success {
@@ -615,3 +655,37 @@ h2 {
   background: rgba(76, 29, 149, 0.88);
 }
 
+@keyframes toast-in {
+  0% {
+    opacity: 0;
+    transform: translateX(20px) translateY(8px) scale(0.98);
+    filter: blur(2px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0) translateY(0) scale(1);
+    filter: blur(0);
+  }
+}
+
+@keyframes toast-out {
+  0% {
+    opacity: 1;
+    transform: translateX(0) translateY(0) scale(1);
+    filter: blur(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateX(14px) translateY(-4px) scale(0.98);
+    filter: blur(2px);
+  }
+}
+
+@keyframes toast-progress {
+  from {
+    transform: scaleX(1);
+  }
+  to {
+    transform: scaleX(0);
+  }
+}
