@@ -146,15 +146,29 @@ type syncRequest struct {
 	DryRun        bool     `json:"dryRun"`
 }
 
-type syncResponse struct {
-	OK         bool     `json:"ok"`
-	Message    string   `json:"message"`
-	GameID     string   `json:"gameId,omitempty"`
+type syncAllRequest struct {
+	DryRun bool `json:"dryRun"`
+}
+
+type syncGameResult struct {
+	GameID     string   `json:"gameId"`
 	Sheets     []string `json:"sheets,omitempty"`
 	Patches    []string `json:"patches,omitempty"`
 	Skipped    []string `json:"skipped,omitempty"`
 	OutputPath string   `json:"outputPath,omitempty"`
-	Branch     string   `json:"branch,omitempty"`
+	Error      string   `json:"error,omitempty"`
+}
+
+type syncResponse struct {
+	OK         bool             `json:"ok"`
+	Message    string           `json:"message"`
+	GameID     string           `json:"gameId,omitempty"`
+	Sheets     []string         `json:"sheets,omitempty"`
+	Patches    []string         `json:"patches,omitempty"`
+	Skipped    []string         `json:"skipped,omitempty"`
+	OutputPath string           `json:"outputPath,omitempty"`
+	Branch     string           `json:"branch,omitempty"`
+	Results    []syncGameResult `json:"results,omitempty"`
 }
 
 type patchParser func(sheetName, csvText string) (Patch, error)
@@ -1476,17 +1490,37 @@ func parseAllowedOrigins(raw string) map[string]struct{} {
 	values := uniqueStrings(strings.Split(raw, ","))
 	allowed := make(map[string]struct{}, len(values))
 	for _, value := range values {
-		allowed[value] = struct{}{}
+		allowed[strings.TrimSpace(value)] = struct{}{}
 	}
 	return allowed
+}
+
+func isLoopbackOrigin(origin string) bool {
+	if strings.EqualFold(strings.TrimSpace(origin), "null") {
+		return true
+	}
+	parsed, err := url.Parse(strings.TrimSpace(origin))
+	if err != nil {
+		return false
+	}
+	host := strings.ToLower(strings.TrimSpace(parsed.Hostname()))
+	return host == "localhost" || host == "127.0.0.1" || host == "::1"
 }
 
 func isOriginAllowed(origin string, allowed map[string]struct{}) bool {
 	if origin == "" {
 		return true
 	}
-	_, ok := allowed[origin]
-	return ok
+	if _, ok := allowed["*"]; ok {
+		return true
+	}
+	if _, ok := allowed[origin]; ok {
+		return true
+	}
+	if isLoopbackOrigin(origin) {
+		return true
+	}
+	return false
 }
 
 func withCORS(w http.ResponseWriter, r *http.Request, allowed map[string]struct{}) bool {
@@ -1509,6 +1543,77 @@ func isAuthorized(r *http.Request, authToken string) bool {
 	}
 	requestToken := strings.TrimSpace(r.Header.Get("X-Patchsync-Token"))
 	return subtle.ConstantTimeCompare([]byte(requestToken), []byte(authToken)) == 1
+}
+
+func parseSyncRequestBody(r *http.Request, target any) error {
+	body, err := io.ReadAll(io.LimitReader(r.Body, 1<<20))
+	if err != nil {
+		return err
+	}
+	trimmed := strings.TrimSpace(string(body))
+	if trimmed == "" {
+		return nil
+	}
+	decoder := json.NewDecoder(strings.NewReader(trimmed))
+	decoder.DisallowUnknownFields()
+	if err := decoder.Decode(target); err != nil {
+		return err
+	}
+	return nil
+}
+
+func patchNamesFromPatches(patches []Patch) []string {
+	patchNames := make([]string, 0, len(patches))
+	for _, patch := range patches {
+		patchNames = append(patchNames, patch.Patch)
+	}
+	return patchNames
+}
+
+func buildSyncResponseFromResult(result SyncResult) syncResponse {
+	return syncResponse{
+		OK:         true,
+		Message:    "sync completed",
+		GameID:     result.GameID,
+		Sheets:     result.SheetNames,
+		Patches:    patchNamesFromPatches(result.Patches),
+		Skipped:    result.SkippedPatches,
+		OutputPath: result.OutputPath,
+		Branch:     result.BranchName,
+	}
+}
+
+func runSyncAll(ctx context.Context, baseCfg SyncConfig) ([]syncGameResult, bool) {
+	results := make([]syncGameResult, 0, len(availableGameIDs()))
+	allOK := true
+	for _, gameID := range availableGameIDs() {
+		cfg := baseCfg
+		cfg.GameID = gameID
+		cfg.SpreadsheetID = ""
+		cfg.SheetNames = nil
+		cfg.OutputPath = ""
+		cfg.CreateBranch = false
+		cfg.BranchPrefix = ""
+
+		result, err := runSync(ctx, cfg)
+		if err != nil {
+			allOK = false
+			results = append(results, syncGameResult{
+				GameID: gameID,
+				Error:  err.Error(),
+			})
+			continue
+		}
+
+		results = append(results, syncGameResult{
+			GameID:     result.GameID,
+			Sheets:     result.SheetNames,
+			Patches:    patchNamesFromPatches(result.Patches),
+			Skipped:    result.SkippedPatches,
+			OutputPath: result.OutputPath,
+		})
+	}
+	return results, allOK
 }
 
 func writeJSON(w http.ResponseWriter, statusCode int, payload syncResponse) {
@@ -1609,10 +1714,7 @@ func main() {
 				return
 			}
 			var req syncRequest
-			bodyReader := io.LimitReader(r.Body, 1<<20)
-			decoder := json.NewDecoder(bodyReader)
-			decoder.DisallowUnknownFields()
-			if err := decoder.Decode(&req); err != nil {
+			if err := parseSyncRequestBody(r, &req); err != nil {
 				writeJSON(w, http.StatusBadRequest, syncResponse{
 					OK:      false,
 					Message: "invalid JSON body",
@@ -1627,7 +1729,9 @@ func main() {
 			if strings.TrimSpace(req.SpreadsheetID) != "" {
 				cfg.SpreadsheetID = strings.TrimSpace(req.SpreadsheetID)
 			}
-			// Serve mode runs in owner-controlled auto-discovery mode.
+			if strings.TrimSpace(req.BranchPrefix) != "" {
+				cfg.BranchPrefix = strings.TrimSpace(req.BranchPrefix)
+			}
 			cfg.SheetNames = nil
 			cfg.CreateBranch = req.CreateBranch
 			cfg.DryRun = req.DryRun
@@ -1640,19 +1744,59 @@ func main() {
 				})
 				return
 			}
-			patchNames := make([]string, 0, len(result.Patches))
-			for _, patch := range result.Patches {
-				patchNames = append(patchNames, patch.Patch)
+			writeJSON(w, http.StatusOK, buildSyncResponseFromResult(result))
+		})
+		mux.HandleFunc("/sync-all", func(w http.ResponseWriter, r *http.Request) {
+			if !withCORS(w, r, allowedOrigins) {
+				writeJSON(w, http.StatusForbidden, syncResponse{
+					OK:      false,
+					Message: "origin is not allowed",
+				})
+				return
+			}
+			if r.Method == http.MethodOptions {
+				w.WriteHeader(http.StatusNoContent)
+				return
+			}
+			if r.Method != http.MethodPost {
+				writeJSON(w, http.StatusMethodNotAllowed, syncResponse{
+					OK:      false,
+					Message: "method not allowed",
+				})
+				return
+			}
+			if !isAuthorized(r, authToken) {
+				writeJSON(w, http.StatusUnauthorized, syncResponse{
+					OK:      false,
+					Message: "unauthorized",
+				})
+				return
+			}
+
+			var req syncAllRequest
+			if err := parseSyncRequestBody(r, &req); err != nil {
+				writeJSON(w, http.StatusBadRequest, syncResponse{
+					OK:      false,
+					Message: "invalid JSON body",
+				})
+				return
+			}
+
+			cfg := defaultCfg
+			cfg.SheetNames = nil
+			cfg.CreateBranch = false
+			cfg.BranchPrefix = ""
+			cfg.DryRun = req.DryRun
+
+			results, allOK := runSyncAll(r.Context(), cfg)
+			message := "sync completed for all games"
+			if !allOK {
+				message = "sync completed with errors"
 			}
 			writeJSON(w, http.StatusOK, syncResponse{
-				OK:         true,
-				Message:    "sync completed",
-				GameID:     result.GameID,
-				Sheets:     result.SheetNames,
-				Patches:    patchNames,
-				Skipped:    result.SkippedPatches,
-				OutputPath: result.OutputPath,
-				Branch:     result.BranchName,
+				OK:      true,
+				Message: message,
+				Results: results,
 			})
 		})
 

@@ -11,11 +11,9 @@ Option A (recommended): use Google Sheets importer.
 1. Start importer service:
    - `cd tools/patchsync`
    - `go run . --serve --auth-token "<your_token>"`
-2. In app UI click `Sync Sheets`.
-3. Select game tab in the UI.
-4. Enter Spreadsheet ID (листы `N.N` подтянутся автоматически).
-5. Confirm branch creation if needed.
-6. Reload the app.
+2. In app UI click `Sync Sheets` once.
+3. The service syncs all configured games using built-in spreadsheet IDs.
+4. Reload the app and verify updated patches.
 
 Option B: manual edit in repository.
 
