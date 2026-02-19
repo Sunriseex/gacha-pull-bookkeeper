@@ -43,9 +43,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 131,
+        "pulls": 132.5,
         "rewards": {
-          "oroberyl": 65515,
+          "oroberyl": 66250,
           "origeometry": 153,
           "chartered": 0,
           "basic": 92,
@@ -72,9 +72,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 31.7,
+        "pulls": 34.5,
         "rewards": {
-          "oroberyl": 10829,
+          "oroberyl": 12229,
           "origeometry": 0,
           "chartered": 10,
           "basic": 20,
@@ -457,5 +457,5 @@ export const GENERATED_PATCHES_META = {
   "sheets": [
     "1.0"
   ],
-  "generatedAt": "2026-02-16T00:05:26Z"
+  "generatedAt": "2026-02-19T13:40:58Z"
 };
