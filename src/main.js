@@ -334,7 +334,11 @@ const bindEvents = () => {
   });
 
   refs.gameTabs.addEventListener("click", (event) => {
-    const target = event.target;
+    const rawTarget = event.target;
+    if (!(rawTarget instanceof Element)) {
+      return;
+    }
+    const target = rawTarget.closest(".game-tab");
     if (!(target instanceof HTMLButtonElement)) {
       return;
     }
