@@ -304,8 +304,31 @@ func parseNumber(raw string) float64 {
 	}
 	cleaned = strings.ReplaceAll(cleaned, "\u00a0", "")
 	cleaned = strings.ReplaceAll(cleaned, " ", "")
-	cleaned = strings.ReplaceAll(cleaned, ",", "")
 	cleaned = strings.TrimSuffix(cleaned, "%")
+
+	lastComma := strings.LastIndex(cleaned, ",")
+	lastDot := strings.LastIndex(cleaned, ".")
+	switch {
+	case lastComma >= 0 && lastDot >= 0:
+		if lastComma > lastDot {
+			cleaned = strings.ReplaceAll(cleaned, ".", "")
+			cleaned = strings.ReplaceAll(cleaned, ",", ".")
+		} else {
+			cleaned = strings.ReplaceAll(cleaned, ",", "")
+		}
+	case lastComma >= 0:
+		if strings.Count(cleaned, ",") > 1 {
+			cleaned = strings.ReplaceAll(cleaned, ",", "")
+		} else {
+			parts := strings.Split(cleaned, ",")
+			if len(parts) == 2 && len(parts[1]) == 3 {
+				cleaned = parts[0] + parts[1]
+			} else {
+				cleaned = strings.ReplaceAll(cleaned, ",", ".")
+			}
+		}
+	}
+
 	if strings.Count(cleaned, ".") > 0 {
 		parts := strings.Split(cleaned, ".")
 		isThousands := len(parts) > 1
@@ -2130,7 +2153,7 @@ func main() {
 				message = "sync completed with errors"
 			}
 			writeJSON(w, http.StatusOK, syncResponse{
-				OK:      true,
+				OK:      allOK,
 				Message: message,
 				Results: results,
 			})
