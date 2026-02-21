@@ -16,24 +16,24 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 33,
         "rewards": {
-          "oroberyl": 3000,
-          "origeometry": 0,
-          "chartered": 12,
+          "arsenal": 0,
           "basic": 0,
+          "chartered": 12,
           "firewalker": 5,
-          "messenger": 5,
           "hues": 5,
-          "arsenal": 0
+          "messenger": 5,
+          "origeometry": 0,
+          "oroberyl": 3000
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
+          "arsenal": 0,
           "basic": 0,
+          "chartered": 0,
           "firewalker": 0,
-          "messenger": 0,
           "hues": 0,
-          "arsenal": 0
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
         },
         "scalers": []
       },
@@ -45,24 +45,24 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 132.5,
         "rewards": {
-          "oroberyl": 66250,
-          "origeometry": 153,
-          "chartered": 0,
+          "arsenal": 0,
           "basic": 92,
+          "chartered": 0,
           "firewalker": 0,
-          "messenger": 0,
           "hues": 0,
-          "arsenal": 0
+          "messenger": 0,
+          "origeometry": 159,
+          "oroberyl": 66250
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
+          "arsenal": 0,
           "basic": 0,
+          "chartered": 0,
           "firewalker": 0,
-          "messenger": 0,
           "hues": 0,
-          "arsenal": 0
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
         },
         "scalers": []
       },
@@ -74,24 +74,24 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 34.5,
         "rewards": {
-          "oroberyl": 12229,
-          "origeometry": 0,
-          "chartered": 10,
+          "arsenal": 0,
           "basic": 20,
+          "chartered": 10,
           "firewalker": 0,
-          "messenger": 0,
           "hues": 0,
-          "arsenal": 0
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 12229
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
+          "arsenal": 0,
           "basic": 0,
+          "chartered": 0,
           "firewalker": 0,
-          "messenger": 0,
           "hues": 0,
-          "arsenal": 0
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
         },
         "scalers": []
       },
@@ -103,24 +103,24 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 19.6,
         "rewards": {
-          "oroberyl": 9800,
-          "origeometry": 0,
-          "chartered": 0,
+          "arsenal": 0,
           "basic": 0,
+          "chartered": 0,
           "firewalker": 0,
-          "messenger": 0,
           "hues": 0,
-          "arsenal": 0
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 9800
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
+          "arsenal": 0,
           "basic": 0,
+          "chartered": 0,
           "firewalker": 0,
-          "messenger": 0,
           "hues": 0,
-          "arsenal": 0
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
         },
         "scalers": []
       },
@@ -132,24 +132,24 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 7,
         "rewards": {
-          "oroberyl": 3500,
-          "origeometry": 0,
-          "chartered": 0,
+          "arsenal": 700,
           "basic": 0,
+          "chartered": 0,
           "firewalker": 0,
-          "messenger": 0,
           "hues": 0,
-          "arsenal": 700
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 3500
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
+          "arsenal": 0,
           "basic": 0,
+          "chartered": 0,
           "firewalker": 0,
-          "messenger": 0,
           "hues": 0,
-          "arsenal": 0
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
         },
         "scalers": []
       },
@@ -161,24 +161,24 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 4.8,
         "rewards": {
-          "oroberyl": 2400,
-          "origeometry": 0,
-          "chartered": 0,
+          "arsenal": 0,
           "basic": 0,
+          "chartered": 0,
           "firewalker": 0,
-          "messenger": 0,
           "hues": 0,
-          "arsenal": 0
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 2400
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
+          "arsenal": 0,
           "basic": 0,
+          "chartered": 0,
           "firewalker": 0,
-          "messenger": 0,
           "hues": 0,
-          "arsenal": 0
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
         },
         "scalers": []
       },
@@ -190,24 +190,24 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 15,
+          "arsenal": 0,
           "basic": 0,
+          "chartered": 15,
           "firewalker": 0,
-          "messenger": 0,
           "hues": 0,
-          "arsenal": 0
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
+          "arsenal": 0,
           "basic": 0,
+          "chartered": 0,
           "firewalker": 0,
-          "messenger": 0,
           "hues": 0,
-          "arsenal": 0
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
         },
         "scalers": []
       },
@@ -218,24 +218,24 @@ export const GENERATED_PATCHES = [
         "optionKey": "includeUrgentRecruit",
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 30,
+          "arsenal": 0,
           "basic": 0,
+          "chartered": 30,
           "firewalker": 0,
-          "messenger": 0,
           "hues": 0,
-          "arsenal": 0
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
+          "arsenal": 0,
           "basic": 0,
+          "chartered": 0,
           "firewalker": 0,
-          "messenger": 0,
           "hues": 0,
-          "arsenal": 0
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
         },
         "scalers": []
       },
@@ -246,24 +246,24 @@ export const GENERATED_PATCHES = [
         "optionKey": "includeHhDossier",
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 20,
+          "arsenal": 0,
           "basic": 0,
+          "chartered": 20,
           "firewalker": 0,
-          "messenger": 0,
           "hues": 0,
-          "arsenal": 0
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
+          "arsenal": 0,
           "basic": 0,
+          "chartered": 0,
           "firewalker": 0,
-          "messenger": 0,
           "hues": 0,
-          "arsenal": 0
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
         },
         "scalers": []
       },
@@ -274,24 +274,24 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 9800,
-          "origeometry": 0,
-          "chartered": 0,
+          "arsenal": 0,
           "basic": 0,
+          "chartered": 0,
           "firewalker": 0,
-          "messenger": 0,
           "hues": 0,
-          "arsenal": 0
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 9800
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
+          "arsenal": 0,
           "basic": 0,
+          "chartered": 0,
           "firewalker": 0,
-          "messenger": 0,
           "hues": 0,
-          "arsenal": 0
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
         },
         "scalers": []
       },
@@ -302,24 +302,24 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": false,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 24,
-          "chartered": 0,
+          "arsenal": 0,
           "basic": 0,
+          "chartered": 0,
           "firewalker": 0,
-          "messenger": 0,
           "hues": 0,
-          "arsenal": 0
+          "messenger": 0,
+          "origeometry": 24,
+          "oroberyl": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
+          "arsenal": 0,
           "basic": 0,
+          "chartered": 0,
           "firewalker": 0,
-          "messenger": 0,
           "hues": 0,
-          "arsenal": 0
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
         },
         "scalers": []
       },
@@ -330,24 +330,24 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": false,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 3,
-          "chartered": 0,
+          "arsenal": 0,
           "basic": 0,
+          "chartered": 0,
           "firewalker": 0,
-          "messenger": 0,
           "hues": 0,
-          "arsenal": 0
+          "messenger": 0,
+          "origeometry": 3,
+          "oroberyl": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
+          "arsenal": 0,
           "basic": 0,
+          "chartered": 0,
           "firewalker": 0,
-          "messenger": 0,
           "hues": 0,
-          "arsenal": 0
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
         },
         "scalers": []
       },
@@ -358,24 +358,24 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": false,
         "rewards": {
-          "oroberyl": 0,
-          "origeometry": 36,
-          "chartered": 0,
+          "arsenal": 2400,
           "basic": 0,
+          "chartered": 0,
           "firewalker": 0,
-          "messenger": 0,
           "hues": 0,
-          "arsenal": 2400
+          "messenger": 0,
+          "origeometry": 36,
+          "oroberyl": 0
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
+          "arsenal": 0,
           "basic": 0,
+          "chartered": 0,
           "firewalker": 0,
-          "messenger": 0,
           "hues": 0,
-          "arsenal": 0
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
         },
         "scalers": []
       },
@@ -387,24 +387,24 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 2.2,
         "rewards": {
-          "oroberyl": 1102,
-          "origeometry": 0,
-          "chartered": 0,
+          "arsenal": 0,
           "basic": 0,
+          "chartered": 0,
           "firewalker": 0,
-          "messenger": 0,
           "hues": 0,
-          "arsenal": 0
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 1102
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
+          "arsenal": 0,
           "basic": 0,
+          "chartered": 0,
           "firewalker": 0,
-          "messenger": 0,
           "hues": 0,
-          "arsenal": 0
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
         },
         "scalers": [],
         "bpCrateModel": {
@@ -421,24 +421,24 @@ export const GENERATED_PATCHES = [
         "optionKey": "includeBpCrates",
         "countInPulls": true,
         "rewards": {
-          "oroberyl": 334,
-          "origeometry": 0,
-          "chartered": 0,
+          "arsenal": 0,
           "basic": 0,
+          "chartered": 0,
           "firewalker": 0,
-          "messenger": 0,
           "hues": 0,
-          "arsenal": 0
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 334
         },
         "costs": {
-          "oroberyl": 0,
-          "origeometry": 0,
-          "chartered": 0,
+          "arsenal": 0,
           "basic": 0,
+          "chartered": 0,
           "firewalker": 0,
-          "messenger": 0,
           "hues": 0,
-          "arsenal": 0
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
         },
         "scalers": [],
         "bpCrateModel": {
@@ -457,5 +457,5 @@ export const GENERATED_PATCHES_META = {
   "sheets": [
     "1.0"
   ],
-  "generatedAt": "2026-02-19T13:40:58Z"
+  "generatedAt": "2026-02-21T19:08:55Z"
 };
