@@ -4,3 +4,27 @@ tools/pathsync/
 AGENTS.md
 agents_frontend.md
 .env
+
+# Go baseline ignores
+/bin/
+/dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.prof
+coverage.out
+go.work
+go.work.sum
+.DS_Store
+.idea/
+.vscode/
+
+# Keep patchsync sources versioned in master
+!tools/patchsync/
+tools/patchsync/patchsync.exe
+tools/patchsync/logs/
+tools/patchsync/tools/
