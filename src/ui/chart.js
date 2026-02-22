@@ -18,30 +18,30 @@ const fitCanvasForDpr = (canvas) => {
 };
 
 const SOURCE_COLORS = {
-  Events: "#9ece2e",
-  "Permanent Content": "#d7d35a",
-  "Mailbox & Web Events": "#79b7ab",
-  "Mailbox/Miscellaneous": "#79b7ab",
-  "Daily Activity": "#cfd4dc",
-  "Recurring Sources": "#6f84cd",
-  "Endgame Modes": "#ffc0cb",
-  "Hollow Zero": "#8dd3ff",
-  "Coral Shop": "#a21caf",
-  "Weapon Pulls": "#62b242",
-  "Version Events": "#9ece2e",
-  "Paid Pioneer Podcast": "#ecb34c",
-  "Lunite Subscription": "#a06ed4",
-  "Weekly Routine": "#8f959f",
-  "Monumental Etching": "#ef6363",
-  "AIC Quota Exchange": "#f8b44c",
-  "Urgent Recruit": "#5ec0ff",
-  "HH Dossier": "#7dd98e",
-  "Monthly Pass": "#a06ed4",
-  "Originium Supply Pass": "#ecb34c",
-  "Protocol Customized Pass": "#cf6f93",
-  "Exchange Crate-o-Surprise [M]": "#f39c6b",
-  "Exchange Crate-o-Surprise [L]": "#e879b8",
-  Base: "#a8b0bc",
+  Events: "#a6e3a1",
+  "Permanent Content": "#f9e2af",
+  "Mailbox & Web Events": "#94e2d5",
+  "Mailbox/Miscellaneous": "#94e2d5",
+  "Daily Activity": "#cdd6f4",
+  "Recurring Sources": "#89b4fa",
+  "Endgame Modes": "#eba0ac",
+  "Hollow Zero": "#74c7ec",
+  "Coral Shop": "#cba6f7",
+  "Weapon Pulls": "#89dceb",
+  "Version Events": "#a6e3a1",
+  "Paid Pioneer Podcast": "#fab387",
+  "Lunite Subscription": "#b4befe",
+  "Weekly Routine": "#bac2de",
+  "Monumental Etching": "#f38ba8",
+  "AIC Quota Exchange": "#f9e2af",
+  "Urgent Recruit": "#89dceb",
+  "HH Dossier": "#a6e3a1",
+  "Monthly Pass": "#b4befe",
+  "Originium Supply Pass": "#fab387",
+  "Protocol Customized Pass": "#f5c2e7",
+  "Exchange Crate-o-Surprise [M]": "#f2cdcd",
+  "Exchange Crate-o-Surprise [L]": "#f5e0dc",
+  Base: "#a6adc8",
 };
 
 const SOURCE_COLOR_ALIASES = {
@@ -73,12 +73,12 @@ const SOURCE_COLOR_ALIASES = {
   "Lunite Subscription": "Monthly Pass",
 };
 const FALLBACK_COLORS = [
-  "#60a5fa",
-  "#f59e0b",
-  "#34d399",
-  "#f472b6",
-  "#a78bfa",
-  "#f87171",
+  "#89b4fa",
+  "#fab387",
+  "#a6e3a1",
+  "#f5c2e7",
+  "#b4befe",
+  "#f38ba8",
 ];
 
 const ANIMATION_DURATION_MS = 520;
@@ -269,11 +269,11 @@ const renderHoverLabel = (ctx, width, hoverInfo) => {
   const boxW = Math.min(width - 16, textW + padX * 2);
   const boxX = 8;
   const boxY = 8;
-  ctx.fillStyle = "rgba(2, 6, 23, 0.9)";
+  ctx.fillStyle = "rgba(17, 17, 27, 0.92)";
   ctx.fillRect(boxX, boxY, boxW, boxH);
-  ctx.strokeStyle = "rgba(34, 211, 238, 0.75)";
+  ctx.strokeStyle = "rgba(203, 166, 247, 0.8)";
   ctx.strokeRect(boxX, boxY, boxW, boxH);
-  ctx.fillStyle = "#e2e8f0";
+  ctx.fillStyle = "#cdd6f4";
   ctx.fillText(text, boxX + padX, boxY + 16);
 };
 
@@ -287,7 +287,7 @@ const renderValueLabels = (ctx, labels, minY) => {
 
   ctx.textAlign = "center";
   ctx.font = `11px ${FONT_STACK}`;
-  ctx.fillStyle = "#e2e8f0";
+  ctx.fillStyle = "#cdd6f4";
 
   for (const label of labels.sort((a, b) => a.x - b.x)) {
     const textWidth = ctx.measureText(label.text).width;
@@ -303,7 +303,7 @@ const renderValueLabels = (ctx, labels, minY) => {
 
     const targetY = Math.max(minY, label.y + laneOffsets[laneIndex]);
     if (targetY < label.barTop - 2) {
-      ctx.strokeStyle = "rgba(148, 163, 184, 0.45)";
+      ctx.strokeStyle = "rgba(147, 153, 178, 0.45)";
       ctx.lineWidth = 1;
       ctx.beginPath();
       ctx.moveTo(label.x, label.barTop - 2);
@@ -335,7 +335,7 @@ const renderPatchChart = (canvas, series, state, progress = 1) => {
   state.series = series;
 
   if (!series.length) {
-    ctx.fillStyle = "#e2e8f0";
+    ctx.fillStyle = "#cdd6f4";
     ctx.font = `16px ${FONT_STACK}`;
     ctx.fillText("Нет данных для графика", 20, 30);
     return;
@@ -369,7 +369,7 @@ const renderPatchChart = (canvas, series, state, progress = 1) => {
   const barWidth = Math.min(120, slotWidth * 0.58);
   const valueLabels = [];
 
-  ctx.strokeStyle = "#334155";
+  ctx.strokeStyle = "#45475a";
   ctx.lineWidth = 1;
   ctx.beginPath();
   ctx.moveTo(pad.left, pad.top);
@@ -377,13 +377,13 @@ const renderPatchChart = (canvas, series, state, progress = 1) => {
   ctx.lineTo(pad.left + chartW, pad.top + chartH);
   ctx.stroke();
 
-  ctx.fillStyle = "#a7b2c2";
+  ctx.fillStyle = "#bac2de";
   ctx.font = `12px ${FONT_STACK}`;
   for (let step = 0; step <= 6; step += 1) {
     const v = (scaleMax / 6) * step;
     const y = pad.top + chartH - (chartH * step) / 6;
     ctx.fillText(formatValue(v), 8, y + 4);
-    ctx.strokeStyle = "rgba(148, 163, 184, 0.2)";
+    ctx.strokeStyle = "rgba(108, 112, 134, 0.35)";
     ctx.beginPath();
     ctx.moveTo(pad.left, y);
     ctx.lineTo(pad.left + chartW, y);
@@ -419,7 +419,7 @@ const renderPatchChart = (canvas, series, state, progress = 1) => {
       ctx.globalAlpha = 1;
 
       if (segmentHovered || (state.hoverSegmentKey === null && labelHovered)) {
-        ctx.strokeStyle = "#f8fafc";
+        ctx.strokeStyle = "#f5e0dc";
         ctx.lineWidth = 1.5;
         ctx.strokeRect(barX, cursorY, barWidth, segH);
       }
@@ -442,7 +442,7 @@ const renderPatchChart = (canvas, series, state, progress = 1) => {
       text: formatValue(item.total),
     });
 
-    ctx.fillStyle = "#e2e8f0";
+    ctx.fillStyle = "#cdd6f4";
     ctx.textAlign = "center";
     ctx.font = `10px ${FONT_STACK}`;
     const xLabelY = pad.top + chartH + 20 + (patchIdx % 2) * 11;
@@ -468,7 +468,7 @@ const renderPatchChart = (canvas, series, state, progress = 1) => {
     const isHovered = state.hoverSourceLabel === label;
     ctx.fillStyle = sourceColor(label);
     ctx.fillRect(legendX, y, 12, 12);
-    ctx.fillStyle = isHovered ? "#f8fafc" : "#d1dae6";
+    ctx.fillStyle = isHovered ? "#f5e0dc" : "#bac2de";
     ctx.fillText(label, legendX + 20, y + 11);
     state.legendRegions.push({
       label,
