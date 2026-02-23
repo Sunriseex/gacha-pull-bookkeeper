@@ -16,18 +16,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "stellarJade": 2520,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2520,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -39,18 +39,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 4.9,
         "rewards": {
-          "stellarJade": 780,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6,
           "specialPass": 0,
-          "railPass": 6
+          "stellarJade": 780,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -62,18 +62,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 11.3,
         "rewards": {
-          "stellarJade": 1800,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 1800,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -85,18 +85,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6.9,
           "specialPass": 6.9,
-          "railPass": 6.9
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -108,18 +108,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 13.4,
         "rewards": {
-          "stellarJade": 540,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 10,
-          "railPass": 0
+          "stellarJade": 540,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -131,41 +131,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 144.3,
         "rewards": {
-          "stellarJade": 23125,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 155,
           "specialPass": 0,
-          "railPass": 155
+          "stellarJade": 23125,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox & Web Events",
+        "label": "Mailbox \u0026 Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 17.3,
         "rewards": {
-          "stellarJade": 1163,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 20,
           "specialPass": 10,
-          "railPass": 20
+          "stellarJade": 1163,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -177,18 +177,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "stellarJade": 680,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 4,
-          "railPass": 0
+          "stellarJade": 680,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -200,18 +200,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "stellarJade": 4200,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 4200,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       }
@@ -233,18 +233,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "stellarJade": 2520,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2520,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -256,18 +256,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 7.1,
         "rewards": {
-          "stellarJade": 1140,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6,
           "specialPass": 0,
-          "railPass": 6
+          "stellarJade": 1140,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -279,18 +279,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 11.3,
         "rewards": {
-          "stellarJade": 1800,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 1800,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -302,18 +302,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6.9,
           "specialPass": 6.9,
-          "railPass": 6.9
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -325,18 +325,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 25.8,
         "rewards": {
-          "stellarJade": 2520,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 10,
-          "railPass": 0
+          "stellarJade": 2520,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -348,41 +348,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 17.6,
         "rewards": {
-          "stellarJade": 2832,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 17,
           "specialPass": 0,
-          "railPass": 17
+          "stellarJade": 2832,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox & Web Events",
+        "label": "Mailbox \u0026 Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 9,
         "rewards": {
-          "stellarJade": 1443,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 1443,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -394,18 +394,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "stellarJade": 680,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 4,
-          "railPass": 0
+          "stellarJade": 680,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -417,18 +417,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "stellarJade": 4200,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 4200,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       }
@@ -450,18 +450,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "stellarJade": 2520,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2520,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -473,18 +473,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.4,
         "rewards": {
-          "stellarJade": 1350,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6,
           "specialPass": 0,
-          "railPass": 6
+          "stellarJade": 1350,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -496,18 +496,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 11.3,
         "rewards": {
-          "stellarJade": 1800,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 1800,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -519,18 +519,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6.9,
           "specialPass": 6.9,
-          "railPass": 6.9
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -542,18 +542,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 22.2,
         "rewards": {
-          "stellarJade": 1950,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 10,
-          "railPass": 0
+          "stellarJade": 1950,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -565,41 +565,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 20.2,
         "rewards": {
-          "stellarJade": 3245,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 9,
           "specialPass": 0,
-          "railPass": 9
+          "stellarJade": 3245,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox & Web Events",
+        "label": "Mailbox \u0026 Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 9,
         "rewards": {
-          "stellarJade": 1443,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 1443,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -611,18 +611,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "stellarJade": 680,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 4,
-          "railPass": 0
+          "stellarJade": 680,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -634,18 +634,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "stellarJade": 4200,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 4200,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       }
@@ -667,18 +667,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "stellarJade": 2520,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2520,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -690,18 +690,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.4,
         "rewards": {
-          "stellarJade": 1350,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6,
           "specialPass": 0,
-          "railPass": 6
+          "stellarJade": 1350,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -713,18 +713,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 11.3,
         "rewards": {
-          "stellarJade": 1800,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 1800,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -736,18 +736,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6.9,
           "specialPass": 6.9,
-          "railPass": 6.9
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -759,18 +759,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 20.9,
         "rewards": {
-          "stellarJade": 1740,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 10,
-          "railPass": 0
+          "stellarJade": 1740,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -782,41 +782,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 40.4,
         "rewards": {
-          "stellarJade": 6472,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 14,
           "specialPass": 0,
-          "railPass": 14
+          "stellarJade": 6472,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox & Web Events",
+        "label": "Mailbox \u0026 Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 12.4,
         "rewards": {
-          "stellarJade": 1983,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 1983,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -828,18 +828,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "stellarJade": 680,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 4,
-          "railPass": 0
+          "stellarJade": 680,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -851,18 +851,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "stellarJade": 4200,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 4200,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       }
@@ -884,18 +884,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 13.1,
         "rewards": {
-          "stellarJade": 2100,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2100,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -907,18 +907,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 7,
         "rewards": {
-          "stellarJade": 1125,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 5,
           "specialPass": 0,
-          "railPass": 5
+          "stellarJade": 1125,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -930,18 +930,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 9.4,
         "rewards": {
-          "stellarJade": 1500,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 1500,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -953,18 +953,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 5.7,
         "rewards": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 5.7,
           "specialPass": 5.7,
-          "railPass": 5.7
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -976,18 +976,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 21,
         "rewards": {
-          "stellarJade": 1760,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 10,
-          "railPass": 0
+          "stellarJade": 1760,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -999,41 +999,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 12.8,
         "rewards": {
-          "stellarJade": 2028,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 10,
           "specialPass": 0,
-          "railPass": 10
+          "stellarJade": 2028,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox & Web Events",
+        "label": "Mailbox \u0026 Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 8.2,
         "rewards": {
-          "stellarJade": 1319,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 1319,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -1045,18 +1045,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "stellarJade": 680,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 4,
-          "railPass": 0
+          "stellarJade": 680,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -1068,18 +1068,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 21.9,
         "rewards": {
-          "stellarJade": 3500,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 3500,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       }
@@ -1101,18 +1101,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "stellarJade": 2520,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2520,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -1124,18 +1124,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.4,
         "rewards": {
-          "stellarJade": 1350,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6,
           "specialPass": 0,
-          "railPass": 6
+          "stellarJade": 1350,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -1147,18 +1147,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 11.3,
         "rewards": {
-          "stellarJade": 1800,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 1800,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -1170,18 +1170,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6.9,
           "specialPass": 6.9,
-          "railPass": 6.9
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -1193,18 +1193,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 24.1,
         "rewards": {
-          "stellarJade": 2260,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 10,
-          "railPass": 0
+          "stellarJade": 2260,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -1216,41 +1216,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15,
         "rewards": {
-          "stellarJade": 2404,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 12,
           "specialPass": 0,
-          "railPass": 12
+          "stellarJade": 2404,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox & Web Events",
+        "label": "Mailbox \u0026 Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 24.8,
         "rewards": {
-          "stellarJade": 3973,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 3973,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -1262,18 +1262,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "stellarJade": 680,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 4,
-          "railPass": 0
+          "stellarJade": 680,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -1285,18 +1285,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "stellarJade": 4200,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 4200,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       }
@@ -1318,18 +1318,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "stellarJade": 2520,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2520,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -1341,18 +1341,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.4,
         "rewards": {
-          "stellarJade": 1350,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6,
           "specialPass": 0,
-          "railPass": 6
+          "stellarJade": 1350,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -1364,18 +1364,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 13.5,
         "rewards": {
-          "stellarJade": 2160,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2160,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -1387,18 +1387,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6.9,
           "specialPass": 6.9,
-          "railPass": 6.9
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -1410,18 +1410,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 16.8,
         "rewards": {
-          "stellarJade": 1080,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 10,
-          "railPass": 0
+          "stellarJade": 1080,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -1433,41 +1433,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 31.6,
         "rewards": {
-          "stellarJade": 5062,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 13,
           "specialPass": 0,
-          "railPass": 13
+          "stellarJade": 5062,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox & Web Events",
+        "label": "Mailbox \u0026 Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 10.7,
         "rewards": {
-          "stellarJade": 1713,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 1713,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -1479,18 +1479,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "stellarJade": 680,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 4,
-          "railPass": 0
+          "stellarJade": 680,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -1502,18 +1502,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "stellarJade": 4200,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 4200,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       }
@@ -1535,18 +1535,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 18.4,
         "rewards": {
-          "stellarJade": 2940,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2940,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -1558,18 +1558,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 9.8,
         "rewards": {
-          "stellarJade": 1575,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 7,
           "specialPass": 0,
-          "railPass": 7
+          "stellarJade": 1575,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -1581,18 +1581,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 13.5,
         "rewards": {
-          "stellarJade": 2160,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2160,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -1604,18 +1604,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8,
         "rewards": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 8,
           "specialPass": 8,
-          "railPass": 8
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -1627,18 +1627,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 34.9,
         "rewards": {
-          "stellarJade": 2380,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 20,
-          "railPass": 0
+          "stellarJade": 2380,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -1650,41 +1650,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.8,
         "rewards": {
-          "stellarJade": 4921,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 11,
           "specialPass": 0,
-          "railPass": 11
+          "stellarJade": 4921,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox & Web Events",
+        "label": "Mailbox \u0026 Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 9.3,
         "rewards": {
-          "stellarJade": 1487,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 1487,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -1696,18 +1696,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "stellarJade": 680,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 4,
-          "railPass": 0
+          "stellarJade": 680,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -1719,18 +1719,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.6,
         "rewards": {
-          "stellarJade": 4900,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 4900,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       }
@@ -1752,18 +1752,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "stellarJade": 2520,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2520,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -1775,18 +1775,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.4,
         "rewards": {
-          "stellarJade": 1350,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6,
           "specialPass": 0,
-          "railPass": 6
+          "stellarJade": 1350,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -1798,18 +1798,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 13.5,
         "rewards": {
-          "stellarJade": 2160,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2160,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -1821,18 +1821,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6.9,
           "specialPass": 6.9,
-          "railPass": 6.9
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -1844,18 +1844,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 36.1,
         "rewards": {
-          "stellarJade": 2580,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 20,
-          "railPass": 0
+          "stellarJade": 2580,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -1867,41 +1867,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 23.3,
         "rewards": {
-          "stellarJade": 3724,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 10,
           "specialPass": 0,
-          "railPass": 10
+          "stellarJade": 3724,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox & Web Events",
+        "label": "Mailbox \u0026 Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 20.2,
         "rewards": {
-          "stellarJade": 3233,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 3233,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -1913,18 +1913,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "stellarJade": 680,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 4,
-          "railPass": 0
+          "stellarJade": 680,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -1936,18 +1936,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "stellarJade": 4200,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 4200,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       }
@@ -1969,18 +1969,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "stellarJade": 2520,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2520,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -1992,18 +1992,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.4,
         "rewards": {
-          "stellarJade": 1350,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6,
           "specialPass": 0,
-          "railPass": 6
+          "stellarJade": 1350,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -2015,18 +2015,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 13.5,
         "rewards": {
-          "stellarJade": 2160,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2160,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -2038,18 +2038,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6.9,
           "specialPass": 6.9,
-          "railPass": 6.9
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -2061,18 +2061,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26,
         "rewards": {
-          "stellarJade": 2560,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 10,
-          "railPass": 0
+          "stellarJade": 2560,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -2084,41 +2084,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.9,
         "rewards": {
-          "stellarJade": 4152,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 7,
           "specialPass": 1,
-          "railPass": 7
+          "stellarJade": 4152,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox & Web Events",
+        "label": "Mailbox \u0026 Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 8.9,
         "rewards": {
-          "stellarJade": 1423,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 1423,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -2130,18 +2130,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "stellarJade": 680,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 4,
-          "railPass": 0
+          "stellarJade": 680,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -2153,18 +2153,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "stellarJade": 4200,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 4200,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       }
@@ -2186,18 +2186,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "stellarJade": 2520,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2520,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -2209,18 +2209,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.4,
         "rewards": {
-          "stellarJade": 1350,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6,
           "specialPass": 0,
-          "railPass": 6
+          "stellarJade": 1350,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -2232,18 +2232,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15,
         "rewards": {
-          "stellarJade": 2400,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2400,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -2255,18 +2255,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6.9,
           "specialPass": 6.9,
-          "railPass": 6.9
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -2278,18 +2278,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 40.5,
         "rewards": {
-          "stellarJade": 4880,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 2,
           "specialPass": 10,
-          "railPass": 2
+          "stellarJade": 4880,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -2301,41 +2301,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 7.6,
         "rewards": {
-          "stellarJade": 1225,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6,
           "specialPass": 0,
-          "railPass": 6
+          "stellarJade": 1225,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox & Web Events",
+        "label": "Mailbox \u0026 Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 8.9,
         "rewards": {
-          "stellarJade": 1423,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 1423,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -2347,18 +2347,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "stellarJade": 680,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 4,
-          "railPass": 0
+          "stellarJade": 680,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -2370,18 +2370,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "stellarJade": 4200,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 4200,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       }
@@ -2403,18 +2403,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.4,
         "rewards": {
-          "stellarJade": 2460,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2460,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -2426,18 +2426,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.2,
         "rewards": {
-          "stellarJade": 1318,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 5.9,
           "specialPass": 0,
-          "railPass": 5.9
+          "stellarJade": 1318,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -2449,18 +2449,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 14.6,
         "rewards": {
-          "stellarJade": 2343,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2343,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -2472,18 +2472,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.7,
         "rewards": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6.7,
           "specialPass": 6.7,
-          "railPass": 6.7
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -2495,18 +2495,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 24.3,
         "rewards": {
-          "stellarJade": 2280,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 10,
-          "railPass": 0
+          "stellarJade": 2280,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -2518,41 +2518,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 11,
         "rewards": {
-          "stellarJade": 1748,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6,
           "specialPass": 0,
-          "railPass": 6
+          "stellarJade": 1748,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox & Web Events",
+        "label": "Mailbox \u0026 Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 7.3,
         "rewards": {
-          "stellarJade": 1171,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 1171,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -2564,18 +2564,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "stellarJade": 680,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 4,
-          "railPass": 0
+          "stellarJade": 680,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -2587,18 +2587,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 25.6,
         "rewards": {
-          "stellarJade": 4100,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 4100,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       }
@@ -2620,18 +2620,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 16.1,
         "rewards": {
-          "stellarJade": 2580,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2580,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -2643,18 +2643,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.6,
         "rewards": {
-          "stellarJade": 1382,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6.1,
           "specialPass": 0,
-          "railPass": 6.1
+          "stellarJade": 1382,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -2666,18 +2666,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.4,
         "rewards": {
-          "stellarJade": 2457,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2457,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -2689,18 +2689,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 7.1,
         "rewards": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 7.1,
           "specialPass": 7.1,
-          "railPass": 7.1
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -2712,18 +2712,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.8,
         "rewards": {
-          "stellarJade": 3320,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 10,
-          "railPass": 0
+          "stellarJade": 3320,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -2735,41 +2735,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 12.8,
         "rewards": {
-          "stellarJade": 2064,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 9,
           "specialPass": 0,
-          "railPass": 9
+          "stellarJade": 2064,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox & Web Events",
+        "label": "Mailbox \u0026 Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 7.2,
         "rewards": {
-          "stellarJade": 1145,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 1145,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -2781,18 +2781,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "stellarJade": 680,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 4,
-          "railPass": 0
+          "stellarJade": 680,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -2804,18 +2804,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.9,
         "rewards": {
-          "stellarJade": 4300,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 4300,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       }
@@ -2837,18 +2837,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "stellarJade": 2520,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2520,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -2860,18 +2860,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.4,
         "rewards": {
-          "stellarJade": 1350,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6,
           "specialPass": 0,
-          "railPass": 6
+          "stellarJade": 1350,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -2883,18 +2883,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15,
         "rewards": {
-          "stellarJade": 2400,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2400,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -2906,18 +2906,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6.9,
           "specialPass": 6.9,
-          "railPass": 6.9
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -2929,18 +2929,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 24.3,
         "rewards": {
-          "stellarJade": 2280,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 10,
-          "railPass": 0
+          "stellarJade": 2280,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -2952,41 +2952,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.3,
         "rewards": {
-          "stellarJade": 4871,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 7,
           "specialPass": 0,
-          "railPass": 7
+          "stellarJade": 4871,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox & Web Events",
+        "label": "Mailbox \u0026 Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 7,
         "rewards": {
-          "stellarJade": 1113,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 1113,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -2998,18 +2998,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "stellarJade": 680,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 4,
-          "railPass": 0
+          "stellarJade": 680,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -3021,18 +3021,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "stellarJade": 4200,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 4200,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       }
@@ -3054,18 +3054,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "stellarJade": 2520,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2520,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -3077,18 +3077,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.4,
         "rewards": {
-          "stellarJade": 1350,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6,
           "specialPass": 0,
-          "railPass": 6
+          "stellarJade": 1350,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -3100,18 +3100,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15,
         "rewards": {
-          "stellarJade": 2400,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2400,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -3123,18 +3123,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6.9,
           "specialPass": 6.9,
-          "railPass": 6.9
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -3146,18 +3146,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 24.3,
         "rewards": {
-          "stellarJade": 2280,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 10,
-          "railPass": 0
+          "stellarJade": 2280,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -3169,41 +3169,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 5.5,
         "rewards": {
-          "stellarJade": 888,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6,
           "specialPass": 0,
-          "railPass": 6
+          "stellarJade": 888,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox & Web Events",
+        "label": "Mailbox \u0026 Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 15.3,
         "rewards": {
-          "stellarJade": 2443,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2443,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -3215,18 +3215,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "stellarJade": 680,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 4,
-          "railPass": 0
+          "stellarJade": 680,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -3238,18 +3238,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "stellarJade": 4200,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 4200,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       }
@@ -3271,18 +3271,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "stellarJade": 2520,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2520,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -3294,18 +3294,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.4,
         "rewards": {
-          "stellarJade": 1350,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6,
           "specialPass": 0,
-          "railPass": 6
+          "stellarJade": 1350,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -3317,18 +3317,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15,
         "rewards": {
-          "stellarJade": 2400,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2400,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -3340,18 +3340,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6.9,
           "specialPass": 6.9,
-          "railPass": 6.9
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -3363,18 +3363,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 37.3,
         "rewards": {
-          "stellarJade": 2760,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 20,
-          "railPass": 0
+          "stellarJade": 2760,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -3386,41 +3386,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 29.8,
         "rewards": {
-          "stellarJade": 4771,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6,
           "specialPass": 0,
-          "railPass": 6
+          "stellarJade": 4771,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox & Web Events",
+        "label": "Mailbox \u0026 Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 7.5,
         "rewards": {
-          "stellarJade": 1203,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 1203,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -3432,18 +3432,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "stellarJade": 680,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 4,
-          "railPass": 0
+          "stellarJade": 680,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -3455,18 +3455,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "stellarJade": 4200,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 4200,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       }
@@ -3488,18 +3488,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "stellarJade": 2520,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2520,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -3511,18 +3511,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.4,
         "rewards": {
-          "stellarJade": 1350,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6,
           "specialPass": 0,
-          "railPass": 6
+          "stellarJade": 1350,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -3534,18 +3534,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15,
         "rewards": {
-          "stellarJade": 2400,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2400,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -3557,18 +3557,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6.9,
           "specialPass": 6.9,
-          "railPass": 6.9
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -3580,18 +3580,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 41.7,
         "rewards": {
-          "stellarJade": 5070,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 2,
           "specialPass": 10,
-          "railPass": 2
+          "stellarJade": 5070,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -3603,41 +3603,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 16.5,
         "rewards": {
-          "stellarJade": 2644,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 7,
           "specialPass": 0,
-          "railPass": 7
+          "stellarJade": 2644,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox & Web Events",
+        "label": "Mailbox \u0026 Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 7,
         "rewards": {
-          "stellarJade": 1113,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 1113,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -3649,18 +3649,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "stellarJade": 680,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 4,
-          "railPass": 0
+          "stellarJade": 680,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -3672,18 +3672,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "stellarJade": 4200,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 4200,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       }
@@ -3705,18 +3705,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "stellarJade": 2520,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2520,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -3728,18 +3728,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.4,
         "rewards": {
-          "stellarJade": 1350,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6,
           "specialPass": 0,
-          "railPass": 6
+          "stellarJade": 1350,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -3751,18 +3751,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15,
         "rewards": {
-          "stellarJade": 2400,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2400,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -3774,18 +3774,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6.9,
           "specialPass": 6.9,
-          "railPass": 6.9
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -3797,18 +3797,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 47.6,
         "rewards": {
-          "stellarJade": 4420,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 1,
           "specialPass": 20,
-          "railPass": 1
+          "stellarJade": 4420,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -3820,41 +3820,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 20.7,
         "rewards": {
-          "stellarJade": 3308,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 7,
           "specialPass": 0,
-          "railPass": 7
+          "stellarJade": 3308,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox & Web Events",
+        "label": "Mailbox \u0026 Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 9,
         "rewards": {
-          "stellarJade": 1443,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 1443,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -3866,18 +3866,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "stellarJade": 680,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 4,
-          "railPass": 0
+          "stellarJade": 680,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -3889,18 +3889,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "stellarJade": 4200,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 4200,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       }
@@ -3922,18 +3922,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "stellarJade": 2520,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2520,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -3945,18 +3945,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.4,
         "rewards": {
-          "stellarJade": 1350,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6,
           "specialPass": 0,
-          "railPass": 6
+          "stellarJade": 1350,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -3968,18 +3968,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15,
         "rewards": {
-          "stellarJade": 2400,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2400,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -3991,18 +3991,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6.9,
           "specialPass": 6.9,
-          "railPass": 6.9
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -4014,18 +4014,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 24,
         "rewards": {
-          "stellarJade": 2240,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 10,
-          "railPass": 0
+          "stellarJade": 2240,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -4037,41 +4037,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26,
         "rewards": {
-          "stellarJade": 4166,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 7,
           "specialPass": 0,
-          "railPass": 7
+          "stellarJade": 4166,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox & Web Events",
+        "label": "Mailbox \u0026 Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 8.5,
         "rewards": {
-          "stellarJade": 1353,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 1353,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -4083,18 +4083,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "stellarJade": 680,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 4,
-          "railPass": 0
+          "stellarJade": 680,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -4106,18 +4106,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "stellarJade": 4200,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 4200,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       }
@@ -4139,18 +4139,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "stellarJade": 2520,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2520,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -4162,18 +4162,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.4,
         "rewards": {
-          "stellarJade": 1350,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6,
           "specialPass": 0,
-          "railPass": 6
+          "stellarJade": 1350,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -4185,18 +4185,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15,
         "rewards": {
-          "stellarJade": 2400,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2400,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -4208,18 +4208,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6.9,
           "specialPass": 6.9,
-          "railPass": 6.9
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -4231,18 +4231,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 24.1,
         "rewards": {
-          "stellarJade": 2260,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 10,
-          "railPass": 0
+          "stellarJade": 2260,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -4254,41 +4254,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 14.8,
         "rewards": {
-          "stellarJade": 2355,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 10,
           "specialPass": 0,
-          "railPass": 10
+          "stellarJade": 2355,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox & Web Events",
+        "label": "Mailbox \u0026 Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 7.1,
         "rewards": {
-          "stellarJade": 1143,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 1143,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -4300,18 +4300,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "stellarJade": 680,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 4,
-          "railPass": 0
+          "stellarJade": 680,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -4323,18 +4323,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "stellarJade": 4200,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 4200,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       }
@@ -4356,18 +4356,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "stellarJade": 2520,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2520,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -4379,18 +4379,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.4,
         "rewards": {
-          "stellarJade": 1350,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6,
           "specialPass": 0,
-          "railPass": 6
+          "stellarJade": 1350,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -4402,18 +4402,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15,
         "rewards": {
-          "stellarJade": 2400,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2400,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -4425,18 +4425,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6.9,
           "specialPass": 6.9,
-          "railPass": 6.9
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -4448,18 +4448,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 24.3,
         "rewards": {
-          "stellarJade": 2280,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 10,
-          "railPass": 0
+          "stellarJade": 2280,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -4471,41 +4471,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 14.8,
         "rewards": {
-          "stellarJade": 2380,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 7,
           "specialPass": 0,
-          "railPass": 7
+          "stellarJade": 2380,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox & Web Events",
+        "label": "Mailbox \u0026 Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 7,
         "rewards": {
-          "stellarJade": 1113,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 1113,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -4517,18 +4517,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "stellarJade": 680,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 4,
-          "railPass": 0
+          "stellarJade": 680,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -4540,18 +4540,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "stellarJade": 4200,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 4200,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       }
@@ -4573,18 +4573,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "stellarJade": 2520,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2520,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -4596,18 +4596,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.4,
         "rewards": {
-          "stellarJade": 1350,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6,
           "specialPass": 0,
-          "railPass": 6
+          "stellarJade": 1350,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -4619,18 +4619,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15,
         "rewards": {
-          "stellarJade": 2400,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2400,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -4642,18 +4642,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6.9,
           "specialPass": 6.9,
-          "railPass": 6.9
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -4665,18 +4665,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.1,
         "rewards": {
-          "stellarJade": 2580,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 10,
-          "railPass": 0
+          "stellarJade": 2580,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -4688,41 +4688,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 14.8,
         "rewards": {
-          "stellarJade": 2379,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 7,
           "specialPass": 0,
-          "railPass": 7
+          "stellarJade": 2379,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox & Web Events",
+        "label": "Mailbox \u0026 Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 7,
         "rewards": {
-          "stellarJade": 1113,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 1113,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -4734,18 +4734,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "stellarJade": 680,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 4,
-          "railPass": 0
+          "stellarJade": 680,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -4757,18 +4757,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "stellarJade": 4200,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 4200,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       }
@@ -4790,18 +4790,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "stellarJade": 2520,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2520,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -4813,18 +4813,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.4,
         "rewards": {
-          "stellarJade": 1350,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6,
           "specialPass": 0,
-          "railPass": 6
+          "stellarJade": 1350,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -4836,18 +4836,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15,
         "rewards": {
-          "stellarJade": 2400,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2400,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -4859,18 +4859,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6.9,
           "specialPass": 6.9,
-          "railPass": 6.9
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -4882,18 +4882,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 17.1,
         "rewards": {
-          "stellarJade": 1140,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 10,
-          "railPass": 0
+          "stellarJade": 1140,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -4905,41 +4905,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 39.2,
         "rewards": {
-          "stellarJade": 6262,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 3,
           "specialPass": 0,
-          "railPass": 3
+          "stellarJade": 6262,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox & Web Events",
+        "label": "Mailbox \u0026 Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 23.2,
         "rewards": {
-          "stellarJade": 2113,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 10,
-          "railPass": 0
+          "stellarJade": 2113,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -4951,18 +4951,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "stellarJade": 680,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 4,
-          "railPass": 0
+          "stellarJade": 680,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -4974,18 +4974,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "stellarJade": 4200,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 4200,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       }
@@ -5007,18 +5007,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 21.8,
         "rewards": {
-          "stellarJade": 3480,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 3480,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -5030,18 +5030,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 11.7,
         "rewards": {
-          "stellarJade": 1864,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 8.3,
           "specialPass": 0,
-          "railPass": 8.3
+          "stellarJade": 1864,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -5053,18 +5053,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 20.7,
         "rewards": {
-          "stellarJade": 3314,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 3314,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -5076,18 +5076,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 9.5,
         "rewards": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 9.5,
           "specialPass": 9.5,
-          "railPass": 9.5
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -5099,18 +5099,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 24.9,
         "rewards": {
-          "stellarJade": 2390,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 10,
-          "railPass": 0
+          "stellarJade": 2390,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -5122,41 +5122,41 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 9.3,
         "rewards": {
-          "stellarJade": 1486,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 3,
           "specialPass": 0,
-          "railPass": 3
+          "stellarJade": 1486,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox & Web Events",
+        "label": "Mailbox \u0026 Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 7.5,
         "rewards": {
-          "stellarJade": 1204,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 1204,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -5168,18 +5168,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "stellarJade": 680,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 4,
-          "railPass": 0
+          "stellarJade": 680,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -5191,18 +5191,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 36.3,
         "rewards": {
-          "stellarJade": 5800,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 5800,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       }
@@ -5224,18 +5224,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15.8,
         "rewards": {
-          "stellarJade": 2520,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2520,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -5247,18 +5247,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.4,
         "rewards": {
-          "stellarJade": 1350,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6,
           "specialPass": 0,
-          "railPass": 6
+          "stellarJade": 1350,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -5270,18 +5270,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 15,
         "rewards": {
-          "stellarJade": 2400,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 2400,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -5293,18 +5293,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 6.9,
         "rewards": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6.9,
           "specialPass": 6.9,
-          "railPass": 6.9
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -5316,18 +5316,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 41.6,
         "rewards": {
-          "stellarJade": 3460,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 20,
-          "railPass": 0
+          "stellarJade": 3460,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -5337,43 +5337,43 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 26,
+        "pulls": 26.3,
         "rewards": {
-          "stellarJade": 4146,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 6,
           "specialPass": 0,
-          "railPass": 6
+          "stellarJade": 4206,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
       {
         "id": "mailbox",
-        "label": "Mailbox & Web Events",
+        "label": "Mailbox \u0026 Web Events",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "pulls": 7.1,
         "rewards": {
-          "stellarJade": 1143,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 1143,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -5385,18 +5385,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8.3,
         "rewards": {
-          "stellarJade": 680,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 4,
-          "railPass": 0
+          "stellarJade": 680,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       },
@@ -5408,18 +5408,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.3,
         "rewards": {
-          "stellarJade": 4200,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 4200,
+          "tracksOfDestiny": 0
         },
         "costs": {
-          "stellarJade": 0,
           "oneiricShard": 0,
-          "tracksOfDestiny": 0,
+          "railPass": 0,
           "specialPass": 0,
-          "railPass": 0
+          "stellarJade": 0,
+          "tracksOfDestiny": 0
         },
         "scalers": []
       }
@@ -5430,6 +5430,7 @@ export const GENERATED_PATCHES_META = {
   "gameId": "honkai-star-rail",
   "spreadsheetId": "2PACX-1vRIWjzFwAZZoBvKw2oiNaVpppI9atoV0wxuOjulKRJECrg_BN404d7LoKlHp8RMX8hegDr4b8jlHjYy",
   "sheets": [
+    "4.0",
     "1.0",
     "1.1",
     "1.2",
@@ -5453,8 +5454,7 @@ export const GENERATED_PATCHES_META = {
     "3.5",
     "3.6",
     "3.7",
-    "3.8",
-    "4.0"
+    "3.8"
   ],
-  "generatedAt": "2026-02-16T17:58:20Z"
+  "generatedAt": "2026-02-23T09:21:38Z"
 };

@@ -3360,13 +3360,13 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 58,
+        "pulls": 61.9,
         "rewards": {
           "boopon": 20,
           "encryptedMasterTape": 10,
           "masterTape": 0,
           "monochrome": 0,
-          "polychrome": 7687
+          "polychrome": 8303
         },
         "costs": {
           "boopon": 0,
@@ -3520,7 +3520,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 23.7,
+        "pulls": 23.6,
         "rewards": {
           "boopon": 8,
           "encryptedMasterTape": 0,
@@ -3590,6 +3590,7 @@ export const GENERATED_PATCHES_META = {
   "gameId": "zenless-zone-zero",
   "spreadsheetId": "2PACX-1vTiSx8OSyx-BZktnpT-fh_pQHjjkD8q3sp3Csy2aOI-8CV_QroqxzhhNjiCZNV4IdzhyK3xbipZn9WD",
   "sheets": [
+    "2.6",
     "1.0",
     "1.1",
     "1.2",
@@ -3603,8 +3604,7 @@ export const GENERATED_PATCHES_META = {
     "2.2",
     "2.3",
     "2.4",
-    "2.5",
-    "2.6"
+    "2.5"
   ],
-  "generatedAt": "2026-02-19T21:48:03Z"
+  "generatedAt": "2026-02-23T09:19:55Z"
 };
