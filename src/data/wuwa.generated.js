@@ -17,19 +17,19 @@ export const GENERATED_PATCHES = [
         "pulls": 25.6,
         "rewards": {
           "astrite": 3455,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 4,
+          "lunite": 0,
           "lustrousTide": 24,
-          "forgingTide": 0
+          "radiantTide": 4
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -42,19 +42,19 @@ export const GENERATED_PATCHES = [
         "pulls": 151,
         "rewards": {
           "astrite": 21765,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 15,
+          "lunite": 0,
           "lustrousTide": 58,
-          "forgingTide": 0
+          "radiantTide": 15
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -67,19 +67,19 @@ export const GENERATED_PATCHES = [
         "pulls": 35.8,
         "rewards": {
           "astrite": 920,
-          "lunite": 0,
+          "forgingTide": 5,
           "forgingToken": 0,
-          "radiantTide": 30,
+          "lunite": 0,
           "lustrousTide": 40,
-          "forgingTide": 5
+          "radiantTide": 30
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -92,19 +92,19 @@ export const GENERATED_PATCHES = [
         "pulls": 13.5,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -117,19 +117,19 @@ export const GENERATED_PATCHES = [
         "pulls": 11.2,
         "rewards": {
           "astrite": 3960,
-          "lunite": 0,
+          "forgingTide": 6,
           "forgingToken": 0,
-          "radiantTide": 6,
+          "lunite": 0,
           "lustrousTide": 11,
-          "forgingTide": 6
+          "radiantTide": 6
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -142,19 +142,19 @@ export const GENERATED_PATCHES = [
         "pulls": 6,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -167,19 +167,19 @@ export const GENERATED_PATCHES = [
         "pulls": 11,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -192,19 +192,19 @@ export const GENERATED_PATCHES = [
         "pulls": 9.3,
         "rewards": {
           "astrite": 680,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 5,
+          "lunite": 0,
           "lustrousTide": 2,
-          "forgingTide": 0
+          "radiantTide": 5
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -217,19 +217,19 @@ export const GENERATED_PATCHES = [
         "pulls": 20.3,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": [
           {
@@ -239,11 +239,11 @@ export const GENERATED_PATCHES = [
             "rounding": "floor",
             "rewards": {
               "astrite": 90,
-              "lunite": 0,
+              "forgingTide": 0,
               "forgingToken": 0,
-              "radiantTide": 0,
+              "lunite": 0,
               "lustrousTide": 0,
-              "forgingTide": 0
+              "radiantTide": 0
             }
           }
         ]
@@ -267,19 +267,19 @@ export const GENERATED_PATCHES = [
         "pulls": 32.1,
         "rewards": {
           "astrite": 2740,
-          "lunite": 0,
+          "forgingTide": 10,
           "forgingToken": 0,
-          "radiantTide": 15,
+          "lunite": 0,
           "lustrousTide": 20,
-          "forgingTide": 10
+          "radiantTide": 15
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -292,19 +292,19 @@ export const GENERATED_PATCHES = [
         "pulls": 26.4,
         "rewards": {
           "astrite": 4230,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -317,19 +317,19 @@ export const GENERATED_PATCHES = [
         "pulls": 5.1,
         "rewards": {
           "astrite": 810,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -342,19 +342,19 @@ export const GENERATED_PATCHES = [
         "pulls": 17.6,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -367,19 +367,19 @@ export const GENERATED_PATCHES = [
         "pulls": 14.7,
         "rewards": {
           "astrite": 5170,
-          "lunite": 0,
+          "forgingTide": 7,
           "forgingToken": 0,
-          "radiantTide": 7,
+          "lunite": 0,
           "lustrousTide": 12,
-          "forgingTide": 7
+          "radiantTide": 7
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -392,19 +392,19 @@ export const GENERATED_PATCHES = [
         "pulls": 7,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -417,19 +417,19 @@ export const GENERATED_PATCHES = [
         "pulls": 17,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -442,19 +442,19 @@ export const GENERATED_PATCHES = [
         "pulls": 9.3,
         "rewards": {
           "astrite": 680,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 5,
+          "lunite": 0,
           "lustrousTide": 2,
-          "forgingTide": 0
+          "radiantTide": 5
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -467,19 +467,19 @@ export const GENERATED_PATCHES = [
         "pulls": 26.4,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": [
           {
@@ -489,11 +489,11 @@ export const GENERATED_PATCHES = [
             "rounding": "floor",
             "rewards": {
               "astrite": 90,
-              "lunite": 0,
+              "forgingTide": 0,
               "forgingToken": 0,
-              "radiantTide": 0,
+              "lunite": 0,
               "lustrousTide": 0,
-              "forgingTide": 0
+              "radiantTide": 0
             }
           }
         ]
@@ -517,19 +517,19 @@ export const GENERATED_PATCHES = [
         "pulls": 30.3,
         "rewards": {
           "astrite": 4040,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 5,
+          "lunite": 0,
           "lustrousTide": 5,
-          "forgingTide": 0
+          "radiantTide": 5
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -542,19 +542,19 @@ export const GENERATED_PATCHES = [
         "pulls": 3.2,
         "rewards": {
           "astrite": 510,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -567,19 +567,19 @@ export const GENERATED_PATCHES = [
         "pulls": 4.8,
         "rewards": {
           "astrite": 760,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -592,19 +592,19 @@ export const GENERATED_PATCHES = [
         "pulls": 16.5,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -617,19 +617,19 @@ export const GENERATED_PATCHES = [
         "pulls": 13.6,
         "rewards": {
           "astrite": 4840,
-          "lunite": 0,
+          "forgingTide": 7,
           "forgingToken": 0,
-          "radiantTide": 7,
+          "lunite": 0,
           "lustrousTide": 12,
-          "forgingTide": 7
+          "radiantTide": 7
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -642,19 +642,19 @@ export const GENERATED_PATCHES = [
         "pulls": 7,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -667,19 +667,19 @@ export const GENERATED_PATCHES = [
         "pulls": 7,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -692,19 +692,19 @@ export const GENERATED_PATCHES = [
         "pulls": 9.3,
         "rewards": {
           "astrite": 680,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 5,
+          "lunite": 0,
           "lustrousTide": 2,
-          "forgingTide": 0
+          "radiantTide": 5
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -717,19 +717,19 @@ export const GENERATED_PATCHES = [
         "pulls": 24.8,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": [
           {
@@ -739,11 +739,11 @@ export const GENERATED_PATCHES = [
             "rounding": "floor",
             "rewards": {
               "astrite": 90,
-              "lunite": 0,
+              "forgingTide": 0,
               "forgingToken": 0,
-              "radiantTide": 0,
+              "lunite": 0,
               "lustrousTide": 0,
-              "forgingTide": 0
+              "radiantTide": 0
             }
           }
         ]
@@ -767,19 +767,19 @@ export const GENERATED_PATCHES = [
         "pulls": 27.4,
         "rewards": {
           "astrite": 3580,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 5,
+          "lunite": 0,
           "lustrousTide": 10,
-          "forgingTide": 0
+          "radiantTide": 5
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -792,19 +792,19 @@ export const GENERATED_PATCHES = [
         "pulls": 22.6,
         "rewards": {
           "astrite": 3610,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -817,19 +817,19 @@ export const GENERATED_PATCHES = [
         "pulls": 5.6,
         "rewards": {
           "astrite": 900,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -842,19 +842,19 @@ export const GENERATED_PATCHES = [
         "pulls": 17.3,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -867,19 +867,19 @@ export const GENERATED_PATCHES = [
         "pulls": 14.3,
         "rewards": {
           "astrite": 5060,
-          "lunite": 0,
+          "forgingTide": 7,
           "forgingToken": 0,
-          "radiantTide": 7,
+          "lunite": 0,
           "lustrousTide": 12,
-          "forgingTide": 7
+          "radiantTide": 7
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -892,19 +892,19 @@ export const GENERATED_PATCHES = [
         "pulls": 7,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -917,19 +917,19 @@ export const GENERATED_PATCHES = [
         "pulls": 7,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -942,19 +942,19 @@ export const GENERATED_PATCHES = [
         "pulls": 9.3,
         "rewards": {
           "astrite": 680,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 5,
+          "lunite": 0,
           "lustrousTide": 2,
-          "forgingTide": 0
+          "radiantTide": 5
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -967,19 +967,19 @@ export const GENERATED_PATCHES = [
         "pulls": 25.9,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": [
           {
@@ -989,11 +989,11 @@ export const GENERATED_PATCHES = [
             "rounding": "floor",
             "rewards": {
               "astrite": 90,
-              "lunite": 0,
+              "forgingTide": 0,
               "forgingToken": 0,
-              "radiantTide": 0,
+              "lunite": 0,
               "lustrousTide": 0,
-              "forgingTide": 0
+              "radiantTide": 0
             }
           }
         ]
@@ -1017,19 +1017,19 @@ export const GENERATED_PATCHES = [
         "pulls": 28.3,
         "rewards": {
           "astrite": 3720,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 5,
+          "lunite": 0,
           "lustrousTide": 10,
-          "forgingTide": 0
+          "radiantTide": 5
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -1042,19 +1042,19 @@ export const GENERATED_PATCHES = [
         "pulls": 4.1,
         "rewards": {
           "astrite": 655,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -1067,19 +1067,19 @@ export const GENERATED_PATCHES = [
         "pulls": 19,
         "rewards": {
           "astrite": 3040,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -1092,19 +1092,19 @@ export const GENERATED_PATCHES = [
         "pulls": 18.8,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -1117,19 +1117,19 @@ export const GENERATED_PATCHES = [
         "pulls": 15.5,
         "rewards": {
           "astrite": 5500,
-          "lunite": 0,
+          "forgingTide": 7,
           "forgingToken": 0,
-          "radiantTide": 7,
+          "lunite": 0,
           "lustrousTide": 12,
-          "forgingTide": 7
+          "radiantTide": 7
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -1142,19 +1142,19 @@ export const GENERATED_PATCHES = [
         "pulls": 7,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -1167,19 +1167,19 @@ export const GENERATED_PATCHES = [
         "pulls": 7,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -1192,19 +1192,19 @@ export const GENERATED_PATCHES = [
         "pulls": 9.3,
         "rewards": {
           "astrite": 680,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 5,
+          "lunite": 0,
           "lustrousTide": 2,
-          "forgingTide": 0
+          "radiantTide": 5
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -1217,19 +1217,19 @@ export const GENERATED_PATCHES = [
         "pulls": 28.1,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": [
           {
@@ -1239,11 +1239,11 @@ export const GENERATED_PATCHES = [
             "rounding": "floor",
             "rewards": {
               "astrite": 90,
-              "lunite": 0,
+              "forgingTide": 0,
               "forgingToken": 0,
-              "radiantTide": 0,
+              "lunite": 0,
               "lustrousTide": 0,
-              "forgingTide": 0
+              "radiantTide": 0
             }
           }
         ]
@@ -1267,19 +1267,19 @@ export const GENERATED_PATCHES = [
         "pulls": 23.6,
         "rewards": {
           "astrite": 2970,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 5,
+          "lunite": 0,
           "lustrousTide": 10,
-          "forgingTide": 0
+          "radiantTide": 5
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -1292,19 +1292,19 @@ export const GENERATED_PATCHES = [
         "pulls": 56.9,
         "rewards": {
           "astrite": 9107,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 35,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -1317,19 +1317,19 @@ export const GENERATED_PATCHES = [
         "pulls": 27.5,
         "rewards": {
           "astrite": 2800,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 10,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 10
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -1342,19 +1342,19 @@ export const GENERATED_PATCHES = [
         "pulls": 15.8,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -1367,19 +1367,19 @@ export const GENERATED_PATCHES = [
         "pulls": 13.1,
         "rewards": {
           "astrite": 4620,
-          "lunite": 0,
+          "forgingTide": 7,
           "forgingToken": 0,
-          "radiantTide": 7,
+          "lunite": 0,
           "lustrousTide": 12,
-          "forgingTide": 7
+          "radiantTide": 7
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -1392,19 +1392,19 @@ export const GENERATED_PATCHES = [
         "pulls": 7,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -1417,19 +1417,19 @@ export const GENERATED_PATCHES = [
         "pulls": 7,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -1442,19 +1442,19 @@ export const GENERATED_PATCHES = [
         "pulls": 9.3,
         "rewards": {
           "astrite": 680,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 5,
+          "lunite": 0,
           "lustrousTide": 2,
-          "forgingTide": 0
+          "radiantTide": 5
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -1467,19 +1467,19 @@ export const GENERATED_PATCHES = [
         "pulls": 23.6,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": [
           {
@@ -1489,11 +1489,11 @@ export const GENERATED_PATCHES = [
             "rounding": "floor",
             "rewards": {
               "astrite": 90,
-              "lunite": 0,
+              "forgingTide": 0,
               "forgingToken": 0,
-              "radiantTide": 0,
+              "lunite": 0,
               "lustrousTide": 0,
-              "forgingTide": 0
+              "radiantTide": 0
             }
           }
         ]
@@ -1517,19 +1517,19 @@ export const GENERATED_PATCHES = [
         "pulls": 25.4,
         "rewards": {
           "astrite": 3260,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 5,
+          "lunite": 0,
           "lustrousTide": 10,
-          "forgingTide": 0
+          "radiantTide": 5
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -1542,19 +1542,19 @@ export const GENERATED_PATCHES = [
         "pulls": 17.3,
         "rewards": {
           "astrite": 2765,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 4,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -1567,19 +1567,19 @@ export const GENERATED_PATCHES = [
         "pulls": 5.6,
         "rewards": {
           "astrite": 900,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -1592,19 +1592,19 @@ export const GENERATED_PATCHES = [
         "pulls": 15.8,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -1617,19 +1617,19 @@ export const GENERATED_PATCHES = [
         "pulls": 20,
         "rewards": {
           "astrite": 5730,
-          "lunite": 0,
+          "forgingTide": 7,
           "forgingToken": 0,
-          "radiantTide": 7,
+          "lunite": 0,
           "lustrousTide": 12,
-          "forgingTide": 7
+          "radiantTide": 7
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -1642,19 +1642,19 @@ export const GENERATED_PATCHES = [
         "pulls": 7,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -1667,19 +1667,19 @@ export const GENERATED_PATCHES = [
         "pulls": 7,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -1692,19 +1692,19 @@ export const GENERATED_PATCHES = [
         "pulls": 9.3,
         "rewards": {
           "astrite": 680,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 5,
+          "lunite": 0,
           "lustrousTide": 2,
-          "forgingTide": 0
+          "radiantTide": 5
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -1717,19 +1717,19 @@ export const GENERATED_PATCHES = [
         "pulls": 23.6,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": [
           {
@@ -1739,11 +1739,11 @@ export const GENERATED_PATCHES = [
             "rounding": "floor",
             "rewards": {
               "astrite": 90,
-              "lunite": 0,
+              "forgingTide": 0,
               "forgingToken": 0,
-              "radiantTide": 0,
+              "lunite": 0,
               "lustrousTide": 0,
-              "forgingTide": 0
+              "radiantTide": 0
             }
           }
         ]
@@ -1767,19 +1767,19 @@ export const GENERATED_PATCHES = [
         "pulls": 23.4,
         "rewards": {
           "astrite": 2940,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 5,
+          "lunite": 0,
           "lustrousTide": 10,
-          "forgingTide": 0
+          "radiantTide": 5
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -1792,19 +1792,19 @@ export const GENERATED_PATCHES = [
         "pulls": 17.6,
         "rewards": {
           "astrite": 2810,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 3,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -1817,19 +1817,19 @@ export const GENERATED_PATCHES = [
         "pulls": 16.6,
         "rewards": {
           "astrite": 1060,
-          "lunite": 0,
+          "forgingTide": 10,
           "forgingToken": 0,
-          "radiantTide": 10,
+          "lunite": 0,
           "lustrousTide": 10,
-          "forgingTide": 10
+          "radiantTide": 10
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -1842,19 +1842,19 @@ export const GENERATED_PATCHES = [
         "pulls": 12.4,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -1867,19 +1867,19 @@ export const GENERATED_PATCHES = [
         "pulls": 15.7,
         "rewards": {
           "astrite": 4502,
-          "lunite": 0,
+          "forgingTide": 7,
           "forgingToken": 0,
-          "radiantTide": 7,
+          "lunite": 0,
           "lustrousTide": 12,
-          "forgingTide": 7
+          "radiantTide": 7
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -1892,19 +1892,19 @@ export const GENERATED_PATCHES = [
         "pulls": 7,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -1917,19 +1917,19 @@ export const GENERATED_PATCHES = [
         "pulls": 17,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -1942,19 +1942,19 @@ export const GENERATED_PATCHES = [
         "pulls": 9.3,
         "rewards": {
           "astrite": 680,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 5,
+          "lunite": 0,
           "lustrousTide": 2,
-          "forgingTide": 0
+          "radiantTide": 5
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -1967,19 +1967,19 @@ export const GENERATED_PATCHES = [
         "pulls": 18.6,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": [
           {
@@ -1989,11 +1989,11 @@ export const GENERATED_PATCHES = [
             "rounding": "floor",
             "rewards": {
               "astrite": 90,
-              "lunite": 0,
+              "forgingTide": 0,
               "forgingToken": 0,
-              "radiantTide": 0,
+              "lunite": 0,
               "lustrousTide": 0,
-              "forgingTide": 0
+              "radiantTide": 0
             }
           }
         ]
@@ -2017,19 +2017,19 @@ export const GENERATED_PATCHES = [
         "pulls": 53.1,
         "rewards": {
           "astrite": 2900,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 35,
+          "lunite": 0,
           "lustrousTide": 10,
-          "forgingTide": 0
+          "radiantTide": 35
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -2042,19 +2042,19 @@ export const GENERATED_PATCHES = [
         "pulls": 8,
         "rewards": {
           "astrite": 1280,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -2067,19 +2067,19 @@ export const GENERATED_PATCHES = [
         "pulls": 6.9,
         "rewards": {
           "astrite": 1100,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -2092,19 +2092,19 @@ export const GENERATED_PATCHES = [
         "pulls": 15.8,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -2117,19 +2117,19 @@ export const GENERATED_PATCHES = [
         "pulls": 20,
         "rewards": {
           "astrite": 5730,
-          "lunite": 0,
+          "forgingTide": 7,
           "forgingToken": 0,
-          "radiantTide": 7,
+          "lunite": 0,
           "lustrousTide": 12,
-          "forgingTide": 7
+          "radiantTide": 7
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -2142,19 +2142,19 @@ export const GENERATED_PATCHES = [
         "pulls": 7,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -2167,19 +2167,19 @@ export const GENERATED_PATCHES = [
         "pulls": 7,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -2192,19 +2192,19 @@ export const GENERATED_PATCHES = [
         "pulls": 9.3,
         "rewards": {
           "astrite": 680,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 5,
+          "lunite": 0,
           "lustrousTide": 2,
-          "forgingTide": 0
+          "radiantTide": 5
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -2217,19 +2217,19 @@ export const GENERATED_PATCHES = [
         "pulls": 23.6,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": [
           {
@@ -2239,11 +2239,11 @@ export const GENERATED_PATCHES = [
             "rounding": "floor",
             "rewards": {
               "astrite": 90,
-              "lunite": 0,
+              "forgingTide": 0,
               "forgingToken": 0,
-              "radiantTide": 0,
+              "lunite": 0,
               "lustrousTide": 0,
-              "forgingTide": 0
+              "radiantTide": 0
             }
           }
         ]
@@ -2267,19 +2267,19 @@ export const GENERATED_PATCHES = [
         "pulls": 24.5,
         "rewards": {
           "astrite": 3120,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 5,
+          "lunite": 0,
           "lustrousTide": 10,
-          "forgingTide": 0
+          "radiantTide": 5
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -2292,19 +2292,19 @@ export const GENERATED_PATCHES = [
         "pulls": 31.6,
         "rewards": {
           "astrite": 5050,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 7,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -2317,19 +2317,19 @@ export const GENERATED_PATCHES = [
         "pulls": 15.6,
         "rewards": {
           "astrite": 900,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 10,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 10
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -2342,19 +2342,19 @@ export const GENERATED_PATCHES = [
         "pulls": 15.8,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -2367,19 +2367,19 @@ export const GENERATED_PATCHES = [
         "pulls": 20,
         "rewards": {
           "astrite": 5730,
-          "lunite": 0,
+          "forgingTide": 7,
           "forgingToken": 0,
-          "radiantTide": 7,
+          "lunite": 0,
           "lustrousTide": 12,
-          "forgingTide": 7
+          "radiantTide": 7
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -2392,19 +2392,19 @@ export const GENERATED_PATCHES = [
         "pulls": 7,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -2417,19 +2417,19 @@ export const GENERATED_PATCHES = [
         "pulls": 7,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -2442,19 +2442,19 @@ export const GENERATED_PATCHES = [
         "pulls": 9.3,
         "rewards": {
           "astrite": 680,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 5,
+          "lunite": 0,
           "lustrousTide": 2,
-          "forgingTide": 0
+          "radiantTide": 5
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -2467,19 +2467,19 @@ export const GENERATED_PATCHES = [
         "pulls": 23.6,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": [
           {
@@ -2489,11 +2489,11 @@ export const GENERATED_PATCHES = [
             "rounding": "floor",
             "rewards": {
               "astrite": 90,
-              "lunite": 0,
+              "forgingTide": 0,
               "forgingToken": 0,
-              "radiantTide": 0,
+              "lunite": 0,
               "lustrousTide": 0,
-              "forgingTide": 0
+              "radiantTide": 0
             }
           }
         ]
@@ -2517,19 +2517,19 @@ export const GENERATED_PATCHES = [
         "pulls": 20.4,
         "rewards": {
           "astrite": 2460,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 5,
+          "lunite": 0,
           "lustrousTide": 5,
-          "forgingTide": 0
+          "radiantTide": 5
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -2542,19 +2542,19 @@ export const GENERATED_PATCHES = [
         "pulls": 10.3,
         "rewards": {
           "astrite": 1650,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 1,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -2567,19 +2567,19 @@ export const GENERATED_PATCHES = [
         "pulls": 5.6,
         "rewards": {
           "astrite": 900,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -2592,19 +2592,19 @@ export const GENERATED_PATCHES = [
         "pulls": 13.1,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -2617,19 +2617,19 @@ export const GENERATED_PATCHES = [
         "pulls": 16.8,
         "rewards": {
           "astrite": 4775,
-          "lunite": 0,
+          "forgingTide": 7,
           "forgingToken": 0,
-          "radiantTide": 7,
+          "lunite": 0,
           "lustrousTide": 12,
-          "forgingTide": 7
+          "radiantTide": 7
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -2642,19 +2642,19 @@ export const GENERATED_PATCHES = [
         "pulls": 7,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -2667,19 +2667,19 @@ export const GENERATED_PATCHES = [
         "pulls": 7,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -2692,19 +2692,19 @@ export const GENERATED_PATCHES = [
         "pulls": 9.3,
         "rewards": {
           "astrite": 680,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 5,
+          "lunite": 0,
           "lustrousTide": 2,
-          "forgingTide": 0
+          "radiantTide": 5
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -2717,19 +2717,19 @@ export const GENERATED_PATCHES = [
         "pulls": 19.7,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": [
           {
@@ -2739,11 +2739,11 @@ export const GENERATED_PATCHES = [
             "rounding": "floor",
             "rewards": {
               "astrite": 90,
-              "lunite": 0,
+              "forgingTide": 0,
               "forgingToken": 0,
-              "radiantTide": 0,
+              "lunite": 0,
               "lustrousTide": 0,
-              "forgingTide": 0
+              "radiantTide": 0
             }
           }
         ]
@@ -2767,19 +2767,19 @@ export const GENERATED_PATCHES = [
         "pulls": 39.3,
         "rewards": {
           "astrite": 3880,
-          "lunite": 0,
+          "forgingTide": 10,
           "forgingToken": 0,
-          "radiantTide": 15,
+          "lunite": 0,
           "lustrousTide": 10,
-          "forgingTide": 10
+          "radiantTide": 15
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -2792,19 +2792,19 @@ export const GENERATED_PATCHES = [
         "pulls": 15.6,
         "rewards": {
           "astrite": 2495,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 1,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -2817,19 +2817,19 @@ export const GENERATED_PATCHES = [
         "pulls": 5.6,
         "rewards": {
           "astrite": 900,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -2842,19 +2842,19 @@ export const GENERATED_PATCHES = [
         "pulls": 15.8,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -2867,19 +2867,19 @@ export const GENERATED_PATCHES = [
         "pulls": 22.6,
         "rewards": {
           "astrite": 5730,
-          "lunite": 0,
+          "forgingTide": 7,
           "forgingToken": 0,
-          "radiantTide": 7,
+          "lunite": 0,
           "lustrousTide": 12,
-          "forgingTide": 7
+          "radiantTide": 7
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -2892,19 +2892,19 @@ export const GENERATED_PATCHES = [
         "pulls": 7,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -2917,19 +2917,19 @@ export const GENERATED_PATCHES = [
         "pulls": 17,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -2942,19 +2942,19 @@ export const GENERATED_PATCHES = [
         "pulls": 9.3,
         "rewards": {
           "astrite": 680,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 5,
+          "lunite": 0,
           "lustrousTide": 2,
-          "forgingTide": 0
+          "radiantTide": 5
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -2967,19 +2967,19 @@ export const GENERATED_PATCHES = [
         "pulls": 23.6,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": [
           {
@@ -2989,11 +2989,11 @@ export const GENERATED_PATCHES = [
             "rounding": "floor",
             "rewards": {
               "astrite": 90,
-              "lunite": 0,
+              "forgingTide": 0,
               "forgingToken": 0,
-              "radiantTide": 0,
+              "lunite": 0,
               "lustrousTide": 0,
-              "forgingTide": 0
+              "radiantTide": 0
             }
           }
         ]
@@ -3017,19 +3017,19 @@ export const GENERATED_PATCHES = [
         "pulls": 19.9,
         "rewards": {
           "astrite": 2380,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 5,
+          "lunite": 0,
           "lustrousTide": 10,
-          "forgingTide": 0
+          "radiantTide": 5
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -3042,19 +3042,19 @@ export const GENERATED_PATCHES = [
         "pulls": 8.3,
         "rewards": {
           "astrite": 1335,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -3067,19 +3067,19 @@ export const GENERATED_PATCHES = [
         "pulls": 7.1,
         "rewards": {
           "astrite": 1130,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -3092,19 +3092,19 @@ export const GENERATED_PATCHES = [
         "pulls": 15.8,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -3117,19 +3117,19 @@ export const GENERATED_PATCHES = [
         "pulls": 23.6,
         "rewards": {
           "astrite": 5880,
-          "lunite": 0,
+          "forgingTide": 7,
           "forgingToken": 0,
-          "radiantTide": 7,
+          "lunite": 0,
           "lustrousTide": 12,
-          "forgingTide": 7
+          "radiantTide": 7
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -3142,19 +3142,19 @@ export const GENERATED_PATCHES = [
         "pulls": 7,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -3167,19 +3167,19 @@ export const GENERATED_PATCHES = [
         "pulls": 7,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -3192,19 +3192,19 @@ export const GENERATED_PATCHES = [
         "pulls": 9.3,
         "rewards": {
           "astrite": 680,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 5,
+          "lunite": 0,
           "lustrousTide": 2,
-          "forgingTide": 0
+          "radiantTide": 5
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -3217,19 +3217,19 @@ export const GENERATED_PATCHES = [
         "pulls": 23.6,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": [
           {
@@ -3239,11 +3239,11 @@ export const GENERATED_PATCHES = [
             "rounding": "floor",
             "rewards": {
               "astrite": 90,
-              "lunite": 0,
+              "forgingTide": 0,
               "forgingToken": 0,
-              "radiantTide": 0,
+              "lunite": 0,
               "lustrousTide": 0,
-              "forgingTide": 0
+              "radiantTide": 0
             }
           }
         ]
@@ -3267,19 +3267,19 @@ export const GENERATED_PATCHES = [
         "pulls": 22.1,
         "rewards": {
           "astrite": 2740,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 5,
+          "lunite": 0,
           "lustrousTide": 10,
-          "forgingTide": 0
+          "radiantTide": 5
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -3292,19 +3292,19 @@ export const GENERATED_PATCHES = [
         "pulls": 7.9,
         "rewards": {
           "astrite": 1270,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -3317,19 +3317,19 @@ export const GENERATED_PATCHES = [
         "pulls": 24.5,
         "rewards": {
           "astrite": 3920,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -3342,19 +3342,19 @@ export const GENERATED_PATCHES = [
         "pulls": 13.1,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -3367,19 +3367,19 @@ export const GENERATED_PATCHES = [
         "pulls": 23.8,
         "rewards": {
           "astrite": 5900,
-          "lunite": 0,
+          "forgingTide": 7,
           "forgingToken": 0,
-          "radiantTide": 7,
+          "lunite": 0,
           "lustrousTide": 12,
-          "forgingTide": 7
+          "radiantTide": 7
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -3392,19 +3392,19 @@ export const GENERATED_PATCHES = [
         "pulls": 7,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -3417,19 +3417,19 @@ export const GENERATED_PATCHES = [
         "pulls": 7,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -3442,19 +3442,19 @@ export const GENERATED_PATCHES = [
         "pulls": 9.3,
         "rewards": {
           "astrite": 680,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 5,
+          "lunite": 0,
           "lustrousTide": 2,
-          "forgingTide": 0
+          "radiantTide": 5
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -3467,19 +3467,19 @@ export const GENERATED_PATCHES = [
         "pulls": 19.7,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": [
           {
@@ -3489,11 +3489,11 @@ export const GENERATED_PATCHES = [
             "rounding": "floor",
             "rewards": {
               "astrite": 90,
-              "lunite": 0,
+              "forgingTide": 0,
               "forgingToken": 0,
-              "radiantTide": 0,
+              "lunite": 0,
               "lustrousTide": 0,
-              "forgingTide": 0
+              "radiantTide": 0
             }
           }
         ]
@@ -3517,19 +3517,19 @@ export const GENERATED_PATCHES = [
         "pulls": 34.1,
         "rewards": {
           "astrite": 4650,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 5,
+          "lunite": 0,
           "lustrousTide": 13,
-          "forgingTide": 0
+          "radiantTide": 5
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -3542,19 +3542,19 @@ export const GENERATED_PATCHES = [
         "pulls": 48.1,
         "rewards": {
           "astrite": 7700,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 21,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -3567,19 +3567,19 @@ export const GENERATED_PATCHES = [
         "pulls": 18.6,
         "rewards": {
           "astrite": 1380,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 10,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 10
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -3592,19 +3592,19 @@ export const GENERATED_PATCHES = [
         "pulls": 15.8,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -3617,19 +3617,19 @@ export const GENERATED_PATCHES = [
         "pulls": 23.6,
         "rewards": {
           "astrite": 5880,
-          "lunite": 0,
+          "forgingTide": 7,
           "forgingToken": 0,
-          "radiantTide": 7,
+          "lunite": 0,
           "lustrousTide": 12,
-          "forgingTide": 7
+          "radiantTide": 7
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -3642,19 +3642,19 @@ export const GENERATED_PATCHES = [
         "pulls": 7,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -3667,19 +3667,19 @@ export const GENERATED_PATCHES = [
         "pulls": 7,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -3692,19 +3692,19 @@ export const GENERATED_PATCHES = [
         "pulls": 9.3,
         "rewards": {
           "astrite": 680,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 5,
+          "lunite": 0,
           "lustrousTide": 2,
-          "forgingTide": 0
+          "radiantTide": 5
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -3717,19 +3717,19 @@ export const GENERATED_PATCHES = [
         "pulls": 23.6,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": [
           {
@@ -3739,11 +3739,11 @@ export const GENERATED_PATCHES = [
             "rounding": "floor",
             "rewards": {
               "astrite": 90,
-              "lunite": 0,
+              "forgingTide": 0,
               "forgingToken": 0,
-              "radiantTide": 0,
+              "lunite": 0,
               "lustrousTide": 0,
-              "forgingTide": 0
+              "radiantTide": 0
             }
           }
         ]
@@ -3764,22 +3764,22 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 26.1,
+        "pulls": 35.4,
         "rewards": {
-          "astrite": 1780,
-          "lunite": 0,
+          "astrite": 3260,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 15,
+          "lunite": 0,
           "lustrousTide": 15,
-          "forgingTide": 0
+          "radiantTide": 15
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -3792,19 +3792,19 @@ export const GENERATED_PATCHES = [
         "pulls": 16.2,
         "rewards": {
           "astrite": 2595,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 1,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -3816,20 +3816,20 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 0,
         "rewards": {
-          "astrite": 2650,
-          "lunite": 0,
+          "astrite": 2750,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -3842,19 +3842,19 @@ export const GENERATED_PATCHES = [
         "pulls": 15.8,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -3864,22 +3864,22 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 23.6,
+        "pulls": 27.3,
         "rewards": {
-          "astrite": 5880,
-          "lunite": 0,
+          "astrite": 6480,
+          "forgingTide": 7,
           "forgingToken": 0,
-          "radiantTide": 7,
+          "lunite": 0,
           "lustrousTide": 12,
-          "forgingTide": 7
+          "radiantTide": 7
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -3892,19 +3892,19 @@ export const GENERATED_PATCHES = [
         "pulls": 7,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -3917,19 +3917,19 @@ export const GENERATED_PATCHES = [
         "pulls": 7,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -3942,19 +3942,19 @@ export const GENERATED_PATCHES = [
         "pulls": 9.3,
         "rewards": {
           "astrite": 680,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 5,
+          "lunite": 0,
           "lustrousTide": 2,
-          "forgingTide": 0
+          "radiantTide": 5
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": []
       },
@@ -3967,19 +3967,19 @@ export const GENERATED_PATCHES = [
         "pulls": 23.6,
         "rewards": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "costs": {
           "astrite": 0,
-          "lunite": 0,
+          "forgingTide": 0,
           "forgingToken": 0,
-          "radiantTide": 0,
+          "lunite": 0,
           "lustrousTide": 0,
-          "forgingTide": 0
+          "radiantTide": 0
         },
         "scalers": [
           {
@@ -3989,11 +3989,11 @@ export const GENERATED_PATCHES = [
             "rounding": "floor",
             "rewards": {
               "astrite": 90,
-              "lunite": 0,
+              "forgingTide": 0,
               "forgingToken": 0,
-              "radiantTide": 0,
+              "lunite": 0,
               "lustrousTide": 0,
-              "forgingTide": 0
+              "radiantTide": 0
             }
           }
         ]
@@ -4005,6 +4005,7 @@ export const GENERATED_PATCHES_META = {
   "gameId": "wuthering-waves",
   "spreadsheetId": "1msSsnWBcXKniykf4rWQCEdk2IQuB9JHy",
   "sheets": [
+    "3.1 (STC)",
     "1.0",
     "1.1",
     "1.2",
@@ -4019,8 +4020,7 @@ export const GENERATED_PATCHES_META = {
     "2.6",
     "2.7",
     "2.8",
-    "3.0",
-    "3.1 (STC)"
+    "3.0"
   ],
-  "generatedAt": "2026-02-15T23:57:56Z"
+  "generatedAt": "2026-03-01T23:24:10Z"
 };
