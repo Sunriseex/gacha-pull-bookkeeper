@@ -869,6 +869,57 @@ func canonicalPatchID(raw string) string {
 	return normalized
 }
 
+func mergeTagLists(base []string, extra []string) []string {
+	if len(base) == 0 && len(extra) == 0 {
+		return nil
+	}
+	seen := map[string]struct{}{}
+	merged := make([]string, 0, len(base)+len(extra))
+	for _, tag := range append(append([]string{}, base...), extra...) {
+		normalized := strings.TrimSpace(tag)
+		if normalized == "" {
+			continue
+		}
+		if _, ok := seen[normalized]; ok {
+			continue
+		}
+		seen[normalized] = struct{}{}
+		merged = append(merged, normalized)
+	}
+	if len(merged) == 0 {
+		return nil
+	}
+	return merged
+}
+
+func parseDataSheetPatchTags(csvText string) (map[string][]string, error) {
+	reader := csv.NewReader(strings.NewReader(csvText))
+	reader.FieldsPerRecord = -1
+	reader.LazyQuotes = true
+	records, err := reader.ReadAll()
+	if err != nil {
+		return nil, fmt.Errorf("csv parse error: %w", err)
+	}
+	if len(records) == 0 {
+		return map[string][]string{}, nil
+	}
+
+	header := records[0]
+	tagsByPatch := map[string][]string{}
+	for _, cell := range header {
+		patchID := canonicalPatchID(cell)
+		if patchID == "" || !isVersionLikeSheetName(patchID) {
+			continue
+		}
+		tags := patchTagsFromSheetName(cell)
+		if len(tags) == 0 {
+			continue
+		}
+		tagsByPatch[patchID] = mergeTagLists(tagsByPatch[patchID], tags)
+	}
+	return tagsByPatch, nil
+}
+
 func parseDataSheetPulls(csvText string, rowToSourceID map[string]string) (map[string]map[string]float64, error) {
 	reader := csv.NewReader(strings.NewReader(csvText))
 	reader.FieldsPerRecord = -1

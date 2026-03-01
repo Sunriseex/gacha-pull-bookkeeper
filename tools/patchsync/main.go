@@ -1625,11 +1625,16 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 	var zzzDataPulls map[string]map[string]float64
 	var hsrDataPulls map[string]map[string]float64
 	var genshinSummaryPulls map[string]float64
+	var dataSheetTagsByPatch map[string][]string
 	if cfg.GameID == gameIDEndfield || cfg.GameID == gameIDWuwa || cfg.GameID == gameIDZzz || cfg.GameID == gameIDHsr {
 		appendSyncLog(&logs, "fetch Data sheet")
 		dataCSV, dataErr := fetchSheetCSV(ctx, client, cfg.SpreadsheetID, "Data")
 		if dataErr != nil {
 			return SyncResult{}, fmt.Errorf("fetch Data sheet for %s: %w", cfg.GameID, dataErr)
+		}
+		parsedTags, tagsErr := parseDataSheetPatchTags(dataCSV)
+		if tagsErr == nil {
+			dataSheetTagsByPatch = parsedTags
 		}
 		switch cfg.GameID {
 		case gameIDEndfield:
@@ -1772,6 +1777,11 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 		}
 		validPatchRows++
 		patchID := patchIDOrFallback(patch)
+		if len(dataSheetTagsByPatch) > 0 {
+			if dataTags, ok := dataSheetTagsByPatch[patchID]; ok {
+				patch.Tags = mergeTagLists(patch.Tags, dataTags)
+			}
+		}
 		previousPatch, hadPrevious := existingGeneratedByID[patchID]
 		if cfg.SkipExisting {
 			if hadPrevious {
