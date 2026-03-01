@@ -456,6 +456,9 @@ export const GENERATED_PATCHES = [
     "versionName": "Old Deep Water Dies, by Rising Tide It is Denied",
     "startDate": "2026-03-12",
     "durationDays": 35,
+    "tags": [
+      "WIP"
+    ],
     "notes": "Generated from Google Sheets by patchsync",
     "sources": [
       {
@@ -908,5 +911,5 @@ export const GENERATED_PATCHES_META = {
     "1.0",
     "1.1"
   ],
-  "generatedAt": "2026-03-01T23:44:57Z"
+  "generatedAt": "2026-03-01T23:59:26Z"
 };
