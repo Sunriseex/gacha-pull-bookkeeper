@@ -37,3 +37,7 @@ tools/
 
 AGENTS.md
 agents_frontend.md
+
+#makefile
+*.http
+*.sync
