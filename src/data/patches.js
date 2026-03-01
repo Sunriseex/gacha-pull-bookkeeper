@@ -199,6 +199,15 @@ const validatePatch = (patch, context) => {
     Number.isFinite(Number(patch.durationDays)) && Number(patch.durationDays) > 0,
     `${context}.durationDays must be > 0`,
   );
+  if (patch.tags !== undefined) {
+    assert(Array.isArray(patch.tags), `${context}.tags must be an array when provided`);
+    for (const [tagIndex, tag] of patch.tags.entries()) {
+      assert(
+        typeof tag === "string" && tag.trim(),
+        `${context}.tags[${tagIndex}] must be a non-empty string`,
+      );
+    }
+  }
   assert(Array.isArray(patch.sources), `${context}.sources must be an array`);
   assert(patch.sources.length > 0, `${context}.sources must not be empty`);
 
@@ -1143,6 +1152,7 @@ export const getGameById = (id) =>
 
 export const ACTIVE_GAME = getGameById(DEFAULT_GAME_ID);
 export const PATCHES = ACTIVE_GAME.patches;
+
 
 
 

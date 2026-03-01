@@ -320,6 +320,7 @@ func parseSheetToPatchGenshin(sheetName, csvText string) (Patch, error) {
 		VersionName:  fmt.Sprintf("Version %s", patchID),
 		StartDate:    "",
 		DurationDays: durationDays,
+		Tags:         patchTagsFromSheetName(sheetName, getCell(records[0], 0)),
 		Notes:        "Generated from Genshin Impact Google Sheets by patchsync",
 		Sources:      sources,
 	}, nil
@@ -507,7 +508,7 @@ func findGenshinDurationDays(records [][]string) int {
 	return 0
 }
 func parseSheetToPatchWuwa(sheetName, csvText string) (Patch, error) {
-	normalizedSheetName := normalizePatchName(sheetName)
+	normalizedSheetName := canonicalPatchID(sheetName)
 
 	reader := csv.NewReader(strings.NewReader(csvText))
 	reader.FieldsPerRecord = -1
@@ -644,13 +645,14 @@ func parseSheetToPatchWuwa(sheetName, csvText string) (Patch, error) {
 		VersionName:  versionName,
 		StartDate:    startDate,
 		DurationDays: durationDays,
+		Tags:         patchTagsFromSheetName(sheetName, getCell(records[0], 0)),
 		Notes:        "Generated from Wuthering Waves Google Sheets by patchsync",
 		Sources:      sources,
 	}, nil
 }
 
 func parseSheetToPatchHsr(sheetName, csvText string) (Patch, error) {
-	normalizedSheetName := normalizePatchName(sheetName)
+	normalizedSheetName := canonicalPatchID(sheetName)
 
 	reader := csv.NewReader(strings.NewReader(csvText))
 	reader.FieldsPerRecord = -1
@@ -735,12 +737,13 @@ func parseSheetToPatchHsr(sheetName, csvText string) (Patch, error) {
 		VersionName:  versionName,
 		StartDate:    startDate,
 		DurationDays: durationDays,
+		Tags:         patchTagsFromSheetName(sheetName, getCell(records[0], 0)),
 		Notes:        "Generated from Honkai: Star Rail Google Sheets by patchsync",
 		Sources:      sources,
 	}, nil
 }
 func parseSheetToPatchZzz(sheetName, csvText string) (Patch, error) {
-	normalizedSheetName := normalizePatchName(sheetName)
+	normalizedSheetName := canonicalPatchID(sheetName)
 
 	reader := csv.NewReader(strings.NewReader(csvText))
 	reader.FieldsPerRecord = -1
@@ -831,6 +834,7 @@ func parseSheetToPatchZzz(sheetName, csvText string) (Patch, error) {
 		VersionName:  versionName,
 		StartDate:    startDate,
 		DurationDays: durationDays,
+		Tags:         patchTagsFromSheetName(sheetName, getCell(records[0], 0)),
 		Notes:        "Generated from Zenless Zone Zero Google Sheets by patchsync",
 		Sources:      sources,
 	}, nil
@@ -880,7 +884,7 @@ func parseDataSheetPulls(csvText string, rowToSourceID map[string]string) (map[s
 	header := records[0]
 	patchCols := map[int]string{}
 	for idx, cell := range header {
-		patchName := normalizePatchName(cell)
+		patchName := canonicalPatchID(cell)
 		if patchName == "" || !isVersionLikeSheetName(patchName) {
 			continue
 		}
@@ -941,7 +945,7 @@ func parseZzzDataSheet(csvText string) (map[string]map[string]float64, error) {
 	header := records[0]
 	patchCols := map[int]string{}
 	for idx, cell := range header {
-		patchName := normalizePatchName(cell)
+		patchName := canonicalPatchID(cell)
 		if patchName == "" || !isVersionLikeSheetName(patchName) {
 			continue
 		}

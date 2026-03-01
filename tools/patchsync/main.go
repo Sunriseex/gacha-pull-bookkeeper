@@ -32,6 +32,7 @@ const (
 var versionSheetPattern = regexp.MustCompile(`^\d+\.\d+$`)
 var versionLikeSheetPattern = regexp.MustCompile(`^\d+\.\d+(?:\*+)?(?:\s*(?:\([^)]+\)|[A-Za-z][A-Za-z0-9 ._-]*))?$`)
 var versionPrefixPattern = regexp.MustCompile(`^\s*(\d+)\.(\d+)`)
+var wipTagPattern = regexp.MustCompile(`(?i)(?:^|[^a-z0-9])wip(?:[^a-z0-9]|$)`)
 var spreadsheetIDFromURLPattern = regexp.MustCompile(`/spreadsheets/d/([a-zA-Z0-9-_]+)`)
 var publishedSpreadsheetIDFromURLPattern = regexp.MustCompile(`/spreadsheets/d/e/([a-zA-Z0-9-_]+)`)
 var patchFieldPattern = regexp.MustCompile(`(?m)(?:\bpatch\s*:|"patch"\s*:)\s*"(\d+\.\d+)"`)
@@ -46,6 +47,24 @@ func normalizeSheetNameForMatch(raw string) string {
 
 func isVersionLikeSheetName(raw string) bool {
 	return versionLikeSheetPattern.MatchString(normalizeSheetNameForMatch(raw))
+}
+
+func patchTagsFromSheetName(values ...string) []string {
+	tags := make([]string, 0, 1)
+	for _, raw := range values {
+		normalized := normalizeSheetNameForMatch(raw)
+		if normalized == "" {
+			continue
+		}
+		if wipTagPattern.MatchString(normalized) {
+			tags = append(tags, "WIP")
+			break
+		}
+	}
+	if len(tags) == 0 {
+		return nil
+	}
+	return tags
 }
 
 func isPublishedSpreadsheetID(raw string) bool {
@@ -144,6 +163,7 @@ type Patch struct {
 	VersionName  string   `json:"versionName"`
 	StartDate    string   `json:"startDate"`
 	DurationDays int      `json:"durationDays"`
+	Tags         []string `json:"tags,omitempty"`
 	Notes        string   `json:"notes"`
 	Sources      []Source `json:"sources"`
 }
@@ -397,7 +417,7 @@ func getCell(record []string, idx int) string {
 func inferDurationDays(headers []string, firstDataRow []string, durationCol int) int {
 	for idx, header := range headers {
 		norm := normalizeHeader(header)
-		if strings.Contains(norm, "version length") {
+		if strings.Contains(norm, "version length") || strings.Contains(norm, "version duration") {
 			if idx+1 < len(headers) {
 				if days := parseInt(headers[idx+1]); days > 0 {
 					return days
@@ -479,7 +499,7 @@ func parseSheetToPatch(sheetName, csvText string) (Patch, error) {
 	idxChartered := findHeaderIndex(headers, []string{"chartered hh permit", "chartered"}, -1)
 	idxBasic := findHeaderIndex(headers, []string{"basic hh permit", "basic"}, -1)
 	idxArsenal := findHeaderIndex(headers, []string{"arsenal tickets", "arsenal"}, -1)
-	idxDuration := findHeaderIndex(headers, []string{"version length"}, -1)
+	idxDuration := findHeaderIndex(headers, []string{"version length", "version duration"}, -1)
 
 	// Supports 2 layouts:
 	// 1) Explicit headers in first row (Oroberyl/Origeometry/Chartered/Basic/Arsenal)
@@ -697,12 +717,14 @@ func parseSheetToPatch(sheetName, csvText string) (Patch, error) {
 	}
 
 	versionName, startDate := parsePatchHeaderMeta(getCell(headers, 0))
+	patchID := canonicalPatchID(sheetName)
 	patch := Patch{
-		ID:           sheetName,
-		Patch:        sheetName,
+		ID:           patchID,
+		Patch:        patchID,
 		VersionName:  versionName,
 		StartDate:    startDate,
 		DurationDays: durationDays,
+		Tags:         patchTagsFromSheetName(sheetName, getCell(headers, 0)),
 		Notes:        "Generated from Google Sheets by patchsync",
 		Sources:      sources,
 	}
@@ -1217,6 +1239,7 @@ type generatedPatch struct {
 	VersionName  string            `json:"versionName"`
 	StartDate    string            `json:"startDate"`
 	DurationDays int               `json:"durationDays"`
+	Tags         []string          `json:"tags,omitempty"`
 	Notes        string            `json:"notes"`
 	Sources      []generatedSource `json:"sources"`
 }
@@ -1305,6 +1328,7 @@ func toGeneratedPatch(patch Patch, gameID string) generatedPatch {
 		VersionName:  patch.VersionName,
 		StartDate:    patch.StartDate,
 		DurationDays: patch.DurationDays,
+		Tags:         patch.Tags,
 		Notes:        patch.Notes,
 		Sources:      sources,
 	}
@@ -1425,6 +1449,7 @@ type comparablePatch struct {
 	VersionName  string   `json:"versionName"`
 	StartDate    string   `json:"startDate"`
 	DurationDays int      `json:"durationDays"`
+	Tags         []string `json:"tags,omitempty"`
 	Sources      []Source `json:"sources"`
 }
 
@@ -1435,6 +1460,7 @@ func patchComparableValue(patch Patch) comparablePatch {
 		VersionName:  strings.TrimSpace(patch.VersionName),
 		StartDate:    strings.TrimSpace(patch.StartDate),
 		DurationDays: patch.DurationDays,
+		Tags:         patch.Tags,
 		Sources:      patch.Sources,
 	}
 }

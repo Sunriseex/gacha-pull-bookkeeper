@@ -89,6 +89,18 @@ const formatValue = (value) => {
   return Number.isInteger(rounded) ? String(rounded) : rounded.toFixed(1);
 };
 
+const PATCH_WIP_SUFFIX_PATTERN = /\(\s*WIP\s*\)\s*$/i;
+
+const splitPatchLabel = (label) => {
+  const raw = String(label ?? "").trim();
+  if (!raw) {
+    return { base: "", isWip: false };
+  }
+
+  const isWip = PATCH_WIP_SUFFIX_PATTERN.test(raw);
+  const base = isWip ? raw.replace(PATCH_WIP_SUFFIX_PATTERN, "").trim() : raw;
+  return { base, isWip };
+};
 const easeOutCubic = (t) => 1 - (1 - t) ** 3;
 
 const yMaxFor = (maxValue) => {
@@ -442,11 +454,19 @@ const renderPatchChart = (canvas, series, state, progress = 1) => {
       text: formatValue(item.total),
     });
 
-    ctx.fillStyle = "#cdd6f4";
     ctx.textAlign = "center";
-    ctx.font = `10px ${FONT_STACK}`;
     const xLabelY = pad.top + chartH + 20 + (patchIdx % 2) * 11;
-    ctx.fillText(item.label, barX + barWidth / 2, xLabelY);
+    const patchLabel = splitPatchLabel(item.label);
+
+    ctx.fillStyle = "#cdd6f4";
+    ctx.font = `10px ${FONT_STACK}`;
+    ctx.fillText(patchLabel.base || item.label, barX + barWidth / 2, xLabelY);
+
+    if (patchLabel.isWip) {
+      ctx.fillStyle = "#f5c2e7";
+      ctx.font = `9px ${FONT_STACK}`;
+      ctx.fillText("WIP", barX + barWidth / 2, xLabelY + 10);
+    }
   });
 
   renderValueLabels(ctx, valueLabels, pad.top + 10);
