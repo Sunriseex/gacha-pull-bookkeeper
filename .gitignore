@@ -28,3 +28,8 @@ go.work.sum
 tools/patchsync/patchsync.exe
 tools/patchsync/logs/
 tools/patchsync/tools/
+
+
+#makefile
+*.http
+*.sync
