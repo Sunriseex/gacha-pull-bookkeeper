@@ -439,7 +439,7 @@ const chartPatchLabel = (row) => {
   if (!base) {
     return "";
   }
-  if (hasPatchTag(row, "WIP") && !/\(\s*WIP\s*\)/i.test(base)) {
+  if (hasPatchTag(row, "WIP") && !/\(\s*(?:WIP|STC)\s*\)/i.test(base)) {
     return base + " (WIP)";
   }
   return base;
@@ -454,4 +454,5 @@ export const chartSeries = (rows, options, game = {}) =>
       segments: totals.sourceBreakdown,
     };
   });
+
 

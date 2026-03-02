@@ -89,7 +89,7 @@ const formatValue = (value) => {
   return Number.isInteger(rounded) ? String(rounded) : rounded.toFixed(1);
 };
 
-const PATCH_WIP_SUFFIX_PATTERN = /\(\s*WIP\s*\)\s*$/i;
+const PATCH_WIP_SUFFIX_PATTERN = /\(\s*(?:WIP|STC)\s*\)\s*$/i;
 
 const splitPatchLabel = (label) => {
   const raw = String(label ?? "").trim();
@@ -100,6 +100,21 @@ const splitPatchLabel = (label) => {
   const isWip = PATCH_WIP_SUFFIX_PATTERN.test(raw);
   const base = isWip ? raw.replace(PATCH_WIP_SUFFIX_PATTERN, "").trim() : raw;
   return { base, isWip };
+};
+
+const drawRoundedRect = (ctx, x, y, w, h, r) => {
+  const radius = Math.max(0, Math.min(r, w / 2, h / 2));
+  ctx.beginPath();
+  ctx.moveTo(x + radius, y);
+  ctx.lineTo(x + w - radius, y);
+  ctx.arcTo(x + w, y, x + w, y + radius, radius);
+  ctx.lineTo(x + w, y + h - radius);
+  ctx.arcTo(x + w, y + h, x + w - radius, y + h, radius);
+  ctx.lineTo(x + radius, y + h);
+  ctx.arcTo(x, y + h, x, y + h - radius, radius);
+  ctx.lineTo(x, y + radius);
+  ctx.arcTo(x, y, x + radius, y, radius);
+  ctx.closePath();
 };
 const easeOutCubic = (t) => 1 - (1 - t) ** 3;
 
@@ -463,9 +478,26 @@ const renderPatchChart = (canvas, series, state, progress = 1) => {
     ctx.fillText(patchLabel.base || item.label, barX + barWidth / 2, xLabelY);
 
     if (patchLabel.isWip) {
-      ctx.fillStyle = "#f5c2e7";
+      const badgeText = "WIP";
       ctx.font = `9px ${FONT_STACK}`;
-      ctx.fillText("WIP", barX + barWidth / 2, xLabelY + 10);
+      const badgeTextWidth = ctx.measureText(badgeText).width;
+      const badgePadX = 5;
+      const badgeW = Math.ceil(badgeTextWidth + badgePadX * 2);
+      const badgeH = 12;
+      const badgeX = Math.round(barX + barWidth / 2 - badgeW / 2);
+      const badgeY = Math.round(xLabelY + 2);
+
+      drawRoundedRect(ctx, badgeX, badgeY, badgeW, badgeH, 5);
+      ctx.fillStyle = "#f5c2e7";
+      ctx.fill();
+      ctx.strokeStyle = "#f38ba8";
+      ctx.lineWidth = 1;
+      ctx.stroke();
+
+      ctx.fillStyle = "#1e1e2e";
+      ctx.textBaseline = "middle";
+      ctx.fillText(badgeText, barX + barWidth / 2, badgeY + badgeH / 2 + 0.5);
+      ctx.textBaseline = "alphabetic";
     }
   });
 
@@ -535,3 +567,5 @@ export const drawPatchChart = (canvas, series) => {
   }
   renderPatchChart(canvas, series, state, 1);
 };
+
+
