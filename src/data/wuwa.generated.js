@@ -3751,11 +3751,14 @@ export const GENERATED_PATCHES = [
     ]
   },
   {
-    "id": "3.1 (STC)",
-    "patch": "3.1 (STC)",
+    "id": "3.1",
+    "patch": "3.1",
     "versionName": "For You Who Walk in Snow",
     "startDate": "2026-02-05",
     "durationDays": 42,
+    "tags": [
+      "WIP"
+    ],
     "notes": "Generated from Wuthering Waves Google Sheets by patchsync",
     "sources": [
       {
@@ -4022,5 +4025,5 @@ export const GENERATED_PATCHES_META = {
     "2.8",
     "3.0"
   ],
-  "generatedAt": "2026-03-01T23:24:10Z"
+  "generatedAt": "2026-03-02T02:14:04Z"
 };
