@@ -32,7 +32,7 @@ const (
 var versionSheetPattern = regexp.MustCompile(`^\d+\.\d+$`)
 var versionLikeSheetPattern = regexp.MustCompile(`^\d+\.\d+(?:\*+)?(?:\s*(?:\([^)]+\)|[A-Za-z][A-Za-z0-9 ._-]*))?$`)
 var versionPrefixPattern = regexp.MustCompile(`^\s*(\d+)\.(\d+)`)
-var wipTagPattern = regexp.MustCompile(`(?i)(?:^|[^a-z0-9])wip(?:[^a-z0-9]|$)`)
+var wipTagPattern = regexp.MustCompile(`(?i)(?:^|[^a-z0-9])(?:wip|stc)(?:[^a-z0-9]|$)`)
 var spreadsheetIDFromURLPattern = regexp.MustCompile(`/spreadsheets/d/([a-zA-Z0-9-_]+)`)
 var publishedSpreadsheetIDFromURLPattern = regexp.MustCompile(`/spreadsheets/d/e/([a-zA-Z0-9-_]+)`)
 var patchFieldPattern = regexp.MustCompile(`(?m)(?:\bpatch\s*:|"patch"\s*:)\s*"(\d+\.\d+)"`)
