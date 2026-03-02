@@ -1416,22 +1416,24 @@ func mergePatchesByID(existing []Patch, additions []Patch) []Patch {
 	byID := make(map[string]Patch, len(existing)+len(additions))
 	order := make([]string, 0, len(existing)+len(additions))
 	for _, patch := range existing {
-		if strings.TrimSpace(patch.ID) == "" {
+		identity := patchIDOrFallback(patch)
+		if identity == "" {
 			continue
 		}
-		if _, ok := byID[patch.ID]; !ok {
-			order = append(order, patch.ID)
+		if _, ok := byID[identity]; !ok {
+			order = append(order, identity)
 		}
-		byID[patch.ID] = patch
+		byID[identity] = patch
 	}
 	for _, patch := range additions {
-		if strings.TrimSpace(patch.ID) == "" {
+		identity := patchIDOrFallback(patch)
+		if identity == "" {
 			continue
 		}
-		if _, ok := byID[patch.ID]; !ok {
-			order = append(order, patch.ID)
+		if _, ok := byID[identity]; !ok {
+			order = append(order, identity)
 		}
-		byID[patch.ID] = patch
+		byID[identity] = patch
 	}
 	merged := make([]Patch, 0, len(order))
 	for _, id := range order {
@@ -1489,7 +1491,10 @@ func patchIDOrFallback(patch Patch) string {
 	if patchID == "" {
 		patchID = strings.TrimSpace(patch.ID)
 	}
-	return patchID
+	if patchID == "" {
+		return ""
+	}
+	return canonicalPatchID(patchID)
 }
 
 func sourceByID(patch Patch) map[string]Source {
