@@ -430,12 +430,28 @@ export const aggregateTotals = (rows, options, game = {}) => {
   };
 };
 
+const hasPatchTag = (row, expectedTag) =>
+  Array.isArray(row?.tags) &&
+  row.tags.some((tag) => String(tag ?? "").trim().toUpperCase() === expectedTag);
+
+const chartPatchLabel = (row) => {
+  const base = String(row?.patch ?? "").trim();
+  if (!base) {
+    return "";
+  }
+  if (hasPatchTag(row, "WIP") && !/\(\s*(?:WIP|STC)\s*\)/i.test(base)) {
+    return base + " (WIP)";
+  }
+  return base;
+};
+
 export const chartSeries = (rows, options, game = {}) =>
   rows.map((row) => {
     const totals = calculatePatchTotals(row, options, game);
     return {
-      label: row.patch,
+      label: chartPatchLabel(row),
       total: totals.sourceBreakdown.reduce((sum, source) => sum + source.value, 0),
       segments: totals.sourceBreakdown,
     };
   });
+
