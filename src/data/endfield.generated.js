@@ -14,16 +14,16 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 33,
+        "pulls": 35,
         "rewards": {
           "arsenal": 0,
           "basic": 10,
-          "chartered": 12,
-          "firewalker": 5,
-          "hues": 5,
-          "messenger": 5,
+          "chartered": 27,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 3000
+          "oroberyl": 4000
         },
         "costs": {
           "arsenal": 0,
@@ -467,7 +467,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 20.2,
+        "pulls": 20.6,
         "rewards": {
           "arsenal": 0,
           "basic": 0,
@@ -476,7 +476,7 @@ export const GENERATED_PATCHES = [
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 5100
+          "oroberyl": 5300
         },
         "costs": {
           "arsenal": 0,
@@ -496,16 +496,16 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 24.1,
+        "pulls": 27.3,
         "rewards": {
           "arsenal": 0,
-          "basic": 12,
+          "basic": 10,
           "chartered": 10,
           "firewalker": 0,
           "hues": 0,
           "messenger": 0,
           "origeometry": 17,
-          "oroberyl": 7040
+          "oroberyl": 8635
         },
         "costs": {
           "arsenal": 0,
@@ -911,5 +911,5 @@ export const GENERATED_PATCHES_META = {
     "1.0",
     "1.1"
   ],
-  "generatedAt": "2026-03-01T23:59:26Z"
+  "generatedAt": "2026-03-02T02:13:51Z"
 };
