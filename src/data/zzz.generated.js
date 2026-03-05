@@ -3351,7 +3351,7 @@ export const GENERATED_PATCHES = [
     "patch": "2.6",
     "versionName": "Encore for an Old Dream",
     "startDate": "2026-02-05",
-    "durationDays": 49,
+    "durationDays": 47,
     "notes": "Generated from Zenless Zone Zero Google Sheets by patchsync",
     "sources": [
       {
@@ -3412,7 +3412,7 @@ export const GENERATED_PATCHES = [
           "encryptedMasterTape": 0,
           "masterTape": 0,
           "monochrome": 0,
-          "polychrome": 1197
+          "polychrome": 1193
         },
         "costs": {
           "boopon": 0,
@@ -3429,13 +3429,13 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 22.6,
+        "pulls": 21.7,
         "rewards": {
           "boopon": 0,
           "encryptedMasterTape": 0,
           "masterTape": 0,
           "monochrome": 0,
-          "polychrome": 3613
+          "polychrome": 3466
         },
         "costs": {
           "boopon": 0,
@@ -3452,13 +3452,13 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 7,
+        "pulls": 6.7,
         "rewards": {
-          "boopon": 43,
+          "boopon": 41.3,
           "encryptedMasterTape": 0,
-          "masterTape": 10.2,
+          "masterTape": 9.8,
           "monochrome": 0,
-          "polychrome": 1120
+          "polychrome": 1074
         },
         "costs": {
           "boopon": 0,
@@ -3497,11 +3497,11 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 8,
+        "pulls": 7.7,
         "rewards": {
-          "boopon": 8,
-          "encryptedMasterTape": 8,
-          "masterTape": 8,
+          "boopon": 7.7,
+          "encryptedMasterTape": 7.7,
+          "masterTape": 7.7,
           "monochrome": 0,
           "polychrome": 0
         },
@@ -3520,13 +3520,13 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 23.6,
+        "pulls": 22.6,
         "rewards": {
-          "boopon": 8,
+          "boopon": 7.7,
           "encryptedMasterTape": 0,
           "masterTape": 0,
           "monochrome": 0,
-          "polychrome": 3780
+          "polychrome": 3626
         },
         "costs": {
           "boopon": 0,
@@ -3566,13 +3566,13 @@ export const GENERATED_PATCHES = [
         "gate": "monthly",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 30.6,
+        "pulls": 29.4,
         "rewards": {
           "boopon": 0,
           "encryptedMasterTape": 0,
           "masterTape": 0,
           "monochrome": 0,
-          "polychrome": 4900
+          "polychrome": 4700
         },
         "costs": {
           "boopon": 0,
@@ -3606,5 +3606,5 @@ export const GENERATED_PATCHES_META = {
     "2.4",
     "2.5"
   ],
-  "generatedAt": "2026-02-23T09:19:55Z"
+  "generatedAt": "2026-03-05T21:38:20Z"
 };
