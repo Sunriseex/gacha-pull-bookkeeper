@@ -14,16 +14,16 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 35,
+        "pulls": 34,
         "rewards": {
           "arsenal": 0,
-          "basic": 10,
+          "basic": 2,
           "chartered": 27,
           "firewalker": 0,
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 4000
+          "oroberyl": 3500
         },
         "costs": {
           "arsenal": 0,
@@ -385,7 +385,7 @@ export const GENERATED_PATCHES = [
         "gate": "bp2",
         "optionKey": "includeBpCrates",
         "countInPulls": true,
-        "pulls": 2.2,
+        "pulls": 2.3,
         "rewards": {
           "arsenal": 0,
           "basic": 0,
@@ -394,7 +394,7 @@ export const GENERATED_PATCHES = [
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 1102
+          "oroberyl": 1139
         },
         "costs": {
           "arsenal": 0,
@@ -428,7 +428,7 @@ export const GENERATED_PATCHES = [
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 334
+          "oroberyl": 445
         },
         "costs": {
           "arsenal": 0,
@@ -838,7 +838,7 @@ export const GENERATED_PATCHES = [
         "gate": "bp2",
         "optionKey": "includeBpCrates",
         "countInPulls": true,
-        "pulls": 2.2,
+        "pulls": 2.3,
         "rewards": {
           "arsenal": 0,
           "basic": 10,
@@ -847,7 +847,7 @@ export const GENERATED_PATCHES = [
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 1102
+          "oroberyl": 1139
         },
         "costs": {
           "arsenal": 0,
@@ -881,7 +881,7 @@ export const GENERATED_PATCHES = [
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 334
+          "oroberyl": 445
         },
         "costs": {
           "arsenal": 0,
@@ -911,5 +911,5 @@ export const GENERATED_PATCHES_META = {
     "1.0",
     "1.1"
   ],
-  "generatedAt": "2026-03-02T02:13:51Z"
+  "generatedAt": "2026-03-05T21:37:42Z"
 };
