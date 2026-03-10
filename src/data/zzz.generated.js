@@ -3360,13 +3360,13 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 61.9,
+        "pulls": 61.7,
         "rewards": {
           "boopon": 20,
           "encryptedMasterTape": 10,
           "masterTape": 0,
           "monochrome": 0,
-          "polychrome": 8303
+          "polychrome": 8273
         },
         "costs": {
           "boopon": 0,
@@ -3606,5 +3606,5 @@ export const GENERATED_PATCHES_META = {
     "2.4",
     "2.5"
   ],
-  "generatedAt": "2026-03-05T21:38:20Z"
+  "generatedAt": "2026-03-10T12:28:41Z"
 };
