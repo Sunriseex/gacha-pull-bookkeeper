@@ -248,7 +248,7 @@ export const GENERATED_PATCHES = [
         "rewards": {
           "arsenal": 0,
           "basic": 0,
-          "chartered": 20,
+          "chartered": 0,
           "firewalker": 0,
           "hues": 0,
           "messenger": 0,
@@ -385,7 +385,7 @@ export const GENERATED_PATCHES = [
         "gate": "bp2",
         "optionKey": "includeBpCrates",
         "countInPulls": true,
-        "pulls": 2.3,
+        "pulls": 2.4,
         "rewards": {
           "arsenal": 0,
           "basic": 0,
@@ -394,7 +394,7 @@ export const GENERATED_PATCHES = [
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 1139
+          "oroberyl": 1213
         },
         "costs": {
           "arsenal": 0,
@@ -428,7 +428,7 @@ export const GENERATED_PATCHES = [
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 445
+          "oroberyl": 601
         },
         "costs": {
           "arsenal": 0,
@@ -456,9 +456,6 @@ export const GENERATED_PATCHES = [
     "versionName": "Old Deep Water Dies, by Rising Tide It is Denied",
     "startDate": "2026-03-12",
     "durationDays": 35,
-    "tags": [
-      "WIP"
-    ],
     "notes": "Generated from Google Sheets by patchsync",
     "sources": [
       {
@@ -467,16 +464,16 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 20.6,
+        "pulls": 21.6,
         "rewards": {
           "arsenal": 0,
-          "basic": 0,
+          "basic": 2,
           "chartered": 10,
           "firewalker": 0,
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 5300
+          "oroberyl": 5800
         },
         "costs": {
           "arsenal": 0,
@@ -496,16 +493,16 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 27.3,
+        "pulls": 24.6,
         "rewards": {
           "arsenal": 0,
-          "basic": 10,
+          "basic": 8,
           "chartered": 10,
           "firewalker": 0,
           "hues": 0,
           "messenger": 0,
-          "origeometry": 17,
-          "oroberyl": 8635
+          "origeometry": 23,
+          "oroberyl": 7285
         },
         "costs": {
           "arsenal": 0,
@@ -525,7 +522,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 6.4,
+        "pulls": 8.5,
         "rewards": {
           "arsenal": 0,
           "basic": 0,
@@ -534,7 +531,7 @@ export const GENERATED_PATCHES = [
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 3199
+          "oroberyl": 4249
         },
         "costs": {
           "arsenal": 0,
@@ -701,7 +698,7 @@ export const GENERATED_PATCHES = [
         "rewards": {
           "arsenal": 0,
           "basic": 0,
-          "chartered": 20,
+          "chartered": 0,
           "firewalker": 0,
           "hues": 0,
           "messenger": 0,
@@ -838,16 +835,16 @@ export const GENERATED_PATCHES = [
         "gate": "bp2",
         "optionKey": "includeBpCrates",
         "countInPulls": true,
-        "pulls": 2.3,
+        "pulls": 1.9,
         "rewards": {
           "arsenal": 0,
-          "basic": 10,
+          "basic": 6,
           "chartered": 0,
           "firewalker": 0,
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 1139
+          "oroberyl": 968
         },
         "costs": {
           "arsenal": 0,
@@ -881,7 +878,7 @@ export const GENERATED_PATCHES = [
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 445
+          "oroberyl": 178
         },
         "costs": {
           "arsenal": 0,
@@ -908,8 +905,8 @@ export const GENERATED_PATCHES_META = {
   "gameId": "arknights-endfield",
   "spreadsheetId": "1zGNuQ53R7c190RG40dHxcHv8tJuT3cBaclm8CjI-luY",
   "sheets": [
-    "1.1",
-    "1.0"
+    "1.0",
+    "1.1"
   ],
-  "generatedAt": "2026-03-10T12:28:19Z"
+  "generatedAt": "2026-03-18T09:01:05Z"
 };
