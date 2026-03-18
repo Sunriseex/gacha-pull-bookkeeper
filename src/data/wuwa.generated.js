@@ -214,7 +214,7 @@ export const GENERATED_PATCHES = [
         "gate": "monthly",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 20.3,
+        "pulls": 22.5,
         "rewards": {
           "astrite": 0,
           "forgingTide": 0,
@@ -464,7 +464,7 @@ export const GENERATED_PATCHES = [
         "gate": "monthly",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 26.4,
+        "pulls": 29.4,
         "rewards": {
           "astrite": 0,
           "forgingTide": 0,
@@ -564,9 +564,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 4.8,
+        "pulls": 6.6,
         "rewards": {
-          "astrite": 760,
+          "astrite": 1060,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -614,7 +614,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 13.6,
+        "pulls": 13.7,
         "rewards": {
           "astrite": 4840,
           "forgingTide": 7,
@@ -714,7 +714,7 @@ export const GENERATED_PATCHES = [
         "gate": "monthly",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 24.8,
+        "pulls": 27.5,
         "rewards": {
           "astrite": 0,
           "forgingTide": 0,
@@ -964,7 +964,7 @@ export const GENERATED_PATCHES = [
         "gate": "monthly",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 25.9,
+        "pulls": 28.8,
         "rewards": {
           "astrite": 0,
           "forgingTide": 0,
@@ -1039,9 +1039,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 4.1,
+        "pulls": 4.7,
         "rewards": {
-          "astrite": 655,
+          "astrite": 755,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -1214,7 +1214,7 @@ export const GENERATED_PATCHES = [
         "gate": "monthly",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 28.1,
+        "pulls": 31.3,
         "rewards": {
           "astrite": 0,
           "forgingTide": 0,
@@ -1264,9 +1264,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 23.6,
+        "pulls": 20.4,
         "rewards": {
-          "astrite": 2970,
+          "astrite": 2470,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -1289,9 +1289,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 56.9,
+        "pulls": 60,
         "rewards": {
-          "astrite": 9107,
+          "astrite": 9607,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -1364,7 +1364,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 13.1,
+        "pulls": 13.2,
         "rewards": {
           "astrite": 4620,
           "forgingTide": 7,
@@ -1464,7 +1464,7 @@ export const GENERATED_PATCHES = [
         "gate": "monthly",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 23.6,
+        "pulls": 26.3,
         "rewards": {
           "astrite": 0,
           "forgingTide": 0,
@@ -1514,9 +1514,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 25.4,
+        "pulls": 23.5,
         "rewards": {
-          "astrite": 3260,
+          "astrite": 2960,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -1539,9 +1539,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 17.3,
+        "pulls": 19.2,
         "rewards": {
-          "astrite": 2765,
+          "astrite": 3065,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -1714,7 +1714,7 @@ export const GENERATED_PATCHES = [
         "gate": "monthly",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 23.6,
+        "pulls": 26.3,
         "rewards": {
           "astrite": 0,
           "forgingTide": 0,
@@ -1814,9 +1814,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 16.6,
+        "pulls": 17.3,
         "rewards": {
-          "astrite": 1060,
+          "astrite": 1160,
           "forgingTide": 10,
           "forgingToken": 0,
           "lunite": 0,
@@ -1864,7 +1864,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 15.7,
+        "pulls": 15.6,
         "rewards": {
           "astrite": 4502,
           "forgingTide": 7,
@@ -1964,7 +1964,7 @@ export const GENERATED_PATCHES = [
         "gate": "monthly",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 18.6,
+        "pulls": 20.6,
         "rewards": {
           "astrite": 0,
           "forgingTide": 0,
@@ -2014,9 +2014,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 53.1,
+        "pulls": 51.9,
         "rewards": {
-          "astrite": 2900,
+          "astrite": 2700,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -2039,9 +2039,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 8,
+        "pulls": 10.7,
         "rewards": {
-          "astrite": 1280,
+          "astrite": 1705,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -2064,9 +2064,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 6.9,
+        "pulls": 7.5,
         "rewards": {
-          "astrite": 1100,
+          "astrite": 1200,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -2114,7 +2114,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 20,
+        "pulls": 19.9,
         "rewards": {
           "astrite": 5730,
           "forgingTide": 7,
@@ -2214,7 +2214,7 @@ export const GENERATED_PATCHES = [
         "gate": "monthly",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 23.6,
+        "pulls": 26.3,
         "rewards": {
           "astrite": 0,
           "forgingTide": 0,
@@ -2264,9 +2264,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 24.5,
+        "pulls": 22,
         "rewards": {
-          "astrite": 3120,
+          "astrite": 2720,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -2289,9 +2289,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 31.6,
+        "pulls": 39.5,
         "rewards": {
-          "astrite": 5050,
+          "astrite": 6325,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -2314,9 +2314,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 15.6,
+        "pulls": 16.3,
         "rewards": {
-          "astrite": 900,
+          "astrite": 1000,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -2464,7 +2464,7 @@ export const GENERATED_PATCHES = [
         "gate": "monthly",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 23.6,
+        "pulls": 26.3,
         "rewards": {
           "astrite": 0,
           "forgingTide": 0,
@@ -2514,9 +2514,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 20.4,
+        "pulls": 18.5,
         "rewards": {
-          "astrite": 2460,
+          "astrite": 2160,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -2539,9 +2539,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 10.3,
+        "pulls": 14.6,
         "rewards": {
-          "astrite": 1650,
+          "astrite": 2330,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -2564,9 +2564,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 5.6,
+        "pulls": 6.3,
         "rewards": {
-          "astrite": 900,
+          "astrite": 1000,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -2614,7 +2614,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 16.8,
+        "pulls": 16.7,
         "rewards": {
           "astrite": 4775,
           "forgingTide": 7,
@@ -2714,7 +2714,7 @@ export const GENERATED_PATCHES = [
         "gate": "monthly",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 19.7,
+        "pulls": 21.9,
         "rewards": {
           "astrite": 0,
           "forgingTide": 0,
@@ -2764,9 +2764,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 39.3,
+        "pulls": 37.4,
         "rewards": {
-          "astrite": 3880,
+          "astrite": 3580,
           "forgingTide": 10,
           "forgingToken": 0,
           "lunite": 0,
@@ -2789,13 +2789,13 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 15.6,
+        "pulls": 20.8,
         "rewards": {
-          "astrite": 2495,
+          "astrite": 3325,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
-          "lustrousTide": 1,
+          "lustrousTide": 3,
           "radiantTide": 0
         },
         "costs": {
@@ -2814,9 +2814,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 5.6,
+        "pulls": 6.3,
         "rewards": {
-          "astrite": 900,
+          "astrite": 1000,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -2864,7 +2864,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 22.6,
+        "pulls": 19.9,
         "rewards": {
           "astrite": 5730,
           "forgingTide": 7,
@@ -2964,7 +2964,7 @@ export const GENERATED_PATCHES = [
         "gate": "monthly",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 23.6,
+        "pulls": 26.3,
         "rewards": {
           "astrite": 0,
           "forgingTide": 0,
@@ -3039,9 +3039,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 8.3,
+        "pulls": 9.5,
         "rewards": {
-          "astrite": 1335,
+          "astrite": 1515,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -3114,7 +3114,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 23.6,
+        "pulls": 20.9,
         "rewards": {
           "astrite": 5880,
           "forgingTide": 7,
@@ -3214,7 +3214,7 @@ export const GENERATED_PATCHES = [
         "gate": "monthly",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 23.6,
+        "pulls": 26.3,
         "rewards": {
           "astrite": 0,
           "forgingTide": 0,
@@ -3264,9 +3264,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 22.1,
+        "pulls": 19.6,
         "rewards": {
-          "astrite": 2740,
+          "astrite": 2340,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -3289,9 +3289,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 7.9,
+        "pulls": 9.8,
         "rewards": {
-          "astrite": 1270,
+          "astrite": 1560,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -3314,9 +3314,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 24.5,
+        "pulls": 25.1,
         "rewards": {
-          "astrite": 3920,
+          "astrite": 4020,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -3364,9 +3364,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 23.8,
+        "pulls": 20,
         "rewards": {
-          "astrite": 5900,
+          "astrite": 5300,
           "forgingTide": 7,
           "forgingToken": 0,
           "lunite": 0,
@@ -3464,7 +3464,7 @@ export const GENERATED_PATCHES = [
         "gate": "monthly",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 19.7,
+        "pulls": 21.9,
         "rewards": {
           "astrite": 0,
           "forgingTide": 0,
@@ -3514,13 +3514,13 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 34.1,
+        "pulls": 20.6,
         "rewards": {
-          "astrite": 4650,
+          "astrite": 2490,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
-          "lustrousTide": 13,
+          "lustrousTide": 8,
           "radiantTide": 5
         },
         "costs": {
@@ -3539,13 +3539,13 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 48.1,
+        "pulls": 58.5,
         "rewards": {
-          "astrite": 7700,
+          "astrite": 9365,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
-          "lustrousTide": 21,
+          "lustrousTide": 24,
           "radiantTide": 0
         },
         "costs": {
@@ -3614,9 +3614,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 23.6,
+        "pulls": 23.5,
         "rewards": {
-          "astrite": 5880,
+          "astrite": 6280,
           "forgingTide": 7,
           "forgingToken": 0,
           "lunite": 0,
@@ -3714,7 +3714,7 @@ export const GENERATED_PATCHES = [
         "gate": "monthly",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 23.6,
+        "pulls": 26.3,
         "rewards": {
           "astrite": 0,
           "forgingTide": 0,
@@ -3756,9 +3756,6 @@ export const GENERATED_PATCHES = [
     "versionName": "For You Who Walk in Snow",
     "startDate": "2026-02-05",
     "durationDays": 42,
-    "tags": [
-      "WIP"
-    ],
     "notes": "Generated from Wuthering Waves Google Sheets by patchsync",
     "sources": [
       {
@@ -3773,7 +3770,7 @@ export const GENERATED_PATCHES = [
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
-          "lustrousTide": 15,
+          "lustrousTide": 20,
           "radiantTide": 15
         },
         "costs": {
@@ -3792,13 +3789,13 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 17.8,
+        "pulls": 20.5,
         "rewards": {
-          "astrite": 2845,
+          "astrite": 3280,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
-          "lustrousTide": 1,
+          "lustrousTide": 5,
           "radiantTide": 0
         },
         "costs": {
@@ -3817,9 +3814,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 17.2,
+        "pulls": 20.9,
         "rewards": {
-          "astrite": 2750,
+          "astrite": 3340,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -3867,9 +3864,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 34.8,
+        "pulls": 23.4,
         "rewards": {
-          "astrite": 7680,
+          "astrite": 6280,
           "forgingTide": 7,
           "forgingToken": 0,
           "lunite": 0,
@@ -3967,7 +3964,260 @@ export const GENERATED_PATCHES = [
         "gate": "monthly",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 23.6,
+        "pulls": 26.3,
+        "rewards": {
+          "astrite": 0,
+          "forgingTide": 0,
+          "forgingToken": 0,
+          "lunite": 0,
+          "lustrousTide": 0,
+          "radiantTide": 0
+        },
+        "costs": {
+          "astrite": 0,
+          "forgingTide": 0,
+          "forgingToken": 0,
+          "lunite": 0,
+          "lustrousTide": 0,
+          "radiantTide": 0
+        },
+        "scalers": [
+          {
+            "type": "per_duration",
+            "unit": "day",
+            "everyDays": 1,
+            "rounding": "floor",
+            "rewards": {
+              "astrite": 90,
+              "forgingTide": 0,
+              "forgingToken": 0,
+              "lunite": 0,
+              "lustrousTide": 0,
+              "radiantTide": 0
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "3.2",
+    "patch": "3.2",
+    "versionName": "Resolution to Illuminate the Shadows",
+    "startDate": "2026-03-19",
+    "durationDays": 42,
+    "tags": [
+      "WIP"
+    ],
+    "notes": "Generated from Wuthering Waves Google Sheets by patchsync",
+    "sources": [
+      {
+        "id": "events",
+        "label": "Version Events",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "pulls": 20.5,
+        "rewards": {
+          "astrite": 2480,
+          "forgingTide": 0,
+          "forgingToken": 0,
+          "lunite": 0,
+          "lustrousTide": 5,
+          "radiantTide": 5
+        },
+        "costs": {
+          "astrite": 0,
+          "forgingTide": 0,
+          "forgingToken": 0,
+          "lunite": 0,
+          "lustrousTide": 0,
+          "radiantTide": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "permanent",
+        "label": "Permanent Content",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "pulls": 5.1,
+        "rewards": {
+          "astrite": 820,
+          "forgingTide": 0,
+          "forgingToken": 0,
+          "lunite": 0,
+          "lustrousTide": 0,
+          "radiantTide": 0
+        },
+        "costs": {
+          "astrite": 0,
+          "forgingTide": 0,
+          "forgingToken": 0,
+          "lunite": 0,
+          "lustrousTide": 0,
+          "radiantTide": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "mailbox",
+        "label": "Mailbox/Miscellaneous",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "pulls": 5.9,
+        "rewards": {
+          "astrite": 950,
+          "forgingTide": 0,
+          "forgingToken": 0,
+          "lunite": 0,
+          "lustrousTide": 0,
+          "radiantTide": 0
+        },
+        "costs": {
+          "astrite": 0,
+          "forgingTide": 0,
+          "forgingToken": 0,
+          "lunite": 0,
+          "lustrousTide": 0,
+          "radiantTide": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "dailyActivity",
+        "label": "Daily Activity",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "pulls": 15.8,
+        "rewards": {
+          "astrite": 0,
+          "forgingTide": 0,
+          "forgingToken": 0,
+          "lunite": 0,
+          "lustrousTide": 0,
+          "radiantTide": 0
+        },
+        "costs": {
+          "astrite": 0,
+          "forgingTide": 0,
+          "forgingToken": 0,
+          "lunite": 0,
+          "lustrousTide": 0,
+          "radiantTide": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "endgameModes",
+        "label": "Endgame Modes",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "pulls": 23.5,
+        "rewards": {
+          "astrite": 6280,
+          "forgingTide": 7,
+          "forgingToken": 0,
+          "lunite": 0,
+          "lustrousTide": 12,
+          "radiantTide": 7
+        },
+        "costs": {
+          "astrite": 0,
+          "forgingTide": 0,
+          "forgingToken": 0,
+          "lunite": 0,
+          "lustrousTide": 0,
+          "radiantTide": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "coralShop",
+        "label": "Coral Shop",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "pulls": 7,
+        "rewards": {
+          "astrite": 0,
+          "forgingTide": 0,
+          "forgingToken": 0,
+          "lunite": 0,
+          "lustrousTide": 0,
+          "radiantTide": 0
+        },
+        "costs": {
+          "astrite": 0,
+          "forgingTide": 0,
+          "forgingToken": 0,
+          "lunite": 0,
+          "lustrousTide": 0,
+          "radiantTide": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "weaponPulls",
+        "label": "Weapon Pulls",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "pulls": 7,
+        "rewards": {
+          "astrite": 0,
+          "forgingTide": 0,
+          "forgingToken": 0,
+          "lunite": 0,
+          "lustrousTide": 0,
+          "radiantTide": 0
+        },
+        "costs": {
+          "astrite": 0,
+          "forgingTide": 0,
+          "forgingToken": 0,
+          "lunite": 0,
+          "lustrousTide": 0,
+          "radiantTide": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "paidPodcast",
+        "label": "Paid Pioneer Podcast",
+        "gate": "bp2",
+        "optionKey": null,
+        "countInPulls": true,
+        "pulls": 9.3,
+        "rewards": {
+          "astrite": 680,
+          "forgingTide": 0,
+          "forgingToken": 0,
+          "lunite": 0,
+          "lustrousTide": 2,
+          "radiantTide": 5
+        },
+        "costs": {
+          "astrite": 0,
+          "forgingTide": 0,
+          "forgingToken": 0,
+          "lunite": 0,
+          "lustrousTide": 0,
+          "radiantTide": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "monthly",
+        "label": "Lunite Subscription",
+        "gate": "monthly",
+        "optionKey": null,
+        "countInPulls": true,
+        "pulls": 26.3,
         "rewards": {
           "astrite": 0,
           "forgingTide": 0,
@@ -4008,7 +4258,6 @@ export const GENERATED_PATCHES_META = {
   "gameId": "wuthering-waves",
   "spreadsheetId": "1msSsnWBcXKniykf4rWQCEdk2IQuB9JHy",
   "sheets": [
-    "3.1 (STC)",
     "1.0",
     "1.1",
     "1.2",
@@ -4023,7 +4272,9 @@ export const GENERATED_PATCHES_META = {
     "2.6",
     "2.7",
     "2.8",
-    "3.0"
+    "3.0",
+    "3.1",
+    "3.2 (STC)"
   ],
-  "generatedAt": "2026-03-05T21:37:56Z"
+  "generatedAt": "2026-03-18T09:01:12Z"
 };
