@@ -15,18 +15,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 1130,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 1130,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -37,18 +37,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -59,18 +59,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 3660,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 10,
-          "acquaintFate": 0
+          "primogem": 3660,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -81,18 +81,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -103,18 +103,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -125,40 +125,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -169,18 +169,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -192,18 +192,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 123.1,
         "rewards": {
-          "primogem": 4056.986301,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4056.986301,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -214,18 +214,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -236,18 +236,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -258,18 +258,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -280,18 +280,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -312,18 +312,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2240,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2240,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -334,18 +334,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 440,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 440,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -356,18 +356,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2500,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2500,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -378,18 +378,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -400,18 +400,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -422,40 +422,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -466,18 +466,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -489,18 +489,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30,
         "rewards": {
-          "primogem": 1656.986301,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 1656.986301,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -511,18 +511,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -533,18 +533,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -555,18 +555,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -577,18 +577,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -609,18 +609,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2500,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2500,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -631,18 +631,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 1780,
+          "acquaintFate": 4,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 2,
-          "acquaintFate": 4
+          "primogem": 1780,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -653,18 +653,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 520,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 520,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -675,18 +675,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -697,18 +697,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -719,40 +719,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -763,18 +763,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -786,18 +786,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30,
         "rewards": {
-          "primogem": 1656.986301,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 1656.986301,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -808,18 +808,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -830,18 +830,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -852,18 +852,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -874,18 +874,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -906,18 +906,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 1900,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 10,
-          "acquaintFate": 0
+          "primogem": 1900,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -928,18 +928,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -950,18 +950,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 441.53424658,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 3,
-          "acquaintFate": 0
+          "primogem": 441.53424658,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -972,18 +972,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -994,18 +994,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -1016,40 +1016,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -1060,18 +1060,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -1083,18 +1083,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.3,
         "rewards": {
-          "primogem": 1656.986301,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 1656.986301,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -1105,18 +1105,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -1127,18 +1127,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -1149,18 +1149,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -1171,18 +1171,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -1203,18 +1203,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2540,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2540,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -1225,18 +1225,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 390,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 390,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -1247,18 +1247,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 652.84931507,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 652.84931507,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -1269,18 +1269,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -1291,18 +1291,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -1313,40 +1313,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -1357,18 +1357,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -1380,18 +1380,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.4,
         "rewards": {
-          "primogem": 1656.986301,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 1656.986301,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -1402,18 +1402,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -1424,18 +1424,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -1446,18 +1446,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -1468,18 +1468,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -1500,18 +1500,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2270,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2270,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -1522,18 +1522,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 620,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 620,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -1544,18 +1544,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 382.84931507,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 382.84931507,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -1566,18 +1566,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -1588,18 +1588,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -1610,40 +1610,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -1654,18 +1654,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -1677,18 +1677,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 33.7,
         "rewards": {
-          "primogem": 1656.986301,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 1656.986301,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -1699,18 +1699,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -1721,18 +1721,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -1743,18 +1743,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -1765,18 +1765,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -1797,18 +1797,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 3105,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 3105,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -1819,18 +1819,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 1460,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 1460,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -1841,18 +1841,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 652.84931507,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 652.84931507,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -1863,18 +1863,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -1885,18 +1885,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -1907,40 +1907,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -1951,18 +1951,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -1974,18 +1974,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30,
         "rewards": {
-          "primogem": 1656.986301,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 1656.986301,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -1996,18 +1996,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -2018,18 +2018,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -2040,18 +2040,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -2062,18 +2062,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -2094,18 +2094,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2260,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2260,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -2116,18 +2116,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4440,
+          "acquaintFate": 8,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 8
+          "primogem": 4440,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -2138,18 +2138,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 512.84931507,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 512.84931507,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -2160,18 +2160,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -2182,18 +2182,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -2204,40 +2204,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -2248,18 +2248,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -2271,18 +2271,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30,
         "rewards": {
-          "primogem": 1656.986301,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 1656.986301,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -2293,18 +2293,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -2315,18 +2315,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -2337,18 +2337,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -2359,18 +2359,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -2391,18 +2391,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2290,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 10,
-          "acquaintFate": 0
+          "primogem": 2290,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -2413,18 +2413,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2554,
+          "acquaintFate": 4,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 2,
-          "acquaintFate": 4
+          "primogem": 2554,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -2435,18 +2435,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2462.84931507,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2462.84931507,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -2457,18 +2457,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -2479,18 +2479,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -2501,40 +2501,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -2545,18 +2545,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -2568,18 +2568,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.1,
         "rewards": {
-          "primogem": 1656.986301,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 1656.986301,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -2590,18 +2590,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -2612,18 +2612,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -2634,18 +2634,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -2656,18 +2656,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -2688,18 +2688,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2180,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2180,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -2710,18 +2710,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 1815,
+          "acquaintFate": 4,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 2,
-          "acquaintFate": 4
+          "primogem": 1815,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -2732,18 +2732,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 602.84931507,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 602.84931507,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -2754,18 +2754,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -2776,18 +2776,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -2798,40 +2798,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -2842,18 +2842,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -2865,18 +2865,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.3,
         "rewards": {
-          "primogem": 1656.986301,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 1656.986301,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -2887,18 +2887,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -2909,18 +2909,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -2931,18 +2931,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -2953,18 +2953,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -2985,18 +2985,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2590,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2590,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -3007,18 +3007,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 310,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 310,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -3029,18 +3029,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 3002.84931507,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 3002.84931507,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -3051,18 +3051,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -3073,18 +3073,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -3095,40 +3095,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -3139,18 +3139,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -3162,18 +3162,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.5,
         "rewards": {
-          "primogem": 1656.986301,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 1656.986301,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -3184,18 +3184,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -3206,18 +3206,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -3228,18 +3228,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -3250,18 +3250,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -3282,18 +3282,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2260,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 10,
-          "acquaintFate": 0
+          "primogem": 2260,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -3304,18 +3304,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 1838,
+          "acquaintFate": 4,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 2,
-          "acquaintFate": 4
+          "primogem": 1838,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -3326,18 +3326,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 692.84931507,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 692.84931507,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -3348,18 +3348,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -3370,18 +3370,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -3392,40 +3392,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -3436,18 +3436,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -3459,18 +3459,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.5,
         "rewards": {
-          "primogem": 1656.986301,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 1656.986301,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -3481,18 +3481,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -3503,18 +3503,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -3525,18 +3525,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -3547,18 +3547,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -3579,18 +3579,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2385,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2385,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -3601,18 +3601,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 125,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 125,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -3623,18 +3623,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 482.84931507,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 482.84931507,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -3645,18 +3645,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -3667,18 +3667,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -3689,40 +3689,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -3733,18 +3733,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -3756,18 +3756,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.4,
         "rewards": {
-          "primogem": 1656.986301,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 1656.986301,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -3778,18 +3778,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -3800,18 +3800,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -3822,18 +3822,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -3844,18 +3844,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -3876,18 +3876,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2660,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2660,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -3898,18 +3898,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2225,
+          "acquaintFate": 4,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 2,
-          "acquaintFate": 4
+          "primogem": 2225,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -3920,18 +3920,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2366.4109589,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2366.4109589,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -3942,18 +3942,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -3964,18 +3964,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -3986,40 +3986,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -4030,18 +4030,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -4053,18 +4053,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 43.5,
         "rewards": {
-          "primogem": 2485.479452,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2485.479452,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -4075,18 +4075,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 10.35616438,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 10.35616438,
-          "acquaintFate": 10.35616438
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -4097,18 +4097,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -4119,18 +4119,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -4141,18 +4141,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -4173,18 +4173,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2270,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2270,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -4195,18 +4195,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 265,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 265,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -4217,18 +4217,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 662.84931507,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 662.84931507,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -4239,18 +4239,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -4261,18 +4261,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -4283,40 +4283,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -4327,18 +4327,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -4350,18 +4350,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.5,
         "rewards": {
-          "primogem": 1656.986301,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 1656.986301,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -4372,18 +4372,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -4394,18 +4394,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -4416,18 +4416,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -4438,18 +4438,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -4470,18 +4470,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 3720,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 3720,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -4492,18 +4492,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -4514,18 +4514,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 902.84931507,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 902.84931507,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -4536,18 +4536,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -4558,18 +4558,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -4580,40 +4580,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -4624,18 +4624,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -4647,18 +4647,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.5,
         "rewards": {
-          "primogem": 1656.986301,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 1656.986301,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -4669,18 +4669,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -4691,18 +4691,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -4713,18 +4713,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -4735,18 +4735,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -4767,18 +4767,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2340,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2340,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -4789,18 +4789,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 5455,
+          "acquaintFate": 8,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 8
+          "primogem": 5455,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -4811,18 +4811,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 499.04109589,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 499.04109589,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -4833,18 +4833,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -4855,18 +4855,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -4877,40 +4877,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -4921,18 +4921,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -4944,18 +4944,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.8,
         "rewards": {
-          "primogem": 1380.821918,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 1380.821918,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -4966,18 +4966,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 5.753424658,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 5.753424658,
-          "acquaintFate": 5.753424658
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -4988,18 +4988,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -5010,18 +5010,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -5032,18 +5032,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -5064,18 +5064,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2300,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 10,
-          "acquaintFate": 0
+          "primogem": 2300,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -5086,18 +5086,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2935,
+          "acquaintFate": 4,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 2,
-          "acquaintFate": 4
+          "primogem": 2935,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -5108,18 +5108,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2509.04109589,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2509.04109589,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -5130,18 +5130,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -5152,18 +5152,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -5174,40 +5174,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -5218,18 +5218,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -5241,18 +5241,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 26.9,
         "rewards": {
-          "primogem": 1380.821918,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 1380.821918,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -5263,18 +5263,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 5.753424658,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 5.753424658,
-          "acquaintFate": 5.753424658
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -5285,18 +5285,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -5307,18 +5307,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -5329,18 +5329,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -5361,18 +5361,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2670,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2670,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -5383,18 +5383,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 550,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 550,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -5405,18 +5405,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 1429.04109589,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 1429.04109589,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -5427,18 +5427,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -5449,18 +5449,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -5471,40 +5471,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -5515,18 +5515,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -5538,18 +5538,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 25.8,
         "rewards": {
-          "primogem": 1380.821918,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 1380.821918,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -5560,18 +5560,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 5.753424658,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 5.753424658,
-          "acquaintFate": 5.753424658
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -5582,18 +5582,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -5604,18 +5604,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -5626,18 +5626,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -5658,18 +5658,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2290,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2290,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -5680,18 +5680,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 1320,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 1320,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -5702,18 +5702,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 1442.84931507,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 1442.84931507,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -5724,18 +5724,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -5746,18 +5746,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -5768,40 +5768,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -5812,18 +5812,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -5835,18 +5835,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.1,
         "rewards": {
-          "primogem": 1656.986301,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 1656.986301,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -5857,18 +5857,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -5879,18 +5879,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -5901,18 +5901,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -5923,18 +5923,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -5955,18 +5955,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2270,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 10,
-          "acquaintFate": 0
+          "primogem": 2270,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -5977,18 +5977,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2610,
+          "acquaintFate": 4,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 2,
-          "acquaintFate": 4
+          "primogem": 2610,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -5999,18 +5999,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 692.84931507,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 3,
-          "acquaintFate": 0
+          "primogem": 692.84931507,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -6021,18 +6021,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -6043,18 +6043,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -6065,40 +6065,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -6109,18 +6109,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -6132,18 +6132,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.2,
         "rewards": {
-          "primogem": 1656.986301,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 1656.986301,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -6154,18 +6154,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -6176,18 +6176,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -6198,18 +6198,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -6220,18 +6220,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -6252,18 +6252,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2300,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2300,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -6274,18 +6274,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 315,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 21,
-          "acquaintFate": 0
+          "primogem": 315,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -6296,18 +6296,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 542.84931507,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 542.84931507,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -6318,18 +6318,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -6340,18 +6340,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -6362,40 +6362,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -6406,18 +6406,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -6429,18 +6429,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.2,
         "rewards": {
-          "primogem": 1656.986301,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 1656.986301,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -6451,18 +6451,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -6473,18 +6473,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -6495,18 +6495,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -6517,18 +6517,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -6549,18 +6549,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2270,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2270,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -6571,18 +6571,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2700,
+          "acquaintFate": 4,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 2,
-          "acquaintFate": 4
+          "primogem": 2700,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -6593,18 +6593,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 602.84931507,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 602.84931507,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -6615,18 +6615,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -6637,18 +6637,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -6659,40 +6659,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -6703,18 +6703,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -6726,18 +6726,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 32.5,
         "rewards": {
-          "primogem": 1656.986301,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 1656.986301,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -6748,18 +6748,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -6770,18 +6770,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -6792,18 +6792,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -6814,18 +6814,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -6846,18 +6846,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2300,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2300,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -6868,18 +6868,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 190,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 190,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -6890,18 +6890,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 442.84931507,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 442.84931507,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -6912,18 +6912,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -6934,18 +6934,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -6956,40 +6956,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -7000,18 +7000,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -7023,18 +7023,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.1,
         "rewards": {
-          "primogem": 1656.986301,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 1656.986301,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -7045,18 +7045,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -7067,18 +7067,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -7089,18 +7089,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -7111,18 +7111,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -7143,18 +7143,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 3165,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 3165,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -7165,18 +7165,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 90,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 90,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -7187,18 +7187,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 642.84931507,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 642.84931507,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -7209,18 +7209,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -7231,18 +7231,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -7253,40 +7253,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -7297,18 +7297,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -7320,18 +7320,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.1,
         "rewards": {
-          "primogem": 1656.986301,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 1656.986301,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -7342,18 +7342,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -7364,18 +7364,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -7386,18 +7386,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -7408,18 +7408,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -7440,18 +7440,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2300,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2300,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -7462,18 +7462,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4166,
+          "acquaintFate": 8,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6,
-          "acquaintFate": 8
+          "primogem": 4166,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -7484,18 +7484,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 582.84931507,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 582.84931507,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -7506,18 +7506,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -7528,18 +7528,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -7550,40 +7550,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -7594,18 +7594,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -7617,18 +7617,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 31.1,
         "rewards": {
-          "primogem": 1656.986301,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 1656.986301,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -7639,18 +7639,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -7661,18 +7661,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -7683,18 +7683,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -7705,18 +7705,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -7737,18 +7737,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2290,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 10,
-          "acquaintFate": 0
+          "primogem": 2290,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -7759,18 +7759,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2909,
+          "acquaintFate": 4,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 4
+          "primogem": 2909,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -7781,18 +7781,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2542.84931507,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2542.84931507,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -7803,18 +7803,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -7825,18 +7825,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -7847,40 +7847,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -7891,18 +7891,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -7914,18 +7914,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.8,
         "rewards": {
-          "primogem": 1656.986301,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 1656.986301,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -7936,18 +7936,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -7958,18 +7958,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -7980,18 +7980,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -8002,18 +8002,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -8034,18 +8034,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2300,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2300,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -8056,18 +8056,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2418,
+          "acquaintFate": 4,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 3,
-          "acquaintFate": 4
+          "primogem": 2418,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -8078,18 +8078,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2182.84931507,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2182.84931507,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -8100,18 +8100,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -8122,18 +8122,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -8144,40 +8144,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -8188,18 +8188,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -8211,18 +8211,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 31.5,
         "rewards": {
-          "primogem": 1656.986301,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 1656.986301,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -8233,18 +8233,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -8255,18 +8255,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -8277,18 +8277,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -8299,18 +8299,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -8331,18 +8331,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2640,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2640,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -8353,18 +8353,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 425,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 425,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -8375,18 +8375,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 942.84931507,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 942.84931507,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -8397,18 +8397,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -8419,18 +8419,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -8441,40 +8441,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -8485,18 +8485,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -8508,18 +8508,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 31,
         "rewards": {
-          "primogem": 1656.986301,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 1656.986301,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -8530,18 +8530,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -8552,18 +8552,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -8574,18 +8574,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -8596,18 +8596,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -8628,18 +8628,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2300,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 10,
-          "acquaintFate": 0
+          "primogem": 2300,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -8650,18 +8650,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2562,
+          "acquaintFate": 4,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 2,
-          "acquaintFate": 4
+          "primogem": 2562,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -8672,18 +8672,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 862.84931507,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 3,
-          "acquaintFate": 0
+          "primogem": 862.84931507,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -8694,18 +8694,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -8716,18 +8716,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -8738,40 +8738,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -8782,18 +8782,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -8805,18 +8805,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 31,
         "rewards": {
-          "primogem": 1656.986301,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 1656.986301,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -8827,18 +8827,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -8849,18 +8849,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -8871,18 +8871,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -8893,18 +8893,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -8925,18 +8925,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2300,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2300,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -8947,18 +8947,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 190,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 190,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -8969,18 +8969,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 562.84931507,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 562.84931507,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -8991,18 +8991,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -9013,18 +9013,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -9035,40 +9035,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -9079,18 +9079,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -9102,18 +9102,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 30.1,
         "rewards": {
-          "primogem": 1656.986301,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 1656.986301,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -9124,18 +9124,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -9146,18 +9146,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -9168,18 +9168,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -9190,18 +9190,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -9222,18 +9222,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2300,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2300,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -9244,18 +9244,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 1754,
+          "acquaintFate": 4,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 2,
-          "acquaintFate": 4
+          "primogem": 1754,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -9266,18 +9266,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 602.84931507,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 602.84931507,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -9288,18 +9288,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -9310,18 +9310,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -9332,40 +9332,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -9376,18 +9376,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -9399,18 +9399,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 31.2,
         "rewards": {
-          "primogem": 1656.986301,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 1656.986301,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -9421,18 +9421,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -9443,18 +9443,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -9465,18 +9465,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -9487,18 +9487,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -9519,18 +9519,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2300,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2300,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -9541,18 +9541,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 1515,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 1,
-          "acquaintFate": 0
+          "primogem": 1515,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -9563,18 +9563,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 582.84931507,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 582.84931507,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -9585,18 +9585,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -9607,18 +9607,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -9629,40 +9629,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -9673,18 +9673,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -9696,18 +9696,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 32,
         "rewards": {
-          "primogem": 1960.767123,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 1960.767123,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -9718,18 +9718,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -9740,18 +9740,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -9762,18 +9762,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -9784,18 +9784,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -9816,18 +9816,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 3082,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 3082,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -9838,18 +9838,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 100,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 100,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -9860,18 +9860,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2362.84931507,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2362.84931507,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -9882,18 +9882,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -9904,18 +9904,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -9926,40 +9926,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -9970,18 +9970,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -9993,18 +9993,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 32,
         "rewards": {
-          "primogem": 1960.767123,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 1960.767123,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -10015,18 +10015,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -10037,18 +10037,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -10059,18 +10059,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -10081,18 +10081,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -10113,18 +10113,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2840,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 10,
-          "acquaintFate": 0
+          "primogem": 2840,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -10135,18 +10135,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 6120,
+          "acquaintFate": 10,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 2,
-          "acquaintFate": 10
+          "primogem": 6120,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -10157,18 +10157,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 3402.84931507,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 3402.84931507,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -10179,18 +10179,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -10201,18 +10201,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -10223,40 +10223,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -10267,18 +10267,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -10290,18 +10290,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 33.8,
         "rewards": {
-          "primogem": 2209.315068,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2209.315068,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -10312,18 +10312,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -10334,18 +10334,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 60,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 60,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -10356,18 +10356,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -10378,18 +10378,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -10410,18 +10410,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 3610,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 3610,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -10432,18 +10432,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 195,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 2,
-          "acquaintFate": 0
+          "primogem": 195,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -10454,18 +10454,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 482.84931507,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 482.84931507,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -10476,18 +10476,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -10498,18 +10498,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -10520,40 +10520,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -10564,18 +10564,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -10587,18 +10587,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 33.5,
         "rewards": {
-          "primogem": 2209.315068,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2209.315068,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -10609,18 +10609,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -10631,18 +10631,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 60,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 60,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -10653,18 +10653,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -10675,18 +10675,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -10707,18 +10707,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2760,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2760,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -10729,18 +10729,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 3435,
+          "acquaintFate": 4,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 1,
-          "acquaintFate": 4
+          "primogem": 3435,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -10751,18 +10751,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 1722.84931507,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 1722.84931507,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -10773,18 +10773,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -10795,18 +10795,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -10817,40 +10817,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -10861,18 +10861,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -10884,18 +10884,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 33.8,
         "rewards": {
-          "primogem": 2209.315068,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2209.315068,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -10906,18 +10906,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -10928,18 +10928,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 60,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 60,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -10950,18 +10950,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -10972,18 +10972,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -11004,18 +11004,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2920,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 10,
-          "acquaintFate": 0
+          "primogem": 2920,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -11026,18 +11026,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 465,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 1,
-          "acquaintFate": 0
+          "primogem": 465,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -11048,18 +11048,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2202.84931507,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2202.84931507,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -11070,18 +11070,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -11092,18 +11092,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -11114,40 +11114,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -11158,18 +11158,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -11181,18 +11181,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 33.6,
         "rewards": {
-          "primogem": 2209.315068,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2209.315068,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -11203,18 +11203,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -11225,18 +11225,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 60,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 60,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -11247,18 +11247,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -11269,18 +11269,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -11301,18 +11301,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2390,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2390,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -11323,18 +11323,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 100,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 100,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -11345,18 +11345,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 442.84931507,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 442.84931507,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -11367,18 +11367,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -11389,18 +11389,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -11411,40 +11411,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -11455,18 +11455,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -11478,18 +11478,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 33.6,
         "rewards": {
-          "primogem": 2209.315068,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2209.315068,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -11500,18 +11500,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -11522,18 +11522,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 60,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 60,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -11544,18 +11544,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -11566,18 +11566,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -11598,18 +11598,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2720,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2720,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -11620,18 +11620,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 3194,
+          "acquaintFate": 4,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 4
+          "primogem": 3194,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -11642,18 +11642,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 932.84931507,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 932.84931507,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -11664,18 +11664,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -11686,18 +11686,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -11708,40 +11708,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -11752,18 +11752,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -11775,18 +11775,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 33.7,
         "rewards": {
-          "primogem": 2209.315068,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2209.315068,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -11797,18 +11797,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -11819,18 +11819,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 60,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 60,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -11841,18 +11841,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -11863,18 +11863,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -11895,18 +11895,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2330,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2330,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -11917,18 +11917,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 225,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 1,
-          "acquaintFate": 0
+          "primogem": 225,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -11939,18 +11939,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 472.84931507,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 472.84931507,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -11961,18 +11961,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -11983,18 +11983,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -12005,40 +12005,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -12049,18 +12049,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -12072,18 +12072,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 33.6,
         "rewards": {
-          "primogem": 2209.315068,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2209.315068,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -12094,18 +12094,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -12116,18 +12116,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 60,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 60,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -12138,18 +12138,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -12160,18 +12160,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -12192,18 +12192,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2030,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2030,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -12214,18 +12214,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 220,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 1,
-          "acquaintFate": 0
+          "primogem": 220,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -12236,18 +12236,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 542.84931507,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 542.84931507,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -12258,18 +12258,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -12280,18 +12280,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -12302,40 +12302,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -12346,18 +12346,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -12369,18 +12369,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 36.4,
         "rewards": {
-          "primogem": 2659.315068,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2659.315068,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -12391,18 +12391,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -12413,18 +12413,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 60,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 60,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -12435,18 +12435,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -12457,18 +12457,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -12489,18 +12489,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2480,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2480,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -12511,18 +12511,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2209,
+          "acquaintFate": 4,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 1,
-          "acquaintFate": 4
+          "primogem": 2209,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -12533,18 +12533,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 482.84931507,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 482.84931507,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -12555,18 +12555,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -12577,18 +12577,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -12599,40 +12599,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -12643,18 +12643,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -12666,18 +12666,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 37.3,
         "rewards": {
-          "primogem": 2659.315068,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2659.315068,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -12688,18 +12688,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -12710,18 +12710,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 60,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 60,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -12732,18 +12732,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -12754,18 +12754,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -12786,18 +12786,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2950,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 10,
-          "acquaintFate": 0
+          "primogem": 2950,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -12808,18 +12808,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 5442,
+          "acquaintFate": 8,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 2,
-          "acquaintFate": 8
+          "primogem": 5442,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -12830,18 +12830,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2342.84931507,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2342.84931507,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -12852,18 +12852,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -12874,18 +12874,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -12896,40 +12896,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -12940,18 +12940,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -12963,18 +12963,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 38.3,
         "rewards": {
-          "primogem": 2935.479452,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2935.479452,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -12985,18 +12985,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -13007,18 +13007,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 60,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 60,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -13029,18 +13029,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -13051,18 +13051,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -13083,18 +13083,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2390,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2390,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -13105,18 +13105,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 150,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 2,
-          "acquaintFate": 0
+          "primogem": 150,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -13127,18 +13127,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 482.84931507,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 482.84931507,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -13149,18 +13149,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -13171,18 +13171,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -13193,40 +13193,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -13237,18 +13237,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -13260,18 +13260,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 38.8,
         "rewards": {
-          "primogem": 2935.479452,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2935.479452,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -13282,18 +13282,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -13304,18 +13304,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 60,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 60,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -13326,18 +13326,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -13348,18 +13348,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -13380,18 +13380,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2940,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2940,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -13402,18 +13402,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 375,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 2,
-          "acquaintFate": 0
+          "primogem": 375,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -13424,18 +13424,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 602.84931507,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 602.84931507,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -13446,18 +13446,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -13468,18 +13468,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -13490,40 +13490,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -13534,18 +13534,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -13557,18 +13557,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 38.1,
         "rewards": {
-          "primogem": 2935.479452,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2935.479452,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -13579,18 +13579,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -13601,18 +13601,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 60,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 60,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -13623,18 +13623,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -13645,18 +13645,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -13677,18 +13677,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2900,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 10,
-          "acquaintFate": 0
+          "primogem": 2900,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -13699,18 +13699,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 3279,
+          "acquaintFate": 7,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 2,
-          "acquaintFate": 7
+          "primogem": 3279,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -13721,18 +13721,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 2082.84931507,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2082.84931507,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -13743,18 +13743,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -13765,18 +13765,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -13787,40 +13787,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -13831,18 +13831,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -13854,18 +13854,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 39.1,
         "rewards": {
-          "primogem": 2935.479452,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2935.479452,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -13876,18 +13876,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -13898,18 +13898,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 60,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 60,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -13920,18 +13920,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -13942,18 +13942,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -13974,18 +13974,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 1940,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 1960,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -13996,18 +13996,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 1055,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 605,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -14018,18 +14018,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 442.84931507,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 442.84931507,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -14040,18 +14040,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -14062,18 +14062,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -14084,40 +14084,40 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
       {
         "id": "weekly",
-        "label": "Weekly Requests & Bounties",
+        "label": "Weekly Requests \u0026 Bounties",
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -14128,18 +14128,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -14151,18 +14151,18 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 38.1,
         "rewards": {
-          "primogem": 2935.479452,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 2935.479452,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -14173,18 +14173,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 0,
+          "acquaintFate": 6.904109589,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 6.904109589,
-          "acquaintFate": 6.904109589
+          "primogem": 0,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -14195,18 +14195,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 60,
+          "acquaintFate": 5,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 5
+          "primogem": 60,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -14217,18 +14217,18 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 680,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 4,
-          "acquaintFate": 0
+          "primogem": 680,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       },
@@ -14239,18 +14239,315 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "primogem": 4200,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 4200,
+          "starglitter": 0
         },
         "costs": {
-          "primogem": 0,
+          "acquaintFate": 0,
           "genesisCrystal": 0,
-          "starglitter": 0,
           "intertwinedFate": 0,
-          "acquaintFate": 0
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "scalers": []
+      }
+    ]
+  },
+  {
+    "id": "6.5",
+    "patch": "6.5",
+    "versionName": "Version 6.5",
+    "startDate": "",
+    "durationDays": 42,
+    "notes": "Generated from Genshin Impact Google Sheets by patchsync",
+    "sources": [
+      {
+        "id": "events",
+        "label": "Events",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "rewards": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 2300,
+          "starglitter": 0
+        },
+        "costs": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "other",
+        "label": "Other New Content",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "rewards": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 2619,
+          "starglitter": 0
+        },
+        "costs": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "webMail",
+        "label": "Web, Mail, Apologems",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "rewards": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 442.84931507,
+          "starglitter": 0
+        },
+        "costs": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "dailyActivity",
+        "label": "Daily Resin/Commissions",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "rewards": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "costs": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "expeditions",
+        "label": "Expeditions",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "rewards": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "costs": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "parametric",
+        "label": "Parametric Transformer",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "rewards": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "costs": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "weekly",
+        "label": "Weekly Requests \u0026 Bounties",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "rewards": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "costs": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "serenitea",
+        "label": "Serenitea Realm Shop",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "rewards": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "costs": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "endgame",
+        "label": "Abyss / Imaginarium / Stygian",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "pulls": 40.3,
+        "rewards": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 2935.479452,
+          "starglitter": 0
+        },
+        "costs": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "shop",
+        "label": "Paimon's Bargains",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "rewards": {
+          "acquaintFate": 6.904109589,
+          "genesisCrystal": 0,
+          "intertwinedFate": 6.904109589,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "costs": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "bpF2P",
+        "label": "Battle Pass - F2P",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "rewards": {
+          "acquaintFate": 5,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 60,
+          "starglitter": 0
+        },
+        "costs": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "bpPaid",
+        "label": "Battle Pass - Paid Bonus",
+        "gate": "bp2",
+        "optionKey": null,
+        "countInPulls": true,
+        "rewards": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 4,
+          "primogem": 680,
+          "starglitter": 0
+        },
+        "costs": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "welkin",
+        "label": "Welkin",
+        "gate": "monthly",
+        "optionKey": null,
+        "countInPulls": true,
+        "rewards": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 4200,
+          "starglitter": 0
+        },
+        "costs": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
         },
         "scalers": []
       }
@@ -14261,6 +14558,8 @@ export const GENERATED_PATCHES_META = {
   "gameId": "genshin-impact",
   "spreadsheetId": "1l9HPu2cAzTckdXtr7u-7D8NSKzZNUqOuvbmxERFZ_6w",
   "sheets": [
+    "6.4",
+    "6.5 est.",
     "1.0",
     "1.1",
     "1.2",
@@ -14307,8 +14606,7 @@ export const GENERATED_PATCHES_META = {
     "6.0",
     "6.1",
     "6.2",
-    "6.3",
-    "6.4 est."
+    "6.3"
   ],
-  "generatedAt": "2026-02-16T16:46:59Z"
+  "generatedAt": "2026-04-05T09:13:51Z"
 };

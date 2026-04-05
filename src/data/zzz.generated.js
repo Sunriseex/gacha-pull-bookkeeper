@@ -3383,13 +3383,13 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 21.4,
+        "pulls": 22.8,
         "rewards": {
           "boopon": 3,
           "encryptedMasterTape": 1,
           "masterTape": 6,
           "monochrome": 0,
-          "polychrome": 3260
+          "polychrome": 3480
         },
         "costs": {
           "boopon": 0,
@@ -3588,12 +3588,9 @@ export const GENERATED_PATCHES = [
   {
     "id": "2.7",
     "patch": "2.7",
-    "versionName": "X",
-    "startDate": "",
+    "versionName": "Champions Never Fall to the Past",
+    "startDate": "2026-03-24",
     "durationDays": 42,
-    "tags": [
-      "WIP"
-    ],
     "notes": "Generated from Zenless Zone Zero Google Sheets by patchsync",
     "sources": [
       {
@@ -3602,13 +3599,13 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 32.2,
+        "pulls": 29.4,
         "rewards": {
           "boopon": 20,
           "encryptedMasterTape": 10,
           "masterTape": 0,
           "monochrome": 0,
-          "polychrome": 3550
+          "polychrome": 3100
         },
         "costs": {
           "boopon": 0,
@@ -3625,13 +3622,13 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 5.1,
+        "pulls": 5.6,
         "rewards": {
           "boopon": 0,
           "encryptedMasterTape": 1,
           "masterTape": 6,
           "monochrome": 0,
-          "polychrome": 655
+          "polychrome": 740
         },
         "costs": {
           "boopon": 0,
@@ -3648,13 +3645,13 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 7.4,
+        "pulls": 8,
         "rewards": {
           "boopon": 0,
           "encryptedMasterTape": 0,
           "masterTape": 0,
           "monochrome": 0,
-          "polychrome": 1183
+          "polychrome": 1283
         },
         "costs": {
           "boopon": 0,
@@ -3832,6 +3829,7 @@ export const GENERATED_PATCHES_META = {
   "gameId": "zenless-zone-zero",
   "spreadsheetId": "2PACX-1vTiSx8OSyx-BZktnpT-fh_pQHjjkD8q3sp3Csy2aOI-8CV_QroqxzhhNjiCZNV4IdzhyK3xbipZn9WD",
   "sheets": [
+    "2.6",
     "2.7",
     "1.0",
     "1.1",
@@ -3846,8 +3844,7 @@ export const GENERATED_PATCHES_META = {
     "2.2",
     "2.3",
     "2.4",
-    "2.5",
-    "2.6"
+    "2.5"
   ],
-  "generatedAt": "2026-03-18T09:01:44Z"
+  "generatedAt": "2026-04-05T09:13:29Z"
 };
