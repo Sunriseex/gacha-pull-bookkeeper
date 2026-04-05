@@ -2264,9 +2264,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 22,
+        "pulls": 22.3,
         "rewards": {
-          "astrite": 2720,
+          "astrite": 2760,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -2289,9 +2289,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 39.5,
+        "pulls": 38.4,
         "rewards": {
-          "astrite": 6325,
+          "astrite": 6145,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -2364,7 +2364,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 20,
+        "pulls": 19.9,
         "rewards": {
           "astrite": 5730,
           "forgingTide": 7,
@@ -3289,9 +3289,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 9.8,
+        "pulls": 9.6,
         "rewards": {
-          "astrite": 1560,
+          "astrite": 1540,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -3364,7 +3364,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 20,
+        "pulls": 20.1,
         "rewards": {
           "astrite": 5300,
           "forgingTide": 7,
@@ -3539,13 +3539,13 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 58.5,
+        "pulls": 57.9,
         "rewards": {
-          "astrite": 9365,
+          "astrite": 9265,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
-          "lustrousTide": 24,
+          "lustrousTide": 21,
           "radiantTide": 0
         },
         "costs": {
@@ -3614,7 +3614,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 23.5,
+        "pulls": 23.4,
         "rewards": {
           "astrite": 6280,
           "forgingTide": 7,
@@ -4017,9 +4017,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 20.5,
+        "pulls": 19.3,
         "rewards": {
-          "astrite": 2480,
+          "astrite": 2280,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -4042,9 +4042,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 5.1,
+        "pulls": 8,
         "rewards": {
-          "astrite": 820,
+          "astrite": 1285,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -4067,9 +4067,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 5.9,
+        "pulls": 7.1,
         "rewards": {
-          "astrite": 950,
+          "astrite": 1130,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -4117,7 +4117,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 23.5,
+        "pulls": 23.4,
         "rewards": {
           "astrite": 6280,
           "forgingTide": 7,
@@ -4258,6 +4258,10 @@ export const GENERATED_PATCHES_META = {
   "gameId": "wuthering-waves",
   "spreadsheetId": "1msSsnWBcXKniykf4rWQCEdk2IQuB9JHy",
   "sheets": [
+    "2.4",
+    "2.8",
+    "3.0",
+    "3.2 (STC)",
     "1.0",
     "1.1",
     "1.2",
@@ -4267,14 +4271,10 @@ export const GENERATED_PATCHES_META = {
     "2.1",
     "2.2",
     "2.3",
-    "2.4",
     "2.5",
     "2.6",
     "2.7",
-    "2.8",
-    "3.0",
-    "3.1",
-    "3.2 (STC)"
+    "3.1"
   ],
-  "generatedAt": "2026-03-18T09:01:12Z"
+  "generatedAt": "2026-04-05T09:12:55Z"
 };
