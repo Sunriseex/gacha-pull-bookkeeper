@@ -452,13 +452,50 @@ func inferStartDateFromTitleRow(record []string) string {
 			continue
 		}
 		for _, candidateIdx := range []int{idx - 1, idx + 1} {
-			date := parseDateToISO(getCell(record, candidateIdx))
+			date := parseTitleRowDateToISO(getCell(record, candidateIdx))
 			if date != "" {
 				return date
 			}
 		}
 	}
+
+	uniqueDates := make([]string, 0, 1)
+	seen := map[string]struct{}{}
+	for _, cell := range record {
+		date := parseTitleRowDateToISO(cell)
+		if date == "" {
+			continue
+		}
+		if _, ok := seen[date]; ok {
+			continue
+		}
+		seen[date] = struct{}{}
+		uniqueDates = append(uniqueDates, date)
+	}
+	if len(uniqueDates) == 1 {
+		return uniqueDates[0]
+	}
+
 	return ""
+}
+
+func parseTitleRowDateToISO(raw string) string {
+	value := strings.TrimSpace(raw)
+	if value == "" {
+		return ""
+	}
+	layouts := []string{
+		"01.02.2006",
+		"1.2.2006",
+		"01/02/2006",
+		"1/2/2006",
+	}
+	for _, layout := range layouts {
+		if parsed, err := time.Parse(layout, value); err == nil {
+			return parsed.Format("2006-01-02")
+		}
+	}
+	return parseDateToISO(value)
 }
 
 func rowFromRecord(record []string, idxName, idxOro, idxOri, idxChartered, idxBasic, idxArsenal int) sheetRow {

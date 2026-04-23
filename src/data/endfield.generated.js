@@ -454,7 +454,7 @@ export const GENERATED_PATCHES = [
     "id": "1.1",
     "patch": "1.1",
     "versionName": "Old Deep Water Dies, by Rising Tide It is Denied",
-    "startDate": "2026-12-03",
+    "startDate": "2026-03-12",
     "durationDays": 35,
     "notes": "Generated from Google Sheets by patchsync",
     "sources": [
@@ -903,7 +903,7 @@ export const GENERATED_PATCHES = [
     "id": "1.2",
     "patch": "1.2",
     "versionName": "At the Wake of Spring",
-    "startDate": "",
+    "startDate": "2026-04-16",
     "durationDays": 49,
     "notes": "Generated from Google Sheets by patchsync",
     "sources": [
@@ -1353,8 +1353,8 @@ export const GENERATED_PATCHES_META = {
   "gameId": "arknights-endfield",
   "spreadsheetId": "1zGNuQ53R7c190RG40dHxcHv8tJuT3cBaclm8CjI-luY",
   "sheets": [
-    "1.1",
-    "1.2"
+    "1.2",
+    "1.1"
   ],
-  "generatedAt": "2026-04-23T12:56:41Z"
+  "generatedAt": "2026-04-23T13:00:11Z"
 };
