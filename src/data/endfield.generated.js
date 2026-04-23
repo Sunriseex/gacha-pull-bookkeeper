@@ -454,7 +454,7 @@ export const GENERATED_PATCHES = [
     "id": "1.1",
     "patch": "1.1",
     "versionName": "Old Deep Water Dies, by Rising Tide It is Denied",
-    "startDate": "2026-03-12",
+    "startDate": "2026-12-03",
     "durationDays": 35,
     "notes": "Generated from Google Sheets by patchsync",
     "sources": [
@@ -464,7 +464,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 21.6,
+        "pulls": 12.6,
         "rewards": {
           "arsenal": 0,
           "basic": 2,
@@ -473,7 +473,7 @@ export const GENERATED_PATCHES = [
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 5800
+          "oroberyl": 6300
         },
         "costs": {
           "arsenal": 0,
@@ -502,7 +502,7 @@ export const GENERATED_PATCHES = [
           "hues": 0,
           "messenger": 0,
           "origeometry": 23,
-          "oroberyl": 7285
+          "oroberyl": 7300
         },
         "costs": {
           "arsenal": 0,
@@ -522,7 +522,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 8.5,
+        "pulls": 9.5,
         "rewards": {
           "arsenal": 0,
           "basic": 0,
@@ -531,7 +531,7 @@ export const GENERATED_PATCHES = [
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 4249
+          "oroberyl": 4749
         },
         "costs": {
           "arsenal": 0,
@@ -551,7 +551,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 14,
+        "pulls": 14.7,
         "rewards": {
           "arsenal": 0,
           "basic": 0,
@@ -560,7 +560,7 @@ export const GENERATED_PATCHES = [
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 7000
+          "oroberyl": 7350
         },
         "costs": {
           "arsenal": 0,
@@ -638,7 +638,6 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": "includeAicQuotaExchange",
         "countInPulls": true,
-        "pulls": 10,
         "rewards": {
           "arsenal": 0,
           "basic": 0,
@@ -835,7 +834,7 @@ export const GENERATED_PATCHES = [
         "gate": "bp2",
         "optionKey": "includeBpCrates",
         "countInPulls": true,
-        "pulls": 1.9,
+        "pulls": 2.3,
         "rewards": {
           "arsenal": 0,
           "basic": 6,
@@ -844,7 +843,7 @@ export const GENERATED_PATCHES = [
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 968
+          "oroberyl": 1127
         },
         "costs": {
           "arsenal": 0,
@@ -878,7 +877,456 @@ export const GENERATED_PATCHES = [
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 178
+          "oroberyl": 445
+        },
+        "costs": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
+        },
+        "scalers": [],
+        "bpCrateModel": {
+          "type": "post_bp60_estimate",
+          "daysToLevel60Tier3": 21,
+          "tier2XpBonus": 0.03,
+          "tier3XpBonus": 0.06
+        }
+      }
+    ]
+  },
+  {
+    "id": "1.2",
+    "patch": "1.2",
+    "versionName": "At the Wake of Spring",
+    "startDate": "",
+    "durationDays": 49,
+    "notes": "Generated from Google Sheets by patchsync",
+    "sources": [
+      {
+        "id": "events",
+        "label": "Events",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "pulls": 26.4,
+        "rewards": {
+          "arsenal": 0,
+          "basic": 2,
+          "chartered": 10,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 13200
+        },
+        "costs": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "permanent",
+        "label": "Permanent Content",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "pulls": 17.4,
+        "rewards": {
+          "arsenal": 0,
+          "basic": 11,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 33,
+          "oroberyl": 8675
+        },
+        "costs": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "mailbox",
+        "label": "Mailbox \u0026 Web Events",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "pulls": 7.7,
+        "rewards": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 3869
+        },
+        "costs": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "dailyActivity",
+        "label": "Daily Activity",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "pulls": 20.6,
+        "rewards": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 10290
+        },
+        "costs": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "weekly",
+        "label": "Weekly Routine",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "pulls": 7,
+        "rewards": {
+          "arsenal": 700,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 3500
+        },
+        "costs": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "monumental",
+        "label": "Monumental Etching",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "pulls": 2.4,
+        "rewards": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 1200
+        },
+        "costs": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "aicQuota",
+        "label": "AIC Quota Exchange",
+        "gate": "always",
+        "optionKey": "includeAicQuotaExchange",
+        "countInPulls": true,
+        "rewards": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 10,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
+        },
+        "costs": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "urgentRecruit",
+        "label": "Urgent Recruit",
+        "gate": "always",
+        "optionKey": "includeUrgentRecruit",
+        "countInPulls": true,
+        "rewards": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 20,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
+        },
+        "costs": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "hhDossier",
+        "label": "HH Dossier",
+        "gate": "always",
+        "optionKey": "includeHhDossier",
+        "countInPulls": true,
+        "rewards": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
+        },
+        "costs": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "monthly",
+        "label": "Monthly Pass",
+        "gate": "monthly",
+        "optionKey": null,
+        "countInPulls": true,
+        "rewards": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 9800
+        },
+        "costs": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "monthlyBonus",
+        "label": "Monthly Pass Bonus",
+        "gate": "monthly",
+        "optionKey": null,
+        "countInPulls": false,
+        "rewards": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 24,
+          "oroberyl": 0
+        },
+        "costs": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "bp2Core",
+        "label": "Originium Supply Pass",
+        "gate": "bp2",
+        "optionKey": null,
+        "countInPulls": false,
+        "rewards": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 3,
+          "oroberyl": 0
+        },
+        "costs": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "bp3Core",
+        "label": "Protocol Customized Pass",
+        "gate": "bp3",
+        "optionKey": null,
+        "countInPulls": false,
+        "rewards": {
+          "arsenal": 2400,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 36,
+          "oroberyl": 0
+        },
+        "costs": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "bpCrateM",
+        "label": "Exchange Crate-o-Surprise [M]",
+        "gate": "bp2",
+        "optionKey": "includeBpCrates",
+        "countInPulls": true,
+        "pulls": 2.3,
+        "rewards": {
+          "arsenal": 0,
+          "basic": 6,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 1139
+        },
+        "costs": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
+        },
+        "scalers": [],
+        "bpCrateModel": {
+          "type": "post_bp60_estimate",
+          "daysToLevel60Tier3": 21,
+          "tier2XpBonus": 0.03,
+          "tier3XpBonus": 0.06
+        }
+      },
+      {
+        "id": "bpCrateL",
+        "label": "Exchange Crate-o-Surprise [L]",
+        "gate": "bp3",
+        "optionKey": "includeBpCrates",
+        "countInPulls": true,
+        "rewards": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 490
         },
         "costs": {
           "arsenal": 0,
@@ -905,8 +1353,8 @@ export const GENERATED_PATCHES_META = {
   "gameId": "arknights-endfield",
   "spreadsheetId": "1zGNuQ53R7c190RG40dHxcHv8tJuT3cBaclm8CjI-luY",
   "sheets": [
-    "1.0",
-    "1.1"
+    "1.1",
+    "1.2"
   ],
-  "generatedAt": "2026-03-18T09:01:05Z"
+  "generatedAt": "2026-04-23T12:56:41Z"
 };
