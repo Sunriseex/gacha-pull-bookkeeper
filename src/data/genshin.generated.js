@@ -13108,7 +13108,7 @@ export const GENERATED_PATCHES = [
           "acquaintFate": 0,
           "genesisCrystal": 0,
           "intertwinedFate": 2,
-          "primogem": 150,
+          "primogem": 155,
           "starglitter": 0
         },
         "costs": {
@@ -13258,7 +13258,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 38.8,
+        "pulls": 38.9,
         "rewards": {
           "acquaintFate": 0,
           "genesisCrystal": 0,
@@ -13999,7 +13999,7 @@ export const GENERATED_PATCHES = [
           "acquaintFate": 0,
           "genesisCrystal": 0,
           "intertwinedFate": 0,
-          "primogem": 605,
+          "primogem": 610,
           "starglitter": 0
         },
         "costs": {
@@ -14293,10 +14293,10 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "acquaintFate": 0,
+          "acquaintFate": 4,
           "genesisCrystal": 0,
           "intertwinedFate": 0,
-          "primogem": 2619,
+          "primogem": 2195,
           "starglitter": 0
         },
         "costs": {
@@ -14318,7 +14318,7 @@ export const GENERATED_PATCHES = [
           "acquaintFate": 0,
           "genesisCrystal": 0,
           "intertwinedFate": 0,
-          "primogem": 442.84931507,
+          "primogem": 522.84931507,
           "starglitter": 0
         },
         "costs": {
@@ -14446,7 +14446,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 40.3,
+        "pulls": 39.4,
         "rewards": {
           "acquaintFate": 0,
           "genesisCrystal": 0,
@@ -14558,6 +14558,7 @@ export const GENERATED_PATCHES_META = {
   "gameId": "genshin-impact",
   "spreadsheetId": "1l9HPu2cAzTckdXtr7u-7D8NSKzZNUqOuvbmxERFZ_6w",
   "sheets": [
+    "6.1",
     "6.4",
     "6.5 est.",
     "1.0",
@@ -14604,9 +14605,8 @@ export const GENERATED_PATCHES_META = {
     "5.7",
     "5.8",
     "6.0",
-    "6.1",
     "6.2",
     "6.3"
   ],
-  "generatedAt": "2026-04-05T09:13:51Z"
+  "generatedAt": "2026-04-23T12:51:47Z"
 };

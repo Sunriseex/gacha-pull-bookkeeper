@@ -3795,7 +3795,7 @@ export const GENERATED_PATCHES = [
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
-          "lustrousTide": 5,
+          "lustrousTide": 9,
           "radiantTide": 0
         },
         "costs": {
@@ -4006,9 +4006,6 @@ export const GENERATED_PATCHES = [
     "versionName": "Resolution to Illuminate the Shadows",
     "startDate": "2026-03-19",
     "durationDays": 42,
-    "tags": [
-      "WIP"
-    ],
     "notes": "Generated from Wuthering Waves Google Sheets by patchsync",
     "sources": [
       {
@@ -4044,7 +4041,7 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8,
         "rewards": {
-          "astrite": 1285,
+          "astrite": 1275,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -4067,9 +4064,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 7.1,
+        "pulls": 7.5,
         "rewards": {
-          "astrite": 1130,
+          "astrite": 1200,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -4252,16 +4249,268 @@ export const GENERATED_PATCHES = [
         ]
       }
     ]
+  },
+  {
+    "id": "3.3",
+    "patch": "3.3",
+    "versionName": "Reverbs From the End of Galaxies",
+    "startDate": "2026-04-30",
+    "durationDays": 42,
+    "tags": [
+      "WIP"
+    ],
+    "notes": "Generated from Wuthering Waves Google Sheets by patchsync",
+    "sources": [
+      {
+        "id": "events",
+        "label": "Version Events",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "pulls": 52.6,
+        "rewards": {
+          "astrite": 2820,
+          "forgingTide": 10,
+          "forgingToken": 0,
+          "lunite": 0,
+          "lustrousTide": 15,
+          "radiantTide": 35
+        },
+        "costs": {
+          "astrite": 0,
+          "forgingTide": 0,
+          "forgingToken": 0,
+          "lunite": 0,
+          "lustrousTide": 0,
+          "radiantTide": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "permanent",
+        "label": "Permanent Content",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "pulls": 3.4,
+        "rewards": {
+          "astrite": 540,
+          "forgingTide": 0,
+          "forgingToken": 0,
+          "lunite": 0,
+          "lustrousTide": 4,
+          "radiantTide": 0
+        },
+        "costs": {
+          "astrite": 0,
+          "forgingTide": 0,
+          "forgingToken": 0,
+          "lunite": 0,
+          "lustrousTide": 0,
+          "radiantTide": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "mailbox",
+        "label": "Mailbox/Miscellaneous",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "pulls": 6.6,
+        "rewards": {
+          "astrite": 1050,
+          "forgingTide": 0,
+          "forgingToken": 0,
+          "lunite": 0,
+          "lustrousTide": 0,
+          "radiantTide": 0
+        },
+        "costs": {
+          "astrite": 0,
+          "forgingTide": 0,
+          "forgingToken": 0,
+          "lunite": 0,
+          "lustrousTide": 0,
+          "radiantTide": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "dailyActivity",
+        "label": "Daily Activity",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "pulls": 15.8,
+        "rewards": {
+          "astrite": 0,
+          "forgingTide": 0,
+          "forgingToken": 0,
+          "lunite": 0,
+          "lustrousTide": 0,
+          "radiantTide": 0
+        },
+        "costs": {
+          "astrite": 0,
+          "forgingTide": 0,
+          "forgingToken": 0,
+          "lunite": 0,
+          "lustrousTide": 0,
+          "radiantTide": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "endgameModes",
+        "label": "Endgame Modes",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "pulls": 23.4,
+        "rewards": {
+          "astrite": 6280,
+          "forgingTide": 7,
+          "forgingToken": 0,
+          "lunite": 0,
+          "lustrousTide": 12,
+          "radiantTide": 7
+        },
+        "costs": {
+          "astrite": 0,
+          "forgingTide": 0,
+          "forgingToken": 0,
+          "lunite": 0,
+          "lustrousTide": 0,
+          "radiantTide": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "coralShop",
+        "label": "Coral Shop",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "pulls": 7,
+        "rewards": {
+          "astrite": 0,
+          "forgingTide": 0,
+          "forgingToken": 0,
+          "lunite": 0,
+          "lustrousTide": 0,
+          "radiantTide": 0
+        },
+        "costs": {
+          "astrite": 0,
+          "forgingTide": 0,
+          "forgingToken": 0,
+          "lunite": 0,
+          "lustrousTide": 0,
+          "radiantTide": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "weaponPulls",
+        "label": "Weapon Pulls",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "pulls": 17,
+        "rewards": {
+          "astrite": 0,
+          "forgingTide": 0,
+          "forgingToken": 0,
+          "lunite": 0,
+          "lustrousTide": 0,
+          "radiantTide": 0
+        },
+        "costs": {
+          "astrite": 0,
+          "forgingTide": 0,
+          "forgingToken": 0,
+          "lunite": 0,
+          "lustrousTide": 0,
+          "radiantTide": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "paidPodcast",
+        "label": "Paid Pioneer Podcast",
+        "gate": "bp2",
+        "optionKey": null,
+        "countInPulls": true,
+        "pulls": 9.3,
+        "rewards": {
+          "astrite": 680,
+          "forgingTide": 0,
+          "forgingToken": 0,
+          "lunite": 0,
+          "lustrousTide": 2,
+          "radiantTide": 5
+        },
+        "costs": {
+          "astrite": 0,
+          "forgingTide": 0,
+          "forgingToken": 0,
+          "lunite": 0,
+          "lustrousTide": 0,
+          "radiantTide": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "monthly",
+        "label": "Lunite Subscription",
+        "gate": "monthly",
+        "optionKey": null,
+        "countInPulls": true,
+        "pulls": 26.3,
+        "rewards": {
+          "astrite": 0,
+          "forgingTide": 0,
+          "forgingToken": 0,
+          "lunite": 0,
+          "lustrousTide": 0,
+          "radiantTide": 0
+        },
+        "costs": {
+          "astrite": 0,
+          "forgingTide": 0,
+          "forgingToken": 0,
+          "lunite": 0,
+          "lustrousTide": 0,
+          "radiantTide": 0
+        },
+        "scalers": [
+          {
+            "type": "per_duration",
+            "unit": "day",
+            "everyDays": 1,
+            "rounding": "floor",
+            "rewards": {
+              "astrite": 90,
+              "forgingTide": 0,
+              "forgingToken": 0,
+              "lunite": 0,
+              "lustrousTide": 0,
+              "radiantTide": 0
+            }
+          }
+        ]
+      }
+    ]
   }
 ];
 export const GENERATED_PATCHES_META = {
   "gameId": "wuthering-waves",
   "spreadsheetId": "1msSsnWBcXKniykf4rWQCEdk2IQuB9JHy",
   "sheets": [
-    "2.4",
-    "2.8",
-    "3.0",
-    "3.2 (STC)",
+    "3.1",
+    "3.2",
+    "3.3 (WIP)",
     "1.0",
     "1.1",
     "1.2",
@@ -4271,10 +4520,12 @@ export const GENERATED_PATCHES_META = {
     "2.1",
     "2.2",
     "2.3",
+    "2.4",
     "2.5",
     "2.6",
     "2.7",
-    "3.1"
+    "2.8",
+    "3.0"
   ],
-  "generatedAt": "2026-04-05T09:12:55Z"
+  "generatedAt": "2026-04-23T12:50:05Z"
 };
