@@ -1,42 +1,34 @@
+tools/patchsync/patchsync.exe
+tools/patchsync/
+tools/pathsync/
+AGENTS.md
+agents_frontend.md
+.env
 
-
-# If you prefer the allow list template instead of the deny list, see community template:
-# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
-#
-# Binaries for programs and plugins
+# Go baseline ignores
+/bin/
+/dist/
 *.exe
 *.exe~
 *.dll
 *.so
 *.dylib
-
-# Test binary, built with `go test -c`
 *.test
-
-# Code coverage profiles and other test artifacts
 *.out
-coverage.*
-*.coverprofile
-profile.cov
-
-# Dependency directories (remove the comment below to include it)
-# vendor/
-
-# Go workspace file
+*.prof
+coverage.out
 go.work
 go.work.sum
+.DS_Store
+.idea/
+.vscode/
 
-# env file
-.env
+# Keep patchsync sources versioned in master
+!tools/patchsync/
+tools/patchsync/patchsync.exe
+tools/patchsync/logs/
+tools/patchsync/tools/
 
-# Editor/IDE
-# .idea/
-# .vscode/
-
-tools/
-
-AGENTS.md
-agents_frontend.md
 
 #makefile
 *.http

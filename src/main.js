@@ -135,6 +135,9 @@ const ensureToastRoot = () => {
   return root;
 };
 
+const TOAST_MIN_MS = 1200;
+const TOAST_EXIT_MS = 320;
+
 const showToast = (message, { type = "info", duration = TOAST_DEFAULT_MS } = {}) => {
   const text = String(message ?? "").trim();
   if (!text) {
@@ -145,18 +148,49 @@ const showToast = (message, { type = "info", duration = TOAST_DEFAULT_MS } = {})
   const toast = document.createElement("div");
   toast.className = `toast toast-${type}`;
   toast.textContent = text;
+
+  const lifeMs = Math.max(TOAST_MIN_MS, Number(duration) || TOAST_DEFAULT_MS);
+  toast.style.setProperty("--toast-life-ms", `${lifeMs}ms`);
   root.appendChild(toast);
 
+  let isClosing = false;
+  let closeTimer = 0;
+  let cleanupTimer = 0;
+
+  const removeToast = () => {
+    window.clearTimeout(closeTimer);
+    window.clearTimeout(cleanupTimer);
+    if (toast.isConnected) {
+      toast.remove();
+    }
+  };
+
+  const closeToast = () => {
+    if (isClosing) {
+      return;
+    }
+    isClosing = true;
+    toast.classList.remove("is-entering", "is-visible");
+    toast.classList.add("is-leaving");
+  };
+
   requestAnimationFrame(() => {
-    toast.classList.add("is-visible");
+    toast.classList.add("is-visible", "is-entering");
   });
 
-  window.setTimeout(() => {
-    toast.classList.remove("is-visible");
-    window.setTimeout(() => {
-      toast.remove();
-    }, 220);
-  }, duration);
+  closeTimer = window.setTimeout(closeToast, lifeMs);
+  cleanupTimer = window.setTimeout(removeToast, lifeMs + TOAST_EXIT_MS + 120);
+
+  toast.addEventListener("animationend", (event) => {
+    if (event.target !== toast || event.animationName !== "toast-out") {
+      return;
+    }
+    removeToast();
+  });
+
+  toast.addEventListener("click", () => {
+    closeToast();
+  });
 };
 
 const applyAnimatedTitle = (titleText, animate) => {

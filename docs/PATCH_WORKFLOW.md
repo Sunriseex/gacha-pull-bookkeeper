@@ -4,6 +4,13 @@
 
 Add a new patch quickly and safely for any supported game, while keeping updates owner-only.
 
+## Weekly automation
+
+- GitHub Actions runs every Monday at `05:00 UTC`.
+- Workflow file: `.github/workflows/weekly-pages-sync.yml`
+- It uses `.env.example` as the CI source list, refreshes all generated `src/data/*.generated.js` files, then pushes the updated static site to the `github-pages` branch.
+- If branch protection blocks bot pushes, allow GitHub Actions to write to `github-pages` or relax that rule for this branch.
+
 ## Steps
 
 Option A (recommended): use Google Sheets importer.
@@ -11,11 +18,10 @@ Option A (recommended): use Google Sheets importer.
 1. Start importer service:
    - `cd tools/patchsync`
    - `go run . --serve --auth-token "<your_token>"`
-2. In app UI click `Sync Sheets`.
-3. Select game tab in the UI.
-4. Enter Spreadsheet ID (листы `N.N` подтянутся автоматически).
-5. Confirm branch creation if needed.
-6. Reload the app.
+2. In app UI click `Sync Sheets` once.
+3. Before first sync, copy `.env.example` to `.env` and set spreadsheet IDs/URLs there.
+4. The service syncs all configured games using values from `.env`.
+5. Reload the app and verify updated patches.
 
 Option B: manual edit in repository.
 

@@ -116,7 +116,6 @@ const drawRoundedRect = (ctx, x, y, w, h, r) => {
   ctx.arcTo(x, y, x + radius, y, radius);
   ctx.closePath();
 };
-
 const easeOutCubic = (t) => 1 - (1 - t) ** 3;
 
 const yMaxFor = (maxValue) => {
