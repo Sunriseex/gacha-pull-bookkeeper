@@ -1,0 +1,103 @@
+name: Weekly Pages Sync
+
+on:
+  schedule:
+    - cron: "0 5 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-pages-sync
+  cancel-in-progress: false
+
+jobs:
+  sync-and-publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout default branch
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Set up Go
+        uses: actions/setup-go@v6
+        with:
+          go-version-file: tools/patchsync/go.mod
+
+      - name: Prepare patchsync environment
+        run: cp .env.example .env
+
+      - name: Sync all configured games
+        id: sync
+        working-directory: tools/patchsync
+        run: |
+          set -euo pipefail
+          failures=()
+
+          for game in \
+            arknights-endfield \
+            wuthering-waves \
+            zenless-zone-zero \
+            genshin-impact \
+            honkai-star-rail
+          do
+            echo "::group::patchsync $game"
+            if ! go run . --game "$game"; then
+              failures+=("$game")
+            fi
+            echo "::endgroup::"
+          done
+
+          if [ "${#failures[@]}" -gt 0 ]; then
+            {
+              echo "has_failures=true"
+              echo "failed_games=${failures[*]}"
+            } >> "$GITHUB_OUTPUT"
+          else
+            {
+              echo "has_failures=false"
+              echo "failed_games="
+            } >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Publish refreshed site to github-pages
+        env:
+          TARGET_BRANCH: github-pages
+        run: |
+          set -euo pipefail
+
+          target_dir="$RUNNER_TEMP/github-pages"
+          git worktree add --track -B "$TARGET_BRANCH" "$target_dir" "origin/$TARGET_BRANCH"
+
+          cleanup() {
+            git worktree remove --force "$target_dir" || true
+          }
+          trap cleanup EXIT
+
+          find "$target_dir" -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
+
+          cp -R assets "$target_dir/"
+          cp -R docs "$target_dir/"
+          cp -R src "$target_dir/"
+          cp .gitignore LICENSE README.md index.html "$target_dir/"
+
+          git -C "$target_dir" add -A
+
+          if git -C "$target_dir" diff --cached --quiet; then
+            echo "No github-pages changes to publish"
+            exit 0
+          fi
+
+          git -C "$target_dir" config user.name "github-actions[bot]"
+          git -C "$target_dir" config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git -C "$target_dir" commit -m "data: update data for games"
+          git -C "$target_dir" push origin HEAD:"$TARGET_BRANCH"
+
+      - name: Fail when one or more game syncs failed
+        if: steps.sync.outputs.has_failures == 'true'
+        run: |
+          echo "Patch sync failed for: ${{ steps.sync.outputs.failed_games }}"
+          exit 1

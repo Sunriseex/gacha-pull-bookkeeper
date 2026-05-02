@@ -4,6 +4,13 @@
 
 Add a new patch quickly and safely for any supported game, while keeping updates owner-only.
 
+## Weekly automation
+
+- GitHub Actions runs every Monday at `05:00 UTC`.
+- Workflow file: `.github/workflows/weekly-pages-sync.yml`
+- It uses `.env.example` as the CI source list, refreshes all generated `src/data/*.generated.js` files, then pushes the updated static site to the `github-pages` branch.
+- If branch protection blocks bot pushes, allow GitHub Actions to write to `github-pages` or relax that rule for this branch.
+
 ## Steps
 
 Option A (recommended): use Google Sheets importer.
