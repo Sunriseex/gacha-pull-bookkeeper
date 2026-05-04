@@ -14318,7 +14318,7 @@ export const GENERATED_PATCHES = [
           "acquaintFate": 0,
           "genesisCrystal": 0,
           "intertwinedFate": 0,
-          "primogem": 522.84931507,
+          "primogem": 722.84931507,
           "starglitter": 0
         },
         "costs": {
@@ -14446,7 +14446,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 39.4,
+        "pulls": 39.3,
         "rewards": {
           "acquaintFate": 0,
           "genesisCrystal": 0,
@@ -14558,8 +14558,6 @@ export const GENERATED_PATCHES_META = {
   "gameId": "genshin-impact",
   "spreadsheetId": "1l9HPu2cAzTckdXtr7u-7D8NSKzZNUqOuvbmxERFZ_6w",
   "sheets": [
-    "6.1",
-    "6.4",
     "6.5 est.",
     "1.0",
     "1.1",
@@ -14605,8 +14603,10 @@ export const GENERATED_PATCHES_META = {
     "5.7",
     "5.8",
     "6.0",
+    "6.1",
     "6.2",
-    "6.3"
+    "6.3",
+    "6.4"
   ],
-  "generatedAt": "2026-04-23T12:51:47Z"
+  "generatedAt": "2026-05-04T07:44:50Z"
 };
