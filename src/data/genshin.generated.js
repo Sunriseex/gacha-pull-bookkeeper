@@ -14890,7 +14890,7 @@ export const GENERATED_PATCHES = [
           "acquaintFate": 0,
           "genesisCrystal": 0,
           "intertwinedFate": 0,
-          "primogem": 1685,
+          "primogem": 2185,
           "starglitter": 0
         },
         "costs": {
@@ -15204,5 +15204,5 @@ export const GENERATED_PATCHES_META = {
     "6.3",
     "6.4"
   ],
-  "generatedAt": "2026-05-18T08:42:30Z"
+  "generatedAt": "2026-05-25T08:52:34Z"
 };
