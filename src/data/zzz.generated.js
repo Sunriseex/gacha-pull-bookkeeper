@@ -4086,9 +4086,5 @@ export const GENERATED_PATCHES_META = {
     "2.5",
     "2.6"
   ],
-<<<<<<< HEAD
-  "generatedAt": "2026-05-25T08:52:09Z"
-=======
   "generatedAt": "2026-05-29T15:46:08Z"
->>>>>>> 59aa66f (fix: update generated patch data and resolve conflicts)
 };

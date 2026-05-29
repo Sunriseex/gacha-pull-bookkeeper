@@ -4064,15 +4064,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-<<<<<<< HEAD
-        "pulls": 7.5,
-        "rewards": {
-          "astrite": 1200,
-=======
         "pulls": 7.8,
         "rewards": {
           "astrite": 1250,
->>>>>>> 59aa66f (fix: update generated patch data and resolve conflicts)
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -4261,11 +4255,7 @@ export const GENERATED_PATCHES = [
     "patch": "3.3",
     "versionName": "Reverbs From the End of Galaxies",
     "startDate": "2026-04-30",
-<<<<<<< HEAD
-    "durationDays": 42,
-=======
     "durationDays": 39,
->>>>>>> 59aa66f (fix: update generated patch data and resolve conflicts)
     "tags": [
       "WIP"
     ],
@@ -4277,15 +4267,6 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-<<<<<<< HEAD
-        "pulls": 52.6,
-        "rewards": {
-          "astrite": 2820,
-          "forgingTide": 10,
-          "forgingToken": 0,
-          "lunite": 0,
-          "lustrousTide": 15,
-=======
         "pulls": 64.4,
         "rewards": {
           "astrite": 4700,
@@ -4293,7 +4274,6 @@ export const GENERATED_PATCHES = [
           "forgingToken": 0,
           "lunite": 0,
           "lustrousTide": 20,
->>>>>>> 59aa66f (fix: update generated patch data and resolve conflicts)
           "radiantTide": 35
         },
         "costs": {
@@ -4312,15 +4292,6 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-<<<<<<< HEAD
-        "pulls": 3.4,
-        "rewards": {
-          "astrite": 540,
-          "forgingTide": 0,
-          "forgingToken": 0,
-          "lunite": 0,
-          "lustrousTide": 4,
-=======
         "pulls": 25.6,
         "rewards": {
           "astrite": 4090,
@@ -4328,7 +4299,6 @@ export const GENERATED_PATCHES = [
           "forgingToken": 0,
           "lunite": 0,
           "lustrousTide": 16,
->>>>>>> 59aa66f (fix: update generated patch data and resolve conflicts)
           "radiantTide": 0
         },
         "costs": {
@@ -4347,15 +4317,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-<<<<<<< HEAD
-        "pulls": 6.6,
-        "rewards": {
-          "astrite": 1050,
-=======
         "pulls": 7.1,
         "rewards": {
           "astrite": 1130,
->>>>>>> 59aa66f (fix: update generated patch data and resolve conflicts)
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -4378,11 +4342,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-<<<<<<< HEAD
-        "pulls": 15.8,
-=======
         "pulls": 14.6,
->>>>>>> 59aa66f (fix: update generated patch data and resolve conflicts)
         "rewards": {
           "astrite": 0,
           "forgingTide": 0,
@@ -4407,15 +4367,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-<<<<<<< HEAD
-        "pulls": 23.4,
-        "rewards": {
-          "astrite": 6280,
-=======
         "pulls": 17.4,
         "rewards": {
           "astrite": 5140,
->>>>>>> 59aa66f (fix: update generated patch data and resolve conflicts)
           "forgingTide": 7,
           "forgingToken": 0,
           "lunite": 0,
@@ -4513,11 +4467,7 @@ export const GENERATED_PATCHES = [
         "gate": "monthly",
         "optionKey": null,
         "countInPulls": true,
-<<<<<<< HEAD
-        "pulls": 26.3,
-=======
         "pulls": 24.4,
->>>>>>> 59aa66f (fix: update generated patch data and resolve conflicts)
         "rewards": {
           "astrite": 0,
           "forgingTide": 0,
@@ -4558,12 +4508,6 @@ export const GENERATED_PATCHES_META = {
   "gameId": "wuthering-waves",
   "spreadsheetId": "1msSsnWBcXKniykf4rWQCEdk2IQuB9JHy",
   "sheets": [
-<<<<<<< HEAD
-    "3.1",
-    "3.2",
-    "3.3 (WIP)",
-=======
->>>>>>> 59aa66f (fix: update generated patch data and resolve conflicts)
     "1.0",
     "1.1",
     "1.2",
@@ -4576,13 +4520,6 @@ export const GENERATED_PATCHES_META = {
     "2.4",
     "2.5",
     "2.6",
-<<<<<<< HEAD
-    "2.7",
-    "2.8",
-    "3.0"
-  ],
-  "generatedAt": "2026-04-23T12:50:05Z"
-=======
     "2.8",
     "3.0",
     "3.1",
@@ -4594,5 +4531,4 @@ export const GENERATED_PATCHES_META = {
     "2.7"
   ],
   "generatedAt": "2026-05-02T08:42:33Z"
->>>>>>> 59aa66f (fix: update generated patch data and resolve conflicts)
 };
