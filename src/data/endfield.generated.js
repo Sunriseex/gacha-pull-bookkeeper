@@ -950,8 +950,8 @@ export const GENERATED_PATCHES = [
           "firewalker": 0,
           "hues": 0,
           "messenger": 0,
-          "origeometry": 37,
-          "oroberyl": 9965
+          "origeometry": 33,
+          "oroberyl": 8675
         },
         "costs": {
           "arsenal": 0,
@@ -1356,5 +1356,5 @@ export const GENERATED_PATCHES_META = {
     "1.2",
     "1.1"
   ],
-  "generatedAt": "2026-05-25T08:51:59Z"
+  "generatedAt": "2026-05-29T15:45:37Z"
 };
