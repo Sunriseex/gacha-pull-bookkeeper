@@ -5648,9 +5648,6 @@ export const GENERATED_PATCHES = [
     "versionName": "Version 4.2",
     "startDate": "2026-04-22",
     "durationDays": 42,
-    "tags": [
-      "WIP"
-    ],
     "notes": "Generated from Honkai: Star Rail Google Sheets by patchsync",
     "sources": [
       {
@@ -5867,9 +5864,6 @@ export const GENERATED_PATCHES_META = {
   "gameId": "honkai-star-rail",
   "spreadsheetId": "2PACX-1vRIWjzFwAZZoBvKw2oiNaVpppI9atoV0wxuOjulKRJECrg_BN404d7LoKlHp8RMX8hegDr4b8jlHjYy",
   "sheets": [
-    "3.7",
-    "4.0",
-    "4.1",
     "4.2",
     "1.0",
     "1.1",
@@ -5893,11 +5887,10 @@ export const GENERATED_PATCHES_META = {
     "3.4",
     "3.5",
     "3.6",
-    "3.8"
+    "3.7",
+    "3.8",
+    "4.0",
+    "4.1"
   ],
-<<<<<<< HEAD
-  "generatedAt": "2026-05-02T08:44:16Z"
-=======
-  "generatedAt": "2026-04-23T12:52:37Z"
->>>>>>> 300c77f65e973b5501da3caeb067befe96df1946
+  "generatedAt": "2026-05-29T15:46:54Z"
 };
