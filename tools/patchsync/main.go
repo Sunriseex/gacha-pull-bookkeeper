@@ -436,6 +436,68 @@ func inferDurationDays(headers []string, firstDataRow []string, durationCol int)
 	return 0
 }
 
+func inferDurationDaysFromTitleRow(record []string) int {
+	for _, cell := range record {
+		days := parseInt(cell)
+		if days >= 7 && days <= 120 {
+			return days
+		}
+	}
+	return 0
+}
+
+func inferStartDateFromTitleRow(record []string) string {
+	for idx, cell := range record {
+		if !strings.Contains(normalizeName(cell), "release date") {
+			continue
+		}
+		for _, candidateIdx := range []int{idx - 1, idx + 1} {
+			date := parseTitleRowDateToISO(getCell(record, candidateIdx))
+			if date != "" {
+				return date
+			}
+		}
+	}
+
+	uniqueDates := make([]string, 0, 1)
+	seen := map[string]struct{}{}
+	for _, cell := range record {
+		date := parseTitleRowDateToISO(cell)
+		if date == "" {
+			continue
+		}
+		if _, ok := seen[date]; ok {
+			continue
+		}
+		seen[date] = struct{}{}
+		uniqueDates = append(uniqueDates, date)
+	}
+	if len(uniqueDates) == 1 {
+		return uniqueDates[0]
+	}
+
+	return ""
+}
+
+func parseTitleRowDateToISO(raw string) string {
+	value := strings.TrimSpace(raw)
+	if value == "" {
+		return ""
+	}
+	layouts := []string{
+		"01.02.2006",
+		"1.2.2006",
+		"01/02/2006",
+		"1/2/2006",
+	}
+	for _, layout := range layouts {
+		if parsed, err := time.Parse(layout, value); err == nil {
+			return parsed.Format("2006-01-02")
+		}
+	}
+	return parseDateToISO(value)
+}
+
 func rowFromRecord(record []string, idxName, idxOro, idxOri, idxChartered, idxBasic, idxArsenal int) sheetRow {
 	oroRaw := getCell(record, idxOro)
 	oriRaw := getCell(record, idxOri)
@@ -516,6 +578,9 @@ func parseSheetToPatch(sheetName, csvText string) (Patch, error) {
 	}
 
 	durationDays := inferDurationDays(headers, records[1], idxDuration)
+	if durationDays <= 0 && !hasExplicitHeaders {
+		durationDays = inferDurationDaysFromTitleRow(records[0])
+	}
 	if durationDays <= 0 {
 		return Patch{}, errors.New("unable to determine durationDays from sheet")
 	}
@@ -717,6 +782,9 @@ func parseSheetToPatch(sheetName, csvText string) (Patch, error) {
 	}
 
 	versionName, startDate := parsePatchHeaderMeta(getCell(headers, 0))
+	if startDate == "" && !hasExplicitHeaders {
+		startDate = inferStartDateFromTitleRow(headers)
+	}
 	patchID := canonicalPatchID(sheetName)
 	patch := Patch{
 		ID:           patchID,

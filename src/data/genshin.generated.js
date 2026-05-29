@@ -14318,7 +14318,11 @@ export const GENERATED_PATCHES = [
           "acquaintFate": 0,
           "genesisCrystal": 0,
           "intertwinedFate": 0,
+<<<<<<< HEAD
           "primogem": 722.84931507,
+=======
+          "primogem": 522.84931507,
+>>>>>>> 300c77f65e973b5501da3caeb067befe96df1946
           "starglitter": 0
         },
         "costs": {
@@ -14446,7 +14450,11 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+<<<<<<< HEAD
         "pulls": 39.3,
+=======
+        "pulls": 39.4,
+>>>>>>> 300c77f65e973b5501da3caeb067befe96df1946
         "rewards": {
           "acquaintFate": 0,
           "genesisCrystal": 0,
@@ -14608,5 +14616,9 @@ export const GENERATED_PATCHES_META = {
     "6.2",
     "6.3"
   ],
+<<<<<<< HEAD
   "generatedAt": "2026-05-02T08:43:19Z"
+=======
+  "generatedAt": "2026-04-23T12:51:47Z"
+>>>>>>> 300c77f65e973b5501da3caeb067befe96df1946
 };

@@ -4064,9 +4064,15 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+<<<<<<< HEAD
         "pulls": 7.8,
         "rewards": {
           "astrite": 1250,
+=======
+        "pulls": 7.5,
+        "rewards": {
+          "astrite": 1200,
+>>>>>>> 300c77f65e973b5501da3caeb067befe96df1946
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -4255,7 +4261,11 @@ export const GENERATED_PATCHES = [
     "patch": "3.3",
     "versionName": "Reverbs From the End of Galaxies",
     "startDate": "2026-04-30",
+<<<<<<< HEAD
     "durationDays": 39,
+=======
+    "durationDays": 42,
+>>>>>>> 300c77f65e973b5501da3caeb067befe96df1946
     "tags": [
       "WIP"
     ],
@@ -4267,6 +4277,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+<<<<<<< HEAD
         "pulls": 64.4,
         "rewards": {
           "astrite": 4700,
@@ -4274,6 +4285,15 @@ export const GENERATED_PATCHES = [
           "forgingToken": 0,
           "lunite": 0,
           "lustrousTide": 20,
+=======
+        "pulls": 52.6,
+        "rewards": {
+          "astrite": 2820,
+          "forgingTide": 10,
+          "forgingToken": 0,
+          "lunite": 0,
+          "lustrousTide": 15,
+>>>>>>> 300c77f65e973b5501da3caeb067befe96df1946
           "radiantTide": 35
         },
         "costs": {
@@ -4292,6 +4312,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+<<<<<<< HEAD
         "pulls": 25.6,
         "rewards": {
           "astrite": 4090,
@@ -4299,6 +4320,15 @@ export const GENERATED_PATCHES = [
           "forgingToken": 0,
           "lunite": 0,
           "lustrousTide": 16,
+=======
+        "pulls": 3.4,
+        "rewards": {
+          "astrite": 540,
+          "forgingTide": 0,
+          "forgingToken": 0,
+          "lunite": 0,
+          "lustrousTide": 4,
+>>>>>>> 300c77f65e973b5501da3caeb067befe96df1946
           "radiantTide": 0
         },
         "costs": {
@@ -4317,9 +4347,15 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+<<<<<<< HEAD
         "pulls": 7.1,
         "rewards": {
           "astrite": 1130,
+=======
+        "pulls": 6.6,
+        "rewards": {
+          "astrite": 1050,
+>>>>>>> 300c77f65e973b5501da3caeb067befe96df1946
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -4342,7 +4378,11 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+<<<<<<< HEAD
         "pulls": 14.6,
+=======
+        "pulls": 15.8,
+>>>>>>> 300c77f65e973b5501da3caeb067befe96df1946
         "rewards": {
           "astrite": 0,
           "forgingTide": 0,
@@ -4367,9 +4407,15 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+<<<<<<< HEAD
         "pulls": 17.4,
         "rewards": {
           "astrite": 5140,
+=======
+        "pulls": 23.4,
+        "rewards": {
+          "astrite": 6280,
+>>>>>>> 300c77f65e973b5501da3caeb067befe96df1946
           "forgingTide": 7,
           "forgingToken": 0,
           "lunite": 0,
@@ -4467,7 +4513,11 @@ export const GENERATED_PATCHES = [
         "gate": "monthly",
         "optionKey": null,
         "countInPulls": true,
+<<<<<<< HEAD
         "pulls": 24.4,
+=======
+        "pulls": 26.3,
+>>>>>>> 300c77f65e973b5501da3caeb067befe96df1946
         "rewards": {
           "astrite": 0,
           "forgingTide": 0,
@@ -4508,6 +4558,12 @@ export const GENERATED_PATCHES_META = {
   "gameId": "wuthering-waves",
   "spreadsheetId": "1msSsnWBcXKniykf4rWQCEdk2IQuB9JHy",
   "sheets": [
+<<<<<<< HEAD
+=======
+    "3.1",
+    "3.2",
+    "3.3 (WIP)",
+>>>>>>> 300c77f65e973b5501da3caeb067befe96df1946
     "1.0",
     "1.1",
     "1.3",
@@ -4517,6 +4573,7 @@ export const GENERATED_PATCHES_META = {
     "2.4",
     "2.5",
     "2.6",
+<<<<<<< HEAD
     "2.8",
     "3.0",
     "3.1",
@@ -4528,4 +4585,11 @@ export const GENERATED_PATCHES_META = {
     "2.7"
   ],
   "generatedAt": "2026-05-02T08:42:33Z"
+=======
+    "2.7",
+    "2.8",
+    "3.0"
+  ],
+  "generatedAt": "2026-04-23T12:50:05Z"
+>>>>>>> 300c77f65e973b5501da3caeb067befe96df1946
 };

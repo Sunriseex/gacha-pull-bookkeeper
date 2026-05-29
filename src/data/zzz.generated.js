@@ -4078,9 +4078,6 @@ export const GENERATED_PATCHES_META = {
     "1.2",
     "1.3",
     "1.4",
-    "1.5",
-    "1.6",
-    "1.7",
     "2.0",
     "2.1",
     "2.2",
@@ -4089,5 +4086,9 @@ export const GENERATED_PATCHES_META = {
     "2.5",
     "2.6"
   ],
+<<<<<<< HEAD
   "generatedAt": "2026-05-02T08:43:02Z"
+=======
+  "generatedAt": "2026-04-23T12:51:27Z"
+>>>>>>> 300c77f65e973b5501da3caeb067befe96df1946
 };
