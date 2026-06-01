@@ -5337,12 +5337,12 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 28.2,
+        "pulls": 29.3,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 6,
           "specialPass": 0,
-          "stellarJade": 4505,
+          "stellarJade": 4685,
           "tracksOfDestiny": 0
         },
         "costs": {
@@ -5554,12 +5554,12 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 14.7,
+        "pulls": 15.1,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 4,
           "specialPass": 0,
-          "stellarJade": 2360,
+          "stellarJade": 2420,
           "tracksOfDestiny": 0
         },
         "costs": {
@@ -5771,12 +5771,12 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 14,
+        "pulls": 14.4,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 6,
           "specialPass": 0,
-          "stellarJade": 2240,
+          "stellarJade": 2300,
           "tracksOfDestiny": 0
         },
         "costs": {
@@ -5991,12 +5991,12 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 3.9,
+        "pulls": 10,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 3,
           "specialPass": 0,
-          "stellarJade": 625,
+          "stellarJade": 1605,
           "tracksOfDestiny": 0
         },
         "costs": {
@@ -6091,6 +6091,8 @@ export const GENERATED_PATCHES_META = {
     "2.5",
     "3.0",
     "3.8",
+    "4.0",
+    "4.1",
     "4.2",
     "4.3",
     "1.2",
@@ -6109,9 +6111,7 @@ export const GENERATED_PATCHES_META = {
     "3.4",
     "3.5",
     "3.6",
-    "3.7",
-    "4.0",
-    "4.1"
+    "3.7"
   ],
-  "generatedAt": "2026-06-01T10:13:56Z"
+  "generatedAt": "2026-06-01T22:30:32Z"
 };

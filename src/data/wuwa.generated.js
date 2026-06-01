@@ -45,7 +45,7 @@ export const GENERATED_PATCHES = [
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
-          "lustrousTide": 58,
+          "lustrousTide": 68,
           "radiantTide": 15
         },
         "costs": {
@@ -295,7 +295,7 @@ export const GENERATED_PATCHES = [
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
-          "lustrousTide": 0,
+          "lustrousTide": 1,
           "radiantTide": 0
         },
         "costs": {
@@ -539,9 +539,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 3.2,
+        "pulls": 3.4,
         "rewards": {
-          "astrite": 510,
+          "astrite": 550,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -614,7 +614,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 13.7,
+        "pulls": 13.8,
         "rewards": {
           "astrite": 4840,
           "forgingTide": 7,
@@ -789,13 +789,13 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 24.1,
+        "pulls": 24.7,
         "rewards": {
-          "astrite": 3850,
+          "astrite": 3950,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
-          "lustrousTide": 0,
+          "lustrousTide": 2,
           "radiantTide": 0
         },
         "costs": {
@@ -1039,9 +1039,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 4.7,
+        "pulls": 5.2,
         "rewards": {
-          "astrite": 755,
+          "astrite": 835,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -2005,7 +2005,7 @@ export const GENERATED_PATCHES = [
     "patch": "2.3",
     "versionName": "Fiery Arpeggio of Summer Reunion",
     "startDate": "2025-04-29",
-    "durationDays": 42,
+    "durationDays": 44,
     "notes": "Generated from Wuthering Waves Google Sheets by patchsync",
     "sources": [
       {
@@ -2039,9 +2039,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 12.3,
+        "pulls": 12.8,
         "rewards": {
-          "astrite": 1965,
+          "astrite": 2045,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -2089,7 +2089,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 15.8,
+        "pulls": 16.5,
         "rewards": {
           "astrite": 0,
           "forgingTide": 0,
@@ -2114,9 +2114,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 19.9,
+        "pulls": 20.6,
         "rewards": {
-          "astrite": 5730,
+          "astrite": 5946,
           "forgingTide": 7,
           "forgingToken": 0,
           "lunite": 0,
@@ -2214,7 +2214,7 @@ export const GENERATED_PATCHES = [
         "gate": "monthly",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 26.3,
+        "pulls": 27.5,
         "rewards": {
           "astrite": 0,
           "forgingTide": 0,
@@ -2264,9 +2264,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 21.1,
+        "pulls": 21.4,
         "rewards": {
-          "astrite": 2580,
+          "astrite": 2620,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -3264,9 +3264,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 18.5,
+        "pulls": 18.6,
         "rewards": {
-          "astrite": 2160,
+          "astrite": 2180,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -3289,9 +3289,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 10.8,
+        "pulls": 10.3,
         "rewards": {
-          "astrite": 1720,
+          "astrite": 1640,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -3514,7 +3514,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 20.7,
+        "pulls": 18.9,
         "rewards": {
           "astrite": 2220,
           "forgingTide": 0,
@@ -3539,13 +3539,13 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 57.4,
+        "pulls": 61.5,
         "rewards": {
-          "astrite": 9445,
+          "astrite": 9845,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
-          "lustrousTide": 21,
+          "lustrousTide": 23,
           "radiantTide": 0
         },
         "costs": {
@@ -3614,7 +3614,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 23.4,
+        "pulls": 23.5,
         "rewards": {
           "astrite": 6280,
           "forgingTide": 7,
@@ -3789,9 +3789,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 21.7,
+        "pulls": 23.1,
         "rewards": {
-          "astrite": 3470,
+          "astrite": 3690,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -3864,7 +3864,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 23.4,
+        "pulls": 23.3,
         "rewards": {
           "astrite": 6280,
           "forgingTide": 7,
@@ -4256,9 +4256,6 @@ export const GENERATED_PATCHES = [
     "versionName": "Reverbs From the End of Galaxies",
     "startDate": "2026-04-30",
     "durationDays": 39,
-    "tags": [
-      "WIP"
-    ],
     "notes": "Generated from Wuthering Waves Google Sheets by patchsync",
     "sources": [
       {
@@ -4267,9 +4264,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 64.4,
+        "pulls": 62.3,
         "rewards": {
-          "astrite": 4700,
+          "astrite": 4370,
           "forgingTide": 10,
           "forgingToken": 0,
           "lunite": 0,
@@ -4292,9 +4289,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 25.6,
+        "pulls": 28.9,
         "rewards": {
-          "astrite": 4090,
+          "astrite": 4620,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -4367,7 +4364,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 17.4,
+        "pulls": 17.5,
         "rewards": {
           "astrite": 5140,
           "forgingTide": 7,
@@ -4510,22 +4507,22 @@ export const GENERATED_PATCHES_META = {
   "sheets": [
     "1.0",
     "1.1",
+    "1.2",
     "1.3",
-    "2.0",
-    "2.2",
+    "1.4",
     "2.3",
     "2.4",
-    "2.5",
-    "2.6",
     "2.8",
     "3.0",
     "3.1",
-    "3.2",
-    "3.3 (WIP)",
-    "1.2",
-    "1.4",
+    "3.3",
+    "2.0",
     "2.1",
-    "2.7"
+    "2.2",
+    "2.5",
+    "2.6",
+    "2.7",
+    "3.2"
   ],
-  "generatedAt": "2026-05-02T08:42:33Z"
+  "generatedAt": "2026-06-01T22:29:43Z"
 };
