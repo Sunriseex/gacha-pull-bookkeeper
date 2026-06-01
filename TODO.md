@@ -10,6 +10,7 @@
 
 ## Done
 
+* [x] Make WuWa Data sheet parsing handle sparse exported version headers (2026-06-02)
 * [x] Stabilize weekly Pages sync when optional Data sheet overrides are unavailable (2026-06-02)
 * [x] Investigate June 1, 2026 Weekly Pages Sync failure for Wuthering Waves Data sheet parsing (2026-06-02)
 * [x] Add weekly GitHub Actions sync for Sheets parser and publish refreshed static files to `github-pages` (2026-04-23)

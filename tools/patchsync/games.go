@@ -7,6 +7,7 @@ import (
 	"math"
 	"os"
 	"regexp"
+	"sort"
 	"strconv"
 	"strings"
 	"time"
@@ -904,7 +905,7 @@ func parseDataSheetPatchTags(csvText string) (map[string][]string, error) {
 		return map[string][]string{}, nil
 	}
 
-	header := records[0]
+	header, _ := findDataSheetHeader(records)
 	tagsByPatch := map[string][]string{}
 	for _, cell := range header {
 		patchID := canonicalPatchID(cell)
@@ -920,7 +921,127 @@ func parseDataSheetPatchTags(csvText string) (map[string][]string, error) {
 	return tagsByPatch, nil
 }
 
-func parseDataSheetPulls(csvText string, rowToSourceID map[string]string) (map[string]map[string]float64, error) {
+func findDataSheetHeader(records [][]string) ([]string, int) {
+	for idx, record := range records {
+		if normalizeName(getCell(record, 0)) != "version" {
+			continue
+		}
+		for _, cell := range record {
+			patchName := canonicalPatchID(cell)
+			if patchName != "" && isVersionLikeSheetName(patchName) {
+				return record, idx
+			}
+		}
+	}
+
+	bestIdx := 0
+	bestCount := 0
+	for idx, record := range records {
+		count := 0
+		for _, cell := range record {
+			patchName := canonicalPatchID(cell)
+			if patchName != "" && isVersionLikeSheetName(patchName) {
+				count++
+			}
+		}
+		if count > bestCount {
+			bestIdx = idx
+			bestCount = count
+		}
+	}
+	if len(records) == 0 {
+		return nil, 0
+	}
+	return records[bestIdx], bestIdx
+}
+
+func explicitDataSheetPatchColumns(header []string) map[int]string {
+	patchCols := map[int]string{}
+	for idx, cell := range header {
+		patchName := canonicalPatchID(cell)
+		if patchName == "" || !isVersionLikeSheetName(patchName) {
+			continue
+		}
+		patchCols[idx] = patchName
+	}
+	return patchCols
+}
+
+func sortedDataColumns(records [][]string, rowToSourceID map[string]string, startRow int) []int {
+	seen := map[int]struct{}{}
+	for _, record := range records[startRow:] {
+		rowName := normalizeName(getCell(record, 0))
+		if _, ok := rowToSourceID[rowName]; !ok {
+			continue
+		}
+		for idx := 1; idx < len(record); idx++ {
+			if _, ok := parseDataPullValue(getCell(record, idx)); !ok {
+				continue
+			}
+			seen[idx] = struct{}{}
+		}
+	}
+	cols := make([]int, 0, len(seen))
+	for idx := range seen {
+		cols = append(cols, idx)
+	}
+	sort.Ints(cols)
+	return cols
+}
+
+func inferDataSheetPatchColumns(records [][]string, rowToSourceID map[string]string, headerIdx int, explicitCols map[int]string, fallbackSheetNames []string) map[int]string {
+	fallbackIDs := make([]string, 0, len(fallbackSheetNames))
+	for _, sheetName := range fallbackSheetNames {
+		patchID := canonicalPatchID(sheetName)
+		if patchID == "" || !isVersionLikeSheetName(patchID) {
+			continue
+		}
+		fallbackIDs = append(fallbackIDs, patchID)
+	}
+	fallbackIDs = uniqueStrings(fallbackIDs)
+	sortVersionStrings(fallbackIDs)
+	if len(fallbackIDs) == 0 {
+		return explicitCols
+	}
+
+	valueCols := sortedDataColumns(records, rowToSourceID, headerIdx+1)
+	if len(valueCols) == 0 {
+		return explicitCols
+	}
+
+	fallbackIndexByPatch := map[string]int{}
+	for idx, patchID := range fallbackIDs {
+		fallbackIndexByPatch[patchID] = idx
+	}
+	for colIdx, patchID := range explicitCols {
+		fallbackIdx, ok := fallbackIndexByPatch[canonicalPatchID(patchID)]
+		if !ok {
+			continue
+		}
+		startCol := colIdx - fallbackIdx
+		inferred := map[int]string{}
+		for idx, patchID := range fallbackIDs {
+			col := startCol + idx
+			if col < 0 {
+				continue
+			}
+			inferred[col] = patchID
+		}
+		return inferred
+	}
+
+	if len(valueCols) == len(fallbackIDs) {
+		inferred := map[int]string{}
+		for idx, col := range valueCols {
+			inferred[col] = fallbackIDs[idx]
+		}
+		return inferred
+	}
+
+	return explicitCols
+}
+
+func parseDataSheetPulls(csvText string, rowToSourceID map[string]string, fallbackSheetNames []string) (map[string]map[string]float64, error) {
 	reader := csv.NewReader(strings.NewReader(csvText))
 	reader.FieldsPerRecord = -1
 	reader.LazyQuotes = true
@@ -932,21 +1053,15 @@ func parseDataSheetPulls(csvText string, rowToSourceID map[string]string) (map[s
 		return nil, errors.New("Data sheet has no rows")
 	}
 
-	header := records[0]
-	patchCols := map[int]string{}
-	for idx, cell := range header {
-		patchName := canonicalPatchID(cell)
-		if patchName == "" || !isVersionLikeSheetName(patchName) {
-			continue
-		}
-		patchCols[idx] = patchName
-	}
+	header, headerIdx := findDataSheetHeader(records)
+	patchCols := explicitDataSheetPatchColumns(header)
+	patchCols = inferDataSheetPatchColumns(records, rowToSourceID, headerIdx, patchCols, fallbackSheetNames)
 	if len(patchCols) == 0 {
 		return nil, errors.New("Data sheet has no patch columns")
 	}
 
 	result := map[string]map[string]float64{}
-	for _, record := range records[1:] {
+	for _, record := range records[headerIdx+1:] {
 		rowName := normalizeName(getCell(record, 0))
 		sourceID, ok := rowToSourceID[rowName]
 		if !ok {
@@ -970,18 +1085,18 @@ func parseDataSheetPulls(csvText string, rowToSourceID map[string]string) (map[s
 	return result, nil
 }
 
-func parseEndfieldDataSheet(csvText string) (map[string]map[string]float64, error) {
-	return parseDataSheetPulls(csvText, endfieldDataRowToSourceID)
+func parseEndfieldDataSheet(csvText string, fallbackSheetNames []string) (map[string]map[string]float64, error) {
+	return parseDataSheetPulls(csvText, endfieldDataRowToSourceID, fallbackSheetNames)
 }
 
 func isZzzBooponsTotalRow(rowName string) bool {
 	return rowName == "f2p boopons total"
 }
-func parseWuwaDataSheet(csvText string) (map[string]map[string]float64, error) {
-	return parseDataSheetPulls(csvText, wuwaDataRowToSourceID)
+func parseWuwaDataSheet(csvText string, fallbackSheetNames []string) (map[string]map[string]float64, error) {
+	return parseDataSheetPulls(csvText, wuwaDataRowToSourceID, fallbackSheetNames)
 }
 
-func parseZzzDataSheet(csvText string) (map[string]map[string]float64, error) {
+func parseZzzDataSheet(csvText string, fallbackSheetNames []string) (map[string]map[string]float64, error) {
 	reader := csv.NewReader(strings.NewReader(csvText))
 	reader.FieldsPerRecord = -1
 	reader.LazyQuotes = true
@@ -993,22 +1108,16 @@ func parseZzzDataSheet(csvText string) (map[string]map[string]float64, error) {
 		return nil, errors.New("Data sheet has no rows")
 	}
 
-	header := records[0]
-	patchCols := map[int]string{}
-	for idx, cell := range header {
-		patchName := canonicalPatchID(cell)
-		if patchName == "" || !isVersionLikeSheetName(patchName) {
-			continue
-		}
-		patchCols[idx] = patchName
-	}
+	header, headerIdx := findDataSheetHeader(records)
+	patchCols := explicitDataSheetPatchColumns(header)
+	patchCols = inferDataSheetPatchColumns(records, zzzDataRowToSourceID, headerIdx, patchCols, fallbackSheetNames)
 	if len(patchCols) == 0 {
 		return nil, errors.New("Data sheet has no patch columns")
 	}
 
 	result := map[string]map[string]float64{}
 	inBooponSection := false
-	for _, record := range records[1:] {
+	for _, record := range records[headerIdx+1:] {
 		rowName := normalizeName(getCell(record, 0))
 		if rowName == "" {
 			continue
@@ -1062,8 +1171,8 @@ func parseZzzDataSheet(csvText string) (map[string]map[string]float64, error) {
 	return result, nil
 }
 
-func parseHsrDataSheet(csvText string) (map[string]map[string]float64, error) {
-	return parseDataSheetPulls(csvText, hsrDataRowToSourceID)
+func parseHsrDataSheet(csvText string, fallbackSheetNames []string) (map[string]map[string]float64, error) {
+	return parseDataSheetPulls(csvText, hsrDataRowToSourceID, fallbackSheetNames)
 }
 
 func parseDataPullValue(raw string) (float64, bool) {

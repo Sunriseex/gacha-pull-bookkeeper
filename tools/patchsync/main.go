@@ -1699,9 +1699,11 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 	var hsrDataPulls map[string]map[string]float64
 	var genshinSummaryPulls map[string]float64
 	var dataSheetTagsByPatch map[string][]string
+	var dataCSV string
 	if cfg.GameID == gameIDEndfield || cfg.GameID == gameIDWuwa || cfg.GameID == gameIDZzz || cfg.GameID == gameIDHsr {
 		appendSyncLog(&logs, "fetch Data sheet")
-		dataCSV, dataErr := fetchSheetCSV(ctx, client, cfg.SpreadsheetID, "Data")
+		var dataErr error
+		dataCSV, dataErr = fetchSheetCSV(ctx, client, cfg.SpreadsheetID, "Data")
 		if dataErr != nil {
 			appendSyncLog(&logs, "Data sheet unavailable for %s; continuing without pull overrides: %v", cfg.GameID, dataErr)
 		} else {
@@ -1710,36 +1712,6 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 				dataSheetTagsByPatch = parsedTags
 			} else {
 				appendSyncLog(&logs, "Data sheet tags unavailable for %s: %v", cfg.GameID, tagsErr)
-			}
-			switch cfg.GameID {
-			case gameIDEndfield:
-				parsedPulls, parseDataErr := parseEndfieldDataSheet(dataCSV)
-				if parseDataErr != nil {
-					appendSyncLog(&logs, "Data sheet pull overrides unavailable for %s; continuing without overrides: %v", cfg.GameID, parseDataErr)
-				} else {
-					endfieldDataPulls = parsedPulls
-				}
-			case gameIDWuwa:
-				parsedPulls, parseDataErr := parseWuwaDataSheet(dataCSV)
-				if parseDataErr != nil {
-					appendSyncLog(&logs, "Data sheet pull overrides unavailable for %s; continuing without overrides: %v", cfg.GameID, parseDataErr)
-				} else {
-					wuwaDataPulls = parsedPulls
-				}
-			case gameIDZzz:
-				parsedPulls, parseDataErr := parseZzzDataSheet(dataCSV)
-				if parseDataErr != nil {
-					appendSyncLog(&logs, "Data sheet pull overrides unavailable for %s; continuing without overrides: %v", cfg.GameID, parseDataErr)
-				} else {
-					zzzDataPulls = parsedPulls
-				}
-			case gameIDHsr:
-				parsedPulls, parseDataErr := parseHsrDataSheet(dataCSV)
-				if parseDataErr != nil {
-					appendSyncLog(&logs, "Data sheet pull overrides unavailable for %s; continuing without overrides: %v", cfg.GameID, parseDataErr)
-				} else {
-					hsrDataPulls = parsedPulls
-				}
 			}
 		}
 	}
@@ -1782,6 +1754,39 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 	}
 	sortVersionStrings(sheetNames)
 	appendSyncLog(&logs, "sheet names discovered: %d", len(sheetNames))
+
+	if dataCSV != "" {
+		switch cfg.GameID {
+		case gameIDEndfield:
+			parsedPulls, parseDataErr := parseEndfieldDataSheet(dataCSV, sheetNames)
+			if parseDataErr != nil {
+				appendSyncLog(&logs, "Data sheet pull overrides unavailable for %s; continuing without overrides: %v", cfg.GameID, parseDataErr)
+			} else {
+				endfieldDataPulls = parsedPulls
+			}
+		case gameIDWuwa:
+			parsedPulls, parseDataErr := parseWuwaDataSheet(dataCSV, sheetNames)
+			if parseDataErr != nil {
+				appendSyncLog(&logs, "Data sheet pull overrides unavailable for %s; continuing without overrides: %v", cfg.GameID, parseDataErr)
+			} else {
+				wuwaDataPulls = parsedPulls
+			}
+		case gameIDZzz:
+			parsedPulls, parseDataErr := parseZzzDataSheet(dataCSV, sheetNames)
+			if parseDataErr != nil {
+				appendSyncLog(&logs, "Data sheet pull overrides unavailable for %s; continuing without overrides: %v", cfg.GameID, parseDataErr)
+			} else {
+				zzzDataPulls = parsedPulls
+			}
+		case gameIDHsr:
+			parsedPulls, parseDataErr := parseHsrDataSheet(dataCSV, sheetNames)
+			if parseDataErr != nil {
+				appendSyncLog(&logs, "Data sheet pull overrides unavailable for %s; continuing without overrides: %v", cfg.GameID, parseDataErr)
+			} else {
+				hsrDataPulls = parsedPulls
+			}
+		}
+	}
 
 	if cfg.GameID == gameIDGenshin {
 		summaryCSV, summaryErr := fetchSheetCSV(ctx, client, cfg.SpreadsheetID, "Summary")
