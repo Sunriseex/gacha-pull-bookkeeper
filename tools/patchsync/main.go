@@ -1703,37 +1703,44 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 		appendSyncLog(&logs, "fetch Data sheet")
 		dataCSV, dataErr := fetchSheetCSV(ctx, client, cfg.SpreadsheetID, "Data")
 		if dataErr != nil {
-			return SyncResult{}, fmt.Errorf("fetch Data sheet for %s: %w", cfg.GameID, dataErr)
-		}
-		parsedTags, tagsErr := parseDataSheetPatchTags(dataCSV)
-		if tagsErr == nil {
-			dataSheetTagsByPatch = parsedTags
-		}
-		switch cfg.GameID {
-		case gameIDEndfield:
-			parsedPulls, parseDataErr := parseEndfieldDataSheet(dataCSV)
-			if parseDataErr != nil {
-				return SyncResult{}, fmt.Errorf("parse Data sheet for %s: %w", cfg.GameID, parseDataErr)
+			appendSyncLog(&logs, "Data sheet unavailable for %s; continuing without pull overrides: %v", cfg.GameID, dataErr)
+		} else {
+			parsedTags, tagsErr := parseDataSheetPatchTags(dataCSV)
+			if tagsErr == nil {
+				dataSheetTagsByPatch = parsedTags
+			} else {
+				appendSyncLog(&logs, "Data sheet tags unavailable for %s: %v", cfg.GameID, tagsErr)
 			}
-			endfieldDataPulls = parsedPulls
-		case gameIDWuwa:
-			parsedPulls, parseDataErr := parseWuwaDataSheet(dataCSV)
-			if parseDataErr != nil {
-				return SyncResult{}, fmt.Errorf("parse Data sheet for %s: %w", cfg.GameID, parseDataErr)
+			switch cfg.GameID {
+			case gameIDEndfield:
+				parsedPulls, parseDataErr := parseEndfieldDataSheet(dataCSV)
+				if parseDataErr != nil {
+					appendSyncLog(&logs, "Data sheet pull overrides unavailable for %s; continuing without overrides: %v", cfg.GameID, parseDataErr)
+				} else {
+					endfieldDataPulls = parsedPulls
+				}
+			case gameIDWuwa:
+				parsedPulls, parseDataErr := parseWuwaDataSheet(dataCSV)
+				if parseDataErr != nil {
+					appendSyncLog(&logs, "Data sheet pull overrides unavailable for %s; continuing without overrides: %v", cfg.GameID, parseDataErr)
+				} else {
+					wuwaDataPulls = parsedPulls
+				}
+			case gameIDZzz:
+				parsedPulls, parseDataErr := parseZzzDataSheet(dataCSV)
+				if parseDataErr != nil {
+					appendSyncLog(&logs, "Data sheet pull overrides unavailable for %s; continuing without overrides: %v", cfg.GameID, parseDataErr)
+				} else {
+					zzzDataPulls = parsedPulls
+				}
+			case gameIDHsr:
+				parsedPulls, parseDataErr := parseHsrDataSheet(dataCSV)
+				if parseDataErr != nil {
+					appendSyncLog(&logs, "Data sheet pull overrides unavailable for %s; continuing without overrides: %v", cfg.GameID, parseDataErr)
+				} else {
+					hsrDataPulls = parsedPulls
+				}
 			}
-			wuwaDataPulls = parsedPulls
-		case gameIDZzz:
-			parsedPulls, parseDataErr := parseZzzDataSheet(dataCSV)
-			if parseDataErr != nil {
-				return SyncResult{}, fmt.Errorf("parse Data sheet for %s: %w", cfg.GameID, parseDataErr)
-			}
-			zzzDataPulls = parsedPulls
-		case gameIDHsr:
-			parsedPulls, parseDataErr := parseHsrDataSheet(dataCSV)
-			if parseDataErr != nil {
-				return SyncResult{}, fmt.Errorf("parse Data sheet for %s: %w", cfg.GameID, parseDataErr)
-			}
-			hsrDataPulls = parsedPulls
 		}
 	}
 	existingGenerated, err := readGeneratedPatches(cfg.OutputPath)
@@ -1813,6 +1820,9 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 		}
 		switch cfg.GameID {
 		case gameIDEndfield:
+			if endfieldDataPulls == nil {
+				break
+			}
 			if applyErr := applyEndfieldDataPullOverrides(&patch, endfieldDataPulls); applyErr != nil {
 				if explicitSheetNames {
 					return SyncResult{}, fmt.Errorf("apply Data overrides for sheet %s: %w", sheetName, applyErr)
@@ -1820,6 +1830,9 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 				continue
 			}
 		case gameIDWuwa:
+			if wuwaDataPulls == nil {
+				break
+			}
 			if applyErr := applyWuwaDataPullOverrides(&patch, wuwaDataPulls); applyErr != nil {
 				if explicitSheetNames {
 					return SyncResult{}, fmt.Errorf("apply Data overrides for sheet %s: %w", sheetName, applyErr)
@@ -1827,6 +1840,9 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 				continue
 			}
 		case gameIDZzz:
+			if zzzDataPulls == nil {
+				break
+			}
 			if applyErr := applyZzzDataPullOverrides(&patch, zzzDataPulls); applyErr != nil {
 				if explicitSheetNames {
 					return SyncResult{}, fmt.Errorf("apply Data overrides for sheet %s: %w", sheetName, applyErr)
@@ -1834,6 +1850,9 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 				continue
 			}
 		case gameIDHsr:
+			if hsrDataPulls == nil {
+				break
+			}
 			if applyErr := applyHsrDataPullOverrides(&patch, hsrDataPulls); applyErr != nil {
 				if explicitSheetNames {
 					return SyncResult{}, fmt.Errorf("apply Data overrides for sheet %s: %w", sheetName, applyErr)
@@ -1866,9 +1885,7 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 					continue
 				}
 			}
-			if _, inBaseOnly := basePatchIDs[patchID]; inBaseOnly {
-				delete(basePatchIDs, patchID)
-			}
+			delete(basePatchIDs, patchID)
 		}
 		changeType := "added"
 		changedSources := []string{}
