@@ -4524,5 +4524,5 @@ export const GENERATED_PATCHES_META = {
     "2.7",
     "3.2"
   ],
-  "generatedAt": "2026-06-01T22:29:43Z"
+  "generatedAt": "2026-06-08T09:19:25Z"
 };
