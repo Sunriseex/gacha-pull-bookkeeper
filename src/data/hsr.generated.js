@@ -5771,12 +5771,12 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 14.4,
+        "pulls": 14.5,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 6,
           "specialPass": 0,
-          "stellarJade": 2300,
+          "stellarJade": 2320,
           "tracksOfDestiny": 0
         },
         "costs": {
@@ -5991,12 +5991,12 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 10,
+        "pulls": 10.1,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 3,
           "specialPass": 0,
-          "stellarJade": 1605,
+          "stellarJade": 1625,
           "tracksOfDestiny": 0
         },
         "costs": {
@@ -6113,5 +6113,5 @@ export const GENERATED_PATCHES_META = {
     "3.6",
     "3.7"
   ],
-  "generatedAt": "2026-06-08T09:20:09Z"
+  "generatedAt": "2026-06-15T10:51:47Z"
 };
