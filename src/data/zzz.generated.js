@@ -4080,13 +4080,13 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 37.6,
+        "pulls": 39,
         "rewards": {
           "boopon": 25,
           "encryptedMasterTape": 10,
           "masterTape": 0,
           "monochrome": 0,
-          "polychrome": 4420
+          "polychrome": 4640
         },
         "costs": {
           "boopon": 0,
@@ -4103,13 +4103,13 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 28.9,
+        "pulls": 28.8,
         "rewards": {
           "boopon": 3,
           "encryptedMasterTape": 1,
-          "masterTape": 6,
+          "masterTape": 9,
           "monochrome": 0,
-          "polychrome": 4465
+          "polychrome": 4455
         },
         "costs": {
           "boopon": 0,
@@ -4126,13 +4126,13 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 7.4,
+        "pulls": 7.9,
         "rewards": {
           "boopon": 0,
           "encryptedMasterTape": 0,
           "masterTape": 0,
           "monochrome": 0,
-          "polychrome": 1183
+          "polychrome": 1263
         },
         "costs": {
           "boopon": 0,
@@ -4263,13 +4263,13 @@ export const GENERATED_PATCHES = [
         "gate": "bp2",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 8.9,
+        "pulls": 9.3,
         "rewards": {
           "boopon": 5,
-          "encryptedMasterTape": 4,
+          "encryptedMasterTape": 0,
           "masterTape": 0,
           "monochrome": 0,
-          "polychrome": 780
+          "polychrome": 1480
         },
         "costs": {
           "boopon": 0,
@@ -4329,5 +4329,5 @@ export const GENERATED_PATCHES_META = {
     "2.6",
     "2.7"
   ],
-  "generatedAt": "2026-06-15T10:51:15Z"
+  "generatedAt": "2026-06-22T10:33:33Z"
 };

@@ -3764,14 +3764,14 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 36.8,
+        "pulls": 26.8,
         "rewards": {
           "astrite": 3480,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
-          "lustrousTide": 20,
-          "radiantTide": 15
+          "lustrousTide": 10,
+          "radiantTide": 5
         },
         "costs": {
           "astrite": 0,
@@ -3789,14 +3789,14 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 23.1,
+        "pulls": 33.1,
         "rewards": {
           "astrite": 3690,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
-          "lustrousTide": 9,
-          "radiantTide": 0
+          "lustrousTide": 19,
+          "radiantTide": 10
         },
         "costs": {
           "astrite": 0,
@@ -4524,5 +4524,5 @@ export const GENERATED_PATCHES_META = {
     "2.7",
     "3.2"
   ],
-  "generatedAt": "2026-06-15T10:50:55Z"
+  "generatedAt": "2026-06-22T10:33:22Z"
 };
