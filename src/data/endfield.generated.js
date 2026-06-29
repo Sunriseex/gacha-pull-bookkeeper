@@ -1420,7 +1420,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 7.6,
+        "pulls": 9.2,
         "rewards": {
           "arsenal": 0,
           "basic": 0,
@@ -1429,7 +1429,7 @@ export const GENERATED_PATCHES = [
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 3809
+          "oroberyl": 4609
         },
         "costs": {
           "arsenal": 0,
@@ -1806,5 +1806,5 @@ export const GENERATED_PATCHES_META = {
     "1.3",
     "1.1"
   ],
-  "generatedAt": "2026-06-22T10:33:16Z"
+  "generatedAt": "2026-06-29T09:22:38Z"
 };

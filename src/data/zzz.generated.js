@@ -4069,9 +4069,6 @@ export const GENERATED_PATCHES = [
     "versionName": "A Sleepwalker's Confession",
     "startDate": "2026-06-16",
     "durationDays": 42,
-    "tags": [
-      "WIP"
-    ],
     "notes": "Generated from Zenless Zone Zero Google Sheets by patchsync",
     "sources": [
       {
@@ -4103,13 +4100,13 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 28.8,
+        "pulls": 29.1,
         "rewards": {
           "boopon": 3,
           "encryptedMasterTape": 1,
           "masterTape": 9,
           "monochrome": 0,
-          "polychrome": 4455
+          "polychrome": 4495
         },
         "costs": {
           "boopon": 0,
@@ -4126,13 +4123,13 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 7.9,
+        "pulls": 8.5,
         "rewards": {
           "boopon": 0,
           "encryptedMasterTape": 0,
           "masterTape": 0,
           "monochrome": 0,
-          "polychrome": 1263
+          "polychrome": 1363
         },
         "costs": {
           "boopon": 0,
@@ -4329,5 +4326,5 @@ export const GENERATED_PATCHES_META = {
     "2.6",
     "2.7"
   ],
-  "generatedAt": "2026-06-22T10:33:33Z"
+  "generatedAt": "2026-06-29T09:22:58Z"
 };
