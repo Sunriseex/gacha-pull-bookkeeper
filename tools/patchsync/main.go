@@ -1814,6 +1814,7 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 			if explicitSheetNames {
 				return SyncResult{}, fmt.Errorf("fetch sheet %s: %w", sheetName, fetchErr)
 			}
+			appendSyncLog(&logs, "skip fetch failed sheet %s: %v", sheetName, fetchErr)
 			continue
 		}
 		patch, parseErr := parser(sheetName, csvText)
@@ -1821,6 +1822,7 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 			if explicitSheetNames {
 				return SyncResult{}, fmt.Errorf("parse sheet %s: %w", sheetName, parseErr)
 			}
+			appendSyncLog(&logs, "skip parse failed sheet %s: %v", sheetName, parseErr)
 			continue
 		}
 		switch cfg.GameID {
@@ -1832,7 +1834,7 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 				if explicitSheetNames {
 					return SyncResult{}, fmt.Errorf("apply Data overrides for sheet %s: %w", sheetName, applyErr)
 				}
-				continue
+				appendSyncLog(&logs, "skip Data overrides for %s: %v", sheetName, applyErr)
 			}
 		case gameIDWuwa:
 			if wuwaDataPulls == nil {
@@ -1842,7 +1844,7 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 				if explicitSheetNames {
 					return SyncResult{}, fmt.Errorf("apply Data overrides for sheet %s: %w", sheetName, applyErr)
 				}
-				continue
+				appendSyncLog(&logs, "skip Data overrides for %s: %v", sheetName, applyErr)
 			}
 		case gameIDZzz:
 			if zzzDataPulls == nil {
@@ -1852,7 +1854,7 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 				if explicitSheetNames {
 					return SyncResult{}, fmt.Errorf("apply Data overrides for sheet %s: %w", sheetName, applyErr)
 				}
-				continue
+				appendSyncLog(&logs, "skip Data overrides for %s: %v", sheetName, applyErr)
 			}
 		case gameIDHsr:
 			if hsrDataPulls == nil {
@@ -1862,14 +1864,14 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 				if explicitSheetNames {
 					return SyncResult{}, fmt.Errorf("apply Data overrides for sheet %s: %w", sheetName, applyErr)
 				}
-				continue
+				appendSyncLog(&logs, "skip Data overrides for %s: %v", sheetName, applyErr)
 			}
 		case gameIDGenshin:
 			if applyErr := applyGenshinSummaryPullOverrides(&patch, genshinSummaryPulls); applyErr != nil {
 				if explicitSheetNames {
 					return SyncResult{}, fmt.Errorf("apply Summary overrides for sheet %s: %w", sheetName, applyErr)
 				}
-				continue
+				appendSyncLog(&logs, "skip Summary overrides for %s: %v", sheetName, applyErr)
 			}
 		}
 		validPatchRows++

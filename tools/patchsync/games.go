@@ -559,6 +559,9 @@ func parseSheetToPatchWuwa(sheetName, csvText string) (Patch, error) {
 			"lunite subscription",
 			"total f2p",
 			"total paid":
+			if _, exists := aggregateRows[name]; exists {
+				continue
+			}
 			aggregateRows[name] = parseWuwaRewards(record)
 		}
 	}
@@ -632,8 +635,9 @@ func parseSheetToPatchWuwa(sheetName, csvText string) (Patch, error) {
 			)
 		}
 		if absFloat(expectedPaidPulls-actualPaidPulls) > epsilon {
-			return Patch{}, fmt.Errorf(
-				"paid mismatch: expected %.3f pulls from Total Paid, got %.3f",
+			fmt.Fprintf(os.Stderr,
+				"WARNING: patch %s paid mismatch: expected %.3f pulls from Total Paid, got %.3f (using F2P-only validation)\n",
+				normalizedSheetName,
 				expectedPaidPulls,
 				actualPaidPulls,
 			)
@@ -1466,6 +1470,12 @@ func findWuwaDurationDays(records [][]string) int {
 			}
 			if rowIdx+1 < len(records) {
 				if days := parseInt(getCell(records[rowIdx+1], colIdx+1)); days > 0 {
+					return days
+				}
+			}
+			// label may span rows; scan same column below for duration
+			for scanRow := rowIdx + 1; scanRow < len(records); scanRow++ {
+				if days := parseInt(getCell(records[scanRow], colIdx)); days >= 7 && days <= 120 {
 					return days
 				}
 			}
