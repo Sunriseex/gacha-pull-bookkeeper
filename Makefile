@@ -1,4 +1,4 @@
-SHELL := /bin/bash
+SHELL := bash
 PY_PORT ?= 4173
 SYNC_DIR := tools/patchsync
 
