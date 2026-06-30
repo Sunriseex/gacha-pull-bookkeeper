@@ -1818,38 +1818,53 @@ func buildSyncResponseFromResult(result SyncResult) syncResponse {
 }
 
 func runSyncAll(ctx context.Context, baseCfg SyncConfig) ([]syncGameResult, bool) {
-	results := make([]syncGameResult, 0, len(availableGameIDs()))
+	gameIDs := availableGameIDs()
+	results := make([]syncGameResult, len(gameIDs))
+	var wg sync.WaitGroup
+
+	for i, gameID := range gameIDs {
+		wg.Add(1)
+		go func(idx int, id string) {
+			defer wg.Done()
+
+			cfg := baseCfg
+			cfg.GameID = id
+			cfg.SpreadsheetID = ""
+			cfg.SheetNames = nil
+			cfg.OutputPath = ""
+			cfg.CreateBranch = false
+			cfg.BranchPrefix = ""
+
+			result, err := runSync(ctx, cfg)
+			if err != nil {
+				results[idx] = syncGameResult{
+					GameID: id,
+					Error:  err.Error(),
+				}
+				return
+			}
+			results[idx] = syncGameResult{
+				GameID:        result.GameID,
+				Sheets:        result.SheetNames,
+				Patches:       patchNamesFromPatches(result.Patches),
+				Skipped:       result.SkippedPatches,
+				OutputPath:    result.OutputPath,
+				Logs:          result.Logs,
+				ChangeCount:   result.ChangeCount,
+				ChangeLogPath: result.ChangeLogPath,
+				GeneratedAt:   result.GeneratedAt,
+			}
+		}(i, gameID)
+	}
+
+	wg.Wait()
+
 	allOK := true
-	for _, gameID := range availableGameIDs() {
-		cfg := baseCfg
-		cfg.GameID = gameID
-		cfg.SpreadsheetID = ""
-		cfg.SheetNames = nil
-		cfg.OutputPath = ""
-		cfg.CreateBranch = false
-		cfg.BranchPrefix = ""
-
-		result, err := runSync(ctx, cfg)
-		if err != nil {
+	for _, r := range results {
+		if r.Error != "" {
 			allOK = false
-			results = append(results, syncGameResult{
-				GameID: gameID,
-				Error:  err.Error(),
-			})
-			continue
+			break
 		}
-
-		results = append(results, syncGameResult{
-			GameID:        result.GameID,
-			Sheets:        result.SheetNames,
-			Patches:       patchNamesFromPatches(result.Patches),
-			Skipped:       result.SkippedPatches,
-			OutputPath:    result.OutputPath,
-			Logs:          result.Logs,
-			ChangeCount:   result.ChangeCount,
-			ChangeLogPath: result.ChangeLogPath,
-			GeneratedAt:   result.GeneratedAt,
-		})
 	}
 	return results, allOK
 }
