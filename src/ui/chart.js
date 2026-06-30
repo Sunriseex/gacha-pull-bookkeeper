@@ -21,16 +21,13 @@ const SOURCE_COLORS = {
   Events: "#a6e3a1",
   "Permanent Content": "#f9e2af",
   "Mailbox & Web Events": "#94e2d5",
-  "Mailbox/Miscellaneous": "#94e2d5",
   "Daily Activity": "#cdd6f4",
   "Recurring Sources": "#89b4fa",
   "Endgame Modes": "#eba0ac",
   "Hollow Zero": "#74c7ec",
   "Coral Shop": "#cba6f7",
   "Weapon Pulls": "#89dceb",
-  "Version Events": "#a6e3a1",
   "Paid Pioneer Podcast": "#fab387",
-  "Lunite Subscription": "#b4befe",
   "Weekly Routine": "#bac2de",
   "Monumental Etching": "#f38ba8",
   "AIC Quota Exchange": "#f9e2af",
@@ -158,12 +155,21 @@ const hashLabel = (label) => {
 
 const canonicalColorLabel = (label) => SOURCE_COLOR_ALIASES[label] ?? label;
 
+const warnedLabels = new Set();
+
 const sourceColor = (label) => {
   const canonical = canonicalColorLabel(label);
-  return (
-    SOURCE_COLORS[canonical] ??
-    FALLBACK_COLORS[hashLabel(canonical) % FALLBACK_COLORS.length]
-  );
+  const color = SOURCE_COLORS[canonical];
+  if (color) {
+    return color;
+  }
+  if (!warnedLabels.has(canonical)) {
+    warnedLabels.add(canonical);
+    console.warn(
+      `[chart] unknown source label "${canonical}" — add to SOURCE_COLORS or SOURCE_COLOR_ALIASES`,
+    );
+  }
+  return FALLBACK_COLORS[hashLabel(canonical) % FALLBACK_COLORS.length];
 };
 
 const getState = (canvas) => {
@@ -553,6 +559,14 @@ const animateTo = (canvas, series, state) => {
     }
   };
   state.animationFrameId = requestAnimationFrame(frame);
+};
+
+export const resizeChart = (canvas) => {
+  if (!canvas) return;
+  const state = getState(canvas);
+  if (!state.series || state.series.length === 0) return;
+  applyCanvasWidthForSeries(canvas);
+  renderPatchChart(canvas, state.series, state, 1);
 };
 
 export const drawPatchChart = (canvas, series) => {

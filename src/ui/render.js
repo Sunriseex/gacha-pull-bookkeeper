@@ -85,12 +85,22 @@ const getResourceLabel = (game, key, fallback) => {
   return labels[key] ?? fallback;
 };
 
+const warnedIconGames = new Set();
+
 const getResourceIcon = (game, key) => {
   const explicit = game?.ui?.resourceIcons?.[key];
   if (explicit) {
     return explicit;
   }
-  return ICON_SETS[game?.id]?.[key] ?? null;
+  const gameId = game?.id;
+  if (gameId && !ICON_SETS[gameId]) {
+    if (!warnedIconGames.has(gameId)) {
+      warnedIconGames.add(gameId);
+      console.warn(`[render] no icon set for game "${gameId}" — add to ICON_SETS`);
+    }
+    return null;
+  }
+  return ICON_SETS[gameId]?.[key] ?? null;
 };
 
 const cardsConfig = (totals, game) => {
