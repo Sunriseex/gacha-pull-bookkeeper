@@ -7,7 +7,7 @@ import {
   aggregateTotals,
   chartSeries,
 } from "./domain/calculation.js";
-import { drawPatchChart } from "./ui/chart.js";
+import { drawPatchChart, resizeChart } from "./ui/chart.js";
 import { renderTotals } from "./ui/render.js";
 
 const LOCAL_KEYS = {
@@ -279,7 +279,8 @@ const parseSyncPayload = async (response) => {
   try {
     return await response.json();
   } catch {
-    return null;
+    const text = await response.text().catch(() => "");
+    return { ok: false, message: text ? `Non-JSON response: ${text.slice(0, 200)}` : `HTTP ${response.status}` };
   }
 };
 
@@ -341,14 +342,53 @@ const requestSyncAll = async (authToken) => {
   return { response, payload };
 };
 
-const tryPromptPatchsyncToken = () => {
-  const entered = window.prompt("Patchsync token required. Enter token:");
-  const token = String(entered ?? "").trim();
-  if (!token) {
-    return "";
+const ensureTokenDialog = () => {
+  let dialog = document.querySelector("#tokenDialog");
+  if (dialog) {
+    return dialog;
   }
-  localStorage.setItem(LOCAL_KEYS.patchsyncToken, token);
-  return token;
+  dialog = document.createElement("dialog");
+  dialog.id = "tokenDialog";
+  dialog.className = "token-dialog";
+  dialog.innerHTML = `
+    <form method="dialog" class="token-dialog-form">
+      <p class="token-dialog-heading">Patchsync token required</p>
+      <label class="token-dialog-label">
+        <span>Token</span>
+        <input id="tokenDialogInput" type="text" class="token-dialog-input" autocomplete="off" spellcheck="false">
+      </label>
+      <menu class="token-dialog-actions">
+        <button id="tokenDialogCancel" type="reset" class="token-dialog-btn token-dialog-btn-cancel">Cancel</button>
+        <button id="tokenDialogSubmit" type="submit" class="token-dialog-btn token-dialog-btn-submit">Save</button>
+      </menu>
+    </form>
+  `;
+  document.body.appendChild(dialog);
+  return dialog;
+};
+
+const tryPromptPatchsyncToken = () => {
+  const dialog = ensureTokenDialog();
+  const input = dialog.querySelector("#tokenDialogInput");
+  const result = dialog.showModal();
+  return new Promise((resolve) => {
+    const close = () => {
+      dialog.removeEventListener("close", onClose);
+      dialog.removeEventListener("cancel", onCancel);
+      const token = String(input?.value ?? "").trim();
+      dialog.close();
+      if (token) {
+        localStorage.setItem(LOCAL_KEYS.patchsyncToken, token);
+      }
+      resolve(token);
+    };
+    const onClose = () => close();
+    const onCancel = () => {
+      resolve("");
+    };
+    dialog.addEventListener("close", onClose);
+    dialog.addEventListener("cancel", onCancel, { once: true });
+  });
 };
 
 const syncAllGames = async () => {
@@ -363,7 +403,7 @@ const syncAllGames = async () => {
     let { response, payload } = await requestSyncAll(authToken);
 
     if (response.status === 401) {
-      const promptedToken = tryPromptPatchsyncToken();
+      const promptedToken = await tryPromptPatchsyncToken();
       if (promptedToken) {
         authToken = promptedToken;
         ({ response, payload } = await requestSyncAll(authToken));
@@ -532,12 +572,24 @@ const applyOptionState = () => {
   });
 };
 
+const RENDER_ERROR_MARKER = "render-error";
+
 const renderDashboard = () => {
-  const rows = getRows();
-  const options = currentOptions();
-  const totals = aggregateTotals(rows, options, state.game);
-  renderTotals(refs.totals, totals, state.game);
-  drawPatchChart(refs.chart, chartSeries(rows, options, state.game));
+  try {
+    const rows = getRows();
+    const options = currentOptions();
+    const totals = aggregateTotals(rows, options, state.game);
+    renderTotals(refs.totals, totals, state.game);
+    drawPatchChart(refs.chart, chartSeries(rows, options, state.game));
+    document.body.classList.remove(RENDER_ERROR_MARKER);
+  } catch (err) {
+    console.error("Render failed:", err);
+    document.body.classList.add(RENDER_ERROR_MARKER);
+    if (refs.totals) {
+      refs.totals.innerHTML =
+        '<div class="render-fallback">Render error. Check console.</div>';
+    }
+  }
 };
 
 const resolveBackgroundImage = (game) =>
@@ -677,7 +729,7 @@ const bindEvents = () => {
     }
     state.resizeFrameId = requestAnimationFrame(() => {
       state.resizeFrameId = null;
-      renderDashboard();
+      resizeChart(refs.chart);
     });
   });
 };
