@@ -595,11 +595,8 @@ func parseSheetToPatchWuwa(sheetName, csvText string) (Patch, error) {
 		}),
 	}
 
+	const luniteDailyAstrite = 90.0
 	if monthly.Oroberyl > 0 {
-		scalerValue := monthly.Oroberyl
-		if monthly.Oroberyl > 500 {
-			scalerValue = monthly.Oroberyl / float64(durationDays)
-		}
 		sources[len(sources)-1].Scalers = []Scaler{
 			{
 				Type:      "per_duration",
@@ -607,7 +604,7 @@ func parseSheetToPatchWuwa(sheetName, csvText string) (Patch, error) {
 				EveryDays: 1,
 				Rounding:  "floor",
 				Rewards: Rewards{
-					Oroberyl: scalerValue,
+					Oroberyl: luniteDailyAstrite,
 				},
 			},
 		}
@@ -627,11 +624,7 @@ func parseSheetToPatchWuwa(sheetName, csvText string) (Patch, error) {
 
 		actualPaidRewards := actualF2PRewards
 		actualPaidRewards.add(paidPodcast)
-		monthlyContribution := monthly.Oroberyl
-		if monthly.Oroberyl <= 500 {
-			monthlyContribution = monthly.Oroberyl * float64(durationDays)
-		}
-		actualPaidRewards.Oroberyl += monthlyContribution
+		actualPaidRewards.Oroberyl += luniteDailyAstrite * float64(durationDays)
 		actualPaidPulls := wwPullsFromRewards(actualPaidRewards)
 
 		const epsilon = 0.001
