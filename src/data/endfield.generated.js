@@ -942,7 +942,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 19.9,
+        "pulls": 20,
         "rewards": {
           "arsenal": 0,
           "basic": 15,
@@ -951,7 +951,7 @@ export const GENERATED_PATCHES = [
           "hues": 0,
           "messenger": 0,
           "origeometry": 37,
-          "oroberyl": 9965
+          "oroberyl": 9975
         },
         "costs": {
           "arsenal": 0,
@@ -971,7 +971,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 8.7,
+        "pulls": 9.1,
         "rewards": {
           "arsenal": 0,
           "basic": 0,
@@ -980,7 +980,7 @@ export const GENERATED_PATCHES = [
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 4369
+          "oroberyl": 4569
         },
         "costs": {
           "arsenal": 0,
@@ -1283,7 +1283,7 @@ export const GENERATED_PATCHES = [
         "gate": "bp2",
         "optionKey": "includeBpCrates",
         "countInPulls": true,
-        "pulls": 2.3,
+        "pulls": 2.4,
         "rewards": {
           "arsenal": 0,
           "basic": 6,
@@ -1292,7 +1292,7 @@ export const GENERATED_PATCHES = [
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 1139
+          "oroberyl": 1200
         },
         "costs": {
           "arsenal": 0,
@@ -1326,7 +1326,456 @@ export const GENERATED_PATCHES = [
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 490
+          "oroberyl": 601
+        },
+        "costs": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
+        },
+        "scalers": [],
+        "bpCrateModel": {
+          "type": "post_bp60_estimate",
+          "daysToLevel60Tier3": 21,
+          "tier2XpBonus": 0.03,
+          "tier3XpBonus": 0.06
+        }
+      }
+    ]
+  },
+  {
+    "id": "1.3",
+    "patch": "1.3",
+    "versionName": "Sketches of Lost Heirlooms",
+    "startDate": "2026-06-05",
+    "durationDays": 42,
+    "notes": "Generated from Google Sheets by patchsync",
+    "sources": [
+      {
+        "id": "events",
+        "label": "Events",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "pulls": 13.2,
+        "rewards": {
+          "arsenal": 0,
+          "basic": 2,
+          "chartered": 10,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 6600
+        },
+        "costs": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "permanent",
+        "label": "Permanent Content",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "pulls": 8.7,
+        "rewards": {
+          "arsenal": 0,
+          "basic": 4,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 8,
+          "oroberyl": 4330
+        },
+        "costs": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "mailbox",
+        "label": "Mailbox \u0026 Web Events",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "pulls": 9.2,
+        "rewards": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 4609
+        },
+        "costs": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "dailyActivity",
+        "label": "Daily Activity",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "pulls": 17.6,
+        "rewards": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 8820
+        },
+        "costs": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "weekly",
+        "label": "Weekly Routine",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "pulls": 6,
+        "rewards": {
+          "arsenal": 600,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 3000
+        },
+        "costs": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "monumental",
+        "label": "Monumental Etching",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "pulls": 2.4,
+        "rewards": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 1200
+        },
+        "costs": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "aicQuota",
+        "label": "AIC Quota Exchange",
+        "gate": "always",
+        "optionKey": "includeAicQuotaExchange",
+        "countInPulls": true,
+        "rewards": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 10,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
+        },
+        "costs": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "urgentRecruit",
+        "label": "Urgent Recruit",
+        "gate": "always",
+        "optionKey": "includeUrgentRecruit",
+        "countInPulls": true,
+        "rewards": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 20,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
+        },
+        "costs": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "hhDossier",
+        "label": "HH Dossier",
+        "gate": "always",
+        "optionKey": "includeHhDossier",
+        "countInPulls": true,
+        "rewards": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
+        },
+        "costs": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "monthly",
+        "label": "Monthly Pass",
+        "gate": "monthly",
+        "optionKey": null,
+        "countInPulls": true,
+        "rewards": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 8400
+        },
+        "costs": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "monthlyBonus",
+        "label": "Monthly Pass Bonus",
+        "gate": "monthly",
+        "optionKey": null,
+        "countInPulls": false,
+        "rewards": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 24,
+          "oroberyl": 0
+        },
+        "costs": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "bp2Core",
+        "label": "Originium Supply Pass",
+        "gate": "bp2",
+        "optionKey": null,
+        "countInPulls": false,
+        "rewards": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 3,
+          "oroberyl": 0
+        },
+        "costs": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "bp3Core",
+        "label": "Protocol Customized Pass",
+        "gate": "bp3",
+        "optionKey": null,
+        "countInPulls": false,
+        "rewards": {
+          "arsenal": 2400,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 36,
+          "oroberyl": 0
+        },
+        "costs": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "bpCrateM",
+        "label": "Exchange Crate-o-Surprise [M]",
+        "gate": "bp2",
+        "optionKey": "includeBpCrates",
+        "countInPulls": true,
+        "pulls": 2.4,
+        "rewards": {
+          "arsenal": 0,
+          "basic": 6,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 1200
+        },
+        "costs": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 0
+        },
+        "scalers": [],
+        "bpCrateModel": {
+          "type": "post_bp60_estimate",
+          "daysToLevel60Tier3": 21,
+          "tier2XpBonus": 0.03,
+          "tier3XpBonus": 0.06
+        }
+      },
+      {
+        "id": "bpCrateL",
+        "label": "Exchange Crate-o-Surprise [L]",
+        "gate": "bp3",
+        "optionKey": "includeBpCrates",
+        "countInPulls": true,
+        "rewards": {
+          "arsenal": 0,
+          "basic": 0,
+          "chartered": 0,
+          "firewalker": 0,
+          "hues": 0,
+          "messenger": 0,
+          "origeometry": 0,
+          "oroberyl": 601
         },
         "costs": {
           "arsenal": 0,
@@ -1354,7 +1803,8 @@ export const GENERATED_PATCHES_META = {
   "spreadsheetId": "1zGNuQ53R7c190RG40dHxcHv8tJuT3cBaclm8CjI-luY",
   "sheets": [
     "1.2",
+    "1.3",
     "1.1"
   ],
-  "generatedAt": "2026-05-29T15:45:37Z"
+  "generatedAt": "2026-06-30T11:19:27Z"
 };
