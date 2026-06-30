@@ -603,7 +603,7 @@ func parseSheetToPatchWuwa(sheetName, csvText string) (Patch, error) {
 				EveryDays: 1,
 				Rounding:  "floor",
 				Rewards: Rewards{
-					Oroberyl: monthly.Oroberyl,
+					Oroberyl: monthly.Oroberyl / float64(durationDays),
 				},
 			},
 		}
