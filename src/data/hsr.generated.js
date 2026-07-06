@@ -5865,9 +5865,6 @@ export const GENERATED_PATCHES = [
     "versionName": "Version 4.3",
     "startDate": "2026-05-31",
     "durationDays": 42,
-    "tags": [
-      "WIP"
-    ],
     "notes": "Generated from Honkai: Star Rail Google Sheets by patchsync",
     "sources": [
       {
@@ -5991,7 +5988,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 10.1,
+        "pulls": 10.2,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 3,
@@ -6014,12 +6011,12 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 7,
+        "pulls": 6.3,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 0,
           "specialPass": 0,
-          "stellarJade": 1113,
+          "stellarJade": 1013,
           "tracksOfDestiny": 0
         },
         "costs": {
@@ -6084,34 +6081,34 @@ export const GENERATED_PATCHES_META = {
   "gameId": "honkai-star-rail",
   "spreadsheetId": "2PACX-1vRIWjzFwAZZoBvKw2oiNaVpppI9atoV0wxuOjulKRJECrg_BN404d7LoKlHp8RMX8hegDr4b8jlHjYy",
   "sheets": [
+    "4.3",
     "1.0",
     "1.1",
-    "1.4",
-    "2.4",
-    "2.5",
-    "3.0",
-    "3.8",
-    "4.0",
-    "4.1",
-    "4.2",
-    "4.3",
     "1.2",
     "1.3",
+    "1.4",
     "1.5",
     "1.6",
     "2.0",
     "2.1",
     "2.2",
     "2.3",
+    "2.4",
+    "2.5",
     "2.6",
     "2.7",
+    "3.0",
     "3.1",
     "3.2",
     "3.3",
     "3.4",
     "3.5",
     "3.6",
-    "3.7"
+    "3.7",
+    "3.8",
+    "4.0",
+    "4.1",
+    "4.2"
   ],
-  "generatedAt": "2026-06-30T11:19:59Z"
+  "generatedAt": "2026-07-06T08:56:34Z"
 };

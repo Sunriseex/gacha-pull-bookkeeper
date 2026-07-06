@@ -4792,7 +4792,7 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "astrite": 1020,
+          "astrite": 1715,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -4999,7 +4999,6 @@ export const GENERATED_PATCHES_META = {
   "gameId": "wuthering-waves",
   "spreadsheetId": "1msSsnWBcXKniykf4rWQCEdk2IQuB9JHy",
   "sheets": [
-    "3.4",
     "3.5 (WIP)",
     "1.0",
     "1.1",
@@ -5018,7 +5017,8 @@ export const GENERATED_PATCHES_META = {
     "3.0",
     "3.1",
     "3.2",
-    "3.3"
+    "3.3",
+    "3.4"
   ],
-  "generatedAt": "2026-06-30T11:45:04Z"
+  "generatedAt": "2026-07-06T08:55:34Z"
 };
