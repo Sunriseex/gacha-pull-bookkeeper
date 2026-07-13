@@ -4755,7 +4755,7 @@ export const GENERATED_PATCHES = [
     "patch": "3.5",
     "versionName": "Blade of Past Resounds, Lingering Dream Hymns",
     "startDate": "2026-07-10",
-    "durationDays": 42,
+    "durationDays": 41,
     "tags": [
       "WIP"
     ],
@@ -4767,8 +4767,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 19.6,
         "rewards": {
-          "astrite": 2740,
+          "astrite": 2340,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -4791,12 +4792,13 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 36.1,
         "rewards": {
-          "astrite": 1715,
+          "astrite": 5770,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
-          "lustrousTide": 0,
+          "lustrousTide": 14,
           "radiantTide": 0
         },
         "costs": {
@@ -4815,6 +4817,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 6.6,
         "rewards": {
           "astrite": 1050,
           "forgingTide": 0,
@@ -4839,6 +4842,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 15.4,
         "rewards": {
           "astrite": 0,
           "forgingTide": 0,
@@ -4863,8 +4867,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 23.4,
         "rewards": {
-          "astrite": 6280,
+          "astrite": 6220,
           "forgingTide": 7,
           "forgingToken": 0,
           "lunite": 0,
@@ -4887,6 +4892,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 7,
         "rewards": {
           "astrite": 0,
           "forgingTide": 0,
@@ -4911,6 +4917,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 7,
         "rewards": {
           "astrite": 0,
           "forgingTide": 0,
@@ -4935,6 +4942,7 @@ export const GENERATED_PATCHES = [
         "gate": "bp2",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 9.3,
         "rewards": {
           "astrite": 680,
           "forgingTide": 0,
@@ -4959,6 +4967,7 @@ export const GENERATED_PATCHES = [
         "gate": "monthly",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 25.6,
         "rewards": {
           "astrite": 0,
           "forgingTide": 0,
@@ -5020,5 +5029,5 @@ export const GENERATED_PATCHES_META = {
     "3.3",
     "3.4"
   ],
-  "generatedAt": "2026-07-06T08:55:34Z"
+  "generatedAt": "2026-07-13T08:10:53Z"
 };
