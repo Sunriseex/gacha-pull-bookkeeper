@@ -4756,9 +4756,6 @@ export const GENERATED_PATCHES = [
     "versionName": "Blade of Past Resounds, Lingering Dream Hymns",
     "startDate": "2026-07-10",
     "durationDays": 41,
-    "tags": [
-      "WIP"
-    ],
     "notes": "Generated from Wuthering Waves Google Sheets by patchsync",
     "sources": [
       {
@@ -4792,9 +4789,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 36.1,
+        "pulls": 36.3,
         "rewards": {
-          "astrite": 5770,
+          "astrite": 5800,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -5008,7 +5005,7 @@ export const GENERATED_PATCHES_META = {
   "gameId": "wuthering-waves",
   "spreadsheetId": "1msSsnWBcXKniykf4rWQCEdk2IQuB9JHy",
   "sheets": [
-    "3.5 (WIP)",
+    "3.5",
     "1.0",
     "1.1",
     "1.2",
@@ -5029,5 +5026,5 @@ export const GENERATED_PATCHES_META = {
     "3.3",
     "3.4"
   ],
-  "generatedAt": "2026-07-13T08:10:53Z"
+  "generatedAt": "2026-07-20T07:53:05Z"
 };

@@ -4077,13 +4077,13 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 39,
+        "pulls": 39.2,
         "rewards": {
           "boopon": 25,
           "encryptedMasterTape": 10,
           "masterTape": 0,
           "monochrome": 0,
-          "polychrome": 4640
+          "polychrome": 4670
         },
         "costs": {
           "boopon": 0,
@@ -4301,14 +4301,256 @@ export const GENERATED_PATCHES = [
         "scalers": []
       }
     ]
+  },
+  {
+    "id": "3.1",
+    "patch": "3.1",
+    "versionName": "The Long Goodbye",
+    "startDate": "2026-07-29",
+    "durationDays": 42,
+    "tags": [
+      "WIP"
+    ],
+    "notes": "Generated from Zenless Zone Zero Google Sheets by patchsync",
+    "sources": [
+      {
+        "id": "events",
+        "label": "Events",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "pulls": 47.1,
+        "rewards": {
+          "boopon": 25,
+          "encryptedMasterTape": 20,
+          "masterTape": 0,
+          "monochrome": 0,
+          "polychrome": 4340
+        },
+        "costs": {
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0,
+          "monochrome": 0,
+          "polychrome": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "permanent",
+        "label": "Permanent Content",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "pulls": 14.7,
+        "rewards": {
+          "boopon": 3,
+          "encryptedMasterTape": 1,
+          "masterTape": 6,
+          "monochrome": 0,
+          "polychrome": 2190
+        },
+        "costs": {
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0,
+          "monochrome": 0,
+          "polychrome": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "mailbox",
+        "label": "Mailbox \u0026 Web Events",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "pulls": 8.4,
+        "rewards": {
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0,
+          "monochrome": 0,
+          "polychrome": 1343
+        },
+        "costs": {
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0,
+          "monochrome": 0,
+          "polychrome": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "errands",
+        "label": "Errands",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "pulls": 19.4,
+        "rewards": {
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0,
+          "monochrome": 0,
+          "polychrome": 3097
+        },
+        "costs": {
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0,
+          "monochrome": 0,
+          "polychrome": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "hollowZero",
+        "label": "Hollow Zero",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "pulls": 6,
+        "rewards": {
+          "boopon": 36.9,
+          "encryptedMasterTape": 0,
+          "masterTape": 8.8,
+          "monochrome": 0,
+          "polychrome": 960
+        },
+        "costs": {
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0,
+          "monochrome": 0,
+          "polychrome": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "f2pBattlePass",
+        "label": "F2P Battle Pass",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "rewards": {
+          "boopon": 5,
+          "encryptedMasterTape": 0,
+          "masterTape": 5,
+          "monochrome": 0,
+          "polychrome": 0
+        },
+        "costs": {
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0,
+          "monochrome": 0,
+          "polychrome": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "shop24h",
+        "label": "24-Hour Shop",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "pulls": 6.9,
+        "rewards": {
+          "boopon": 6.9,
+          "encryptedMasterTape": 6.9,
+          "masterTape": 6.9,
+          "monochrome": 0,
+          "polychrome": 0
+        },
+        "costs": {
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0,
+          "monochrome": 0,
+          "polychrome": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "endgameModes",
+        "label": "Endgame Modes",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "pulls": 20.2,
+        "rewards": {
+          "boopon": 6.9,
+          "encryptedMasterTape": 0,
+          "masterTape": 0,
+          "monochrome": 0,
+          "polychrome": 3240
+        },
+        "costs": {
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0,
+          "monochrome": 0,
+          "polychrome": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "paidBattlePass",
+        "label": "Paid Battle Pass",
+        "gate": "bp2",
+        "optionKey": null,
+        "countInPulls": true,
+        "pulls": 8.9,
+        "rewards": {
+          "boopon": 5,
+          "encryptedMasterTape": 4,
+          "masterTape": 0,
+          "monochrome": 0,
+          "polychrome": 780
+        },
+        "costs": {
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0,
+          "monochrome": 0,
+          "polychrome": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "membership",
+        "label": "Inter-Knot Membership",
+        "gate": "monthly",
+        "optionKey": null,
+        "countInPulls": true,
+        "pulls": 26.3,
+        "rewards": {
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0,
+          "monochrome": 0,
+          "polychrome": 4200
+        },
+        "costs": {
+          "boopon": 0,
+          "encryptedMasterTape": 0,
+          "masterTape": 0,
+          "monochrome": 0,
+          "polychrome": 0
+        },
+        "scalers": []
+      }
+    ]
   }
 ];
 export const GENERATED_PATCHES_META = {
   "gameId": "zenless-zone-zero",
   "spreadsheetId": "2PACX-1vTiSx8OSyx-BZktnpT-fh_pQHjjkD8q3sp3Csy2aOI-8CV_QroqxzhhNjiCZNV4IdzhyK3xbipZn9WD",
   "sheets": [
-    "2.8",
     "3.0",
+    "3.1",
     "1.0",
     "1.1",
     "1.2",
@@ -4324,7 +4566,8 @@ export const GENERATED_PATCHES_META = {
     "2.4",
     "2.5",
     "2.6",
-    "2.7"
+    "2.7",
+    "2.8"
   ],
-  "generatedAt": "2026-06-30T11:19:54Z"
+  "generatedAt": "2026-07-20T07:53:21Z"
 };

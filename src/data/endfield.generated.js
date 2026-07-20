@@ -1420,7 +1420,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 11.2,
+        "pulls": 11.4,
         "rewards": {
           "arsenal": 0,
           "basic": 0,
@@ -1429,7 +1429,7 @@ export const GENERATED_PATCHES = [
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 5609
+          "oroberyl": 5709
         },
         "costs": {
           "arsenal": 0,
@@ -1803,9 +1803,6 @@ export const GENERATED_PATCHES = [
     "versionName": "Homecoming",
     "startDate": "2026-07-16",
     "durationDays": 49,
-    "tags": [
-      "WIP"
-    ],
     "notes": "Generated from Google Sheets by patchsync",
     "sources": [
       {
@@ -1843,16 +1840,16 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 16.7,
+        "pulls": 21.2,
         "rewards": {
           "arsenal": 0,
-          "basic": 6,
+          "basic": 8,
           "chartered": 0,
           "firewalker": 0,
           "hues": 0,
           "messenger": 0,
-          "origeometry": 35,
-          "oroberyl": 8350
+          "origeometry": 29,
+          "oroberyl": 10575
         },
         "costs": {
           "arsenal": 0,
@@ -1872,7 +1869,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 9.7,
+        "pulls": 8.1,
         "rewards": {
           "arsenal": 0,
           "basic": 0,
@@ -1881,7 +1878,7 @@ export const GENERATED_PATCHES = [
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 4869
+          "oroberyl": 4069
         },
         "costs": {
           "arsenal": 0,
@@ -2259,5 +2256,5 @@ export const GENERATED_PATCHES_META = {
     "1.1",
     "1.2"
   ],
-  "generatedAt": "2026-07-13T08:10:48Z"
+  "generatedAt": "2026-07-20T07:53:00Z"
 };
