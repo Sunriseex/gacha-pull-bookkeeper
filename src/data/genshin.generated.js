@@ -10138,7 +10138,7 @@ export const GENERATED_PATCHES = [
           "acquaintFate": 10,
           "genesisCrystal": 0,
           "intertwinedFate": 2,
-          "primogem": 6120,
+          "primogem": 6280,
           "starglitter": 0
         },
         "costs": {
@@ -10732,7 +10732,7 @@ export const GENERATED_PATCHES = [
           "acquaintFate": 4,
           "genesisCrystal": 0,
           "intertwinedFate": 1,
-          "primogem": 3435,
+          "primogem": 3515,
           "starglitter": 0
         },
         "costs": {
@@ -11623,7 +11623,7 @@ export const GENERATED_PATCHES = [
           "acquaintFate": 4,
           "genesisCrystal": 0,
           "intertwinedFate": 0,
-          "primogem": 3194,
+          "primogem": 3274,
           "starglitter": 0
         },
         "costs": {
@@ -12514,7 +12514,7 @@ export const GENERATED_PATCHES = [
           "acquaintFate": 4,
           "genesisCrystal": 0,
           "intertwinedFate": 1,
-          "primogem": 2209,
+          "primogem": 2289,
           "starglitter": 0
         },
         "costs": {
@@ -12811,7 +12811,7 @@ export const GENERATED_PATCHES = [
           "acquaintFate": 8,
           "genesisCrystal": 0,
           "intertwinedFate": 2,
-          "primogem": 5442,
+          "primogem": 5512,
           "starglitter": 0
         },
         "costs": {
@@ -12961,7 +12961,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 38.3,
+        "pulls": 38.4,
         "rewards": {
           "acquaintFate": 0,
           "genesisCrystal": 0,
@@ -13702,7 +13702,7 @@ export const GENERATED_PATCHES = [
           "acquaintFate": 7,
           "genesisCrystal": 0,
           "intertwinedFate": 2,
-          "primogem": 3279,
+          "primogem": 3359,
           "starglitter": 0
         },
         "costs": {
@@ -14868,7 +14868,7 @@ export const GENERATED_PATCHES = [
           "acquaintFate": 0,
           "genesisCrystal": 0,
           "intertwinedFate": 0,
-          "primogem": 2450,
+          "primogem": 2520,
           "starglitter": 0
         },
         "costs": {
@@ -14887,10 +14887,10 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "acquaintFate": 0,
+          "acquaintFate": 4,
           "genesisCrystal": 0,
           "intertwinedFate": 0,
-          "primogem": 2185,
+          "primogem": 2772,
           "starglitter": 0
         },
         "costs": {
@@ -14912,7 +14912,7 @@ export const GENERATED_PATCHES = [
           "acquaintFate": 0,
           "genesisCrystal": 0,
           "intertwinedFate": 0,
-          "primogem": 442.84931507,
+          "primogem": 542.84931507,
           "starglitter": 0
         },
         "costs": {
@@ -15040,7 +15040,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 39.4,
+        "pulls": 39.7,
         "rewards": {
           "acquaintFate": 0,
           "genesisCrystal": 0,
@@ -15152,8 +15152,13 @@ export const GENERATED_PATCHES_META = {
   "gameId": "genshin-impact",
   "spreadsheetId": "1l9HPu2cAzTckdXtr7u-7D8NSKzZNUqOuvbmxERFZ_6w",
   "sheets": [
-    "6.6",
-    "6.7 est.",
+    "5.0",
+    "5.2",
+    "5.5",
+    "5.8",
+    "6.0",
+    "6.3",
+    "6.7",
     "1.0",
     "1.1",
     "1.2",
@@ -15188,21 +15193,16 @@ export const GENERATED_PATCHES_META = {
     "4.6",
     "4.7",
     "4.8",
-    "5.0",
     "5.1",
-    "5.2",
     "5.3",
     "5.4",
-    "5.5",
     "5.6",
     "5.7",
-    "5.8",
-    "6.0",
     "6.1",
     "6.2",
-    "6.3",
     "6.4",
-    "6.5"
+    "6.5",
+    "6.6"
   ],
-  "generatedAt": "2026-06-30T11:19:54Z"
+  "generatedAt": "2026-08-03T08:22:10Z"
 };

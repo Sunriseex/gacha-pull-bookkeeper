@@ -106,13 +106,12 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 5.3,
         "rewards": {
-          "boopon": 36,
+          "boopon": 0,
           "encryptedMasterTape": 0,
-          "masterTape": 8.6,
+          "masterTape": 0,
           "monochrome": 0,
-          "polychrome": 840
+          "polychrome": 0
         },
         "costs": {
           "boopon": 0,
@@ -174,7 +173,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 9.1,
+        "pulls": 9,
         "rewards": {
           "boopon": 6.7,
           "encryptedMasterTape": 0,
@@ -345,13 +344,12 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 6,
         "rewards": {
-          "boopon": 36.9,
+          "boopon": 0,
           "encryptedMasterTape": 0,
-          "masterTape": 8.8,
+          "masterTape": 0,
           "monochrome": 0,
-          "polychrome": 960
+          "polychrome": 0
         },
         "costs": {
           "boopon": 0,
@@ -413,7 +411,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 12.5,
+        "pulls": 12.4,
         "rewards": {
           "boopon": 6.9,
           "encryptedMasterTape": 0,
@@ -584,13 +582,12 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 6,
         "rewards": {
-          "boopon": 36.9,
+          "boopon": 0,
           "encryptedMasterTape": 0,
-          "masterTape": 8.8,
+          "masterTape": 0,
           "monochrome": 0,
-          "polychrome": 960
+          "polychrome": 0
         },
         "costs": {
           "boopon": 0,
@@ -652,7 +649,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 16.1,
+        "pulls": 16.2,
         "rewards": {
           "boopon": 6.9,
           "encryptedMasterTape": 0,
@@ -823,13 +820,12 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 6,
         "rewards": {
-          "boopon": 36.9,
+          "boopon": 0,
           "encryptedMasterTape": 0,
-          "masterTape": 8.8,
+          "masterTape": 0,
           "monochrome": 0,
-          "polychrome": 960
+          "polychrome": 0
         },
         "costs": {
           "boopon": 0,
@@ -891,7 +887,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 12.5,
+        "pulls": 12.4,
         "rewards": {
           "boopon": 6.9,
           "encryptedMasterTape": 0,
@@ -1062,13 +1058,12 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 5,
         "rewards": {
-          "boopon": 30.7,
+          "boopon": 0,
           "encryptedMasterTape": 0,
-          "masterTape": 7.3,
+          "masterTape": 0,
           "monochrome": 0,
-          "polychrome": 800
+          "polychrome": 0
         },
         "costs": {
           "boopon": 0,
@@ -1301,13 +1296,12 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 7,
         "rewards": {
-          "boopon": 43,
+          "boopon": 0,
           "encryptedMasterTape": 0,
-          "masterTape": 10.2,
+          "masterTape": 0,
           "monochrome": 0,
-          "polychrome": 1120
+          "polychrome": 0
         },
         "costs": {
           "boopon": 0,
@@ -1369,7 +1363,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 22.4,
+        "pulls": 22.3,
         "rewards": {
           "boopon": 8,
           "encryptedMasterTape": 0,
@@ -1540,13 +1534,12 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 6,
         "rewards": {
-          "boopon": 36.9,
+          "boopon": 0,
           "encryptedMasterTape": 0,
-          "masterTape": 8.8,
+          "masterTape": 0,
           "monochrome": 0,
-          "polychrome": 960
+          "polychrome": 0
         },
         "costs": {
           "boopon": 0,
@@ -1608,7 +1601,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 19.2,
+        "pulls": 19.1,
         "rewards": {
           "boopon": 6.9,
           "encryptedMasterTape": 0,
@@ -1779,13 +1772,12 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 6.3,
         "rewards": {
-          "boopon": 38.7,
+          "boopon": 0,
           "encryptedMasterTape": 0,
-          "masterTape": 9.2,
+          "masterTape": 0,
           "monochrome": 0,
-          "polychrome": 1006
+          "polychrome": 0
         },
         "costs": {
           "boopon": 0,
@@ -1847,7 +1839,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 20.1,
+        "pulls": 20,
         "rewards": {
           "boopon": 7.2,
           "encryptedMasterTape": 0,
@@ -2018,13 +2010,12 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 5.7,
         "rewards": {
-          "boopon": 35.1,
+          "boopon": 0,
           "encryptedMasterTape": 0,
-          "masterTape": 8.3,
+          "masterTape": 0,
           "monochrome": 0,
-          "polychrome": 914
+          "polychrome": 0
         },
         "costs": {
           "boopon": 0,
@@ -2086,7 +2077,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 18.3,
+        "pulls": 18.2,
         "rewards": {
           "boopon": 6.6,
           "encryptedMasterTape": 0,
@@ -2257,13 +2248,12 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 7,
         "rewards": {
-          "boopon": 43,
+          "boopon": 0,
           "encryptedMasterTape": 0,
-          "masterTape": 10.2,
+          "masterTape": 0,
           "monochrome": 0,
-          "polychrome": 1120
+          "polychrome": 0
         },
         "costs": {
           "boopon": 0,
@@ -2496,13 +2486,12 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 6,
         "rewards": {
-          "boopon": 36.9,
+          "boopon": 0,
           "encryptedMasterTape": 0,
-          "masterTape": 8.8,
+          "masterTape": 0,
           "monochrome": 0,
-          "polychrome": 960
+          "polychrome": 0
         },
         "costs": {
           "boopon": 0,
@@ -2735,13 +2724,12 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 6,
         "rewards": {
-          "boopon": 36.9,
+          "boopon": 0,
           "encryptedMasterTape": 0,
-          "masterTape": 8.8,
+          "masterTape": 0,
           "monochrome": 0,
-          "polychrome": 960
+          "polychrome": 0
         },
         "costs": {
           "boopon": 0,
@@ -2803,7 +2791,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 19,
+        "pulls": 19.1,
         "rewards": {
           "boopon": 6.9,
           "encryptedMasterTape": 0,
@@ -2974,13 +2962,12 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 4.7,
         "rewards": {
-          "boopon": 29,
+          "boopon": 0,
           "encryptedMasterTape": 0,
-          "masterTape": 6.9,
+          "masterTape": 0,
           "monochrome": 0,
-          "polychrome": 754
+          "polychrome": 0
         },
         "costs": {
           "boopon": 0,
@@ -3042,7 +3029,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 15.1,
+        "pulls": 15,
         "rewards": {
           "boopon": 5.4,
           "encryptedMasterTape": 0,
@@ -3213,13 +3200,12 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 5.6,
         "rewards": {
-          "boopon": 34.3,
+          "boopon": 0,
           "encryptedMasterTape": 0,
-          "masterTape": 8.1,
+          "masterTape": 0,
           "monochrome": 0,
-          "polychrome": 891
+          "polychrome": 0
         },
         "costs": {
           "boopon": 0,
@@ -3452,13 +3438,12 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 6.7,
         "rewards": {
-          "boopon": 41.3,
+          "boopon": 0,
           "encryptedMasterTape": 0,
-          "masterTape": 9.8,
+          "masterTape": 0,
           "monochrome": 0,
-          "polychrome": 1074
+          "polychrome": 0
         },
         "costs": {
           "boopon": 0,
@@ -3520,7 +3505,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 22.6,
+        "pulls": 22.7,
         "rewards": {
           "boopon": 7.7,
           "encryptedMasterTape": 0,
@@ -3691,13 +3676,12 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 6,
         "rewards": {
-          "boopon": 36.9,
+          "boopon": 0,
           "encryptedMasterTape": 0,
-          "masterTape": 8.8,
+          "masterTape": 0,
           "monochrome": 0,
-          "polychrome": 960
+          "polychrome": 0
         },
         "costs": {
           "boopon": 0,
@@ -3930,13 +3914,12 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 6,
         "rewards": {
-          "boopon": 36.9,
+          "boopon": 0,
           "encryptedMasterTape": 0,
-          "masterTape": 8.8,
+          "masterTape": 0,
           "monochrome": 0,
-          "polychrome": 960
+          "polychrome": 0
         },
         "costs": {
           "boopon": 0,
@@ -3998,7 +3981,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 20.2,
+        "pulls": 20.3,
         "rewards": {
           "boopon": 6.9,
           "encryptedMasterTape": 0,
@@ -4169,13 +4152,12 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 6,
         "rewards": {
-          "boopon": 36.9,
+          "boopon": 0,
           "encryptedMasterTape": 0,
-          "masterTape": 8.8,
+          "masterTape": 0,
           "monochrome": 0,
-          "polychrome": 960
+          "polychrome": 0
         },
         "costs": {
           "boopon": 0,
@@ -4237,7 +4219,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 20.2,
+        "pulls": 20.3,
         "rewards": {
           "boopon": 6.9,
           "encryptedMasterTape": 0,
@@ -4319,13 +4301,13 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 47.1,
+        "pulls": 47.3,
         "rewards": {
           "boopon": 25,
           "encryptedMasterTape": 20,
           "masterTape": 0,
           "monochrome": 0,
-          "polychrome": 4340
+          "polychrome": 4360
         },
         "costs": {
           "boopon": 0,
@@ -4342,13 +4324,13 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 22.6,
+        "pulls": 22.2,
         "rewards": {
           "boopon": 3,
           "encryptedMasterTape": 1,
-          "masterTape": 16,
+          "masterTape": 6,
           "monochrome": 0,
-          "polychrome": 3450
+          "polychrome": 3390
         },
         "costs": {
           "boopon": 0,
@@ -4411,13 +4393,12 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 6,
         "rewards": {
-          "boopon": 36.9,
+          "boopon": 0,
           "encryptedMasterTape": 0,
-          "masterTape": 8.8,
+          "masterTape": 0,
           "monochrome": 0,
-          "polychrome": 960
+          "polychrome": 0
         },
         "costs": {
           "boopon": 0,
@@ -4479,7 +4460,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 20.2,
+        "pulls": 20.3,
         "rewards": {
           "boopon": 6.9,
           "encryptedMasterTape": 0,
@@ -4549,8 +4530,6 @@ export const GENERATED_PATCHES_META = {
   "gameId": "zenless-zone-zero",
   "spreadsheetId": "2PACX-1vTiSx8OSyx-BZktnpT-fh_pQHjjkD8q3sp3Csy2aOI-8CV_QroqxzhhNjiCZNV4IdzhyK3xbipZn9WD",
   "sheets": [
-    "3.0",
-    "3.1",
     "1.0",
     "1.1",
     "1.2",
@@ -4567,7 +4546,9 @@ export const GENERATED_PATCHES_META = {
     "2.5",
     "2.6",
     "2.7",
-    "2.8"
+    "2.8",
+    "3.0",
+    "3.1"
   ],
-  "generatedAt": "2026-07-27T08:23:20Z"
+  "generatedAt": "2026-08-03T08:21:58Z"
 };

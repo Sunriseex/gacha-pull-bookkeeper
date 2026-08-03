@@ -39,9 +39,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 153.2,
+        "pulls": 153.8,
         "rewards": {
-          "astrite": 22105,
+          "astrite": 22213,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -289,9 +289,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 28.6,
+        "pulls": 28.7,
         "rewards": {
-          "astrite": 4575,
+          "astrite": 4596,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -364,7 +364,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 14.6,
+        "pulls": 14.7,
         "rewards": {
           "astrite": 5170,
           "forgingTide": 7,
@@ -789,9 +789,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 24.7,
+        "pulls": 24.8,
         "rewards": {
-          "astrite": 3950,
+          "astrite": 3963,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -1039,9 +1039,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 5.2,
+        "pulls": 5.3,
         "rewards": {
-          "astrite": 835,
+          "astrite": 850,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -1289,9 +1289,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 61.8,
+        "pulls": 62,
         "rewards": {
-          "astrite": 9887,
+          "astrite": 9925,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -1364,7 +1364,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 13,
+        "pulls": 13.1,
         "rewards": {
           "astrite": 4620,
           "forgingTide": 7,
@@ -1541,7 +1541,7 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 19.2,
         "rewards": {
-          "astrite": 3065,
+          "astrite": 3076,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -1614,7 +1614,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 20,
+        "pulls": 20.1,
         "rewards": {
           "astrite": 5730,
           "forgingTide": 7,
@@ -1789,9 +1789,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 19,
+        "pulls": 19.2,
         "rewards": {
-          "astrite": 3045,
+          "astrite": 3071,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -1864,7 +1864,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 15.7,
+        "pulls": 15.6,
         "rewards": {
           "astrite": 4502,
           "forgingTide": 7,
@@ -2039,9 +2039,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 12.4,
+        "pulls": 12.5,
         "rewards": {
-          "astrite": 1990,
+          "astrite": 1995,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -2289,9 +2289,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 39.5,
+        "pulls": 39.7,
         "rewards": {
-          "astrite": 6325,
+          "astrite": 6348,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -2364,7 +2364,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 20,
+        "pulls": 19.9,
         "rewards": {
           "astrite": 5730,
           "forgingTide": 7,
@@ -2541,7 +2541,7 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 16.1,
         "rewards": {
-          "astrite": 2570,
+          "astrite": 2582,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -2614,7 +2614,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 16.6,
+        "pulls": 16.7,
         "rewards": {
           "astrite": 4775,
           "forgingTide": 7,
@@ -2789,9 +2789,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 22.2,
+        "pulls": 22.3,
         "rewards": {
-          "astrite": 3555,
+          "astrite": 3564,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -3041,7 +3041,7 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 9.2,
         "rewards": {
-          "astrite": 1465,
+          "astrite": 1471,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -3114,7 +3114,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 20.8,
+        "pulls": 20.9,
         "rewards": {
           "astrite": 5880,
           "forgingTide": 7,
@@ -3289,9 +3289,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 8.4,
+        "pulls": 8.5,
         "rewards": {
-          "astrite": 1340,
+          "astrite": 1358,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -3539,9 +3539,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 61.7,
+        "pulls": 62,
         "rewards": {
-          "astrite": 9865,
+          "astrite": 9922,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -3614,7 +3614,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 23.4,
+        "pulls": 23.5,
         "rewards": {
           "astrite": 6280,
           "forgingTide": 7,
@@ -3789,9 +3789,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 33.2,
+        "pulls": 33.4,
         "rewards": {
-          "astrite": 3715,
+          "astrite": 3736,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -3864,7 +3864,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 23.4,
+        "pulls": 23.3,
         "rewards": {
           "astrite": 6280,
           "forgingTide": 7,
@@ -4041,7 +4041,7 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 8,
         "rewards": {
-          "astrite": 1275,
+          "astrite": 1286,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -4114,7 +4114,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 23.4,
+        "pulls": 23.5,
         "rewards": {
           "astrite": 6280,
           "forgingTide": 7,
@@ -4289,9 +4289,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 29.2,
+        "pulls": 29.3,
         "rewards": {
-          "astrite": 4675,
+          "astrite": 4689,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -4541,7 +4541,7 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 5.2,
         "rewards": {
-          "astrite": 830,
+          "astrite": 839,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -4789,9 +4789,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 36.3,
+        "pulls": 36.5,
         "rewards": {
-          "astrite": 5800,
+          "astrite": 5839,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -4864,7 +4864,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 23.4,
+        "pulls": 23.5,
         "rewards": {
           "astrite": 6220,
           "forgingTide": 7,
@@ -5005,10 +5005,8 @@ export const GENERATED_PATCHES_META = {
   "gameId": "wuthering-waves",
   "spreadsheetId": "1msSsnWBcXKniykf4rWQCEdk2IQuB9JHy",
   "sheets": [
-    "3.5",
     "1.0",
     "1.1",
-    "1.2",
     "1.3",
     "1.4",
     "2.0",
@@ -5024,7 +5022,9 @@ export const GENERATED_PATCHES_META = {
     "3.1",
     "3.2",
     "3.3",
-    "3.4"
+    "3.4",
+    "3.5",
+    "1.2"
   ],
-  "generatedAt": "2026-07-27T08:22:57Z"
+  "generatedAt": "2026-08-03T08:21:43Z"
 };
