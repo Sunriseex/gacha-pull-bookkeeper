@@ -4290,9 +4290,6 @@ export const GENERATED_PATCHES = [
     "versionName": "The Long Goodbye",
     "startDate": "2026-07-29",
     "durationDays": 42,
-    "tags": [
-      "WIP"
-    ],
     "notes": "Generated from Zenless Zone Zero Google Sheets by patchsync",
     "sources": [
       {
@@ -4301,13 +4298,13 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 47.3,
+        "pulls": 48.3,
         "rewards": {
-          "boopon": 25,
+          "boopon": 26,
           "encryptedMasterTape": 20,
           "masterTape": 0,
           "monochrome": 0,
-          "polychrome": 4360
+          "polychrome": 4520
         },
         "costs": {
           "boopon": 0,
@@ -4324,13 +4321,13 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 22.2,
+        "pulls": 29.8,
         "rewards": {
           "boopon": 3,
           "encryptedMasterTape": 1,
           "masterTape": 6,
           "monochrome": 0,
-          "polychrome": 3390
+          "polychrome": 4608
         },
         "costs": {
           "boopon": 0,
@@ -4550,5 +4547,5 @@ export const GENERATED_PATCHES_META = {
     "3.0",
     "3.1"
   ],
-  "generatedAt": "2026-08-03T08:21:58Z"
+  "generatedAt": "2026-08-10T06:07:12Z"
 };
