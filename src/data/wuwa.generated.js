@@ -5271,5 +5271,5 @@ export const GENERATED_PATCHES_META = {
     "3.6 (WIP)",
     "1.2"
   ],
-  "generatedAt": "2026-08-10T06:06:56Z"
+  "generatedAt": "2026-08-17T05:28:06Z"
 };
