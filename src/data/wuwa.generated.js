@@ -5017,8 +5017,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 26.9,
         "rewards": {
-          "astrite": 3100,
+          "astrite": 3500,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -5041,8 +5042,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 4.3,
         "rewards": {
-          "astrite": 440,
+          "astrite": 682,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -5065,6 +5067,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 6.6,
         "rewards": {
           "astrite": 1050,
           "forgingTide": 0,
@@ -5089,6 +5092,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 15.8,
         "rewards": {
           "astrite": 0,
           "forgingTide": 0,
@@ -5113,6 +5117,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 23.4,
         "rewards": {
           "astrite": 6280,
           "forgingTide": 7,
@@ -5137,6 +5142,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 7,
         "rewards": {
           "astrite": 0,
           "forgingTide": 0,
@@ -5161,6 +5167,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 7,
         "rewards": {
           "astrite": 0,
           "forgingTide": 0,
@@ -5185,6 +5192,7 @@ export const GENERATED_PATCHES = [
         "gate": "bp2",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 9.3,
         "rewards": {
           "astrite": 680,
           "forgingTide": 0,
@@ -5209,6 +5217,7 @@ export const GENERATED_PATCHES = [
         "gate": "monthly",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 26.3,
         "rewards": {
           "astrite": 0,
           "forgingTide": 0,
@@ -5271,5 +5280,5 @@ export const GENERATED_PATCHES_META = {
     "3.6 (WIP)",
     "1.2"
   ],
-  "generatedAt": "2026-08-17T05:28:06Z"
+  "generatedAt": "2026-08-24T05:31:19Z"
 };

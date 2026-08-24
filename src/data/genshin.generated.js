@@ -15187,7 +15187,7 @@ export const GENERATED_PATCHES = [
           "acquaintFate": 8,
           "genesisCrystal": 0,
           "intertwinedFate": 2,
-          "primogem": 3772,
+          "primogem": 5081,
           "starglitter": 0
         },
         "costs": {
@@ -15337,6 +15337,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
+        "pulls": 39.8,
         "rewards": {
           "acquaintFate": 0,
           "genesisCrystal": 0,
@@ -15455,7 +15456,7 @@ export const GENERATED_PATCHES_META = {
     "6.0",
     "6.3",
     "6.7",
-    "7.0 est.",
+    "7.0",
     "1.0",
     "1.1",
     "1.2",
@@ -15501,5 +15502,5 @@ export const GENERATED_PATCHES_META = {
     "6.5",
     "6.6"
   ],
-  "generatedAt": "2026-08-17T05:28:45Z"
+  "generatedAt": "2026-08-24T05:31:49Z"
 };
