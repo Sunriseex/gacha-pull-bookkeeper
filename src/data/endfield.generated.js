@@ -455,7 +455,7 @@ export const GENERATED_PATCHES = [
     "patch": "1.1",
     "versionName": "Old Deep Water Dies, by Rising Tide It is Denied",
     "startDate": "2026-03-12",
-    "durationDays": 35,
+    "durationDays": 36,
     "notes": "Generated from Google Sheets by patchsync",
     "sources": [
       {
@@ -531,7 +531,7 @@ export const GENERATED_PATCHES = [
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 4749
+          "oroberyl": 4758
         },
         "costs": {
           "arsenal": 0,
@@ -551,7 +551,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 15.4,
+        "pulls": 15.8,
         "rewards": {
           "arsenal": 0,
           "basic": 0,
@@ -560,7 +560,7 @@ export const GENERATED_PATCHES = [
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 7700
+          "oroberyl": 7920
         },
         "costs": {
           "arsenal": 0,
@@ -580,16 +580,16 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 5,
+        "pulls": 5.1,
         "rewards": {
-          "arsenal": 500,
+          "arsenal": 514,
           "basic": 0,
           "chartered": 0,
           "firewalker": 0,
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 2500
+          "oroberyl": 2571
         },
         "costs": {
           "arsenal": 0,
@@ -730,7 +730,7 @@ export const GENERATED_PATCHES = [
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 7000
+          "oroberyl": 7200
         },
         "costs": {
           "arsenal": 0,
@@ -903,7 +903,7 @@ export const GENERATED_PATCHES = [
     "id": "1.2",
     "patch": "1.2",
     "versionName": "At the Wake of Spring",
-    "startDate": "2026-04-16",
+    "startDate": "2026-04-17",
     "durationDays": 49,
     "notes": "Generated from Google Sheets by patchsync",
     "sources": [
@@ -1352,8 +1352,8 @@ export const GENERATED_PATCHES = [
     "id": "1.3",
     "patch": "1.3",
     "versionName": "Sketches of Lost Heirlooms",
-    "startDate": "2026-06-04",
-    "durationDays": 42,
+    "startDate": "2026-06-05",
+    "durationDays": 41,
     "notes": "Generated from Google Sheets by patchsync",
     "sources": [
       {
@@ -1429,7 +1429,7 @@ export const GENERATED_PATCHES = [
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 5709
+          "oroberyl": 5700
         },
         "costs": {
           "arsenal": 0,
@@ -1449,7 +1449,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 18.5,
+        "pulls": 18,
         "rewards": {
           "arsenal": 0,
           "basic": 0,
@@ -1458,7 +1458,7 @@ export const GENERATED_PATCHES = [
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 9240
+          "oroberyl": 9020
         },
         "costs": {
           "arsenal": 0,
@@ -1478,16 +1478,16 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 6,
+        "pulls": 5.9,
         "rewards": {
-          "arsenal": 600,
+          "arsenal": 586,
           "basic": 0,
           "chartered": 0,
           "firewalker": 0,
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 3000
+          "oroberyl": 2929
         },
         "costs": {
           "arsenal": 0,
@@ -1628,7 +1628,7 @@ export const GENERATED_PATCHES = [
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 8400
+          "oroberyl": 8200
         },
         "costs": {
           "arsenal": 0,
@@ -1802,7 +1802,7 @@ export const GENERATED_PATCHES = [
     "patch": "1.4",
     "versionName": "Homecoming",
     "startDate": "2026-07-16",
-    "durationDays": 49,
+    "durationDays": 48,
     "notes": "Generated from Google Sheets by patchsync",
     "sources": [
       {
@@ -1869,7 +1869,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 8.5,
+        "pulls": 8.7,
         "rewards": {
           "arsenal": 0,
           "basic": 0,
@@ -1878,7 +1878,7 @@ export const GENERATED_PATCHES = [
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 4269
+          "oroberyl": 4360
         },
         "costs": {
           "arsenal": 0,
@@ -1898,7 +1898,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 21.6,
+        "pulls": 21.1,
         "rewards": {
           "arsenal": 0,
           "basic": 0,
@@ -1907,7 +1907,7 @@ export const GENERATED_PATCHES = [
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 10780
+          "oroberyl": 10560
         },
         "costs": {
           "arsenal": 0,
@@ -1927,16 +1927,16 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 7,
+        "pulls": 6.9,
         "rewards": {
-          "arsenal": 700,
+          "arsenal": 686,
           "basic": 0,
           "chartered": 0,
           "firewalker": 0,
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 3500
+          "oroberyl": 3429
         },
         "costs": {
           "arsenal": 0,
@@ -2077,7 +2077,7 @@ export const GENERATED_PATCHES = [
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 9800
+          "oroberyl": 9600
         },
         "costs": {
           "arsenal": 0,
@@ -2250,7 +2250,7 @@ export const GENERATED_PATCHES = [
     "id": "1.5",
     "patch": "1.5",
     "versionName": "Dreamscape of Wind and Snow",
-    "startDate": "2026-09-03",
+    "startDate": "2026-09-02",
     "durationDays": 42,
     "tags": [
       "WIP"
@@ -2263,7 +2263,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 17.2,
+        "pulls": 17,
         "rewards": {
           "arsenal": 0,
           "basic": 2,
@@ -2272,7 +2272,7 @@ export const GENERATED_PATCHES = [
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 8600
+          "oroberyl": 8500
         },
         "costs": {
           "arsenal": 0,
@@ -2292,16 +2292,16 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 14.4,
+        "pulls": 10.1,
         "rewards": {
           "arsenal": 0,
-          "basic": 2,
+          "basic": 3,
           "chartered": 0,
           "firewalker": 0,
           "hues": 0,
           "messenger": 0,
           "origeometry": 9,
-          "oroberyl": 7190
+          "oroberyl": 5040
         },
         "costs": {
           "arsenal": 0,
@@ -2321,7 +2321,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 9.2,
+        "pulls": 8.8,
         "rewards": {
           "arsenal": 0,
           "basic": 0,
@@ -2330,7 +2330,7 @@ export const GENERATED_PATCHES = [
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 4609
+          "oroberyl": 4409
         },
         "costs": {
           "arsenal": 0,
@@ -2709,5 +2709,5 @@ export const GENERATED_PATCHES_META = {
     "1.4",
     "1.5"
   ],
-  "generatedAt": "2026-08-24T05:31:15Z"
+  "generatedAt": "2026-08-31T11:15:40Z"
 };

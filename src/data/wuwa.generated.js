@@ -5005,7 +5005,7 @@ export const GENERATED_PATCHES = [
     "patch": "3.6",
     "versionName": "Lamplight in Mirage, Sword's Resolve in Heart",
     "startDate": "2026-08-20",
-    "durationDays": 42,
+    "durationDays": 41,
     "tags": [
       "WIP"
     ],
@@ -5092,7 +5092,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 15.8,
+        "pulls": 15.4,
         "rewards": {
           "astrite": 0,
           "forgingTide": 0,
@@ -5119,7 +5119,7 @@ export const GENERATED_PATCHES = [
         "countInPulls": true,
         "pulls": 23.4,
         "rewards": {
-          "astrite": 6280,
+          "astrite": 6220,
           "forgingTide": 7,
           "forgingToken": 0,
           "lunite": 0,
@@ -5217,7 +5217,7 @@ export const GENERATED_PATCHES = [
         "gate": "monthly",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 26.3,
+        "pulls": 25.6,
         "rewards": {
           "astrite": 0,
           "forgingTide": 0,
@@ -5280,5 +5280,5 @@ export const GENERATED_PATCHES_META = {
     "3.6 (WIP)",
     "1.2"
   ],
-  "generatedAt": "2026-08-24T05:31:19Z"
+  "generatedAt": "2026-08-31T11:15:46Z"
 };
