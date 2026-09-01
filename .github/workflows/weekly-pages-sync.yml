@@ -82,7 +82,7 @@ jobs:
           cp -R assets "$target_dir/"
           cp -R docs "$target_dir/"
           cp -R src "$target_dir/"
-          cp .gitignore LICENSE README.md index.html "$target_dir/"
+          cp .gitignore CNAME LICENSE README.md index.html "$target_dir/"
 
           git -C "$target_dir" add -A
 

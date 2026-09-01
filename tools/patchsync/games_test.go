@@ -120,6 +120,39 @@ func parseCSV(text string) [][]string {
 	return records
 }
 
+func TestParseSheetToPatchHsrAcceptsCurrentStoreLabel(t *testing.T) {
+	csvText := csvLines(
+		"Version 4.5 (8/25/2026)",
+		"Version Length,42",
+		"Travel Log Events,1880,10,0",
+		"Permanent Content,2301,0,6",
+		"Mailbox & Web Events,1095,0,0",
+		"Daily Training,2216,0,0",
+		"Weekly Modes,1350,0,4.7",
+		"Treasures Lightward,2400,0,0",
+		"Embers Exchange (Store),0,5.4,5.4",
+	)
+
+	patch, err := parseSheetToPatchHsr("4.5", csvText)
+	if err != nil {
+		t.Fatalf("parseSheetToPatchHsr() error = %v", err)
+	}
+
+	var store *Source
+	for idx := range patch.Sources {
+		if patch.Sources[idx].ID == "embersStore" {
+			store = &patch.Sources[idx]
+			break
+		}
+	}
+	if store == nil {
+		t.Fatal("embersStore source was not generated")
+	}
+	if store.Rewards.Chartered != 5.4 || store.Rewards.Basic != 5.4 {
+		t.Fatalf("embersStore rewards = %+v, want 5.4 special and 5.4 standard passes", store.Rewards)
+	}
+}
+
 func TestParseSheetToPatchWuwa(t *testing.T) {
 	// Base CSV that produces consistent F2P/Paid totals.
 	// F2P: events(5000,30,5) + permanent(2000,10) + mailbox(1000,5) + recurring(3000,0,10)
