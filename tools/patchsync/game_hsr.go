@@ -37,6 +37,9 @@ func parseSheetToPatchHsr(sheetName, csvText string) (Patch, error) {
 		if name == "" {
 			continue
 		}
+		if name == "embers exchange (store)" {
+			name = "embers store"
+		}
 		switch name {
 		case "travel log events",
 			"permanent content",
