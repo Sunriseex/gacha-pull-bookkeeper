@@ -2251,7 +2251,7 @@ export const GENERATED_PATCHES = [
     "patch": "1.5",
     "versionName": "Dreamscape of Wind and Snow",
     "startDate": "2026-09-02",
-    "durationDays": 42,
+    "durationDays": 43,
     "tags": [
       "WIP"
     ],
@@ -2330,7 +2330,7 @@ export const GENERATED_PATCHES = [
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 4409
+          "oroberyl": 4417
         },
         "costs": {
           "arsenal": 0,
@@ -2350,7 +2350,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 18.5,
+        "pulls": 18.9,
         "rewards": {
           "arsenal": 0,
           "basic": 0,
@@ -2359,7 +2359,7 @@ export const GENERATED_PATCHES = [
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 9240
+          "oroberyl": 9460
         },
         "costs": {
           "arsenal": 0,
@@ -2379,16 +2379,16 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 6,
+        "pulls": 6.1,
         "rewards": {
-          "arsenal": 600,
+          "arsenal": 614,
           "basic": 0,
           "chartered": 0,
           "firewalker": 0,
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 3000
+          "oroberyl": 3071
         },
         "costs": {
           "arsenal": 0,
@@ -2529,7 +2529,7 @@ export const GENERATED_PATCHES = [
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 8400
+          "oroberyl": 8600
         },
         "costs": {
           "arsenal": 0,
@@ -2709,5 +2709,5 @@ export const GENERATED_PATCHES_META = {
     "1.4",
     "1.5"
   ],
-  "generatedAt": "2026-08-31T11:15:40Z"
+  "generatedAt": "2026-09-01T15:16:16Z"
 };

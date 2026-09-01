@@ -1,4 +1,6 @@
-# Gacha Pull Bookkeeper (GitHub Pages)
+# Gacha Pull Bookkeeper
+
+Production / Продакшен: https://pulls.sunriseex.dev
 
 EN: Static web app for tracking gacha pulls by patch.
 RU: Статическое веб-приложение для подсчета круток по патчам.
