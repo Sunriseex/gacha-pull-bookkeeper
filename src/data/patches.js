@@ -397,10 +397,12 @@ const sortByPatchVersion = (patches) =>
 
 const mergeGeneratedPatches = (basePatches, generatedPatches = []) => {
   const merged = new Map(basePatches.map((patch) => [patch.id, patch]));
-  for (const patch of generatedPatches) {
-    if (patch && typeof patch.id === "string") {
-      merged.set(patch.id, patch);
-    }
+  const ids = new Set();
+  for (const [index, patch] of generatedPatches.entries()) {
+    validatePatch(patch, `generatedPatches[${index}]`);
+    assert(!ids.has(patch.id), `duplicate generated patch id "${patch.id}"`);
+    ids.add(patch.id);
+    merged.set(patch.id, patch);
   }
   return sortByPatchVersion([...merged.values()]);
 };
