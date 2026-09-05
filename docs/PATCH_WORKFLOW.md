@@ -1,56 +1,40 @@
 # Patch Update Workflow (Owner)
 
-## Goal
+## Publication and data refresh
 
-Add a new patch quickly and safely for any supported game, while keeping updates owner-only.
+- `.github/workflows/weekly-pages-sync.yml` tests pull requests and changes to `master`.
+- A push to `master` publishes tested code using the newest generated data from `master` or `github-pages`. It does not depend on Google Sheets availability.
+- Every Monday at `05:00 UTC`, the workflow refreshes all games before publishing. A failed game or patch stops publication; the existing site remains intact.
+- To refresh manually, run **Weekly Pages Sync** from Actions on `master` with `sync_data` enabled. Disable that input to publish code with existing data.
+- Both paths validate the final game catalog before pushing to `github-pages`.
+- The GitHub Pages build then deploys that branch to the custom domain.
 
-## Weekly automation
+## Local owner sync
 
-- GitHub Actions runs every Monday at `05:00 UTC`.
-- Workflow file: `.github/workflows/weekly-pages-sync.yml`
-- It uses `.env.example` as the CI source list, refreshes all generated `src/data/*.generated.js` files, then pushes the updated static site to the `github-pages` branch.
-- If branch protection blocks bot pushes, allow GitHub Actions to write to `github-pages` or relax that rule for this branch.
+1. Copy `.env.example` to `.env` at the repository root and configure the sources and `PATCHSYNC_TOKEN`.
+2. Run `make serve`, or start `python -m http.server 5173 --bind 127.0.0.1` and `go run . --serve` from `tools/patchsync` separately.
+3. Open `http://localhost:4173` for `make serve` (5173 for the separate server).
+4. Click **Sync Sheets** and enter the token when prompted. Cancel and Escape discard the input.
+5. Successful games are reloaded automatically, including their chart and update date. Failed games retain their previous data and show an error.
 
-## Steps
+The button is available only on localhost pages. Public visitors use the published data and do not need a local service. To update the public site, use repository changes or Actions.
 
-Option A (recommended): use Google Sheets importer.
+## Failure guarantees and recovery
 
-1. Start importer service:
-   - `cd tools/patchsync`
-   - `go run . --serve --auth-token "<your_token>"`
-2. In app UI click `Sync Sheets` once.
-3. Before first sync, copy `.env.example` to `.env` and set spreadsheet IDs/URLs there.
-4. The service syncs all configured games using values from `.env`.
-5. Reload the app and verify updated patches.
+- A game update is prepared in memory. Failure to fetch/parse any discovered patch or required Data/Summary overrides aborts that game before writing.
+- Existing generated files are replaced using a temporary file and rename. Malformed existing modules are rejected instead of treated as empty history.
+- HTTP sync transactions are serialized. An exclusive `<output>.lock` directory also prevents a CLI process from writing the same output concurrently.
+- After a forced termination, first confirm no sync process is running; then remove the stale `.generated.js.lock` directory shown in the error and retry.
+- Never delete a lock belonging to an active sync. Restore malformed generated data from a known-good Git revision before retrying.
+- `--dry-run` validates without writing generated files or creating a Git branch.
 
-Option B: manual edit in repository.
+## Tests
 
-1. Create a branch:
-   - `git checkout -b data/patch-1.1`
-2. Open `src/data/patches.js`.
-3. Find target game object in `GAME_CATALOG.games`.
-4. Copy an existing patch object for that game.
-5. Change:
-   - `id`
-   - `patch`
-   - `versionName`
-   - `startDate`
-   - `durationDays`
-   - `sources`
-6. Save and run a syntax check:
-   - `Get-ChildItem -Recurse -Filter *.js src | ForEach-Object { node --check $_.FullName }`
-7. Run app and verify chart and totals.
-8. Commit and open PR.
+From the repository root, run:
 
-## Why this is owner-only
+```bash
+node --test tests/*.test.mjs
+(cd tools/patchsync && go test -race ./... && go vet ./...)
+```
 
-- Runtime UI does not allow data editing.
-- Data changes happen only through repository commits (or local owner importer writing tracked files).
-- Restrict repository write access to your account only.
-- Enable branch protection on `master` to block direct pushes.
-
-## Notes
-
-- `src/data/patches.js` has runtime schema validation. If a patch structure is invalid, app startup throws a clear error.
-- Generated imports are split per game (`endfield.generated.js`, `wuwa.generated.js`).
-- Client-side "password-protected admin mode" is not secure for true owner-only control.
+Tests cover failed source downloads/parsing, preserving old data, output locking, atomic replacement, token cancellation, catalog reload, calculation gates and deployment baseline selection. They use offline fixtures; they do not assert that third-party spreadsheets always retain their layout.

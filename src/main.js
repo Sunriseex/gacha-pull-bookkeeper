@@ -1,7 +1,9 @@
+import { promptSyncToken, isLocalSyncPage } from "./ui/sync.js";
 import {
   DEFAULT_GAME_ID,
   GAME_CATALOG,
   getGameById,
+  refreshGeneratedData,
 } from "./data/patches.js";
 import {
   aggregateTotals,
@@ -276,10 +278,10 @@ const copyTextToClipboard = async (value) => {
 };
 
 const parseSyncPayload = async (response) => {
+  const text = await response.text();
   try {
-    return await response.json();
+    return JSON.parse(text);
   } catch {
-    const text = await response.text().catch(() => "");
     return { ok: false, message: text ? `Non-JSON response: ${text.slice(0, 200)}` : `HTTP ${response.status}` };
   }
 };
@@ -355,11 +357,11 @@ const ensureTokenDialog = () => {
       <p class="token-dialog-heading">Patchsync token required</p>
       <label class="token-dialog-label">
         <span>Token</span>
-        <input id="tokenDialogInput" type="text" class="token-dialog-input" autocomplete="off" spellcheck="false">
+        <input id="tokenDialogInput" type="password" class="token-dialog-input" autocomplete="off" spellcheck="false">
       </label>
       <menu class="token-dialog-actions">
-        <button id="tokenDialogCancel" type="reset" class="token-dialog-btn token-dialog-btn-cancel">Cancel</button>
-        <button id="tokenDialogSubmit" type="submit" class="token-dialog-btn token-dialog-btn-submit">Save</button>
+        <button id="tokenDialogCancel" type="button" class="token-dialog-btn token-dialog-btn-cancel">Cancel</button>
+        <button id="tokenDialogSubmit" type="submit" value="save" class="token-dialog-btn token-dialog-btn-submit">Save</button>
       </menu>
     </form>
   `;
@@ -367,29 +369,10 @@ const ensureTokenDialog = () => {
   return dialog;
 };
 
-const tryPromptPatchsyncToken = () => {
-  const dialog = ensureTokenDialog();
-  const input = dialog.querySelector("#tokenDialogInput");
-  const result = dialog.showModal();
-  return new Promise((resolve) => {
-    const close = () => {
-      dialog.removeEventListener("close", onClose);
-      dialog.removeEventListener("cancel", onCancel);
-      const token = String(input?.value ?? "").trim();
-      dialog.close();
-      if (token) {
-        localStorage.setItem(LOCAL_KEYS.patchsyncToken, token);
-      }
-      resolve(token);
-    };
-    const onClose = () => close();
-    const onCancel = () => {
-      resolve("");
-    };
-    dialog.addEventListener("close", onClose);
-    dialog.addEventListener("cancel", onCancel, { once: true });
-  });
-};
+const tryPromptPatchsyncToken = () => promptSyncToken({
+  dialog: ensureTokenDialog(),
+  saveToken: (token) => localStorage.setItem(LOCAL_KEYS.patchsyncToken, token),
+});
 
 const syncAllGames = async () => {
   if (!refs.syncSheetsBtn || refs.syncSheetsBtn.disabled) {
@@ -404,10 +387,12 @@ const syncAllGames = async () => {
 
     if (response.status === 401) {
       const promptedToken = await tryPromptPatchsyncToken();
-      if (promptedToken) {
-        authToken = promptedToken;
-        ({ response, payload } = await requestSyncAll(authToken));
+      if (!promptedToken) {
+        resetSyncButton();
+        return;
       }
+      authToken = promptedToken;
+      ({ response, payload } = await requestSyncAll(authToken));
     }
 
     if (!response.ok || !payload) {
@@ -421,6 +406,14 @@ const syncAllGames = async () => {
     }
 
     emitSyncLogs(payload);
+
+    const updatedGameIds = (payload.results || [])
+      .filter((entry) => !entry.error)
+      .map((entry) => entry.gameId);
+    if (updatedGameIds.length) {
+      await refreshGeneratedData(updatedGameIds);
+      applyGame(state.game.id, { animateTitle: false });
+    }
 
     const summary = summarizeSyncResults(payload.results);
     setSyncButtonFeedback(summary);
@@ -736,6 +729,7 @@ const bindEvents = () => {
 
 const init = () => {
   if (refs.syncSheetsBtn) {
+    refs.syncSheetsBtn.hidden = !isLocalSyncPage(window.location);
     refs.syncSheetsBtn.dataset.defaultLabel = refs.syncSheetsBtn.textContent || "Sync Sheets";
   }
   bindEvents();
