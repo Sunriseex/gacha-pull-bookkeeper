@@ -1129,6 +1129,42 @@ const generatedMetaByGame = {
   [HSR_GAME_ID]: GENERATED_HSR_META,
 };
 
+const baseGames = GAME_CATALOG.games;
+const generatedFiles = {
+  [ENDFIELD_GAME_ID]: "endfield.generated.js",
+  [WUWA_GAME_ID]: "wuwa.generated.js",
+  [ZZZ_GAME_ID]: "zzz.generated.js",
+  [GENSHIN_GAME_ID]: "genshin.generated.js",
+  [HSR_GAME_ID]: "hsr.generated.js",
+};
+
+// Validate the complete replacement before changing the visible catalog.
+export const refreshGeneratedData = async (
+  gameIds,
+  load = (url) => import(url),
+) => {
+  const replacements = new Map();
+  const version = `${Date.now()}-${Math.random()}`;
+  await Promise.all([...new Set(gameIds)].map(async (id) => {
+    const base = baseGames.find((game) => game.id === id);
+    if (!base) throw new Error(`Unknown game: ${id}`);
+    const url = new URL(`./${generatedFiles[id]}`, import.meta.url);
+    url.searchParams.set("v", version);
+    const data = await load(url.href);
+    if (!Array.isArray(data.GENERATED_PATCHES) || !data.GENERATED_PATCHES.length) {
+      throw new Error(`Empty or invalid generated patches: ${id}`);
+    }
+    const game = {
+      ...base,
+      generatedAt: data.GENERATED_PATCHES_META?.generatedAt || "",
+      patches: mergeGeneratedPatches(base.patches, data.GENERATED_PATCHES),
+    };
+    validateGame(game, baseGames.indexOf(base));
+    replacements.set(id, game);
+  }));
+  GAME_CATALOG.games = GAME_CATALOG.games.map((game) => replacements.get(game.id) || game);
+};
+
 GAME_CATALOG.games = GAME_CATALOG.games.map((game) => {
   const generatedPatches = Array.isArray(generatedByGame[game.id])
     ? generatedByGame[game.id]
