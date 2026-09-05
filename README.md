@@ -31,8 +31,16 @@ Open / Открой: `http://localhost:5173`
 - UI theme uses Catppuccin Mocha palette (including chart colors).
 
 - This branch is static-only for GitHub Pages.
-- Branch does not include table parser/sync tooling.
-- Эта ветка предназначена для GitHub Pages и не содержит parser/sync инструментов.
+- `master` includes the Go parser/sync tool under `tools/patchsync`; `github-pages` contains only the published site.
+- `master` содержит Go-инструмент обновления таблиц; `github-pages` — опубликованный сайт.
+- Local owner workflow and failure recovery: [docs/PATCH_WORKFLOW.md](docs/PATCH_WORKFLOW.md).
+
+## Tests / Проверки
+```bash
+node --test tests/*.test.mjs
+(cd tools/patchsync && go test -race ./... && go vet ./...)
+```
+Requires Node.js 24 and Go 1.25 or newer. CI runs these checks before publication.
 
 ## License / Лицензия
 - EN: This project is licensed under the MIT License. See LICENSE.
