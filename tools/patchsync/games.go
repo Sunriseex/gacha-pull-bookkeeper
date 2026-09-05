@@ -8,19 +8,11 @@ import (
 	"os"
 	"regexp"
 	"sort"
-	"strconv"
 	"strings"
 	"time"
 )
 
-
-
 var patchVersionWithDatePattern = regexp.MustCompile(`(?i)^version\s+\d+\.\d+\s*\(([^)]+)\)`)
-
-
-
-
-
 
 func availableGameIDs() []string {
 	return []string{gameIDEndfield, gameIDWuwa, gameIDZzz, gameIDGenshin, gameIDHsr}
@@ -63,8 +55,6 @@ func resolveGameProfile(gameID string) (gameProfile, error) {
 	}
 	return profile, nil
 }
-
-
 
 func normalizePatchName(raw string) string {
 	normalized := strings.Join(strings.Fields(strings.TrimSpace(raw)), " ")
@@ -280,6 +270,9 @@ func parseDataSheetPulls(csvText string, rowToSourceID map[string]string, fallba
 			raw := getCell(record, colIdx)
 			value, okValue := parseDataPullValue(raw)
 			if !okValue {
+				if strings.TrimSpace(raw) != "" {
+					return nil, fmt.Errorf("patch %s source %s: invalid numeric cell %q", patchName, sourceID, raw)
+				}
 				continue
 			}
 			if _, okPatch := result[patchName]; !okPatch {
@@ -298,36 +291,15 @@ func parseEndfieldDataSheet(csvText string, fallbackSheetNames []string) (map[st
 	return parseDataSheetPulls(csvText, endfieldDataRowToSourceID, fallbackSheetNames)
 }
 
-
-
-
 func parseDataPullValue(raw string) (float64, bool) {
-	value := strings.TrimSpace(raw)
-	if value == "" {
+	if strings.TrimSpace(raw) == "" {
 		return 0, false
 	}
-	value = strings.ReplaceAll(value, "\u00a0", "")
-	value = strings.ReplaceAll(value, " ", "")
-
-	lastComma := strings.LastIndex(value, ",")
-	lastDot := strings.LastIndex(value, ".")
-	switch {
-	case lastComma >= 0 && lastDot >= 0:
-		if lastComma > lastDot {
-			value = strings.ReplaceAll(value, ".", "")
-			value = strings.ReplaceAll(value, ",", ".")
-		} else {
-			value = strings.ReplaceAll(value, ",", "")
-		}
-	case lastComma >= 0:
-		value = strings.ReplaceAll(value, ",", ".")
-	}
-
-	parsed, err := strconv.ParseFloat(value, 64)
+	value, err := parseSheetNumber(raw)
 	if err != nil {
 		return 0, false
 	}
-	return roundToTenth(parsed), true
+	return roundToTenth(value), true
 }
 
 func lookupSourcePullsByPatchName(pullsByPatch map[string]map[string]float64, patchName string) (map[string]float64, bool) {
@@ -435,7 +407,6 @@ func applyWuwaDataPullOverrides(patch *Patch, pullsByPatch map[string]map[string
 	return nil
 }
 
-
 func parseDateToISO(raw string) string {
 	value := strings.TrimSpace(raw)
 	if value == "" {
@@ -482,7 +453,6 @@ func findWuwaDurationDays(records [][]string) int {
 	}
 	return 0
 }
-
 
 func absFloat(v float64) float64 {
 	if v < 0 {

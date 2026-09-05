@@ -60,3 +60,15 @@ test('refresh updates the active catalog and rejects an invalid batch without pa
     assert.equal(GAME_CATALOG.games, beforeFailedBatch);
   } finally { GAME_CATALOG.games = original; }
 });
+
+test('malformed and duplicate generated patches preserve the complete visible history', async () => {
+  const original = GAME_CATALOG.games;
+  const game = getGameById('honkai-star-rail');
+  for (const patches of [[{broken:true}], [null], [game.patches[0], game.patches[0]]]) {
+    await assert.rejects(refreshGeneratedData([game.id], async () => ({
+      GENERATED_PATCHES:patches, GENERATED_PATCHES_META:{generatedAt:'2026-09-05T00:00:00Z'},
+    })));
+    assert.equal(GAME_CATALOG.games, original);
+    assert.equal(getGameById(game.id).patches.length, game.patches.length);
+  }
+});

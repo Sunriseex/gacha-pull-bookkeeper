@@ -25,7 +25,8 @@ func isGenshinWelkinPassRow(rowName string) bool {
 	return rowName == "welkin"
 }
 
-func parseSheetToPatchGenshin(sheetName, csvText string) (Patch, error) {
+func parseSheetToPatchGenshin(sheetName, csvText string) (parsed Patch, parseErr error) {
+	defer validateParsedNumbers(&parsed, &parseErr)
 	patchID := canonicalPatchID(sheetName)
 
 	reader := csv.NewReader(strings.NewReader(csvText))

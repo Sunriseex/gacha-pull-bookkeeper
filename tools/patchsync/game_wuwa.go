@@ -8,7 +8,8 @@ import (
 	"strings"
 )
 
-func parseSheetToPatchWuwa(sheetName, csvText string) (Patch, error) {
+func parseSheetToPatchWuwa(sheetName, csvText string) (parsed Patch, parseErr error) {
+	defer validateParsedNumbers(&parsed, &parseErr)
 	normalizedSheetName := canonicalPatchID(sheetName)
 
 	reader := csv.NewReader(strings.NewReader(csvText))

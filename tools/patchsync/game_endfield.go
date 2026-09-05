@@ -7,7 +7,8 @@ import (
 	"strings"
 )
 
-func parseSheetToPatch(sheetName, csvText string) (Patch, error) {
+func parseSheetToPatch(sheetName, csvText string) (parsed Patch, parseErr error) {
+	defer validateParsedNumbers(&parsed, &parseErr)
 	reader := csv.NewReader(strings.NewReader(csvText))
 	reader.FieldsPerRecord = -1
 	reader.LazyQuotes = true
