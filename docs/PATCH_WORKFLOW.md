@@ -38,3 +38,9 @@ node --test tests/*.test.mjs
 ```
 
 Tests cover failed source downloads/parsing, preserving old data, output locking, atomic replacement, token cancellation, catalog reload, calculation gates and deployment baseline selection. They use offline fixtures; they do not assert that third-party spreadsheets always retain their layout.
+
+## Source number format
+
+Reward cells and Data overrides use a decimal point and optional comma thousands groups (for example `0.125`, `1.250`, `1,250.5`). Empty reward cells mean zero; invalid nonempty values such as `#REF!` fail parsing instead of becoming zero. Localized decimal-comma exports must be normalized to this source format before import.
+
+Published sheet discovery is cached only within one sync. A later sync fetches the tab list again, so newly added patches are discovered without restarting the service.

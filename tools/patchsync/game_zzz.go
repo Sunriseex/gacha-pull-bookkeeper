@@ -7,7 +7,8 @@ import (
 	"strings"
 )
 
-func parseSheetToPatchZzz(sheetName, csvText string) (Patch, error) {
+func parseSheetToPatchZzz(sheetName, csvText string) (parsed Patch, parseErr error) {
+	defer validateParsedNumbers(&parsed, &parseErr)
 	normalizedSheetName := canonicalPatchID(sheetName)
 
 	reader := csv.NewReader(strings.NewReader(csvText))
@@ -179,6 +180,9 @@ func parseZzzDataSheet(csvText string, fallbackSheetNames []string) (map[string]
 			raw := getCell(record, colIdx)
 			value, okValue := parseDataPullValue(raw)
 			if !okValue {
+				if strings.TrimSpace(raw) != "" {
+					return nil, fmt.Errorf("patch %s source %s: invalid numeric cell %q", patchName, sourceID, raw)
+				}
 				continue
 			}
 			if _, okPatch := result[patchName]; !okPatch {

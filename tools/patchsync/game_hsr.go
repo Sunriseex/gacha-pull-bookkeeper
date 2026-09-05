@@ -7,7 +7,8 @@ import (
 	"strings"
 )
 
-func parseSheetToPatchHsr(sheetName, csvText string) (Patch, error) {
+func parseSheetToPatchHsr(sheetName, csvText string) (parsed Patch, parseErr error) {
+	defer validateParsedNumbers(&parsed, &parseErr)
 	normalizedSheetName := canonicalPatchID(sheetName)
 
 	reader := csv.NewReader(strings.NewReader(csvText))
@@ -150,24 +151,32 @@ func applyHsrDataPullOverrides(patch *Patch, pullsByPatch map[string]map[string]
 		}
 		sum := 0.0
 		for _, src := range patch.Sources {
-			if src.Pulls != nil && src.CountInPulls {
+			if src.CountInPulls {
 				if _, okF2P := f2pSourceIDs[src.ID]; !okF2P {
 					continue
 				}
-				sum += *src.Pulls
+				sum += hsrSourcePulls(src)
 			}
 		}
 		delta := total - sum
 		if absFloat(delta) > 0.0001 {
 			if idx, okAdjust := sourceIndex["permanent"]; okAdjust {
-				base := 0.0
-				if patch.Sources[idx].Pulls != nil {
-					base = *patch.Sources[idx].Pulls
-				}
-				v := roundToTenth(base + delta)
+				base := hsrSourcePulls(patch.Sources[idx])
+				v := base + delta
 				patch.Sources[idx].Pulls = &v
 			}
 		}
 	}
 	return nil
+}
+
+// Match the browser fallback for an HSR source without a Data override.
+func hsrSourcePulls(src Source) float64 {
+	if !src.CountInPulls {
+		return 0
+	}
+	if src.Pulls != nil {
+		return *src.Pulls
+	}
+	return src.Rewards.Oroberyl/160 + src.Rewards.Chartered
 }

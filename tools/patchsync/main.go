@@ -9,6 +9,7 @@ import (
 	"fmt"
 	"html"
 	"io"
+	"math"
 	"net/http"
 	"net/url"
 	"os"
@@ -38,7 +39,8 @@ var patchFieldPattern = regexp.MustCompile(`(?m)(?:\bpatch\s*:|"patch"\s*:)\s*"(
 var generatedPatchesBlockPattern = regexp.MustCompile(`(?s)export const GENERATED_PATCHES\s*=\s*(\[[\s\S]*?\]);`)
 var sheetTabCaptionPattern = regexp.MustCompile(`docs-sheet-tab-caption\">([^<]+)</div>`)
 var publishedSheetItemPattern = regexp.MustCompile(`items\.push\(\{name:\s*"([^"]+)"[\s\S]*?gid:\s*"(-?\d+)"`)
-var publishedSheetGIDCache sync.Map
+
+type sheetGIDCacheKey struct{}
 
 func normalizeSheetNameForMatch(raw string) string {
 	return strings.Join(strings.Fields(strings.TrimSpace(raw)), " ")
@@ -316,77 +318,21 @@ func normalizeName(value string) string {
 	return value
 }
 
+// Sheet amounts use a decimal point and optional comma thousands groups.
+// Invalid nonempty cells remain invalid until the parser returns an error.
 func parseNumber(raw string) float64 {
-	cleaned := strings.TrimSpace(raw)
-	if cleaned == "" {
-		return 0
-	}
-	cleaned = strings.ReplaceAll(cleaned, "\u00a0", "")
-	cleaned = strings.ReplaceAll(cleaned, " ", "")
-	cleaned = strings.TrimSuffix(cleaned, "%")
-
-	lastComma := strings.LastIndex(cleaned, ",")
-	lastDot := strings.LastIndex(cleaned, ".")
-	switch {
-	case lastComma >= 0 && lastDot >= 0:
-		if lastComma > lastDot {
-			cleaned = strings.ReplaceAll(cleaned, ".", "")
-			cleaned = strings.ReplaceAll(cleaned, ",", ".")
-		} else {
-			cleaned = strings.ReplaceAll(cleaned, ",", "")
-		}
-	case lastComma >= 0:
-		if strings.Count(cleaned, ",") > 1 {
-			cleaned = strings.ReplaceAll(cleaned, ",", "")
-		} else {
-			parts := strings.Split(cleaned, ",")
-			if len(parts) == 2 && len(parts[1]) == 3 {
-				cleaned = parts[0] + parts[1]
-			} else {
-				cleaned = strings.ReplaceAll(cleaned, ",", ".")
-			}
-		}
-	}
-
-	if strings.Count(cleaned, ".") > 0 {
-		parts := strings.Split(cleaned, ".")
-		isThousands := len(parts) > 1
-		for _, part := range parts {
-			if part == "" {
-				isThousands = false
-				break
-			}
-			for _, r := range part {
-				if r < '0' || r > '9' {
-					isThousands = false
-					break
-				}
-			}
-			if !isThousands {
-				break
-			}
-		}
-		if isThousands {
-			for i := 1; i < len(parts); i++ {
-				if len(parts[i]) != 3 {
-					isThousands = false
-					break
-				}
-			}
-		}
-		if isThousands {
-			cleaned = strings.Join(parts, "")
-		}
-	}
-	value, err := strconv.ParseFloat(cleaned, 64)
+	value, err := parseSheetNumber(raw)
 	if err != nil {
-		return 0
+		return math.NaN()
 	}
 	return value
 }
 
 func parseInt(raw string) int {
 	value := parseNumber(raw)
+	if math.IsNaN(value) || math.IsInf(value, 0) {
+		return 0
+	}
 	return int(value)
 }
 
@@ -615,16 +561,19 @@ func discoverPublishedSheetGIDs(ctx context.Context, client *http.Client, spread
 
 func getPublishedSheetGIDs(ctx context.Context, client *http.Client, spreadsheetID string) (map[string]string, error) {
 	cacheKey := strings.TrimSpace(spreadsheetID)
-	if cached, ok := publishedSheetGIDCache.Load(cacheKey); ok {
-		if typed, okTyped := cached.(map[string]string); okTyped && len(typed) > 0 {
-			return typed, nil
+	cache, _ := ctx.Value(sheetGIDCacheKey{}).(*sync.Map)
+	if cache != nil {
+		if cached, ok := cache.Load(cacheKey); ok {
+			return cached.(map[string]string), nil
 		}
 	}
 	gidByName, err := discoverPublishedSheetGIDs(ctx, client, spreadsheetID)
 	if err != nil {
 		return nil, err
 	}
-	publishedSheetGIDCache.Store(cacheKey, gidByName)
+	if cache != nil {
+		cache.Store(cacheKey, gidByName)
+	}
 	return gidByName, nil
 }
 
@@ -1403,6 +1352,7 @@ func createBranch(prefix string) (string, error) {
 var syncTransactionMu sync.Mutex
 
 func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
+	ctx = context.WithValue(ctx, sheetGIDCacheKey{}, &sync.Map{})
 	syncTransactionMu.Lock()
 	defer syncTransactionMu.Unlock()
 	if err := ctx.Err(); err != nil {
