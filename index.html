@@ -2,7 +2,7 @@
 <html lang="ru">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
   <title>Gacha Pull Bookkeeper</title>
   <link rel="icon" type="image/png" href="assets/icons/favicon.png">
   <link rel="stylesheet" href="src/styles.css">
@@ -39,13 +39,6 @@
       <div id="gameTabs" class="game-tabs" aria-label="Game selector"></div>
     </section>
 
-    <section class="panel">
-      <h2 id="chartTitle">Character pulls per version</h2>
-      <div class="chart-scroll">
-        <canvas id="patchChart" width="1200" height="420" aria-label="График источников круток"></canvas>
-      </div>
-    </section>
-
     <section class="panel controls-panel">
       <div class="control-row">
         <span id="battlePassLabel" class="control-label">Battle Pass</span>
@@ -56,6 +49,14 @@
         <input id="monthlySub" type="checkbox">
       </label>
       <div id="optionFlags" class="option-flags"></div>
+    </section>
+
+    <section class="panel chart-panel">
+      <h2 id="chartTitle">Character pulls per version</h2>
+      <div id="mobileChart" class="mobile-chart"></div>
+      <div class="chart-scroll">
+        <canvas id="patchChart" width="1200" height="420" aria-label="График источников круток"></canvas>
+      </div>
     </section>
 
     <section class="panel">

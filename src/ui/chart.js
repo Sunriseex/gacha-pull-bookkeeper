@@ -7,9 +7,11 @@ const applyCanvasWidthForSeries = (canvas) => {
 };
 
 const fitCanvasForDpr = (canvas) => {
-  const dpr = window.devicePixelRatio || 1;
+  const dpr = Math.min(window.devicePixelRatio || 1, 2);
   const logicalWidth = canvas.clientWidth || canvas.width;
-  const logicalHeight = canvas.clientHeight || canvas.height;
+  const labels = new Set(getState(canvas).series.flatMap(item => item.segments.map(segment => segment.label)));
+  const logicalHeight = logicalWidth < 860 ? 420 + Math.max(100, labels.size * 20 + 16) : Math.max(420, labels.size * 20 + 70);
+  canvas.style.height = `${logicalHeight}px`;
   canvas.width = Math.floor(logicalWidth * dpr);
   canvas.height = Math.floor(logicalHeight * dpr);
   const ctx = canvas.getContext("2d");
@@ -157,7 +159,7 @@ const canonicalColorLabel = (label) => SOURCE_COLOR_ALIASES[label] ?? label;
 
 const warnedLabels = new Set();
 
-const sourceColor = (label) => {
+export const sourceColor = (label) => {
   const canonical = canonicalColorLabel(label);
   const color = SOURCE_COLORS[canonical];
   if (color) {
@@ -562,7 +564,7 @@ const animateTo = (canvas, series, state) => {
 };
 
 export const resizeChart = (canvas) => {
-  if (!canvas) return;
+  if (!canvas || window.matchMedia("(max-width: 760px)").matches) return;
   const state = getState(canvas);
   if (!state.series || state.series.length === 0) return;
   applyCanvasWidthForSeries(canvas);
@@ -573,6 +575,12 @@ export const drawPatchChart = (canvas, series) => {
   applyCanvasWidthForSeries(canvas);
   bindHoverListeners(canvas);
   const state = getState(canvas);
+  state.series = series;
+  if (window.matchMedia("(max-width: 760px)").matches) {
+    if (state.animationFrameId) cancelAnimationFrame(state.animationFrameId);
+    state.animationFrameId = null;
+    return;
+  }
   const signature = buildSignature(series);
   if (signature !== state.lastSignature) {
     state.lastSignature = signature;
