@@ -1,3 +1,4 @@
+import { renderMobileChart } from "./ui/mobile-chart.js";
 import { promptSyncToken, isLocalSyncPage } from "./ui/sync.js";
 import {
   DEFAULT_GAME_ID,
@@ -573,7 +574,9 @@ const renderDashboard = () => {
     const options = currentOptions();
     const totals = aggregateTotals(rows, options, state.game);
     renderTotals(refs.totals, totals, state.game);
-    drawPatchChart(refs.chart, chartSeries(rows, options, state.game));
+    const series = chartSeries(rows, options, state.game);
+    renderMobileChart(document.querySelector("#mobileChart"), series);
+    drawPatchChart(refs.chart, series);
     document.body.classList.remove(RENDER_ERROR_MARKER);
   } catch (err) {
     console.error("Render failed:", err);
