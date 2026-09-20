@@ -253,8 +253,15 @@ func parseDataSheetPulls(csvText string, rowToSourceID map[string]string, fallba
 	}
 
 	header, headerIdx := findDataSheetHeader(records)
-	patchCols := explicitDataSheetPatchColumns(header)
-	patchCols = inferDataSheetPatchColumns(records, rowToSourceID, headerIdx, patchCols, fallbackSheetNames)
+	explicitCols := explicitDataSheetPatchColumns(header)
+	patchCols := inferDataSheetPatchColumns(records, rowToSourceID, headerIdx, explicitCols, fallbackSheetNames)
+	// Every visible header must agree with inferred positions. Otherwise map
+	// iteration order could silently assign a version another version's data.
+	for col, patchID := range explicitCols {
+		if patchCols[col] != patchID {
+			return nil, fmt.Errorf("Data sheet version columns conflict at column %d: expected %s, inferred %s", col+1, patchID, patchCols[col])
+		}
+	}
 	if len(patchCols) == 0 {
 		return nil, errors.New("Data sheet has no patch columns")
 	}

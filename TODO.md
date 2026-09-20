@@ -7,9 +7,11 @@
 ## Planned
 
 * [ ] Extract `server.go` and `sync.go` from monolithic `main.go`
-* [ ] Review Endfield sheet-name detection because current live sheet can fail auto-sync
 
 ## Done
+
+* [x] Fix September 14 sync failure caused by GViz losing Endfield title metadata; add regression coverage (2026-09-20)
+* [x] Defer new WuWa WIP sheets missing a summary, reject conflicting summary columns, and collect diagnostics for every game before deciding whether to publish (2026-09-20)
 
 * [x] Split monolithic `main.go`/`games.go` into per-game parser files (`game_hsr.go`, `game_zzz.go`, `game_endfield.go`, `game_genshin.go`, `game_wuwa.go`) plus `games_defs.go` (2026-06-30)
 * [x] Remove all duplicate game-specific function bodies from `games.go` — now only shared utilities (2026-06-30)
