@@ -128,7 +128,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 151,
+        "pulls": 144.09999999999997,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 155,
@@ -344,7 +344,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 24.7,
+        "pulls": 17.799999999999976,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 17,
@@ -560,7 +560,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 27.1,
+        "pulls": 20.200000000000006,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 9,
@@ -776,7 +776,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 47.2,
+        "pulls": 40.30000000000001,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 14,
@@ -992,7 +992,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 18.5,
+        "pulls": 12.799999999999994,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 10,
@@ -1208,7 +1208,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 21.9,
+        "pulls": 15,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 12,
@@ -1424,7 +1424,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 38.3,
+        "pulls": 31.6,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 13,
@@ -1640,7 +1640,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 38.9,
+        "pulls": 30.699999999999992,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 11,
@@ -1856,7 +1856,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 30.2,
+        "pulls": 23.3,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 10,
@@ -2072,7 +2072,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 33.8,
+        "pulls": 26.900000000000006,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 7,
@@ -2288,7 +2288,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 14.5,
+        "pulls": 7.599999999999992,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 6,
@@ -2504,7 +2504,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 17.5,
+        "pulls": 10.800000000000008,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 6,
@@ -2720,7 +2720,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 20,
+        "pulls": 12.899999999999991,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 9,
@@ -2936,7 +2936,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 37.2,
+        "pulls": 30.29999999999999,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 7,
@@ -3152,7 +3152,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 12.4,
+        "pulls": 5.500000000000005,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 6,
@@ -3368,7 +3368,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 36.6,
+        "pulls": 29.700000000000006,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 6,
@@ -3584,7 +3584,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 23.4,
+        "pulls": 16.5,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 7,
@@ -3800,7 +3800,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 27.5,
+        "pulls": 20.59999999999999,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 7,
@@ -4016,7 +4016,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 32.9,
+        "pulls": 26,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 7,
@@ -4232,7 +4232,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 21.6,
+        "pulls": 14.7,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 10,
@@ -4448,7 +4448,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 21.7,
+        "pulls": 14.799999999999992,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 7,
@@ -4664,7 +4664,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 21.7,
+        "pulls": 14.799999999999992,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 7,
@@ -4880,7 +4880,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 21,
+        "pulls": 14.1,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 3,
@@ -5096,7 +5096,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 18.8,
+        "pulls": 9.3,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 3,
@@ -5312,7 +5312,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 36.6,
+        "pulls": 30,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 6,
@@ -5528,7 +5528,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 20.1,
+        "pulls": 15.5,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 4,
@@ -5744,7 +5744,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 21.5,
+        "pulls": 14.9,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 6,
@@ -5960,7 +5960,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 17.6,
+        "pulls": 10.40000000000001,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 3,
@@ -6176,7 +6176,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 27.5,
+        "pulls": 20.60000000000001,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 9,
@@ -6395,7 +6395,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 19.9,
+        "pulls": 14.499999999999995,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 6,
@@ -6519,5 +6519,5 @@ export const GENERATED_PATCHES_META = {
     "4.4",
     "4.5"
   ],
-  "generatedAt": "2026-09-01T15:13:42Z"
+  "generatedAt": "2026-09-20T00:57:52Z"
 };

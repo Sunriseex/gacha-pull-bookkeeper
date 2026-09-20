@@ -5,6 +5,8 @@
 - `.github/workflows/weekly-pages-sync.yml` tests pull requests and changes to `master`.
 - A push to `master` publishes tested code using the newest generated data from `master` or `github-pages`. It does not depend on Google Sheets availability.
 - Every Monday at `05:00 UTC`, the workflow refreshes all games before publishing. A failed game or patch stops publication; the existing site remains intact.
+- Every game is checked even when an earlier game fails. The Actions summary lists all results; the `sync-logs` artifact keeps individual logs for 14 days. Each game has a ten-minute limit.
+- A **new** WuWa tab explicitly marked WIP/STC is deferred if it has no Data summary yet. The log names the deferred draft. Existing versions and unmarked releases still require their summary and fail closed; no invented numbers are published.
 - To refresh manually, run **Weekly Pages Sync** from Actions on `master` with `sync_data` enabled. Disable that input to publish code with existing data.
 - Both paths validate the final game catalog before pushing to `github-pages`.
 - The GitHub Pages build then deploys that branch to the custom domain.
@@ -44,3 +46,5 @@ Tests cover failed source downloads/parsing, preserving old data, output locking
 Reward cells and Data overrides use a decimal point and optional comma thousands groups (for example `0.125`, `1.250`, `1,250.5`). Empty reward cells mean zero; invalid nonempty values such as `#REF!` fail parsing instead of becoming zero. Localized decimal-comma exports must be normalized to this source format before import.
 
 Published sheet discovery is cached only within one sync. A later sync fetches the tab list again, so newly added patches are discovered without restarting the service.
+
+Version-tab GViz requests explicitly use `headers=1`: automatic header/type inference can erase duration and release metadata from a mixed-type first row. Data/Summary retain their separate multi-row layout. Every visible Data version header must agree with inferred column positions; contradictory anchors abort the update instead of mixing versions.

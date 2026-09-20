@@ -5006,9 +5006,6 @@ export const GENERATED_PATCHES = [
     "versionName": "Lamplight in Mirage, Sword's Resolve in Heart",
     "startDate": "2026-08-20",
     "durationDays": 41,
-    "tags": [
-      "WIP"
-    ],
     "notes": "Generated from Wuthering Waves Google Sheets by patchsync",
     "sources": [
       {
@@ -5258,8 +5255,10 @@ export const GENERATED_PATCHES_META = {
   "gameId": "wuthering-waves",
   "spreadsheetId": "1msSsnWBcXKniykf4rWQCEdk2IQuB9JHy",
   "sheets": [
+    "3.6",
     "1.0",
     "1.1",
+    "1.2",
     "1.3",
     "1.4",
     "2.0",
@@ -5276,9 +5275,7 @@ export const GENERATED_PATCHES_META = {
     "3.2",
     "3.3",
     "3.4",
-    "3.5",
-    "3.6 (WIP)",
-    "1.2"
+    "3.5"
   ],
-  "generatedAt": "2026-09-01T15:16:21Z"
+  "generatedAt": "2026-09-20T00:56:37Z"
 };

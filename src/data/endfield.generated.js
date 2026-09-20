@@ -14,7 +14,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 34,
+        "pulls": 19,
         "rewards": {
           "arsenal": 0,
           "basic": 2,
@@ -43,7 +43,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 129.6,
+        "pulls": 129.4,
         "rewards": {
           "arsenal": 0,
           "basic": 92,
@@ -52,7 +52,7 @@ export const GENERATED_PATCHES = [
           "hues": 0,
           "messenger": 0,
           "origeometry": 159,
-          "oroberyl": 64805
+          "oroberyl": 64705
         },
         "costs": {
           "arsenal": 0,
@@ -101,7 +101,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 19.6,
+        "pulls": 21.6,
         "rewards": {
           "arsenal": 0,
           "basic": 0,
@@ -110,7 +110,7 @@ export const GENERATED_PATCHES = [
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 9800
+          "oroberyl": 10780
         },
         "costs": {
           "arsenal": 0,
@@ -188,7 +188,6 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": "includeAicQuotaExchange",
         "countInPulls": true,
-        "pulls": 15,
         "rewards": {
           "arsenal": 0,
           "basic": 0,
@@ -913,7 +912,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 26.4,
+        "pulls": 31.4,
         "rewards": {
           "arsenal": 0,
           "basic": 2,
@@ -1090,7 +1089,7 @@ export const GENERATED_PATCHES = [
         "rewards": {
           "arsenal": 0,
           "basic": 0,
-          "chartered": 10,
+          "chartered": 5,
           "firewalker": 0,
           "hues": 0,
           "messenger": 0,
@@ -2252,9 +2251,6 @@ export const GENERATED_PATCHES = [
     "versionName": "Dreamscape of Wind and Snow",
     "startDate": "2026-09-02",
     "durationDays": 43,
-    "tags": [
-      "WIP"
-    ],
     "notes": "Generated from Google Sheets by patchsync",
     "sources": [
       {
@@ -2292,16 +2288,16 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 10.1,
+        "pulls": 10.6,
         "rewards": {
           "arsenal": 0,
-          "basic": 3,
+          "basic": 4,
           "chartered": 0,
           "firewalker": 0,
           "hues": 0,
           "messenger": 0,
-          "origeometry": 9,
-          "oroberyl": 5040
+          "origeometry": 5,
+          "oroberyl": 5300
         },
         "costs": {
           "arsenal": 0,
@@ -2321,7 +2317,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 8.8,
+        "pulls": 8.2,
         "rewards": {
           "arsenal": 0,
           "basic": 0,
@@ -2330,7 +2326,7 @@ export const GENERATED_PATCHES = [
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 4417
+          "oroberyl": 4117
         },
         "costs": {
           "arsenal": 0,
@@ -2703,11 +2699,12 @@ export const GENERATED_PATCHES_META = {
   "gameId": "arknights-endfield",
   "spreadsheetId": "1zGNuQ53R7c190RG40dHxcHv8tJuT3cBaclm8CjI-luY",
   "sheets": [
-    "1.1",
+    "1.0",
     "1.2",
+    "1.5",
+    "1.1",
     "1.3",
-    "1.4",
-    "1.5"
+    "1.4"
   ],
-  "generatedAt": "2026-09-01T15:16:16Z"
+  "generatedAt": "2026-09-20T00:56:16Z"
 };

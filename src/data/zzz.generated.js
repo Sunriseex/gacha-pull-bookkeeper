@@ -4528,9 +4528,6 @@ export const GENERATED_PATCHES = [
     "versionName": "Their Secret Histories",
     "startDate": "2026-09-09",
     "durationDays": 42,
-    "tags": [
-      "WIP"
-    ],
     "notes": "Generated from Zenless Zone Zero Google Sheets by patchsync",
     "sources": [
       {
@@ -4539,13 +4536,13 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 22.5,
+        "pulls": 23.5,
         "rewards": {
           "boopon": 15,
           "encryptedMasterTape": 10,
           "masterTape": 0,
           "monochrome": 0,
-          "polychrome": 2000
+          "polychrome": 2160
         },
         "costs": {
           "boopon": 0,
@@ -4562,13 +4559,13 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 10,
+        "pulls": 12.9,
         "rewards": {
           "boopon": 0,
           "encryptedMasterTape": 1,
           "masterTape": 6,
           "monochrome": 0,
-          "polychrome": 1440
+          "polychrome": 1905
         },
         "costs": {
           "boopon": 0,
@@ -4768,6 +4765,7 @@ export const GENERATED_PATCHES_META = {
   "gameId": "zenless-zone-zero",
   "spreadsheetId": "2PACX-1vTiSx8OSyx-BZktnpT-fh_pQHjjkD8q3sp3Csy2aOI-8CV_QroqxzhhNjiCZNV4IdzhyK3xbipZn9WD",
   "sheets": [
+    "3.2",
     "1.0",
     "1.1",
     "1.2",
@@ -4786,8 +4784,7 @@ export const GENERATED_PATCHES_META = {
     "2.7",
     "2.8",
     "3.0",
-    "3.1",
-    "3.2"
+    "3.1"
   ],
-  "generatedAt": "2026-09-01T15:16:34Z"
+  "generatedAt": "2026-09-20T00:57:00Z"
 };
