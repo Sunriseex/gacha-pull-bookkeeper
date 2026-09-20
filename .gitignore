@@ -38,3 +38,4 @@ tools/patchsync/tools/
 # Interrupted sync locks and temporary output
 *.generated.js.lock/
 .patchsync-*.tmp
+sync-logs/

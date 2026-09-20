@@ -174,3 +174,47 @@ func TestNullOriginRejected(t *testing.T) {
 		t.Fatal("opaque origin accepted")
 	}
 }
+
+func TestNewWIPWithoutSummaryIsDeferredButKnownPatchFails(t *testing.T) {
+	t.Chdir(t.TempDir())
+	for _, scenario := range []string{"new WIP", "known WIP", "released"} {
+		t.Run(scenario, func(t *testing.T) {
+			path := filepath.Join(t.TempDir(), "wuwa.generated.js")
+			old := []byte("export const GENERATED_PATCHES = [];\n")
+			if scenario == "known WIP" {
+				old = []byte("export const GENERATED_PATCHES = [{\"id\":\"1.1\",\"patch\":\"1.1\"}];\n")
+			}
+			if err := os.WriteFile(path, old, 0644); err != nil {
+				t.Fatal(err)
+			}
+			name := "1.1 (WIP)"
+			if scenario == "released" {
+				name = "1.1"
+			}
+			transport := roundTripFunc(func(r *http.Request) (*http.Response, error) {
+				body := syncPatchCSV
+				if r.URL.Query().Get("sheet") == "Data" {
+					body = "Version,,1.0\nVersion Events,,1\n"
+				}
+				return &http.Response{StatusCode: 200, Body: io.NopCloser(strings.NewReader(body))}, nil
+			})
+			result, err := runSync(context.Background(), SyncConfig{GameID: gameIDWuwa, SpreadsheetID: "test", SheetNames: []string{"1.0", name}, OutputPath: path, Transport: transport})
+			if scenario == "new WIP" {
+				if err != nil {
+					t.Fatal(err)
+				}
+				if len(result.AllPatches) != 1 || result.AllPatches[0].Patch != "1.0" {
+					t.Fatalf("unexpected patches: %+v", result.AllPatches)
+				}
+			} else {
+				if err == nil || !strings.Contains(err.Error(), "Data sheet has no row") {
+					t.Fatalf("expected missing summary error, got %v", err)
+				}
+				got, _ := os.ReadFile(path)
+				if !bytes.Equal(got, old) {
+					t.Fatal("failed sync changed existing history")
+				}
+			}
+		})
+	}
+}

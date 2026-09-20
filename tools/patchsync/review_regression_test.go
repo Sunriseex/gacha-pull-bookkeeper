@@ -84,3 +84,43 @@ func TestPublishedSheetsCacheExpiresBetweenSyncContexts(t *testing.T) {
 		t.Fatalf("second sync: %v, calls=%d, err=%v", data, calls, err)
 	}
 }
+
+// The full-sheet GViz response lost these metadata cells on 2026-09-14.
+// headers=1 preserves the mixed text/numeric title row without a second fetch.
+func TestVersionSheetFetchPreservesMetadata(t *testing.T) {
+	client := &http.Client{Transport: roundTripFunc(func(r *http.Request) (*http.Response, error) {
+		title := "1.0: Zeroth Directive,,,,,,,49,Version Duration (Days),,,,,01.22.2026,Release Date"
+		if r.URL.Query().Get("headers") != "1" {
+			title = "1.0: Zeroth Directive,,,,,,,,,,,,,01.22.2026,"
+		}
+		return &http.Response{StatusCode: 200, Body: io.NopCloser(strings.NewReader(title + "\nEVENTS,3500,27,2,0,0\n"))}, nil
+	})}
+	body, err := fetchSheetCSV(context.Background(), client, "test", "1.0")
+	if err != nil {
+		t.Fatal(err)
+	}
+	patch, err := parseSheetToPatch("1.0", body)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if patch.DurationDays != 49 || patch.StartDate != "2026-01-22" {
+		t.Fatalf("lost title metadata: %+v", patch)
+	}
+	for _, sheet := range []string{"Data", "Summary"} {
+		if strings.Contains(sheetCSVURL("test", sheet), "headers=") {
+			t.Fatalf("must preserve multi-row layout for %s", sheet)
+		}
+	}
+	if !strings.Contains(sheetCSVURL("test", "1.2 (STC)"), "headers=1") {
+		t.Fatal("WIP version sheets also need explicit headers")
+	}
+}
+
+func TestConflictingSparseVersionHeadersFailClosed(t *testing.T) {
+	for range 30 {
+		_, err := parseWuwaDataSheet("Version,,1.0,,1.1\nVersion Events,,10,20,30\n", []string{"1.0", "1.1", "1.2"})
+		if err == nil || !strings.Contains(err.Error(), "columns conflict") {
+			t.Fatalf("expected conflict, got %v", err)
+		}
+	}
+}

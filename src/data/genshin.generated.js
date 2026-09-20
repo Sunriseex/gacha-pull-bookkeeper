@@ -10138,7 +10138,7 @@ export const GENERATED_PATCHES = [
           "acquaintFate": 10,
           "genesisCrystal": 0,
           "intertwinedFate": 2,
-          "primogem": 6120,
+          "primogem": 6280,
           "starglitter": 0
         },
         "costs": {
@@ -10732,7 +10732,7 @@ export const GENERATED_PATCHES = [
           "acquaintFate": 4,
           "genesisCrystal": 0,
           "intertwinedFate": 1,
-          "primogem": 3435,
+          "primogem": 3515,
           "starglitter": 0
         },
         "costs": {
@@ -11623,7 +11623,7 @@ export const GENERATED_PATCHES = [
           "acquaintFate": 4,
           "genesisCrystal": 0,
           "intertwinedFate": 0,
-          "primogem": 3194,
+          "primogem": 3274,
           "starglitter": 0
         },
         "costs": {
@@ -12514,7 +12514,7 @@ export const GENERATED_PATCHES = [
           "acquaintFate": 4,
           "genesisCrystal": 0,
           "intertwinedFate": 1,
-          "primogem": 2209,
+          "primogem": 2289,
           "starglitter": 0
         },
         "costs": {
@@ -12811,7 +12811,7 @@ export const GENERATED_PATCHES = [
           "acquaintFate": 8,
           "genesisCrystal": 0,
           "intertwinedFate": 2,
-          "primogem": 5442,
+          "primogem": 5512,
           "starglitter": 0
         },
         "costs": {
@@ -12961,7 +12961,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 38.3,
+        "pulls": 38.4,
         "rewards": {
           "acquaintFate": 0,
           "genesisCrystal": 0,
@@ -13702,7 +13702,7 @@ export const GENERATED_PATCHES = [
           "acquaintFate": 7,
           "genesisCrystal": 0,
           "intertwinedFate": 2,
-          "primogem": 3279,
+          "primogem": 3359,
           "starglitter": 0
         },
         "costs": {
@@ -14868,7 +14868,7 @@ export const GENERATED_PATCHES = [
           "acquaintFate": 0,
           "genesisCrystal": 0,
           "intertwinedFate": 0,
-          "primogem": 2450,
+          "primogem": 2520,
           "starglitter": 0
         },
         "costs": {
@@ -14887,10 +14887,10 @@ export const GENERATED_PATCHES = [
         "optionKey": null,
         "countInPulls": true,
         "rewards": {
-          "acquaintFate": 0,
+          "acquaintFate": 4,
           "genesisCrystal": 0,
           "intertwinedFate": 0,
-          "primogem": 2185,
+          "primogem": 2772,
           "starglitter": 0
         },
         "costs": {
@@ -14912,7 +14912,7 @@ export const GENERATED_PATCHES = [
           "acquaintFate": 0,
           "genesisCrystal": 0,
           "intertwinedFate": 0,
-          "primogem": 442.84931507,
+          "primogem": 542.84931507,
           "starglitter": 0
         },
         "costs": {
@@ -15040,7 +15040,601 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 39.4,
+        "pulls": 39.7,
+        "rewards": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 2935.479452,
+          "starglitter": 0
+        },
+        "costs": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "shop",
+        "label": "Paimon's Bargains",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "rewards": {
+          "acquaintFate": 6.904109589,
+          "genesisCrystal": 0,
+          "intertwinedFate": 6.904109589,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "costs": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "bpF2P",
+        "label": "Battle Pass - F2P",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "rewards": {
+          "acquaintFate": 5,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 60,
+          "starglitter": 0
+        },
+        "costs": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "bpPaid",
+        "label": "Battle Pass - Paid Bonus",
+        "gate": "bp2",
+        "optionKey": null,
+        "countInPulls": true,
+        "rewards": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 4,
+          "primogem": 680,
+          "starglitter": 0
+        },
+        "costs": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "welkin",
+        "label": "Welkin",
+        "gate": "monthly",
+        "optionKey": null,
+        "countInPulls": true,
+        "rewards": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 4200,
+          "starglitter": 0
+        },
+        "costs": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "scalers": []
+      }
+    ]
+  },
+  {
+    "id": "7.0",
+    "patch": "7.0",
+    "versionName": "Version 7.0",
+    "startDate": "",
+    "durationDays": 42,
+    "notes": "Generated from Genshin Impact Google Sheets by patchsync",
+    "sources": [
+      {
+        "id": "events",
+        "label": "Events",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "rewards": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 2760,
+          "starglitter": 0
+        },
+        "costs": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "other",
+        "label": "Other New Content",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "rewards": {
+          "acquaintFate": 8,
+          "genesisCrystal": 0,
+          "intertwinedFate": 2,
+          "primogem": 5081,
+          "starglitter": 0
+        },
+        "costs": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "webMail",
+        "label": "Web, Mail, Apologems",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "rewards": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 582.84931507,
+          "starglitter": 0
+        },
+        "costs": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "dailyActivity",
+        "label": "Daily Resin/Commissions",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "rewards": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "costs": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "expeditions",
+        "label": "Expeditions",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "rewards": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "costs": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "parametric",
+        "label": "Parametric Transformer",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "rewards": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "costs": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "weekly",
+        "label": "Weekly Requests \u0026 Bounties",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "rewards": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "costs": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "serenitea",
+        "label": "Serenitea Realm Shop",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "rewards": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "costs": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "endgame",
+        "label": "Abyss / Imaginarium / Stygian",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "pulls": 39.8,
+        "rewards": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 2935.479452,
+          "starglitter": 0
+        },
+        "costs": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "shop",
+        "label": "Paimon's Bargains",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "rewards": {
+          "acquaintFate": 6.904109589,
+          "genesisCrystal": 0,
+          "intertwinedFate": 6.904109589,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "costs": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "bpF2P",
+        "label": "Battle Pass - F2P",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "rewards": {
+          "acquaintFate": 5,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 60,
+          "starglitter": 0
+        },
+        "costs": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "bpPaid",
+        "label": "Battle Pass - Paid Bonus",
+        "gate": "bp2",
+        "optionKey": null,
+        "countInPulls": true,
+        "rewards": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 4,
+          "primogem": 680,
+          "starglitter": 0
+        },
+        "costs": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "welkin",
+        "label": "Welkin",
+        "gate": "monthly",
+        "optionKey": null,
+        "countInPulls": true,
+        "rewards": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 4200,
+          "starglitter": 0
+        },
+        "costs": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "scalers": []
+      }
+    ]
+  },
+  {
+    "id": "7.1",
+    "patch": "7.1",
+    "versionName": "Version 7.1",
+    "startDate": "",
+    "durationDays": 42,
+    "notes": "Generated from Genshin Impact Google Sheets by patchsync",
+    "sources": [
+      {
+        "id": "events",
+        "label": "Events",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "rewards": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 10,
+          "primogem": 2450,
+          "starglitter": 0
+        },
+        "costs": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "other",
+        "label": "Other New Content",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "rewards": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 2,
+          "primogem": 240,
+          "starglitter": 0
+        },
+        "costs": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "webMail",
+        "label": "Web, Mail, Apologems",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "rewards": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 2212.84931507,
+          "starglitter": 0
+        },
+        "costs": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "dailyActivity",
+        "label": "Daily Resin/Commissions",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "rewards": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "costs": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "expeditions",
+        "label": "Expeditions",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "rewards": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "costs": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "parametric",
+        "label": "Parametric Transformer",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "rewards": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "costs": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "weekly",
+        "label": "Weekly Requests \u0026 Bounties",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "rewards": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "costs": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "serenitea",
+        "label": "Serenitea Realm Shop",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "rewards": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "costs": {
+          "acquaintFate": 0,
+          "genesisCrystal": 0,
+          "intertwinedFate": 0,
+          "primogem": 0,
+          "starglitter": 0
+        },
+        "scalers": []
+      },
+      {
+        "id": "endgame",
+        "label": "Abyss / Imaginarium / Stygian",
+        "gate": "always",
+        "optionKey": null,
+        "countInPulls": true,
+        "pulls": 38.1,
         "rewards": {
           "acquaintFate": 0,
           "genesisCrystal": 0,
@@ -15152,8 +15746,8 @@ export const GENERATED_PATCHES_META = {
   "gameId": "genshin-impact",
   "spreadsheetId": "1l9HPu2cAzTckdXtr7u-7D8NSKzZNUqOuvbmxERFZ_6w",
   "sheets": [
-    "6.6",
-    "6.7 est.",
+    "7.0",
+    "7.1 est.",
     "1.0",
     "1.1",
     "1.2",
@@ -15202,7 +15796,9 @@ export const GENERATED_PATCHES_META = {
     "6.2",
     "6.3",
     "6.4",
-    "6.5"
+    "6.5",
+    "6.6",
+    "6.7"
   ],
-  "generatedAt": "2026-06-30T11:19:54Z"
+  "generatedAt": "2026-09-20T00:57:26Z"
 };

@@ -24,6 +24,7 @@ concurrency:
 jobs:
   test:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v5
       - uses: actions/setup-go@v6
@@ -46,6 +47,7 @@ jobs:
     needs: test
     if: github.event_name != 'pull_request' && github.ref == 'refs/heads/master'
     runs-on: ubuntu-latest
+    timeout-minutes: 60
     permissions:
       contents: write
     steps:
@@ -67,9 +69,17 @@ jobs:
           set -euo pipefail
           cp .env.example .env
           cd tools/patchsync
-          for game in arknights-endfield wuthering-waves zenless-zone-zero genshin-impact honkai-star-rail; do
-            go run . --game "$game"
-          done
+          go build -o "$RUNNER_TEMP/patchsync" .
+          cd ../..
+          node tools/sync-all.mjs "$RUNNER_TEMP/patchsync"
+      - name: Preserve synchronization diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: sync-logs
+          path: sync-logs/
+          if-no-files-found: ignore
+          retention-days: 14
       - name: Validate final site data before publishing
         run: node --test tests/*.test.mjs
       - name: Publish refreshed site to github-pages

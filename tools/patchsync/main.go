@@ -509,11 +509,18 @@ func fetchText(ctx context.Context, client *http.Client, resourceURL string) (st
 }
 
 func sheetCSVURL(spreadsheetID, sheetName string) string {
-	return fmt.Sprintf(
+	resourceURL := fmt.Sprintf(
 		"https://docs.google.com/spreadsheets/d/%s/gviz/tq?tqx=out:csv&sheet=%s",
 		url.PathEscape(strings.TrimSpace(spreadsheetID)),
 		url.QueryEscape(sheetName),
 	)
+	// Version sheets have one title/header row. Without an explicit header
+	// count, GViz type inference can erase its mixed-type cells (including
+	// duration and release-date labels). Data/Summary use different layouts.
+	if isVersionLikeSheetName(sheetName) {
+		resourceURL += "&headers=1"
+	}
+	return resourceURL
 }
 
 func publishedSheetCSVURL(spreadsheetID, gid string) string {
@@ -1516,6 +1523,17 @@ func runSync(ctx context.Context, cfg SyncConfig) (SyncResult, error) {
 	changeEntries := make([]patchChangeLogEntry, 0, len(sheetNames))
 	validPatchRows := 0
 	for _, sheetName := range sheetNames {
+		// A newly announced WIP tab can precede its summary column. Defer only
+		// that new draft; missing data for known or released patches is an error.
+		if cfg.GameID == gameIDWuwa {
+			patchID := canonicalPatchID(sheetName)
+			_, known := existingGeneratedByID[patchID]
+			_, hasOverrides := lookupSourcePullsByPatchName(wuwaDataPulls, patchID)
+			if !known && !hasOverrides && len(patchTagsFromSheetName(sheetName)) > 0 {
+				appendSyncLog(&logs, "defer new WIP patch %s: Data summary is not available yet", sheetName)
+				continue
+			}
+		}
 		csvText, fetchErr := fetchSheetCSV(ctx, client, cfg.SpreadsheetID, sheetName)
 		if fetchErr != nil {
 			return SyncResult{}, fmt.Errorf("fetch sheet %s: %w", sheetName, fetchErr)
