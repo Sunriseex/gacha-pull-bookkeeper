@@ -6270,9 +6270,6 @@ export const GENERATED_PATCHES = [
     "versionName": "Version 4.5",
     "startDate": "",
     "durationDays": 33,
-    "tags": [
-      "WIP"
-    ],
     "notes": "Generated from Honkai: Star Rail Google Sheets by patchsync",
     "sources": [
       {
@@ -6488,6 +6485,7 @@ export const GENERATED_PATCHES_META = {
   "gameId": "honkai-star-rail",
   "spreadsheetId": "2PACX-1vRIWjzFwAZZoBvKw2oiNaVpppI9atoV0wxuOjulKRJECrg_BN404d7LoKlHp8RMX8hegDr4b8jlHjYy",
   "sheets": [
+    "4.5",
     "1.0",
     "1.1",
     "1.2",
@@ -6516,8 +6514,7 @@ export const GENERATED_PATCHES_META = {
     "4.1",
     "4.2",
     "4.3",
-    "4.4",
-    "4.5"
+    "4.4"
   ],
-  "generatedAt": "2026-09-20T00:57:52Z"
+  "generatedAt": "2026-09-28T11:23:01Z"
 };
