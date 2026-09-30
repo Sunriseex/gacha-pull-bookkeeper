@@ -237,3 +237,74 @@ test('background stays fixed when Select locks scrolling or UI removes page over
   await page.getByRole('button', { name: 'Show UI', exact: true }).click();
   expect(await bounds()).toEqual(initial);
 });
+
+test('patch grid selects one patch, keeps game preferences, and labels verified reruns', async ({ page }, testInfo) => {
+  await page.goto('/');
+  await openSettings(page);
+  for (const [title, patch, character] of [
+    ['Arknights: Endfield', '1.5', 'Yvonne'],
+    ['Wuthering Waves', '1.3', 'Jiyan'],
+    ['Zenless Zone Zero', '1.5', 'Ellen Joe'],
+    ['Genshin Impact', '1.4', 'Venti'],
+    ['Honkai: Star Rail', '1.4', 'Seele'],
+  ]) {
+    await page.getByRole('button', { name: title, exact: true }).click();
+    await choose(page, 'Patch range', 'One patch');
+    await page.getByRole('button', { name: 'Choose patch', exact: true }).click();
+    const dialog = page.getByRole('dialog');
+    await expect(dialog.getByRole('heading', { name: 'Choose a patch' })).toBeVisible();
+    await expect(dialog).toHaveCSS('opacity', '1');
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+    if (title === 'Genshin Impact') await page.screenshot({ path: `test-results/${testInfo.project.name}-range-grid.png`, fullPage: false });
+    await dialog.getByRole('button', { name: `Select patch ${patch}`, exact: true }).click();
+    await expect(dialog).toHaveCount(0);
+    await expect(page.getByTestId('period-label')).toContainText(`Totals for ${patch} · 1 of`);
+    const banners = page.getByTestId('banner-history').first();
+    await expect(banners).toContainText(character);
+    await expect(banners).toContainText('Rerun');
+    await expect(banners.getByRole('link').first()).toHaveAttribute('href', /^https:\/\//);
+  }
+  await page.getByRole('button', { name: 'Genshin Impact', exact: true }).click();
+  await expect(page.getByRole('button', { name: 'Choose patch', exact: true })).toContainText('1.4');
+  await page.getByRole('button', { name: 'Previous patch', exact: true }).click();
+  await expect(page.getByTestId('period-label')).toContainText('Totals for 1.3 · 1 of');
+  await expect(page.getByTestId('banner-history').first()).toContainText('Hu Tao');
+  await page.getByRole('button', { name: 'Next patch', exact: true }).click();
+  await page.reload();
+  await openSettings(page);
+  await expect(page.getByRole('button', { name: 'Choose patch', exact: true })).toContainText('1.4');
+  await expect(page.getByTestId('banner-history').first()).not.toContainText('Debut');
+  await page.screenshot({ path: `test-results/${testInfo.project.name}-range-banners.png`, fullPage: true });
+});
+
+test('special banners keep character choices, third phases and ongoing collaboration labels', async ({ page }, testInfo) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Genshin Impact', exact: true }).click();
+  await openSettings(page);
+  await choose(page, 'Patch range', 'One patch');
+  const selectPatch = async version => {
+    await page.getByRole('button', { name: 'Choose patch', exact: true }).click();
+    await page.getByRole('dialog').getByRole('button', { name: `Select patch ${version}`, exact: true }).click();
+  };
+  await selectPatch('6.5');
+  let history = page.getByTestId('banner-history').first();
+  await expect(history).toContainText('Chronicled Wish · Phase 2');
+  await expect(history).toContainText('Emilie');
+  await expect(history).toContainText('Lyney');
+  await expect(history).not.toContainText('not reviewed');
+  await page.getByRole('button', { name: 'Honkai: Star Rail', exact: true }).click();
+  await choose(page, 'Patch range', 'One patch');
+  await selectPatch('3.8');
+  history = page.getByTestId('banner-history').first();
+  await expect(history).toContainText('Phase 3');
+  await expect(history).toContainText('Ongoing collaboration');
+  await expect(history).toContainText('the same banner continues');
+  await selectPatch('4.5');
+  await expect(history).toContainText('Gilgamesh');
+  await expect(history).toContainText('Rin Tohsaka');
+  await expect(history.getByText('Ongoing', { exact: true })).toHaveCount(4);
+  await expect(history).not.toContainText('Partial history');
+  const width = await page.evaluate(() => ({ content: document.documentElement.scrollWidth, viewport: innerWidth }));
+  expect(width.content).toBeLessThanOrEqual(width.viewport + 1);
+  await page.screenshot({ path: `test-results/${testInfo.project.name}-archive-banners.png`, fullPage: true });
+});

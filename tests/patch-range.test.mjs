@@ -6,6 +6,15 @@ import { GAME_CATALOG } from '../src/data/patches.js';
 import { aggregateTotals } from '../src/domain/calculation.js';
 const patches = Array.from({ length: 15 }, (_, i) => ({ id: `1.${i}`, patch: `1.${i}` }));
 
+test('one-patch selection uses version identity and safely restores a missing saved patch', () => {
+  const single = selectPatchRange(patches, { mode: 'single', patchId: '1.10' });
+  assert.deepEqual(single.rows, [patches[10]]);
+  assert.deepEqual(single.selection, { mode: 'single', patchId: '1.10' });
+  assert.equal(single.label, '1.10');
+  assert.deepEqual(selectPatchRange(patches, { mode: 'single', patchId: 'removed' }).rows, [patches.at(-1)]);
+  assert.deepEqual(readPatchRange({ id: 'test', patches }, { getItem: () => '{"mode":"single","patchId":"1.10"}' }), single.selection);
+});
+
 test('latest presets default to ten and keep catalog version order including 1.10', () => {
   assert.deepEqual(selectPatchRange(patches).rows, patches.slice(5));
   assert.deepEqual(selectPatchRange(patches, { mode: 'latest5' }).rows, patches.slice(10));
