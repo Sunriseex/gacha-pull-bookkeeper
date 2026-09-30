@@ -40,8 +40,23 @@ jobs:
       - name: Go vet
         working-directory: tools/patchsync
         run: go vet ./...
+      - name: Install frontend dependencies
+        run: npm ci
       - name: JavaScript regression tests and catalog validation
-        run: node --test tests/*.test.mjs
+        run: npm test
+      - name: Build frontend
+        run: npm run build
+      - name: Install browser
+        run: npx playwright install --with-deps chromium
+      - name: Mobile and desktop browser checks
+        run: npm run test:e2e
+      - name: Preserve browser diagnostics
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: browser-report
+          path: playwright-report/
+          retention-days: 7
 
   sync-and-publish:
     needs: test
@@ -82,6 +97,10 @@ jobs:
           retention-days: 14
       - name: Validate final site data before publishing
         run: node --test tests/*.test.mjs
+      - name: Build validated site
+        run: |
+          npm ci
+          npm run build
       - name: Publish refreshed site to github-pages
         env:
           TARGET_BRANCH: github-pages
@@ -94,8 +113,9 @@ jobs:
           }
           trap cleanup EXIT
           find "$target_dir" -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf {} +
-          cp -R assets docs src "$target_dir/"
-          cp .gitignore CNAME LICENSE README.md index.html "$target_dir/"
+          cp -R dist/. "$target_dir/"
+          cp -R docs "$target_dir/"
+          cp .gitignore README.md "$target_dir/"
           git -C "$target_dir" add -A
           if git -C "$target_dir" diff --cached --quiet; then
             echo "No github-pages changes to publish"

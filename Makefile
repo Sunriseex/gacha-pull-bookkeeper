@@ -7,7 +7,7 @@ SYNC_DIR := tools/patchsync
 serve:
 	@set -euo pipefail; \
 	echo "Starting http on :$(PY_PORT)"; \
-	python -m http.server $(PY_PORT) & HTTP_PID=$$!; \
+	npm run dev -- --port $(PY_PORT) & HTTP_PID=$$!; \
 	echo $$HTTP_PID > .pid.http; \
 	echo "Starting patchsync"; \
 	( cd "$(SYNC_DIR)" && go run . --serve ) & SYNC_PID=$$!; \

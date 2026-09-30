@@ -582,7 +582,7 @@ export const drawPatchChart = (canvas, series) => {
     return;
   }
   const signature = buildSignature(series);
-  if (signature !== state.lastSignature) {
+  if (signature !== state.lastSignature && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
     state.lastSignature = signature;
     animateTo(canvas, series, state);
     return;
@@ -591,3 +591,9 @@ export const drawPatchChart = (canvas, series) => {
 };
 
 
+
+export const stopChartAnimation = (canvas) => {
+  const state = chartStateMap.get(canvas);
+  if (state?.animationFrameId) cancelAnimationFrame(state.animationFrameId);
+  if (state) state.animationFrameId = null;
+};

@@ -14,9 +14,10 @@ RU: Статическое веб-приложение для подсчета �
 
 ## Run Locally / Локальный запуск
 ```bash
-python -m http.server 5173
+npm ci
+npm run dev
 ```
-Open / Открой: `http://localhost:5173`
+Open / Открой: `http://127.0.0.1:5173`
 
 ## Data Layout / Структура данных
 - Main game catalog and UI config / Каталог игр и UI-конфиг: `src/data/patches.js`
@@ -28,7 +29,15 @@ Open / Открой: `http://localhost:5173`
   - `src/data/hsr.generated.js`
 
 ## Notes / Примечания
+- React + Vite + Tailwind CSS 4, with official shadcn/ui components in `src/components/ui`.
 - UI theme uses Catppuccin Mocha palette (including chart colors).
+- `npm run build` creates a static `dist/` site, including original assets and stable generated-data modules.
+- `npm run preview` serves the production build. There is no backend required for public visitors.
+- Mobile devices get expandable per-patch source breakdowns; desktop has the canvas chart plus keyboard-accessible details.
+- Income settings are saved independently for each game in this browser. Restricted storage falls back to in-memory settings.
+- Add UI components with `npx shadcn@latest add <component>`.
+- Local owner workflow: run `npm run dev` and, in a second terminal, `(cd tools/patchsync && go run . --serve)`.
+- Review and improvement priorities: [docs/REVIEW-2026-09-30.md](docs/REVIEW-2026-09-30.md).
 
 - This branch is static-only for GitHub Pages.
 - `master` includes the Go parser/sync tool under `tools/patchsync`; `github-pages` contains only the published site.
@@ -37,7 +46,10 @@ Open / Открой: `http://localhost:5173`
 
 ## Tests / Проверки
 ```bash
-node --test tests/*.test.mjs
+npm test
+npm run build
+npx playwright install chromium
+npm run test:e2e
 (cd tools/patchsync && go test -race ./... && go vet ./...)
 ```
 Requires Node.js 24 and Go 1.25 or newer. CI runs these checks before publication.

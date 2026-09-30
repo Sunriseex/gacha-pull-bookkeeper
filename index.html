@@ -1,69 +1,16 @@
 <!doctype html>
-<html lang="ru">
+<html lang="en" class="dark">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#1e1e2e">
+  <meta name="description" content="Compare free and paid gacha pulls per patch for Endfield, Wuthering Waves, ZZZ, Genshin Impact and Honkai: Star Rail.">
   <title>Gacha Pull Bookkeeper</title>
-  <link rel="icon" type="image/png" href="assets/icons/favicon.png">
-  <link rel="stylesheet" href="src/styles.css">
+  <link rel="icon" type="image/png" href="./assets/icons/favicon.png">
 </head>
 <body>
-  <div class="bg-overlay bg-overlay-base"></div>
-  <div class="bg-overlay bg-overlay-fade"></div>
-  <div class="floating-actions">
-    <button id="syncSheetsBtn" hidden class="sync-sheets-btn" type="button">Sync Sheets</button>
-    <button id="uiToggleBtn" class="ui-toggle-btn" type="button" aria-pressed="false">Hide UI</button>
-  </div>
-  <main class="app">
-    <header class="app-header">
-      <h1 id="appTitle">Gacha Pull Bookkeeper</h1>
-      <div class="app-quick-actions">
-        <a
-          id="repoLink"
-          class="icon-link"
-          href="https://github.com/Sunriseex/gacha-pull-bookkeeper/tree/github-pages"
-          target="_blank"
-          rel="noopener noreferrer"
-          aria-label="Open GitHub repository"
-          title="Open GitHub repository"
-        >
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M12 .5C5.65.5.5 5.65.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56 0-.28-.01-1.2-.02-2.18-3.2.7-3.88-1.36-3.88-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.19 1.77 1.19 1.03 1.76 2.7 1.25 3.36.95.1-.75.4-1.25.72-1.53-2.55-.29-5.23-1.28-5.23-5.68 0-1.25.45-2.28 1.18-3.08-.12-.29-.51-1.47.11-3.06 0 0 .97-.31 3.17 1.18a10.98 10.98 0 0 1 5.78 0c2.2-1.49 3.16-1.18 3.16-1.18.62 1.59.23 2.77.11 3.06.74.8 1.18 1.83 1.18 3.08 0 4.41-2.68 5.39-5.24 5.67.41.36.77 1.07.77 2.16 0 1.56-.01 2.82-.01 3.2 0 .31.21.67.8.56A11.5 11.5 0 0 0 23.5 12C23.5 5.65 18.35.5 12 .5Z"></path>
-          </svg>
-        </a>
-        <button id="uidCopyBtn" class="uid-copy-btn" type="button" hidden></button>
-      </div>
-    </header>
-
-    <section class="panel game-tabs-panel">
-      <div id="gameTabs" class="game-tabs" aria-label="Game selector"></div>
-    </section>
-
-    <section class="panel controls-panel">
-      <div class="control-row">
-        <span id="battlePassLabel" class="control-label">Battle Pass</span>
-        <div id="battlePassTierGroup" class="bp-minimal"></div>
-      </div>
-      <label class="monthly-minimal" for="monthlySub">
-        <span id="monthlyLabel">Monthly Pass</span>
-        <input id="monthlySub" type="checkbox">
-      </label>
-      <div id="optionFlags" class="option-flags"></div>
-    </section>
-
-    <section class="panel chart-panel">
-      <h2 id="chartTitle">Character pulls per version</h2>
-      <div id="mobileChart" class="mobile-chart"></div>
-      <div class="chart-scroll">
-        <canvas id="patchChart" width="1200" height="420" aria-label="График источников круток"></canvas>
-      </div>
-    </section>
-
-    <section class="panel">
-      <div id="totals" class="grid three"></div>
-    </section>
-  </main>
-
-  <script type="module" src="src/main.js"></script>
+  <div id="root"></div>
+  <noscript>This calculator requires JavaScript. Enable it to compare pulls per patch.</noscript>
+  <script type="module" src="/src/main.jsx"></script>
 </body>
 </html>

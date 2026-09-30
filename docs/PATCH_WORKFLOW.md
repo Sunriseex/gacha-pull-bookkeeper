@@ -14,7 +14,7 @@
 ## Local owner sync
 
 1. Copy `.env.example` to `.env` at the repository root and configure the sources and `PATCHSYNC_TOKEN`.
-2. Run `make serve`, or start `python -m http.server 5173 --bind 127.0.0.1` and `go run . --serve` from `tools/patchsync` separately.
+2. Run `make serve`, or start `npm ci` followed by `npm run dev` and `go run . --serve` from `tools/patchsync` separately.
 3. Open `http://localhost:4173` for `make serve` (5173 for the separate server).
 4. Click **Sync Sheets** and enter the token when prompted. Cancel and Escape discard the input.
 5. Successful games are reloaded automatically, including their chart and update date. Failed games retain their previous data and show an error.
