@@ -253,8 +253,9 @@ test('patch grid selects one patch, keeps game preferences, and labels verified 
     await page.getByRole('button', { name: 'Choose patch', exact: true }).click();
     const dialog = page.getByRole('dialog');
     await expect(dialog.getByRole('heading', { name: 'Choose a patch' })).toBeVisible();
+    await expect(dialog).toHaveCSS('opacity', '1');
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
-    if (title === 'Genshin Impact') await page.screenshot({ path: `test-results/${testInfo.project.name}-range-grid.png`, fullPage: true });
+    if (title === 'Genshin Impact') await page.screenshot({ path: `test-results/${testInfo.project.name}-range-grid.png`, fullPage: false });
     await dialog.getByRole('button', { name: `Select patch ${patch}`, exact: true }).click();
     await expect(dialog).toHaveCount(0);
     await expect(page.getByTestId('period-label')).toContainText(`Totals for ${patch} · 1 of`);
