@@ -39,6 +39,139 @@
         }
       ]
     },
+    "1.1": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://endfieldhub.org/tools/banner-history",
+        "https://www.lootbar.com/blog/en/arknights-endfield-banner-schedule-and-history.html",
+        "https://endfield.gryphline.com/en-us/news/0751"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Tangtang",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Rossi",
+              "appearance": "debut"
+            }
+          ]
+        }
+      ]
+    },
+    "1.2": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://endfieldhub.org/tools/banner-history",
+        "https://www.lootbar.com/blog/en/arknights-endfield-banner-schedule-and-history.html",
+        "https://endfield.gryphline.com/en-us/news/0751"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Zhuang Fangyi",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Fest of Brilliance",
+          "characters": [
+            {
+              "name": "Laevatain",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Gilberta",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Ardelia",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Pogranichnik",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "1.3": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://endfieldhub.org/tools/banner-history",
+        "https://www.lootbar.com/blog/en/arknights-endfield-banner-schedule-and-history.html",
+        "https://endfield.gryphline.com/en-us/news/0751"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Mi Fu",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Camille",
+              "appearance": "debut"
+            }
+          ]
+        }
+      ]
+    },
+    "1.4": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://endfieldhub.org/tools/banner-history",
+        "https://www.lootbar.com/blog/en/arknights-endfield-banner-schedule-and-history.html",
+        "https://endfield.gryphline.com/en-us/news/0751",
+        "https://endfield.gryphline.com/en-us/news/5200"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Arcane",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Liino",
+              "appearance": "debut"
+            }
+          ]
+        }
+      ]
+    },
     "1.5": {
       "reviewedAt": "2026-09-30",
       "complete": true,
@@ -71,6 +204,108 @@
     }
   },
   "wuthering-waves": {
+    "1.0": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/wuthering-waves-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://wutheringpity.com/wuthering-waves/banner-history/",
+        "https://steamcommunity.com/games/3513350/announcements/detail/712276809750675952",
+        "https://allthings.how/wuthering-waves-3-4-banners-lucy-rebecca-lucilla-and-cartethyia/",
+        "https://www.lootbar.com/blog/en/wuthering-waves-3-5-banners.html",
+        "https://allthings.how/wuthering-waves-3-5-phase-2-suisui-and-aemeath-banners-and-events/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Jiyan",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Yinlin",
+              "appearance": "debut"
+            }
+          ]
+        }
+      ]
+    },
+    "1.1": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/wuthering-waves-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://wutheringpity.com/wuthering-waves/banner-history/",
+        "https://steamcommunity.com/games/3513350/announcements/detail/712276809750675952",
+        "https://allthings.how/wuthering-waves-3-4-banners-lucy-rebecca-lucilla-and-cartethyia/",
+        "https://www.lootbar.com/blog/en/wuthering-waves-3-5-banners.html",
+        "https://allthings.how/wuthering-waves-3-5-phase-2-suisui-and-aemeath-banners-and-events/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Jinhsi",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Changli",
+              "appearance": "debut"
+            }
+          ]
+        }
+      ]
+    },
+    "1.2": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/wuthering-waves-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://wutheringpity.com/wuthering-waves/banner-history/",
+        "https://steamcommunity.com/games/3513350/announcements/detail/712276809750675952",
+        "https://allthings.how/wuthering-waves-3-4-banners-lucy-rebecca-lucilla-and-cartethyia/",
+        "https://www.lootbar.com/blog/en/wuthering-waves-3-5-banners.html",
+        "https://allthings.how/wuthering-waves-3-5-phase-2-suisui-and-aemeath-banners-and-events/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Zhezhi",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Xiangli Yao",
+              "appearance": "debut"
+            }
+          ]
+        }
+      ]
+    },
     "1.3": {
       "reviewedAt": "2026-09-30",
       "complete": true,
@@ -78,7 +313,10 @@
       "sources": [
         "https://wutheringwaves.kurogames.com/en/main/news/detail/1420",
         "https://game8.co/games/Wuthering-Waves/archives/454743",
-        "https://wutheringwaves.fandom.com/wiki/Version/1.3"
+        "https://wutheringwaves.fandom.com/wiki/Version/1.3",
+        "https://www.lootbar.com/blog/en/wuthering-waves-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://wutheringpity.com/wuthering-waves/banner-history/"
       ],
       "phases": [
         {
@@ -95,6 +333,766 @@
           "characters": [
             {
               "name": "Jiyan",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "1.4": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/wuthering-waves-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://wutheringpity.com/wuthering-waves/banner-history/",
+        "https://steamcommunity.com/games/3513350/announcements/detail/712276809750675952",
+        "https://allthings.how/wuthering-waves-3-4-banners-lucy-rebecca-lucilla-and-cartethyia/",
+        "https://www.lootbar.com/blog/en/wuthering-waves-3-5-banners.html",
+        "https://allthings.how/wuthering-waves-3-5-phase-2-suisui-and-aemeath-banners-and-events/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Camellya",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Yinlin",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Xiangli Yao",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "2.0": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/wuthering-waves-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://wutheringpity.com/wuthering-waves/banner-history/",
+        "https://steamcommunity.com/games/3513350/announcements/detail/712276809750675952",
+        "https://allthings.how/wuthering-waves-3-4-banners-lucy-rebecca-lucilla-and-cartethyia/",
+        "https://www.lootbar.com/blog/en/wuthering-waves-3-5-banners.html",
+        "https://allthings.how/wuthering-waves-3-5-phase-2-suisui-and-aemeath-banners-and-events/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Carlotta",
+              "appearance": "debut"
+            },
+            {
+              "name": "Zhezhi",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Roccia",
+              "appearance": "debut"
+            },
+            {
+              "name": "Jinhsi",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "2.1": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/wuthering-waves-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://wutheringpity.com/wuthering-waves/banner-history/",
+        "https://steamcommunity.com/games/3513350/announcements/detail/712276809750675952",
+        "https://allthings.how/wuthering-waves-3-4-banners-lucy-rebecca-lucilla-and-cartethyia/",
+        "https://www.lootbar.com/blog/en/wuthering-waves-3-5-banners.html",
+        "https://allthings.how/wuthering-waves-3-5-phase-2-suisui-and-aemeath-banners-and-events/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Phoebe",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Brant",
+              "appearance": "debut"
+            },
+            {
+              "name": "Changli",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "2.2": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/wuthering-waves-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://wutheringpity.com/wuthering-waves/banner-history/",
+        "https://steamcommunity.com/games/3513350/announcements/detail/712276809750675952",
+        "https://allthings.how/wuthering-waves-3-4-banners-lucy-rebecca-lucilla-and-cartethyia/",
+        "https://www.lootbar.com/blog/en/wuthering-waves-3-5-banners.html",
+        "https://allthings.how/wuthering-waves-3-5-phase-2-suisui-and-aemeath-banners-and-events/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Cantarella",
+              "appearance": "debut"
+            },
+            {
+              "name": "Camellya",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Shorekeeper",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "2.3": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/wuthering-waves-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://wutheringpity.com/wuthering-waves/banner-history/",
+        "https://steamcommunity.com/games/3513350/announcements/detail/712276809750675952",
+        "https://allthings.how/wuthering-waves-3-4-banners-lucy-rebecca-lucilla-and-cartethyia/",
+        "https://www.lootbar.com/blog/en/wuthering-waves-3-5-banners.html",
+        "https://allthings.how/wuthering-waves-3-5-phase-2-suisui-and-aemeath-banners-and-events/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Zani",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Anniversary Convene · Phase 1",
+          "characters": [
+            {
+              "name": "Jiyan",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Yinlin",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Zhezhi",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Xiangli Yao",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Phoebe",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Ciaccona",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Anniversary Convene · Phase 2",
+          "characters": [
+            {
+              "name": "Jinhsi",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Changli",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Carlotta",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Roccia",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Brant",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "2.4": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/wuthering-waves-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://wutheringpity.com/wuthering-waves/banner-history/",
+        "https://steamcommunity.com/games/3513350/announcements/detail/712276809750675952",
+        "https://allthings.how/wuthering-waves-3-4-banners-lucy-rebecca-lucilla-and-cartethyia/",
+        "https://www.lootbar.com/blog/en/wuthering-waves-3-5-banners.html",
+        "https://allthings.how/wuthering-waves-3-5-phase-2-suisui-and-aemeath-banners-and-events/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Cartethyia",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Lupa",
+              "appearance": "debut"
+            }
+          ]
+        }
+      ]
+    },
+    "2.5": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/wuthering-waves-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://wutheringpity.com/wuthering-waves/banner-history/",
+        "https://steamcommunity.com/games/3513350/announcements/detail/712276809750675952",
+        "https://allthings.how/wuthering-waves-3-4-banners-lucy-rebecca-lucilla-and-cartethyia/",
+        "https://www.lootbar.com/blog/en/wuthering-waves-3-5-banners.html",
+        "https://allthings.how/wuthering-waves-3-5-phase-2-suisui-and-aemeath-banners-and-events/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Phrolova",
+              "appearance": "debut"
+            },
+            {
+              "name": "Roccia",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Cantarella",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Brant",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "2.6": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/wuthering-waves-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://wutheringpity.com/wuthering-waves/banner-history/",
+        "https://steamcommunity.com/games/3513350/announcements/detail/712276809750675952",
+        "https://allthings.how/wuthering-waves-3-4-banners-lucy-rebecca-lucilla-and-cartethyia/",
+        "https://www.lootbar.com/blog/en/wuthering-waves-3-5-banners.html",
+        "https://allthings.how/wuthering-waves-3-5-phase-2-suisui-and-aemeath-banners-and-events/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Augusta",
+              "appearance": "debut"
+            },
+            {
+              "name": "Carlotta",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Shorekeeper",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Iuno",
+              "appearance": "debut"
+            },
+            {
+              "name": "Ciaccona",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "2.7": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/wuthering-waves-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://wutheringpity.com/wuthering-waves/banner-history/",
+        "https://steamcommunity.com/games/3513350/announcements/detail/712276809750675952",
+        "https://allthings.how/wuthering-waves-3-4-banners-lucy-rebecca-lucilla-and-cartethyia/",
+        "https://www.lootbar.com/blog/en/wuthering-waves-3-5-banners.html",
+        "https://allthings.how/wuthering-waves-3-5-phase-2-suisui-and-aemeath-banners-and-events/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Galbrena",
+              "appearance": "debut"
+            },
+            {
+              "name": "Lupa",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Qiuyuan",
+              "appearance": "debut"
+            },
+            {
+              "name": "Zani",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "2.8": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/wuthering-waves-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://wutheringpity.com/wuthering-waves/banner-history/",
+        "https://steamcommunity.com/games/3513350/announcements/detail/712276809750675952",
+        "https://allthings.how/wuthering-waves-3-4-banners-lucy-rebecca-lucilla-and-cartethyia/",
+        "https://www.lootbar.com/blog/en/wuthering-waves-3-5-banners.html",
+        "https://allthings.how/wuthering-waves-3-5-phase-2-suisui-and-aemeath-banners-and-events/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Chisa",
+              "appearance": "debut"
+            },
+            {
+              "name": "Phoebe",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Phrolova",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Cantarella",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "3.0": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/wuthering-waves-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://wutheringpity.com/wuthering-waves/banner-history/",
+        "https://steamcommunity.com/games/3513350/announcements/detail/712276809750675952",
+        "https://allthings.how/wuthering-waves-3-4-banners-lucy-rebecca-lucilla-and-cartethyia/",
+        "https://www.lootbar.com/blog/en/wuthering-waves-3-5-banners.html",
+        "https://allthings.how/wuthering-waves-3-5-phase-2-suisui-and-aemeath-banners-and-events/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Lynae",
+              "appearance": "debut"
+            },
+            {
+              "name": "Cartethyia",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Ciaccona",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Mornye",
+              "appearance": "debut"
+            },
+            {
+              "name": "Augusta",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Iuno",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "3.1": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/wuthering-waves-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://wutheringpity.com/wuthering-waves/banner-history/",
+        "https://steamcommunity.com/games/3513350/announcements/detail/712276809750675952",
+        "https://allthings.how/wuthering-waves-3-4-banners-lucy-rebecca-lucilla-and-cartethyia/",
+        "https://www.lootbar.com/blog/en/wuthering-waves-3-5-banners.html",
+        "https://allthings.how/wuthering-waves-3-5-phase-2-suisui-and-aemeath-banners-and-events/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Aemeath",
+              "appearance": "debut"
+            },
+            {
+              "name": "Chisa",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Lupa",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Luuk Herssen",
+              "appearance": "debut"
+            },
+            {
+              "name": "Galbrena",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "3.2": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/wuthering-waves-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://wutheringpity.com/wuthering-waves/banner-history/",
+        "https://steamcommunity.com/games/3513350/announcements/detail/712276809750675952",
+        "https://allthings.how/wuthering-waves-3-4-banners-lucy-rebecca-lucilla-and-cartethyia/",
+        "https://www.lootbar.com/blog/en/wuthering-waves-3-5-banners.html",
+        "https://allthings.how/wuthering-waves-3-5-phase-2-suisui-and-aemeath-banners-and-events/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Sigrika",
+              "appearance": "debut"
+            },
+            {
+              "name": "Qiuyuan",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Lynae",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Zani",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Phoebe",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "3.3": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/wuthering-waves-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://wutheringpity.com/wuthering-waves/banner-history/",
+        "https://steamcommunity.com/games/3513350/announcements/detail/712276809750675952",
+        "https://allthings.how/wuthering-waves-3-4-banners-lucy-rebecca-lucilla-and-cartethyia/",
+        "https://www.lootbar.com/blog/en/wuthering-waves-3-5-banners.html",
+        "https://allthings.how/wuthering-waves-3-5-phase-2-suisui-and-aemeath-banners-and-events/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Hiyuki",
+              "appearance": "debut"
+            },
+            {
+              "name": "Mornye",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Iuno",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Denia",
+              "appearance": "debut"
+            },
+            {
+              "name": "Chisa",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Phrolova",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "3.4": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/wuthering-waves-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://wutheringpity.com/wuthering-waves/banner-history/",
+        "https://steamcommunity.com/games/3513350/announcements/detail/712276809750675952",
+        "https://allthings.how/wuthering-waves-3-4-banners-lucy-rebecca-lucilla-and-cartethyia/",
+        "https://www.lootbar.com/blog/en/wuthering-waves-3-5-banners.html",
+        "https://allthings.how/wuthering-waves-3-5-phase-2-suisui-and-aemeath-banners-and-events/"
+      ],
+      "phases": [
+        {
+          "label": "Collaboration · Full version",
+          "characters": [
+            {
+              "name": "Lucy",
+              "appearance": "debut"
+            },
+            {
+              "name": "Rebecca",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "From June 13",
+          "characters": [
+            {
+              "name": "Lucilla",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "From June 18",
+          "characters": [
+            {
+              "name": "Cartethyia",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "3.5": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/wuthering-waves-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://wutheringpity.com/wuthering-waves/banner-history/",
+        "https://steamcommunity.com/games/3513350/announcements/detail/712276809750675952",
+        "https://allthings.how/wuthering-waves-3-4-banners-lucy-rebecca-lucilla-and-cartethyia/",
+        "https://www.lootbar.com/blog/en/wuthering-waves-3-5-banners.html",
+        "https://allthings.how/wuthering-waves-3-5-phase-2-suisui-and-aemeath-banners-and-events/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Yangyang: Xuanling",
+              "appearance": "debut"
+            },
+            {
+              "name": "Lynae",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Luuk Herssen",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Suisui",
+              "appearance": "debut"
+            },
+            {
+              "name": "Aemeath",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Starpath Reverbs · Full version",
+          "characters": [
+            {
+              "name": "Jiyan",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Yinlin",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Jinhsi",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Changli",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Zhezhi",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Xiangli Yao",
               "appearance": "rerun"
             }
           ]
@@ -191,13 +1189,155 @@
     }
   },
   "zenless-zone-zero": {
+    "1.0": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.icy-veins.com/zenless-zone-zero/current-banner",
+        "https://www.lootbar.com/blog/en/zenless-zone-zero-banner-schedule-history.html"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Ellen Joe",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Zhu Yuan",
+              "appearance": "debut"
+            }
+          ]
+        }
+      ]
+    },
+    "1.1": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.icy-veins.com/zenless-zone-zero/current-banner",
+        "https://www.lootbar.com/blog/en/zenless-zone-zero-banner-schedule-history.html"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Qingyi",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Jane Doe",
+              "appearance": "debut"
+            }
+          ]
+        }
+      ]
+    },
+    "1.2": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.icy-veins.com/zenless-zone-zero/current-banner",
+        "https://www.lootbar.com/blog/en/zenless-zone-zero-banner-schedule-history.html"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Caesar King",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Burnice White",
+              "appearance": "debut"
+            }
+          ]
+        }
+      ]
+    },
+    "1.3": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.icy-veins.com/zenless-zone-zero/current-banner",
+        "https://www.lootbar.com/blog/en/zenless-zone-zero-banner-schedule-history.html"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Tsukishiro Yanagi",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Lighter",
+              "appearance": "debut"
+            }
+          ]
+        }
+      ]
+    },
+    "1.4": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.icy-veins.com/zenless-zone-zero/current-banner",
+        "https://www.lootbar.com/blog/en/zenless-zone-zero-banner-schedule-history.html"
+      ],
+      "phases": [
+        {
+          "label": "Full version",
+          "characters": [
+            {
+              "name": "Hoshimi Miyabi",
+              "appearance": "debut"
+            },
+            {
+              "name": "Asaba Harumasa",
+              "appearance": "debut"
+            }
+          ]
+        }
+      ]
+    },
     "1.5": {
       "reviewedAt": "2026-09-30",
       "complete": true,
       "note": "",
       "sources": [
         "https://zenless-zone-zero.fandom.com/wiki/Version/1.5",
-        "https://www.oneesports.gg/zenless-zone-zero/zenless-zone-zero-15-banners/"
+        "https://www.oneesports.gg/zenless-zone-zero/zenless-zone-zero-15-banners/",
+        "https://www.icy-veins.com/zenless-zone-zero/current-banner",
+        "https://www.lootbar.com/blog/en/zenless-zone-zero-banner-schedule-history.html"
       ],
       "phases": [
         {
@@ -222,6 +1362,510 @@
             },
             {
               "name": "Qingyi",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "1.6": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.icy-veins.com/zenless-zone-zero/current-banner",
+        "https://www.lootbar.com/blog/en/zenless-zone-zero-banner-schedule-history.html"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Soldier 0 - Anby",
+              "appearance": "debut"
+            },
+            {
+              "name": "Burnice White",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Trigger",
+              "appearance": "debut"
+            },
+            {
+              "name": "Zhu Yuan",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "1.7": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.icy-veins.com/zenless-zone-zero/current-banner",
+        "https://www.lootbar.com/blog/en/zenless-zone-zero-banner-schedule-history.html"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Vivian",
+              "appearance": "debut"
+            },
+            {
+              "name": "Jane Doe",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Hugo Vlad",
+              "appearance": "debut"
+            },
+            {
+              "name": "Lighter",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "2.0": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.icy-veins.com/zenless-zone-zero/current-banner",
+        "https://www.lootbar.com/blog/en/zenless-zone-zero-banner-schedule-history.html"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Yixuan",
+              "appearance": "debut"
+            },
+            {
+              "name": "Astra Yao",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Ju Fufu",
+              "appearance": "debut"
+            },
+            {
+              "name": "Caesar King",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "2.1": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.icy-veins.com/zenless-zone-zero/current-banner",
+        "https://www.lootbar.com/blog/en/zenless-zone-zero-banner-schedule-history.html"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Ukinami Yuzuha",
+              "appearance": "debut"
+            },
+            {
+              "name": "Hoshimi Miyabi",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Alice Thymefield",
+              "appearance": "debut"
+            },
+            {
+              "name": "Tsukishiro Yanagi",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "2.2": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.icy-veins.com/zenless-zone-zero/current-banner",
+        "https://www.lootbar.com/blog/en/zenless-zone-zero-banner-schedule-history.html"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Seed",
+              "appearance": "debut"
+            },
+            {
+              "name": "Trigger",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Orphie & Magus",
+              "appearance": "debut"
+            },
+            {
+              "name": "Evelyn Chevalier",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "2.3": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.icy-veins.com/zenless-zone-zero/current-banner",
+        "https://www.lootbar.com/blog/en/zenless-zone-zero-banner-schedule-history.html"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Lucia",
+              "appearance": "debut"
+            },
+            {
+              "name": "Vivian",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Yidhari",
+              "appearance": "debut"
+            },
+            {
+              "name": "Ju Fufu",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "2.4": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.icy-veins.com/zenless-zone-zero/current-banner",
+        "https://www.lootbar.com/blog/en/zenless-zone-zero-banner-schedule-history.html"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Dialyn",
+              "appearance": "debut"
+            },
+            {
+              "name": "Hugo Vlad",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Banyue",
+              "appearance": "debut"
+            },
+            {
+              "name": "Ellen Joe",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "2.5": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.icy-veins.com/zenless-zone-zero/current-banner",
+        "https://www.lootbar.com/blog/en/zenless-zone-zero-banner-schedule-history.html"
+      ],
+      "phases": [
+        {
+          "label": "Full version",
+          "characters": [
+            {
+              "name": "Ye Shunguang",
+              "appearance": "debut"
+            },
+            {
+              "name": "Zhao",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Exclusive Rescreening · Phase 2",
+          "characters": [
+            {
+              "name": "Alice Thymefield",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Soldier 0 - Anby",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Astra Yao",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "2.6": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.icy-veins.com/zenless-zone-zero/current-banner",
+        "https://www.lootbar.com/blog/en/zenless-zone-zero-banner-schedule-history.html"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Sunna",
+              "appearance": "debut"
+            },
+            {
+              "name": "Yixuan",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Aria",
+              "appearance": "debut"
+            },
+            {
+              "name": "Ukinami Yuzuha",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "2.7": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.icy-veins.com/zenless-zone-zero/current-banner",
+        "https://www.lootbar.com/blog/en/zenless-zone-zero-banner-schedule-history.html"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Nangong Yu",
+              "appearance": "debut"
+            },
+            {
+              "name": "Yidhari",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Cissia",
+              "appearance": "debut"
+            },
+            {
+              "name": "Seed",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "2.8": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.icy-veins.com/zenless-zone-zero/current-banner",
+        "https://www.lootbar.com/blog/en/zenless-zone-zero-banner-schedule-history.html"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Promeia",
+              "appearance": "debut"
+            },
+            {
+              "name": "Lucia",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Starlight - Billy Kid",
+              "appearance": "debut"
+            },
+            {
+              "name": "Orphie & Magus",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "3.0": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.icy-veins.com/zenless-zone-zero/current-banner",
+        "https://www.lootbar.com/blog/en/zenless-zone-zero-banner-schedule-history.html"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Velina",
+              "appearance": "debut"
+            },
+            {
+              "name": "Ye Shunguang",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Norma",
+              "appearance": "debut"
+            },
+            {
+              "name": "Sunna",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "3.1": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.icy-veins.com/zenless-zone-zero/current-banner",
+        "https://zenless.gg/v3-1-limited-time-channels-phase-ii/",
+        "https://rpgamer.com/2026/07/zenless-zone-zero-version-3-1-update-releasing-later-this-month/"
+      ],
+      "phases": [
+        {
+          "label": "Full version",
+          "characters": [
+            {
+              "name": "Remielle Dan",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Aria",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Sigrid",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Exclusive Rescreening · Phase 2",
+          "characters": [
+            {
+              "name": "Dialyn",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Ukinami Yuzuha",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Asaba Harumasa",
               "appearance": "rerun"
             }
           ]
@@ -268,13 +1912,143 @@
     }
   },
   "genshin-impact": {
+    "1.0": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Venti",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Klee",
+              "appearance": "debut"
+            }
+          ]
+        }
+      ]
+    },
+    "1.1": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Tartaglia",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Zhongli",
+              "appearance": "debut"
+            }
+          ]
+        }
+      ]
+    },
+    "1.2": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Albedo",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Ganyu",
+              "appearance": "debut"
+            }
+          ]
+        }
+      ]
+    },
+    "1.3": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Xiao",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Keqing",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 3",
+          "characters": [
+            {
+              "name": "Hu Tao",
+              "appearance": "debut"
+            }
+          ]
+        }
+      ]
+    },
     "1.4": {
       "reviewedAt": "2026-09-30",
       "complete": true,
       "note": "",
       "sources": [
         "https://www.neoseeker.com/genshin-impact/update/Update_1.4_Overview",
-        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html"
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive"
       ],
       "phases": [
         {
@@ -291,6 +2065,1940 @@
           "characters": [
             {
               "name": "Tartaglia",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "1.5": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Zhongli",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Eula",
+              "appearance": "debut"
+            }
+          ]
+        }
+      ]
+    },
+    "1.6": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Klee",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Kaedehara Kazuha",
+              "appearance": "debut"
+            }
+          ]
+        }
+      ]
+    },
+    "2.0": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Kamisato Ayaka",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Yoimiya",
+              "appearance": "debut"
+            }
+          ]
+        }
+      ]
+    },
+    "2.1": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Raiden Shogun",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Sangonomiya Kokomi",
+              "appearance": "debut"
+            }
+          ]
+        }
+      ]
+    },
+    "2.2": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Tartaglia",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Hu Tao",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "2.3": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Albedo",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Eula",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Arataki Itto",
+              "appearance": "debut"
+            }
+          ]
+        }
+      ]
+    },
+    "2.4": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Shenhe",
+              "appearance": "debut"
+            },
+            {
+              "name": "Xiao",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Zhongli",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Ganyu",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "2.5": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Yae Miko",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Raiden Shogun",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Sangonomiya Kokomi",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "2.6": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Kamisato Ayato",
+              "appearance": "debut"
+            },
+            {
+              "name": "Venti",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Kamisato Ayaka",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "2.7": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Yelan",
+              "appearance": "debut"
+            },
+            {
+              "name": "Xiao",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Arataki Itto",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "2.8": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Kaedehara Kazuha",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Klee",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Yoimiya",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "3.0": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Tighnari",
+              "appearance": "debut"
+            },
+            {
+              "name": "Zhongli",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Ganyu",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Sangonomiya Kokomi",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "3.1": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Cyno",
+              "appearance": "debut"
+            },
+            {
+              "name": "Venti",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Nilou",
+              "appearance": "debut"
+            },
+            {
+              "name": "Albedo",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "3.2": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Nahida",
+              "appearance": "debut"
+            },
+            {
+              "name": "Yoimiya",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Yae Miko",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Tartaglia",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "3.3": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Wanderer",
+              "appearance": "debut"
+            },
+            {
+              "name": "Arataki Itto",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Raiden Shogun",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Kamisato Ayato",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "3.4": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Alhaitham",
+              "appearance": "debut"
+            },
+            {
+              "name": "Xiao",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Hu Tao",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Yelan",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "3.5": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Dehya",
+              "appearance": "debut"
+            },
+            {
+              "name": "Cyno",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Shenhe",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Kamisato Ayaka",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "3.6": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Nahida",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Nilou",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Baizhu",
+              "appearance": "debut"
+            },
+            {
+              "name": "Ganyu",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "3.7": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Yoimiya",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Yae Miko",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Alhaitham",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Kaedehara Kazuha",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "3.8": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Eula",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Klee",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Sangonomiya Kokomi",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Wanderer",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "4.0": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Lyney",
+              "appearance": "debut"
+            },
+            {
+              "name": "Yelan",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Zhongli",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Tartaglia",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "4.1": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Neuvillette",
+              "appearance": "debut"
+            },
+            {
+              "name": "Hu Tao",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Wriothesley",
+              "appearance": "debut"
+            },
+            {
+              "name": "Venti",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "4.2": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Furina",
+              "appearance": "debut"
+            },
+            {
+              "name": "Baizhu",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Cyno",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Kamisato Ayato",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "4.3": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Navia",
+              "appearance": "debut"
+            },
+            {
+              "name": "Kamisato Ayaka",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Raiden Shogun",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Yoimiya",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "4.4": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Xianyun",
+              "appearance": "debut"
+            },
+            {
+              "name": "Nahida",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Xiao",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Yae Miko",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "4.5": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Chiori",
+              "appearance": "debut"
+            },
+            {
+              "name": "Arataki Itto",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Neuvillette",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Kaedehara Kazuha",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Chronicled Wish · Phase 1",
+          "characters": [
+            {
+              "name": "Albedo",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Diluc",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Eula",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Jean",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Klee",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Mona",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "4.6": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Arlecchino",
+              "appearance": "debut"
+            },
+            {
+              "name": "Lyney",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Wanderer",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Baizhu",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "4.7": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Clorinde",
+              "appearance": "debut"
+            },
+            {
+              "name": "Alhaitham",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Sigewinne",
+              "appearance": "debut"
+            },
+            {
+              "name": "Furina",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "4.8": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Navia",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Nilou",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Emilie",
+              "appearance": "debut"
+            },
+            {
+              "name": "Yelan",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "5.0": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Mualani",
+              "appearance": "debut"
+            },
+            {
+              "name": "Kaedehara Kazuha",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Kinich",
+              "appearance": "debut"
+            },
+            {
+              "name": "Raiden Shogun",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "5.1": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Xilonen",
+              "appearance": "debut"
+            },
+            {
+              "name": "Chiori",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Nahida",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Hu Tao",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "5.2": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Chasca",
+              "appearance": "debut"
+            },
+            {
+              "name": "Lyney",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Neuvillette",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Zhongli",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "5.3": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Mavuika",
+              "appearance": "debut"
+            },
+            {
+              "name": "Citlali",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Arlecchino",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Clorinde",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Chronicled Wish · Phase 2",
+          "characters": [
+            {
+              "name": "Baizhu",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Shenhe",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Keqing",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Ganyu",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Qiqi",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Tartaglia",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Xiao",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "5.4": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Yumemizuki Mizuki",
+              "appearance": "debut"
+            },
+            {
+              "name": "Sigewinne",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Furina",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Wriothesley",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "5.5": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Varesa",
+              "appearance": "debut"
+            },
+            {
+              "name": "Xianyun",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Xilonen",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Venti",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "5.6": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Escoffier",
+              "appearance": "debut"
+            },
+            {
+              "name": "Navia",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Kinich",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Raiden Shogun",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Chronicled Wish · Phase 2",
+          "characters": [
+            {
+              "name": "Kamisato Ayaka",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Kamisato Ayato",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Yoimiya",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Chiori",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Yae Miko",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Arataki Itto",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Sangonomiya Kokomi",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Kaedehara Kazuha",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "5.7": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Skirk",
+              "appearance": "debut"
+            },
+            {
+              "name": "Shenhe",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Mavuika",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Emilie",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "5.8": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Ineffa",
+              "appearance": "debut"
+            },
+            {
+              "name": "Citlali",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Mualani",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Chasca",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "6.0": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Lauma",
+              "appearance": "debut"
+            },
+            {
+              "name": "Nahida",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Flins",
+              "appearance": "debut"
+            },
+            {
+              "name": "Yelan",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Chronicled Wish · Phase 1",
+          "characters": [
+            {
+              "name": "Dehya",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Alhaitham",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Wanderer",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Cyno",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Nilou",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Tighnari",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "6.1": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Nefer",
+              "appearance": "debut"
+            },
+            {
+              "name": "Furina",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Arlecchino",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Zhongli",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "6.2": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Durin",
+              "appearance": "debut"
+            },
+            {
+              "name": "Venti",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Varesa",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Xilonen",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "6.3": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Columbina",
+              "appearance": "debut"
+            },
+            {
+              "name": "Ineffa",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Zibai",
+              "appearance": "debut"
+            },
+            {
+              "name": "Neuvillette",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "6.4": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Varka",
+              "appearance": "debut"
+            },
+            {
+              "name": "Flins",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Skirk",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Escoffier",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Chronicled Wish · Phase 1",
+          "characters": [
+            {
+              "name": "Albedo",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Diluc",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Eula",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Jean",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Klee",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Mona",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "6.5": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Linnea",
+              "appearance": "debut"
+            },
+            {
+              "name": "Chasca",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Lauma",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Nefer",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Chronicled Wish · Phase 2",
+          "characters": [
+            {
+              "name": "Emilie",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Clorinde",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Sigewinne",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Navia",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Lyney",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "6.6": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Nicole",
+              "appearance": "debut"
+            },
+            {
+              "name": "Durin",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Lohen",
+              "appearance": "debut"
+            },
+            {
+              "name": "Mavuika",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "6.7": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/",
+        "https://www.hoyodex.com/wiki/genshin-impact/qiqi"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Sandrone",
+              "appearance": "debut"
+            },
+            {
+              "name": "Citlali",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Columbina",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Raiden Shogun",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Lightrace Wish · Phase 1",
+          "characters": [
+            {
+              "name": "Yumemizuki Mizuki",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Wriothesley",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Cyno",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Yae Miko",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Qiqi",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "7.0": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.icy-veins.com/genshin-impact/news/everything-new-in-genshin-impact-6-7-from-banners-to-moon-exploration/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Odette",
+              "appearance": "debut"
+            },
+            {
+              "name": "Arlecchino",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Flins",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Ineffa",
               "appearance": "rerun"
             }
           ]
@@ -337,13 +4045,135 @@
     }
   },
   "honkai-star-rail": {
+    "1.0": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.hoyoverse.com/en-us/news/165197"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Seele",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Jing Yuan",
+              "appearance": "debut"
+            }
+          ]
+        }
+      ]
+    },
+    "1.1": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.hoyoverse.com/en-us/news/165197"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Silver Wolf",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Luocha",
+              "appearance": "debut"
+            }
+          ]
+        }
+      ]
+    },
+    "1.2": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.hoyoverse.com/en-us/news/165197"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Blade",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Kafka",
+              "appearance": "debut"
+            }
+          ]
+        }
+      ]
+    },
+    "1.3": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.hoyoverse.com/en-us/news/165197"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Dan Heng · Imbibitor Lunae",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Fu Xuan",
+              "appearance": "debut"
+            }
+          ]
+        }
+      ]
+    },
     "1.4": {
       "reviewedAt": "2026-09-30",
       "complete": true,
       "note": "",
       "sources": [
         "https://honkai-star-rail.fandom.com/wiki/Version/1.4",
-        "https://game8.co/games/Honkai-Star-Rail/archives/408763"
+        "https://game8.co/games/Honkai-Star-Rail/archives/408763",
+        "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/",
+        "https://www.pulldeck.fyi/archive"
       ],
       "phases": [
         {
@@ -370,13 +4200,874 @@
         }
       ]
     },
+    "1.5": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.hoyoverse.com/en-us/news/165197"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Huohuo",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Argenti",
+              "appearance": "debut"
+            },
+            {
+              "name": "Silver Wolf",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "1.6": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.hoyoverse.com/en-us/news/165197"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Ruan Mei",
+              "appearance": "debut"
+            },
+            {
+              "name": "Blade",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Dr. Ratio",
+              "appearance": "debut"
+            },
+            {
+              "name": "Kafka",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "2.0": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.hoyoverse.com/en-us/news/165197",
+        "https://www.starrailbuilds.com/versions/version-2-0"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Black Swan",
+              "appearance": "debut"
+            },
+            {
+              "name": "Dan Heng · Imbibitor Lunae",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Sparkle",
+              "appearance": "debut"
+            },
+            {
+              "name": "Jing Yuan",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "2.1": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.hoyoverse.com/en-us/news/165197"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Acheron",
+              "appearance": "debut"
+            },
+            {
+              "name": "Luocha",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Aventurine",
+              "appearance": "debut"
+            },
+            {
+              "name": "Jingliu",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "2.2": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.hoyoverse.com/en-us/news/165197"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Robin",
+              "appearance": "debut"
+            },
+            {
+              "name": "Topaz & Numby",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Boothill",
+              "appearance": "debut"
+            },
+            {
+              "name": "Fu Xuan",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "2.3": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.hoyoverse.com/en-us/news/165197"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Firefly",
+              "appearance": "debut"
+            },
+            {
+              "name": "Ruan Mei",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Jade",
+              "appearance": "debut"
+            },
+            {
+              "name": "Argenti",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "2.4": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.hoyoverse.com/en-us/news/165197"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Yunli",
+              "appearance": "debut"
+            },
+            {
+              "name": "Huohuo",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Jiaoqiu",
+              "appearance": "debut"
+            },
+            {
+              "name": "Sparkle",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "2.5": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.hoyoverse.com/en-us/news/165197"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Feixiao",
+              "appearance": "debut"
+            },
+            {
+              "name": "Robin",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Black Swan",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Kafka",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Lingsha",
+              "appearance": "debut"
+            },
+            {
+              "name": "Topaz & Numby",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "2.6": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.hoyoverse.com/en-us/news/165197"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Rappa",
+              "appearance": "debut"
+            },
+            {
+              "name": "Dan Heng · Imbibitor Lunae",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Acheron",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Aventurine",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "2.7": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.hoyoverse.com/en-us/news/165197"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Sunday",
+              "appearance": "debut"
+            },
+            {
+              "name": "Jing Yuan",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Fugue",
+              "appearance": "debut"
+            },
+            {
+              "name": "Firefly",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "3.0": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.hoyoverse.com/en-us/news/165197"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "The Herta",
+              "appearance": "debut"
+            },
+            {
+              "name": "Lingsha",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Feixiao",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Jade",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Aglaea",
+              "appearance": "debut"
+            },
+            {
+              "name": "Boothill",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Robin",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Silver Wolf",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "3.1": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.hoyoverse.com/en-us/news/165197"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Tribbie",
+              "appearance": "debut"
+            },
+            {
+              "name": "Yunli",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Mydei",
+              "appearance": "debut"
+            },
+            {
+              "name": "Huohuo",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "3.2": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.hoyoverse.com/en-us/news/165197"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Castorice",
+              "appearance": "debut"
+            },
+            {
+              "name": "Fugue",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Acheron",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Jiaoqiu",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Anaxa",
+              "appearance": "debut"
+            },
+            {
+              "name": "Dr. Ratio",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "3.3": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.hoyoverse.com/en-us/news/165197"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Hyacine",
+              "appearance": "debut"
+            },
+            {
+              "name": "The Herta",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Cipher",
+              "appearance": "debut"
+            },
+            {
+              "name": "Aglaea",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "3.4": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.hoyoverse.com/en-us/news/165197",
+        "https://www.starrailbuilds.com/versions/version-3-4"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Phainon",
+              "appearance": "debut"
+            },
+            {
+              "name": "Tribbie",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Sunday",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Sparkle",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Firefly",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Jingliu",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Blade",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Collaboration · From July 11",
+          "characters": [
+            {
+              "name": "Saber",
+              "appearance": "debut"
+            },
+            {
+              "name": "Archer",
+              "appearance": "debut"
+            }
+          ]
+        }
+      ]
+    },
+    "3.5": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.hoyoverse.com/en-us/news/165197"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Hysilens",
+              "appearance": "debut"
+            },
+            {
+              "name": "Kafka",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Cerydra",
+              "appearance": "debut"
+            },
+            {
+              "name": "Silver Wolf",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Ongoing collaboration",
+          "characters": [
+            {
+              "name": "Saber",
+              "appearance": "ongoing"
+            },
+            {
+              "name": "Archer",
+              "appearance": "ongoing"
+            }
+          ]
+        }
+      ]
+    },
+    "3.6": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.hoyoverse.com/en-us/news/165197"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Evernight",
+              "appearance": "debut"
+            },
+            {
+              "name": "The Herta",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Dan Heng · Permansor Terrae",
+              "appearance": "debut"
+            },
+            {
+              "name": "Anaxa",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Ongoing collaboration",
+          "characters": [
+            {
+              "name": "Saber",
+              "appearance": "ongoing"
+            },
+            {
+              "name": "Archer",
+              "appearance": "ongoing"
+            }
+          ]
+        }
+      ]
+    },
+    "3.7": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.hoyoverse.com/en-us/news/165197"
+      ],
+      "phases": [
+        {
+          "label": "Full version",
+          "characters": [
+            {
+              "name": "Cyrene",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Hyacine",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Castorice",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Tribbie",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Phainon",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Cipher",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Mydei",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Ongoing collaboration",
+          "characters": [
+            {
+              "name": "Saber",
+              "appearance": "ongoing"
+            },
+            {
+              "name": "Archer",
+              "appearance": "ongoing"
+            }
+          ]
+        }
+      ]
+    },
+    "3.8": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.hoyoverse.com/en-us/news/165197",
+        "https://www.starrailbuilds.com/versions/version-3-8"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "The Dahlia",
+              "appearance": "debut"
+            },
+            {
+              "name": "Firefly",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Fugue",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Lingsha",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 3",
+          "characters": [
+            {
+              "name": "Aglaea",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Sunday",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Ongoing collaboration",
+          "characters": [
+            {
+              "name": "Saber",
+              "appearance": "ongoing"
+            },
+            {
+              "name": "Archer",
+              "appearance": "ongoing"
+            }
+          ]
+        }
+      ]
+    },
     "4.0": {
       "reviewedAt": "2026-09-30",
-      "complete": false,
-      "note": "Regular character Warps shown. Ongoing collaboration Warps are not yet reviewed.",
+      "complete": true,
+      "note": "",
       "sources": [
         "https://blog.playstation.com/2026/02/06/honkai-star-rail-version-4-0-no-aha-at-full-moon-will-go-live-on-february-13/",
-        "https://www.starrailbuilds.com/versions/version-4-0"
+        "https://www.starrailbuilds.com/versions/version-4-0",
+        "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/"
       ],
       "phases": [
         {
@@ -425,16 +5116,283 @@
               "appearance": "rerun"
             }
           ]
+        },
+        {
+          "label": "Ongoing collaboration",
+          "characters": [
+            {
+              "name": "Saber",
+              "appearance": "ongoing"
+            },
+            {
+              "name": "Archer",
+              "appearance": "ongoing"
+            }
+          ]
+        }
+      ]
+    },
+    "4.1": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.hoyoverse.com/en-us/news/165197"
+      ],
+      "phases": [
+        {
+          "label": "Full version",
+          "characters": [
+            {
+              "name": "Ashveil",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Hyacine",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Boothill",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Ongoing collaboration",
+          "characters": [
+            {
+              "name": "Saber",
+              "appearance": "ongoing"
+            },
+            {
+              "name": "Archer",
+              "appearance": "ongoing"
+            }
+          ]
+        }
+      ]
+    },
+    "4.2": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.hoyoverse.com/en-us/news/165197",
+        "https://www.starrailbuilds.com/versions/version-4-2"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Silver Wolf LV.999",
+              "appearance": "debut"
+            },
+            {
+              "name": "The Dahlia",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Castorice",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Firefly",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Evanescia",
+              "appearance": "debut"
+            },
+            {
+              "name": "Tribbie",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Sunday",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Feixiao",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Ongoing collaboration",
+          "characters": [
+            {
+              "name": "Saber",
+              "appearance": "ongoing"
+            },
+            {
+              "name": "Archer",
+              "appearance": "ongoing"
+            }
+          ]
+        }
+      ]
+    },
+    "4.3": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.hoyoverse.com/en-us/news/165197"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Mortenax Blade",
+              "appearance": "debut"
+            },
+            {
+              "name": "Yao Guang",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Phainon",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Cyrene",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Ongoing collaboration",
+          "characters": [
+            {
+              "name": "Saber",
+              "appearance": "ongoing"
+            },
+            {
+              "name": "Archer",
+              "appearance": "ongoing"
+            }
+          ]
+        }
+      ]
+    },
+    "4.4": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/",
+        "https://www.pulldeck.fyi/archive",
+        "https://www.hoyoverse.com/en-us/news/165197"
+      ],
+      "phases": [
+        {
+          "label": "Full version",
+          "characters": [
+            {
+              "name": "Himeko · Nova",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Sparxie",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Dan Heng · Permansor Terrae",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Evernight",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Cerydra",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Anaxa",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Aventurine",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Collaboration · From July 24",
+          "characters": [
+            {
+              "name": "Gilgamesh",
+              "appearance": "debut"
+            },
+            {
+              "name": "Rin Tohsaka",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Ongoing collaboration",
+          "characters": [
+            {
+              "name": "Saber",
+              "appearance": "ongoing"
+            },
+            {
+              "name": "Archer",
+              "appearance": "ongoing"
+            }
+          ]
         }
       ]
     },
     "4.5": {
       "reviewedAt": "2026-09-30",
-      "complete": false,
-      "note": "Regular character Warps shown. Ongoing collaboration Warps are not yet reviewed.",
+      "complete": true,
+      "note": "",
       "sources": [
         "https://www.gamespot.com/articles/honkai-star-rail-next-update-and-banners/1100-6538813/",
-        "https://neonsect.com/honkai-star-rail/hsr-4-5-banners-pull-guide/"
+        "https://neonsect.com/honkai-star-rail/hsr-4-5-banners-pull-guide/",
+        "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/",
+        "https://beebom.com/honkai-star-rail-banners-all-next-and-current/"
       ],
       "phases": [
         {
@@ -460,6 +5418,27 @@
             {
               "name": "Ashveil",
               "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Ongoing collaboration",
+          "characters": [
+            {
+              "name": "Saber",
+              "appearance": "ongoing"
+            },
+            {
+              "name": "Archer",
+              "appearance": "ongoing"
+            },
+            {
+              "name": "Gilgamesh",
+              "appearance": "ongoing"
+            },
+            {
+              "name": "Rin Tohsaka",
+              "appearance": "ongoing"
             }
           ]
         }

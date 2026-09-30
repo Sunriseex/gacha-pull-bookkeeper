@@ -268,11 +268,43 @@ test('patch grid selects one patch, keeps game preferences, and labels verified 
   await expect(page.getByRole('button', { name: 'Choose patch', exact: true })).toContainText('1.4');
   await page.getByRole('button', { name: 'Previous patch', exact: true }).click();
   await expect(page.getByTestId('period-label')).toContainText('Totals for 1.3 · 1 of');
-  await expect(page.getByTestId('banner-history').first()).toContainText('not reviewed');
+  await expect(page.getByTestId('banner-history').first()).toContainText('Hu Tao');
   await page.getByRole('button', { name: 'Next patch', exact: true }).click();
   await page.reload();
   await openSettings(page);
   await expect(page.getByRole('button', { name: 'Choose patch', exact: true })).toContainText('1.4');
   await expect(page.getByTestId('banner-history').first()).not.toContainText('Debut');
   await page.screenshot({ path: `test-results/${testInfo.project.name}-range-banners.png`, fullPage: true });
+});
+
+test('special banners keep character choices, third phases and ongoing collaboration labels', async ({ page }, testInfo) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Genshin Impact', exact: true }).click();
+  await openSettings(page);
+  await choose(page, 'Patch range', 'One patch');
+  const selectPatch = async version => {
+    await page.getByRole('button', { name: 'Choose patch', exact: true }).click();
+    await page.getByRole('dialog').getByRole('button', { name: `Select patch ${version}`, exact: true }).click();
+  };
+  await selectPatch('6.5');
+  let history = page.getByTestId('banner-history').first();
+  await expect(history).toContainText('Chronicled Wish · Phase 2');
+  await expect(history).toContainText('Emilie');
+  await expect(history).toContainText('Lyney');
+  await expect(history).not.toContainText('not reviewed');
+  await page.getByRole('button', { name: 'Honkai: Star Rail', exact: true }).click();
+  await choose(page, 'Patch range', 'One patch');
+  await selectPatch('3.8');
+  history = page.getByTestId('banner-history').first();
+  await expect(history).toContainText('Phase 3');
+  await expect(history).toContainText('Ongoing collaboration');
+  await expect(history).toContainText('the same banner continues');
+  await selectPatch('4.5');
+  await expect(history).toContainText('Gilgamesh');
+  await expect(history).toContainText('Rin Tohsaka');
+  await expect(history.getByText('Ongoing', { exact: true })).toHaveCount(4);
+  await expect(history).not.toContainText('Partial history');
+  const width = await page.evaluate(() => ({ content: document.documentElement.scrollWidth, viewport: innerWidth }));
+  expect(width.content).toBeLessThanOrEqual(width.viewport + 1);
+  await page.screenshot({ path: `test-results/${testInfo.project.name}-archive-banners.png`, fullPage: true });
 });

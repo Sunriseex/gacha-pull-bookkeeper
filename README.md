@@ -64,4 +64,4 @@ Requires Node.js 24 and Go 1.25 or newer. CI runs these checks before publicatio
 
 Select **One patch**, then **Choose patch** to open a version grid grouped by major branch. Previous / Next buttons move between neighboring versions; the selection is saved per game. Totals and source details follow the selected patch.
 
-Character banners include explicit debut/rerun badges, phase or full-version groups, review dates and evidence links. The initial archive covers 12 patches across all five games. Unreviewed patches and incomplete collaboration coverage are labeled explicitly. See [banner history scope and review workflow](docs/BANNER_HISTORY.md).
+Character banners cover 131 reviewed patches across all five games, including reruns, time-limited character selectors and collaborations. Debut / Rerun / Ongoing badges distinguish new characters, returning banners and uninterrupted collaboration banners. Named phase/full-version groups, review dates and evidence links are shown. Newly synced versions remain explicitly unreviewed until their banners are checked. See [banner history scope and review workflow](docs/BANNER_HISTORY.md).

@@ -1,7 +1,7 @@
 import catalog from '../data/banners.json' with { type: 'json' };
 
 // Kept outside patchsync's generated income modules so sync cannot erase reviews.
-// A first appearance in this partial archive never implies a character debut.
+// A first appearance in this archive never implies a character debut.
 export const BANNER_CATALOG = catalog;
 export function validateBannerCatalog(input) {
   for (const [gameId, patches] of Object.entries(input)) {
@@ -18,7 +18,7 @@ export function validateBannerCatalog(input) {
         labels.add(phase.label);
         const names = new Set();
         for (const character of phase.characters) {
-          if (!character.name?.trim() || names.has(character.name) || !['debut', 'rerun'].includes(character.appearance)) throw Error(`Invalid banner appearance: ${context}`);
+          if (!character.name?.trim() || names.has(character.name) || !['debut', 'rerun', 'ongoing'].includes(character.appearance)) throw Error(`Invalid banner appearance: ${context}`);
           names.add(character.name);
         }
       }
