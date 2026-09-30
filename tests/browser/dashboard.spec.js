@@ -214,3 +214,26 @@ test('compact settings keep mobile totals visible and preserve edits after closi
   expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   await page.screenshot({ path: `test-results/${testInfo.project.name}-range-style.png`, fullPage: true });
 });
+
+
+test('background stays fixed when Select locks scrolling or UI removes page overflow', async ({ page }) => {
+  await page.goto('/');
+  await openSettings(page);
+  const background = page.locator('.game-background-image');
+  const bounds = () => background.boundingBox();
+  const initial = await bounds();
+  expect(initial.width).toBe(await page.evaluate(() => innerWidth));
+  for (const name of ['Battle Pass', 'Patch range']) {
+    await page.getByRole('combobox', { name, exact: true }).click();
+    await expect(page.getByRole('listbox')).toBeVisible();
+    expect(await bounds()).toEqual(initial);
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+    await page.keyboard.press('Escape');
+    await expect(page.getByRole('listbox')).toHaveCount(0);
+    expect(await bounds()).toEqual(initial);
+  }
+  await page.getByRole('button', { name: 'Hide UI', exact: true }).click();
+  expect(await bounds()).toEqual(initial);
+  await page.getByRole('button', { name: 'Show UI', exact: true }).click();
+  expect(await bounds()).toEqual(initial);
+});

@@ -148,7 +148,7 @@ export default function App() {
     catch { toast.error('Unable to copy UID', { description: `UID: ${game.ui.ownerUid}` }); }
   }
   return <>
-    <div className={`game-background ${hidden ? 'background-visible' : ''}`} style={{ backgroundImage: `url("${game.ui.backgroundImage}")` }} aria-hidden="true" />
+    <div className={`game-background ${hidden ? 'background-visible' : ''}`} aria-hidden="true"><div className="game-background-image" style={{ backgroundImage: `url("${game.ui.backgroundImage}")` }} /></div>
     <div className="relative mx-auto max-w-6xl px-4 pb-10 pt-5 sm:px-6 sm:pt-8">
       <div className="mb-4 flex flex-wrap justify-end gap-2">
         {isLocalSyncPage(location) && <SyncControl onRefresh={() => setRevision(value => value + 1)} />}
