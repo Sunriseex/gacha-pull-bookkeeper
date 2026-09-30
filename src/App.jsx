@@ -52,9 +52,12 @@ function PatchBreakdown({ series }) {
 
 function DesktopChart({ series, title }) {
   const canvas = useRef(null);
+  const period = useRef('');
   useEffect(() => {
     const element = canvas.current;
-    element.parentElement.scrollLeft = 0;
+    const nextPeriod = series.map(item => item.label).join('\0');
+    if (period.current !== nextPeriod) element.parentElement.scrollLeft = 0;
+    period.current = nextPeriod;
     drawPatchChart(element, series);
     const observer = new ResizeObserver(() => resizeChart(element));
     observer.observe(element.parentElement);

@@ -163,6 +163,9 @@ test('full history scrolls only the chart and switching ranges restores scroll p
     await page.keyboard.press('ArrowRight');
     await expect.poll(() => scroll.evaluate(el => el.scrollLeft)).toBeGreaterThan(0);
     await scroll.evaluate(el => { el.scrollLeft = el.scrollWidth; });
+    const previousScroll = await scroll.evaluate(el => el.scrollLeft);
+    await page.getByRole('switch').first().click();
+    await expect.poll(() => scroll.evaluate(el => el.scrollLeft)).toBe(previousScroll);
     await page.screenshot({ path: `test-results/${testInfo.project.name}-range-full.png`, fullPage: true });
     await choose(page, 'Patch range', 'Last 5 patches');
     await expect.poll(() => scroll.evaluate(el => el.scrollLeft)).toBe(0);
