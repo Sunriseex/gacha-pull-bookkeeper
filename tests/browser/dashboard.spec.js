@@ -322,7 +322,9 @@ test('character portraits load locally and failed images keep readable cards', a
     for (const portrait of await portraits.all()) {
       await portrait.scrollIntoViewIfNeeded();
       await expect.poll(() => portrait.evaluate(img => img.complete && img.naturalWidth > 0)).toBe(true);
-      await expect(portrait).toHaveAttribute('src', /^\/assets\/characters\//);
+      const asset = await portrait.evaluate(img => ({ local: new URL(img.src).origin === location.origin, path: new URL(img.src).pathname }));
+      expect(asset.local).toBe(true);
+      expect(asset.path).toMatch(/^\/assets\/characters\//);
     }
     expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
   }
