@@ -7,7 +7,7 @@
   font-family: "Segoe UI", "Noto Sans", sans-serif;
   --background: #1e1e2e;
   --foreground: #cdd6f4;
-  --card: #181825e8;
+  --card: #181825f5;
   --card-foreground: #cdd6f4;
   --popover: #181825;
   --popover-foreground: #cdd6f4;
@@ -20,7 +20,7 @@
   --accent: #45475a;
   --accent-foreground: #cdd6f4;
   --destructive: #f38ba8;
-  --border: #45475a;
+  --border: #45475a80;
   --input: #45475a;
   --ring: #cba6f7;
   --radius: 0.75rem;
@@ -56,7 +56,7 @@
   button:not(:disabled), [role="switch"]:not(:disabled) { cursor: pointer; }
   a:focus-visible { outline: 2px solid var(--ring); outline-offset: 4px; }
 }
-.game-background { position: fixed; inset: 0; background-size: cover; background-position: center; opacity: .18; pointer-events: none; }
+.game-background { position: fixed; inset: 0; background-size: cover; background-position: center; opacity: .12; pointer-events: none; }
 .background-visible { opacity: .85; }
 .desktop-chart canvas { display: block; max-width: none; }
 .chart-scroll { width: 100%; overflow-x: auto; overscroll-behavior-x: contain; border-radius: .5rem; scrollbar-color: var(--primary) var(--muted); }
@@ -75,4 +75,15 @@
 }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation-duration: .01ms !important; transition-duration: .01ms !important; }
+}
+
+.settings-toggle, .settings-summary { display: none; }
+.summary-panel { display: grid; grid-template-columns: 1.15fr 1fr; align-items: center; gap: 2rem; padding: 1.25rem .25rem; }
+.summary-secondary { border-left: 1px solid var(--border); padding-left: 2rem; }
+.resource-card { border-color: transparent; background: #181825e6; }
+@media (max-width: 760px) {
+  .settings-toggle, .settings-summary { display: flex; }
+  .settings-controls:not(.settings-open) { display: none; }
+  .summary-panel { grid-template-columns: 1fr; gap: 1rem; padding: .5rem .25rem; }
+  .summary-secondary { border-left: 0; border-top: 1px solid var(--border); padding: 1rem 0 0; }
 }

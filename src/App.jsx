@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
-import { Github, Eye, EyeOff, Copy, RefreshCw, ExternalLink } from 'lucide-react';
+import { Github, Eye, EyeOff, Copy, RefreshCw, ExternalLink, SlidersHorizontal, Check } from 'lucide-react';
 import { toast } from 'sonner';
 import { Button } from '@/components/ui/button';
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from '@/components/ui/card';
@@ -117,12 +117,18 @@ export default function App() {
   const [revision, setRevision] = useState(0);
   const [hidden, setHidden] = useState(false);
   const [detailsOpen, setDetailsOpen] = useState(false);
+  const [settingsOpen, setSettingsOpen] = useState(false);
   const game = getGameById(gameId);
   const options = optionsByGame[game.id];
   const range = useMemo(() => selectPatchRange(game.patches, rangesByGame[game.id]), [game, rangesByGame, revision]);
   const totals = useMemo(() => aggregateTotals(range.rows, options, game), [range, options, game]);
   const series = useMemo(() => chartSeries(range.rows, options, game), [range, options, game]);
   const cards = cardsConfig(totals, game);
+  const flags = [{ key: 'monthlySub', label: game.ui.monthlyPassLabel ?? 'Monthly Pass' }, ...(game.ui.optionalToggles ?? [])];
+  const tierLabel = game.ui.battlePass.tiers.find(tier => tier.value === options.battlePassTier)?.label ?? 'F2P';
+  const enabledFlags = flags.filter(flag => options[flag.key]);
+  const modeLabels = { latest5: 'Last 5 patches', latest10: 'Last 10 patches', all: 'All patches', custom: range.label };
+  const settingsSummary = [tierLabel, ...enabledFlags.map(flag => flag.label), modeLabels[range.selection.mode]].join(' · ');
   const index = GAME_CATALOG.games.findIndex(item => item.id === game.id);
   useEffect(() => { document.title = `${game.title} Bookkeeper`; }, [game.title]);
   function selectGame(id) {
@@ -159,24 +165,27 @@ export default function App() {
         <nav className="game-selector grid grid-cols-2 gap-2 sm:grid-cols-5" aria-label="Game selector">
           {GAME_CATALOG.games.map((item, i) => <Button key={item.id} variant={item.id === game.id ? 'default' : 'outline'} className="h-auto min-h-12 px-3 py-3" aria-label={item.title} aria-pressed={item.id === game.id} onClick={() => selectGame(item.id)}>{shortTitles[i]}</Button>)}
         </nav>
-        <Card>
-          <CardHeader className="px-4 sm:px-6"><CardTitle>Income settings</CardTitle><CardDescription>Settings are saved separately for each game on this device.</CardDescription></CardHeader>
-          <CardContent className="grid gap-4 px-4 sm:grid-cols-2 sm:px-6">
-            <div className="space-y-2"><Label htmlFor="battle-pass">{game.ui.battlePass.label}</Label><Select value={String(options.battlePassTier)} onValueChange={value => updateOption('battlePassTier', Number(value))}><SelectTrigger id="battle-pass" className="min-h-11 w-full"><SelectValue /></SelectTrigger><SelectContent>{game.ui.battlePass.tiers.map(tier => <SelectItem key={tier.value} value={String(tier.value)}>{tier.label}</SelectItem>)}</SelectContent></Select></div>
-            {[{ key: 'monthlySub', label: game.ui.monthlyPassLabel ?? 'Monthly Pass' }, ...(game.ui.optionalToggles ?? [])].map(flag => <div key={flag.key} className="flex min-h-14 items-center justify-between gap-4 rounded-lg border p-3"><Label htmlFor={`option-${flag.key}`} className="flex-1 cursor-pointer leading-relaxed">{flag.label}</Label><Switch id={`option-${flag.key}`} checked={Boolean(options[flag.key])} onCheckedChange={value => updateOption(flag.key, value)} className="touch-switch" /></div>)}
+        <Card className="settings-panel gap-4 py-4 sm:py-5">
+          <CardHeader className="flex items-center justify-between gap-3 px-4 sm:px-5">
+            <div className="min-w-0"><CardTitle className="text-sm">Income & period</CardTitle><p className="settings-summary mt-1 text-xs leading-relaxed text-muted-foreground" data-testid="settings-summary">{settingsSummary}</p></div>
+            <Button variant="ghost" size="sm" className="settings-toggle shrink-0 min-h-11" aria-expanded={settingsOpen} aria-controls="income-period-controls" onClick={() => setSettingsOpen(value => !value)}>{settingsOpen ? <Check /> : <SlidersHorizontal />}{settingsOpen ? 'Done' : 'Edit settings'}</Button>
+          </CardHeader>
+          <CardContent id="income-period-controls" className={`settings-controls px-4 sm:px-5 ${settingsOpen ? 'settings-open' : ''}`}>
+            <div className="settings-columns grid gap-5 lg:grid-cols-[1fr_1fr]">
+              <div className="grid content-start gap-3 sm:grid-cols-2">
+                <div className="space-y-2"><Label htmlFor="battle-pass">{game.ui.battlePass.label}</Label><Select value={String(options.battlePassTier)} onValueChange={value => updateOption('battlePassTier', Number(value))}><SelectTrigger id="battle-pass" className="min-h-11 w-full"><SelectValue /></SelectTrigger><SelectContent>{game.ui.battlePass.tiers.map(tier => <SelectItem key={tier.value} value={String(tier.value)}>{tier.label}</SelectItem>)}</SelectContent></Select></div>
+                {flags.map(flag => <div key={flag.key} className="flex min-h-11 items-center justify-between gap-3 rounded-lg bg-secondary/25 px-3 py-2"><Label htmlFor={`option-${flag.key}`} className="flex-1 cursor-pointer leading-relaxed">{flag.label}</Label><Switch id={`option-${flag.key}`} checked={Boolean(options[flag.key])} onCheckedChange={value => updateOption(flag.key, value)} className="touch-switch" /></div>)}
+              </div>
+              <div className="settings-period border-t pt-4 lg:border-t-0 lg:border-l lg:pl-5 lg:pt-0"><PatchRangeControls patches={game.patches} selection={range.selection} onChange={updateRange} /><p className="mt-3 text-xs text-muted-foreground">Settings are saved per game. All totals use the selected period.</p></div>
+            </div>
           </CardContent>
         </Card>
-        <Card>
-          <CardHeader className="px-4 sm:px-6"><CardTitle>Period</CardTitle><CardDescription>Chart, source details and all totals use this range.</CardDescription></CardHeader>
-          <CardContent className="px-4 sm:px-6"><PatchRangeControls patches={game.patches} selection={range.selection} onChange={updateRange} />
-            <p className="mt-4 text-sm text-muted-foreground" data-testid="period-label" role="status">Totals for {range.label} · {range.rows.length} of {game.patches.length} patches</p>
-          </CardContent>
-        </Card>
-        <section className="grid grid-cols-1 gap-3 min-[400px]:grid-cols-2 sm:grid-cols-3" aria-label="Pull totals">
-          {cards.slice(0, 3).map(card => <Card key={card.label} className="gap-2 px-4 py-5"><h2 className="text-sm text-muted-foreground">{card.label}</h2><p className="text-3xl font-semibold tabular-nums text-primary" data-testid="summary-value">{number.format(card.value)}</p></Card>)}
+        <section className="summary-panel" aria-label="Pull totals">
+          <div className="summary-primary"><h2 className="text-sm text-muted-foreground">{cards[0].label}</h2><p className="mt-1 text-5xl font-semibold tracking-tight tabular-nums text-primary sm:text-6xl" data-testid="summary-value">{number.format(cards[0].value)}</p><p className="mt-2 text-xs text-muted-foreground" data-testid="period-label" role="status">Totals for {range.label} · {range.rows.length} of {game.patches.length} patches</p></div>
+          <div className="summary-secondary grid grid-cols-2 gap-4">{cards.slice(1, 3).map(card => <div key={card.label}><h2 className="text-xs leading-relaxed text-muted-foreground">{card.label}</h2><p className="mt-1 text-2xl font-semibold tabular-nums sm:text-3xl" data-testid="summary-value">{number.format(card.value)}</p></div>)}</div>
         </section>
         <Card>
-          <CardHeader className="px-4 sm:px-6"><div className="flex flex-wrap items-center justify-between gap-3"><CardTitle><h2>{game.ui.chartTitle ?? 'Pulls per version'}</h2></CardTitle><Badge variant="secondary">{range.rows.length} patches</Badge></div><CardDescription>Updated: {updatedAt(game.generatedAt)}. WIP values are estimates and may change.</CardDescription></CardHeader>
+          <CardHeader className="px-4 sm:px-6"><div className="flex flex-wrap items-center justify-between gap-3"><CardTitle><h2>{game.ui.chartTitle ?? 'Pulls per version'}</h2></CardTitle><Badge variant="secondary">{range.rows.length} {range.rows.length === 1 ? 'patch' : 'patches'}</Badge></div><CardDescription>Updated: {updatedAt(game.generatedAt)}. WIP values are estimates and may change.</CardDescription></CardHeader>
           <CardContent className="min-w-0 px-4 sm:px-6">
             {!series.length ? <p className="py-8 text-muted-foreground">No patches available for this game yet.</p> : <>
               <DesktopChart key={game.id} series={series} title={game.ui.chartTitle} />
@@ -186,7 +195,7 @@ export default function App() {
           </CardContent>
         </Card>
         <section aria-label="Resource totals" className="grid grid-cols-1 gap-3 min-[400px]:grid-cols-2 sm:grid-cols-3">
-          {cards.slice(3).map(card => <Card key={card.label} className="relative gap-2 overflow-hidden px-4 py-5">{card.icon && <img src={card.icon} alt="" loading="lazy" className="absolute right-3 top-4 size-10 object-contain opacity-60" />}<h2 className={`text-sm text-muted-foreground ${card.icon ? 'pr-12' : ''}`}>{card.label}</h2><p className="text-2xl font-semibold tabular-nums">{number.format(card.value)}</p>{card.hint && <p className="break-words text-xs text-muted-foreground">{card.hint}</p>}</Card>)}
+          {cards.slice(3).map(card => <Card key={card.label} className="resource-card relative gap-2 overflow-hidden px-4 py-4">{card.icon && <img src={card.icon} alt="" loading="lazy" className="absolute right-3 top-4 size-10 object-contain opacity-60" />}<h2 className={`text-sm text-muted-foreground ${card.icon ? 'pr-12' : ''}`}>{card.label}</h2><p className="text-2xl font-semibold tabular-nums">{number.format(card.value)}</p>{card.hint && <p className="break-words text-xs text-muted-foreground">{card.hint}</p>}</Card>)}
         </section>
         <footer className="flex flex-wrap justify-between gap-3 border-t pt-4 text-xs text-muted-foreground"><p>Estimated income, not your personal pull history.</p><a className="inline-flex min-h-11 items-center gap-1 underline underline-offset-4" href={sources[index]} target="_blank" rel="noopener noreferrer">Source spreadsheet<ExternalLink className="size-3" /></a></footer>
       </main>}
