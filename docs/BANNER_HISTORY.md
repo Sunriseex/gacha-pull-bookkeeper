@@ -35,3 +35,11 @@ Cross-check archive character/phase rosters (PullDeck, PC Gamer, Icy Veins, Loot
 5. Extend the reviewed cutoffs in the coverage test after checking a new version. Income synchronization can continue to publish later versions with the explicit unreviewed fallback.
 
 The catalog is maintained separately from `*.generated.js`. Owner sync and scheduled income updates cannot erase reviewed entries.
+
+## Character portraits
+
+The banner cards use local 96×96 thumbnails displayed at 48×48, with one column on narrow phones and additional columns as space permits. Images load lazily with reserved dimensions. Missing or failed images show initials while preserving the character name and appearance label. Images are decorative to screen readers because the full name is adjacent.
+
+`src/data/character-icons.json` maps the exact game and character/form name to a local asset, the source page and original image URL. Images are game artwork belonging to the respective game publishers; they are not covered by this repository's code license. Source credits: [PullDeck](https://www.pulldeck.fyi/archive), [WuWaBuild](https://www.wuwabuild.com/resonators), [Genshin Build](https://www.genshin-build.com/characters), [LootBar](https://www.lootbar.com/blog/en/zenless-zone-zero-banner-schedule-history.html), and [U7BUY](https://www.u7buy.com/blog/zenless-zone-zero-3-2-banners/). The manifest records the specific source for each image.
+
+Assets are small SVG containers with embedded WebP thumbnails, without scripts, external references or fonts. The browser never contacts artwork providers. Keep images local, confirm the named character and alternate form against its source, and record provenance when adding an icon. Do not derive an icon URL from a display name at runtime or substitute another form. New characters without a mapped image receive the initials fallback until reviewed.

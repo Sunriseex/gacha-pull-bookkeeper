@@ -308,3 +308,31 @@ test('special banners keep character choices, third phases and ongoing collabora
   expect(width.content).toBeLessThanOrEqual(width.viewport + 1);
   await page.screenshot({ path: `test-results/${testInfo.project.name}-archive-banners.png`, fullPage: true });
 });
+
+test('character portraits load locally and failed images keep readable cards', async ({ page }, testInfo) => {
+  await page.goto('/');
+  await openSettings(page);
+  await choose(page, 'Patch range', 'One patch');
+  for (const game of games) {
+    await page.getByRole('button', { name: game, exact: true }).click();
+    if (!(await page.getByRole('combobox', { name: 'Patch range', exact: true }).textContent()).includes('One patch')) await choose(page, 'Patch range', 'One patch');
+    const history = page.getByTestId('banner-history').first();
+    const portraits = history.getByTestId('character-icon');
+    expect(await portraits.count()).toBeGreaterThan(0);
+    for (const portrait of await portraits.all()) {
+      await portrait.scrollIntoViewIfNeeded();
+      await expect.poll(() => portrait.evaluate(img => img.complete && img.naturalWidth > 0)).toBe(true);
+      await expect(portrait).toHaveAttribute('src', /^\/assets\/characters\//);
+    }
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  }
+  await page.screenshot({ path: `test-results/${testInfo.project.name}-range-portraits.png`, fullPage: true });
+  await page.route('**/assets/characters/**', route => route.fulfill({ status: 404, body: '' }));
+  await page.reload();
+  await openSettings(page);
+  const history = page.getByTestId('banner-history').first();
+  await history.scrollIntoViewIfNeeded();
+  await expect(history.getByTestId('character-icon-fallback').first()).toBeVisible();
+  await expect(history).toContainText('Robin · Summeretto');
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+});
