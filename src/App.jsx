@@ -126,9 +126,9 @@ export default function App() {
   const cards = cardsConfig(totals, game);
   const flags = [{ key: 'monthlySub', label: game.ui.monthlyPassLabel ?? 'Monthly Pass' }, ...(game.ui.optionalToggles ?? [])];
   const tierLabel = game.ui.battlePass.tiers.find(tier => tier.value === options.battlePassTier)?.label ?? 'F2P';
-  const enabledFlags = flags.filter(flag => options[flag.key]);
+  const extraCount = (game.ui.optionalToggles ?? []).filter(flag => options[flag.key]).length;
   const modeLabels = { latest5: 'Last 5 patches', latest10: 'Last 10 patches', all: 'All patches', custom: range.label };
-  const settingsSummary = [tierLabel, ...enabledFlags.map(flag => flag.label), modeLabels[range.selection.mode]].join(' · ');
+  const settingsSummary = [tierLabel, options.monthlySub && flags[0].label, extraCount && `+${extraCount} extras`, modeLabels[range.selection.mode]].filter(Boolean).join(' · ');
   const index = GAME_CATALOG.games.findIndex(item => item.id === game.id);
   useEffect(() => { document.title = `${game.title} Bookkeeper`; }, [game.title]);
   function selectGame(id) {

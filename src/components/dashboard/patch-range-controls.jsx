@@ -16,7 +16,7 @@ export function PatchRangeControls({ patches, selection, onChange }) {
     if (start > end) next[key === 'startId' ? 'endId' : 'startId'] = id;
     onChange(next);
   }
-  return <div className="grid gap-4 sm:grid-cols-3">
+  return <div className={`grid gap-3 ${selection.mode === 'custom' ? 'sm:grid-cols-3' : ''}`}>
     <div className="space-y-2"><Label htmlFor="patch-range">Patch range</Label>
       <Select value={selection.mode} onValueChange={changeMode} disabled={!patches.length}>
         <SelectTrigger id="patch-range" className="min-h-11 w-full"><SelectValue /></SelectTrigger>
