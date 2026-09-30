@@ -56,7 +56,10 @@
   button:not(:disabled), [role="switch"]:not(:disabled) { cursor: pointer; }
   a:focus-visible { outline: 2px solid var(--ring); outline-offset: 4px; }
 }
-.game-background { position: fixed; inset: 0; background-size: cover; background-position: center; opacity: .12; pointer-events: none; }
+/* Clip the full-viewport image to the visible area. Radix scroll locking may
+   change that area, but must not rescale or recenter the background image. */
+.game-background { position: fixed; inset: 0; overflow: hidden; opacity: .12; pointer-events: none; }
+.game-background-image { position: absolute; left: 0; top: 0; width: 100vw; height: 100%; background-size: cover; background-position: center; }
 .background-visible { opacity: .85; }
 .desktop-chart canvas { display: block; max-width: none; }
 .chart-scroll { width: 100%; overflow-x: auto; overscroll-behavior-x: contain; border-radius: .5rem; scrollbar-color: var(--primary) var(--muted); }
