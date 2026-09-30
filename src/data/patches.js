@@ -816,7 +816,7 @@ export const GAME_CATALOG = {
         chartTitle: "Character pulls per version",
         pullSummaryLabel: "Total Character Pulls (No Basic)",
         monthlyPassLabel: "Monthly Pass",
-        backgroundImage: "./assets/backgrounds/endfield_background.png",
+        backgroundImage: "./assets/backgrounds/endfield_background.webp",
         ownerUid: "6639599843",
         battlePass: {
           label: "Battle Pass",
@@ -892,7 +892,7 @@ export const GAME_CATALOG = {
         chartTitle: "Event pulls per version",
         pullSummaryLabel: "Total Event Pulls (No Lustrous)",
         monthlyPassLabel: "Lunite Subscription",
-        backgroundImage: "./assets/backgrounds/wuwa_background.jpg",
+        backgroundImage: "./assets/backgrounds/wuwa_background.webp",
         ownerUid: "605020180",
         battlePass: {
           label: "Pioneer Podcast",
@@ -961,7 +961,7 @@ export const GAME_CATALOG = {
         chartTitle: "Exclusive pulls per version",
         pullSummaryLabel: "Total Exclusive Pulls",
         monthlyPassLabel: "Inter-Knot Membership",
-        backgroundImage: "./assets/backgrounds/zzz_background.jpg",
+        backgroundImage: "./assets/backgrounds/zzz_background.webp",
         battlePass: {
           label: "Battle Pass",
           tiers: [
@@ -1027,7 +1027,7 @@ export const GAME_CATALOG = {
         chartTitle: "Wishes per version",
         pullSummaryLabel: "Total Wishes (No Acquaint)",
         monthlyPassLabel: "Welkin Moon",
-        backgroundImage: "./assets/backgrounds/genshin_background.jpg",
+        backgroundImage: "./assets/backgrounds/genshin_background.webp",
         battlePass: {
           label: "Battle Pass",
           tiers: [
@@ -1093,7 +1093,7 @@ export const GAME_CATALOG = {
         chartTitle: "Limited pulls per version",
         pullSummaryLabel: "Total Limited Pulls (No Star Rail Pass)",
         monthlyPassLabel: "Supply Pass",
-        backgroundImage: "./assets/backgrounds/hsr_background.jpeg",
+        backgroundImage: "./assets/backgrounds/hsr_background.webp",
         battlePass: {
           label: "Nameless Honor",
           tiers: [
@@ -1143,14 +1143,17 @@ const generatedFiles = {
 // Validate the complete replacement before changing the visible catalog.
 export const refreshGeneratedData = async (
   gameIds,
-  load = (url) => import(url),
+  load = (url) => import(/* @vite-ignore */ url),
 ) => {
   const replacements = new Map();
   const version = `${Date.now()}-${Math.random()}`;
   await Promise.all([...new Set(gameIds)].map(async (id) => {
     const base = baseGames.find((game) => game.id === id);
     if (!base) throw new Error(`Unknown game: ${id}`);
-    const url = new URL(`./${generatedFiles[id]}`, import.meta.url);
+    const moduleUrl = import.meta.url;
+    const url = typeof document === "undefined"
+      ? new URL(`./${generatedFiles[id]}`, moduleUrl)
+      : new URL(`./src/data/${generatedFiles[id]}`, document.baseURI);
     url.searchParams.set("v", version);
     const data = await load(url.href);
     if (!Array.isArray(data.GENERATED_PATCHES) || !data.GENERATED_PATCHES.length) {

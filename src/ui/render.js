@@ -103,7 +103,7 @@ const getResourceIcon = (game, key) => {
   return ICON_SETS[gameId]?.[key] ?? null;
 };
 
-const cardsConfig = (totals, game) => {
+export const cardsConfig = (totals, game) => {
   const economy = totals?.economy ?? resolveGameEconomy(game);
   const resources = totals?.resources ?? {};
 
@@ -181,31 +181,4 @@ const cardsConfig = (totals, game) => {
     },
     { label: "Patch Count", value: totals.patchCount },
   ].filter((card) => !card.hidden);
-};
-
-export const renderTotals = (target, totals, game) => {
-  target.innerHTML = "";
-  for (const cardConfig of cardsConfig(totals, game)) {
-    const { label, value, hint, icon, className } = cardConfig;
-    const card = document.createElement("article");
-    card.className = `result-card${className ? ` ${className}` : ""}${
-      icon ? " has-icon" : ""
-    }`;
-    if (icon) {
-      const absoluteIconUrl = new URL(icon, window.location.href).href;
-      card.style.setProperty("--card-icon", `url("${absoluteIconUrl}")`);
-    }
-    const labelNode = document.createElement("strong");
-    labelNode.textContent = label;
-    const valueNode = document.createElement("span");
-    valueNode.textContent = formatSmart(value);
-    card.appendChild(labelNode);
-    card.appendChild(valueNode);
-    if (hint) {
-      const hintNode = document.createElement("small");
-      hintNode.textContent = hint;
-      card.appendChild(hintNode);
-    }
-    target.appendChild(card);
-  }
 };

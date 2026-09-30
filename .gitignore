@@ -39,3 +39,8 @@ tools/patchsync/tools/
 *.generated.js.lock/
 .patchsync-*.tmp
 sync-logs/
+
+# Frontend dependencies and browser test artifacts
+node_modules/
+playwright-report/
+test-results/
