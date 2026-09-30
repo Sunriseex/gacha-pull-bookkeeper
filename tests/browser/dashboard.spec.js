@@ -1,10 +1,16 @@
 import { test, expect } from '@playwright/test';
+async function openSettings(page) {
+  const edit = page.getByRole('button', { name: 'Edit settings', exact: true });
+  if (await edit.isVisible()) await edit.click();
+}
+
 const games = ['Arknights: Endfield', 'Wuthering Waves', 'Zenless Zone Zero', 'Genshin Impact', 'Honkai: Star Rail'];
 
 test('every game renders without overflow or runtime errors', async ({ page }, testInfo) => {
   const errors = [];
   page.on('pageerror', error => errors.push(error.message));
   await page.goto('/');
+  await openSettings(page);
   for (const title of games) {
     await page.getByRole('button', { name: title, exact: true }).click();
     await expect(page.getByRole('heading', { name: title, exact: true })).toBeVisible();
@@ -29,6 +35,7 @@ test('every game renders without overflow or runtime errors', async ({ page }, t
 
 test('settings update totals and survive reload separately per game', async ({ page }) => {
   await page.goto('/');
+  await openSettings(page);
   const monthly = page.getByRole('switch').first();
   const previous = await page.getByTestId('summary-value').first().textContent();
   const original = await monthly.getAttribute('aria-checked');
@@ -37,6 +44,7 @@ test('settings update totals and survive reload separately per game', async ({ p
   expect(next).not.toBe(original);
   expect(await page.getByTestId('summary-value').first().textContent()).not.toBe(previous);
   await page.reload();
+  await openSettings(page);
   await expect(page.getByRole('switch').first()).toHaveAttribute('aria-checked', next);
   await page.getByRole('button', { name: 'Wuthering Waves', exact: true }).click();
   await page.getByRole('button', { name: 'Arknights: Endfield', exact: true }).click();
@@ -44,12 +52,14 @@ test('settings update totals and survive reload separately per game', async ({ p
   await page.getByRole('combobox', { name: 'Battle Pass', exact: true }).click();
   await page.getByRole('option', { name: 'Basic Supply', exact: true }).click();
   await page.reload();
+  await openSettings(page);
   await expect(page.getByRole('combobox', { name: 'Battle Pass', exact: true })).toContainText('Basic Supply');
 });
 
 test('blocked storage does not prevent startup or interaction', async ({ page }) => {
   await page.addInitScript(() => Object.defineProperty(window, 'localStorage', { get() { throw new DOMException('Blocked', 'SecurityError'); } }));
   await page.goto('/');
+  await openSettings(page);
   await expect(page.getByRole('heading', { name: 'Arknights: Endfield', exact: true })).toBeVisible();
   await page.getByRole('switch').first().click();
   await page.getByRole('button', { name: 'Genshin Impact', exact: true }).click();
@@ -58,6 +68,7 @@ test('blocked storage does not prevent startup or interaction', async ({ page })
 
 test('hide UI removes controls from focus and restores dashboard', async ({ page }) => {
   await page.goto('/');
+  await openSettings(page);
   await page.getByRole('button', { name: 'Hide UI' }).click();
   await expect(page.getByRole('main')).toHaveCount(0);
   await page.getByRole('button', { name: 'Show UI' }).click();
@@ -78,6 +89,7 @@ test('public deployment hides owner sync', async ({ page }) => {
 test('token dialog can cancel and reopen without retaining secret', async ({ page }) => {
   await page.route('http://127.0.0.1:8787/sync-all', route => route.fulfill({ status: 401, json: { ok: false, message: 'Unauthorized' } }));
   await page.goto('/');
+  await openSettings(page);
   await page.getByRole('button', { name: 'Sync Sheets' }).click();
   await page.getByLabel('Token', { exact: true }).fill('not-a-real-secret');
   await page.keyboard.press('Escape');
@@ -98,6 +110,7 @@ test('authorized sync refreshes stable generated modules in the production build
   });
   await page.route('**/src/data/endfield.generated.js?v=*', route => route.fulfill({ contentType: 'text/javascript', body: module }));
   await page.goto('/');
+  await openSettings(page);
   await page.getByRole('button', { name: 'Sync Sheets' }).click();
   await page.getByLabel('Token', { exact: true }).fill('test-token');
   await page.getByRole('button', { name: 'Save and sync' }).click();
@@ -117,6 +130,7 @@ test('range filters all views, supports single patch, and saves separately per g
   const game = GAME_CATALOG.games.find(game => game.id === 'genshin-impact');
   const format = new Intl.NumberFormat('en', { maximumFractionDigits: 1 });
   await page.goto('/');
+  await openSettings(page);
   await page.getByRole('button', { name: 'Genshin Impact', exact: true }).click();
   await expect(page.getByRole('combobox', { name: 'Patch range', exact: true })).toContainText('Last 10 patches');
   await expect(page.getByTestId('period-label')).toContainText(`10 of ${game.patches.length} patches`);
@@ -134,6 +148,7 @@ test('range filters all views, supports single patch, and saves separately per g
   await choose(page, 'To patch', '1.2');
   await expect(page.getByTestId('period-label')).toContainText('Totals for 1.0 – 1.2 · 3 of');
   await page.reload();
+  await openSettings(page);
   await expect(page.getByTestId('period-label')).toContainText('Totals for 1.0 – 1.2 · 3 of');
   await page.getByRole('button', { name: 'Honkai: Star Rail', exact: true }).click();
   await expect(page.getByRole('combobox', { name: 'Patch range', exact: true })).toContainText('Last 10 patches');
@@ -147,6 +162,7 @@ test('range filters all views, supports single patch, and saves separately per g
 
 test('full history scrolls only the chart and switching ranges restores scroll position', async ({ page }, testInfo) => {
   await page.goto('/');
+  await openSettings(page);
   await page.getByRole('button', { name: 'Genshin Impact', exact: true }).click();
   await choose(page, 'Patch range', 'All patches');
   const { GAME_CATALOG } = await import('../../src/data/patches.js');
@@ -171,4 +187,30 @@ test('full history scrolls only the chart and switching ranges restores scroll p
     await expect.poll(() => scroll.evaluate(el => el.scrollLeft)).toBe(0);
   }
   await page.screenshot({ path: `test-results/${testInfo.project.name}-range.png`, fullPage: true });
+});
+
+
+test('compact settings keep mobile totals visible and preserve edits after closing', async ({ page }, testInfo) => {
+  await page.goto('/');
+  const mobile = testInfo.project.name.startsWith('mobile');
+  const edit = page.getByRole('button', { name: 'Edit settings', exact: true });
+  if (mobile) {
+    await expect(edit).toBeVisible();
+    await expect(page.getByRole('combobox', { name: 'Battle Pass', exact: true })).toBeHidden();
+    await expect(page.getByTestId('summary-value').first()).toBeInViewport();
+    await edit.click();
+  } else await expect(edit).toBeHidden();
+  const previous = await page.getByTestId('summary-value').first().textContent();
+  await page.getByRole('switch').first().click();
+  const next = await page.getByTestId('summary-value').first().textContent();
+  expect(next).not.toBe(previous);
+  if (mobile) {
+    await page.getByRole('button', { name: 'Done', exact: true }).click();
+    await expect(edit).toHaveAttribute('aria-expanded', 'false');
+    await expect(page.getByRole('switch').first()).toBeHidden();
+    await expect(page.getByTestId('settings-summary')).toContainText('Monthly Pass');
+    await expect(page.getByTestId('summary-value').first()).toHaveText(next);
+  }
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  await page.screenshot({ path: `test-results/${testInfo.project.name}-range-style.png`, fullPage: true });
 });
