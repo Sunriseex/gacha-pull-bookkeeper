@@ -1,3 +1,4 @@
+import { DEFAULT_PATCH_RANGE, selectPatchRange } from '../domain/patch-range.js';
 // Storage is optional: blocked cookies/quota errors must never prevent calculation.
 export function readPreference(key, fallback, storage) {
   try { return (storage ?? globalThis.localStorage).getItem(key) ?? fallback; }
@@ -19,4 +20,11 @@ export function readOptions(game, storage) {
     }
   } catch { /* malformed preferences fall back to defaults */ }
   return defaults;
+}
+
+export function readPatchRange(game, storage) {
+  try {
+    const saved = JSON.parse(readPreference(`bookkeeper:range:${game.id}`, 'null', storage));
+    return selectPatchRange(game.patches, saved ?? DEFAULT_PATCH_RANGE).selection;
+  } catch { return { ...DEFAULT_PATCH_RANGE }; }
 }

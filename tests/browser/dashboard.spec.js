@@ -41,10 +41,10 @@ test('settings update totals and survive reload separately per game', async ({ p
   await page.getByRole('button', { name: 'Wuthering Waves', exact: true }).click();
   await page.getByRole('button', { name: 'Arknights: Endfield', exact: true }).click();
   await expect(page.getByRole('switch').first()).toHaveAttribute('aria-checked', next);
-  await page.getByRole('combobox').click();
+  await page.getByRole('combobox', { name: 'Battle Pass', exact: true }).click();
   await page.getByRole('option', { name: 'Basic Supply', exact: true }).click();
   await page.reload();
-  await expect(page.getByRole('combobox')).toContainText('Basic Supply');
+  await expect(page.getByRole('combobox', { name: 'Battle Pass', exact: true })).toContainText('Basic Supply');
 });
 
 test('blocked storage does not prevent startup or interaction', async ({ page }) => {
@@ -103,4 +103,69 @@ test('authorized sync refreshes stable generated modules in the production build
   await page.getByRole('button', { name: 'Save and sync' }).click();
   await expect(page.getByText(/Updated: Sep 30, 2026/)).toBeVisible();
   await expect(page.getByRole('button', { name: 'Sync Sheets' })).toBeEnabled();
+});
+
+async function choose(page, label, option) {
+  await page.getByRole('combobox', { name: label, exact: true }).click();
+  await page.getByRole('option', { name: option, exact: true }).click();
+}
+
+test('range filters all views, supports single patch, and saves separately per game', async ({ page }, testInfo) => {
+  const { GAME_CATALOG } = await import('../../src/data/patches.js');
+  const { aggregateTotals } = await import('../../src/domain/calculation.js');
+  const { cardsConfig } = await import('../../src/ui/render.js');
+  const game = GAME_CATALOG.games.find(game => game.id === 'genshin-impact');
+  const format = new Intl.NumberFormat('en', { maximumFractionDigits: 1 });
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Genshin Impact', exact: true }).click();
+  await expect(page.getByRole('combobox', { name: 'Patch range', exact: true })).toContainText('Last 10 patches');
+  await expect(page.getByTestId('period-label')).toContainText(`10 of ${game.patches.length} patches`);
+  await choose(page, 'Patch range', 'Last 5 patches');
+  await expect(page.getByTestId('period-label')).toContainText(`5 of ${game.patches.length} patches`);
+  const expected = cardsConfig(aggregateTotals(game.patches.slice(-5), game.defaultOptions, game), game).slice(0, 3).map(card => format.format(card.value));
+  await expect(page.getByTestId('summary-value')).toHaveText(expected);
+  if (testInfo.project.name.startsWith('mobile')) await expect(page.locator('.mobile-breakdown [data-slot="accordion-item"]')).toHaveCount(5);
+  else {
+    await page.getByRole('button', { name: 'Show patch details' }).click();
+    await expect(page.locator('#patch-details [data-slot="accordion-item"]')).toHaveCount(5);
+  }
+  await choose(page, 'Patch range', 'Custom range');
+  await choose(page, 'From patch', '1.0');
+  await choose(page, 'To patch', '1.2');
+  await expect(page.getByTestId('period-label')).toContainText('Totals for 1.0 – 1.2 · 3 of');
+  await page.reload();
+  await expect(page.getByTestId('period-label')).toContainText('Totals for 1.0 – 1.2 · 3 of');
+  await page.getByRole('button', { name: 'Honkai: Star Rail', exact: true }).click();
+  await expect(page.getByRole('combobox', { name: 'Patch range', exact: true })).toContainText('Last 10 patches');
+  await page.getByRole('button', { name: 'Genshin Impact', exact: true }).click();
+  await expect(page.getByTestId('period-label')).toContainText('Totals for 1.0 – 1.2 · 3 of');
+  await choose(page, 'From patch', '1.3');
+  await expect(page.getByTestId('period-label')).toContainText('Totals for 1.3 · 1 of');
+  await choose(page, 'To patch', '1.1');
+  await expect(page.getByTestId('period-label')).toContainText('Totals for 1.1 · 1 of');
+});
+
+test('full history scrolls only the chart and switching ranges restores scroll position', async ({ page }, testInfo) => {
+  await page.goto('/');
+  await page.getByRole('button', { name: 'Genshin Impact', exact: true }).click();
+  await choose(page, 'Patch range', 'All patches');
+  const { GAME_CATALOG } = await import('../../src/data/patches.js');
+  const count = GAME_CATALOG.games.find(game => game.id === 'genshin-impact').patches.length;
+  expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+  if (testInfo.project.name.startsWith('mobile')) {
+    await expect(page.locator('.mobile-breakdown [data-slot="accordion-item"]')).toHaveCount(count);
+  } else {
+    const scroll = page.getByRole('region', { name: 'Patch chart, horizontally scrollable' });
+    const size = await scroll.evaluate(el => ({ width: el.clientWidth, scrollWidth: el.scrollWidth, canvasWidth: el.querySelector('canvas').clientWidth }));
+    expect(size.scrollWidth).toBeGreaterThan(size.width);
+    expect((size.canvasWidth - 76) / count).toBeGreaterThanOrEqual(64);
+    await scroll.focus();
+    await page.keyboard.press('ArrowRight');
+    await expect.poll(() => scroll.evaluate(el => el.scrollLeft)).toBeGreaterThan(0);
+    await scroll.evaluate(el => { el.scrollLeft = el.scrollWidth; });
+    await page.screenshot({ path: `test-results/${testInfo.project.name}-range-full.png`, fullPage: true });
+    await choose(page, 'Patch range', 'Last 5 patches');
+    await expect.poll(() => scroll.evaluate(el => el.scrollLeft)).toBe(0);
+  }
+  await page.screenshot({ path: `test-results/${testInfo.project.name}-range.png`, fullPage: true });
 });

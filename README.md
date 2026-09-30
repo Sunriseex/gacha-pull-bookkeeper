@@ -33,6 +33,8 @@ Open / Открой: `http://127.0.0.1:5173`
 - UI theme uses Catppuccin Mocha palette (including chart colors).
 - `npm run build` creates a static `dist/` site, including original assets and stable generated-data modules.
 - `npm run preview` serves the production build. There is no backend required for public visitors.
+- Patch range defaults to the latest 10 patches. Choose the latest 5, all history or an inclusive custom range; chart, source details and every total use the same period. Ranges are saved per game.
+- Desktop charts use a minimum 64px patch slot and horizontal scrolling for long histories, with the legend below.
 - Mobile devices get expandable per-patch source breakdowns; desktop has the canvas chart plus keyboard-accessible details.
 - Income settings are saved independently for each game in this browser. Restricted storage falls back to in-memory settings.
 - Add UI components with `npx shadcn@latest add <component>`.

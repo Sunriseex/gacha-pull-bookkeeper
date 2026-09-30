@@ -58,7 +58,9 @@
 }
 .game-background { position: fixed; inset: 0; background-size: cover; background-position: center; opacity: .18; pointer-events: none; }
 .background-visible { opacity: .85; }
-.desktop-chart canvas { display: block; max-width: 100%; }
+.desktop-chart canvas { display: block; max-width: none; }
+.chart-scroll { width: 100%; overflow-x: auto; overscroll-behavior-x: contain; border-radius: .5rem; scrollbar-color: var(--primary) var(--muted); }
+.chart-scroll:focus-visible { outline: 2px solid var(--ring); outline-offset: 2px; }
 .mobile-breakdown { display: none; }
 .touch-switch { min-width: 44px; height: 26px; }
 .touch-switch::before { content: ''; position: absolute; width: 44px; height: 44px; }

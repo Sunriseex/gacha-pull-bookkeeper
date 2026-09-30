@@ -3,14 +3,14 @@ const chartStateMap = new WeakMap();
 const applyCanvasWidthForSeries = (canvas) => {
   const containerWidth =
     canvas.parentElement?.clientWidth || canvas.clientWidth || canvas.width || 1200;
-  canvas.style.width = `${Math.round(containerWidth)}px`;
+  const count = getState(canvas).series.length;
+  canvas.style.width = `${Math.round(Math.max(containerWidth, 76 + count * 64))}px`;
 };
 
 const fitCanvasForDpr = (canvas) => {
   const dpr = Math.min(window.devicePixelRatio || 1, 2);
   const logicalWidth = canvas.clientWidth || canvas.width;
-  const labels = new Set(getState(canvas).series.flatMap(item => item.segments.map(segment => segment.label)));
-  const logicalHeight = logicalWidth < 860 ? 420 + Math.max(100, labels.size * 20 + 16) : Math.max(420, labels.size * 20 + 70);
+  const logicalHeight = 420;
   canvas.style.height = `${logicalHeight}px`;
   canvas.width = Math.floor(logicalWidth * dpr);
   canvas.height = Math.floor(logicalHeight * dpr);
@@ -181,7 +181,6 @@ const getState = (canvas) => {
       hoverSourceLabel: null,
       hoverInfo: null,
       segmentRegions: [],
-      legendRegions: [],
       series: [],
       listenersBound: false,
       lastSignature: "",
@@ -230,23 +229,6 @@ const updateHover = (canvas, pointX, pointY) => {
     return;
   }
 
-  const legend = matchRegion(pointX, pointY, state.legendRegions);
-  if (legend) {
-    const changed = state.hoverSourceLabel !== legend.label || state.hoverSegmentKey !== null;
-    if (!changed) {
-      return;
-    }
-    state.hoverSegmentKey = null;
-    state.hoverSourceLabel = legend.label;
-    state.hoverInfo = {
-      patchLabel: "All patches",
-      label: legend.label,
-      value: legend.totalValue,
-    };
-    renderPatchChart(canvas, state.series, state, 1);
-    return;
-  }
-
   clearHover(canvas);
 };
 
@@ -256,6 +238,7 @@ const bindHoverListeners = (canvas) => {
     return;
   }
   state.listenersBound = true;
+  canvas.parentElement?.addEventListener("scroll", () => clearHover(canvas), { passive: true });
 
   canvas.addEventListener("mousemove", (event) => {
     const rect = canvas.getBoundingClientRect();
@@ -292,24 +275,30 @@ const bindHoverListeners = (canvas) => {
   });
 };
 
-const renderHoverLabel = (ctx, width, hoverInfo) => {
+const renderHoverLabel = (ctx, width, hoverInfo, scrollLeft = 0, viewportWidth = width) => {
   if (!hoverInfo) {
     return;
   }
+  ctx.textAlign = "left";
   const text = `${hoverInfo.patchLabel} - ${hoverInfo.label}: ${formatValue(hoverInfo.value)}`;
   const padX = 9;
   const boxH = 24;
   ctx.font = `13px ${FONT_STACK}`;
   const textW = ctx.measureText(text).width;
-  const boxW = Math.min(width - 16, textW + padX * 2);
-  const boxX = 8;
+  const boxW = Math.min(viewportWidth - 16, textW + padX * 2);
+  const boxX = scrollLeft + 8;
   const boxY = 8;
   ctx.fillStyle = "rgba(17, 17, 27, 0.92)";
   ctx.fillRect(boxX, boxY, boxW, boxH);
   ctx.strokeStyle = "rgba(203, 166, 247, 0.8)";
   ctx.strokeRect(boxX, boxY, boxW, boxH);
   ctx.fillStyle = "#cdd6f4";
+  ctx.save();
+  ctx.beginPath();
+  ctx.rect(boxX, boxY, boxW, boxH);
+  ctx.clip();
   ctx.fillText(text, boxX + padX, boxY + 16);
+  ctx.restore();
 };
 
 const renderValueLabels = (ctx, labels, minY) => {
@@ -328,7 +317,7 @@ const renderValueLabels = (ctx, labels, minY) => {
     const textWidth = ctx.measureText(label.text).width;
     const halfWidth = textWidth / 2 + 4;
 
-    let laneIndex = laneOffsets.length - 1;
+    let laneIndex = -1;
     for (let i = 0; i < laneOffsets.length; i += 1) {
       if (label.x - halfWidth > laneRightEdge[i]) {
         laneIndex = i;
@@ -336,6 +325,7 @@ const renderValueLabels = (ctx, labels, minY) => {
       }
     }
 
+    if (laneIndex < 0) continue;
     const targetY = Math.max(minY, label.y + laneOffsets[laneIndex]);
     if (targetY < label.barTop - 2) {
       ctx.strokeStyle = "rgba(147, 153, 178, 0.45)";
@@ -366,7 +356,6 @@ const renderPatchChart = (canvas, series, state, progress = 1) => {
   const { ctx, width, height } = fitCanvasForDpr(canvas);
   ctx.clearRect(0, 0, width, height);
   state.segmentRegions = [];
-  state.legendRegions = [];
   state.series = series;
 
   if (!series.length) {
@@ -378,24 +367,7 @@ const renderPatchChart = (canvas, series, state, progress = 1) => {
 
   const eased = easeOutCubic(progress);
 
-  const allLabels = [];
-  for (const patch of series) {
-    for (const segment of patch.segments) {
-      if (!allLabels.includes(segment.label)) {
-        allLabels.push(segment.label);
-      }
-    }
-  }
-
-  const desktopLegend = width >= 860;
-  const legendWidth = desktopLegend ? 260 : 0;
-  const legendHeight = desktopLegend ? 0 : Math.max(100, allLabels.length * 20 + 16);
-  const pad = {
-    top: 48,
-    right: 20 + legendWidth,
-    bottom: 78 + legendHeight,
-    left: 52,
-  };
+  const pad = { top: 48, right: 24, bottom: 60, left: 52 };
   const chartW = width - pad.left - pad.right;
   const chartH = height - pad.top - pad.bottom;
   const maxValue = Math.max(...series.map((s) => s.total), 1);
@@ -478,7 +450,7 @@ const renderPatchChart = (canvas, series, state, progress = 1) => {
     });
 
     ctx.textAlign = "center";
-    const xLabelY = pad.top + chartH + 20 + (patchIdx % 2) * 11;
+    const xLabelY = pad.top + chartH + 20;
     const patchLabel = splitPatchLabel(item.label);
 
     ctx.fillStyle = "#cdd6f4";
@@ -511,36 +483,7 @@ const renderPatchChart = (canvas, series, state, progress = 1) => {
 
   renderValueLabels(ctx, valueLabels, pad.top + 10);
 
-  const totalsByLabel = allLabels.reduce((acc, label) => {
-    acc[label] = series.reduce((sum, item) => {
-      const seg = item.segments.find((s) => s.label === label);
-      return sum + (seg?.value ?? 0);
-    }, 0);
-    return acc;
-  }, {});
-
-  const legendX = desktopLegend ? width - legendWidth + 12 : pad.left;
-  const legendY = desktopLegend ? pad.top + 2 : height - legendHeight + 10;
-  ctx.textAlign = "left";
-  ctx.font = `14px ${FONT_STACK}`;
-  allLabels.forEach((label, idx) => {
-    const y = legendY + idx * 20;
-    const isHovered = state.hoverSourceLabel === label;
-    ctx.fillStyle = sourceColor(label);
-    ctx.fillRect(legendX, y, 12, 12);
-    ctx.fillStyle = isHovered ? "#f5e0dc" : "#bac2de";
-    ctx.fillText(label, legendX + 20, y + 11);
-    state.legendRegions.push({
-      label,
-      totalValue: totalsByLabel[label],
-      x: legendX,
-      y,
-      w: desktopLegend ? legendWidth - 20 : Math.max(140, ctx.measureText(label).width + 24),
-      h: 14,
-    });
-  });
-
-  renderHoverLabel(ctx, width, state.hoverInfo);
+  renderHoverLabel(ctx, width, state.hoverInfo, canvas.parentElement?.scrollLeft || 0, canvas.parentElement?.clientWidth || width);
   ctx.textAlign = "left";
 };
 
@@ -572,10 +515,13 @@ export const resizeChart = (canvas) => {
 };
 
 export const drawPatchChart = (canvas, series) => {
-  applyCanvasWidthForSeries(canvas);
-  bindHoverListeners(canvas);
   const state = getState(canvas);
   state.series = series;
+  state.hoverSegmentKey = null;
+  state.hoverSourceLabel = null;
+  state.hoverInfo = null;
+  applyCanvasWidthForSeries(canvas);
+  bindHoverListeners(canvas);
   if (window.matchMedia("(max-width: 760px)").matches) {
     if (state.animationFrameId) cancelAnimationFrame(state.animationFrameId);
     state.animationFrameId = null;
@@ -595,5 +541,19 @@ export const drawPatchChart = (canvas, series) => {
 export const stopChartAnimation = (canvas) => {
   const state = chartStateMap.get(canvas);
   if (state?.animationFrameId) cancelAnimationFrame(state.animationFrameId);
-  if (state) state.animationFrameId = null;
+  if (state?.hoverFrameId) cancelAnimationFrame(state.hoverFrameId);
+  if (state) { state.animationFrameId = null; state.hoverFrameId = null; state.pendingHoverPoint = null; }
+};
+
+export const highlightChartSource = (canvas, label) => {
+  if (!canvas || window.matchMedia("(max-width: 760px)").matches) return;
+  const state = getState(canvas);
+  state.hoverSourceLabel = label;
+  state.hoverSegmentKey = null;
+  state.hoverInfo = label ? {
+    patchLabel: "Selected period",
+    label,
+    value: state.series.reduce((sum, item) => sum + item.segments.filter(segment => segment.label === label).reduce((value, segment) => value + segment.value, 0), 0),
+  } : null;
+  renderPatchChart(canvas, state.series, state, 1);
 };

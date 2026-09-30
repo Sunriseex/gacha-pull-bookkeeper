@@ -14,9 +14,11 @@ import { Toaster } from '@/components/ui/sonner';
 import { DEFAULT_GAME_ID, GAME_CATALOG, getGameById } from './data/patches.js';
 import { aggregateTotals, chartSeries } from './domain/calculation.js';
 import { cardsConfig } from './ui/render.js';
-import { drawPatchChart, resizeChart, stopChartAnimation, sourceColor } from './ui/chart.js';
+import { drawPatchChart, resizeChart, stopChartAnimation, highlightChartSource, sourceColor } from './ui/chart.js';
 import { isLocalSyncPage } from './ui/sync.js';
-import { readPreference, writePreference, readOptions } from './lib/preferences.js';
+import { readPreference, writePreference, readOptions, readPatchRange } from './lib/preferences.js';
+import { selectPatchRange } from './domain/patch-range.js';
+import { PatchRangeControls } from './components/dashboard/patch-range-controls.jsx';
 import { syncGames } from './lib/patchsync.js';
 
 const number = new Intl.NumberFormat('en', { maximumFractionDigits: 1 });
@@ -52,6 +54,7 @@ function DesktopChart({ series, title }) {
   const canvas = useRef(null);
   useEffect(() => {
     const element = canvas.current;
+    element.parentElement.scrollLeft = 0;
     drawPatchChart(element, series);
     const observer = new ResizeObserver(() => resizeChart(element));
     observer.observe(element.parentElement);
@@ -60,7 +63,16 @@ function DesktopChart({ series, title }) {
     media.addEventListener('change', resize);
     return () => { observer.disconnect(); media.removeEventListener('change', resize); stopChartAnimation(element); };
   }, [series]);
-  return <div className="desktop-chart min-w-0"><canvas ref={canvas} width="1200" height="420" role="img" aria-label={`${title}. Numeric values are available in Patch details below.`} /></div>;
+  const labels = [...new Set(series.flatMap(item => item.segments.map(segment => segment.label)))];
+  return <div className="desktop-chart min-w-0">
+    <p id="chart-scroll-hint" className="mb-2 text-xs text-muted-foreground">Scroll horizontally when the selected range is wider than the chart.</p>
+    <div className="chart-scroll" role="region" aria-label="Patch chart, horizontally scrollable" aria-describedby="chart-scroll-hint" tabIndex={0}>
+      <canvas ref={canvas} width="1200" height="420" role="img" aria-label={`${title}. Numeric values are available in Patch details below.`} />
+    </div>
+    <ul className="chart-legend my-4 flex flex-wrap gap-x-5 gap-y-2 text-sm text-muted-foreground" aria-label="Chart sources">
+      {labels.map(label => <li key={label}><button type="button" className="flex min-h-11 items-center gap-2 rounded px-1 text-left hover:text-foreground focus-visible:outline-2 focus-visible:outline-ring" onMouseEnter={() => highlightChartSource(canvas.current, label)} onMouseLeave={() => highlightChartSource(canvas.current, null)} onFocus={() => highlightChartSource(canvas.current, label)} onBlur={() => highlightChartSource(canvas.current, null)}><span className="size-3 shrink-0 rounded-sm" style={{ backgroundColor: sourceColor(label) }} aria-hidden="true" />{label}</button></li>)}
+    </ul>
+  </div>;
 }
 
 function SyncControl({ onRefresh }) {
@@ -98,13 +110,15 @@ function SyncControl({ onRefresh }) {
 export default function App() {
   const [gameId, setGameId] = useState(() => getGameById(readPreference('bookkeeper:selectedGameId', DEFAULT_GAME_ID)).id);
   const [optionsByGame, setOptionsByGame] = useState(() => Object.fromEntries(GAME_CATALOG.games.map(game => [game.id, readOptions(game)])));
+  const [rangesByGame, setRangesByGame] = useState(() => Object.fromEntries(GAME_CATALOG.games.map(game => [game.id, readPatchRange(game)])));
   const [revision, setRevision] = useState(0);
   const [hidden, setHidden] = useState(false);
   const [detailsOpen, setDetailsOpen] = useState(false);
   const game = getGameById(gameId);
   const options = optionsByGame[game.id];
-  const totals = useMemo(() => aggregateTotals(game.patches, options, game), [game, options, revision]);
-  const series = useMemo(() => chartSeries(game.patches, options, game), [game, options, revision]);
+  const range = useMemo(() => selectPatchRange(game.patches, rangesByGame[game.id]), [game, rangesByGame, revision]);
+  const totals = useMemo(() => aggregateTotals(range.rows, options, game), [range, options, game]);
+  const series = useMemo(() => chartSeries(range.rows, options, game), [range, options, game]);
   const cards = cardsConfig(totals, game);
   const index = GAME_CATALOG.games.findIndex(item => item.id === game.id);
   useEffect(() => { document.title = `${game.title} Bookkeeper`; }, [game.title]);
@@ -115,6 +129,10 @@ export default function App() {
     const next = { ...options, [key]: value };
     setOptionsByGame(current => ({ ...current, [game.id]: next }));
     writePreference(`bookkeeper:options:${game.id}`, JSON.stringify(next));
+  }
+  function updateRange(selection) {
+    setRangesByGame(current => ({ ...current, [game.id]: selection }));
+    writePreference(`bookkeeper:range:${game.id}`, JSON.stringify(selection));
   }
   async function copyUid() {
     try { await navigator.clipboard.writeText(game.ui.ownerUid); toast.success('UID copied'); }
@@ -145,14 +163,20 @@ export default function App() {
             {[{ key: 'monthlySub', label: game.ui.monthlyPassLabel ?? 'Monthly Pass' }, ...(game.ui.optionalToggles ?? [])].map(flag => <div key={flag.key} className="flex min-h-14 items-center justify-between gap-4 rounded-lg border p-3"><Label htmlFor={`option-${flag.key}`} className="flex-1 cursor-pointer leading-relaxed">{flag.label}</Label><Switch id={`option-${flag.key}`} checked={Boolean(options[flag.key])} onCheckedChange={value => updateOption(flag.key, value)} className="touch-switch" /></div>)}
           </CardContent>
         </Card>
+        <Card>
+          <CardHeader className="px-4 sm:px-6"><CardTitle>Period</CardTitle><CardDescription>Chart, source details and all totals use this range.</CardDescription></CardHeader>
+          <CardContent className="px-4 sm:px-6"><PatchRangeControls patches={game.patches} selection={range.selection} onChange={updateRange} />
+            <p className="mt-4 text-sm text-muted-foreground" data-testid="period-label" role="status">Totals for {range.label} · {range.rows.length} of {game.patches.length} patches</p>
+          </CardContent>
+        </Card>
         <section className="grid grid-cols-1 gap-3 min-[400px]:grid-cols-2 sm:grid-cols-3" aria-label="Pull totals">
           {cards.slice(0, 3).map(card => <Card key={card.label} className="gap-2 px-4 py-5"><h2 className="text-sm text-muted-foreground">{card.label}</h2><p className="text-3xl font-semibold tabular-nums text-primary" data-testid="summary-value">{number.format(card.value)}</p></Card>)}
         </section>
         <Card>
-          <CardHeader className="px-4 sm:px-6"><div className="flex flex-wrap items-center justify-between gap-3"><CardTitle><h2>{game.ui.chartTitle ?? 'Pulls per version'}</h2></CardTitle><Badge variant="secondary">{game.patches.length} patches</Badge></div><CardDescription>Updated: {updatedAt(game.generatedAt)}. WIP values are estimates and may change.</CardDescription></CardHeader>
+          <CardHeader className="px-4 sm:px-6"><div className="flex flex-wrap items-center justify-between gap-3"><CardTitle><h2>{game.ui.chartTitle ?? 'Pulls per version'}</h2></CardTitle><Badge variant="secondary">{range.rows.length} patches</Badge></div><CardDescription>Updated: {updatedAt(game.generatedAt)}. WIP values are estimates and may change.</CardDescription></CardHeader>
           <CardContent className="min-w-0 px-4 sm:px-6">
             {!series.length ? <p className="py-8 text-muted-foreground">No patches available for this game yet.</p> : <>
-              <DesktopChart series={series} title={game.ui.chartTitle} />
+              <DesktopChart key={game.id} series={series} title={game.ui.chartTitle} />
               <div className="mobile-breakdown"><p className="mb-1 text-sm text-muted-foreground">Tap a patch to see its sources.</p><PatchBreakdown key={game.id} series={series} /></div>
               <div className="desktop-details"><Button variant="outline" aria-expanded={detailsOpen} aria-controls="patch-details" onClick={() => setDetailsOpen(value => !value)}>{detailsOpen ? 'Hide patch details' : 'Show patch details'}</Button>{detailsOpen && <div id="patch-details" className="mt-3"><PatchBreakdown key={game.id} series={series} /></div>}</div>
             </>}
