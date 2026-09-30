@@ -1,5 +1,5 @@
 export const DEFAULT_PATCH_RANGE = { mode: 'latest10' };
-export const PATCH_RANGE_MODES = ['latest5', 'latest10', 'all', 'custom'];
+export const PATCH_RANGE_MODES = ['latest5', 'latest10', 'all', 'custom', 'single'];
 
 // Catalog rows are already ordered by patch version. Never compare versions as floats.
 export function selectPatchRange(patches, selection = DEFAULT_PATCH_RANGE) {
@@ -7,7 +7,11 @@ export function selectPatchRange(patches, selection = DEFAULT_PATCH_RANGE) {
   if (!patches.length) return { rows: [], selection: { mode }, label: 'No patches' };
   let rows;
   let normalized = { mode };
-  if (mode === 'all') rows = patches;
+  if (mode === 'single') {
+    const row = patches.find(row => row.id === selection.patchId) ?? patches.at(-1);
+    rows = [row];
+    normalized = { mode, patchId: row.id };
+  } else if (mode === 'all') rows = patches;
   else if (mode === 'custom') {
     let start = patches.findIndex(row => row.id === selection.startId);
     let end = patches.findIndex(row => row.id === selection.endId);

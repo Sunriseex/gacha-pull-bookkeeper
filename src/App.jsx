@@ -19,6 +19,8 @@ import { isLocalSyncPage } from './ui/sync.js';
 import { readPreference, writePreference, readOptions, readPatchRange } from './lib/preferences.js';
 import { selectPatchRange } from './domain/patch-range.js';
 import { PatchRangeControls } from './components/dashboard/patch-range-controls.jsx';
+import { bannerSummary } from './domain/banners.js';
+import { PatchBanners } from './components/dashboard/patch-banners.jsx';
 import { syncGames } from './lib/patchsync.js';
 
 const number = new Intl.NumberFormat('en', { maximumFractionDigits: 1 });
@@ -35,17 +37,18 @@ function updatedAt(value) {
   return Number.isFinite(date.getTime()) ? new Intl.DateTimeFormat('en', { dateStyle: 'medium' }).format(date) : 'Unknown';
 }
 
-function PatchBreakdown({ series }) {
+function PatchBreakdown({ series, gameId }) {
   const maximum = Math.max(1, ...series.map(item => item.total));
   return <Accordion type="multiple" className="w-full" aria-label="Pull sources by patch">
     {series.map(item => <AccordionItem key={item.label} value={item.label}>
       <AccordionTrigger className="min-h-14 hover:no-underline">
         <span className="min-w-0 flex-1 pr-2">
           <span className="flex justify-between gap-3"><span className="break-words">{item.label}</span><span className="shrink-0 font-mono text-primary">{number.format(item.total)} pulls</span></span>
+          <span className="mt-1 block text-xs font-normal leading-relaxed text-muted-foreground">{bannerSummary(gameId, item.patchId)}</span>
           <span className="mt-2 flex h-2 overflow-hidden rounded-full bg-muted" aria-hidden="true">{item.segments.filter(segment => segment.value > 0).map(segment => <span key={segment.label} style={{ width: `${segment.value / maximum * 100}%`, backgroundColor: sourceColor(segment.label) }} />)}</span>
         </span>
       </AccordionTrigger>
-      <AccordionContent><dl className="space-y-3">{item.segments.filter(segment => segment.value > 0).map(segment => <div key={segment.label} className="flex items-start justify-between gap-4"><dt className="flex min-w-0 gap-2"><span className="mt-1.5 size-2 shrink-0 rounded-full" style={{ background: sourceColor(segment.label) }} /><span className="break-words">{segment.label}</span></dt><dd className="shrink-0 font-mono">{number.format(segment.value)}</dd></div>)}</dl></AccordionContent>
+      <AccordionContent><div className="mb-4"><PatchBanners gameId={gameId} patchId={item.patchId} /></div><dl className="space-y-3">{item.segments.filter(segment => segment.value > 0).map(segment => <div key={segment.label} className="flex items-start justify-between gap-4"><dt className="flex min-w-0 gap-2"><span className="mt-1.5 size-2 shrink-0 rounded-full" style={{ background: sourceColor(segment.label) }} /><span className="break-words">{segment.label}</span></dt><dd className="shrink-0 font-mono">{number.format(segment.value)}</dd></div>)}</dl></AccordionContent>
     </AccordionItem>)}
   </Accordion>;
 }
@@ -127,7 +130,7 @@ export default function App() {
   const flags = [{ key: 'monthlySub', label: game.ui.monthlyPassLabel ?? 'Monthly Pass' }, ...(game.ui.optionalToggles ?? [])];
   const tierLabel = game.ui.battlePass.tiers.find(tier => tier.value === options.battlePassTier)?.label ?? 'F2P';
   const extraCount = (game.ui.optionalToggles ?? []).filter(flag => options[flag.key]).length;
-  const modeLabels = { latest5: 'Last 5 patches', latest10: 'Last 10 patches', all: 'All patches', custom: range.label };
+  const modeLabels = { latest5: 'Last 5 patches', latest10: 'Last 10 patches', all: 'All patches', custom: range.label, single: `Patch ${range.label}` };
   const settingsSummary = [tierLabel, options.monthlySub && flags[0].label, extraCount && `+${extraCount} extras`, modeLabels[range.selection.mode]].filter(Boolean).join(' · ');
   const index = GAME_CATALOG.games.findIndex(item => item.id === game.id);
   useEffect(() => { document.title = `${game.title} Bookkeeper`; }, [game.title]);
@@ -184,13 +187,14 @@ export default function App() {
           <div className="summary-primary"><h2 className="text-sm text-muted-foreground">{cards[0].label}</h2><p className="mt-1 text-5xl font-semibold tracking-tight tabular-nums text-primary sm:text-6xl" data-testid="summary-value">{number.format(cards[0].value)}</p><p className="mt-2 text-xs text-muted-foreground" data-testid="period-label" role="status">Totals for {range.label} · {range.rows.length} of {game.patches.length} patches</p></div>
           <div className="summary-secondary grid grid-cols-2 gap-4">{cards.slice(1, 3).map(card => <div key={card.label}><h2 className="text-xs leading-relaxed text-muted-foreground">{card.label}</h2><p className="mt-1 text-2xl font-semibold tabular-nums sm:text-3xl" data-testid="summary-value">{number.format(card.value)}</p></div>)}</div>
         </section>
+        {range.selection.mode === 'single' && range.rows.length > 0 && <Card className="gap-4 py-5"><CardHeader className="px-4 sm:px-6"><CardTitle><h2>Patch {range.label} · Character banners</h2></CardTitle><CardDescription>Featured 5★ / 6★ or S-Rank characters. Standard pools and lower-rarity rate-ups are excluded.</CardDescription></CardHeader><CardContent className="px-4 sm:px-6"><PatchBanners gameId={game.id} patchId={range.rows[0].id} /></CardContent></Card>}
         <Card>
           <CardHeader className="px-4 sm:px-6"><div className="flex flex-wrap items-center justify-between gap-3"><CardTitle><h2>{game.ui.chartTitle ?? 'Pulls per version'}</h2></CardTitle><Badge variant="secondary">{range.rows.length} {range.rows.length === 1 ? 'patch' : 'patches'}</Badge></div><CardDescription>Updated: {updatedAt(game.generatedAt)}. WIP values are estimates and may change.</CardDescription></CardHeader>
           <CardContent className="min-w-0 px-4 sm:px-6">
             {!series.length ? <p className="py-8 text-muted-foreground">No patches available for this game yet.</p> : <>
               <DesktopChart key={game.id} series={series} title={game.ui.chartTitle} />
-              <div className="mobile-breakdown"><p className="mb-1 text-sm text-muted-foreground">Tap a patch to see its sources.</p><PatchBreakdown key={game.id} series={series} /></div>
-              <div className="desktop-details"><Button variant="outline" aria-expanded={detailsOpen} aria-controls="patch-details" onClick={() => setDetailsOpen(value => !value)}>{detailsOpen ? 'Hide patch details' : 'Show patch details'}</Button>{detailsOpen && <div id="patch-details" className="mt-3"><PatchBreakdown key={game.id} series={series} /></div>}</div>
+              <div className="mobile-breakdown"><p className="mb-1 text-sm text-muted-foreground">Tap a patch to see its sources.</p><PatchBreakdown key={game.id} series={series} gameId={game.id} /></div>
+              <div className="desktop-details"><Button variant="outline" aria-expanded={detailsOpen} aria-controls="patch-details" onClick={() => setDetailsOpen(value => !value)}>{detailsOpen ? 'Hide patch details' : 'Show patch details'}</Button>{detailsOpen && <div id="patch-details" className="mt-3"><PatchBreakdown key={game.id} series={series} gameId={game.id} /></div>}</div>
             </>}
           </CardContent>
         </Card>

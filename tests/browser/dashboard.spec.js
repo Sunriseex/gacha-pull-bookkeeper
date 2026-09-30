@@ -237,3 +237,41 @@ test('background stays fixed when Select locks scrolling or UI removes page over
   await page.getByRole('button', { name: 'Show UI', exact: true }).click();
   expect(await bounds()).toEqual(initial);
 });
+
+test('patch grid selects one patch, keeps game preferences, and labels verified reruns', async ({ page }, testInfo) => {
+  await page.goto('/');
+  await openSettings(page);
+  for (const [title, patch, character] of [
+    ['Arknights: Endfield', '1.5', 'Yvonne'],
+    ['Wuthering Waves', '1.3', 'Jiyan'],
+    ['Zenless Zone Zero', '1.5', 'Ellen Joe'],
+    ['Genshin Impact', '1.4', 'Venti'],
+    ['Honkai: Star Rail', '1.4', 'Seele'],
+  ]) {
+    await page.getByRole('button', { name: title, exact: true }).click();
+    await choose(page, 'Patch range', 'One patch');
+    await page.getByRole('button', { name: 'Choose patch', exact: true }).click();
+    const dialog = page.getByRole('dialog');
+    await expect(dialog.getByRole('heading', { name: 'Choose a patch' })).toBeVisible();
+    expect(await page.evaluate(() => document.documentElement.scrollWidth <= innerWidth)).toBe(true);
+    if (title === 'Genshin Impact') await page.screenshot({ path: `test-results/${testInfo.project.name}-range-grid.png`, fullPage: true });
+    await dialog.getByRole('button', { name: `Select patch ${patch}`, exact: true }).click();
+    await expect(dialog).toHaveCount(0);
+    await expect(page.getByTestId('period-label')).toContainText(`Totals for ${patch} · 1 of`);
+    const banners = page.getByTestId('banner-history').first();
+    await expect(banners).toContainText(character);
+    await expect(banners).toContainText('Rerun');
+    await expect(banners.getByRole('link').first()).toHaveAttribute('href', /^https:\/\//);
+  }
+  await page.getByRole('button', { name: 'Genshin Impact', exact: true }).click();
+  await expect(page.getByRole('button', { name: 'Choose patch', exact: true })).toContainText('1.4');
+  await page.getByRole('button', { name: 'Previous patch', exact: true }).click();
+  await expect(page.getByTestId('period-label')).toContainText('Totals for 1.3 · 1 of');
+  await expect(page.getByTestId('banner-history').first()).toContainText('not reviewed');
+  await page.getByRole('button', { name: 'Next patch', exact: true }).click();
+  await page.reload();
+  await openSettings(page);
+  await expect(page.getByRole('button', { name: 'Choose patch', exact: true })).toContainText('1.4');
+  await expect(page.getByTestId('banner-history').first()).not.toContainText('Debut');
+  await page.screenshot({ path: `test-results/${testInfo.project.name}-range-banners.png`, fullPage: true });
+});

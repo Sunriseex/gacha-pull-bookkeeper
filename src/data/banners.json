@@ -1,0 +1,469 @@
+{
+  "arknights-endfield": {
+    "1.0": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://endfield.gryphline.com/en-us/news/3847",
+        "https://endfield.gryphline.com/en-us/news/7028",
+        "https://endfield.gryphline.com/en-us/news/9572"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Laevatain",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Gilberta",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Phase 3",
+          "characters": [
+            {
+              "name": "Yvonne",
+              "appearance": "debut"
+            }
+          ]
+        }
+      ]
+    },
+    "1.5": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://endfield.gryphline.com/en-us/news/6172",
+        "https://endfield.gryphline.com/en-us/news/4481",
+        "https://endfield.wiki.gg/wiki/Dreamscape_of_Wind_and_Snow"
+      ],
+      "phases": [
+        {
+          "label": "Winter Hunt",
+          "characters": [
+            {
+              "name": "Typhoeus",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Resplendent Spectrum · RE-Factor",
+          "characters": [
+            {
+              "name": "Yvonne",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "wuthering-waves": {
+    "1.3": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/1420",
+        "https://game8.co/games/Wuthering-Waves/archives/454743",
+        "https://wutheringwaves.fandom.com/wiki/Version/1.3"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Shorekeeper",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Jiyan",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "3.6": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://wutheringwaves.kurogames.com/es/main/news/detail/5272",
+        "https://allthings.how/wuthering-waves-3-6-patch-notes-qingxiao-and-jingran/",
+        "https://wuwabanners.net/wuthering-waves-banner-history/version-3-6-phase-2/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Qingxiao",
+              "appearance": "debut"
+            },
+            {
+              "name": "Denia",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Jingran",
+              "appearance": "debut"
+            },
+            {
+              "name": "Hiyuki",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Mornye",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "3.7": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/5454",
+        "https://www.theclick.gg/wuthering-waves-3-7-banners/",
+        "https://wutheringpity.com/wuthering-waves/version-3-7-preview/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Hsin",
+              "appearance": "debut"
+            },
+            {
+              "name": "Iuno",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Chisa",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Suoming",
+              "appearance": "debut"
+            },
+            {
+              "name": "Lynae",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Lucilla",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "zenless-zone-zero": {
+    "1.5": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://zenless-zone-zero.fandom.com/wiki/Version/1.5",
+        "https://www.oneesports.gg/zenless-zone-zero/zenless-zone-zero-15-banners/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Astra Yao",
+              "appearance": "debut"
+            },
+            {
+              "name": "Ellen Joe",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Evelyn Chevalier",
+              "appearance": "debut"
+            },
+            {
+              "name": "Qingyi",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "3.2": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://zenless.hoyoverse.com/en-us/news/166023",
+        "https://zenless.hoyoverse.com/en-us/news/166475",
+        "https://www.icy-veins.com/zenless-zone-zero/current-banner"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Claret",
+              "appearance": "debut"
+            },
+            {
+              "name": "Nangong Yu",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Roxy",
+              "appearance": "debut"
+            },
+            {
+              "name": "Promeia",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "genshin-impact": {
+    "1.4": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://www.neoseeker.com/genshin-impact/update/Update_1.4_Overview",
+        "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Venti",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Tartaglia",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "7.1": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://genshin.hoyoverse.com/en/news/detail/166228",
+        "https://www.hoyoverse.com/de-de/news/166386",
+        "https://www.icy-veins.com/genshin-impact/patch-overview"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Vesna",
+              "appearance": "debut"
+            },
+            {
+              "name": "Vodyanitsa",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Skirk",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Escoffier",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "honkai-star-rail": {
+    "1.4": {
+      "reviewedAt": "2026-09-30",
+      "complete": true,
+      "note": "",
+      "sources": [
+        "https://honkai-star-rail.fandom.com/wiki/Version/1.4",
+        "https://game8.co/games/Honkai-Star-Rail/archives/408763"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Jingliu",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Topaz & Numby",
+              "appearance": "debut"
+            },
+            {
+              "name": "Seele",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "4.0": {
+      "reviewedAt": "2026-09-30",
+      "complete": false,
+      "note": "Regular character Warps shown. Ongoing collaboration Warps are not yet reviewed.",
+      "sources": [
+        "https://blog.playstation.com/2026/02/06/honkai-star-rail-version-4-0-no-aha-at-full-moon-will-go-live-on-february-13/",
+        "https://www.starrailbuilds.com/versions/version-4-0"
+      ],
+      "phases": [
+        {
+          "label": "Full version",
+          "characters": [
+            {
+              "name": "Yao Guang",
+              "appearance": "debut"
+            }
+          ]
+        },
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Black Swan",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Evernight",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Hysilens",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Sparxie",
+              "appearance": "debut"
+            },
+            {
+              "name": "Sparkle",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Cerydra",
+              "appearance": "rerun"
+            },
+            {
+              "name": "Rappa",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    },
+    "4.5": {
+      "reviewedAt": "2026-09-30",
+      "complete": false,
+      "note": "Regular character Warps shown. Ongoing collaboration Warps are not yet reviewed.",
+      "sources": [
+        "https://www.gamespot.com/articles/honkai-star-rail-next-update-and-banners/1100-6538813/",
+        "https://neonsect.com/honkai-star-rail/hsr-4-5-banners-pull-guide/"
+      ],
+      "phases": [
+        {
+          "label": "Phase 1",
+          "characters": [
+            {
+              "name": "Robin · Summeretto",
+              "appearance": "debut"
+            },
+            {
+              "name": "Hyacine",
+              "appearance": "rerun"
+            }
+          ]
+        },
+        {
+          "label": "Phase 2",
+          "characters": [
+            {
+              "name": "Aventurine · Waveflair",
+              "appearance": "debut"
+            },
+            {
+              "name": "Ashveil",
+              "appearance": "rerun"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

@@ -449,10 +449,10 @@ export const chartSeries = (rows, options, game = {}) =>
   rows.map((row) => {
     const totals = calculatePatchTotals(row, options, game);
     return {
+      patchId: row.id,
       label: chartPatchLabel(row),
       total: totals.sourceBreakdown.reduce((sum, source) => sum + source.value, 0),
       segments: totals.sourceBreakdown,
     };
   });
-
 
