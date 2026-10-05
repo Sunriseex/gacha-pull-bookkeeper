@@ -2288,7 +2288,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 10.6,
+        "pulls": 11.6,
         "rewards": {
           "arsenal": 0,
           "basic": 4,
@@ -2297,7 +2297,7 @@ export const GENERATED_PATCHES = [
           "hues": 0,
           "messenger": 0,
           "origeometry": 5,
-          "oroberyl": 5300
+          "oroberyl": 5815
         },
         "costs": {
           "arsenal": 0,
@@ -2699,12 +2699,12 @@ export const GENERATED_PATCHES_META = {
   "gameId": "arknights-endfield",
   "spreadsheetId": "1zGNuQ53R7c190RG40dHxcHv8tJuT3cBaclm8CjI-luY",
   "sheets": [
-    "1.0",
-    "1.2",
     "1.5",
+    "1.0",
     "1.1",
+    "1.2",
     "1.3",
     "1.4"
   ],
-  "generatedAt": "2026-09-20T00:56:16Z"
+  "generatedAt": "2026-10-05T12:00:25Z"
 };

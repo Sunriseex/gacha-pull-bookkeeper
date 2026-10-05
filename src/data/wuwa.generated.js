@@ -2014,9 +2014,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 50.3,
+        "pulls": 50.9,
         "rewards": {
-          "astrite": 2440,
+          "astrite": 2540,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -5292,9 +5292,9 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 23.5,
+        "pulls": 22.7,
         "rewards": {
-          "astrite": 3765,
+          "astrite": 3624,
           "forgingTide": 0,
           "forgingToken": 0,
           "lunite": 0,
@@ -5367,7 +5367,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 23.6,
+        "pulls": 23.5,
         "rewards": {
           "astrite": 6340,
           "forgingTide": 7,
@@ -5508,6 +5508,7 @@ export const GENERATED_PATCHES_META = {
   "gameId": "wuthering-waves",
   "spreadsheetId": "1msSsnWBcXKniykf4rWQCEdk2IQuB9JHy",
   "sheets": [
+    "2.3",
     "3.7 (WIP)",
     "1.0",
     "1.1",
@@ -5517,7 +5518,6 @@ export const GENERATED_PATCHES_META = {
     "2.0",
     "2.1",
     "2.2",
-    "2.3",
     "2.4",
     "2.5",
     "2.6",
@@ -5531,5 +5531,5 @@ export const GENERATED_PATCHES_META = {
     "3.5",
     "3.6"
   ],
-  "generatedAt": "2026-09-28T11:22:03Z"
+  "generatedAt": "2026-10-05T12:00:32Z"
 };
