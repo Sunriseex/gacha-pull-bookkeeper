@@ -2740,16 +2740,16 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 18,
+        "pulls": 15.5,
         "rewards": {
           "arsenal": 0,
-          "basic": 8,
+          "basic": 4,
           "chartered": 0,
           "firewalker": 0,
           "hues": 0,
           "messenger": 0,
           "origeometry": 28,
-          "oroberyl": 8975
+          "oroberyl": 7765
         },
         "costs": {
           "arsenal": 0,
@@ -2769,7 +2769,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 9.2,
+        "pulls": 7.8,
         "rewards": {
           "arsenal": 0,
           "basic": 0,
@@ -2778,7 +2778,7 @@ export const GENERATED_PATCHES = [
           "hues": 0,
           "messenger": 0,
           "origeometry": 0,
-          "oroberyl": 4609
+          "oroberyl": 3909
         },
         "costs": {
           "arsenal": 0,
@@ -2916,7 +2916,7 @@ export const GENERATED_PATCHES = [
         "rewards": {
           "arsenal": 0,
           "basic": 0,
-          "chartered": 20,
+          "chartered": 50,
           "firewalker": 0,
           "hues": 0,
           "messenger": 0,
@@ -3151,13 +3151,13 @@ export const GENERATED_PATCHES_META = {
   "gameId": "arknights-endfield",
   "spreadsheetId": "1zGNuQ53R7c190RG40dHxcHv8tJuT3cBaclm8CjI-luY",
   "sheets": [
-    "1.5",
     "1.6",
     "1.0",
     "1.1",
     "1.2",
     "1.3",
-    "1.4"
+    "1.4",
+    "1.5"
   ],
-  "generatedAt": "2026-10-12T12:39:54Z"
+  "generatedAt": "2026-10-19T10:27:05Z"
 };
