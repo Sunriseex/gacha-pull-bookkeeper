@@ -4766,9 +4766,6 @@ export const GENERATED_PATCHES = [
     "versionName": "Journey To The Sky",
     "startDate": "2026-10-21",
     "durationDays": 42,
-    "tags": [
-      "WIP"
-    ],
     "notes": "Generated from Zenless Zone Zero Google Sheets by patchsync",
     "sources": [
       {
@@ -4777,13 +4774,13 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 25.4,
+        "pulls": 26.4,
         "rewards": {
           "boopon": 20,
           "encryptedMasterTape": 10,
           "masterTape": 0,
           "monochrome": 0,
-          "polychrome": 2460
+          "polychrome": 2620
         },
         "costs": {
           "boopon": 0,
@@ -4800,13 +4797,13 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 14,
+        "pulls": 11.5,
         "rewards": {
           "boopon": 0,
           "encryptedMasterTape": 1,
           "masterTape": 6,
           "monochrome": 0,
-          "polychrome": 2080
+          "polychrome": 1685
         },
         "costs": {
           "boopon": 0,
@@ -4823,13 +4820,13 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 7.4,
+        "pulls": 7.6,
         "rewards": {
           "boopon": 0,
           "encryptedMasterTape": 0,
           "masterTape": 0,
           "monochrome": 0,
-          "polychrome": 1183
+          "polychrome": 1213
         },
         "costs": {
           "boopon": 0,
@@ -5006,7 +5003,6 @@ export const GENERATED_PATCHES_META = {
   "gameId": "zenless-zone-zero",
   "spreadsheetId": "2PACX-1vTiSx8OSyx-BZktnpT-fh_pQHjjkD8q3sp3Csy2aOI-8CV_QroqxzhhNjiCZNV4IdzhyK3xbipZn9WD",
   "sheets": [
-    "3.0",
     "3.3",
     "1.0",
     "1.1",
@@ -5025,8 +5021,9 @@ export const GENERATED_PATCHES_META = {
     "2.6",
     "2.7",
     "2.8",
+    "3.0",
     "3.1",
     "3.2"
   ],
-  "generatedAt": "2026-10-12T12:40:21Z"
+  "generatedAt": "2026-10-26T18:39:46Z"
 };
