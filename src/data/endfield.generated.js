@@ -2749,7 +2749,7 @@ export const GENERATED_PATCHES = [
           "hues": 0,
           "messenger": 0,
           "origeometry": 28,
-          "oroberyl": 8700
+          "oroberyl": 8710
         },
         "costs": {
           "arsenal": 0,
@@ -3159,5 +3159,5 @@ export const GENERATED_PATCHES_META = {
     "1.4",
     "1.5"
   ],
-  "generatedAt": "2026-10-26T18:39:22Z"
+  "generatedAt": "2026-11-09T13:33:06Z"
 };
