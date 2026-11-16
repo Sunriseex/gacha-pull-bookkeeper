@@ -6608,12 +6608,12 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 13,
+        "pulls": 12.9,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 3,
           "specialPass": 0,
-          "stellarJade": 2080,
+          "stellarJade": 2067,
           "tracksOfDestiny": 0
         },
         "costs": {
@@ -6824,12 +6824,12 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 9.900000000000023,
+        "pulls": 11.3,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 4,
           "specialPass": 0,
-          "stellarJade": 1575,
+          "stellarJade": 1802,
           "tracksOfDestiny": 0
         },
         "costs": {
@@ -6847,12 +6847,12 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 7.1,
+        "pulls": 7.5,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 0,
           "specialPass": 0,
-          "stellarJade": 1143,
+          "stellarJade": 1203,
           "tracksOfDestiny": 0
         },
         "costs": {
@@ -6917,7 +6917,6 @@ export const GENERATED_PATCHES_META = {
   "gameId": "honkai-star-rail",
   "spreadsheetId": "2PACX-1vRIWjzFwAZZoBvKw2oiNaVpppI9atoV0wxuOjulKRJECrg_BN404d7LoKlHp8RMX8hegDr4b8jlHjYy",
   "sheets": [
-    "4.5",
     "4.6",
     "4.7",
     "1.0",
@@ -6948,7 +6947,8 @@ export const GENERATED_PATCHES_META = {
     "4.1",
     "4.2",
     "4.3",
-    "4.4"
+    "4.4",
+    "4.5"
   ],
-  "generatedAt": "2026-11-09T13:34:13Z"
+  "generatedAt": "2026-11-16T13:18:54Z"
 };
