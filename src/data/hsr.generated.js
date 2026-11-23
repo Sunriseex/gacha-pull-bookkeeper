@@ -5846,12 +5846,12 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 18.5,
+        "pulls": 16.5,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 0,
           "specialPass": 0,
-          "stellarJade": 2954,
+          "stellarJade": 2640,
           "tracksOfDestiny": 0
         },
         "costs": {
@@ -6062,12 +6062,12 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 17.6,
+        "pulls": 15.8,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 0,
           "specialPass": 0,
-          "stellarJade": 2820,
+          "stellarJade": 2520,
           "tracksOfDestiny": 0
         },
         "costs": {
@@ -6176,7 +6176,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 20.60000000000001,
+        "pulls": 20.5,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 9,
@@ -6278,12 +6278,12 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 13.8,
+        "pulls": 12.4,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 0,
           "specialPass": 0,
-          "stellarJade": 2216,
+          "stellarJade": 1980,
           "tracksOfDestiny": 0
         },
         "costs": {
@@ -6494,12 +6494,12 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 18.5,
+        "pulls": 16.5,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 0,
           "specialPass": 0,
-          "stellarJade": 2954,
+          "stellarJade": 2640,
           "tracksOfDestiny": 0
         },
         "costs": {
@@ -6608,7 +6608,7 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 12.9,
+        "pulls": 12.999999999999995,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 3,
@@ -6710,12 +6710,12 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 17.6,
+        "pulls": 15.8,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 0,
           "specialPass": 0,
-          "stellarJade": 2820,
+          "stellarJade": 2520,
           "tracksOfDestiny": 0
         },
         "costs": {
@@ -6824,12 +6824,12 @@ export const GENERATED_PATCHES = [
         "gate": "always",
         "optionKey": null,
         "countInPulls": true,
-        "pulls": 11.3,
+        "pulls": 11.299999999999992,
         "rewards": {
           "oneiricShard": 0,
           "railPass": 4,
           "specialPass": 0,
-          "stellarJade": 1802,
+          "stellarJade": 1822,
           "tracksOfDestiny": 0
         },
         "costs": {
@@ -6917,6 +6917,9 @@ export const GENERATED_PATCHES_META = {
   "gameId": "honkai-star-rail",
   "spreadsheetId": "2PACX-1vRIWjzFwAZZoBvKw2oiNaVpppI9atoV0wxuOjulKRJECrg_BN404d7LoKlHp8RMX8hegDr4b8jlHjYy",
   "sheets": [
+    "4.3",
+    "4.4",
+    "4.5",
     "4.6",
     "4.7",
     "1.0",
@@ -6945,10 +6948,7 @@ export const GENERATED_PATCHES_META = {
     "3.8",
     "4.0",
     "4.1",
-    "4.2",
-    "4.3",
-    "4.4",
-    "4.5"
+    "4.2"
   ],
-  "generatedAt": "2026-11-16T13:18:54Z"
+  "generatedAt": "2026-11-23T15:40:37Z"
 };
